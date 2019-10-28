@@ -1,5 +1,7 @@
 # DoH
 
+## Article du 24/09/2019 de Stéphane Bortzmeyer
+
 {% hint style="info" %}
 Ceci est un article du 24/09/2019 de Stéphane Bortzmeyer. L’article est sous license [**GFDL**](http://www.gnu.org/copyleft/fdl.html).   
 Vous pouvez également lire l’article sur [son blog](https://www.bortzmeyer.org/doh-et-ses-adversaires.html) ou en version [PDF](https://www.bortzmeyer.org/doh-et-ses-adversaires.pdf). _**Bonne lecture !**_
@@ -21,4 +23,14 @@ Voyons maintenant les principales critiques qui ont été faites contre DoH et/o
 * Enfin, on lit parfois que DoH poserait des problèmes lorsque la réponse DNS dépend de la localisation du client \(ce qui est courant avec les [**CDN**](https://fr.wikipedia.org/wiki/Content%20Delivery%20%20%20%20%20Network)\). C'est un effet déplorable de la centralisation du Web : comme l'essentiel du trafic est concentré sur un petit nombre de sites, ces sites doivent se disperser sur la planète et utiliser des bricolages dans le DNS pour diriger le client vers « le plus proche », estimé en fonction de l'[**adresse IP**](https://fr.wikipedia.org/wiki/Adresse%20IP) du client. Si le résolveur est loin de l'utilisateur, on sera renvoyé vers un endroit sous-optimal. Il existe une solution technique \([RFC 7871](https://www.bortzmeyer.org/7871.html)\) mais elle est très dangereuse pour la vie privée, et c'est pour cela que Cloudflare, contrairement à Google, ne l'utilise actuellement pas. Ceci dit, cela n'a rien de spécifique à DoH, tout résolveur DNS public \(notez que ce terme est défini dans le [RFC 8499](https://www.bortzmeyer.org/8499.html)\) soulève les mêmes questions \(c'est également le cas si vous avez des noms de domaine privés, spécifiques à une organisation\).
 
 Et pour finir, une petite image \(prise [sur Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scylla_and_Charybdis.jpg)\) du [**détroit de Messine**](https://fr.wikipedia.org/wiki/D%C3%A9troit%20de%20Messine) où, selon les légendes, les marins qui tentaient d'éviter [**Scylla**](https://fr.wikipedia.org/wiki/Scylla%20%28monstre%29) tombaient sur [**Charybde**](https://fr.wikipedia.org/wiki/Charybde). Bref, ce n'est pas parce qu'on n'aime pas Cloudflare qu'il faut maintenir le statu-quo et continuer à envoyer ses requêtes DNS au résolveur fourni par le réseau d'accès
+
+## RFC 8484
+
+{% embed url="https://tools.ietf.org/html/rfc8484" caption="RFC 8484 - DNS Queries over HTTPS \(DoH\)" %}
+
+## Publicly available servers
+
+{% embed url="https://github.com/curl/curl/wiki/DNS-over-HTTPS\#publicly-available-servers" %}
+
+
 
