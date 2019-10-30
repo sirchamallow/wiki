@@ -22,10 +22,13 @@
   * [Télémétrie pilotes Nvidia \(carte graphique\)](windows10-starter-kit-de-survie/telemetrie-pilotes-nvidia-carte-graphique.md)
 * [Telecoms](telecoms/README.md)
   * [Bandes de fréquences radioélectriques](telecoms/tableau-national-de-repartition-des-bandes-de-frequences-radioelectriques.md)
+  * [Câbles & prises RJ45](telecoms/cables-and-prises-rj45.md)
 * [Linux](linux/README.md)
   * [Netdata](linux/netdata.md)
 * [CyberSec](cybersec/README.md)
   * [Spam sur Google Agenda](cybersec/spam-sur-google-agenda.md)
+* [Eléctricité](electricite/README.md)
+  * [Indice de protection](electricite/indice-de-protection.md)
 
 ## Internet
 
