@@ -46,7 +46,7 @@ Source : [https://github.com/corecoding/Vitals](https://github.com/corecoding/Vi
 
 Un fork de Dash to Dock. Un dock pour bureau sur Linux.
 
-<figure><img src="../../.gitbook/assets/screenshot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot (2).jpg" alt=""><figcaption></figcaption></figure>
 
 #### Installation & Activation
 
