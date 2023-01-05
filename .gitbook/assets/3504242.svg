@@ -1,0 +1,51 @@
+
+
+
+<svg id="preview-svg-root" width="720" height="92" xmlns="http://www.w3.org/2000/svg"
+     version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:svgjs="http://svgjs.com/svgjs" font-size="16px" font-family="Helvetica, Arial, sans-serif">
+    <defs>
+            </defs>
+    <g transform="scale(1)">
+        <rect width="720" height="92"
+              class="frame fill" fill="#ebebeb" data-fill="rgba(229,230,232,1)"></rect>
+        <image id="svg-header-img" width="720" height="92" preserveAspectRatio="xMaxYMin slice"
+               xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABcAtADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6PooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAM/WNZ07RYEm1a9gtInbarTOFBPpVqzuoL22juLSZJoJBlJEOQw9jXn3x+037f8OL2dFQy2TLcoWzxg4OPzr5w8BfFXV/CcyLHM0tmpLG1cny2JyM47Hvx6U7CPtamuyopZ2CqOSScAV82f8NH3mAf7HtR2wxfJ/WuI+Ivxk1rxXbi1jK2dkVw8MPRznOT3osO59hafqFnqMLS2F1DcxKxUtE4YA+nFWq8X/ZatLlPAl1fXYI+2XTGL3RQFz+YI/CvZxSAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOc+It3BZeBtbnuovOiFq4KYBySMDr6Eg/hXwJcqVmcZyNxGa+6fi34Z1HxX4TfT9LukhkEgkZHHEoAPy5xwc4r4j17Sr/RtQlsdTtpbeaJypV1IzimthGbQTgZNKVYDJBA+lJzwACT6CgZ9wfAHUV1H4U6E6xiPyYjbkD1RipP44z+Neh15Z+znoWpeH/hzBHquwC5la6hRTykbhcA++QT+NepKcjNIBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK8J/ao1GC10LT7L7NbvNdO0hkKAuoTAGD1Gd36Gvdq+Pf2l5JW+IOpqzMyK0KjPQDyVOB+LE00JnkTtlTjODjvmkifZKrEZwc0yigZ97fDfUbfU/AGh3Fo5aP7OsZPoyjaw/AiurT7o+lfKv7PXxLj0A/wBhazJt02Rsxuf+WLHv/unv6V9VRuskaujBlYZBByCKGIdRRRSGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV8pftKQ2l146mTT3iedraJ5zG+7EgLoQ3PBCoox9PWvqHWbl7LSL66iUNJBA8qqehKqSB+lfBnirVbq5vZmnkLS3DmaZySS7McnJ600JmJd2xgJy0ZxxhWzVapGkJTBPXt6VHTGOjkaJw8Zwy8g19X/s5+PJta07+wtUfdNBGWtmPVkHBX8M18nD3r0T4H6lLZeP9GMe4KbmOI4PUOdh/Rs/gKBM+3VJOcjGDinU1PuD6U6pGFFJS0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAGNea7bW8b+dG7ADBUDOfaviL4iQi58VXsun6VfWluXIWOZMnr7dvSvvF4IpBh40P1FU59GsJzmW0hb/gNMD882tbhfvQSj6oajMbg4KMD7iv0Ek8K6M4P/Evtye2V4qBvBWguSW0633HvtoA+BIoZJG2qjk+gBNdB4X1eTw5qFtqEMMoureVZUyoK5ByMg4r7bi8F6HG+V063HuF5qRvCGhOCH022ZT/sUXEfOSftEeIISoeysnH+0hB/Q1pW37SOo5Bm0a0cd9rMP617fN8PvDUnJ0u3JPqoqhc/DDwrJkNpcHPP3KNAPOtO/aO055AuoaNcQjuY5g3H0IA/WvTfCHxI8NeKfLTTb4JcNwLeddj/AEHOD+Br5O+LV14Y/tmWw8Lae8H2WVo5Z2ON5HBAHpmsfwNpt5farHDZiUSswC7QeP8Aaz2xTsB99ghhkHNLVHTA8enWysSXCqGJ69BV6pGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU10DjBzSIgTOM8+tAD6THOe9LRQBy+teAfC+s3LXN/oljJdMctN5QDt9SOtWtG8JaNoxB06wggx3RADW9RQA0KAAONo7U6iigAooooAKKKKACiiigAooooA//2Q=="></image>
+        
+        <rect class="toolbar fill" fill="rgba(255,255,255,0.6)"
+            width="720" height="48" y="44"
+            data-fill="rgba(255,255,255,0.6)"/>
+        <rect id="svg-selected-tab" class="tab_selected fill" fill="rgba(255,255,255,0.6)"
+            width="166" height="34" x="28" y="5" rx="4"
+            data-fill="rgba(255,255,255,0.6)" stroke="transparent" stroke-width="1.5"/>
+        <rect class="tab_line stroke" stroke="rgba(0,0,0,0.25)"
+            width="166" height="34" x="28" y="5" rx="4"
+            fill="transparent" data-stroke="rgba(0,0,0,0.25)" stroke-width="1.5"/>
+        <rect class="bookmark_text fill" fill="#000000"
+            width="121" height="4" x="51" y="20" rx="2"
+            data-fallback="tab_background_text" />
+        <rect class="tab_background_text fill" fill="#000000"
+            width="121" height="4" x="221" y="20" rx="2" />
+        <rect id="svg-url-field" class="toolbar_field fill" fill="rgba(255,255,255,1)"
+            width="528" height="32" x="114" y="52" rx="4"
+            data-fill="rgba(255,255,255,1)"/>
+        <rect id="svg-url-field-text" class="toolbar_field_text fill" fill=""
+            width="342" height="4" x="146" y="66" rx="2.2"/>
+        <circle class="toolbar_field_text stroke" stroke="rgba(0,0,0,1)"
+            cx="130" cy="68" r="6.25"
+            data-stroke="rgba(0,0,0,1)" stroke-width="1.5" fill="transparent"/>
+        <circle class="bookmark_text stroke" stroke="#000000"
+            cx="24" cy="68" r="6.25"
+            data-strok="rgba(0,0,0,1)" data-fallback="tab_background_text" stroke-width="1.5" fill="transparent" />
+        <circle class="bookmark_text stroke" stroke="#000000"
+            cx="60" cy="68" r="6.25"
+            data-stroke="rgba(0,0,0,1)" data-fallback="tab_background_text" stroke-width="1.5" fill="transparent" />
+        <g transform="translate(689 61.75)"
+            class="bookmark_text fill" fill="#000000"
+            data-fallback="tab_background_text">
+          <rect width="14" height="1.5" rx="1.333"/>
+          <rect width="14" height="1.5" y="6" rx="1.333"/>
+          <rect width="14" height="1.5" y="12" rx="1.333"/>
+        </g>
+    </g>
+</svg>
