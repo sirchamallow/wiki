@@ -23,11 +23,23 @@ Il permet entre autres d'extraire les archives ZIP, GZIP, TAR, GZIP, DEB et RPM.
 sudo dnf install p7zip
 ```
 
+## GParted
+
+Parmi les différents éditeurs de partitions pour Linux, ma préférance va pour GParted. \
+Il est multi-plateforme (Linux, Windows, Mac OS X) et simple d'utilisation. Il même possible d'en faire une version Live CD/USB. Bien pratique pour dépanner.\
+
+
+```bash
+su -c "yum install gparted"
+```
+
+Source : [GParted](https://gparted.org/download.php)
+
 ## GPaste
 
 Il s'agit d'une extension qui permet aux utilisateurs de gérer le contenu et l’historique du presse-papier, grâce à une icône située dans le panel supérieur de gnome. Vous pourrez ainsi copier rapidement du texte, des url, des images, des lignes de commande et tout un tas d’autres choses.
 
-### Mise à jour du cache
+#### Mise à jour du cache
 
 {% hint style="info" %}
 Télécharger d'abord et mettre en cache les fichiers de métadonnées du référentiel
@@ -37,7 +49,7 @@ Télécharger d'abord et mettre en cache les fichiers de métadonnées du réfé
 sudo dnf makecache --refresh
 ```
 
-### Installation
+#### Installation
 
 Ensuite, procéder à l'installation
 
@@ -51,15 +63,15 @@ Source : [https://installati.one/fedora/34/gpaste/](https://installati.one/fedor
 
 KolourPaint est logiciel de dessin simple qui permet de créer rapidement des images. Il est pratique pour retoucher ou modifier simplement des images.
 
-### Installation via [AppStream](appstream://org.kde.kolourpaint)
+#### Installation via [AppStream](appstream://org.kde.kolourpaint)
 
-### Installation via Flatpak
+#### Installation via Flatpak
 
 ```bash
 flatpak install flathub org.kde.kolourpaint
 ```
 
-### Installation via Snapcraft
+#### Installation via Snapcraft
 
 {% hint style="info" %}
 Pré-requis : **Snapd** est nécéssaire
@@ -81,8 +93,6 @@ Source : [https://apps.kde.org/fr/kolourpaint/](https://apps.kde.org/fr/kolourpa
 {% hint style="success" %}
 Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
 {% endhint %}
-
-##
 
 ## Discord
 
