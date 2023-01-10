@@ -4,7 +4,9 @@ description: Quelques astuces pour Fedora
 
 # 😉 Astuces
 
-## Commandes de bases
+## Astuces
+
+### Commandes de bases
 
 **Dandified Yum** ou **DNF** est un [gestionnaire de paquets](https://fr.wikipedia.org/wiki/Gestionnaire\_de\_paquets). C’est le successeur de [YUM](https://fr.wikipedia.org/wiki/Yellowdog\_Updater,\_Modified). Pour les commandes les plus courantes, son usage est identique à celui de yum.\
 \
@@ -25,13 +27,45 @@ sudo dnf autoremove		# Remove Orphan Packages
 sudo dnf distro-sync		# Synchronise All Packages
 ```
 
-## Reset mot de passe root / session
+### Mise à niveau Fedora (upgrade)
+
+{% hint style="info" %}
+Cette méthode est celle recommandée par Fedora.
+{% endhint %}
+
+Il faut tout d'abord installer le greffon de DNF & mettre à jour votre version actuelle de Fedora.
+
+```bash
+dnf install dnf-plugin-system-upgrade
+dnf upgrade && dnf clean all
+```
+
+Ensuite, télécharger les paquets, puis redémarrer pour appliquer la mise à niveau.
+
+```bash
+dnf system-upgrade download --releasever=34
+dnf system-upgrade reboots
+```
+
+{% hint style="info" %}
+Une mise à niveau peu parfois être longue. Durant ce laps de temps votre machine sera indisponible
+{% endhint %}
+
+Pour résoudre certains problèmes signalés lors d'un premier lancement, l'option --allowerasing peut permettre de les résoudre :
+
+```bash
+dnf system-upgrade download --releasever=34 --allowerasing
+```
+
+Source : [https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora](https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora)
+
+### Reset mot de passe root / session
+
+{% embed url="https://blog.microlinux.fr/chroot-secours/" %}
 
 {% embed url="https://www.linuxtricks.fr/wiki/reinitialiser-le-mot-de-passe-root-depuis-grub-fedora-et-red-hat" %}
 
-{% embed url="https://ostechnix.com/reset-root-password-in-fedora/" %}
-
-## Activer le clique droit du touchpad&#x20;
+### Activer le clique droit du touchpad&#x20;
 
 Celui-ci est par défaut comme le clique gauche, ce qui est bien pénible :/
 
@@ -49,7 +83,7 @@ Et ensuite, taper la commande suivante
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 ```
 
-## Faire une capture d'écran
+### Faire une capture d'écran
 
 Deux méthodes possible, avec les raccourcis clavier ou avec Shutter
 
@@ -87,7 +121,7 @@ sudo dnf upgrade shutter    # Upgrade Shutter
 
 Source : [https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora.htm](https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora.htm)l
 
-## Rendre visible votre Dock (toujours)
+### Rendre visible votre Dock (toujours)
 
 {% hint style="info" %}
 Il s'agit d'extensions GNOME
@@ -107,7 +141,7 @@ https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/
 https://extensions.gnome.org/extension/1160/dash-to-panel/
 ```
 
-## Shell
+### Shell
 
 #### Vérifier la version du shell
 
@@ -161,7 +195,7 @@ zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
 
 Source : [https://github.com/ohmyzsh/ohmyzsh#getting-updates](https://github.com/ohmyzsh/ohmyzsh#getting-updates)
 
-## Changer le serveur d'affichage&#x20;
+### Changer le serveur d'affichage&#x20;
 
 (exemple : Wayland > XORG)
 
@@ -201,7 +235,7 @@ Déconnectez-vous ou redémarrez pour entrer dans la nouvelle session.
 Pour plus d'informations : [https://docs.fedoraproject.org/fr/quick-docs/configuring-xorg-as-default-gnome-session/](https://docs.fedoraproject.org/fr/quick-docs/configuring-xorg-as-default-gnome-session/)
 {% endhint %}
 
-## Désinstaller une application
+### Désinstaller une application
 
 ```bash
 yum list <nom du paquet>	# Rechercher un paquet - Méthode 1
@@ -213,7 +247,7 @@ yum remove <nom du paquet>	# Supprimer un paquet
 # Attention aux dépendances, bien lire ce qui est proposé à la suppression. 
 ```
 
-## Kernel Devel
+### Kernel Devel
 
 Le paquet kernel-devel contient les fichiers d'en-têtes du noyau, des fichiers permettant au développeur d'accéder aux différentes fonctionnalités du noyau . De façon plus simple, il est nécessaire au développement et à la compilation de pilotes.
 
@@ -223,7 +257,7 @@ sudo dnf in kernel-devel
 
 Source : [https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/](https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/)
 
-## Faire un Dig
+### Faire un Dig
 
 #### Introduction
 
