@@ -27,8 +27,8 @@ Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https
 
 ### Extensions & Themes
 
-{% content-ref url="../../../internet/software/extensions-chrome-firefox-etc./firefox/" %}
-[firefox](../../../internet/software/extensions-chrome-firefox-etc./firefox/)
+{% content-ref url="../../../internet/software/browsers/firefox-extensions/" %}
+[firefox-extensions](../../../internet/software/browsers/firefox-extensions/)
 {% endcontent-ref %}
 
 ## Google Chrome

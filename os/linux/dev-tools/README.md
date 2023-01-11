@@ -14,16 +14,16 @@ Vous trouverez ici le nécéssaire pour faire un setup de dev sous Fedora
 [git.md](git.md)
 {% endcontent-ref %}
 
-{% content-ref url="serveurs.md" %}
-[serveurs.md](serveurs.md)
+{% content-ref url="servers.md" %}
+[servers.md](servers.md)
 {% endcontent-ref %}
 
 {% content-ref url="fonts.md" %}
 [fonts.md](fonts.md)
 {% endcontent-ref %}
 
-{% content-ref url="base-de-donnees.md" %}
-[base-de-donnees.md](base-de-donnees.md)
+{% content-ref url="bdd.md" %}
+[bdd.md](bdd.md)
 {% endcontent-ref %}
 
 {% content-ref url="static-sites.md" %}
