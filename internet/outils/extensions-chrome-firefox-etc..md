@@ -6,14 +6,14 @@ description: Des extensions pour rendre plus agréable votre navigation sur les 
 
 ## Extensions Firefox
 
-{% content-ref url="firefox-extensions/" %}
-[firefox-extensions](firefox-extensions/)
+{% content-ref url="../software/extensions-chrome-firefox-etc./firefox/" %}
+[firefox](../software/extensions-chrome-firefox-etc./firefox/)
 {% endcontent-ref %}
 
 ## Extensions Chrome
 
-{% content-ref url="chrome-extensions/" %}
-[chrome-extensions](chrome-extensions/)
+{% content-ref url="../software/extensions-chrome-firefox-etc./chrome/" %}
+[chrome](../software/extensions-chrome-firefox-etc./chrome/)
 {% endcontent-ref %}
 
 ## Extensions multi-navigateurs

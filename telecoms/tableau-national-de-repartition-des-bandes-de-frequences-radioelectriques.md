@@ -12,7 +12,7 @@ Quand on vous dit que nous sommes entourés d’ondes c’est bien le cas. Ça n
 
 Elle est accessible à cette adresse : [https://www.anfr.fr/gestion-des-frequences-sites/tnrbf/frise-interactive](https://www.anfr.fr/gestion-des-frequences-sites/tnrbf/frise-interactive/). Vous pouvez également la télécharger au [format PDF](https://www.anfr.fr/fileadmin/mediatheque/documents/ANFR/ANFR\_Bande\_Spectre\_sept2018.pdf).
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 > « Le spectre radioélectrique fait partie en France du domaine public de l’État, inaliénable et incessible.  L’ANFR est responsable de l’élaboration et la mise à jour du Tableau national de répartition des bandes de fréquences (TNRBF), outil de gestion de base qui précise les bandes de fréquences et services auxquels les administrations de l’Etat et autorités administratives indépendantes, les affectataires, ont accès en vue de l’accomplissement de leurs missions. » **AFNFR**
 

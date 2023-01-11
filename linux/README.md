@@ -18,12 +18,12 @@ Fedora Linux est un système d’exploitation libre et une distribution Linux co
 [dev-tools](../os/linux/dev-tools/)
 {% endcontent-ref %}
 
-{% content-ref url="../os/linux/software/" %}
-[software](../os/linux/software/)
+{% content-ref url="../os/linux/logiciels/" %}
+[logiciels](../os/linux/logiciels/)
 {% endcontent-ref %}
 
-{% content-ref url="../os/linux/gnome-extensions.md" %}
-[gnome-extensions.md](../os/linux/gnome-extensions.md)
+{% content-ref url="../os/linux/ext.-gnome.md" %}
+[ext.-gnome.md](../os/linux/ext.-gnome.md)
 {% endcontent-ref %}
 
 {% content-ref url="../hardware/" %}
