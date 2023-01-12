@@ -14,6 +14,8 @@ Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](ht
 
 ### PostgreSQL
 
+#### Installation
+
 ```bash
 # Install the repository RPM:
 sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-36-x86_64/pgdg-fedora-repo-latest.noarch.rpm
@@ -28,6 +30,20 @@ sudo systemctl start postgresql-15
 ```
 
 Source : [https://www.postgresql.org/download/linux/redhat/](https://www.postgresql.org/download/linux/redhat/)
+
+#### Désinstallation
+
+Vous pouvez utilisez la commande DNF suivante pour désinstaller PostgreSQL depuis une distribution Fedora
+
+```bash
+sudo dnf remove postgresql
+```
+
+Vous pouvez utiliser un opérateur (\*) afin de supprimer tous les paquets dont le nom commence par postgres en utilisant la commande suivante :
+
+```bash
+sudo dnf remove postgres\*
+```
 
 ### PG-CLI
 
