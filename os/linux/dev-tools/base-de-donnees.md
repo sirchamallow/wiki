@@ -45,6 +45,8 @@ Vous pouvez utiliser un opérateur (\*) afin de supprimer tous les paquets dont 
 sudo dnf remove postgres\*
 ```
 
+Source : [https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757](https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757)
+
 ### PG-CLI
 
 ```bash
