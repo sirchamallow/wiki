@@ -103,6 +103,11 @@ sudo dnf install discord
 
 Source : [https://itsfoss.com/install-discord-fedora/](https://itsfoss.com/install-discord-fedora/)
 
+#### Désactiver le pop de mise à jour automatique (parfois bloquant)
+
+Ouvrer le fichier `settings.json` qui se trouve dans le dossier `.config/discord/`\
+et ajouter la valeur suivante : `"SKIP_HOST_UPDATE": true`
+
 ## Facebook Messenger
 
 {% hint style="info" %}

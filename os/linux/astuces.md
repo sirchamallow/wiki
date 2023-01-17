@@ -36,15 +36,15 @@ Cette méthode est celle recommandée par Fedora.
 Il faut tout d'abord installer le greffon de DNF & mettre à jour votre version actuelle de Fedora.
 
 ```bash
-dnf install dnf-plugin-system-upgrade
-dnf upgrade && dnf clean all
+sudo dnf install dnf-plugin-system-upgrade
+sudo dnf upgrade && dnf clean all
 ```
 
 Ensuite, télécharger les paquets, puis redémarrer pour appliquer la mise à niveau.
 
 ```bash
-dnf system-upgrade download --releasever=34
-dnf system-upgrade reboots
+sudo dnf system-upgrade download --releasever=34
+sudo dnf system-upgrade reboots
 ```
 
 {% hint style="info" %}
@@ -54,7 +54,7 @@ Une mise à niveau peu parfois être longue. Durant ce laps de temps votre machi
 Pour résoudre certains problèmes signalés lors d'un premier lancement, l'option --allowerasing peut permettre de les résoudre :
 
 ```bash
-dnf system-upgrade download --releasever=34 --allowerasing
+sudo dnf system-upgrade download --releasever=34 --allowerasing
 ```
 
 Source : [https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora](https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora)
