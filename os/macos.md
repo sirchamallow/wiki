@@ -13,3 +13,7 @@ description: Quelques applications pour MacOS
 * [Magnet](https://apps.apple.com/fr/app/magnet/id441258766) :&#x20;
 * [Duet Display](https://www.duetdisplay.com) :&#x20;
 * [NextDNS](https://apps.apple.com/fr/app/nextdns/id1464122853?mt=12) :&#x20;
+
+### Demander un remboursement pour des apps ou des contenus achetés auprès d’Apple
+
+{% embed url="https://support.apple.com/fr-fr/HT204084" %}
