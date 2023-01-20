@@ -41,23 +41,16 @@ Voici un exemple de liste :&#x20;
 ```
 http://direct.franceinfo.fr/live/franceinfo-midfi.mp3     # France Info
 http://icecast.radiofrance.fr/franceculture-hifi.aac      # France Culture
-
-https://stream.radiofrance.fr/fip/fip_hifi.m3u8              # FIP
-https://stream.radiofrance.fr/fippop/fippop_hifi.m3u8        # FIP Pop
-https://stream.radiofrance.fr/fipjazz/fipjazz_hifi.m3u8      # FIP Rock
-https://stream.radiofrance.fr/fipmetal/fipmetal_hifi.m3u8    # FIP Metal
-https://stream.radiofrance.fr/fipgroove/fipgroove_hifi.m3u8  # FIP Groove
-
+http://icecast.radiofrance.fr/fip-hifi.aac                # FIP
 https://radios.rtbf.be/classic21-128.mp3                  # Classic 21
 http://stream.srg-ssr.ch/m/couleur3/mp3_128               # Couleur 3
 http://radiomeuh.ice.infomaniak.ch/radiomeuh-128.mp3      # RadioMeuh
-http://tsfjazz.ice.infomaniak.ch/tsfjazz-high             # TSF Jazz
 http://cdn.nrjaudio.fm/adwz1/fr/30607/mp3_128.mp3         # Nostalgie Funk
-
+https://icecast.radiofrance.fr/fippop-hifi.aac            # FIP Pop
 http://stream.srg-ssr.ch/m/rsp/mp3_128                    # Radio Swiss Pop
+http://icecast.radiofrance.fr/fipjazz-hifi.aac            # FIP Jazz
+http://tsfjazz.ice.infomaniak.ch/tsfjazz-high             # TSF Jazz
 http://stream.srg-ssr.ch/m/rsj/mp3_128                    # Radio Swiss Jazz
-https://somafm.com/indiepop130.pls                        # SomaFM Indie Pop Rocks!
-https://somafm.com/poptron130.pls                         # SomaFM PopTron
 ```
 
 ## Créer la playlist .m3u <a href="#creer_la_playlist_m3u" id="creer_la_playlist_m3u"></a>
