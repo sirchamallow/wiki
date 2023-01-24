@@ -22,7 +22,7 @@ Les extensions sont disponibles sur [https://extensions.gnome.org/](https://exte
 
 Vitals est une extension de GNOME Shell pour afficher la température, la tension, la vitesse du ventilateur, l'utilisation de la mémoire, la charge de traitement, les ressources du système, la vitesse du réseau et les statistiques de stockage dans la barre de menu supérieure de votre GNOME Shell.
 
-<figure><img src="../../../.gitbook/assets/Vitals.GIF" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Vitals.GIF" alt=""><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -46,7 +46,7 @@ Source : [https://github.com/corecoding/Vitals](https://github.com/corecoding/Vi
 
 Un fork de Dash to Dock. Un dock pour bureau sur Linux.
 
-<figure><img src="../../../.gitbook/assets/screenshot (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot (2).jpg" alt=""><figcaption></figcaption></figure>
 
 #### Installation & Activation
 
@@ -60,7 +60,7 @@ Source : [https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock](http
 
 Affiche les contrôles et les informations du média en cours de lecture dans le panneau.
 
-<figure><img src="../../../.gitbook/assets/mediacontrols.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mediacontrols.png" alt=""><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -80,7 +80,7 @@ Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliff
 
 Afficher les informations météorologiques de n'importe quel endroit de la Terre dans le panneau
 
-<figure><img src="../../../.gitbook/assets/openweather-screenshot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/openweather-screenshot.png" alt=""><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -107,7 +107,7 @@ Si vous obtenez un ERROR après la mise à jour :
 
 Créez, copiez, stockez et téléchargez des captures d'écran facilement.
 
-<figure><img src="../../../.gitbook/assets/screenshot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot.png" alt=""><figcaption></figcaption></figure>
 
 #### Activation
 
@@ -129,7 +129,7 @@ Affiche une liste des périphériques d'entrée et de sortie du son dans le menu
 Pré-requis :  V20+ nécessite python comme dépendance.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/screenshot_tool.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot_tool.png" alt=""><figcaption></figcaption></figure>
 
 #### Activation
 
@@ -151,7 +151,7 @@ Pré-requis : Nécessite [nvidia-settings](https://download.nvidia.com/XFree86/L
 Inclut le support de [Bumblebee](https://www.bumblebee-project.org/).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/nvidia-gpu_stats.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/nvidia-gpu_stats.png" alt=""><figcaption></figcaption></figure>
 
 #### Activation
 
@@ -166,7 +166,7 @@ Source : [https://github.com/ethanwharris/gnome-nvidia-extension](https://github
 Extension du gestionnaire du presse-papiers pour Gnome.\
 Ajoute un indicateur du presse-papiers dans le panneau supérieur et met en cache l'historique du presse-papiers.
 
-<figure><img src="../../../.gitbook/assets/screenshot_779_z38Ay1y.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot_779_z38Ay1y.png" alt=""><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -197,7 +197,7 @@ Source : [https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator](
 
 Pour écouter des radios / webradios
 
-<figure><img src="../../../.gitbook/assets/radio-extension.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/radio-extension.png" alt=""><figcaption></figcaption></figure>
 
 #### Activation
 
@@ -211,7 +211,7 @@ Source : [https://github.com/hslbck/gnome-shell-extension-radio](https://github.
 
 Désactiver les éléments de l'interface utilisateur de GNOME, modifier le comportement et personnaliser votre bureau GNOME.
 
-<figure><img src="../../../.gitbook/assets/Juste_perfection.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Juste_perfection.svg" alt=""><figcaption></figcaption></figure>
 
 #### Activation
 

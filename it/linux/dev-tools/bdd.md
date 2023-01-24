@@ -2,7 +2,7 @@
 
 ### Redis
 
-<figure><img src="../../../../.gitbook/assets/langfr-2560px-Redis_Logo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/langfr-2560px-Redis_Logo.png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 sudo dnf install redis     		# Install redis cli and server

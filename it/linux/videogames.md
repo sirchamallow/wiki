@@ -6,7 +6,7 @@ description: Quelques jeux disponibles sur Linux
 
 ## OpenRCT2
 
-<figure><img src="../../../.gitbook/assets/OpenRCT2-Game-Logo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OpenRCT2-Game-Logo.png" alt=""><figcaption></figcaption></figure>
 
 OpenRCT2 est un jeu vidéo de simulation de construction et de gestion qui simule la gestion d'un parc d'attractions. Il s'agit d'une réimplémentation et d'une extension gratuites et open-source du jeu vidéo **RollerCoaster Tycoon 2** de 2002.
 
@@ -43,7 +43,7 @@ Source : [https://openrct2.org/quickstart/install/linux/fedora](https://openrct2
 
 ## OpenTTD
 
-<figure><img src="../../../.gitbook/assets/openttd.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/openttd.jpg" alt=""><figcaption></figcaption></figure>
 
 **OpenTTD** est un jeu vidéo de « gestion et planification urbanistique » dans lequel le joueur a pour but de gagner de l'argent par transport de passagers et du fret sur route, rail, eau et dans l'air. Il est une réécriture libre du jeu original Transport Tycoon Deluxe de Chris Sawyer, sorti en 1995. [Wikipédia](https://fr.wikipedia.org/wiki/OpenTTD)
 

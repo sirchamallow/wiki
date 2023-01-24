@@ -2,7 +2,7 @@
 
 ## TMUX
 
-<figure><img src="../../../../.gitbook/assets/Tmux_logo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt=""><figcaption></figcaption></figure>
 
 ### **Description**
 
@@ -22,7 +22,7 @@ Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
 
 ## Dog
 
-<figure><img src="../../../../.gitbook/assets/dog-screenshot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt=""><figcaption></figcaption></figure>
 
 dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
 
@@ -42,7 +42,7 @@ Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
 
 ### Cyberduck CLI
 
-<figure><img src="../../../../.gitbook/assets/cyberduck-logo.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt=""><figcaption></figcaption></figure>
 
 Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
 
