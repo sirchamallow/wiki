@@ -2,7 +2,7 @@
 description: Astuces, informations, outils...
 ---
 
-# 📱 Android
+# 🤖 Android
 
 ## Astuces
 

@@ -49,7 +49,7 @@ Source : [https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/](htt
 
 ## YouTubeDL-GUI
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran du 2022-11-08 16-55-08.png" alt=""><figcaption><p>Youtube Downloader</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Capture d’écran du 2022-11-08 16-55-08.png" alt=""><figcaption><p>Youtube Downloader</p></figcaption></figure>
 
 ### Installation
 

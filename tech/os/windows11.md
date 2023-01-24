@@ -2,7 +2,7 @@
 description: Astuces & Liste d'appplications pour Windows 10/11
 ---
 
-# 🎱 Windows 11
+# 🤔 Windows 11
 
 **Pré-requis :** que ce soit après une installation de [**Windows 10/11**](https://www.microsoft.com/fr-fr/windows/) sur votre ordinateur, votre prochaine étape consistera à remettre "clean" votre système d'exploitation et désinstaller les applications inutiles que Microsoft pré-installepré-installent par défaut et sans votre accord. Et dans certains cas, il faudra renouveller l'opération en désinstallant cette fois ceux du fabricant de votre ordinateur.
 
