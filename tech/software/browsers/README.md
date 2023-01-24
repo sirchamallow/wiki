@@ -1,10 +1,8 @@
 ---
-description: >-
-  Des extensions, thèmes, astuces pour rendre plus agréable votre navigation sur
-  les internets
+description: Des extensions pour rendre plus agréable votre navigation sur les internets
 ---
 
-# 🌐 Navigateurs Web
+# 🌐 Ext. Navigateurs Web
 
 ## Extensions Firefox
 
