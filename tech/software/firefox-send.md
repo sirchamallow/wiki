@@ -5,7 +5,7 @@ description: Firefox Send, une alternative à WeTransfer avec chiffrement de bou
 # 📤 Firefox Send
 
 {% hint style="danger" %}
-Update : le service est désormais arrêter
+Update : le service est désormais arrter
 {% endhint %}
 
 La Fondation [Mozilla](https://www.frandroid.com/tag/mozilla-firefox) (à qui l’ont doit déjà la navigateur open-source Firefox) [a lancé son propre service de partage de fichiers](https://blog.mozilla.org/blog/2019/03/12/introducing-firefox-send-providing-free-file-transfers-while-keeping-your-personal-information-private/), qui était jusqu’à alors accessible uniquement sous la forme d’un mode expérimental du navigateur via le programme Test Pilot.
