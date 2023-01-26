@@ -2,7 +2,7 @@
 description: Une sélection de résolveurs DNS public
 ---
 
-# Liste de résolveur DNS public
+# 📖 Liste de résolveur DNS public
 
 ### **FDN – French Data Network**
 

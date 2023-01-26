@@ -2,7 +2,7 @@
 description: Voici les méthodes pour effectuer le changement de DNS sur votre machine
 ---
 
-# Changer ses DNS
+# ↪ Changer ses DNS
 
 ### Pourquoi faire ?
 
