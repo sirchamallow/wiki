@@ -67,6 +67,7 @@
     * [🛃 Chrome](tech/software/browsers/chrome-extensions/README.md)
       * [🚀 Mercury Reader](tech/software/browsers/chrome-extensions/mercury-reader.md)
       * [💠 Resizing.app](tech/software/browsers/chrome-extensions/resizing.app.md)
+  * [🛡 NextDNS](tech/software/nextdns.md)
 * [🔍 Veille](tech/veille/README.md)
   * [💭 Arguments Rhétologiques Fallacieux](tech/veille/arguments-rhetologiques-fallacieux.md)
   * [👉 Blogosphère](tech/veille/blogosphere.md)
