@@ -12,29 +12,22 @@ Wow
 
 Bienvenue sur mon wiki :)
 
-Vous trouverez dans cet endroit, des ressources utiles, outils, video, articles, astuces, etc.
+Vous trouverez ici, des ressources utiles, outils, video, articles, astuces, etc. en tout genre sur la technologie, les internets, mais pas que :)
 
 ### Présentation
 
 Bonjour, je suis Pierre LEMASSON, développeur web 🇫🇷 🇪🇺 passionné de veille.
 
-* Vous souhaitez me contacter ? Mon email : [_sir.chamallow@protonmail.com_](mailto:sir.chamallow@protonmail.com)
-* Visiter mon profil [Linkedin](https://www.linkedin.com/in/pierrelemasson)
-* Découvrez [mon blog](https://sir.chamallow.com)
-* Newsletter : Abonnez-vous à mes [carnets de veille](https://sirchamallow.substack.com/)!
-* Retrouvez-moi AFK sur Lyon
+* Vous souhaitez me contacter👉 ? Mon email : [_**sir.chamallow@protonmail.com**_](mailto:sir.chamallow@protonmail.com)****
+* Visiter mon profil [**Linkedin**](https://www.linkedin.com/in/pierrelemasson)****
+* Découvrez [**mon blog**](https://sir.chamallow.com)****
+* Newsletter 👉 Abonnez-vous à mes [**carnets de veille**](https://sirchamallow.substack.com/) !
+
+
 
 ### Rubriques
 
 Les différentes rubriques du wiki :
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
