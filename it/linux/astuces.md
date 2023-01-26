@@ -91,6 +91,12 @@ Voici comment créer une clé USB Bootable Windows à l’aide de [balenaEtcher]
 \
 Il s’agit d’un flasheur USB multiplateforme disponible en téléchargement sur Windows, macOS et Linux. Flasher avec balenaEtcher est simple et facile. Il vous suffit de télécharger son fichier AppImage et de l’exécuter.
 
+#### Mettre à jour Fedora
+
+```bash
+sudo dnf upgrade --refresh -y
+```
+
 #### Ajouter les repos rpm de Etcher :
 
 ```bash
@@ -102,14 +108,20 @@ curl -1sLf \
 #### Installer Etcher
 
 ```bash
-sudo dnf install -y balena-etcher-electron
+sudo dnf install balena-etcher-electron -y
+```
+
+#### Mise à jour Etcher
+
+```bash
+sudo dnf upgrade --refresh -y
 ```
 
 #### Désinstaller Etcher
 
 ```bash
-rm /etc/yum.repos.d/balena-etcher.repo
-rm /etc/yum.repos.d/balena-etcher-source.repo
+sudo dnf remove balena-etcher-electron -y
+sudo rm /etc/yum.repos.d/balena-etcher.repo
 ```
 
 Source : [https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf](https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf)
