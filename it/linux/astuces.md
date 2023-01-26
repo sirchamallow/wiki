@@ -2,7 +2,7 @@
 description: Quelques astuces pour Fedora
 ---
 
-# 😉 Astuces
+# 💡 Astuces
 
 ## Astuces
 
@@ -83,7 +83,42 @@ Et ensuite, taper la commande suivante
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 ```
 
+### Créer une clé USB d’installation bootable
+
+<figure><img src="../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
+
+Voici comment créer une clé USB Bootable Windows à l’aide de [balenaEtcher](https://www.balena.io/etcher#download-etcher). \
+\
+Il s’agit d’un flasheur USB multiplateforme disponible en téléchargement sur Windows, macOS et Linux. Flasher avec balenaEtcher est simple et facile. Il vous suffit de télécharger son fichier AppImage et de l’exécuter.
+
+#### Ajouter les repos rpm de Etcher :
+
+```bash
+curl -1sLf \
+   'https://dl.cloudsmith.io/public/balena/etcher/setup.rpm.sh' \
+   | sudo -E bash
+```
+
+#### Installer Etcher
+
+```bash
+sudo dnf install -y balena-etcher-electron
+```
+
+#### Désinstaller Etcher
+
+```bash
+rm /etc/yum.repos.d/balena-etcher.repo
+rm /etc/yum.repos.d/balena-etcher-source.repo
+```
+
+Source : [https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf](https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf)
+
 ### Faire une capture d'écran
+
+{% hint style="info" %}
+Depuis Fedora 37, un raccourci est disponible dans la barre de menu
+{% endhint %}
 
 Deux méthodes possible, avec les raccourcis clavier ou avec Shutter
 

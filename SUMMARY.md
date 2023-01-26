@@ -29,7 +29,7 @@
   * [⛓ Git](tech/tools/git.md)
 * [💾 OS](tech/os/README.md)
   * [🐧 Fedora (Linux)](it/linux/README.md)
-    * [😉 Astuces](it/linux/astuces.md)
+    * [💡 Astuces](it/linux/astuces.md)
     * [👨💻 DEV tools](it/linux/dev-tools/README.md)
       * [📑 Langages](it/linux/dev-tools/langages.md)
       * [⛓ Git](it/linux/dev-tools/git.md)
