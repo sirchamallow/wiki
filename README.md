@@ -1,5 +1,7 @@
 ---
-description: Guimauve in progress...
+description: >-
+  Vous trouverez ici, des ressources utiles, outils, video, articles, astuces,
+  etc. sur différents domaines dont la tech.
 ---
 
 # Introduction
@@ -7,12 +9,6 @@ description: Guimauve in progress...
 {% embed url="https://media.giphy.com/media/G22vVm4jcPeco/giphy.gif" %}
 Wow
 {% endembed %}
-
-## Bienvenue
-
-Bienvenue sur mon wiki :)
-
-Vous trouverez ici, des ressources utiles, outils, video, articles, astuces, etc. en tout genre sur la technologie, les internets, mais pas que :)
 
 ### Présentation
 
@@ -25,32 +21,8 @@ Bonjour, je suis Pierre LEMASSON, développeur web 🇫🇷 🇪🇺 passionné 
 
 
 
-### Rubriques
-
-Les différentes rubriques du wiki :
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-### Licence
+### Licence CC BY 4.0
 
 [Licence Creative Commons BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.fr).
-
-#### Vous êtes autorisé à&#x20;
-
-* **Partager** — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats
-* **Adapter** — remixer, transformer et créer à partir du matériel pour toute utilisation, y compris commercial
-
-L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.
-
-#### Selon les conditions suivantes :&#x20;
-
-* **Attribution** — Vous devez [créditer](https://creativecommons.org/licenses/by/4.0/deed.fr) l'Œuvre, intégrer un lien vers la licence et [indiquer](https://creativecommons.org/licenses/by/4.0/deed.fr) si des modifications ont été effectuées à l'Oeuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son Oeuvre.
-* **Pas de restrictions complémentaires** — Vous n'êtes pas autorisé à appliquer des conditions légales ou des [mesures techniques](https://creativecommons.org/licenses/by/4.0/deed.fr) qui restreindraient légalement autrui à utiliser l'Oeuvre dans les conditions décrites par la licence.
 
 ![](.gitbook/assets/88x31.png)
