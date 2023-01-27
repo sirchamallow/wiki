@@ -99,21 +99,7 @@ Pour désinstaller un programmer, sélection l'icône \[ ... ] (côté droit de 
 
 Dispositif d'accès contrôlé aux dossiers > **Activé**
 
-
-
-Autorisation de Windows
-
-Autorisation Windows
-
-Autorisation des applications
-
-Autorisation de l'application
-
-Autorisation pour les applications
-
-##
-
-Menu démarrer
+## Menu démarrer
 
 {% hint style="danger" %}
 Avant d'aller plus loin, prenez le temps de faire le nettoyage des applications épinglés. Il s'agit d'application pré-installés sans votre consentement.

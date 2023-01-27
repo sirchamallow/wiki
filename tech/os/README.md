@@ -10,8 +10,8 @@
 
 ### Windows 11
 
-{% content-ref url="windows11/" %}
-[windows11](windows11/)
+{% content-ref url="../../it/windows11.md" %}
+[windows11.md](../../it/windows11.md)
 {% endcontent-ref %}
 
 ### MacOS
