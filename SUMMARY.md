@@ -28,6 +28,7 @@
   * [🇨🇭 Status page](tech/outils/statuspage.md)
   * [📞 Telecoms](tech/outils/telecoms.md)
   * [⛓ Git](tech/outils/git.md)
+* [🎮 Jeux Vidéo](tech/jeux-video.md)
 * [💾 OS](tech/os/README.md)
   * [🐧 Fedora (Linux)](it/linux/README.md)
     * [💡 Astuces](it/linux/astuces.md)
@@ -50,9 +51,8 @@
       * [🛡 Sécurité](it/linux/software/security.md)
     * [🕹 Jeux vidéos](it/linux/videogames.md)
     * [👣 Ext. GNOME](it/linux/gnome-extensions.md)
-    * [⚙ Hardware](it/linux/hardware/README.md)
-      * [💻 TUXEDO Computers](it/linux/hardware/tuxedo-computers.md)
-  * [🤔 Windows 11](it/windows11.md)
+  * [🤔 Windows 11](tech/os/windows11/README.md)
+    * [🔩 Setup](tech/os/windows11/setup.md)
   * [💸 MacOS](it/macos.md)
   * [🤖 Android](it/android.md)
 * [💿 Software](tech/software/README.md)
@@ -80,6 +80,9 @@
     * [Facebook > RSS](tech/veille/flux-rss-atom/facebook-greater-than-rss.md)
   * [🤔 Mindmapping](tech/veille/mindmapping.md)
   * [👍 Ressources](tech/veille/ressources.md)
+* [⚙ Hardware](tech/hardware/README.md)
+  * [💻 TUXEDO Computers](tech/hardware/tuxedo-computers.md)
+  * [💻 Huawei Computers](tech/hardware/huawei-computers.md)
 
 ## 🤪 Multiverse
 

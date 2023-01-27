@@ -26,7 +26,7 @@ Fedora Linux est un système d’exploitation libre et une distribution Linux co
 [gnome-extensions.md](gnome-extensions.md)
 {% endcontent-ref %}
 
-{% content-ref url="hardware/" %}
-[hardware](hardware/)
+{% content-ref url="../../tech/hardware/" %}
+[hardware](../../tech/hardware/)
 {% endcontent-ref %}
 
