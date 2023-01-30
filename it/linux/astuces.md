@@ -225,11 +225,37 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 Source : [https://www.it-connect.fr/passer-de-bash-a-zsh/](https://www.it-connect.fr/passer-de-bash-a-zsh/)
 
+#### Thème pour ZSH
+
+1 - Ouvrir le fichier .zhrc
+
+```bash
+open ~/.zshrc
+```
+
+2 - Changer le thème par défaut par “agnoster”
+
+Parcourez votre fichier afin de trouver cette ligne ZSH\_THEME et ajouter agnoster
+
+```bash
+ZSH_THEME="agnoster"
+```
+
+{% hint style="info" %}
+La liste complète est thèmes est [disponible ici](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
+{% endhint %}
+
+3 - Mettre à jour le fichier de config ZSH
+
+```bash
+source ~/.zshrc
+```
+
 #### Activer mise à jour de ZSH
 
 Mise à jour manuel
 
-```shell
+```bash
 omz update
 ```
 
