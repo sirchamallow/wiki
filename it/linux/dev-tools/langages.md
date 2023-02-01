@@ -27,8 +27,9 @@ Source : [https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/
 <figure><img src="../../../.gitbook/assets/php-server-integration-wysiwyg-html-editor-froala-10.png" alt=""><figcaption></figcaption></figure>
 
 ```bash
-sudo dnf install php-cli						# PHP Installation
-sudo dnf install php-mysqli						# PHP modules
+sudo dnf install php-cli			# PHP Installation
+sudo dnf install phpunit composer               # PHPUnit for unit tests or Composer to manage dependencies of PHP projects
+sudo dnf install php-mysqli			# PHP modules
 sudo php --server localhost:8080 --docroot  .	# PHP Development Server
 ```
 
