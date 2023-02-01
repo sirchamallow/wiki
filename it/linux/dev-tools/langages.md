@@ -307,6 +307,8 @@ source ~/.profile
 
 ## JAVA
 
+<figure><img src="../../../.gitbook/assets/Java.png" alt=""><figcaption></figcaption></figure>
+
 ### Gradle
 
 {% hint style="info" %}
