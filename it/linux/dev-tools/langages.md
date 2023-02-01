@@ -307,11 +307,21 @@ source ~/.profile
 
 ## JAVA
 
-### JAVA
-
 ### Gradle
 
-#### SDKMAN!
+{% hint style="info" %}
+**Pré-requis** : nécéssite le gestionnaire de paquet SDKMAN!
+{% endhint %}
+
+#### Installation de gradle
+
+```bash
+sdk install gradle 7.6
+```
+
+Source : [https://gradle.org/install/](https://gradle.org/install/)
+
+### SDKMAN!
 
 Installation via le gestionnaire de paquet SDKMAN!
 
@@ -332,13 +342,32 @@ Si le message affiche `v5.16.0` ou autre version, vous pouvez continuer
 
 Source : [https://sdkman.io/install](https://sdkman.io/install)
 
-#### Installation de gradle
-
-```bash
-sdk install gradle 7.6
-```
-
-Source : [https://gradle.org/install/](https://gradle.org/install/)
-
 ### WAR
 
+work in progress section
+
+## Scala
+
+<figure><img src="../../../.gitbook/assets/ezgif.com-webp-to-jpg-2.jpg" alt=""><figcaption></figcaption></figure>
+
+Installation de SCALA
+
+{% hint style="info" %}
+Pré-requis : nécéssite le gestionnaire de paquet SDKMAN!
+{% endhint %}
+
+```bash
+sdk install scala
+```
+
+### SBT
+
+Install SBT
+
+<pre class="language-bash"><code class="lang-bash">sudo rm -f /etc/yum.repos.d/bintray-rpm.repo    	      # Remove old Bintray repo file
+<strong>curl -L https://www.scala-sbt.org/sbt-rpm.repo > sbt-rpm.repo
+</strong>sudo mv sbt-rpm.repo /etc/yum.repos.d/
+sudo dnf install sbt										 # Install SBT
+</code></pre>
+
+Source : [https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html)
