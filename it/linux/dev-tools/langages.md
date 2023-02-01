@@ -304,5 +304,40 @@ Mettez à jour vos variables système avec cette commande
 source ~/.profile
 ```
 
-###
+## JAVA
+
+### JAVA
+
+### Gradle
+
+#### SDKMAN!
+
+Installation via le gestionnaire de paquet SDKMAN!
+
+```bash
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+
+Ensuite, exécutez la commande suivante :
+
+```bash
+sdk version
+```
+
+{% hint style="success" %}
+Si le message affiche `v5.16.0` ou autre version, vous pouvez continuer
+{% endhint %}
+
+Source : [https://sdkman.io/install](https://sdkman.io/install)
+
+#### Installation de gradle
+
+```bash
+sdk install gradle 7.6
+```
+
+Source : [https://gradle.org/install/](https://gradle.org/install/)
+
+### WAR
 
