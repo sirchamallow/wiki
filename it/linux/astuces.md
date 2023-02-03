@@ -371,3 +371,20 @@ L’option **+trace** répertorie chaque serveur différent que la requête pass
 ```bash
 dig www.lewifi.fr +trace
 ```
+
+### Tweaks
+
+Fedy est un outil graphique qui vous permet de modifier votre système Fedora en quelques clics. Des applications normales aux thèmes, en passant par les diverses modifications du système, Fedy peut faire presque tout ce dont vous pouvez avoir besoin sur Fedora.
+
+{% hint style="info" %}
+Pour installer Fedy sur la dernière version de Fedora, assurez-vous que vous avez que vous avez déjà activé les dépôts RPM Fusion
+{% endhint %}
+
+#### Installation
+
+```bash
+sudo dnf copr enable kwizart/fedy
+sudo dnf install fedy -y
+```
+
+Source : [https://fosspost.org/things-to-do-after-installing-fedora-37/](https://fosspost.org/things-to-do-after-installing-fedora-37/)
