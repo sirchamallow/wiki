@@ -12,13 +12,15 @@ description: Liste d'extensions pour GNOME
 Si **Extensions** n'est pas déjà installé sur votre système GNOME, je vous recommande de le télécharger depuis [Flathub](https://flathub.org/apps/details/org.gnome.Extensions).
 {% endhint %}
 
-### Télécharger des extensions
+## Téléchargement
 
 {% hint style="success" %}
 Les extensions sont disponibles sur [https://extensions.gnome.org/](https://extensions.gnome.org/)
 {% endhint %}
 
-## Vitals
+## Extensions
+
+### Vitals
 
 Vitals est une extension de GNOME Shell pour afficher la température, la tension, la vitesse du ventilateur, l'utilisation de la mémoire, la charge de traitement, les ressources du système, la vitesse du réseau et les statistiques de stockage dans la barre de menu supérieure de votre GNOME Shell.
 
@@ -42,7 +44,7 @@ Rendez-vous ensuite sur **** [le site web de Gnome Extensions](https://extension
 Source : [https://github.com/corecoding/Vitals](https://github.com/corecoding/Vitals)
 {% endhint %}
 
-## Dash to Dock for COSMIC
+### Dash to Dock for COSMIC
 
 Un fork de Dash to Dock. Un dock pour bureau sur Linux.
 
@@ -56,7 +58,7 @@ Rendez-vous sur **** [le site web de Gnome Extensions](https://extensions.gnome.
 Source : [https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock](https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock)
 {% endhint %}
 
-## Media Controls
+### Media Controls
 
 Affiche les contrôles et les informations du média en cours de lecture dans le panneau.
 
@@ -74,51 +76,6 @@ Rendez-vous ensuite sur **** le [site web de Gnome Extensions](https://extension
 
 {% hint style="info" %}
 Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliffniff/media-controls/blob/main/README.md)
-{% endhint %}
-
-## OpenWeather
-
-Afficher les informations météorologiques de n'importe quel endroit de la Terre dans le panneau
-
-<figure><img src="../../.gitbook/assets/openweather-screenshot.png" alt=""><figcaption></figcaption></figure>
-
-#### Installation
-
-```bash
-sudo dnf install gnome-shell-extension-openweather
-```
-
-#### Activation
-
-Rendez-vous sur **** [le site web de Gnome Extensions](https://extensions.gnome.org), recherchez **** [**OpenWeather** ](https://extensions.gnome.org/extension/750/openweather/)et cliquez sur l'icône switch.
-
-{% hint style="info" %}
-Source : [https://gitlab.com/skrewball/openweathe](https://gitlab.com/skrewball/openweather)
-{% endhint %}
-
-{% hint style="warning" %}
-Si vous obtenez un ERROR après la mise à jour :
-
-* Redémarrez le shell GNOME (déconnectez-vous).
-* ou redémarrez complètement
-{% endhint %}
-
-## Screenshot Tool <a href="#extension_name" id="extension_name"></a>
-
-Créez, copiez, stockez et téléchargez des captures d'écran facilement.
-
-<figure><img src="../../.gitbook/assets/screenshot.png" alt=""><figcaption></figcaption></figure>
-
-#### Activation
-
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez **** [**Screenshot Tool**](https://extensions.gnome.org/extension/1112/screenshot-tool) **** et cliquez sur l'icône switch.
-
-{% hint style="warning" %}
-Notes : déconnecter-vous de votre session et reconnecter-vous après la mise à jour.
-{% endhint %}
-
-{% hint style="info" %}
-Source : [https://github.com/OttoAllmendinger/gnome-shell-screenshot](https://github.com/OttoAllmendinger/gnome-shell-screenshot/)
 {% endhint %}
 
 ## Sound Input & Output Device Chooser
