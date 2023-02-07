@@ -352,6 +352,14 @@ sudo dnf install bind bind-utils
 dig www.lewifi.fr
 ```
 
+#### Recherche DNS ipv4 & ipv6
+
+```bash
+dig www.lewifi.fr A www.lewifi.fr AAAA +short
+```
+
+Sourcr : Source: [http://linux.die.net/man/1/dig](http://linux.die.net/man/1/dig) -- under the 'Multiple Queries' section
+
 #### Spécifier un serveur DNS
 
 {% hint style="info" %}
