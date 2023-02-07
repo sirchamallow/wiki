@@ -78,7 +78,7 @@ Rendez-vous ensuite sur **** le [site web de Gnome Extensions](https://extension
 Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliffniff/media-controls/blob/main/README.md)
 {% endhint %}
 
-## Sound Input & Output Device Chooser
+### Sound Input & Output Device Chooser
 
 Affiche une liste des périphériques d'entrée et de sortie du son dans le menu d'état sous le curseur du volume. Les différents ports actifs comme HDMI, haut-parleurs, etc. du même périphérique sont également affichés pour être sélectionnés.
 
@@ -96,7 +96,7 @@ Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.
 Source : [https://github.com/kgshank/gse-sound-output-device-chooser](https://github.com/kgshank/gse-sound-output-device-chooser)
 {% endhint %}
 
-## NVIDIA GPU Stats Tool <a href="#extension_name" id="extension_name"></a>
+### NVIDIA GPU Stats Tool <a href="#extension_name" id="extension_name"></a>
 
 Affiche les statistiques du GPU NVIDIA dans la barre d'outils.&#x20;
 
@@ -118,7 +118,7 @@ Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.
 Source : [https://github.com/ethanwharris/gnome-nvidia-extension](https://github.com/ethanwharris/gnome-nvidia-extension)
 {% endhint %}
 
-## Clipboard Indicator
+### Clipboard Indicator
 
 Extension du gestionnaire du presse-papiers pour Gnome.\
 Ajoute un indicateur du presse-papiers dans le panneau supérieur et met en cache l'historique du presse-papiers.
@@ -150,7 +150,7 @@ Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.
 Source : [https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator)
 {% endhint %}
 
-## Internet Radio
+### Internet Radio
 
 Pour écouter des radios / webradios
 
@@ -164,7 +164,7 @@ Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.
 Source : [https://github.com/hslbck/gnome-shell-extension-radio](https://github.com/hslbck/gnome-shell-extension-radio)
 {% endhint %}
 
-## Just Perfection GNOME Shell Extension
+### Just Perfection GNOME Shell Extension
 
 Désactiver les éléments de l'interface utilisateur de GNOME, modifier le comportement et personnaliser votre bureau GNOME.
 
@@ -177,4 +177,21 @@ Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.
 {% hint style="info" %}
 Source : [https://gitlab.gnome.org/jrahmatzadeh/just-perfection](https://gitlab.gnome.org/jrahmatzadeh/just-perfection)
 {% endhint %}
+
+### Tray Icons: Reloaded <a href="#extension_name" id="extension_name"></a>
+
+Ramène les icônes de plateau au panneau supérieur, avec des fonctionnalités supplémentaires.\
+
+
+<figure><img src="../../.gitbook/assets/screenshot_2890.png" alt=""><figcaption></figcaption></figure>
+
+#### Activation
+
+Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/), recherchez **** [Tray Icons: Reloaded](https://app.gitbook.com/s/Pp6PcTwYyYLWwFxkG4Q4/the-basics/change-requests) **** et cliquez sur l'icône switch
+
+{% hint style="info" %}
+Source : [https://github.com/MartinPL/Tray-Icons-Reloaded](https://github.com/MartinPL/Tray-Icons-Reloaded)
+{% endhint %}
+
+#### &#x20;<a href="#extension_name" id="extension_name"></a>
 
