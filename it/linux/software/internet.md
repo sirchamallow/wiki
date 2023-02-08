@@ -95,3 +95,31 @@ nextdns help       # Show all commands
 ```
 
 Source : [https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution](https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution)
+
+## Client email
+
+### Thunderbird
+
+Par défaut, Thunderbird est disponible sur le dépôt Fedora et est souvent mis à jour en tant que Flatpak. Utilisez la commande suivante pour installer l'application sur votre système.
+
+```bash
+sudo dnf install thunderbird -y
+```
+
+Source : [https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linux/](https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linux/)
+
+### Mailspring
+
+La dernière version de Mailspring est disponible via un paquage RPM [téléchargeable depuis le site web](https://www.getmailspring.com/). Rendez-vous sur la page de téléchargement, sélectionnez "Linux" et cliquez sur "Linux (64-bit .rpm)". Ensuite, ouvrez une fenêtre de terminal et utilisez la commande CD pour le déplacer dans le dossier \~/Downloads.
+
+```bash
+cd ~/Downloads
+```
+
+Installez le RPM de Mailspring sur votre PC Fedora avec la commande DNF install suivante :
+
+```bash
+sudo dnf install mailspring-*.x86_64.rpm -y
+```
+
+Source : [https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-linux/](https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-linux/)
