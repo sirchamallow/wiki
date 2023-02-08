@@ -30,7 +30,17 @@ soon
 
 ### GOG
 
-soon
+#### Activer une clé Steam sur le site internet
+
+* Rendez-vous sur le [site officiel de GOG](https://www.gog.com)
+* Ensuite en haut à droite de l’écran, cliquez sur connexion
+* Identifiez-vous avec votre identifiant et votre mot de passe sur la page qui s’affiche à l’écran
+* Ensuite, rendez-vous sur "**Code promo**", disponible avec ce lien
+
+{% embed url="https://www.gog.com/redeem" %}
+
+* Renseigner votre clé et validez :)
+* Regardez dans votre bibliothèque, la clé CD vous y a ajouté un produit :)
 
 ### Amazon Games
 
