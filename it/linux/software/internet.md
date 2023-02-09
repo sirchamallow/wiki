@@ -6,7 +6,7 @@ description: Liste de logiciels
 
 ## Mozilla Firefox
 
-### Firefox
+#### Firefox
 
 ```bash
 sudo dnf install firefox
@@ -14,7 +14,7 @@ sudo dnf install firefox
 
 Source : [https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems](https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems)
 
-### Firefox Developer Edition
+#### Firefox Developer Edition
 
 ```bash
 sudo dnf copr enable the4runner/firefox-dev # Enable the4runner/firefox-dev Copr repository according to your package manager.
@@ -33,7 +33,7 @@ Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https
 
 ## Google Chrome
 
-### Google Chrome
+#### Google Chrome
 
 ```bash
 sudo dnf install fedora-workstation-repositories	# Install Third Party Repositories
@@ -43,7 +43,7 @@ sudo dnf install google-chrome-stable			# Install Google Chrome
 
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/](https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/)
 
-### Google Chrome Developers
+#### Google Chrome Developers
 
 ```bash
 sudo dnf install google-chrome-unstable
@@ -62,9 +62,40 @@ sudo dnf install brave-browser
 
 Source : [https://brave.com/linux/](https://brave.com/linux/)
 
+### Microsoft Edge
+
+Importer la clé GPG pour l'import du fichier RPM:
+
+```bash
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+```
+
+Importer le répertoire de Microsoft Edge
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+</strong></code></pre>
+
+#### Installation Microsoft Edge <a href="#installing-microsoft-edge" id="installing-microsoft-edge"></a>
+
+```bash
+sudo dnf install microsoft-edge-stable
+```
+
+#### Installation Microsoft Edge dev
+
+```bash
+sudo dnf install microsoft-edge-dev
+```
+
+{% hint style="info" %}
+Notez que celles-ci ne remplacent pas votre version stable, et elles sont installées séparément.
+{% endhint %}
+
+Source : [https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/](https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/)
+
 ## NextDNS
 
-### Installation
+#### Installation
 
 ```bash
 # Install the binary
@@ -84,7 +115,7 @@ sudo nextdns install \
   -setup-router
 ```
 
-### Basic Usage
+#### Basic Usage
 
 ```
 nextdns start      # Start the daemon
@@ -110,7 +141,9 @@ Source : [https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linu
 
 ### Mailspring
 
-La dernière version de Mailspring est disponible via un paquage RPM [téléchargeable depuis le site web](https://www.getmailspring.com/). Rendez-vous sur la page de téléchargement, sélectionnez "Linux" et cliquez sur "Linux (64-bit .rpm)". Ensuite, ouvrez une fenêtre de terminal et utilisez la commande CD pour le déplacer dans le dossier \~/Downloads.
+La dernière version de Mailspring est disponible via un paquage RPM [téléchargeable depuis le site web](https://www.getmailspring.com/). Rendez-vous sur la page de téléchargement, sélectionnez "Linux" et cliquez sur "Linux (64-bit .rpm)".&#x20;
+
+Ensuite, ouvrez une fenêtre de terminal et utilisez la commande CD pour le déplacer dans le dossier \~/Downloads.
 
 ```bash
 cd ~/Downloads
