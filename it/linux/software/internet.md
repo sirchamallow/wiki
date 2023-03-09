@@ -62,7 +62,7 @@ sudo dnf install brave-browser
 
 Source : [https://brave.com/linux/](https://brave.com/linux/)
 
-### Microsoft Edge
+## Microsoft Edge
 
 Importer la clé GPG pour l'import du fichier RPM:
 

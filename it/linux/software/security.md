@@ -23,7 +23,7 @@ Source : [https://docs.fedoraproject.org/fr/quick-docs/firewalld/](https://docs.
 
 ClamAV est Antivirus open-source
 
-### Guide d'installation
+#### Guide d'installation
 
 {% hint style="warning" %}
 Pré-requis : mettre à jour le système d'exploitation
@@ -33,13 +33,13 @@ Pré-requis : mettre à jour le système d'exploitation
 sudo dnf upgrade --refresh -y
 ```
 
-### Installation des dépendances
+#### Installation des dépendances
 
 ```bash
 sudo dnf install dnf-plugins-core -y
 ```
 
-### Installer ClamAV
+#### Installer ClamAV
 
 ```bash
 sudo dnf install clamav clamd clamav-update
@@ -59,7 +59,7 @@ Fedora utilise [SELinux](https://www.redhat.com/fr/topics/linux/what-is-selinux)
 sudo setsebool -P antivirus_can_scan_system 1
 ```
 
-### Mettre à jour la bade de données de virus
+#### Mettre à jour la bade de données de virus
 
 Après avoir installé ClamAV, il est conseillé de mettre à jour votre base de données de définitions de virus avant de commencer à utiliser le scanner de virus
 
@@ -70,14 +70,14 @@ sudo systemctl start clamav-freshclam # Démarrer le service
 systemctl status clamav-freshclam     # Vérifier le statut
 ```
 
-### Activer ou désactiver ClamAV au démarrage
+#### Activer ou désactiver ClamAV au démarrage
 
 ```bash
 sudo systemctl enable clamav-freshclam  # Activer ClamAV au démarrage
 sudo systemctl disable clamav-freshclam # Désactiver ClamAV au démarrage
 ```
 
-### Désinstaller ClamAV
+#### Désinstaller ClamAV
 
 ```bash
 sudo dnf autoremove clamav clamd clamav-update
@@ -94,13 +94,13 @@ Source : [https://www.clamav.net/documents/clam-antivirus-user-manual](https://w
 ClamTk est un GUI (une interface) pour ClamAV (Clam Antivirus). \
 Il est destiné à être facile d'utilisation, léger et facile à utiliser pour les systèmes Linux.
 
-### Installation
+#### Installation
 
 ```bash
 sudo dnf install clamtk
 ```
 
-### Désinstallation
+#### Désinstallation
 
 ```bash
 sudo dnf erase clamtk
@@ -116,3 +116,48 @@ Un logiciel de contrôle de bureau à distance, écrit en Rust. Fonctionne sans 
 Installation avec le paquet RPM :  [https://github.com/rustdesk/rustdesk/releases](https://github.com/rustdesk/rustdesk/releases) > Fedora
 {% endhint %}
 
+## Bitwarden
+
+Il existe plusieurs possiblitées d'installer Bitwarden sur Fedora, je préfère vous sélectionner celles-ci (via Snap), car il sera possible de mettre à jour le soft régulièrement.&#x20;
+
+#### Installation via Snapcraft
+
+{% hint style="info" %}
+Pré-requis : **Snapd** est nécéssaire
+{% endhint %}
+
+```bash
+sudo dnf install snapd
+```
+
+```bash
+sudo snap install bitwarden
+```
+
+Source : [https://bitwarden.com/download/](https://bitwarden.com/download/)
+
+{% hint style="info" %}
+Il existe également une CLI pour Bitwarden, vous pouvez la télécharger depuis la page d'aide : [https://bitwarden.com/help/cli/](https://bitwarden.com/help/cli/)
+{% endhint %}
+
+## 1Password
+
+Installation de 1Password en utilisant votre gestionnaire de paquets
+
+1.  Ajout de la clé du repo yum 1Password :
+
+    ```bash
+     sudo rpm --import https://downloads.1password.com/linux/keys/1password.asc
+    ```
+2.  Ajouter le repo yum 1Password :
+
+    ```bash
+     sudo sh -c 'echo -e "[1password]\nname=1Password Stable Channel\nbaseurl=https://downloads.1password.com/linux/rpm/stable/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=\"https://downloads.1password.com/linux/keys/1password.asc\"" > /etc/yum.repos.d/1password.repo'
+    ```
+3.  Installer 1Password:
+
+    ```bash
+     sudo dnf install 1password
+    ```
+
+Source : [https://1password.com/fr/downloads/linux/](https://1password.com/fr/downloads/linux/)
