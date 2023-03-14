@@ -39,7 +39,7 @@ Source : [https://developer.fedoraproject.org/tech/languages/php/php-installatio
 
 <figure><img src="../../../.gitbook/assets/rust-logo.png" alt=""><figcaption></figcaption></figure>
 
-### Rust
+#### Rust
 
 ```bash
 sudo dnf install rust cargo
@@ -51,7 +51,7 @@ This will install the compiler (`rustc`), standard library, gdb support, documen
 
 Source : [https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html](https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html)
 
-### rustup
+#### rustup
 
 rustup est un installateur pour le langage de programmation Rust
 
@@ -61,7 +61,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Source : [https://rustup.rs/](https://rustup.rs/)
 
-### rustlings
+#### rustlings
 
 Le projet **rustlings** contient de petits exercices pour vous habituer à lire et à écrire du code Rust. Cela inclut la lecture et la réponse aux messages du compilateur
 
@@ -78,7 +78,7 @@ Source : [https://github.com/rust-lang/rustlings#manually](https://github.com/ru
 
 <figure><img src="../../../.gitbook/assets/Ruby-logo (1).png" alt=""><figcaption></figcaption></figure>
 
-### Dépendances
+#### Dépendances
 
 Avant d'installer Ruby, installons [`rbenv`](https://github.com/sstephenson/rbenv), un software qui installe et manage les environnements `ruby`. La première étape consiste à installer les dépendances pour Ruby.
 
@@ -86,7 +86,7 @@ Avant d'installer Ruby, installons [`rbenv`](https://github.com/sstephenson/rben
 sudo dnf install git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
 ```
 
-### rbenv
+#### rbenv
 
 Maintenant installons _**rbenv**_
 
@@ -99,7 +99,7 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 exec $SHELL
 ```
 
-### Ruby
+#### Ruby
 
 Maintenant, nous sommes êtes prêt à installer _**ruby**_ et à définir la version par défaut.
 
@@ -114,7 +114,7 @@ ruby --version         # Check your Ruby version
 Si le message commence par `ruby 3.1.2p` , continuez 👍
 {% endhint %}
 
-### gems
+#### gems
 
 Installons maintenant quelques gems 🤗
 
@@ -147,7 +147,7 @@ Si le message `xx gems installed`, s'affiche tout est bon 👍
 N'installez **JAMAIS** une gemme avec `sudo gem install`! Même si vous tombez sur une réponse de Stackoverflow (ou le terminal) vous indiquant de le faire.
 {% endhint %}
 
-### Bundler
+#### Bundler
 
 ```bash
 sudo dnf install rubygem-bundler
@@ -193,7 +193,7 @@ Source : [https://docs.flutter.dev/get-started/install/linux](https://docs.flutt
 
 <figure><img src="../../../.gitbook/assets/2560px-Node.js_logo.svg.png" alt=""><figcaption></figcaption></figure>
 
-### NodeJS
+#### NodeJS
 
 Démarrons l'installation avec cette commande :&#x20;
 
@@ -211,7 +211,7 @@ node --version
 Si le message affiche `v16.15.1` ou autre version, vous pouvez continuer
 {% endhint %}
 
-### nvm
+#### nvm
 
 nvm est manager de version de Node. Il fonctionne sur n'importe quel shell compatible POSIX (sh, dash, ksh, zsh, bash), en particulier sur les plateformes suivantes : UNIX, macOS, et windows WSL.
 
@@ -244,7 +244,7 @@ En cas de réussite, `nvm` devrait afficher.
 
 Source : [https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html) & [https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
 
-### yarn
+#### yarn
 
 <figure><img src="../../../.gitbook/assets/yarn_image.png" alt=""><figcaption></figcaption></figure>
 
@@ -264,7 +264,7 @@ yarn --version
 Si le message affiche `v1.22.17` ou autre version, vous pouvez continuer
 {% endhint %}
 
-### npm
+#### npm
 
 <figure><img src="../../../.gitbook/assets/Npm-logo.png" alt=""><figcaption></figcaption></figure>
 
@@ -309,7 +309,7 @@ source ~/.profile
 
 <figure><img src="../../../.gitbook/assets/Java.png" alt=""><figcaption></figcaption></figure>
 
-### Gradle
+#### Gradle
 
 {% hint style="info" %}
 **Pré-requis** : nécéssite le gestionnaire de paquet SDKMAN!
@@ -323,7 +323,7 @@ sdk install gradle 7.6
 
 Source : [https://gradle.org/install/](https://gradle.org/install/)
 
-### SDKMAN!
+#### SDKMAN!
 
 Installation via le gestionnaire de paquet SDKMAN!
 
@@ -344,7 +344,7 @@ Si le message affiche `v5.16.0` ou autre version, vous pouvez continuer
 
 Source : [https://sdkman.io/install](https://sdkman.io/install)
 
-### WAR
+#### WAR
 
 work in progress section
 
@@ -362,7 +362,7 @@ Pré-requis : nécéssite le gestionnaire de paquet SDKMAN!
 sdk install scala
 ```
 
-### SBT
+#### SBT
 
 Install SBT
 
