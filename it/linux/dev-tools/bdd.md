@@ -1,6 +1,6 @@
 # 🥞 Base de données
 
-### Redis
+## Redis
 
 <figure><img src="../../../.gitbook/assets/langfr-2560px-Redis_Logo.png" alt=""><figcaption></figcaption></figure>
 
@@ -12,7 +12,7 @@ sudo systemctl enable redis 	        # To start redis on boot, run
 
 Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](https://developer.fedoraproject.org/tech/database/redis/about.html)
 
-### PostgreSQL
+## PostgreSQL
 
 #### Installation
 
@@ -56,7 +56,7 @@ sudo pip install pgcli
 
 Source : [https://www.pgcli.com/install](https://www.pgcli.com/install)
 
-### SQLite
+## SQLite
 
 Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
 
@@ -81,3 +81,26 @@ Si le message affiche `v3.36.0` ou autre version, vous pouvez continuer
 {% endhint %}
 
 Source : [https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/](https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/)
+
+## S3cmd
+
+S3cmd est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le protocole S3, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
+
+#### Installation de S3cmd à partir de PyPA (Python Package Authority)
+
+S3cmd peut être installé à partir de PyPA en utilisant PIP (l'outil recommandé pour PyPA).
+
+{% hint style="info" %}
+Vérifions d'abord si PIP est déjà installer sur votre machine
+{% endhint %}
+
+```bash
+sudo yum install python-pip
+```
+
+Installation via PIP
+
+```
+sudo pip install s3cmd
+```
+
