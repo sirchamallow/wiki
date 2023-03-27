@@ -100,7 +100,7 @@ sudo yum install python-pip
 
 Installation via PIP
 
-```
+```bash
 sudo pip install s3cmd
 ```
 
