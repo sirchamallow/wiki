@@ -4,8 +4,6 @@ description: Quelques astuces pour Fedora
 
 # 💡 Astuces
 
-## Astuces
-
 ### Commandes de bases
 
 **Dandified Yum** ou **DNF** est un [gestionnaire de paquets](https://fr.wikipedia.org/wiki/Gestionnaire\_de\_paquets). C’est le successeur de [YUM](https://fr.wikipedia.org/wiki/Yellowdog\_Updater,\_Modified). Pour les commandes les plus courantes, son usage est identique à celui de yum.\
@@ -58,6 +56,16 @@ sudo dnf system-upgrade download --releasever=34 --allowerasing
 ```
 
 Source : [https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora](https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora)
+
+### Passer en user root
+
+Pour passer en user root sur Fedora, taper
+
+```bash
+sudo su -
+```
+
+Et le mot de passe qui va avec :)
 
 ### Reset mot de passe root / session
 
