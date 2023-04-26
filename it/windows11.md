@@ -8,7 +8,7 @@ description: Astuces & Liste d'appplications pour Windows 10/11
 
 Dans un **second temps**, il vous faudra installer vos logiciels. \
 Pour vous faire gagner du temps dans cette étape (parfois très longue), il existe un gestionnaire de paquet pour Windows. Son nom ? [**Chocolatey**](https://chocolatey.org/)**.** \
-****Il vous permettra d'installer un paquet de logiciels en un temps records !&#x20;
+Il vous permettra d'installer un paquet de logiciels en un temps records !&#x20;
 
 {% hint style="success" %}
 Il existe une interface graphique pour le gestionnaire > [Chocolatey-GUI](https://community.chocolatey.org/packages/ChocolateyGUI)
@@ -148,3 +148,8 @@ Avec le refrain classique "nous nous servons de cette télémétrie pour amélio
 \
 Il vous sera nécessaire soit de vous plonger dans les tâches planifiées, le registre et les services de Windows en suivant par exemple [ce guide de PC-Astuces](https://www.pcastuces.com/pratique/astuces/4871.htm), ou un installant [ce package depuis Chocolatey](https://chocolatey.org/packages/disable-nvidia-telemetry).
 
+**Désactiver les services inutiles**
+
+Pour des solutions officielles concernant l'optimisation de windows, afin de Désactiver les services inutiles il y a le site de Microsoft :
+
+{% embed url="https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/optimize-your-device/services" %}
