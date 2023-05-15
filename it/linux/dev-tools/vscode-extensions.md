@@ -15,6 +15,8 @@ Copier / Coller les lignes de commandes suivantes dans votre terminal pour insta
 <pre class="language-bash"><code class="lang-bash">## Stylish
 code --install-extension emmanuelbeziat.vscode-great-icons # VSCode Great Icons
 code --install-extension github.github-vscode-theme        # GitHub Theme
+code --install-extension Catppuccin.catppuccin-vsc         # Catppuccin Theme
+code --install-extension Catppuccin.catppuccin-vsc-icons   # Catppuccin icons
 code --install-extension mhutchie.git-graph                # Git Graph
 code --install-extension soerenuhrbach.vscode-deepl        # Deepl Translate
 
