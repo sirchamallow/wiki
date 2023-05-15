@@ -4,6 +4,8 @@ description: Une sélection de résolveurs DNS public
 
 # 📖 Liste de résolveur DNS public
 
+## Fiable
+
 ### **FDN – French Data Network**
 
 {% hint style="info" %}
@@ -32,7 +34,25 @@ Source : [https://www.ccc.de/de/censorship/dns-howto](https://www.ccc.de/de/cens
 IPv4 : 213.73.91.35
 ```
 
-### **Quad9**
+### dnsforge.de DNS Resolver
+
+{% hint style="info" %}
+Source : [https://dnsforge.de](https://dnsforge.de/)
+{% endhint %}
+
+{% tabs %}
+{% tab title="IPv4" %}
+IPv4: `176.9.93.198`\
+IPv4: `176.9.1.117`
+{% endtab %}
+
+{% tab title=" IPv6" %}
+IPv6: `2a01:4f8:151:34aa::198`\
+IPv6: `2a01:4f8:141:316d::117`
+{% endtab %}
+{% endtabs %}
+
+### **Quad9 (9.9.9.9)**
 
 {% hint style="info" %}
 Source : [**https://www.quad9.net**](https://www.quad9.net/)
@@ -89,7 +109,7 @@ Source : [**https://developers.google.com/speed/public-dns**](https://developers
 ### **DNS Watch**
 
 {% hint style="info" %}
-Source : **** [**https://dns.watch**](https://dns.watch/)
+Source :  [**https://dns.watch**](https://dns.watch/)
 {% endhint %}
 
 {% tabs %}
@@ -121,6 +141,10 @@ Source : [https://blog.uncensoreddns.org/dns-servers](https://blog.uncensoreddns
 2a01:3a0:53:53::
 {% endtab %}
 {% endtabs %}
+
+## **Locals**
+
+Je conseil leurs utilisations uniquement à des fins de tests de connexions russes ou US
 
 ### **Yandex.DNS**
 
@@ -170,7 +194,7 @@ Source : [https://dns.yandex.com](https://dns.yandex.com/)
 {% endtab %}
 {% endtabs %}
 
-**Sprint DNS**
+### **Sprint DNS**
 
 {% hint style="info" %}
 Source : [https://www.sprint.net/index.php?p=faq\_dns](https://www.sprint.net/index.php?p=faq\_dns)
@@ -224,14 +248,16 @@ Source : [https://www.sprint.net/index.php?p=faq\_dns](https://www.sprint.net/in
 {% endtab %}
 {% endtabs %}
 
+## Others
+
 ### **OpenNic**
 
 {% hint style="info" %}
-&#x20;**** [Source : https://www.opennicproject.org](https://www.opennicproject.org/)
+&#x20;[Source : https://www.opennicproject.org](https://www.opennicproject.org/)
 {% endhint %}
 
 ### **Knot Resolver**&#x20;
 
 {% hint style="info" %}
-Source : **** [https://www.knot-resolver.cz](https://www.knot-resolver.cz)
+Source : [https://www.knot-resolver.cz](https://www.knot-resolver.cz)
 {% endhint %}
