@@ -31,6 +31,18 @@ sudo systemctl start postgresql-15
 
 Source : [https://www.postgresql.org/download/linux/redhat/](https://www.postgresql.org/download/linux/redhat/)
 
+#### Quelques raccourcis utiles (cheatsheet)
+
+```bash
+\q    # Quitter la base de donnée
+\duf+ # Liste des utilisateurs & leurs droits
+\?    # Voir toutes les commandes posgres
+\l    # Liste de toutes les base de données
+\dt   # Voir toutes les tables de la db
+\h    # Voir toutes les commandes SQL
+SELECT version(); # Identifier la version de postgres installer
+```
+
 #### Désinstallation
 
 Vous pouvez utilisez la commande DNF suivante pour désinstaller PostgreSQL depuis une distribution Fedora
