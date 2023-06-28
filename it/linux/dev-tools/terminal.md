@@ -8,13 +8,19 @@
 
 **tmux** est un multiplexeur de terminaux libre en mode texte. Il permet d'utiliser plusieurs terminaux virtuels dans une seule fenêtre de terminal ou une session sur un terminal distant. tmux peut être détaché d'une session et continuer de fonctionner en arrière-plan, on peut également s'y rattacher plus tard. [Wikipédia](https://fr.wikipedia.org/wiki/Tmux)
 
+### Cheatsheet
+
+##
+
 ### Installation
 
 ```bash
 sudo dnf -y install tmux
 ```
 
-Source : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https://fedoramagazine.org/use-tmux-more-powerful-terminal/)
+{% hint style="success" %}
+[https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https://fedoramagazine.org/use-tmux-more-powerful-terminal/)
+{% endhint %}
 
 {% hint style="info" %}
 Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
@@ -24,7 +30,11 @@ Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
 
 <figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt=""><figcaption></figcaption></figure>
 
+### **Description**
+
 dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
+
+### Installation
 
 ```bash
 sudo dnf install snapd		      # Enable Snapd
@@ -44,7 +54,13 @@ Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
 
 <figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt=""><figcaption></figcaption></figure>
 
+
+
+**Description**
+
 Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
+
+### Installation
 
 ```bash
 echo -e "[duck-stable]\nname=duck-stable\nbaseurl=https://repo.cyberduck.io/stable/\$basearch/\nenabled=1\ngpgcheck=0" | sudo tee /etc/yum.repos.d/duck-stable.repo
@@ -57,7 +73,11 @@ Source & Site web : [https://duck.sh/](https://duck.sh/)
 
 ## **MTR (**_**My Traceroute**_**)**
 
+### **Description**
+
 Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
+
+### Installation
 
 
 
