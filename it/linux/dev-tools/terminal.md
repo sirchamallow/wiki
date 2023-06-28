@@ -40,7 +40,7 @@ Source : [https://snapcraft.io/install/dog/fedora](https://snapcraft.io/install/
 Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
 {% endhint %}
 
-### Cyberduck CLI
+## Cyberduck CLI
 
 <figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -55,3 +55,16 @@ sudo yum install duck
 Source & Site web : [https://duck.sh/](https://duck.sh/)
 {% endhint %}
 
+## **MTR (**_**My Traceroute**_**)**
+
+Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
+
+
+
+{% hint style="success" %}
+Source : [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
+{% endhint %}
+
+{% hint style="info" %}
+Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
+{% endhint %}
