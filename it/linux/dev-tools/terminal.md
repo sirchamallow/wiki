@@ -10,7 +10,9 @@
 
 ### Cheatsheet
 
-##
+{% hint style="info" %}
+Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
+{% endhint %}
 
 ### Installation
 
@@ -19,11 +21,7 @@ sudo dnf -y install tmux
 ```
 
 {% hint style="success" %}
-[https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https://fedoramagazine.org/use-tmux-more-powerful-terminal/)
-{% endhint %}
-
-{% hint style="info" %}
-Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
+Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https://fedoramagazine.org/use-tmux-more-powerful-terminal/)
 {% endhint %}
 
 ## Dog
@@ -56,7 +54,7 @@ Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
 
 
 
-**Description**
+### **Description**
 
 Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
 
@@ -79,7 +77,9 @@ Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions
 
 ### Installation
 
-
+```bash
+sudo dnf install mtr
+```
 
 {% hint style="success" %}
 Source : [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
