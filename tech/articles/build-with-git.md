@@ -48,7 +48,7 @@ Git, et les plateformes associées, telles que [GitHub](https://github.com/), so
 
 ## **Commits et gestion de version**
 
-Au cœur de [Git](https://git-scm.com/) se trouve un mécanisme permettant de _gérer les versions_ d’une base de code. (_le **versioning**_** ** en anglais)
+Au cœur de [Git](https://git-scm.com/) se trouve un mécanisme permettant de _gérer les versions_ d’une base de code. (_le **versioning**_ en anglais)
 
 **Chaque version de la base de code est, pour faire simple, un instantané de la base de code, associé à sa date de création. C’est ce qui donne une gestion de version, parce qu’il est possible de remonter dans le temps, pour retrouver n’importe quel instantané.**
 

@@ -34,7 +34,7 @@ sudo dnf install libgtop2-devel lm_sensors
 
 #### Activation
 
-Rendez-vous ensuite sur **** [le site web de Gnome Extensions](https://extensions.gnome.org/extension/1460/vitals/), recherchez **Vitals** et cliquez sur l'icône switch.
+Rendez-vous ensuite sur [le site web de Gnome Extensions](https://extensions.gnome.org/extension/1460/vitals/), recherchez **Vitals** et cliquez sur l'icône switch.
 
 {% hint style="success" %}
 À ce stade, Vitals devrait fonctionner. Si vous inversez les étapes 1 et 2 ci-dessus, vous devrez redémarrer votre session en vous déconnectant, puis à nouveau.
@@ -52,7 +52,7 @@ Un fork de Dash to Dock. Un dock pour bureau sur Linux.
 
 #### Installation & Activation
 
-Rendez-vous sur **** [le site web de Gnome Extensions](https://extensions.gnome.org), recherchez **** [**Dash to Dock for COSMIC**](https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/) **** et cliquez sur l'icône switch.
+Rendez-vous sur [le site web de Gnome Extensions](https://extensions.gnome.org), recherchez [**Dash to Dock for COSMIC**](https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/) et cliquez sur l'icône switch.
 
 {% hint style="info" %}
 Source : [https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock](https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock)
@@ -72,7 +72,7 @@ sudo dnf install gnome-shell-extension-mediacontrols
 
 #### Activation
 
-Rendez-vous ensuite sur **** le [site web de Gnome Extensions](https://extensions.gnome.org/), recherchez **** [**Media Controls**](https://extensions.gnome.org/extension/4470/media-controls/) **** et cliquez sur l'icône switch.
+Rendez-vous ensuite sur le [site web de Gnome Extensions](https://extensions.gnome.org/), recherchez [**Media Controls**](https://extensions.gnome.org/extension/4470/media-controls/) et cliquez sur l'icône switch.
 
 {% hint style="info" %}
 Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliffniff/media-controls/blob/main/README.md)
@@ -90,7 +90,7 @@ Pré-requis :  V20+ nécessite python comme dépendance.
 
 #### Activation
 
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez **** [**Sound Input & Outpout Device Chooser**](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) **** et cliquez sur l'icône switch.
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez [**Sound Input & Outpout Device Chooser**](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) et cliquez sur l'icône switch.
 
 {% hint style="info" %}
 Source : [https://github.com/kgshank/gse-sound-output-device-chooser](https://github.com/kgshank/gse-sound-output-device-chooser)
@@ -112,7 +112,7 @@ Inclut le support de [Bumblebee](https://www.bumblebee-project.org/).
 
 #### Activation
 
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez **** [**Nvidia GPU Stats Tool**](https://extensions.gnome.org/extension/1320/nvidia-gpu-stats-tool) **** et cliquez sur l'icône switch.
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez [**Nvidia GPU Stats Tool**](https://extensions.gnome.org/extension/1320/nvidia-gpu-stats-tool) et cliquez sur l'icône switch.
 
 {% hint style="info" %}
 Source : [https://github.com/ethanwharris/gnome-nvidia-extension](https://github.com/ethanwharris/gnome-nvidia-extension)
@@ -144,7 +144,7 @@ gnome-extensions enable clipboard-indicator@tudmotu.com
 
 #### Option 2 - Installation depuis GNOME Extensions
 
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez **Clipboard Indicator** et cliquez sur l'icône switch.
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez **Clipboard Indicator** et cliquez sur l'icône switch.
 
 {% hint style="info" %}
 Source : [https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator)
@@ -158,7 +158,7 @@ Pour écouter des radios / webradios
 
 #### Activation
 
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez **** [**Internet Radio**](https://extensions.gnome.org/extension/836/internet-radio/) **** et cliquez sur l'icône switch.
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez [**Internet Radio**](https://extensions.gnome.org/extension/836/internet-radio/) et cliquez sur l'icône switch.
 
 {% hint style="info" %}
 Source : [https://github.com/hslbck/gnome-shell-extension-radio](https://github.com/hslbck/gnome-shell-extension-radio)
@@ -172,7 +172,7 @@ Désactiver les éléments de l'interface utilisateur de GNOME, modifier le comp
 
 #### Activation
 
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/extension/3843/just-perfection/), recherchez **** [**Just Perfection**](https://extensions.gnome.org/extension/3843/just-perfection/) **** et cliquez sur l'icône switch
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/extension/3843/just-perfection/), recherchez [**Just Perfection**](https://extensions.gnome.org/extension/3843/just-perfection/) et cliquez sur l'icône switch
 
 {% hint style="info" %}
 Source : [https://gitlab.gnome.org/jrahmatzadeh/just-perfection](https://gitlab.gnome.org/jrahmatzadeh/just-perfection)
@@ -187,7 +187,7 @@ Ramène les icônes de plateau au panneau supérieur, avec des fonctionnalités 
 
 #### Activation
 
-Rendez-vous sur **** le site web de [Gnome Extensions](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/), recherchez **** [Tray Icons: Reloaded](https://app.gitbook.com/s/Pp6PcTwYyYLWwFxkG4Q4/the-basics/change-requests) **** et cliquez sur l'icône switch
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/), recherchez [Tray Icons: Reloaded](http://localhost:5000/s/Pp6PcTwYyYLWwFxkG4Q4/the-basics/change-requests) et cliquez sur l'icône switch
 
 {% hint style="info" %}
 Source : [https://github.com/MartinPL/Tray-Icons-Reloaded](https://github.com/MartinPL/Tray-Icons-Reloaded)

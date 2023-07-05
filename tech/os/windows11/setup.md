@@ -132,9 +132,9 @@ Cliquez sur la barre de recherche, ensuite sur \[...] puis "Pararètres de reche
 ### Désépingler un éléméentde l'accès rapide&#x20;
 
 Faites un clique droit sur les catégories suivantes : _Musique_, _Images_ , _Documents_, _Vidéos_\
-__et cliquez ensuite sur "Désépingler de l'accès rapide".
+et cliquez ensuite sur "Désépingler de l'accès rapide".
 
 ### Epingler un élément à l'accès rapide
 
 Faites un clique droit sur les catégories suivantes : _Ce PC_, _Réseau_\
-__et cliquez ensuite sur "Epingler à l'accès rapide"
+et cliquez ensuite sur "Epingler à l'accès rapide"

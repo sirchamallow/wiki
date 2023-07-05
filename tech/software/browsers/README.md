@@ -138,6 +138,5 @@ Lire un JSON depuis votre navigateur
 {% endtab %}
 {% endtabs %}
 
-****
 
-****
+

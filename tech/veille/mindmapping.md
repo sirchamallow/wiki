@@ -16,8 +16,8 @@ Une "carte [heuristique](https://fr.wikipedia.org/wiki/Heuristique)" est un diag
 Le terme _carte heuristique_ vient du grec ancien _eurisko_, « je trouve ». \
 Il est nommé [_mind map_](https://en.wikipedia.org/wiki/Mind\_mapping) en anglais, et aussi _carte des idées_, _schéma de pensée_, _carte mentale_, _arbre à idées_ ou encore _topogramme_ en français. \
 Le système de représentation hiérarchique aurait été inventé par [Aristote](https://fr.wikipedia.org/wiki/Aristote). \
-****\
-****Le concept des cartes heuristiques a ensuite été formalisé par un psychologue anglais, [Tony Buzan](https://fr.wikipedia.org/wiki/Tony\_Buzan). \
+\
+Le concept des cartes heuristiques a ensuite été formalisé par un psychologue anglais, [Tony Buzan](https://fr.wikipedia.org/wiki/Tony\_Buzan). \
 L’idée lui vint alors qu’il écrivait _Une encyclopédie du cerveau et de son utilisation_ (_An Encyclopedia of the Brain and Its Use_) en 1971.
 
 _Source :_ [_Wikipedia_](https://fr.wikipedia.org/wiki/Mindmapping)

@@ -39,7 +39,7 @@ Une fois configuré, les chaînes et le programme TV se chargent automatiquement
 _NB: vous pouvez également choisir l'intégration basique, dans ce cas vous devez passer manuellement à_ [_IPTV Simple_](https://github.com/kodi-pvr/pvr.iptvsimple) _les fichiers .m3u8 et .xml situés dans le dossier data._
 
 Vous devriez maintenant voir toutes les chaînes regroupées par categories dans la section TV. \
-__S'il n'est pas déjà installé, Kodi vous demandera d'installer l'outil de décryptage quand vous regarderez une chaîne pour la première fois.
+S'il n'est pas déjà installé, Kodi vous demandera d'installer l'outil de décryptage quand vous regarderez une chaîne pour la première fois.
 
 N'oubliez pas de configurer IPTV Manager correctement et de sélectionner le bon fournisseur dans les paramètres ;) !
 

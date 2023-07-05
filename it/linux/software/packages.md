@@ -50,7 +50,7 @@ Certains ne sont même parfois disponibles que dans ce format.\
 Bonne nouvelle, Flatpak est installé par défaut sur Fedora Workstation :)&#x20;
 
 {% hint style="success" %}
-Pour télécharger des applications, [rendez-vous sur **Flathub**](https://flathub.org/)****
+Pour télécharger des applications, [rendez-vous sur **Flathub**](https://flathub.org/)
 {% endhint %}
 
 Si pour une raison quelquonque ça ne marche pas, vous pouvez ajouter manuellement la télécommande **Flathub** en exécutant:

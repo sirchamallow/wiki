@@ -14,9 +14,9 @@ Wow
 
 Bonjour, je suis Pierre LEMASSON, développeur web 🇫🇷 🇪🇺 passionné de veille.
 
-* Vous souhaitez me contacter👉 ? Mon email : [_**sir.chamallow@protonmail.com**_](mailto:sir.chamallow@protonmail.com)****
-* Visiter mon profil [**Linkedin**](https://www.linkedin.com/in/pierrelemasson)****
-* Découvrez [**mon blog**](https://sir.chamallow.com)****
+* Vous souhaitez me contacter👉 ? Mon email : [_**sir.chamallow@protonmail.com**_](mailto:sir.chamallow@protonmail.com)
+* Visiter mon profil [**Linkedin**](https://www.linkedin.com/in/pierrelemasson)
+* Découvrez [**mon blog**](https://sir.chamallow.com)
 * Newsletter 👉 Abonnez-vous à mes [**carnets de veille**](https://sirchamallow.substack.com/) !
 
 
