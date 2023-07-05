@@ -63,29 +63,32 @@ La F2 E dispose d'un système de géolocalisation, vous offre différents aspect
 * Jusqu'à 20% d'angle de montée
 * Pneumatiques tubeless auto-réparateurs de 10 pouces avec couche de gelée
 * Clignotants avant et arrière intégrés pour des déplacements en toute sécurité
-* Système de contrôle de la traction anti-dérapage (TCS)
 * Apple Find My (pour IOS seulement.)
 
-### Détails
+#### Batterie
 
-* #### Autonomie de la batterie
-  * Type de batterie : Lithium Ion
-  * Capacité de la batterie (en Wh) : 460
-  * Autonomie : Jusqu'à 55 km
-  * Temps de charge : Charge standard (8h).
-* #### Equipement
-  * Avertisseur sonore : Sonnette
-  * Béquille intégrée : Oui, parfait pour le stationnement
-  * Charge maximale supportée : 120,0 kg
-  * Poignées rabattables : Non
-  * Taille des roues : 10,0 pouces
-  * Type de roue avant : Tubeless avec couche de gelée
-  * Type de roue arrière : Tubeless avec couche de gelée
-  * Amortisseur : Non équipé
-  * Position des freins : Aux poignées
-  * Type de freins : Électronique + disque
-  * Clignotants : Oui
-  * Feux stop : Oui
+| Batterie                 |               |
+| ------------------------ | ------------- |
+| Type de batterie         | Lithium Ion   |
+| Capacité de la batterie  | 460 Wh        |
+| Autonomie                | Jusqu'à 55 km |
+| Temps de charge          | 8h            |
+
+#### Equipement
+
+| Equipement                |                               |
+| ------------------------- | ----------------------------- |
+| Avertisseur sonore        | Sonnette                      |
+| Béquille intégrée         | Oui                           |
+| Charge maximale supportée | 120 Kg                        |
+| Taille des roues          | 10,0 pouces                   |
+| Type de roue avant        | Tubeless avec couche de gelée |
+| Type de roue arrière      | Tubeless avec couche de gelée |
+| Position des freins       | Aux poignées                  |
+| Type de freins            | Électronique + disque         |
+| Clignotants               | Oui                           |
+| Feux stop                 | Oui                           |
+
 * #### Motorisation
   * Montée des pentes : 20 %
   * Emplacement moteur : Roue arrière
