@@ -404,3 +404,21 @@ sudo dnf install fedy -y
 ```
 
 Source : [https://fosspost.org/things-to-do-after-installing-fedora-37/](https://fosspost.org/things-to-do-after-installing-fedora-37/)
+
+### Connaitre la taille du disque ou répertoire
+
+#### Taille du disque&#x20;
+
+La commande `df -h` (_disk free human-readable_) permet d’afficher à l’écran la taille de l’espace disque occupée, et la taille de l’espace disque libre de manière lisible (sans le -h la taille des fichiers serait en octet)&#x20;
+
+Taper `df -h` pour afficher le résultat ;)
+
+#### Taille des répertoires
+
+La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille d’un répertoire et de tous les sous répertoires récursifs qu’il contient.&#x20;
+
+1. `pwd` : pour savoir dans quel répertoire vous vous trouvez actuellement.
+2. `ls` ou `tree` : pour afficher la liste des fichiers&#x20;
+3. `du -h` : pour connaitre la taille occuper par les fichiers du répertoires.&#x20;
+4. d`u -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
+5. `du -sh * | sort -hk1` : pour lister les répertoires, leurs tailles par ordre croissant
