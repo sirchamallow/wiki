@@ -86,8 +86,9 @@
 
 ## 🤪 Multiverse
 
-* [Divers](multiverse/divers.md)
-* [Parentalité](multiverse/parentalite/README.md)
+* [🤠 Divers](multiverse/divers.md)
+* [👶 Parentalité](multiverse/parentalite/README.md)
   * [Petite Enfance](multiverse/parentalite/petite-enfance.md)
-* [Bricolage](multiverse/bricolage.md)
+* [🐱 Animaux](multiverse/animaux.md)
+* [🗜 Bricolage](multiverse/bricolage.md)
 * [🛴 Mobilité](multiverse/mobilite.md)
