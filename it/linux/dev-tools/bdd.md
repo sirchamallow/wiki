@@ -2,7 +2,7 @@
 
 ## Redis
 
-<figure><img src="../../../.gitbook/assets/langfr-2560px-Redis_Logo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/langfr-2560px-Redis_Logo.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ```bash
 sudo dnf install redis     		# Install redis cli and server
@@ -66,7 +66,63 @@ sudo yum install python-pip
 sudo pip install pgcli
 ```
 
-Source : [https://www.pgcli.com/install](https://www.pgcli.com/install)
+Source : [https://www.pgcli.com/install](https://www.pgcli.com/install)&#x20;
+
+## MySQL
+
+<figure><img src="../../../.gitbook/assets/mysql.png" alt="" width="375"><figcaption></figcaption></figure>
+
+**Installation**
+
+Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
+
+```bash
+sudo dnf upgrade --refresh -y
+```
+
+Installer MySQL
+
+```bash
+sudo dnf install community-mysql-server
+```
+
+Vérifier la version de MySQL
+
+```bash
+mysql --version
+```
+
+{% hint style="success" %}
+Si le message affiche `v8.0` ou autres version, vous pouvez continuer
+{% endhint %}
+
+Commandes
+
+```bash
+sudo systemctl enable mysqld   # Active le service
+sudo systemctl start mysqld    # Démarrre le service
+sudo systemctl restart mysqld  # Redémarrer le service
+```
+
+Configurer MySQL avant la première utilisation
+
+```bash
+sudo mysql_secure_installation
+```
+
+Utiliser MySQL
+
+```bash
+sudo mysql -u root -p
+```
+
+**Désinstallation**
+
+```bash
+sudo dnf remove community-mysql-server
+```
+
+Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/)
 
 ## SQLite
 
@@ -82,7 +138,7 @@ Ensuite procéder à l'installation
 sudo dnf install sqlite
 ```
 
-Vérifier la version de SQL Lite 3
+Vérifier la version de SQL Lite installer
 
 ```bash
 sqlite3 --version

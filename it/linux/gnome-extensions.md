@@ -187,7 +187,7 @@ Ramène les icônes de plateau au panneau supérieur, avec des fonctionnalités 
 
 #### Activation
 
-Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/), recherchez [Tray Icons: Reloaded](http://localhost:5000/s/Pp6PcTwYyYLWwFxkG4Q4/the-basics/change-requests) et cliquez sur l'icône switch
+Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/), recherchez [Tray Icons: Reloaded](http://127.0.0.1:5000/s/Pp6PcTwYyYLWwFxkG4Q4/the-basics/change-requests) et cliquez sur l'icône switch
 
 {% hint style="info" %}
 Source : [https://github.com/MartinPL/Tray-Icons-Reloaded](https://github.com/MartinPL/Tray-Icons-Reloaded)
