@@ -14,6 +14,8 @@ Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](ht
 
 ## PostgreSQL
 
+<figure><img src="../../../.gitbook/assets/postgresql.png" alt="" width="375"><figcaption></figcaption></figure>
+
 #### Installation
 
 ```bash
@@ -125,6 +127,8 @@ sudo dnf remove community-mysql-server
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/)
 
 ## SQLite
+
+<figure><img src="../../../.gitbook/assets/sqlite.png" alt="" width="250"><figcaption></figcaption></figure>
 
 Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
 
