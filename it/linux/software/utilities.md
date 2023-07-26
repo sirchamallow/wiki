@@ -94,6 +94,20 @@ Source : [https://apps.kde.org/fr/kolourpaint/](https://apps.kde.org/fr/kolourpa
 Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
 {% endhint %}
 
+## Htop
+
+**htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
+
+**Installation**
+
+```bash
+sudo dnf install htop
+```
+
+{% hint style="info" %}
+Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
+{% endhint %}
+
 ## Discord
 
 ```bash
@@ -101,7 +115,9 @@ sudo dnf update
 sudo dnf install discord
 ```
 
+{% hint style="info" %}
 Source : [https://itsfoss.com/install-discord-fedora/](https://itsfoss.com/install-discord-fedora/)
+{% endhint %}
 
 #### Désactiver le pop de mise à jour automatique (parfois bloquant)
 
