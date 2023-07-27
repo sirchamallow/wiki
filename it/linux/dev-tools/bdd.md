@@ -101,8 +101,8 @@ Si le message affiche `v8.0` ou autres version, vous pouvez continuer
 Commandes
 
 ```bash
-sudo systemctl enable mysqld   # Active le service
 sudo systemctl start mysqld    # Démarrre le service
+sudo systemctl enable mysqld   # Active le service
 sudo systemctl restart mysqld  # Redémarrer le service
 ```
 
@@ -153,6 +153,35 @@ Si le message affiche `v3.36.0` ou autre version, vous pouvez continuer
 {% endhint %}
 
 Source : [https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/](https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/)
+
+## MongoDB
+
+<figure><img src="../../../.gitbook/assets/MDB_BIG.png" alt="" width="375"><figcaption></figcaption></figure>
+
+**Installation**
+
+```bash
+sudo dnf -y install mongodb-org
+```
+
+Vérifier la version de MongoDB installer
+
+```bash
+mongo --version
+```
+
+{% hint style="success" %}
+Si le message affiche v4.4.4 ou autre version, vous pouvez continuer
+{% endhint %}
+
+Commandes
+
+<pre class="language-bash"><code class="lang-bash">sudo systemctl start mongod.service  # Démarrre le service
+sudo systemctl enable mongod.service # Active le service
+<strong>sudo systemctl status mongod.servic  # Vérifier l'état du service
+</strong></code></pre>
+
+Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1](https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1)
 
 ## S3cmd
 
