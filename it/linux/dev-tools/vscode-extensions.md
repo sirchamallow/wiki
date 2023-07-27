@@ -30,6 +30,7 @@ code --install-extension ms-vscode-remote.vscode-remote-extensionpack # Remote D
 
 ## Tools
 code --install-extension dbaeumer.vscode-eslint             # ESLint
+code --install-extension Postman.postman-for-vscode         # Postman
 code --install-extension Rubymaniac.vscode-paste-and-indent # Paste and Indent
 code --install-extension usernamehw.errorlens               # Error Lens
 code --install-extension rangav.vscode-thunder-client       # Thunder Client
@@ -38,13 +39,9 @@ code --install-extension IronGeek.vscode-env                # ENV
 code --install-extension KnisterPeter.vscode-commitizen     # Commitizen
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 <strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL for Visual Studio Code
-</strong>code --install-extension Blackboxapp.blackbox               # AI Tools for autocomplete 
-
+</strong>
 ## Language Support
 code --install-extension rebornix.ruby                        # Ruby for Visual Studio Code
 code --install-extension rust-lang.rust                       # Rust support for Visual Studio Code
 code --install-extension dustypomerleau.rust-syntax           # Rust syntax
-code --install-extension Dart-Code.flutter                    # Flutter support and debugger for Visual Studio Code.
-code --install-extension gornivv.vscode-flutter-files         # Flutter Files, Quickly scaffold flutter bloc file templates
-code --install-extension circlecodesolution.ccs-flutter-color # Flutter Color, help you to easily visualize the color.
 </code></pre>
