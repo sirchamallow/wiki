@@ -187,21 +187,30 @@ Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?exp
 
 S3cmd est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le protocole S3, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
 
-#### Installation de S3cmd à partir de PyPA (Python Package Authority)
-
-S3cmd peut être installé à partir de PyPA en utilisant PIP (l'outil recommandé pour PyPA).
-
-{% hint style="info" %}
-Vérifions d'abord si PIP est déjà installer sur votre machine
-{% endhint %}
+#### Installation
 
 ```bash
-sudo yum install python-pip
+sudo dnf install s3cmd 
 ```
 
-Installation via PIP
+**Configuration**
 
 ```bash
-sudo pip install s3cmd
+s3cmd --configure 
 ```
 
+**Commandes**
+
+```bash
+s3cmd ls                                 # List All S3 Bucket
+s3cmd mb s3://sirchamallow               # Creating New Bucket
+s3cmd put file.txt s3://sirchamallow     # Uploading file in Bucket
+s3cmd put -r backup s3://sirchamallow    # Uploading Directory in Bucket   # 
+s3cmd ls s3://sirchamallow               # List Data of S3 Bucket
+s3cmd get s3://sirchamallow              # Download Files from Bucket
+s3cmd del s3://tecadmin/file.txt         # Delete file from s3 bucket
+s3cmd del s3://tecadmin/backup           # Delete directory from s3 bucket
+s3cmd rb s3://sirchamallowc              # Rmove S3 Bucket
+```
+
+Source : [https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/](https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/)
