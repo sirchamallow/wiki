@@ -158,7 +158,7 @@ Source : [https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/](ht
 
 <figure><img src="../../../.gitbook/assets/MDB_BIG.png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Installation**
+**Installation (mongoDB 4)**
 
 ```bash
 sudo dnf -y install mongodb-org
@@ -178,7 +178,7 @@ Commandes
 
 <pre class="language-bash"><code class="lang-bash">sudo systemctl start mongod.service  # Démarrre le service
 sudo systemctl enable mongod.service # Active le service
-<strong>sudo systemctl status mongod.servic  # Vérifier l'état du service
+<strong>sudo systemctl status mongod.service  # Vérifier l'état du service
 </strong></code></pre>
 
 Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1](https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1)
