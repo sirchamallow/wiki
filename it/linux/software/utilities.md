@@ -183,3 +183,20 @@ virtualbox
 ```
 
 Source : [https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/](https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/)
+
+## Bleachbit
+
+Un utilitaire open-source pour libérer le cache, supprimer les cookies, effacer l'historique d'Internet, déchiqueter des fichiers temporaires, supprimer des journaux etc. \
+Disponible sur Linux et Windows.
+
+{% hint style="info" %}
+Source : [https://www.bleachbit.org/download](https://www.bleachbit.org/download)
+{% endhint %}
+
+## Stacer
+
+Un utilitaire d'optimisation et de monitoring open-source pour Linux avec un GUI.
+
+{% hint style="info" %}
+Source : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
+{% endhint %}
