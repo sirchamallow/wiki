@@ -88,3 +88,24 @@ Source : [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr
 {% hint style="info" %}
 Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 {% endhint %}
+
+## curl
+
+### Description
+
+cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface\_en\_ligne\_de\_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
+
+### Installation
+
+```bash
+sudo dnf install curl
+```
+
+{% hint style="info" %}
+Source : [https://github.com/curl/curl](https://github.com/curl/curl)
+{% endhint %}
+
+{% hint style="success" %}
+Site web : [https://curl.se/](https://curl.se/)
+{% endhint %}
+

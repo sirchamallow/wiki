@@ -195,7 +195,7 @@ Source : [https://www.bleachbit.org/download](https://www.bleachbit.org/download
 
 ## Stacer
 
-Un utilitaire d'optimisation et de monitoring open-source pour Linux avec un GUI.
+Un utilitaire d'optimisation et de monitoring graphique open-source pour Linux sou la forme d'un tableau de bord. Il sera par exemple possible de voir la charge en mémoire, CPU, disque et réseau mais également de gérer les applications et les processus qui se lancent au démarrage, de faire un peu de ménage dans vos logs et fichiers temporaires (cache, corbeille).
 
 {% hint style="info" %}
 Source : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
