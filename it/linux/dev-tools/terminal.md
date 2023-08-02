@@ -91,6 +91,8 @@ Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 
 ## curl
 
+<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt=""><figcaption></figcaption></figure>
+
 ### Description
 
 cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface\_en\_ligne\_de\_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
