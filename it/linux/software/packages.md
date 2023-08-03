@@ -6,6 +6,8 @@ description: Liste de dépôts
 
 ## RPM Fusion
 
+<figure><img src="../../../.gitbook/assets/rpm_fusion.png" alt="" width="250"><figcaption></figcaption></figure>
+
 Par défaut, les dépôts de Fedora ne contiennent pas tous les logiciels. \
 Il est ainsi parfois nécéssaire d'avoir de drivers propriétaires, autres codecs ou logiciels non libres.&#x20;
 
