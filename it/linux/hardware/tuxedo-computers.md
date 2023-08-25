@@ -4,9 +4,15 @@ description: TUXEDO Computers
 
 # 💻 TUXEDO Computers
 
-### Introduction
+## Introduction
 
 TUXEDO Computers est fabricant d'ordinateurs originaire d'Allemagne qui produit des configs entièrement custom et avec du matériel parfaitement optimisé pour l'exécution de Linux.
+
+## Logiciels
+
+Voici deux logiciels indispensable si vous possédez un laptop de la marque.
+
+Les commandes d'installations ci-dessous sont pour la distribution Linux Fedora.
 
 ### Tuxedo Keyboard
 
@@ -21,11 +27,17 @@ sudo dnf in kernel-devel
 ```
 
 ```bash
-dnf copr enable kallepm/tuxedo-keyboard	  # Activate repo Copr ("Community projects")
-dnf install tuxedo-keyboard		  # Install Tuxedo Keyboard
+sudo dnf copr enable kallepm/tuxedo-keyboard	  # Activate repo Copr ("Community projects")
+sudo dnf install tuxedo-keyboard		  # Install Tuxedo Keyboard
 ```
 
-Source : [https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-keyboard/](https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-keyboard/) & [https://github.com/tuxedocomputers/tuxedo-keyboard](https://github.com/tuxedocomputers/tuxedo-keyboard)
+{% hint style="success" %}
+Source : [https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-keyboard/](https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-keyboard/)
+{% endhint %}
+
+{% hint style="info" %}
+Site officiel :  [https://github.com/tuxedocomputers/tuxedo-keyboard](https://github.com/tuxedocomputers/tuxedo-keyboard)
+{% endhint %}
 
 ### Tuxedo Control Center
 
@@ -36,11 +48,14 @@ Pré-requis : **Tuxedo Keyboard** doit être installer avant
 {% endhint %}
 
 ```bash
-dnf copr enable kallepm/tuxedo-control-center  # Activate repo Copr ("Community projects")
-dnf install tuxedo-control-center              # Install Tuxedo Control Center
+sudo dnf copr enable kallepm/tuxedo-control-center  # Activate repo Copr ("Community projects")
+sudo dnf install tuxedo-control-center              # Install Tuxedo Control Center
 ```
 
-Source : [https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-control-center/](https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-control-center/) & [https://github.com/tuxedocomputers/tuxedo-control-center](https://github.com/tuxedocomputers/tuxedo-control-center)
+{% hint style="success" %}
+Source : [https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-control-center/](https://copr.fedorainfracloud.org/coprs/kallepm/tuxedo-control-center/)
+{% endhint %}
 
-
-
+{% hint style="info" %}
+Site officie : [https://github.com/tuxedocomputers/tuxedo-control-center](https://github.com/tuxedocomputers/tuxedo-control-center)
+{% endhint %}
