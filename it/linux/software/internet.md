@@ -97,6 +97,18 @@ Source : [https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/](
 
 #### Installation
 
+{% hint style="info" %}
+Avant d'aller plus loin dans le guide d'installation, il vous faudra votre user ID (récupérer-le et poursuivez ensuite l'installation)
+{% endhint %}
+
+Taper la ligne de commande ci-dessous et suivez les instructions
+
+```bash
+sh -c "$(curl -sL https://nextdns.io/install)"
+```
+
+#### Installation manuelle
+
 ```bash
 # Install the binary
 sudo curl -Ls https://repo.nextdns.io/nextdns.repo -o /etc/yum.repos.d/nextdns.repo
@@ -118,11 +130,13 @@ sudo nextdns install \
 #### Basic Usage
 
 ```
-nextdns start      # Start the daemon
-nextdns stop       # Stop the daemon
-nextdns restart    # Restart the daemon
-nextdns log        # Show daemon logs
-nextdns help       # Show all commands
+nextdns start       # Start the daemon
+nextdns stop        # Stop the daemon
+nextdns restart     # Restart the daemon
+nextdns activate    # Activate the local host to point to NextDNS
+nextdns desactivate # Desactivate the local host to point to NextDNS
+nextdns log         # Show daemon logs
+nextdns help        # Show all commands
 ```
 
 Source : [https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution](https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution)
