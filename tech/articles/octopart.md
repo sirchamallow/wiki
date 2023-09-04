@@ -2,7 +2,7 @@
 description: Un moteur de recherche de composants électroniques & produits industriels
 ---
 
-# Octopart
+# 🔩 Octopart
 
 ![](<../../.gitbook/assets/image (13).png>)
 

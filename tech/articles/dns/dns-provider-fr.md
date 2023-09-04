@@ -2,7 +2,7 @@
 description: Liste des résolveurs DNS des FAI Français
 ---
 
-# DNS des FAI Français
+# 🇫🇷 DNS des FAI Français
 
 * Orange : 80.10.246.2 / 80.10.246.129
 * SFR/Numéricable : 109.0.66.10 / 109.0.66.20

@@ -2,7 +2,7 @@
 description: Quelques astuces pour les pc portable Huawei.
 ---
 
-# 💻 Huawei Computers
+# 🇨🇳 Huawei Computers
 
 ### Accèder au BIOS
 

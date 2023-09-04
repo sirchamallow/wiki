@@ -2,7 +2,7 @@
 description: TUXEDO Computers
 ---
 
-# 💻 TUXEDO Computers
+# 🇩🇪 TUXEDO Computers
 
 ## Introduction
 
