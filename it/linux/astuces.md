@@ -224,7 +224,7 @@ chsh				    # change the shell for your user
 
 Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html](https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html)
 
-#### Remplacer Bash par ZSH
+#### Remplacer Bash par ZSH avec Oh-My-ZSH
 
 ```bash
 sudo yum install zsh
@@ -233,7 +233,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 Source : [https://www.it-connect.fr/passer-de-bash-a-zsh/](https://www.it-connect.fr/passer-de-bash-a-zsh/)
 
-#### Thème pour ZSH
+#### Thème pour Oh-My-ZSH
 
 1 - Ouvrir le fichier .zhrc
 
@@ -259,7 +259,7 @@ La liste complète est thèmes est [disponible ici](https://github.com/robbyruss
 source ~/.zshrc
 ```
 
-#### Activer mise à jour de ZSH
+#### Activer les mise à jour de Oh-My-ZSH
 
 Mise à jour manuel
 
