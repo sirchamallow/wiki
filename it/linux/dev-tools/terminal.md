@@ -142,7 +142,15 @@ Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https:/
 
 dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
 
+{% hint style="success" %}
+Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
+{% endhint %}
+
 ### Installation
+
+Sur Fedora, vous pouvez installer dog via Snapcraft ou manuellement
+
+#### Installation via Snap
 
 ```bash
 sudo dnf install snapd		      # Enable Snapd
@@ -154,8 +162,71 @@ sudo snap install dog		      # Install dog
 Source : [https://snapcraft.io/install/dog/fedora](https://snapcraft.io/install/dog/fedora)
 {% endhint %}
 
-{% hint style="success" %}
-Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
+#### Installation manuelle
+
+Installer `gcc`, `tar`, et les librairies SSL nécéssaire : `libssl` or `openssl`.
+
+```bash
+sudo dnf install gcc tar openssl-devel
+```
+
+{% hint style="warning" %}
+Note : You may need to update your system’s version of the GNU C library (glibc).
+{% endhint %}
+
+Installer maintenant [**Rust**](https://www.rust-lang.org/). Il vous sera utile pour complier le code source de `dog` :
+
+```bash
+curl --proto =https --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Lorsque le terminal vous le proposer, sélectionner `1` pour procéder à l'installation dans le dossier par défaut. Après avoir redémarrer votre terminal, taper la commande suivante :
+
+```bash
+source $HOME/.cargo/env
+```
+
+Naviguer dans la [release page](https://github.com/ogham/dog/releases/) de `dog`, identifier la version la plus récente, et copier l'URL du ficher `.tar.gz`. Télécharger le fichier en remplacant par l'URL que vous venez de copier
+
+```bash
+curl -LO https://github.com/ogham/dog/archive/refs/tags/v0.1.0.tar.gz
+```
+
+Décompresser les fichers du l'archive `.tar.gz` file, et entrez dans le répertoire extrait. \
+Remplacez le nom de fichier ci-dessous par celui du fichier que vous avez téléchargé. \
+De même, remplacez le nom du répertoire par celui du fichier extrait :
+
+```bash
+tar -xvzf v0.1.0.tar.gz  # Extract the .tar.gz file
+cd dog-0.1.0             # Open directory
+```
+
+Avant de lancer le build, lancer cette commande pour mettre à jour les dépendances de Cargo
+
+```bash
+cargo update # Update dependencies
+```
+
+Lancer le build avec Cargo pour générer le fichier binaire de `dog`:
+
+```bash
+cargo build --release  # Build project
+```
+
+Copier le fichier binaire dans le dossier `bin` de l'utilisateur :
+
+```bash
+sudo cp target/release/dog /usr/local/bin  # Copy the resulting binary into your current user’s PATH
+```
+
+Vérifier votre installation en identifiant la version de `dog` installer
+
+```bash
+dog --version # checking the installed version of dog
+```
+
+{% hint style="info" %}
+Source : [https://www.linode.com/docs/guides/use-dog-linux-dns-client/](https://www.linode.com/docs/guides/use-dog-linux-dns-client/)
 {% endhint %}
 
 ## Cyberduck CLI
