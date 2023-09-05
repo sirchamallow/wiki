@@ -1,5 +1,115 @@
 # 📟 Terminal
 
+## Shell
+
+### Changer le shell par défaut
+
+{% hint style="info" %}
+Pour changer de shell, un utilisateur doit exécuter la commande **chsh** et préciser où se trouve son nouveau shell.
+{% endhint %}
+
+```bash
+sudo dnf install util-linux-user    # install chsh
+cat /etc/shells			    # list all the shells from your system
+chsh				    # change the shell for your user
+/bin/zsh			    # Example: change the shell Bash to ZSH
+```
+
+Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html](https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html)
+
+### Remplacer Bash par ZSH avec Oh-My-ZSH
+
+```bash
+sudo yum install zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+```
+
+Source : [https://www.it-connect.fr/passer-de-bash-a-zsh/](https://www.it-connect.fr/passer-de-bash-a-zsh/)
+
+#### Thème pour Oh-My-ZSH
+
+Il existe plusieurs thèmes pour OMZ, voici comme installer l'un d'entre eux (agnoster)
+
+{% hint style="info" %}
+La liste complète est thèmes est [disponible ici](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
+{% endhint %}
+
+1 - Ouvrir le fichier .zhrc
+
+```bash
+open ~/.zshrc
+```
+
+2 - Changer le thème par défaut par “agnoster”
+
+Parcourez votre fichier afin de trouver cette ligne ZSH\_THEME et ajouter **agnoster**
+
+```bash
+ZSH_THEME="agnoster"
+```
+
+3 - Mettre à jour le fichier de config ZSH
+
+```bash
+source ~/.zshrc
+```
+
+#### Activer les mise à jour de Oh-My-ZSH
+
+Mise à jour manuel
+
+```bash
+omz update
+```
+
+Mise à jour automatique
+
+```shell
+zstyle ':omz:update' mode auto	    # Activer mise à jour automatique
+zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
+```
+
+Source : [https://github.com/ohmyzsh/ohmyzsh#getting-updates](https://github.com/ohmyzsh/ohmyzsh#getting-updates)
+
+#### Plugins pour Oh-My-ZSH
+
+Voici deux plugins très utile pour OMZ que j'utilise au quotidien :
+
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/tree/master) : un plugin pour rendre la syntax plus agréable à lire
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) : un plugin de suggestion d'autocomplétion
+
+1 - Pour les installer, cloner ces répertoires dans le dossier plugins de oh-my-zsh. \
+Par défaut celui-ci si trouve ici : `~/.oh-my-zsh/custom/plugins`)
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  # zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions              # zsh-autosuggestions
+```
+
+2 - Ouvrir le fichier .zhrc
+
+```bash
+open ~/.zshrc
+```
+
+3 - Ajouter vos plugins à ceux existant
+
+Parcourez votre fichier afin de trouver cette ligne plugins=( et remplacer par
+
+```
+plugins=(
+   git
+   zsh-syntax-highlighting
+   zsh-autosuggestions
+)
+```
+
+3 - Mettre à jour le fichier de config ZSH
+
+```bash
+source ~/.zshrc
+```
+
 ## TMUX
 
 <figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt=""><figcaption></figcaption></figure>
