@@ -136,7 +136,7 @@ Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https:/
 
 ## Dog
 
-<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt=""><figcaption><p>Dog screenshot</p></figcaption></figure>
 
 ### **Description**
 
