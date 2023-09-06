@@ -1,3 +1,7 @@
+---
+description: Quelques astuces pour configurer votre terrminal
+---
+
 # 📟 Terminal
 
 ## Shell
@@ -17,20 +21,46 @@ chsh				    # change the shell for your user
 
 Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html](https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html)
 
-### Remplacer Bash par ZSH avec Oh-My-ZSH
+### Remplacer Bash par Zsh&#x20;
+
+#### **Description**
+
+**Zsh** (abréviation de **Z Shell**) est un programme shell riche en fonctionnalités pour les systèmes d'exploitation de type Unix (dont Linux est un dérivé) avec de nombreuses fonctionnalités.\
+Il s'agit d'une version étendue du **Bourne Shell (sh).** L'intérêt de _Zsh_ par rapport à la plupart des autres commandes cd, l'extension de chemin récursif et la correction orthographique et la sélection interactive de fichiers et de répertoires.
+
+Zsh se trouvat dans les référentiels Fedora et peut être installé avec la commande dnf suivante.
+
+#### Installation de ZSH
 
 ```bash
-sudo yum install zsh
+sudo dnf install zsh
+```
+
+{% hint style="info" %}
+Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/projects/zsh/files/)
+{% endhint %}
+
+### Framework Oh-My-ZSH (OMZ)
+
+**Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes, plugins (support de PHP, Python, PostgreSQL ...).
+
+Pour l'installer, lancer la commande suivante :&#x20;
+
+```bash
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 ```
 
+Une fois "Oh My Zsh" d'installé, il suffit de redémarrer ZSH pour prendre en compte les changements. (CTRL + D puis "zsh")
+
+{% hint style="info" %}
 Source : [https://www.it-connect.fr/passer-de-bash-a-zsh/](https://www.it-connect.fr/passer-de-bash-a-zsh/)
+{% endhint %}
 
 #### Thème pour Oh-My-ZSH
 
 Il existe plusieurs thèmes pour OMZ, voici comme installer l'un d'entre eux (agnoster)
 
-{% hint style="info" %}
+{% hint style="success" %}
 La liste complète est thèmes est [disponible ici](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
 {% endhint %}
 
@@ -56,20 +86,24 @@ source ~/.zshrc
 
 #### Activer les mise à jour de Oh-My-ZSH
 
-Mise à jour manuel
+Il est possible de mettre à jour OMZ de deux façons, manuellement ou de façon automatique\
+\
+**Mise à jour manuel**
 
 ```bash
 omz update
 ```
 
-Mise à jour automatique
+**Mise à jour automatique**
 
 ```shell
 zstyle ':omz:update' mode auto	    # Activer mise à jour automatique
 zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
 ```
 
+{% hint style="info" %}
 Source : [https://github.com/ohmyzsh/ohmyzsh#getting-updates](https://github.com/ohmyzsh/ohmyzsh#getting-updates)
+{% endhint %}
 
 #### Plugins pour Oh-My-ZSH
 
@@ -78,7 +112,7 @@ Voici deux plugins très utile pour OMZ que j'utilise au quotidien :
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/tree/master) : un plugin pour rendre la syntax plus agréable à lire
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) : un plugin de suggestion d'autocomplétion
 
-1 - Pour les installer, cloner ces répertoires dans le dossier plugins de oh-my-zsh. \
+**1 -** Pour les installer, cloner ces répertoires dans le dossier plugins de oh-my-zsh. \
 Par défaut celui-ci si trouve ici : `~/.oh-my-zsh/custom/plugins`)
 
 ```bash
@@ -86,15 +120,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions              # zsh-autosuggestions
 ```
 
-2 - Ouvrir le fichier .zhrc
+**2 -** Ouvrir le fichier .zhrc
 
 ```bash
 open ~/.zshrc
 ```
 
-3 - Ajouter vos plugins à ceux existant
-
-Parcourez votre fichier afin de trouver cette ligne plugins=( et remplacer par
+**3 -** Ajouter vos plugins à ceux existant. \
+Parcourez votre fichier afin de trouver cette ligne plugins=( et remplacer par :&#x20;
 
 ```
 plugins=(
@@ -104,11 +137,15 @@ plugins=(
 )
 ```
 
-3 - Mettre à jour le fichier de config ZSH
+**3 -** Mettre à jour le fichier de config ZSH
 
 ```bash
 source ~/.zshrc
 ```
+
+{% hint style="info" %}
+Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) & [https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+{% endhint %}
 
 ## TMUX
 
