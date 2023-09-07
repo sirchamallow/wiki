@@ -39,6 +39,7 @@
   * [⚡ Electricité](tech/hardware/electricite/README.md)
     * [🔌 Legrand 0 494 30](tech/hardware/electricite/legrand-0-494-30.md)
   * [💻 Informatique](tech/hardware/informatique/README.md)
+    * [💺 Bureau](tech/hardware/informatique/bureau.md)
     * [🇩🇪 TUXEDO Computers](it/linux/hardware/tuxedo-computers.md)
     * [🇨🇳 Huawei Computers](tech/hardware/huawei-computers.md)
 * [💡 Ressources](tech/articles/README.md)

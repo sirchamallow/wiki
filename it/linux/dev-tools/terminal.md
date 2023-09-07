@@ -23,6 +23,8 @@ Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-l
 
 ### Remplacer Bash par Zsh&#x20;
 
+<figure><img src="../../../.gitbook/assets/zshell.png" alt="" width="375"><figcaption><p>Zsh logo</p></figcaption></figure>
+
 #### **Description**
 
 **Zsh** (abréviation de **Z Shell**) est un programme shell riche en fonctionnalités pour les systèmes d'exploitation de type Unix (dont Linux est un dérivé) avec de nombreuses fonctionnalités.\
@@ -42,7 +44,16 @@ Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/p
 
 ### Framework Oh-My-ZSH (OMZ)
 
-**Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes, plugins (support de PHP, Python, PostgreSQL ...).
+
+
+<figure><img src="../../../.gitbook/assets/omz.png" alt="" width="253"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
+
+**Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes et plugins (support de PHP, Python, PostgreSQL ...). Ci-dessous, sont présents ceux que j'utilise.&#x20;
+
+{% hint style="info" %}
+A découvrir, une liste de plugins pour OMZ réalisé par Unixorn : \
+[https://github.com/unixorn/awesome-zsh-plugins#oh-my-zsh](https://github.com/unixorn/awesome-zsh-plugins#oh-my-zsh)
+{% endhint %}
 
 Pour l'installer, lancer la commande suivante :&#x20;
 
@@ -149,7 +160,7 @@ Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INST
 
 ## TMUX
 
-<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### **Description**
 
@@ -173,7 +184,7 @@ Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https:/
 
 ## Dog
 
-<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt=""><figcaption><p>Dog screenshot</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
 
 ### **Description**
 
@@ -309,7 +320,7 @@ Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 
 ## curl
 
-<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Description
 
