@@ -42,7 +42,7 @@ sudo dnf install zsh
 Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/projects/zsh/files/)
 {% endhint %}
 
-### Framework Oh-My-ZSH (OMZ)
+## Oh-My-ZSH (OMZ)
 
 
 
@@ -67,34 +67,6 @@ Une fois "Oh My Zsh" d'installé, il suffit de redémarrer ZSH pour prendre en c
 Source : [https://www.it-connect.fr/passer-de-bash-a-zsh/](https://www.it-connect.fr/passer-de-bash-a-zsh/)
 {% endhint %}
 
-#### Thème pour Oh-My-ZSH
-
-Il existe plusieurs thèmes pour OMZ, voici comme installer l'un d'entre eux (agnoster)
-
-{% hint style="success" %}
-La liste complète est thèmes est [disponible ici](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
-{% endhint %}
-
-1 - Ouvrir le fichier .zhrc
-
-```bash
-open ~/.zshrc
-```
-
-2 - Changer le thème par défaut par “agnoster”
-
-Parcourez votre fichier afin de trouver cette ligne ZSH\_THEME et ajouter **agnoster**
-
-```bash
-ZSH_THEME="agnoster"
-```
-
-3 - Mettre à jour le fichier de config ZSH
-
-```bash
-source ~/.zshrc
-```
-
 #### Activer les mise à jour de Oh-My-ZSH
 
 Il est possible de mettre à jour OMZ de deux façons, manuellement ou de façon automatique\
@@ -116,7 +88,91 @@ zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
 Source : [https://github.com/ohmyzsh/ohmyzsh#getting-updates](https://github.com/ohmyzsh/ohmyzsh#getting-updates)
 {% endhint %}
 
-#### Plugins pour Oh-My-ZSH
+### Thèmes
+
+Il existe plusieurs thèmes pour OMZ, voici comme installer deux d'entre eux (agnoster et powerlevel10K)
+
+{% hint style="success" %}
+La liste complète est thèmes est [disponible ici](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
+{% endhint %}
+
+#### Agnoster
+
+1 - Ouvrir le fichier .zhrc
+
+```bash
+open ~/.zshrc
+```
+
+2 - Changer le thème par défaut
+
+Parcourez votre fichier afin de trouver cette ligne ZSH\_THEME et ajouter `agnoster`
+
+```bash
+ZSH_THEME="agnoster"
+```
+
+3 - Mettre à jour le fichier de config ZSH
+
+```bash
+source ~/.zshrc
+```
+
+#### Powerlevel10K
+
+Avant de procéder à l'installation du thème **Powerlevel10K**, il est fortement reccomander d'installer la polices d'écriture **Meslo Nerd Font** pour une meilleur confort.
+
+**Pré-requis : Meslo Nerd Font**
+
+1. Télécharger Meslo Nerd Font (fichiers ttf)
+
+* [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+* [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+* [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+* [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+
+2. Installer les fonts sur votre système
+
+Double-cliquer sur chaque fichier, et cliquer "Install". Cela installera `MesloLGS NF` sur votre système.
+
+3. Définir la police d'écriture dans votre Terminal ou IDE
+
+* **Visual Studio Code**: Ouvrir _Fichiers → Préférences → Paramètres_ (PC) ou _Code → Préférences → Paramètres_ (Mac), et taper `terminal.integrated.fontFamily` dans la barre de recherche présente en haut de l'onglet _Préférences_ et basculer la valeur sur `MesloLGS NF`. Vous pouvez consulter [ce screenshot](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/389133fb8c9a2347929a23702ce3039aacc46c3d/visual-studio-code-font-settings.jpg) pour voir ce que cela doit donner.
+* **GNOME Terminal** / **Tilix** (le terminal par défaut de Fedora): Ouvrir le _Terminal → Préférences_ et sélectionner un profil . Rechercher _Custom font_ sous _Text Appearance_ et sélectionner`MesloLGS NF Regular`
+
+**Installation de Powerlevel10K**
+
+1 - Cloner le répertoire suivant
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+2 - Ouvrir le fichier .zhrc
+
+```bash
+open ~/.zshrc
+```
+
+3 - Changer le thème par défaut
+
+Parcourez votre fichier afin de trouver cette ligne ZSH\_THEME et ajouter `powerlevel10k`
+
+```bash
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+4 - Mettre à jour le fichier de config ZSH
+
+```bash
+source ~/.zshrc
+```
+
+{% hint style="info" %}
+Source : [https://github.com/romkatv/powerlevel10k#oh-my-zsh](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+{% endhint %}
+
+### Plugins
 
 Voici deux plugins très utile pour OMZ que j'utilise au quotidien :
 
