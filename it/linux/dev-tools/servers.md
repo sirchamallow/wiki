@@ -4,11 +4,17 @@ description: Outils pour serveurs
 
 # 🖥 Serveurs
 
-### Netdata
+## Netdata
+
+
+
+<figure><img src="../../../.gitbook/assets/Netdata_logo.png" alt="" width="375"><figcaption><p>Netdata logo</p></figcaption></figure>
 
 Si vous gérez votre petit serveur dédié et que pour vous, le suivi des performances en temps réel de celui-ci est important, sachez qu’il existe un outil de monitoring nommé **Netdata** qui permet de surveiller à la seconde près des tas de paramètres. \
 \
 L'avantage, c’est que Netdata propose des dashboard plutôt jolies 🤩
+
+### Installation manuel
 
 ```bash
 bash <(curl -Ss https://my-netdata.io/kickstart.sh) all # Download and install Netdata 
@@ -20,5 +26,40 @@ firewall-cmd --reload 					# Reload the firewall
 https//server-ip:19999					# Open browser and go to you server ip
 ```
 
-Source : [https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34](https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34)\
-Alternative : [https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart](https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart)
+{% hint style="info" %}
+Source : [https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34](https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34)
+{% endhint %}
+
+### Installation via kickstart.sh
+
+```bash
+curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/netdata-kickstart.sh
+```
+
+{% hint style="info" %}
+Source : [https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart](https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart)
+{% endhint %}
+
+## Ansible
+
+<figure><img src="../../../.gitbook/assets/Ansible_logo.jpg" alt="" width="375"><figcaption><p>Ansible logo</p></figcaption></figure>
+
+```bash
+sudo dnf install ansible
+```
+
+{% hint style="info" %}
+Source : [https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora](https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora)
+{% endhint %}
+
+## WireGuard
+
+<figure><img src="../../../.gitbook/assets/WireGuard_logo.png" alt="" width="375"><figcaption></figcaption></figure>
+
+```bash
+sudo dnf install wireguard-tools
+```
+
+{% hint style="info" %}
+Source : [https://www.wireguard.com/install/#fedora-tools](https://www.wireguard.com/install/#fedora-tools)
+{% endhint %}
