@@ -120,6 +120,18 @@ Installation avec le paquet RPM :  [https://github.com/rustdesk/rustdesk/release
 
 Il existe plusieurs possiblitées d'installer Bitwarden sur Fedora, je préfère vous sélectionner celles-ci (via Snap), car il sera possible de mettre à jour le soft régulièrement.&#x20;
 
+#### Installation manuel
+
+Il est possible d'installer Bitwarden avec un paquet RPM officiel
+
+```bash
+https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=rpm
+```
+
+{% hint style="warning" %}
+Cependant celui-ci n'est pas mise à jour automatiquement.
+{% endhint %}
+
 #### Installation via Snapcraft
 
 {% hint style="info" %}
