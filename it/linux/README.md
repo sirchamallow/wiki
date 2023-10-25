@@ -1,8 +1,8 @@
 ---
-description: Workstation
+description: Linux
 ---
 
-# 🐧 Fedora (Linux)
+# 🐧 Fedora Workstation
 
 ## Présentation
 
@@ -30,3 +30,30 @@ Fedora Linux est un système d’exploitation libre et une distribution Linux co
 [hardware](hardware/)
 {% endcontent-ref %}
 
+## Commandes des bases
+
+Voici une liste de commandes de bases pour Linux (pas spécifique à Fedora)
+
+### Renommer un fichier ou un répertoire
+
+Voic un exemple pour renommer un fichier/répertoire du nom de "paris" en "lyon":
+
+```bash
+mv paris lyon
+```
+
+### Déplacer un fichier ou répertoire
+
+Voici comment déplacer un fichier/répertoire du dossier courant vers le répertoire distant "/home/georges/Bureau" :
+
+```bash
+mv lyon /home/georges/Bureau
+```
+
+### Déplacer tout les fichiers/répertoires
+
+On va déplacer tout les fichiers/répertoires du dossier courant vers le répertoire distant "/home/georges/Bureau/marseille":
+
+```bash
+mv * /home/georges/Bureau/marseille
+```
