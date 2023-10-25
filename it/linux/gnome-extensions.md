@@ -78,24 +78,6 @@ Rendez-vous ensuite sur le [site web de Gnome Extensions](https://extensions.gno
 Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliffniff/media-controls/blob/main/README.md)
 {% endhint %}
 
-### Sound Input & Output Device Chooser
-
-Affiche une liste des périphériques d'entrée et de sortie du son dans le menu d'état sous le curseur du volume. Les différents ports actifs comme HDMI, haut-parleurs, etc. du même périphérique sont également affichés pour être sélectionnés.
-
-{% hint style="warning" %}
-Pré-requis :  V20+ nécessite python comme dépendance.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/screenshot_tool.png" alt=""><figcaption></figcaption></figure>
-
-#### Activation
-
-Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez [**Sound Input & Outpout Device Chooser**](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) et cliquez sur l'icône switch.
-
-{% hint style="info" %}
-Source : [https://github.com/kgshank/gse-sound-output-device-chooser](https://github.com/kgshank/gse-sound-output-device-chooser)
-{% endhint %}
-
 ### NVIDIA GPU Stats Tool <a href="#extension_name" id="extension_name"></a>
 
 Affiche les statistiques du GPU NVIDIA dans la barre d'outils.&#x20;
@@ -148,20 +130,6 @@ Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/)
 
 {% hint style="info" %}
 Source : [https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator)
-{% endhint %}
-
-### Internet Radio
-
-Pour écouter des radios / webradios
-
-<figure><img src="../../.gitbook/assets/radio-extension.png" alt=""><figcaption></figcaption></figure>
-
-#### Activation
-
-Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/), recherchez [**Internet Radio**](https://extensions.gnome.org/extension/836/internet-radio/) et cliquez sur l'icône switch.
-
-{% hint style="info" %}
-Source : [https://github.com/hslbck/gnome-shell-extension-radio](https://github.com/hslbck/gnome-shell-extension-radio)
 {% endhint %}
 
 ### Just Perfection GNOME Shell Extension
