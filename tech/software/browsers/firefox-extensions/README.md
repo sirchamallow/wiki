@@ -6,10 +6,13 @@ description: Extensions & Thèmes pour Firefox
 
 ### Raccourcis
 
-| Commande                            | Raccourci                          |
-| ----------------------------------- | ---------------------------------- |
-| Actualiser (ignorer le cache)       | <p>Ctrl + F5<br>Ctrl + Maj + R</p> |
-| Restaurer un onglet récemment fermé | Ctrl + Maj + T                     |
+| Commande                                                | Raccourci                                                                                           |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Actualiser (ignorer le cache)                           | <p><code>Ctrl</code> + <code>F5</code><br><code>Ctrl</code> + <code>Maj</code> + <code>R</code></p> |
+| Restaurer un onglet récemment fermé                     | `Ctrl` + `Maj` + `T`                                                                                |
+| Enregistrez tous vos onglets ouverts comme marque-pages | `CTRL` + `Maj` + `D`                                                                                |
+
+
 
 {% hint style="info" %}
 Liste complète des raccourcis [ici](https://support.mozilla.org/fr/kb/raccourcis-clavier).

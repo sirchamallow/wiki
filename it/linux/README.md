@@ -57,3 +57,9 @@ On va déplacer tout les fichiers/répertoires du dossier courant vers le réper
 ```bash
 mv * /home/georges/Bureau/marseille
 ```
+
+### Supprime un répertoire non vide et son contenu
+
+```bash
+rm -r
+```
