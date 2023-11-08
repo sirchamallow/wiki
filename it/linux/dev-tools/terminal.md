@@ -396,3 +396,24 @@ Source : [https://github.com/curl/curl](https://github.com/curl/curl)
 Site web : [https://curl.se/](https://curl.se/)
 {% endhint %}
 
+## Btop++
+
+<figure><img src="../../../.gitbook/assets/logo.png" alt=""><figcaption></figcaption></figure>
+
+### Description
+
+Une alternative plus graphique à `top` ou `htop`
+
+### Installation
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install btop
+</strong></code></pre>
+
+{% hint style="info" %}
+Source : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com)
+{% endhint %}
+
+{% hint style="success" %}
+Des thèmes sont également disponible : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com#themes)
+{% endhint %}
+
