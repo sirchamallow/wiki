@@ -4,7 +4,9 @@ description: Liste de logiciels
 
 # 🕸 Internet
 
-## Mozilla Firefox
+## Navigateurs Web
+
+### Mozilla Firefox
 
 #### Firefox
 
@@ -25,13 +27,13 @@ firefox-dev                                 # Launch Firefox Dev
 
 Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/)
 
-### Extensions & Themes
+#### Extensions & Themes
 
 {% content-ref url="../../../tech/software/browsers/firefox-extensions/" %}
 [firefox-extensions](../../../tech/software/browsers/firefox-extensions/)
 {% endcontent-ref %}
 
-## Google Chrome
+### Google Chrome
 
 #### Google Chrome
 
@@ -51,7 +53,7 @@ sudo dnf install google-chrome-unstable
 
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/](https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/)
 
-## Brave
+### Brave
 
 ```bash
 sudo dnf install dnf-plugins-core
@@ -62,7 +64,7 @@ sudo dnf install brave-browser
 
 Source : [https://brave.com/linux/](https://brave.com/linux/)
 
-## Microsoft Edge
+### Microsoft Edge
 
 Importer la clé GPG pour l'import du fichier RPM:
 
@@ -141,7 +143,16 @@ nextdns help        # Show all commands
 
 Source : [https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution](https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution)
 
-## Client email
+## FileZilla
+
+Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique générale GNU.
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install filezilla
+</strong></code></pre>
+
+Source : [https://filezilla-project.org/download.php?show\_all=1](https://filezilla-project.org/download.php?show\_all=1)
+
+## Client mail
 
 ### Thunderbird
 
