@@ -419,6 +419,8 @@ Des thèmes sont également disponible : [https://github.com/aristocratos/btop](
 
 ## VIM
 
+<figure><img src="../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt=""><figcaption></figcaption></figure>
+
 ### Descritpion
 
 VIM permets de lire et d'éditer des fichiers depuis votre terminal
@@ -431,6 +433,10 @@ VIM permets de lire et d'éditer des fichiers depuis votre terminal
 
 {% hint style="info" %}
 Source : [https://fedoraproject.org/wiki/Vim](https://fedoraproject.org/wiki/Vim)
+{% endhint %}
+
+{% hint style="success" %}
+Site web : [https://www.vim.org](https://www.vim.org/download.php)
 {% endhint %}
 
 ### Liste de raccourcis
