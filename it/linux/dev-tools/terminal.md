@@ -443,19 +443,26 @@ Site web : [https://www.vim.org](https://www.vim.org/download.php)
 
 #### Faire une modification sur un fichier
 
-1. Make an Insert : `i`
-2. Change the value
-3. Exit input vim : `exit`
-4. Save and exit vim : `:wq`
+1. Rechercher la valeur à modifier : `/<value>`
+2. Faire une insertion : `i`
+3. Changer la valeur
+4. Quitter la saisie vim : `exit`
+5. Sauvegarder et quitter vim : `:wq`
 
 #### Mouvement du curseur
 
-* h - move cursor left
-* j - move cursor down
-* k - move cursor up
-* l - move cursor right
-* H - move to top of screen
-* M - move to middle of screen
-* L - move to bottom of screen
-* gg - go to the first line of the document
-* G - go to the last line of the document
+* `k` - déplacer le curseur vers le haut ⬆️
+* `j` - déplacer le curseur vers le bas `⬇️`
+* `h` - déplacer le curseur vers la gauche ⬅️
+* `l` - déplacer le curseur vers la droite ➡️
+
+
+
+* `H` - déplacement vers le haut de l'écran ⬆️
+* `M` - déplacement vers le milieu de l'écran&#x20;
+* `L` - déplacement vers le bas de l'écran `⬇️`
+
+
+
+* `gg` - aller à la première ligne du document ⏫
+* `G` - aller à la dernière ligne du document ⏬
