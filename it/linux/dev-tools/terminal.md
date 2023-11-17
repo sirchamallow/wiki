@@ -417,3 +417,39 @@ Source : [https://github.com/aristocratos/btop](https://github.com/aristocratos/
 Des thèmes sont également disponible : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com#themes)
 {% endhint %}
 
+## VIM
+
+### Descritpion
+
+VIM permets de lire et d'éditer des fichiers depuis votre terminal
+
+### Installation
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install vim        # VIM CLI version
+</strong><strong>sudo dnf install vim-X11    # VIM vith GUI features
+</strong></code></pre>
+
+{% hint style="info" %}
+Source : [https://fedoraproject.org/wiki/Vim](https://fedoraproject.org/wiki/Vim)
+{% endhint %}
+
+### Liste de raccourcis
+
+#### Faire une modification sur un fichier
+
+1. Make an Insert : `i`
+2. Change the value
+3. Exit input vim : `exit`
+4. Save and exit vim : `:wq`
+
+#### Mouvement du curseur
+
+* h - move cursor left
+* j - move cursor down
+* k - move cursor up
+* l - move cursor right
+* H - move to top of screen
+* M - move to middle of screen
+* L - move to bottom of screen
+* gg - go to the first line of the document
+* G - go to the last line of the document
