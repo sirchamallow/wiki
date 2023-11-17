@@ -63,3 +63,44 @@ sudo dnf install wireguard-tools
 {% hint style="info" %}
 Source : [https://www.wireguard.com/install/#fedora-tools](https://www.wireguard.com/install/#fedora-tools)
 {% endhint %}
+
+## RabbitMQ
+
+### Description
+
+RabbitMQ utilise le protocole AMQP (Advanced Message Queuing Protocol) pour envoyer des messages en toute sécurité via des agents de messages. Un agent de messages se compose d'échanges et de files d'attente.
+
+### Installation
+
+<pre class="language-bash"><code class="lang-bash"># Add YUM repository using bash script
+curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
+
+# Update system YUM repositories
+sudo yum clean all &#x26;&#x26; sudo yum makecache -y
+
+# Install Erlang on Fedora
+sudo yum install erlang
+
+# Add RabbitMQ Yum repositor
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
+
+# The last step is the actual installation of RabbitMQ
+sudo yum install rabbitmq-server
+
+# Confirm version of RabbitMQ installed
+rpm -qi rabbitmq-server
+
+# Start RabbitMQ Service
+sudo systemctl start rabbitmq-server
+sudo systemctl enable rabbitmq-server
+# Confirm service status
+<strong>systemctl status  rabbitmq-server
+</strong></code></pre>
+
+{% hint style="info" %}
+Source : [https://computingforgeeks.com/installing-rabbitmq-on-centos-fedora/](https://computingforgeeks.com/installing-rabbitmq-on-centos-fedora/)
+{% endhint %}
+
+{% hint style="success" %}
+Site Web : [https://www.rabbitmq.com/install-rpm.html#install-erlang](https://www.rabbitmq.com/install-rpm.html#install-erlang)
+{% endhint %}
