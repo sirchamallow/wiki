@@ -512,17 +512,23 @@ Site internet : [https://eza.rocks](https://eza.rocks/)
 
 ### Liste de raccourcis
 
-```bash
-eza
-eza -l
-eza -l --grid
-eza -l --icons
-eza -l --icons --hyperlink --header
-eza -l --icons --hyperlink --header --blocksize
-eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y"
-eza -T -l --icons --hyperlink --header --time-style "+%d/%m/%Y"
+<pre class="language-bash"><code class="lang-bash"><strong># La Base
+</strong><strong>eza -l             # Vue liste
+</strong>eza -l -T          # Vue liste avec arborescence
 
-GIT
+# Eléments
+eza -l --grid      # Vue liste en colonnes
+eza -l --icons     # Vue liste avec icones
+eza -l --hyperlink # Vue liste avec hyperlien
+eza -l --header    # Vue liste avec le header
+eza -l --blocksize # Vue liste avec la taille des fichiers
+eza -l --time-style "+%d/%m/%Y" # Vue liste avec la taille des fichiers
+
+# Combinaisons (exemples)
+eza -l --icons --hyperlink --header --blocksize --time-style "+%d/%m/%Y"    # Vue liste
+eza -T -l --icons --hyperlink --header --blocksize --time-style "+%d/%m/%Y" # Vue liste avec avec arborescence
+
+# GIT
 eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git
 eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-quotes'
-```
+</code></pre>
