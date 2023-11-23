@@ -18,6 +18,7 @@ code --install-extension github.github-vscode-theme        # GitHub Theme
 code --install-extension Catppuccin.catppuccin-vsc         # Catppuccin Theme
 code --install-extension Catppuccin.catppuccin-vsc-icons   # Catppuccin icons
 code --install-extension mhutchie.git-graph                # Git Graph
+code --install-extension oderwat.indent-rainbow            # indent-rainbow
 code --install-extension soerenuhrbach.vscode-deepl        # Deepl Translate
 
 ## Tools Microsoft VSCode
