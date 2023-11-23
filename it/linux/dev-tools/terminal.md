@@ -218,17 +218,17 @@ Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INST
 
 <figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Description**
+#### **Description**
 
 **tmux** est un multiplexeur de terminaux libre en mode texte. Il permet d'utiliser plusieurs terminaux virtuels dans une seule fenêtre de terminal ou une session sur un terminal distant. tmux peut être détaché d'une session et continuer de fonctionner en arrière-plan, on peut également s'y rattacher plus tard. [Wikipédia](https://fr.wikipedia.org/wiki/Tmux)
 
-### Cheatsheet
+#### Cheatsheet
 
 {% hint style="info" %}
 Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
 {% endhint %}
 
-### Installation
+#### Installation
 
 ```bash
 sudo dnf -y install tmux
@@ -242,7 +242,7 @@ Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https:/
 
 <figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
 
-### **Description**
+#### **Description**
 
 dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
 
@@ -250,7 +250,7 @@ dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colo
 Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
 {% endhint %}
 
-### Installation
+#### Installation
 
 Sur Fedora, vous pouvez installer dog via Snapcraft ou manuellement
 
@@ -339,11 +339,11 @@ Source : [https://www.linode.com/docs/guides/use-dog-linux-dns-client/](https://
 
 
 
-### **Description**
+#### **Description**
 
 Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
 
-### Installation
+#### Installation
 
 ```bash
 echo -e "[duck-stable]\nname=duck-stable\nbaseurl=https://repo.cyberduck.io/stable/\$basearch/\nenabled=1\ngpgcheck=0" | sudo tee /etc/yum.repos.d/duck-stable.repo
@@ -356,11 +356,11 @@ Source & Site web : [https://duck.sh/](https://duck.sh/)
 
 ## **MTR (**_**My Traceroute**_**)**
 
-### **Description**
+#### **Description**
 
 Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
 
-### Installation
+#### Installation
 
 ```bash
 sudo dnf install mtr
@@ -378,11 +378,11 @@ Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 
 <figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Description
+#### Description
 
 cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface\_en\_ligne\_de\_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
 
-### Installation
+#### Installation
 
 ```bash
 sudo dnf install curl
@@ -400,11 +400,11 @@ Site web : [https://curl.se/](https://curl.se/)
 
 <figure><img src="../../../.gitbook/assets/logo.png" alt=""><figcaption></figcaption></figure>
 
-### Description
+#### Description
 
 Une alternative plus graphique à `top` ou `htop`
 
-### Installation
+#### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install btop
 </strong></code></pre>
@@ -421,11 +421,11 @@ Des thèmes sont également disponible : [https://github.com/aristocratos/btop](
 
 <figure><img src="../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt=""><figcaption></figcaption></figure>
 
-### Descritpion
+#### Descritpion
 
 VIM permets de lire et d'éditer des fichiers depuis votre terminal
 
-### Installation
+#### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install vim        # VIM CLI version
 </strong><strong>sudo dnf install vim-X11    # VIM vith GUI features
@@ -451,18 +451,78 @@ Site web : [https://www.vim.org](https://www.vim.org/download.php)
 
 #### Mouvement du curseur
 
-* `k` - déplacer le curseur vers le haut ⬆️
-* `j` - déplacer le curseur vers le bas `⬇️`
-* `h` - déplacer le curseur vers la gauche ⬅️
-* `l` - déplacer le curseur vers la droite ➡️
+* `k` - déplacer le curseur vers le **haut** ⬆️
+* `j` - déplacer le curseur vers le **bas** `⬇️`
+* `h` - déplacer le curseur vers la **gauche** ⬅️
+* `l` - déplacer le curseur vers la **droite** ➡️
+* `H` - déplacement vers le **haut** de l'écran ⬆️
+* `M` - déplacement vers le **milieu** de l'écran&#x20;
+* `L` - déplacement vers le **bas** de l'écran `⬇️`
+* `gg` - aller à la **première ligne** du document ⏫
+* `G` - aller à la **dernière ligne** du document ⏬
 
+## GPing
 
+<figure><img src="../../../.gitbook/assets/readme-example.gif" alt=""><figcaption></figcaption></figure>
 
-* `H` - déplacement vers le haut de l'écran ⬆️
-* `M` - déplacement vers le milieu de l'écran&#x20;
-* `L` - déplacement vers le bas de l'écran `⬇️`
+#### Description
 
+Une alternative graphique et plus complète (multipe hosts par exemple) à la commande `ping`
 
+Après l'installation, lancer `gping` \<domaine.tld>
 
-* `gg` - aller à la première ligne du document ⏫
-* `G` - aller à la dernière ligne du document ⏬
+#### Installation
+
+```bash
+sudo dnf copr enable atim/gping -y && sudo dnf install gping
+```
+
+{% hint style="info" %}
+Source : [https://github.com/orf/gping](https://github.com/orf/gping)
+{% endhint %}
+
+## EZA
+
+<figure><img src="../../../.gitbook/assets/screenshots.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+`eza` est une alternative moderne du programme de listage de fichiers `ls`. \
+Il utilise des couleurs pour distinguer les types de fichiers et les métadonnées. Il connaît les liens symboliques, les attributs étendus et Git ! Enfin, il est petit, rapide et ne comporte qu'un seul binaire :)
+
+Après l'installation, lancer `eza` à la place de commande `ls`.
+
+Pour connaitre la liste complète des raccourcis, taper `eza --help`
+
+#### Installation
+
+```bash
+sudo dnf install eza
+```
+
+{% hint style="info" %}
+Source : [https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora](https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://eza.rocks](https://eza.rocks/)
+{% endhint %}
+
+### Liste de raccourcis
+
+```bash
+eza
+eza -l
+eza -l --grid
+eza -l --icons
+eza -l --icons --hyperlink --header
+eza -l --icons --hyperlink --header --blocksize
+eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y"
+eza -T -l --icons --hyperlink --header --time-style "+%d/%m/%Y"
+
+GIT
+eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git
+eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-quotes'
+```
