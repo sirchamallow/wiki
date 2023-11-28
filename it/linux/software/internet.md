@@ -57,10 +57,13 @@ Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or
 
 **Ungoogled Chromium** est un navigateur qui conserve l’expérience utilisateur par défaut de **Chromium** mais sans les dépendances aux services web de Google (comme Google Host Detector, Google URL Tracker, Google Cloud Messaging, Google Hotwording, etc.), tout en offrant des tas d’options pour améliorer la confidentialité et le contrôle de vos données.
 
-```bash
-sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:/ungoogled_chromium/Fedora_35/home:ungoogled_chromium.repo
-sudo dnf install ungoogled-chromium
-```
+{% hint style="info" %}
+La version RPM / DNF n'est plus maintenu.
+{% endhint %}
+
+{% hint style="success" %}
+Vous pouvez la télécharger depuis le repo officiel [https://github.com/ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium), et télécharger la version AppImage (compatible Fedora).
+{% endhint %}
 
 Source : [https://github.com/ungoogled-software/ungoogled-chromium-fedora](https://github.com/ungoogled-software/ungoogled-chromium-fedora)
 
