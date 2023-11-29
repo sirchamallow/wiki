@@ -441,6 +441,12 @@ Site web : [https://www.vim.org](https://www.vim.org/download.php)
 
 ### Liste de raccourcis
 
+`:q!` or `ZQ` - quitter et abandonner les modifications non sauvegardée
+
+{% hint style="info" %}
+Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/fr\_fr)
+{% endhint %}
+
 #### Faire une modification sur un fichier
 
 1. Rechercher la valeur à modifier : `/<value>`
