@@ -65,6 +65,10 @@ On peut ajouter un texte au survol :
 
 Qui donnera (survolez l'image avec votre souris pour voir apparaître le texte) :
 
+### Video
+
+
+
 ### Citation
 
 Les citations se font avec le signe `>` :
@@ -181,18 +185,38 @@ Markdown code: `---`
 Pour créer un tableau vous devez placer une ligne de tirets (`-`) sous la ligne d'entête et séparer les colonnes avec des `|`. Vous pouvez aussi préciser l'alignement en utilisant des `:`. :
 
 ```
-| Aligné à gauche  | Centré          | Aligné à droite |
-| :--------------- |:---------------:| -----:|
-| Aligné à gauche  |   ce texte        |  Aligné à droite |
-| Aligné à gauche  | est             |   Aligné à droite |
-| Aligné à gauche  | centré          |    Aligné à droite |
+| Aligné au centre | Centré | Aligné au centre |
+| :-: | :-: | :-: |
+| Aligné | ce texte | Aligné |
+| Aligné au | est | Aligné au |
+| Aligné au centre | centré | Aligné au centre |
+
+| Aligné à gauche | Gauche | Aligné à gauche |
+| :- | :- | :- |
+| Aligné | ce texte | Aligné |
+| Aligné à | est | Aligné à |
+| Aligné à gauche | à gauche | Aligné à gauche |
+
+| Aligné à droite | Droite | Aligné à droite |
+| -: | -: | -: |
+| Aligné | ce texte | Aligné |
+| Aligné à | est | Aligné à |
+| Aligné à droite | à droite | Aligné à droite |
 ```
 
-| Aligné à gauche | Centré   | Aligné à droite |
-| --------------- | -------- | --------------- |
-| Aligné à gauche | ce texte | Aligné à droite |
-| Aligné à gauche | est      | Aligné à droite |
-| Aligné à gauche | centré   | Aligné à droite |
+| Aligné au centre | Ce texte est | Aligné au centre |
+| ---------------- | ------------ | ---------------- |
+|          Aligné  | ce texte     |          Aligné  |
+|       Aligné au  |    est       |       Aligné au  |
+| Aligné au centre | centré       | Aligné au centre |
+
+| Aligné à gauche | Ce texte est | Aligné à droite |
+| --------------- | ------------ | --------------- |
+| Aligné          | ce texte     | Aligné          |
+| Aligné à        | est          | Aligné à        |
+| Aligné à gauche | à gauche     | Aligné à droite |
+
+<table><thead><tr><th width="249.33333333333331">Aligné à droite</th><th>Ce texte est</th><th>Aligné à droite</th></tr></thead><tbody><tr><td>                Aligné</td><td>        ce texte</td><td>                 Aligné</td></tr><tr><td>             Aligné à</td><td>                est</td><td>              Aligné à</td></tr><tr><td> Aligné à droite</td><td>        à droite</td><td>   Aligné à droite</td></tr></tbody></table>
 
 ### Alertes
 
