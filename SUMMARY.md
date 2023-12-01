@@ -45,6 +45,7 @@
 * [💡 Ressources](tech/articles/README.md)
   * [🔗 Construire des logiciels, ensemble, avec Git](tech/articles/build-with-git.md)
   * [📄 Google Docs -> HTML ou Markdown](tech/articles/google-docs-to-html-or-markdown.md)
+  * [📋 Markdown cheatsheet](tech/articles/markdown-cheatsheet.md)
   * [⏳ NTP](tech/articles/ntp.md)
   * [🛡 DNS](tech/articles/dns/README.md)
     * [↪ Changer ses DNS](tech/articles/dns/change-dns.md)
