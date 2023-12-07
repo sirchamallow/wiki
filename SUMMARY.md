@@ -5,7 +5,7 @@
 ## Tech
 
 * [💾 OS](tech/os/README.md)
-  * [🐧 Fedora Workstation](it/linux/README.md)
+  * [🐧 Fedora](it/linux/README.md)
     * [💡 Astuces](it/linux/astuces.md)
     * [👨💻 DEV tools](it/linux/dev-tools/README.md)
       * [📑 Langages](it/linux/dev-tools/langages.md)
@@ -43,6 +43,7 @@
     * [🇩🇪 TUXEDO Computers](it/linux/hardware/tuxedo-computers.md)
     * [🇨🇳 Huawei Computers](tech/hardware/huawei-computers.md)
 * [💡 Ressources](tech/articles/README.md)
+  * [😶 Kaomoji japonais](tech/articles/kaomoji-japonais.md)
   * [🔗 Construire des logiciels, ensemble, avec Git](tech/articles/build-with-git.md)
   * [📄 Google Docs -> HTML ou Markdown](tech/articles/google-docs-to-html-or-markdown.md)
   * [📋 Markdown cheatsheet](tech/articles/markdown-cheatsheet.md)
