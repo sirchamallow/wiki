@@ -538,3 +538,34 @@ eza -T -l --icons --hyperlink --header --blocksize --time-style "+%d/%m/%Y" # Vu
 eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git
 eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-quotes'
 </code></pre>
+
+## Arsenal
+
+
+
+<figure><img src="../../../.gitbook/assets/logo (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/arsenal.gif" alt=""><figcaption></figcaption></figure>
+
+Un outil pour créez un inventaire de vos commandes Linux favorites
+
+```bash
+# Installation avec pip
+python3 -m pip install arsenal-cli
+
+# Installation manuelle
+git clone https://github.com/Orange-Cyberdefense/arsenal.git
+cd arsenal
+python3 -m pip install -r requirements.txt
+./run
+
+# Inside your .bashrc or .zshrc add the path to run to help you do that you could launch the addalias.sh script
+./addalias.sh
+
+# Lancer l'application
+arsenal               
+```
+
+{% hint style="info" %}
+Source : [https://github.com/Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
+{% endhint %}
