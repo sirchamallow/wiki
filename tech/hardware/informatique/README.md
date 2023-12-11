@@ -4,6 +4,10 @@ description: Base de connaissance sur les ordinateurs portables Tuxedo et Huawei
 
 # 💻 Informatique
 
+{% content-ref url="bureau.md" %}
+[bureau.md](bureau.md)
+{% endcontent-ref %}
+
 {% content-ref url="../../../it/linux/hardware/tuxedo-computers.md" %}
 [tuxedo-computers.md](../../../it/linux/hardware/tuxedo-computers.md)
 {% endcontent-ref %}

@@ -14,6 +14,10 @@ Voici deux logiciels indispensable si vous possédez un laptop de la marque.
 
 Les commandes d'installations ci-dessous sont pour la distribution Linux Fedora.
 
+### BIOS
+
+Pour accéder au menu du bios, appuyer sur la touche `F2` au démarrage ou `F7` pour le menu de boot.
+
 ### Tuxedo Keyboard
 
 Kernel module pour le rétroéclairage du clavier
