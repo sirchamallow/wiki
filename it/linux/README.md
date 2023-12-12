@@ -2,7 +2,7 @@
 description: Linux
 ---
 
-# 🐧 Fedora Workstation
+# 🐧 Fedora
 
 ## Présentation
 
@@ -26,9 +26,13 @@ Fedora Linux est un système d’exploitation libre et une distribution Linux co
 [gnome-extensions.md](gnome-extensions.md)
 {% endcontent-ref %}
 
-{% content-ref url="hardware/" %}
-[hardware](hardware/)
+{% content-ref url="videogames.md" %}
+[videogames.md](videogames.md)
 {% endcontent-ref %}
+
+## Raccourcis
+
+`CTRL + H` : afficher les fichiers/dossier cachés
 
 ## Commandes des bases
 
