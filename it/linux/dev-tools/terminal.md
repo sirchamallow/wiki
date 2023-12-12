@@ -222,12 +222,6 @@ Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INST
 
 **tmux** est un multiplexeur de terminaux libre en mode texte. Il permet d'utiliser plusieurs terminaux virtuels dans une seule fenêtre de terminal ou une session sur un terminal distant. tmux peut être détaché d'une session et continuer de fonctionner en arrière-plan, on peut également s'y rattacher plus tard. [Wikipédia](https://fr.wikipedia.org/wiki/Tmux)
 
-#### Cheatsheet
-
-{% hint style="info" %}
-Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
-{% endhint %}
-
 #### Installation
 
 ```bash
@@ -236,6 +230,20 @@ sudo dnf -y install tmux
 
 {% hint style="success" %}
 Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https://fedoramagazine.org/use-tmux-more-powerful-terminal/)
+{% endhint %}
+
+### Liste de raccourcis
+
+`tmux ls` : voir la liste liste des tmux actifs
+
+`tmux new -s mysession` : démarrer une nouvelle session avec un nom
+
+`tmux a -t mysession` : se connecter à votre dernière session qui porte un nom
+
+### Cheatsheet
+
+{% hint style="info" %}
+Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
 {% endhint %}
 
 ## Dog
