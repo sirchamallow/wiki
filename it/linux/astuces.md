@@ -290,7 +290,7 @@ sudo dnf install bind bind-utils
 #### Recherche DNS
 
 ```bash
-dig www.lewifi.fr
+dig lewifi.fr
 ```
 
 #### Recherche DNS ipv4 & ipv6
@@ -299,7 +299,14 @@ dig www.lewifi.fr
 dig www.lewifi.fr A www.lewifi.fr AAAA +short
 ```
 
-Sourcr : Source: [http://linux.die.net/man/1/dig](http://linux.die.net/man/1/dig) -- under the 'Multiple Queries' section
+Source : Source: [http://linux.die.net/man/1/dig](http://linux.die.net/man/1/dig) -- under the 'Multiple Queries' section
+
+#### Recherche provider Mail d'un domaine
+
+```bash
+dig auchan.fr MX
+# auchan.fr.  600 IN  MX  1 aspmx.l.google.com. --> Google Workspace
+```
 
 #### Spécifier un serveur DNS
 
