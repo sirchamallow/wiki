@@ -41,7 +41,6 @@ code --install-extension KnisterPeter.vscode-commitizen     # Commitizen
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 <strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL
 </strong>code --install-extension redhat.ansible                     # Ansible
-code --install-extension redhat.vscode-yaml                 # YAML
 
 ## Language Support
 code --install-extension rebornix.ruby               # Ruby
@@ -49,4 +48,6 @@ code --install-extension rust-lang.rust              # Rust
 code --install-extension dustypomerleau.rust-syntax  # Rust syntax
 code --install-extension ms-python.python            # Python
 code --install-extension golang.Go                   # Go
+code --install-extension redhat.vscode-yaml          # YAML
+code --install-extension redhat.vscode-xml           # XML
 </code></pre>
