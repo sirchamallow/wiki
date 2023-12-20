@@ -1,5 +1,5 @@
 ---
-description: Il existe de multiples extensions pour l'ide VSCode, en voici quelques unes
+description: Il existe de multiples extensions pour l'ide VSCode, en voici une sélection
 ---
 
 # ⌨ Ext. VSCode
@@ -28,21 +28,25 @@ code --install-extension ms-vscode-remote.remote-wsl        # Windows Subsystem 
 code --install-extension ms-vscode-remote.remote-ssh        # Remote - SSH
 code --install-extension ms-vscode-remote.remote-ssh-edit   # Remote - SSH: Editing Configuration Files
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack # Remote Development
+code --install MS-CEINTL.vscode-language-pack-fr            # French Language Pack for Visual Studio Code
 
 ## Tools
 code --install-extension dbaeumer.vscode-eslint             # ESLint
 code --install-extension Postman.postman-for-vscode         # Postman
 code --install-extension Rubymaniac.vscode-paste-and-indent # Paste and Indent
 code --install-extension usernamehw.errorlens               # Error Lens
-code --install-extension rangav.vscode-thunder-client       # Thunder Client
 code --install-extension jock.svg                           # SVG
 code --install-extension IronGeek.vscode-env                # ENV
 code --install-extension KnisterPeter.vscode-commitizen     # Commitizen
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
-<strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL for Visual Studio Code
-</strong>
+<strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL
+</strong>code --install-extension redhat.ansible                     # Ansible
+code --install-extension redhat.vscode-yaml                 # YAML
+
 ## Language Support
-code --install-extension rebornix.ruby                        # Ruby for Visual Studio Code
-code --install-extension rust-lang.rust                       # Rust support for Visual Studio Code
-code --install-extension dustypomerleau.rust-syntax           # Rust syntax
+code --install-extension rebornix.ruby               # Ruby
+code --install-extension rust-lang.rust              # Rust
+code --install-extension dustypomerleau.rust-syntax  # Rust syntax
+code --install-extension ms-python.python            # Python
+code --install-extension golang.Go                   # Go
 </code></pre>
