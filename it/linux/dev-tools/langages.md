@@ -246,7 +246,7 @@ Source : [https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html]
 
 #### yarn
 
-<figure><img src="../../../.gitbook/assets/yarn_image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/yarn_image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Installons maintenant yarn, le gestionnaire de paquets pour installer des bibliothèques JavaScript.
 
@@ -266,7 +266,7 @@ Si le message affiche `v1.22.17` ou autre version, vous pouvez continuer
 
 #### npm
 
-<figure><img src="../../../.gitbook/assets/Npm-logo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Npm-logo.png" alt="" width="270"><figcaption></figcaption></figure>
 
 #### **Installation de modules NPM**
 
