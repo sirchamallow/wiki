@@ -16,3 +16,4 @@ Comme par exemple : [Sci-Hub](https://fr.wikipedia.org/wiki/Sci-Hub), [LibGen](h
 * Changer ses DNS sur **Linux** (Ubuntu Gnome) : Paramètres Système / Réseau / Options / IPV4 ou IPV6 / DNS
 * Changer ses DNS sur **Mac** : Réglages / Réseau / Avancé / DNS
 * Changer ses DNS sur **Android** : [**DNS66**](https://f-droid.org/packages/org.jak\_linux.dns66/) (F-Droid), [**DNS Changer**](https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger\&hl=fr) (Google Play), [**Blokada**](https://github.com/blokadaorg) (GitHub)
+* Changer ses DNS sur **Chromebook** : Paramètres > Réseau puis sélectionnez votre connexion Wi-Fi. Désactivez la configuration automatique de l’adresse IP en cliquant sur Réseau, puis désactivez l’option Configurer l’adresse IP automatiquement en cliquant sur l’interrupteur. Modifiez les Serveurs de nom. Au lieu d’utiliser l’option par défaut, cliquer sur Serveurs de nom personnalisés et saisir une adresse de serveur primaire et secondaire.
