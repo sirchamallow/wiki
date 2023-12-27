@@ -6,7 +6,7 @@ description: Setup pour langages de programmation sur Fedora
 
 ## Python
 
-<figure><img src="../../../.gitbook/assets/Python-Logo.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Python-Logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ```bash
 sudo dnf install python3		# Installing Python 3
@@ -24,7 +24,7 @@ Source : [https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/
 
 ## PHP
 
-<figure><img src="../../../.gitbook/assets/php-server-integration-wysiwyg-html-editor-froala-10.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/php-server-integration-wysiwyg-html-editor-froala-10.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ```bash
 sudo dnf install php-cli			# PHP Installation
@@ -37,7 +37,7 @@ Source : [https://developer.fedoraproject.org/tech/languages/php/php-installatio
 
 ## Rust
 
-<figure><img src="../../../.gitbook/assets/rust-logo.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rust-logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Rust
 
@@ -159,9 +159,7 @@ La commande **`bundle`**devrait être ensuite disponible sur votre système.
 
 ## Ruby on Rails
 
-<figure><img src="../../../.gitbook/assets/Ruby_On_Rails_Logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/Ruby_On_Rails_Logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Installation avec RubyGems.org
 
@@ -180,7 +178,7 @@ Alternative : [https://github.com/rails/rails#getting-started](https://github.co
 
 ## Flutter
 
-<figure><img src="../../../.gitbook/assets/Google-flutter-logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Google-flutter-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ```bash
 sudo snap install flutter --classic	# Install Flutter using SnapStore
@@ -191,7 +189,7 @@ Source : [https://docs.flutter.dev/get-started/install/linux](https://docs.flutt
 
 ## Node.JS
 
-<figure><img src="../../../.gitbook/assets/2560px-Node.js_logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2560px-Node.js_logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### NodeJS
 
@@ -246,7 +244,7 @@ Source : [https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html]
 
 #### yarn
 
-<figure><img src="../../../.gitbook/assets/yarn_image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/yarn_image.png" alt="" width="188"><figcaption></figcaption></figure>
 
 Installons maintenant yarn, le gestionnaire de paquets pour installer des bibliothèques JavaScript.
 
@@ -266,7 +264,7 @@ Si le message affiche `v1.22.17` ou autre version, vous pouvez continuer
 
 #### npm
 
-<figure><img src="../../../.gitbook/assets/Npm-logo.png" alt="" width="270"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Npm-logo.png" alt="" width="135"><figcaption></figcaption></figure>
 
 #### **Installation de modules NPM**
 
@@ -307,7 +305,7 @@ source ~/.profile
 
 ## JAVA
 
-<figure><img src="../../../.gitbook/assets/Java.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Java.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Gradle
 
@@ -350,7 +348,7 @@ work in progress section
 
 ## Scala
 
-<figure><img src="../../../.gitbook/assets/ezgif.com-webp-to-jpg-2.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ezgif.com-webp-to-jpg-2.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
 Installation de SCALA
 
