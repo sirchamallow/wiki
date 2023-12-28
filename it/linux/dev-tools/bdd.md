@@ -12,6 +12,12 @@ sudo systemctl enable redis 	        # To start redis on boot, run
 
 Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](https://developer.fedoraproject.org/tech/database/redis/about.html)
 
+#### Interface graphique pour Redis
+
+* RedisInsight : [https://redis.com/fr/redis-enterprise/redisinsight/](https://redis.com/fr/redis-enterprise/redisinsight/)
+* Redis-commander : [https://github.com/joeferner/redis-commander](https://github.com/joeferner/redis-commander)
+* Redis-UI : [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+
 ## PostgreSQL
 
 <figure><img src="../../../.gitbook/assets/postgresql.png" alt="" width="375"><figcaption></figcaption></figure>
