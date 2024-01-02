@@ -110,6 +110,8 @@ Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
 
 ## Discord
 
+Discord est un logiciel propriétaire gratuit de VoIP et de messagerie instantanée
+
 ```bash
 sudo dnf update
 sudo dnf install discord
@@ -136,7 +138,9 @@ sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the f
 sudo snap install caprine             # Install Caprine
 ```
 
+{% hint style="info" %}
 Source : [https://www.zdnet.com/article/how-to-get-a-facebook-messenger-client-on-linux/](https://www.zdnet.com/article/how-to-get-a-facebook-messenger-client-on-linux/)
+{% endhint %}
 
 ## VirtualBox
 
@@ -189,14 +193,25 @@ Source : [https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linu
 Un utilitaire open-source pour libérer le cache, supprimer les cookies, effacer l'historique d'Internet, déchiqueter des fichiers temporaires, supprimer des journaux etc. \
 Disponible sur Linux et Windows.
 
-{% hint style="info" %}
-Source : [https://www.bleachbit.org/download](https://www.bleachbit.org/download)
+{% hint style="success" %}
+Site internet : [https://www.bleachbit.org/download](https://www.bleachbit.org/download)
 {% endhint %}
 
 ## Stacer
 
 Un utilitaire d'optimisation et de monitoring graphique open-source pour Linux sou la forme d'un tableau de bord. Il sera par exemple possible de voir la charge en mémoire, CPU, disque et réseau mais également de gérer les applications et les processus qui se lancent au démarrage, de faire un peu de ménage dans vos logs et fichiers temporaires (cache, corbeille).
 
-{% hint style="info" %}
-Source : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
+{% hint style="success" %}
+Site internet : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
+{% endhint %}
+
+## CopyQ
+
+CopyQ est un gestionnaire de presse-papiers avancé avec de puissantes fonctionnalités d'édition et de script.
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install copyq
+</strong></code></pre>
+
+{% hint style="success" %}
+Site internet : [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 {% endhint %}
