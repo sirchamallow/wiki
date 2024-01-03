@@ -69,6 +69,8 @@ flatpak install flathub io.github.JaGoLi.ytdl_gui
 
 ## OBS Studio
 
+<figure><img src="../../../.gitbook/assets/hero.png" alt=""><figcaption></figcaption></figure>
+
 #### Description
 
 OBS Studio (Open Broadcaster Software Studio), est un logiciel open source et gratuit conçu pour l'enregistrement vidéo et la diffusion en direct. Il offre des fonctionnalités avancées pour la capture de contenu à partir de différentes sources, telles que des webcams, des fenêtres d'application, des captures d'écran, des cartes de capture et plus encore.
