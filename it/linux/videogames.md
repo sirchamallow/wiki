@@ -4,6 +4,24 @@ description: Quelques jeux disponibles sur Linux
 
 # 🕹 Jeux vidéos
 
+## Lutris
+
+### Description
+
+Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les systèmes d'exploitation basés sur Linux développé et maintenu par Mathieu Comandon et la communauté.&#x20;
+
+Lutris vous donnera accès à l’ensemble de vos jeux vidéo, ou tout du moins ceux accessibles sur PC. Grâce à une interface unique, vous pouvez installer et lancer n’importe quel jeu disponible dans vos librairies **Steam**, **Epic Games** ou **GOG** par exemple.
+
+### Installation
+
+```bash
+sudo dnf install lutris
+```
+
+{% hint style="info" %}
+Source : [https://lutris.net/downloads](https://lutris.net/downloads)
+{% endhint %}
+
 ## OpenRCT2
 
 <figure><img src="../../.gitbook/assets/OpenRCT2-Game-Logo.png" alt=""><figcaption></figcaption></figure>
