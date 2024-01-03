@@ -68,7 +68,7 @@ mv * /home/georges/Bureau/marseille
 rm -r
 ```
 
-## Mise à jour
+## Mise à jour / Upgrade
 
 Voici la procédure pour mettre à jour votre version de Fedora
 
@@ -94,6 +94,18 @@ sudo dnf system-upgrade download --releasever=39
 sudo dnf system-upgrade reboot
 # Une fois le processus de mise à niveau terminé, 
 # votre système redémarrera une seconde fois dans la version mise à jour de Fedora
+
+sudo dnf install rpmconf
+# Installe le paquet rpmconf, qui est un outil permettant de gérer les fichiers de configuration de paquets RPM.
+# Ces fichiers peuvent parfois être mis à jour, et rpmconf aide à fusionner les modifications tout en conservant les réglages personnalisés.
+
+sudo rpmconf -a
+# Cette commande utilise l'outil rpmconf pour détecter les fichiers de configuration de paquets
+# [...] qui ont été modifiés depuis leur installation initiale et propose des options pour les fusionner.
+
+sudo dnf autoremove
+# Supprime les paquets orphelins, c.a.d les paquets qui ont été installés en tant que dépendances pour d'autres paquets, mais qui ne sont plus nécessaires. 
+# Elle permet de libérer de l'espace disque en éliminant les paquets inutilisés.
 ```
 
 {% hint style="info" %}
