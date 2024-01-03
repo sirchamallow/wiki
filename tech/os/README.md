@@ -1,3 +1,7 @@
+---
+description: La section qui regroupe des logiciels, outils, astuces pour chaque système
+---
+
 # 💾 OS
 
 ## Système d'exploitation
