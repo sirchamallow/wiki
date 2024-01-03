@@ -89,3 +89,116 @@ Source : [https://github.com/obsproject/obs-studio](https://github.com/obsprojec
 {% hint style="success" %}
 Site internet : [https://obsproject.com/fr](https://obsproject.com/fr)
 {% endhint %}
+
+## Kodi Media Center
+
+<figure><img src="../../../.gitbook/assets/kodilogo.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Description
+
+Kodi est un logiciel open source de centre multimédia, anciennement connu sous le nom de XBMC (Xbox Media Center). Il offre une plateforme de divertissement complète en transformant votre ordinateur, smartphone, tablette, ou même un dispositif matériel comme un Raspberry Pi, en un centre multimédia.
+
+Le logiciel est populaire parmi les utilisateurs qui souhaitent organiser et accéder facilement à leur bibliothèque multimédia personnelle, ainsi que ceux qui veulent étendre leurs options de divertissement en utilisant des modules complémentaires tiers.
+
+#### Installation
+
+```bash
+sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+# Import du dossier RPM Fusion depuis Fedora
+
+sudo dnf install kodi
+# Installation de Kodi
+```
+
+### Configurer FirewallD pour Kodi
+
+Créer un nouveau fichier de service FirewallD nommé `kodi-http.xml` pour autoriser l'accès HTTP à Kodi
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo nano /etc/firewalld/services/kodi-http.xml
+</strong></code></pre>
+
+Insérez le contenu suivant dans le fichier
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Kodi HTTP</short>
+  <description>Allow access to Kodi via HTTP</description>
+  <port protocol="tcp" port="8080"/>
+</service>
+```
+
+Sauvegardez et fermez le fichier. Rechargez la configuration de FirewallD et ajoutez le nouveau service à votre zone active de pare-feu avec les commandes suivantes :
+
+```bash
+sudo firewall-cmd --reload
+sudo firewall-cmd --add-service=kodi-http --permanent
+sudo firewall-cmd --reload
+```
+
+**Notes :** Bien que cet exemple ne concerne que l'accès HTTP, vous pouvez créer des fichiers de service FirewallD supplémentaires pour d'autres services Kodi, tels que UPnP (`kodi-upnp.xml`) et EventServer (`kodi-eventserver.xml`), en suivant les mêmes étapes et en modifiant les numéros de port si nécessaire.
+
+Veillez à remplacer le numéro de port dans la balise par la valeur correcte pour chaque service. Après avoir généré les fichiers de service nécessaires, rechargez la configuration de FirewallD et ajoutez les services à votre zone de pare-feu active, comme illustré précédemment.
+
+{% hint style="info" %}
+Source : [https://github.com/xbmc](https://github.com/xbmc)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://kodi.tv/](https://kodi.tv/)
+{% endhint %}
+
+### Extensions
+
+#### Catch-up TV & More
+
+Cette extension regroupe l’ensemble des vidéos des différents services et chaînes de Replay TV (rattrapage TV). De plus, cette extension vous permet d’accéder rapidement aux vidéos et contenus proposés par certains sites internet.
+
+{% hint style="info" %}
+Site internet : [https://catch-up-tv-and-more.github.io/fr/](https://catch-up-tv-and-more.github.io/fr/)
+{% endhint %}
+
+#### Orange TV France for Kodi
+
+{% hint style="warning" %}
+Cet addon n'est pas officiellement supporté par Orange.
+{% endhint %}
+
+{% hint style="info" %}
+Source : [https://github.com/BreizhReloaded/plugin.video.orange.fr/](https://github.com/BreizhReloaded/plugin.video.orange.fr/)
+{% endhint %}
+
+Cete extension permets d'ajouter la TV d'Orange à Kodi. Toutes les chaînes inclues dans votre abonnement sont maintenant directement accessibles depuis Kodi.
+
+#### Installation
+
+Téléchargez l'archive de la [dernière version](https://github.com/BreizhReloaded/plugin.video.orange.fr/releases/latest) et installez-la directement depuis Kodi&#x20;
+
+```markup
+Settings > Addons > Install from ZIP
+```
+
+Installez ensuite les dépendences depuis l'écan de l'adddon
+
+```markup
+My addons > Video addons > Orange TV France > Dependencies
+```
+
+L'intégration à la télévision sur Kodi se fait via **IPTV Manage**r.&#x20;
+
+{% hint style="info" %}
+Source : [https://github.com/add-ons/service.iptv.manager](https://github.com/add-ons/service.iptv.manager)
+{% endhint %}
+
+Vous pouvez l'installer et l'activer directement depuis les réglages de l'addon.&#x20;
+
+Une fois configuré, les chaînes et le programme TV se chargent automatiquement.
+
+{% hint style="info" %}
+_NB: vous pouvez également choisir l'intégration basique, dans ce cas vous devez passer manuellement à_ [_IPTV Simple_](https://github.com/kodi-pvr/pvr.iptvsimple) _les fichiers .m3u8 et .xml situés dans le dossier data._
+{% endhint %}
+
+Vous devriez maintenant voir toutes les chaînes regroupées par categories dans la section TV. \
+S'il n'est pas déjà installé, Kodi vous demandera d'installer l'outil de décryptage quand vous regarderez une chaîne pour la première fois.
+
+N'oubliez pas de configurer IPTV Manager correctement et de sélectionner le bon fournisseur dans les paramètres ;) !

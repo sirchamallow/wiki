@@ -66,7 +66,6 @@
 * [💿 Software](tech/software/README.md)
   * [📤 Firefox Send](tech/software/firefox-send.md)
   * [💻 RecordScreen](tech/software/recordscreen.md)
-  * [📺 Ext. Kodi](tech/software/kodi-extensions.md)
   * [🌐 Navigateurs Web](tech/software/browsers/README.md)
     * [🦊 Firefox](tech/software/browsers/firefox-extensions/README.md)
       * [✨ Thèmes](tech/software/browsers/firefox-extensions/themes.md)
