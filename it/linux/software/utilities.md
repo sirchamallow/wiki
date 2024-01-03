@@ -12,7 +12,9 @@ Il s'agit d'un **logiciel gratuit qui recueille des informations sur le processe
 sudo dnf install cpu-x
 ```
 
+{% hint style="info" %}
 Source : [https://itsfoss.com/cpu-x-alternative-cpu-z-linux/](https://itsfoss.com/cpu-x-alternative-cpu-z-linux/)
+{% endhint %}
 
 ## P7zip
 
@@ -33,7 +35,9 @@ Il est multi-plateforme (Linux, Windows, Mac OS X) et simple d'utilisation. Il m
 su -c "yum install gparted"
 ```
 
-Source : [GParted](https://gparted.org/download.php)
+{% hint style="info" %}
+Source : [https://gparted.org/download.php](https://gparted.org/download.php)
+{% endhint %}
 
 ## GPaste
 
@@ -57,7 +61,9 @@ Ensuite, procéder à l'installation
 sudo dnf -y install gpaste
 ```
 
+{% hint style="info" %}
 Source : [https://installati.one/fedora/34/gpaste/](https://installati.one/fedora/34/gpaste/)
+{% endhint %}
 
 ## KolourPaint
 
