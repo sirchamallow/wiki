@@ -21,7 +21,7 @@ C'est une sevice de CDN pour les polices d'écritures pour faire simple.
 
 {% embed url="https://blog.cloudflare.com/cloudflare-fonts-enhancing-website-privacy-speed/" %}
 
-## Powerfonts
+## Powerline-fonts
 
 Les polices Powerline, sont un ensemble de polices de caractères spécialement conçues pour être utilisées avec des interfaces en ligne de commande (CLI). Elles sont populaires parmi les utilisateurs de terminaux, en particulier dans l'écosystème des utilisateurs de lignes de commande, tels que ceux qui travaillent avec des shells comme Bash, Zsh, et d'autres.
 
