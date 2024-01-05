@@ -23,7 +23,7 @@ Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-l
 
 ### Remplacer Bash par Zsh&#x20;
 
-<figure><img src="../../../.gitbook/assets/zshell.png" alt="" width="375"><figcaption><p>Zsh logo</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/zshell.png" alt="" width="188"><figcaption><p>Zsh logo</p></figcaption></figure>
 
 #### **Description**
 
@@ -44,9 +44,7 @@ Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/p
 
 ## Oh-My-ZSH (OMZ)
 
-
-
-<figure><img src="../../../.gitbook/assets/omz.png" alt="" width="253"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/omz.png" alt="" width="169"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
 
 **Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes et plugins (support de PHP, Python, PostgreSQL ...). Ci-dessous, sont présents ceux que j'utilise.&#x20;
 
@@ -216,7 +214,7 @@ Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INST
 
 ## TMUX
 
-<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -343,9 +341,7 @@ Source : [https://www.linode.com/docs/guides/use-dog-linux-dns-client/](https://
 
 ## Cyberduck CLI
 
-<figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt="" width="200"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -385,8 +381,6 @@ Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 ##
 
 ## GNU nano
-
-
 
 <figure><img src="../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -457,11 +451,12 @@ Des thèmes sont également disponible : [https://github.com/aristocratos/btop](
 
 ## VIM
 
-<figure><img src="../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt="" width="75"><figcaption></figcaption></figure>
 
 #### Descritpion
 
-VIM permets de lire et d'éditer des fichiers depuis votre terminal
+VIM permets de lire et d'éditer des fichiers depuis votre terminal.\
+Pas facile à prendre en main :D
 
 #### Installation
 
