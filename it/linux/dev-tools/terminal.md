@@ -409,7 +409,33 @@ Toutes les commandes sont préfixées avec soit `^` ou `M`.&#x20;
 * Le symbole caret (`^`) représente la touche`Ctrl` de vote clavier.&#x20;
 * La lettre `M`représente la touche `Alt` de votre clavier.
 
-Par exemple, pour `^J`les commandes signifient que l'appui sur `Ctrl`et `J` en même temps.&#x20;
+Par exemple, pour `^J`les commandes signifient que l'appui sur `Ctrl`et `J` en même temps.
+
+#### Sélectionner du texte
+
+Pour sélectionner du texte, le copier et le coller :
+
+1. Se déplacer avec les flèches ↑ ↓ ← → pour se placer à l'endroit voulu,
+2. Faire Alt+A pour marquer le début de la sélection,
+3. Se déplacer avec les flèches ↑ ↓ ← → pour sélectionner la zone de texte à copier,
+4. Copier cette sélection avec Alt+^,
+5. Se déplacer à l'endroit voulu pour le collage,
+6. Coller avec Ctrl+U.
+
+#### Raccourcis utiles
+
+* `CTRL` + `A` : Permet d’aller au début de la ligne
+* `CTRL` + `E` : Permet d’aller à la fin de la ligne
+* `CTRL` + `Y` : Permet de remonter de page en page
+* `CTRL` + `V` : Permet de descendre de page en page
+* `CTRL` + `_` : Permet de se rendre au n° de ligne indiqué
+* `CTRL` + `C` : Permet de savoir à quel n° de ligne / colonne / caractère se trouve votre curseur
+* `CTRL` + `W` : Permet de faire une recherche
+* `CTRL` + `D` : Permet de supprimer un caractère
+* `CTRL` + `K` : Permet de supprimer une ligne complète (comme la commande dd sous Vi)
+* `CTRL` + `O` : Permet de sauvegarder votre fichier
+* `CTRL` + `X` : Permet de quitter nano
+* `CTRL` + `G` : Affiche l’aide
 
 ## curl
 
