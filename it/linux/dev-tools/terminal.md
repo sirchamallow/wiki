@@ -388,7 +388,7 @@ Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 
 
 
-<figure><img src="../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -410,7 +410,7 @@ Site web : [https://www.nano-editor.org/](https://www.nano-editor.org/)
 
 ## curl
 
-<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -432,7 +432,11 @@ Site web : [https://curl.se/](https://curl.se/)
 
 ## Btop++
 
-<figure><img src="../../../.gitbook/assets/logo.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="false">
+
+<figure><img src="../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure>
+
+</div>
 
 #### Description
 
