@@ -221,3 +221,25 @@ CopyQ est un gestionnaire de presse-papiers avancé avec de puissantes fonctionn
 {% hint style="success" %}
 Site internet : [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 {% endhint %}
+
+## Solaar
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-05 11-22-34.png" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+Un utilitaire open-source avec une interface graphique pour gérer les périphériques de marques Logitech utilisant un dongle usb [Unifying](https://en.wikipedia.org/wiki/Logitech\_Unifying\_receiver), Bolt, Lightspeed, ou Nano; ou en connexion directe via un câble USB cable; ou encore par connexion Bluetooth.
+
+#### Installation&#x20;
+
+```bash
+sudo dnf install solaar
+```
+
+{% hint style="info" %}
+Source : [https://github.com/pwr-Solaar/Solaar](https://github.com/pwr-Solaar/Solaar)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://pwr-solaar.github.io/Solaar/](https://pwr-solaar.github.io/Solaar/)
+{% endhint %}
