@@ -382,6 +382,32 @@ Source : [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr
 Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 {% endhint %}
 
+##
+
+## GNU nano
+
+
+
+<figure><img src="../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt=""><figcaption></figcaption></figure>
+
+#### **Description**
+
+GNU nano permet de lire et d'éditer des fichiers depuis votre terminal mais de façon plus accessible que VIM.
+
+#### Installation
+
+```bash
+sudo dnf install nano
+```
+
+{% hint style="success" %}
+Source : [https://www.nano-editor.org/git.php](https://www.nano-editor.org/git.php)
+{% endhint %}
+
+{% hint style="info" %}
+Site web : [https://www.nano-editor.org/](https://www.nano-editor.org/)
+{% endhint %}
+
 ## curl
 
 <figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
