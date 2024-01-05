@@ -402,6 +402,15 @@ Source : [https://www.nano-editor.org/git.php](https://www.nano-editor.org/git.p
 Site web : [https://www.nano-editor.org/](https://www.nano-editor.org/)
 {% endhint %}
 
+### Liste de raccourcis
+
+Toutes les commandes sont préfixées avec soit `^` ou `M`.&#x20;
+
+* Le symbole caret (`^`) représente la touche`Ctrl` de vote clavier.&#x20;
+* La lettre `M`représente la touche `Alt` de votre clavier.
+
+Par exemple, pour `^J`les commandes signifient que l'appui sur `Ctrl`et `J` en même temps.&#x20;
+
 ## curl
 
 <figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
