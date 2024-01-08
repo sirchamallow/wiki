@@ -14,7 +14,9 @@ description: Liste de logiciels
 sudo dnf install firefox
 ```
 
+{% hint style="info" %}
 Source : [https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems](https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems)
+{% endhint %}
 
 #### Firefox Developer Edition
 
@@ -25,7 +27,9 @@ sudo dnf install firefox-dev                # Install Firefox Dev
 firefox-dev                                 # Launch Firefox Dev
 ```
 
+{% hint style="info" %}
 Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/)
+{% endhint %}
 
 #### Extensions & Themes
 
@@ -43,7 +47,9 @@ sudo dnf config-manager --set-enabled google-chrome	# Enable the Google Chrome r
 sudo dnf install google-chrome-stable			# Install Google Chrome
 ```
 
+{% hint style="info" %}
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/](https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/)
+{% endhint %}
 
 #### Google Chrome Developers
 
@@ -51,7 +57,9 @@ Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or
 sudo dnf install google-chrome-unstable
 ```
 
+{% hint style="info" %}
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/](https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/)
+{% endhint %}
 
 ### **Ungoogled Chromium**
 
@@ -67,7 +75,9 @@ Vous pouvez la télécharger depuis le repo [https://github.com/ungoogled-softwa
 Second choix, une version **Flatpak** est disponible ici : [https://flathub.org/apps/com.github.Eloston.UngoogledChromium](https://flathub.org/apps/com.github.Eloston.UngoogledChromium)
 {% endhint %}
 
+{% hint style="info" %}
 Source : [https://github.com/ungoogled-software/ungoogled-chromium-fedora](https://github.com/ungoogled-software/ungoogled-chromium-fedora)
+{% endhint %}
 
 ### Microsoft Edge
 
@@ -98,7 +108,9 @@ sudo dnf install microsoft-edge-dev
 Notez que celles-ci ne remplacent pas votre version stable, et elles sont installées séparément.
 {% endhint %}
 
+{% hint style="info" %}
 Source : [https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/](https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/)
+{% endhint %}
 
 ## NextDNS
 
@@ -146,7 +158,9 @@ nextdns log         # Show daemon logs
 nextdns help        # Show all commands
 ```
 
+{% hint style="info" %}
 Source : [https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution](https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution)
+{% endhint %}
 
 ## FileZilla
 
@@ -155,7 +169,9 @@ Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique g�
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install filezilla
 </strong></code></pre>
 
+{% hint style="info" %}
 Source : [https://filezilla-project.org/download.php?show\_all=1](https://filezilla-project.org/download.php?show\_all=1)
+{% endhint %}
 
 ## Client mail
 
@@ -167,7 +183,9 @@ Par défaut, Thunderbird est disponible sur le dépôt Fedora et est souvent mis
 sudo dnf install thunderbird -y
 ```
 
+{% hint style="info" %}
 Source : [https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linux/](https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linux/)
+{% endhint %}
 
 ### Mailspring
 
@@ -185,4 +203,27 @@ Installez le RPM de Mailspring sur votre PC Fedora avec la commande DNF install 
 sudo dnf install mailspring-*.x86_64.rpm -y
 ```
 
+{% hint style="info" %}
 Source : [https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-linux/](https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-linux/)
+{% endhint %}
+
+## Téléchargement
+
+### Varia
+
+<figure><img src="../../../.gitbook/assets/io.github.giantpinkrobots.varia.svg" alt=""><figcaption></figcaption></figure>
+
+Un gestionnaire de téléchargement avec un GUI moderne adapté à GNOME
+
+```bash
+flatpak install flathub io.github.giantpinkrobots.varia
+flatpak run io.github.giantpinkrobots.varia
+```
+
+{% hint style="info" %}
+Source : [https://github.com/giantpinkrobots/varia](https://github.com/giantpinkrobots/varia)
+{% endhint %}
+
+{% hint style="success" %}
+Site : [https://flathub.org/apps/io.github.giantpinkrobots.varia](https://flathub.org/apps/io.github.giantpinkrobots.varia)
+{% endhint %}
