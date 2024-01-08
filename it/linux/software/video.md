@@ -6,6 +6,8 @@ description: Des outils de vidéos
 
 ## VLC
 
+<figure><img src="../../../.gitbook/assets/VLC-banner.jpg" alt="" width="375"><figcaption></figcaption></figure>
+
 #### Description
 
 VLC (VideoLAN Client) est un lecteur multimédia open source. \
@@ -115,13 +117,25 @@ sudo pip uninstall youtube-dl            # Désinstallation
 Source : [https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/](https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/)
 {% endhint %}
 
+{% hint style="success" %}
+Souce : [https://github.com/ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
+{% endhint %}
+
 ## YouTubeDL-GUI
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2022-11-08 16-55-08.png" alt=""><figcaption><p>Youtube Downloader</p></figcaption></figure>
 
+Une interface graphique pour YouTube-DL
+
+#### Installation
+
 ```bash
 flatpak install flathub io.github.JaGoLi.ytdl_gui
 ```
+
+{% hint style="success" %}
+Site internet : [https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui](https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui)
+{% endhint %}
 
 ## OBS Studio
 
@@ -258,3 +272,19 @@ Vous devriez maintenant voir toutes les chaînes regroupées par categories dans
 S'il n'est pas déjà installé, Kodi vous demandera d'installer l'outil de décryptage quand vous regarderez une chaîne pour la première fois.
 
 N'oubliez pas de configurer IPTV Manager correctement et de sélectionner le bon fournisseur dans les paramètres ;) !
+
+## GridPlayer
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 17-37-12.png" alt=""><figcaption></figcaption></figure>
+
+Un outil qui permets de lire plusieurs flux vidéos dans la même fenêtre
+
+#### Installation
+
+{% hint style="info" %}
+Installation : [https://github.com/vzhd1701/gridplayer#linux](https://github.com/vzhd1701/gridplayer#linux)
+{% endhint %}
+
+{% hint style="info" %}
+Source : [https://github.com/vzhd1701/gridplayer](https://github.com/vzhd1701/gridplayer)
+{% endhint %}
