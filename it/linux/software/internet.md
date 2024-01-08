@@ -177,6 +177,8 @@ Source : [https://filezilla-project.org/download.php?show\_all=1](https://filezi
 
 ### Thunderbird
 
+<figure><img src="../../../.gitbook/assets/1024x1024@2x.webp" alt="" width="188"><figcaption></figcaption></figure>
+
 Par défaut, Thunderbird est disponible sur le dépôt Fedora et est souvent mis à jour en tant que Flatpak. Utilisez la commande suivante pour installer l'application sur votre système.
 
 ```bash
@@ -187,7 +189,13 @@ sudo dnf install thunderbird -y
 Source : [https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linux/](https://www.linuxcapable.com/how-to-install-thunderbird-on-fedora-linux/)
 {% endhint %}
 
+{% hint style="success" %}
+Site internet : [https://www.thunderbird.net/fr/](https://www.thunderbird.net/fr/)
+{% endhint %}
+
 ### Mailspring
+
+<figure><img src="../../../.gitbook/assets/icon-round.png" alt="" width="188"><figcaption></figcaption></figure>
 
 La dernière version de Mailspring est disponible via un paquage RPM [téléchargeable depuis le site web](https://www.getmailspring.com/). Rendez-vous sur la page de téléchargement, sélectionnez "Linux" et cliquez sur "Linux (64-bit .rpm)".&#x20;
 
@@ -205,6 +213,10 @@ sudo dnf install mailspring-*.x86_64.rpm -y
 
 {% hint style="info" %}
 Source : [https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-linux/](https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-linux/)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet :&#x20;
 {% endhint %}
 
 ## Téléchargement
@@ -225,5 +237,5 @@ Source : [https://github.com/giantpinkrobots/varia](https://github.com/giantpink
 {% endhint %}
 
 {% hint style="success" %}
-Site : [https://flathub.org/apps/io.github.giantpinkrobots.varia](https://flathub.org/apps/io.github.giantpinkrobots.varia)
+Site internet : [https://flathub.org/apps/io.github.giantpinkrobots.varia](https://flathub.org/apps/io.github.giantpinkrobots.varia)
 {% endhint %}
