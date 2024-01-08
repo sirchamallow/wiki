@@ -10,6 +10,10 @@ description: Liste de logiciels
 
 #### Firefox
 
+
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-23.png" alt=""><figcaption></figcaption></figure>
+
 ```bash
 sudo dnf install firefox
 ```
@@ -19,6 +23,8 @@ Source : [https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems](http
 {% endhint %}
 
 #### Firefox Developer Edition
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-52-39.png" alt="" width="320"><figcaption></figcaption></figure>
 
 ```bash
 sudo dnf copr enable the4runner/firefox-dev # Enable the4runner/firefox-dev Copr repository according to your package manager.
@@ -41,6 +47,8 @@ Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https
 
 #### Google Chrome
 
+<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-07.png" alt=""><figcaption></figcaption></figure>
+
 ```bash
 sudo dnf install fedora-workstation-repositories	# Install Third Party Repositories
 sudo dnf config-manager --set-enabled google-chrome	# Enable the Google Chrome repo
@@ -53,6 +61,8 @@ Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or
 
 #### Google Chrome Developers
 
+<figure><img src="../../../.gitbook/assets/unnamed.png" alt="" width="300"><figcaption></figcaption></figure>
+
 ```bash
 sudo dnf install google-chrome-unstable
 ```
@@ -62,6 +72,8 @@ Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or
 {% endhint %}
 
 ### **Ungoogled Chromium**
+
+<figure><img src="../../../.gitbook/assets/Ungoogled-Chromium.webp" alt="" width="289"><figcaption></figcaption></figure>
 
 _Ungoogled Chromium_ est un navigateur qui conserve l’expérience utilisateur par défaut de **Chromium** mais sans les dépendances aux services web de Google (comme Google Host Detector, Google URL Tracker, Google Cloud Messaging, Google Hotwording, etc.), tout en offrant des tas d’options pour améliorer la confidentialité et le contrôle de vos données.
 
@@ -80,6 +92,10 @@ Source : [https://github.com/ungoogled-software/ungoogled-chromium-fedora](https
 {% endhint %}
 
 ### Microsoft Edge
+
+
+
+<figure><img src="../../../.gitbook/assets/EdgeNew.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 Importer la clé GPG pour l'import du fichier RPM:
 
@@ -113,6 +129,8 @@ Source : [https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/](
 {% endhint %}
 
 ## NextDNS
+
+<figure><img src="../../../.gitbook/assets/nextdns.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -163,6 +181,8 @@ Source : [https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution](https:
 {% endhint %}
 
 ## FileZilla
+
+<figure><img src="../../../.gitbook/assets/filezilla-tutorial-pdf.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique générale GNU.
 
