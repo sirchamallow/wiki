@@ -1,3 +1,0 @@
-# 🗜 Bricolage
-
-Work in progress

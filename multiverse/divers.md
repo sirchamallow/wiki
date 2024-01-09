@@ -1,3 +1,0 @@
-# 🤠 Divers
-
-Work in progress

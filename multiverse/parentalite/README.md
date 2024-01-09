@@ -1,3 +1,0 @@
-# 👶 Parentalité
-
-Work in progress

@@ -4,10 +4,6 @@ description: Des infos, astuces, outils etc. sur les trotinettes électriques
 
 # 🛴 Mobilité
 
-## Introduction
-
-
-
 ## Ninebot KickScooter F2 Plus E by Segway&#x20;
 
 {% hint style="info" %}

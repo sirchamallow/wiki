@@ -2,13 +2,13 @@
 description: Bienvenue sur mon wiki personnel
 ---
 
-# 🍁 Introduction
+# 🍁 Le wiki de sirchamallow
 
 ## 🦎 Présentation
 
 Bonjour, je suis Pierre LEMASSON, un développeur web passionné de veille et de technologie
 
-Et vous êtes sur mon Wiki (qui se trouve sur Gitbook, et avec un backup sur GitHub)
+Vous vous trouvez actuellement sur mon Wiki (qui se trouve sur Gitbook, et avec un backup sur [GitHub](https://github.com/sirchamallow))
 
 ### 📧 Contact
 
@@ -20,4 +20,3 @@ Et vous êtes sur mon Wiki (qui se trouve sur Gitbook, et avec un backup sur Git
 ### ⚖ Licence
 
 Ce wiki est sous licence CC BY 4.0 ([Licence Creative Commons BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.fr))
-
