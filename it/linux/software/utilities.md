@@ -1,12 +1,27 @@
 ---
 description: Liste d'utilitaires
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 🛠 Utilitaires
 
 ## CPU-X
 
+#### Description
+
 Il s'agit d'un **logiciel gratuit qui recueille des informations sur le processeur, la carte mère etc.** CPU-X est similaire à [CPU-Z](https://es.wikipedia.org/wiki/CPU-Z) (_Windows_), à la différence que celui-ci est un logiciel libre et open source conçu pour GNU / Linux.
+
+#### Installation
 
 ```bash
 sudo dnf install cpu-x
@@ -18,8 +33,12 @@ Source : [https://itsfoss.com/cpu-x-alternative-cpu-z-linux/](https://itsfoss.co
 
 ## P7zip
 
+#### Description
+
 [p7zip](http://p7zip.sourceforge.net/) est un portage de [7-Zip](http://www.7-zip.org/) pour les systèmes [POSIX](http://fr.wikipedia.org/wiki/POSIX) incluant GNU/Linux. \
 Il permet entre autres d'extraire les archives ZIP, GZIP, TAR, GZIP, DEB et RPM.
+
+#### Installation
 
 ```bash
 sudo dnf install p7zip
@@ -27,9 +46,12 @@ sudo dnf install p7zip
 
 ## GParted
 
-Parmi les différents éditeurs de partitions pour Linux, ma préférance va pour GParted. \
-Il est multi-plateforme (Linux, Windows, Mac OS X) et simple d'utilisation. Il même possible d'en faire une version Live CD/USB. Bien pratique pour dépanner.\
+#### Description
 
+Parmi les différents éditeurs de partitions pour Linux, ma préférance va pour GParted. \
+Il est multi-plateforme (Linux, Windows, Mac OS X) et simple d'utilisation. Il même possible d'en faire une version Live CD/USB. Bien pratique pour dépanner.
+
+#### Installation
 
 ```bash
 su -c "yum install gparted"
@@ -40,6 +62,8 @@ Source : [https://gparted.org/download.php](https://gparted.org/download.php)
 {% endhint %}
 
 ## GPaste
+
+#### Description
 
 Il s'agit d'une extension qui permet aux utilisateurs de gérer le contenu et l’historique du presse-papier, grâce à une icône située dans le panel supérieur de gnome. Vous pourrez ainsi copier rapidement du texte, des url, des images, des lignes de commande et tout un tas d’autres choses.
 
@@ -66,6 +90,8 @@ Source : [https://installati.one/fedora/34/gpaste/](https://installati.one/fedor
 {% endhint %}
 
 ## KolourPaint
+
+#### Description
 
 KolourPaint est logiciel de dessin simple qui permet de créer rapidement des images. Il est pratique pour retoucher ou modifier simplement des images.
 
@@ -102,6 +128,8 @@ Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
 
 ## Htop
 
+#### Description
+
 **htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
 
 **Installation**
@@ -116,7 +144,13 @@ Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
 
 ## Discord
 
+<figure><img src="../../../.gitbook/assets/Discord-logo.png" alt="" width="188"><figcaption></figcaption></figure>
+
+#### Description
+
 Discord est un logiciel propriétaire gratuit de VoIP et de messagerie instantanée
+
+#### Installation
 
 ```bash
 sudo dnf update
@@ -132,11 +166,17 @@ Source : [https://itsfoss.com/install-discord-fedora/](https://itsfoss.com/insta
 Ouvrer le fichier `settings.json` qui se trouve dans le dossier `.config/discord/`\
 et ajouter la valeur suivante : `"SKIP_HOST_UPDATE": true`
 
-## Facebook Messenger
+## Caprine
+
+<figure><img src="../../../.gitbook/assets/Caprine.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Description
 
 {% hint style="info" %}
-Il n'existe pas de package linux pour **FB Messenger**, en lieu et place nous utiliserons **Caprine.** Une application non officielle disponible sur _SnapCraft_, axée sur la vie privée avec de nombreuses fonctionnalités utiles.
+Il n'existe pas de package linux pour **Facebook Messenger**, en lieu et place nous utiliserons **Caprine.** Une application non officielle disponible sur _SnapCraft_, axée sur la vie privée avec de nombreuses fonctionnalités utiles.
 {% endhint %}
+
+#### Installation
 
 ```bash
 sudo dnf install snapd                # Enable Snapd
@@ -152,7 +192,11 @@ Site internet : [https://www.messenger.com](https://www.messenger.com)
 
 <figure><img src="../../../.gitbook/assets/virtualbox.svg" alt="" width="375"><figcaption></figcaption></figure>
 
+#### Description
+
 Édité et distribué gratuitement pour une utilisation personnelle par _Oracle_, VirtualBox est un **hyperviseur type 2** permettant de créer une machine virtuelle en quelques clics.
+
+#### Installation
 
 {% hint style="warning" %}
 Ce guide d'installation est pour la version 36 de Fedora
@@ -194,14 +238,20 @@ uid=1000(jmutai) gid=1000(jmutai) groups=1000(jmutai),10(wheel),976(vboxusers)
 virtualbox
 ```
 
+{% hint style="info" %}
 Source : [https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/](https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/)
+{% endhint %}
 
 ## Bleachbit
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-09 15-54-04.png" alt=""><figcaption></figcaption></figure>
 
+#### Description
+
 Un utilitaire open-source pour libérer le cache, supprimer les cookies, effacer l'historique d'Internet, déchiqueter des fichiers temporaires, supprimer des journaux etc. \
 Disponible sur Linux et Windows.
+
+#### Téléchargement
 
 {% hint style="success" %}
 Site internet : [https://www.bleachbit.org/download](https://www.bleachbit.org/download)
@@ -211,7 +261,11 @@ Site internet : [https://www.bleachbit.org/download](https://www.bleachbit.org/d
 
 <figure><img src="../../../.gitbook/assets/header.png" alt="" width="375"><figcaption></figcaption></figure>
 
+#### Description
+
 Un utilitaire d'optimisation et de monitoring graphique open-source pour Linux sou la forme d'un tableau de bord. Il sera par exemple possible de voir la charge en mémoire, CPU, disque et réseau mais également de gérer les applications et les processus qui se lancent au démarrage, de faire un peu de ménage dans vos logs et fichiers temporaires (cache, corbeille).
+
+#### Téléchargement
 
 {% hint style="success" %}
 Site internet : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
@@ -221,7 +275,11 @@ Site internet : [https://github.com/oguzhaninan/Stacer/releases](https://github.
 
 <figure><img src="../../../.gitbook/assets/anydesk-logo-c0861c.png" alt=""><figcaption></figcaption></figure>
 
+#### Description
+
 Un Teamviewer like open-source propulsé en Rust
+
+#### Installation
 
 ```bash
 sudo cat > /etc/yum.repos.d/AnyDesk-Fedora.repo << "EOF" 
@@ -248,7 +306,11 @@ Site internet : [http://www.anydesk.com](http://www.anydesk.com)
 
 <figure><img src="../../../.gitbook/assets/copyq-menu.webp" alt="" width="257"><figcaption></figcaption></figure>
 
+#### Description
+
 CopyQ est un gestionnaire de presse-papiers avancé avec de puissantes fonctionnalités d'édition et de script.
+
+#### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install copyq
 </strong></code></pre>
