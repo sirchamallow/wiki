@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # 🖱 Extensions
 
 ## Extensions officiels de Mozilla Firefox
@@ -21,16 +35,3 @@
 ### Firefox Multi-Account Containers
 
 {% embed url="https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/" %}
-
-
-
-
-
-
-
-
-
-
-
-
-

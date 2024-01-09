@@ -144,11 +144,13 @@ sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the f
 sudo snap install caprine             # Install Caprine
 ```
 
-{% hint style="info" %}
-Source : [https://www.zdnet.com/article/how-to-get-a-facebook-messenger-client-on-linux/](https://www.zdnet.com/article/how-to-get-a-facebook-messenger-client-on-linux/)
+{% hint style="success" %}
+Site internet : [https://www.messenger.com](https://www.messenger.com)
 {% endhint %}
 
 ## VirtualBox
+
+<figure><img src="../../../.gitbook/assets/virtualbox.svg" alt="" width="375"><figcaption></figcaption></figure>
 
 Édité et distribué gratuitement pour une utilisation personnelle par _Oracle_, VirtualBox est un **hyperviseur type 2** permettant de créer une machine virtuelle en quelques clics.
 
@@ -196,6 +198,8 @@ Source : [https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linu
 
 ## Bleachbit
 
+<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-09 15-54-04.png" alt=""><figcaption></figcaption></figure>
+
 Un utilitaire open-source pour libérer le cache, supprimer les cookies, effacer l'historique d'Internet, déchiqueter des fichiers temporaires, supprimer des journaux etc. \
 Disponible sur Linux et Windows.
 
@@ -205,18 +209,53 @@ Site internet : [https://www.bleachbit.org/download](https://www.bleachbit.org/d
 
 ## Stacer
 
+<figure><img src="../../../.gitbook/assets/header.png" alt="" width="375"><figcaption></figcaption></figure>
+
 Un utilitaire d'optimisation et de monitoring graphique open-source pour Linux sou la forme d'un tableau de bord. Il sera par exemple possible de voir la charge en mémoire, CPU, disque et réseau mais également de gérer les applications et les processus qui se lancent au démarrage, de faire un peu de ménage dans vos logs et fichiers temporaires (cache, corbeille).
 
 {% hint style="success" %}
 Site internet : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
 {% endhint %}
 
+## AnyDesk
+
+<figure><img src="../../../.gitbook/assets/anydesk-logo-c0861c.png" alt=""><figcaption></figcaption></figure>
+
+Un Teamviewer like open-source propulsé en Rust
+
+```bash
+sudo cat > /etc/yum.repos.d/AnyDesk-Fedora.repo << "EOF" 
+[anydesk]
+name=AnyDesk Fedora - stable
+baseurl=http://rpm.anydesk.com/fedora/$basearch/
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://keys.anydesk.com/repos/RPM-GPG-KEY
+EOF
+
+sudo dnf install anydesk
+```
+
+{% hint style="info" %}
+Source : [http://rpm.anydesk.com/howto.html](http://rpm.anydesk.com/howto.html)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [http://www.anydesk.com](http://www.anydesk.com)
+{% endhint %}
+
 ## CopyQ
+
+<figure><img src="../../../.gitbook/assets/copyq-menu.webp" alt="" width="257"><figcaption></figcaption></figure>
 
 CopyQ est un gestionnaire de presse-papiers avancé avec de puissantes fonctionnalités d'édition et de script.
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install copyq
 </strong></code></pre>
+
+{% hint style="info" %}
+Source : [https://copyq.readthedocs.io/en/latest/build-source-code.html](https://copyq.readthedocs.io/en/latest/build-source-code.html)
+{% endhint %}
 
 {% hint style="success" %}
 Site internet : [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)

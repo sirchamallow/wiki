@@ -1,5 +1,16 @@
 ---
 description: Work in progress
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 🎮 Jeux Vidéo

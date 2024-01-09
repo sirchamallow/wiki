@@ -39,8 +39,8 @@ Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https
 
 #### Extensions & Themes
 
-{% content-ref url="../../../tech/software/browsers/firefox-extensions/" %}
-[firefox-extensions](../../../tech/software/browsers/firefox-extensions/)
+{% content-ref url="../../../tech/logiciels/browsers/firefox-extensions/" %}
+[firefox-extensions](../../../tech/logiciels/browsers/firefox-extensions/)
 {% endcontent-ref %}
 
 ### Google Chrome

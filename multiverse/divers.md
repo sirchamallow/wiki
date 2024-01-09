@@ -19,6 +19,6 @@ layout:
 [animaux.md](animaux.md)
 {% endcontent-ref %}
 
-{% content-ref url="parentalite.md" %}
-[parentalite.md](parentalite.md)
+{% content-ref url="parentalite/" %}
+[parentalite](parentalite/)
 {% endcontent-ref %}

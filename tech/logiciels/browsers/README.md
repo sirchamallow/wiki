@@ -6,13 +6,13 @@ description: >-
 
 # 🌐 Navigateurs Web
 
-## Extensions Firefox
+## Mozilla Firefox
 
 {% content-ref url="firefox-extensions/" %}
 [firefox-extensions](firefox-extensions/)
 {% endcontent-ref %}
 
-## Extensions Chrome
+## Google Chrome
 
 {% content-ref url="chrome-extensions/" %}
 [chrome-extensions](chrome-extensions/)
