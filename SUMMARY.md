@@ -84,6 +84,7 @@
     * [Facebook > RSS](tech/veille/flux-rss-atom/facebook-greater-than-rss.md)
   * [🤔 Mindmapping](tech/veille/mindmapping.md)
   * [👍 Ressources](tech/veille/ressources.md)
+* [📩 Newsletter](tech/newsletter.md)
 
 ## 🤪 Multiverse
 
