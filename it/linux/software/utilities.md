@@ -17,6 +17,8 @@ layout:
 
 ## CPU-X
 
+<figure><img src="../../../.gitbook/assets/CPU-X_192x192.png" alt="" width="96"><figcaption></figcaption></figure>
+
 #### Description
 
 Il s'agit d'un **logiciel gratuit qui recueille des informations sur le processeur, la carte mère etc.** CPU-X est similaire à [CPU-Z](https://es.wikipedia.org/wiki/CPU-Z) (_Windows_), à la différence que celui-ci est un logiciel libre et open source conçu pour GNU / Linux.
@@ -28,10 +30,16 @@ sudo dnf install cpu-x
 ```
 
 {% hint style="info" %}
-Source : [https://itsfoss.com/cpu-x-alternative-cpu-z-linux/](https://itsfoss.com/cpu-x-alternative-cpu-z-linux/)
+Source : [https://github.com/TheTumultuousUnicornOfDarkness/CPU-X](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://thetumultuousunicornofdarkness.github.io/CPU-X/](https://thetumultuousunicornofdarkness.github.io/CPU-X/)
 {% endhint %}
 
 ## P7zip
+
+<figure><img src="../../../.gitbook/assets/7ziplogo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -44,7 +52,13 @@ Il permet entre autres d'extraire les archives ZIP, GZIP, TAR, GZIP, DEB et RPM.
 sudo dnf install p7zip
 ```
 
+{% hint style="info" %}
+Les sources linux de 7zip sont disponible ici : [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
+{% endhint %}
+
 ## GParted
+
+<figure><img src="../../../.gitbook/assets/1680910885_gparted-livecd.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -91,11 +105,11 @@ Source : [https://installati.one/fedora/34/gpaste/](https://installati.one/fedor
 
 ## KolourPaint
 
+<figure><img src="../../../.gitbook/assets/logo_final2.png" alt=""><figcaption></figcaption></figure>
+
 #### Description
 
 KolourPaint est logiciel de dessin simple qui permet de créer rapidement des images. Il est pratique pour retoucher ou modifier simplement des images.
-
-#### Installation via [AppStream](appstream://org.kde.kolourpaint)
 
 #### Installation via Flatpak
 
@@ -127,6 +141,8 @@ Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
 {% endhint %}
 
 ## Htop
+
+<figure><img src="../../../.gitbook/assets/htop-logo.png" alt="" width="243"><figcaption></figcaption></figure>
 
 #### Description
 

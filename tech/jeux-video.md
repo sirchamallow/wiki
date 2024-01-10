@@ -52,7 +52,3 @@ soon
 
 * Renseigner votre clé et validez :)
 * Regardez dans votre bibliothèque, la clé CD vous y a ajouté un produit :)
-
-### Amazon Games
-
-soon
