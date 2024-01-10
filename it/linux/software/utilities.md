@@ -158,50 +158,17 @@ sudo dnf install htop
 Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
 {% endhint %}
 
-## Discord
+## FileZilla
 
-<figure><img src="../../../.gitbook/assets/Discord-logo.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/filezilla-tutorial-pdf.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Description
+Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique générale GNU.
 
-Discord est un logiciel propriétaire gratuit de VoIP et de messagerie instantanée
-
-#### Installation
-
-```bash
-sudo dnf update
-sudo dnf install discord
-```
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install filezilla
+</strong></code></pre>
 
 {% hint style="info" %}
-Source : [https://itsfoss.com/install-discord-fedora/](https://itsfoss.com/install-discord-fedora/)
-{% endhint %}
-
-#### Désactiver le pop de mise à jour automatique (parfois bloquant)
-
-Ouvrer le fichier `settings.json` qui se trouve dans le dossier `.config/discord/`\
-et ajouter la valeur suivante : `"SKIP_HOST_UPDATE": true`
-
-## Caprine
-
-<figure><img src="../../../.gitbook/assets/Caprine.png" alt="" width="375"><figcaption></figcaption></figure>
-
-#### Description
-
-{% hint style="info" %}
-Il n'existe pas de package linux pour **Facebook Messenger**, en lieu et place nous utiliserons **Caprine.** Une application non officielle disponible sur _SnapCraft_, axée sur la vie privée avec de nombreuses fonctionnalités utiles.
-{% endhint %}
-
-#### Installation
-
-```bash
-sudo dnf install snapd                # Enable Snapd
-sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the following to create a symbolic link
-sudo snap install caprine             # Install Caprine
-```
-
-{% hint style="success" %}
-Site internet : [https://www.messenger.com](https://www.messenger.com)
+Source : [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php?show\_all=1)
 {% endhint %}
 
 ## VirtualBox
