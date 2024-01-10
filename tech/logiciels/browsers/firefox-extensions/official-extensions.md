@@ -14,24 +14,54 @@ layout:
 
 # 🖱 Extensions
 
-## Extensions officiels de Mozilla Firefox
+## Officiels
 
-### Firefox Translations
+{% code fullWidth="true" %}
+```
+https://addons.mozilla.org/fr/firefox/addon/firefox-translations
+https://addons.mozilla.org/fr/firefox/addon/firefox-color
+https://addons.mozilla.org/fr/firefox/addon/side-view
+https://addons.mozilla.org/fr/firefox/addon/multi-account-containers
+https://addons.mozilla.org/fr/firefox/addon/notes-by-firefox
+https://addons.mozilla.org/fr/firefox/addon/firefox-translations
+https://addons.mozilla.org/fr/firefox/addon/regretsreporter
+```
+{% endcode %}
 
-{% embed url="https://addons.mozilla.org/fr/firefox/addon/firefox-translations/" %}
+## Tierces
 
-### Firefox Color
+{% code fullWidth="true" %}
+```
+# Divers
+https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager | Bitwarden
+https://addons.mozilla.org/fr/firefox/addon/emojikeyboard
+https://addons.mozilla.org/fr/firefox/addon/merciapp
+https://addons.mozilla.org/fr/firefox/addon/epubreader
 
-{% embed url="https://addons.mozilla.org/fr/firefox/addon/firefox-color/" %}
+# RSS Lover
+https://addons.mozilla.org/fr/firefox/addon/livemarks
+https://addons.mozilla.org/fr/firefox/addon/feedbroreader
 
-### Side View
+# Utilitaires
+https://addons.mozilla.org/fr/firefox/addon/sidebery
+https://addons.mozilla.org/fr/firefox/addon/single-file
+https://addons.mozilla.org/fr/firefox/addon/gnome-shell-integration
 
-{% embed url="https://addons.mozilla.org/fr/firefox/addon/side-view/" %}
+# Bloqueurs de publicités
+https://addons.mozilla.org/fr/firefox/addon/ublock-origin
+https://addons.mozilla.org/fr/android/addon/privacy-badger17/
 
-### Notes
+# DEV Tools
+https://addons.mozilla.org/fr/firefox/addon/grepper
+https://addons.mozilla.org/fr/firefox/addon/user-agent-string-switcher
 
-{% embed url="https://addons.mozilla.org/fr/firefox/addon/notes-by-firefox/" %}
+# Pack de Langues - France (français)
+https://addons.mozilla.org/fr/firefox/addon/fran%C3%A7ais-language-pack/
+https://addons.mozilla.org/fr/firefox/addon/dictionnaire-fran%C3%A7ais1/
 
-### Firefox Multi-Account Containers
-
-{% embed url="https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/" %}
+# Pack de Langues - Canada (anglais)
+https://addons.mozilla.org/fr/firefox/addon/english-ca-language-pack/
+https://addons.mozilla.org/fr/firefox/addon/canadian-english-dictionary/
+https://addons.mozilla.org/fr/firefox/addon/oxford-english-spellchecker/
+```
+{% endcode %}
