@@ -1,8 +1,19 @@
 ---
 description: Outils pour serveurs
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
-# 🖥 Serveurs
+# 🖥 OPS
 
 ## Netdata
 
@@ -65,6 +76,8 @@ Source : [https://www.wireguard.com/install/#fedora-tools](https://www.wireguard
 {% endhint %}
 
 ## RabbitMQ
+
+<figure><img src="../../../.gitbook/assets/RabbitMQ_logo.svg" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Description
 

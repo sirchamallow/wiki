@@ -10,7 +10,7 @@
     * [👨💻 DEV tools](it/linux/dev-tools/README.md)
       * [📑 Langages](it/linux/dev-tools/langages.md)
       * [⛓ Git](it/linux/dev-tools/git.md)
-      * [🖥 Serveurs](it/linux/dev-tools/servers.md)
+      * [🖥 OPS](it/linux/dev-tools/servers.md)
       * [📝 Fonts](it/linux/dev-tools/fonts.md)
       * [🥞 Base de données](it/linux/dev-tools/bdd.md)
       * [🏠 Static Sites](it/linux/dev-tools/static-sites.md)

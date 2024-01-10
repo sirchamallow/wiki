@@ -4,7 +4,7 @@ description: Quelques astuces pour Fedora
 
 # 💡 Astuces
 
-### Commandes de bases
+## Commandes de bases
 
 **Dandified Yum** ou **DNF** est un [gestionnaire de paquets](https://fr.wikipedia.org/wiki/Gestionnaire\_de\_paquets). C’est le successeur de [YUM](https://fr.wikipedia.org/wiki/Yellowdog\_Updater,\_Modified). Pour les commandes les plus courantes, son usage est identique à celui de yum.\
 \
@@ -25,7 +25,7 @@ sudo dnf autoremove		# Remove Orphan Packages
 sudo dnf distro-sync		# Synchronise All Packages
 ```
 
-### Mise à niveau Fedora (upgrade)
+## Mise à niveau Fedora (upgrade)
 
 {% hint style="info" %}
 Cette méthode est celle recommandée par Fedora.
@@ -271,7 +271,7 @@ sudo dnf in kernel-devel
 
 Source : [https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/](https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/)
 
-### Faire un Dig
+## Faire un Dig
 
 #### Introduction
 
@@ -287,13 +287,17 @@ Dig n’est pas une commande de base Linux.
 sudo dnf install bind bind-utils
 ```
 
-#### Recherche DNS
+### DNS
+
+Une recherche du DNS
 
 ```bash
 dig lewifi.fr
 ```
 
-#### Recherche DNS ipv4 & ipv6
+### DNS ipv4 & ipv6
+
+Une recherche du DNS avec ipv4 & ipv6 en une seule commande
 
 ```bash
 dig www.lewifi.fr A www.lewifi.fr AAAA +short
@@ -301,14 +305,16 @@ dig www.lewifi.fr A www.lewifi.fr AAAA +short
 
 Source : Source: [http://linux.die.net/man/1/dig](http://linux.die.net/man/1/dig) -- under the 'Multiple Queries' section
 
-#### Recherche provider Mail d'un domaine
+### Provider Mail
+
+Permets d'identifier quel est le provider mail d'un nom de domaine
 
 ```bash
 dig auchan.fr MX
 # auchan.fr.  600 IN  MX  1 aspmx.l.google.com. --> Google Workspace
 ```
 
-#### Spécifier un serveur DNS
+### Recherche depuis un serveur DNS
 
 {% hint style="info" %}
 Par défaut, **Dig** utilise la configuration locale (/etc/resolv.conf) pour décider quel serveur de noms utiliser. Il est possible de lui spécifier un autre résolveur DNS comme celui de Quad9
@@ -318,7 +324,7 @@ Par défaut, **Dig** utilise la configuration locale (/etc/resolv.conf) pour dé
 dig @9.9.9.9 www.lewifi.fr
 ```
 
-#### Recherche DNS avec option Trace
+### Recherche DNS avec option Trace
 
 {% hint style="info" %}
 L’option **+trace** répertorie chaque serveur différent que la requête passe jusqu’à sa destination finale. Pratique pour identifier l’adresse IP où le trafic tombe
@@ -328,7 +334,9 @@ L’option **+trace** répertorie chaque serveur différent que la requête pass
 dig www.lewifi.fr +trace
 ```
 
-### Tweaks
+## Tweaks
+
+#### Description
 
 Fedy est un outil graphique qui vous permet de modifier votre système Fedora en quelques clics. Des applications normales aux thèmes, en passant par les diverses modifications du système, Fedy peut faire presque tout ce dont vous pouvez avoir besoin sur Fedora.
 
@@ -345,15 +353,15 @@ sudo dnf install fedy -y
 
 Source : [https://fosspost.org/things-to-do-after-installing-fedora-37/](https://fosspost.org/things-to-do-after-installing-fedora-37/)
 
-### Connaitre la taille du disque ou répertoire
+## Connaitre la taille du disque ou répertoire
 
-#### Taille du disque&#x20;
+### Taille du disque&#x20;
 
 La commande `df -h` (_disk free human-readable_) permet d’afficher à l’écran la taille de l’espace disque occupée, et la taille de l’espace disque libre de manière lisible (sans le -h la taille des fichiers serait en octet)&#x20;
 
 Taper `df -h` pour afficher le résultat ;)
 
-#### Taille des répertoires
+### Taille des répertoires
 
 La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille d’un répertoire et de tous les sous répertoires récursifs qu’il contient.&#x20;
 
@@ -362,3 +370,41 @@ La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille 
 3. `du -h` : pour connaitre la taille occuper par les fichiers du répertoires.&#x20;
 4. d`u -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
 5. `du -sh * | sort -hk1` : pour lister les répertoires, leurs tailles par ordre croissant
+
+## Vérifier chiffrements d'un serveur
+
+Voici une astuce pour vérifier les chiffrements supportés par le serveur en utilisant NMAP.
+
+Notez que l'utilisation de Nmap pour scanner des systèmes sans autorisation peut être contraire aux politiques de sécurité et aux lois, donc assurez-vous d'avoir la permission avant de scanner des systèmes qui ne vous appartiennent pas.
+
+#### Installation de nmap
+
+```bash
+sudo dnf install nmap
+```
+
+{% hint style="info" %}
+Source : [https://nmap.org/download.html#linux-rpm](https://nmap.org/download.html#linux-rpm)
+{% endhint %}
+
+#### Commande nmap
+
+Après avoir installé NMAP, vous pouvez exécuter cette commande.\
+Vous aurez la liste des ciphers qui s'afficheront
+
+```bash
+nmap sV --script ssl-enum-cipherss -p 443 google.com <mydomain.com>
+```
+
+Le résultat de cette commande donnera des informations sur les suites de chiffrement SSL/TLS prises en charge par le serveur sur le port 443 (TLS)
+
+#### Explications des composants de la commande :
+
+* `nmap`: C'est l'outil de balayage réseau.
+* `--script ssl-enum-ciphers`: Cela indique à Nmap d'exécuter le script spécifique `ssl-enum-ciphers`, qui est conçu pour analyser les suites de chiffrement SSL/TLS prises en charge par un serveur.
+* `-p 443`: Cela spécifie le port à scanner, dans ce cas, le port 443, qui est le port par défaut pour les connexions HTTPS.
+* `mydomain.com` : C'est le nom de domaine ou l'adresse IP du serveur à scanner.
+
+{% hint style="info" %}
+Source : [https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html](https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html)
+{% endhint %}
