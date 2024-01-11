@@ -354,9 +354,11 @@ source ~/.profile
 sdk install gradle 7.6
 ```
 
+{% hint style="info" %}
 Source : [https://gradle.org/install/](https://gradle.org/install/)
+{% endhint %}
 
-#### SDKMAN!
+### SDKMAN!
 
 Installation via le gestionnaire de paquet SDKMAN!
 

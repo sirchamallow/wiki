@@ -51,6 +51,8 @@ curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/n
 Source : [https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart](https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart)
 {% endhint %}
 
+***
+
 ## Ansible
 
 <figure><img src="../../../.gitbook/assets/Ansible_logo.jpg" alt="" width="375"><figcaption><p>Ansible logo</p></figcaption></figure>
@@ -63,6 +65,8 @@ sudo dnf install ansible
 Source : [https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora](https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora)
 {% endhint %}
 
+***
+
 ## WireGuard
 
 <figure><img src="../../../.gitbook/assets/WireGuard_logo.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -74,6 +78,8 @@ sudo dnf install wireguard-tools
 {% hint style="info" %}
 Source : [https://www.wireguard.com/install/#fedora-tools](https://www.wireguard.com/install/#fedora-tools)
 {% endhint %}
+
+***
 
 ## RabbitMQ
 
@@ -117,6 +123,8 @@ Source : [https://computingforgeeks.com/installing-rabbitmq-on-centos-fedora/](h
 {% hint style="success" %}
 Site Web : [https://www.rabbitmq.com/install-rpm.html#install-erlang](https://www.rabbitmq.com/install-rpm.html#install-erlang)
 {% endhint %}
+
+***
 
 ## Mozilla SSL Configuration Generator
 

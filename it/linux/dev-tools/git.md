@@ -4,7 +4,7 @@ description: Tools pour devs sous Fedora
 
 # ⛓ Git
 
-##
+####
 
 ## Git
 
@@ -39,6 +39,8 @@ git config --global --unset help.autocorrect
 Source : [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
 {% endhint %}
 
+***
+
 ## GitHub CLI
 
 GitHub CLI est un outil open source pour utiliser GitHub depuis votre terminal.
@@ -53,6 +55,8 @@ sudo dnf update gh
 {% hint style="info" %}
 Source : [https://github.com/cli/cli/blob/trunk/docs/install\_linux.md#fedora-centos-red-hat-enterprise-linux-dnf](https://github.com/cli/cli/blob/trunk/docs/install\_linux.md#fedora-centos-red-hat-enterprise-linux-dnf)
 {% endhint %}
+
+***
 
 ## Gac
 
