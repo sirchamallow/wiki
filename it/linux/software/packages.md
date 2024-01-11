@@ -71,7 +71,9 @@ Le format _snap_ vise à permettre l'installation de nouvelles versions de logic
 sudo dnf install snapd
 ```
 
+{% hint style="info" %}
 Source : [https://snapcraft.io/docs/installing-snap-on-fedora](https://snapcraft.io/docs/installing-snap-on-fedora)
+{% endhint %}
 
 ## AppImage
 

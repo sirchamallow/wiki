@@ -32,7 +32,9 @@ chsh				    # change the shell for your user
 /bin/zsh			    # Example: change the shell Bash to ZSH
 ```
 
+{% hint style="info" %}
 Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html](https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html)
+{% endhint %}
 
 ### Remplacer Bash par Zsh&#x20;
 
