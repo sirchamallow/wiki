@@ -10,13 +10,17 @@ sudo systemctl start redis	 	# Initialize redis server
 sudo systemctl enable redis 	        # To start redis on boot, run
 ```
 
+{% hint style="info" %}
 Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](https://developer.fedoraproject.org/tech/database/redis/about.html)
+{% endhint %}
 
 #### Interface graphique pour Redis
 
 * RedisInsight : [https://redis.com/fr/redis-enterprise/redisinsight/](https://redis.com/fr/redis-enterprise/redisinsight/)
 * Redis-commander : [https://github.com/joeferner/redis-commander](https://github.com/joeferner/redis-commander)
 * Redis-UI : [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+
+***
 
 ## PostgreSQL
 
@@ -37,9 +41,11 @@ sudo systemctl enable postgresql-15
 sudo systemctl start postgresql-15
 ```
 
+{% hint style="info" %}
 Source : [https://www.postgresql.org/download/linux/redhat/](https://www.postgresql.org/download/linux/redhat/)
+{% endhint %}
 
-#### Quelques raccourcis utiles (cheatsheet)
+### Rccourcis utiles (cheatsheet)
 
 ```bash
 \q    # Quitter la base de donnée
@@ -65,7 +71,9 @@ Vous pouvez utiliser un opérateur (\*) afin de supprimer tous les paquets dont 
 sudo dnf remove postgres\*
 ```
 
+{% hint style="info" %}
 Source : [https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757](https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757)
+{% endhint %}
 
 ### PG-CLI
 
@@ -74,13 +82,17 @@ sudo yum install python-pip
 sudo pip install pgcli
 ```
 
+{% hint style="info" %}
 Source : [https://www.pgcli.com/install](https://www.pgcli.com/install)&#x20;
+{% endhint %}
+
+***
 
 ## MySQL
 
 <figure><img src="../../../.gitbook/assets/mysql.png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Installation**
+### **Installation**
 
 Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
 
@@ -88,13 +100,13 @@ Mettez à jour votre Fedora pour vous assurer que tous les paquets existants son
 sudo dnf upgrade --refresh -y
 ```
 
-Installer MySQL
+#### Installer MySQL
 
 ```bash
 sudo dnf install community-mysql-server
 ```
 
-Vérifier la version de MySQL
+### Vérifier la version
 
 ```bash
 mysql --version
@@ -104,7 +116,7 @@ mysql --version
 Si le message affiche `v8.0` ou autres version, vous pouvez continuer
 {% endhint %}
 
-Commandes
+### Commandes
 
 ```bash
 sudo systemctl start mysqld    # Démarrre le service
@@ -112,25 +124,29 @@ sudo systemctl enable mysqld   # Active le service
 sudo systemctl restart mysqld  # Redémarrer le service
 ```
 
-Configurer MySQL avant la première utilisation
+### Configurer MySQL avant la première utilisation
 
 ```bash
 sudo mysql_secure_installation
 ```
 
-Utiliser MySQL
+### Utiliser MySQL
 
 ```bash
 sudo mysql -u root -p
 ```
 
-**Désinstallation**
+### **Désinstallation**
 
 ```bash
 sudo dnf remove community-mysql-server
 ```
 
+{% hint style="info" %}
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/)
+{% endhint %}
+
+***
 
 ## SQLite
 
@@ -158,19 +174,23 @@ sqlite3 --version
 Si le message affiche `v3.36.0` ou autre version, vous pouvez continuer
 {% endhint %}
 
+{% hint style="info" %}
 Source : [https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/](https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/)
+{% endhint %}
+
+***
 
 ## MongoDB
 
 <figure><img src="../../../.gitbook/assets/MDB_BIG.png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Installation (mongoDB 4)**
+### **Installation**
 
 ```bash
 sudo dnf -y install mongodb-org
 ```
 
-Vérifier la version de MongoDB installer
+### Vérifier la version
 
 ```bash
 mongo --version
@@ -180,32 +200,38 @@ mongo --version
 Si le message affiche v4.4.4 ou autre version, vous pouvez continuer
 {% endhint %}
 
-Commandes
+### Commandes
 
 <pre class="language-bash"><code class="lang-bash">sudo systemctl start mongod.service  # Démarrre le service
 sudo systemctl enable mongod.service # Active le service
 <strong>sudo systemctl status mongod.service  # Vérifier l'état du service
 </strong></code></pre>
 
+{% hint style="info" %}
 Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1](https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1)
+{% endhint %}
+
+***
 
 ## S3cmd
 
-S3cmd est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le protocole S3, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
+#### Description
 
-#### Installation
+**S3cmd** est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le **protocole S3**, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
+
+### Installation
 
 ```bash
 sudo dnf install s3cmd 
 ```
 
-**Configuration**
+### **Configuration**
 
 ```bash
 s3cmd --configure 
 ```
 
-**Commandes**
+### **Commandes**
 
 ```bash
 s3cmd ls                                 # List All S3 Bucket
@@ -219,4 +245,6 @@ s3cmd del s3://tecadmin/backup           # Delete directory from s3 bucket
 s3cmd rb s3://sirchamallowc              # Rmove S3 Bucket
 ```
 
+{% hint style="info" %}
 Source : [https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/](https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/)
+{% endhint %}
