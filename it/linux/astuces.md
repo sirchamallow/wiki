@@ -25,41 +25,144 @@ sudo dnf autoremove		# Remove Orphan Packages
 sudo dnf distro-sync		# Synchronise All Packages
 ```
 
-## Mise à niveau Fedora (upgrade)
+## Options utiles
+
+### **Clean**
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf clean dbcache    # Effacer le cache de DNF
+</strong><strong>sudo dnf clean packages   # Effacer les paquets mis en cache lors du téléchargement
+</strong>sudo dnf clean plugins    # Efface le cache de tous les plugins activés
+sudo dnf clean metadata   # Supprime les métadonnées du dépôt. 
+<strong>sudo dnf clean all        # Effacer TOUT les caches, les métadatas &#x26; les fichiers inutiles de DNF
+</strong></code></pre>
+
+### **Reinstall**
+
+Si vous avez besoin de réinstaller un programme vous pouvez utiliser l'option _reinstall_
+
+```bash
+sudo dnf reinstall <nom-du-paquet>
+```
+
+### **List**
+
+```bash
+sudo dnf list obsoletes # Liste des paquets obsolètes (utile avant une 
+mise à niveau de Fedora)
+sudo dnf list recent    # Liste des derniers paquets ajoutés à vos dépôts
+sudo dnf list extras    # Liste des paquets installés ne provenant pas des dépôts actifs ou installation manuelle
+```
 
 {% hint style="info" %}
-Cette méthode est celle recommandée par Fedora.
+Source : [https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion](https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion)
 {% endhint %}
 
-Il faut tout d'abord installer le greffon de DNF & mettre à jour votre version actuelle de Fedora.
+## Raccourcis
+
+{% hint style="info" %}
+Voici une liste de commandes de bases pour **Linux** \
+(celles-ci ne sont pas spécifique à Fedora)
+{% endhint %}
+
+`CTRL + H` : afficher les fichiers/dossier cachésRenommer un fichier ou un répertoire
+
+### Renommer un fichier ou répertoire
+
+Voic un exemple pour renommer un fichier/répertoire du nom de "paris" en "lyon":
+
+```bash
+mv paris lyon
+```
+
+### Déplacer un fichier ou répertoire
+
+Voici comment déplacer un fichier/répertoire du dossier courant vers le répertoire distant "/home/georges/Bureau" :
+
+```bash
+mv lyon /home/georges/Bureau
+```
+
+### Déplacer tout les fichiers/répertoires
+
+On va déplacer tout les fichiers/répertoires du dossier courant vers le répertoire distant "/home/georges/Bureau/marseille":
+
+```bash
+mv * /home/georges/Bureau/marseille
+```
+
+### Supprime un répertoire non vide et son contenu
+
+```bash
+rm -r
+```
+
+## Connaitre la taille du disque ou répertoire
+
+### Taille du disque&#x20;
+
+La commande `df -h` (_disk free human-readable_) permet d’afficher à l’écran la taille de l’espace disque occupée, et la taille de l’espace disque libre de manière lisible (sans le -h la taille des fichiers serait en octet)&#x20;
+
+Taper `df -h` pour afficher le résultat ;)
+
+### Taille des répertoires
+
+La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille d’un répertoire et de tous les sous répertoires récursifs qu’il contient.&#x20;
+
+1. `pwd` : pour savoir dans quel répertoire vous vous trouvez actuellement.
+2. `ls` ou `tree` : pour afficher la liste des fichiers&#x20;
+3. `du -h` : pour connaitre la taille occuper par les fichiers du répertoires.&#x20;
+4. d`u -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
+5. `du -sh * | sort -hk1` : pour lister les répertoires, leurs tailles par ordre croissant
+
+## Mise à jour / Upgrade
+
+Voici la procédure pour mettre à jour votre version de Fedora
+
+N'oublier de faires vos backups avant ce genre d'opération.
+
+```bash
+sudo dnf upgrade --refresh
+# Lancer la mise à jour, puis redémarrez votre ordinateur.
+```
+
+{% hint style="danger" %}
+**Important :** Ne sautez pas cette étape. Les mises à jour du système sont nécessaires pour recevoir les clés de signature des versions supérieures, et elles corrigent souvent des problèmes liés au processus de mise à niveau.
+{% endhint %}
 
 ```bash
 sudo dnf install dnf-plugin-system-upgrade
-sudo dnf upgrade && dnf clean all
-```
+# Installe le paquet dnf-plugin-system-upgrade (si celui-ci n'est pas déjà installé)
 
-Ensuite, télécharger les paquets, puis redémarrer pour appliquer la mise à niveau.
+sudo dnf system-upgrade download --releasever=39
+# Téléchargez les paquets mis à jour
+# Votre machine va redémarrer automatiquement à la fin du processus
 
-```bash
-sudo dnf system-upgrade download --releasever=34
-sudo dnf system-upgrade reboots
+sudo dnf system-upgrade reboot
+# Une fois le processus de mise à niveau terminé, 
+# votre système redémarrera une seconde fois dans la version mise à jour de Fedora
+
+sudo dnf install rpmconf
+# Installe le paquet rpmconf, qui est un outil permettant de gérer les fichiers de configuration de paquets RPM.
+# Ces fichiers peuvent parfois être mis à jour, et rpmconf aide à fusionner les modifications tout en conservant les réglages personnalisés.
+
+sudo rpmconf -a
+# Cette commande utilise l'outil rpmconf pour détecter les fichiers de configuration de paquets
+# [...] qui ont été modifiés depuis leur installation initiale et propose des options pour les fusionner.
+
+sudo dnf autoremove
+# Supprime les paquets orphelins, c.a.d les paquets qui ont été installés en tant que dépendances pour d'autres paquets, mais qui ne sont plus nécessaires. 
+# Elle permet de libérer de l'espace disque en éliminant les paquets inutilisés.
 ```
 
 {% hint style="info" %}
-Une mise à niveau peu parfois être longue. Durant ce laps de temps votre machine sera indisponible
+Source : [https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/)
 {% endhint %}
 
-Pour résoudre certains problèmes signalés lors d'un premier lancement, l'option --allowerasing peut permettre de les résoudre :
+***
 
-```bash
-sudo dnf system-upgrade download --releasever=34 --allowerasing
-```
+## Passer en user root
 
-Source : [https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora](https://doc.fedora-fr.org/wiki/Mise\_%C3%A0\_niveau\_de\_Fedora)
-
-### Passer en user root
-
-Pour passer en user root sur Fedora, taper
+Pour passer en user root sur Fedora, taper cette commande
 
 ```bash
 sudo su -
@@ -67,13 +170,13 @@ sudo su -
 
 Et le mot de passe qui va avec :)
 
-### Reset mot de passe root / session
+## Reset mot de passe root / session
 
 {% embed url="https://blog.microlinux.fr/chroot-secours/" %}
 
 {% embed url="https://www.linuxtricks.fr/wiki/reinitialiser-le-mot-de-passe-root-depuis-grub-fedora-et-red-hat" %}
 
-### Activer le clique droit du touchpad&#x20;
+## Activer le clique droit du touchpad&#x20;
 
 Celui-ci est par défaut comme le clique gauche, ce qui est bien pénible :/
 
@@ -91,7 +194,7 @@ Et ensuite, taper la commande suivante
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 ```
 
-### Créer une clé USB d’installation bootable
+## Créer une clé USB d’installation bootable
 
 <figure><img src="../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
 
@@ -134,7 +237,7 @@ sudo rm /etc/yum.repos.d/balena-etcher.repo
 
 Source : [https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf](https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf)
 
-### Faire une capture d'écran
+## Faire une capture d'écran
 
 {% hint style="info" %}
 Depuis Fedora 37, un raccourci est disponible dans la barre de menu
@@ -142,29 +245,31 @@ Depuis Fedora 37, un raccourci est disponible dans la barre de menu
 
 Deux méthodes possible, avec les raccourcis clavier ou avec Shutter
 
-#### Capture d'écran avec sauvegarde
+### Capture d'écran avec sauvegarde
 
 {% hint style="info" %}
 Ces méthodes de capture d'écran sont automatiquement enregistrées dans le dossier "**Images**".
 {% endhint %}
 
-* PrtScr - une capture d'écran de l'ensemble du bureau.&#x20;
-* Alt + PrtScr - une capture d'écran de la fenêtre active.&#x20;
-* ⇧ Shift + PrtScr - un instantané de la zone souhaitée de l'écran.
+* `PrtScr` - une capture d'écran de l'ensemble du bureau.&#x20;
+* `Alt` + `PrtScr` - une capture d'écran de la fenêtre active.&#x20;
+* `⇧ Shift` + `PrtScr` - un instantané de la zone souhaitée de l'écran.
 
-#### Capture d'écran avec copie dans le presse-papiers
+### Capture d'écran avec copie dans le presse-papiers
 
 {% hint style="info" %}
 Ces méthodes de création d'une capture d'écran la copient dans le presse-papiers sans l'enregistrer.
 {% endhint %}
 
-* Ctrl + PrtScr - un instantané de l'ensemble du bureau.
-* Ctrl + Alt + PrtScr - un instantané de la fenêtre du programme en cours.
-* Ctrl + ⇧ Shift + PrtScr - un instantané de la zone souhaitée de l'écran.
+* `Ctrl` + `PrtScr` - un instantané de l'ensemble du bureau.
+* `Ctrl` + `Alt` + `PrtScr` - un instantané de la fenêtre du programme en cours.
+* `Ctrl` + `⇧ Shift` + `PrtScr` - un instantané de la zone souhaitée de l'écran.
 
+{% hint style="info" %}
 Source : [https://fedoramagazine.org/take-screenshots-on-fedora/](https://fedoramagazine.org/take-screenshots-on-fedora/)
+{% endhint %}
 
-#### Avec Shutter, un outil de capture d'écran
+### Avec Shutter (logiciel de capture d'écran)
 
 Vous pouvez sinon utliser une gestionner de capture d'écran. \
 **Shutter** est un excellent outil en la matière tout comme _Greenshot_ sur Windows.
@@ -174,29 +279,25 @@ sudo dnf install shutter    # Install Shutter
 sudo dnf upgrade shutter    # Upgrade Shutter
 ```
 
+{% hint style="info" %}
 Source : [https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora.htm](https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora.htm)l
+{% endhint %}
 
-### Rendre visible votre Dock (toujours)
+## Rendre persistant votre Dock
 
 {% hint style="info" %}
 Il s'agit d'extensions GNOME
 {% endhint %}
 
-Deux possibilités. Soit vous garder celle de Fedora persistance avec Dash to Dock for Cosmic ou alors vous changer votre dock par une barre persistante (façon windows) avec Dash-to-Panel
+Nous utiliserons l'extension GNOME Dash-to-Panel
 
-#### Dash to Dock for COSMIC <a href="#extension_name" id="extension_name"></a>
+#### Installation <a href="#extension_name" id="extension_name"></a>
 
-```
-https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/
-```
-
-#### Dash to Panel <a href="#extension_name" id="extension_name"></a>
-
-```
+```bash
 https://extensions.gnome.org/extension/1160/dash-to-panel/
 ```
 
-### Shell
+## Shell
 
 #### Vérifier la version du shell
 
@@ -209,7 +310,7 @@ gnome-shell --version # Check GNOME version
 
 Source : [https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html](https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html)
 
-### Changer le serveur d'affichage&#x20;
+## Changer le serveur d'affichage&#x20;
 
 (exemple : Wayland > XORG)
 
@@ -249,7 +350,7 @@ Déconnectez-vous ou redémarrez pour entrer dans la nouvelle session.
 Pour plus d'informations : [https://docs.fedoraproject.org/fr/quick-docs/configuring-xorg-as-default-gnome-session/](https://docs.fedoraproject.org/fr/quick-docs/configuring-xorg-as-default-gnome-session/)
 {% endhint %}
 
-### Désinstaller une application
+## Désinstaller une application
 
 ```bash
 yum list <nom du paquet>	# Rechercher un paquet - Méthode 1
@@ -261,7 +362,7 @@ yum remove <nom du paquet>	# Supprimer un paquet
 # Attention aux dépendances, bien lire ce qui est proposé à la suppression. 
 ```
 
-### Kernel Devel
+## Kernel Devel
 
 Le paquet kernel-devel contient les fichiers d'en-têtes du noyau, des fichiers permettant au développeur d'accéder aux différentes fonctionnalités du noyau . De façon plus simple, il est nécessaire au développement et à la compilation de pilotes.
 
@@ -353,23 +454,7 @@ sudo dnf install fedy -y
 
 Source : [https://fosspost.org/things-to-do-after-installing-fedora-37/](https://fosspost.org/things-to-do-after-installing-fedora-37/)
 
-## Connaitre la taille du disque ou répertoire
-
-### Taille du disque&#x20;
-
-La commande `df -h` (_disk free human-readable_) permet d’afficher à l’écran la taille de l’espace disque occupée, et la taille de l’espace disque libre de manière lisible (sans le -h la taille des fichiers serait en octet)&#x20;
-
-Taper `df -h` pour afficher le résultat ;)
-
-### Taille des répertoires
-
-La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille d’un répertoire et de tous les sous répertoires récursifs qu’il contient.&#x20;
-
-1. `pwd` : pour savoir dans quel répertoire vous vous trouvez actuellement.
-2. `ls` ou `tree` : pour afficher la liste des fichiers&#x20;
-3. `du -h` : pour connaitre la taille occuper par les fichiers du répertoires.&#x20;
-4. d`u -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
-5. `du -sh * | sort -hk1` : pour lister les répertoires, leurs tailles par ordre croissant
+##
 
 ## Vérifier chiffrements d'un serveur
 
