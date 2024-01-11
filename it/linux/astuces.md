@@ -44,11 +44,22 @@ Si vous avez besoin de réinstaller un programme vous pouvez utiliser l'option _
 sudo dnf reinstall <nom-du-paquet>
 ```
 
+## Désinstaller une application
+
+```bash
+dnf list <nom du paquet>	# Rechercher un paquet - Méthode 1
+dnf list kernel\*		# Rechercher un paquet - Méthode 2
+dnf list "kernel*"		# Rechercher un paquet - Méthode 3
+dnf search <mot clef>		# Rechercher un paquet - Méthode 4
+
+dnf remove <nom du paquet>	# Supprimer un paquet
+# Attention aux dépendances, bien lire ce qui est proposé à la suppression. 
+```
+
 ### **List**
 
 ```bash
-sudo dnf list obsoletes # Liste des paquets obsolètes (utile avant une 
-mise à niveau de Fedora)
+sudo dnf list obsoletes # Liste des paquets obsolètes (utile avant une mise à niveau de Fedora)
 sudo dnf list recent    # Liste des derniers paquets ajoutés à vos dépôts
 sudo dnf list extras    # Liste des paquets installés ne provenant pas des dépôts actifs ou installation manuelle
 ```
@@ -176,6 +187,8 @@ Et le mot de passe qui va avec :)
 
 {% embed url="https://www.linuxtricks.fr/wiki/reinitialiser-le-mot-de-passe-root-depuis-grub-fedora-et-red-hat" %}
 
+***
+
 ## Activer le clique droit du touchpad&#x20;
 
 Celui-ci est par défaut comme le clique gauche, ce qui est bien pénible :/
@@ -194,6 +207,8 @@ Et ensuite, taper la commande suivante
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 ```
 
+***
+
 ## Créer une clé USB d’installation bootable
 
 <figure><img src="../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
@@ -205,28 +220,22 @@ Il s’agit d’un flasheur USB multiplateforme disponible en téléchargement s
 #### Mettre à jour Fedora
 
 ```bash
-sudo dnf upgrade --refresh -y
-```
-
-#### Ajouter les repos rpm de Etcher :
-
-```bash
-curl -1sLf \
-   'https://dl.cloudsmith.io/public/balena/etcher/setup.rpm.sh' \
-   | sudo -E bash
+sudo dnf upgrade --refresh -y # MAJ Fedora
 ```
 
 #### Installer Etcher
 
-```bash
-sudo dnf install balena-etcher-electron -y
-```
+<pre class="language-bash"><code class="lang-bash"># Ajouter les repos rpm de Etcher
+curl -1sLf \
+   'https://dl.cloudsmith.io/public/balena/etcher/setup.rpm.sh' \
+   | sudo -E bash
 
-#### Mise à jour Etcher
-
-```bash
-sudo dnf upgrade --refresh -y
-```
+# Installation Etcher
+<strong>sudo dnf install balena-etcher-electron -y
+</strong><strong>
+</strong><strong># Mise à jour Etcher
+</strong>sudo dnf upgrade --refresh -y                 
+</code></pre>
 
 #### Désinstaller Etcher
 
@@ -235,7 +244,15 @@ sudo dnf remove balena-etcher-electron -y
 sudo rm /etc/yum.repos.d/balena-etcher.repo
 ```
 
-Source : [https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf](https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#dnf)
+{% hint style="info" %}
+Source : [https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#yum](https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#yum)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://etcher.balena.io/](https://etcher.balena.io/)
+{% endhint %}
+
+***
 
 ## Faire une capture d'écran
 
@@ -283,6 +300,8 @@ sudo dnf upgrade shutter    # Upgrade Shutter
 Source : [https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora.htm](https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora.htm)l
 {% endhint %}
 
+***
+
 ## Rendre persistant votre Dock
 
 {% hint style="info" %}
@@ -297,18 +316,7 @@ Nous utiliserons l'extension GNOME Dash-to-Panel
 https://extensions.gnome.org/extension/1160/dash-to-panel/
 ```
 
-## Shell
-
-#### Vérifier la version du shell
-
-```bash
-bash --version        # Check Bash version
-zsh --version         # Check ZSH version
-fish --version        # Check fish version
-gnome-shell --version # Check GNOME version
-```
-
-Source : [https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html](https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html)
+***
 
 ## Changer le serveur d'affichage&#x20;
 
@@ -350,17 +358,7 @@ Déconnectez-vous ou redémarrez pour entrer dans la nouvelle session.
 Pour plus d'informations : [https://docs.fedoraproject.org/fr/quick-docs/configuring-xorg-as-default-gnome-session/](https://docs.fedoraproject.org/fr/quick-docs/configuring-xorg-as-default-gnome-session/)
 {% endhint %}
 
-## Désinstaller une application
-
-```bash
-yum list <nom du paquet>	# Rechercher un paquet - Méthode 1
-yum list kernel\*		# Rechercher un paquet - Méthode 2
-yum list "kernel*"		# Rechercher un paquet - Méthode 3
-yum search <mot clef>		# Rechercher un paquet - Méthode 4
-
-yum remove <nom du paquet>	# Supprimer un paquet
-# Attention aux dépendances, bien lire ce qui est proposé à la suppression. 
-```
+***
 
 ## Kernel Devel
 
@@ -370,7 +368,11 @@ Le paquet kernel-devel contient les fichiers d'en-têtes du noyau, des fichiers 
 sudo dnf in kernel-devel
 ```
 
+{% hint style="info" %}
 Source : [https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/](https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/)
+{% endhint %}
+
+***
 
 ## Faire un Dig
 
@@ -437,7 +439,7 @@ dig www.lewifi.fr +trace
 
 ## Tweaks
 
-#### Description
+Description
 
 Fedy est un outil graphique qui vous permet de modifier votre système Fedora en quelques clics. Des applications normales aux thèmes, en passant par les diverses modifications du système, Fedy peut faire presque tout ce dont vous pouvez avoir besoin sur Fedora.
 
@@ -452,9 +454,9 @@ sudo dnf copr enable kwizart/fedy
 sudo dnf install fedy -y
 ```
 
+{% hint style="info" %}
 Source : [https://fosspost.org/things-to-do-after-installing-fedora-37/](https://fosspost.org/things-to-do-after-installing-fedora-37/)
-
-##
+{% endhint %}
 
 ## Vérifier chiffrements d'un serveur
 

@@ -6,6 +6,19 @@ description: Quelques astuces pour configurer votre terrminal
 
 ## Shell
 
+#### Vérifier la version du shell
+
+```bash
+bash --version        # Check Bash version
+zsh --version         # Check ZSH version
+fish --version        # Check fish version
+gnome-shell --version # Check GNOME version
+```
+
+{% hint style="info" %}
+Source : [https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html](https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html)
+{% endhint %}
+
 ### Changer le shell par défaut
 
 {% hint style="info" %}
@@ -86,7 +99,7 @@ zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
 Source : [https://github.com/ohmyzsh/ohmyzsh#getting-updates](https://github.com/ohmyzsh/ohmyzsh#getting-updates)
 {% endhint %}
 
-### Thèmes
+## Thèmes OMZ
 
 Il existe plusieurs thèmes pour OMZ, voici comme installer deux d'entre eux (agnoster et powerlevel10K)
 
@@ -94,9 +107,9 @@ Il existe plusieurs thèmes pour OMZ, voici comme installer deux d'entre eux (ag
 La liste complète est thèmes est [disponible ici](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
 {% endhint %}
 
-#### Agnoster
+### Agnoster
 
-1 - Ouvrir le fichier .zhrc
+1 - Ouvrir le fichier `.zhrc`
 
 ```bash
 open ~/.zshrc
@@ -104,7 +117,7 @@ open ~/.zshrc
 
 2 - Changer le thème par défaut
 
-Parcourez votre fichier afin de trouver cette ligne ZSH\_THEME et ajouter `agnoster`
+Parcourez votre fichier afin de trouver cette ligne `ZSH_THEME` et ajouter `agnoster`
 
 ```bash
 ZSH_THEME="agnoster"
@@ -116,7 +129,7 @@ ZSH_THEME="agnoster"
 source ~/.zshrc
 ```
 
-#### Powerlevel10K
+### Powerlevel10K
 
 Avant de procéder à l'installation du thème **Powerlevel10K**, il est fortement reccomander d'installer la polices d'écriture **Meslo Nerd Font** pour une meilleur confort.
 
