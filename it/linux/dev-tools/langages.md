@@ -20,7 +20,11 @@ sudo alternatives --set python /usr/bin/python3 # To set Python3 as the default
 sudo alternatives --set python /usr/bin/python3 # To set Python2 as the default
 ```
 
+{% hint style="info" %}
 Source : [https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/](https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/)
+{% endhint %}
+
+***
 
 ## PHP
 
@@ -33,13 +37,17 @@ sudo dnf install php-mysqli			# PHP modules
 sudo php --server localhost:8080 --docroot  .	# PHP Development Server
 ```
 
+{% hint style="info" %}
 Source : [https://developer.fedoraproject.org/tech/languages/php/php-installation.html](https://developer.fedoraproject.org/tech/languages/php/php-installation.html)
+{% endhint %}
+
+***
 
 ## Rust
 
 <figure><img src="../../../.gitbook/assets/rust-logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
-#### Rust
+### Rust
 
 ```bash
 sudo dnf install rust cargo
@@ -49,9 +57,11 @@ sudo dnf install rust cargo
 This will install the compiler (`rustc`), standard library, gdb support, documentation generator (`rustdoc`) and the package manager (`cargo`).
 {% endhint %}
 
+{% hint style="info" %}
 Source : [https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html](https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html)
+{% endhint %}
 
-#### rustup
+### rustup
 
 rustup est un installateur pour le langage de programmation Rust
 
@@ -59,9 +69,11 @@ rustup est un installateur pour le langage de programmation Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+{% hint style="info" %}
 Source : [https://rustup.rs/](https://rustup.rs/)
+{% endhint %}
 
-#### rustlings
+### rustlings
 
 Le projet **rustlings** contient de petits exercices pour vous habituer à lire et à écrire du code Rust. Cela inclut la lecture et la réponse aux messages du compilateur
 
@@ -72,7 +84,11 @@ cd rustlings
 cargo install --force --path .
 ```
 
+{% hint style="info" %}
 Source : [https://github.com/rust-lang/rustlings#manually](https://github.com/rust-lang/rustlings#manually)
+{% endhint %}
+
+***
 
 ## Ruby
 
@@ -86,7 +102,7 @@ Avant d'installer Ruby, installons [`rbenv`](https://github.com/sstephenson/rben
 sudo dnf install git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
 ```
 
-#### rbenv
+### rbenv
 
 Maintenant installons _**rbenv**_
 
@@ -99,7 +115,7 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 exec $SHELL
 ```
 
-#### Ruby
+### Ruby
 
 Maintenant, nous sommes êtes prêt à installer _**ruby**_ et à définir la version par défaut.
 
@@ -114,7 +130,7 @@ ruby --version         # Check your Ruby version
 Si le message commence par `ruby 3.1.2p` , continuez 👍
 {% endhint %}
 
-#### gems
+### gems
 
 Installons maintenant quelques gems 🤗
 
@@ -157,9 +173,13 @@ sudo dnf install rubygem-bundler
 La commande **`bundle`**devrait être ensuite disponible sur votre système.
 {% endhint %}
 
-## Ruby on Rails
+### Ruby on Rails
 
 <figure><img src="../../../.gitbook/assets/Ruby_On_Rails_Logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
+
+#### Description
+
+Rails est le framework du langage Ruby
 
 #### Installation avec RubyGems.org
 
@@ -173,33 +193,43 @@ sudo dnf install rubygem-rails  	# Install Rubygem with RubyGems.org
 sudo dnf group install 'Ruby on Rails'	# Install Rails framework
 ```
 
+{% hint style="info" %}
 Source : [https://developer.fedoraproject.org/tech/languages/ruby/ror-installation.html](https://developer.fedoraproject.org/tech/languages/ruby/ror-installation.html)\
 Alternative : [https://github.com/rails/rails#getting-started](https://github.com/rails/rails#getting-started)
+{% endhint %}
+
+***
 
 ## Flutter
 
 <figure><img src="../../../.gitbook/assets/Google-flutter-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
+
+#### Installation
 
 ```bash
 sudo snap install flutter --classic	# Install Flutter using SnapStore
 flutter sdk-path			# Display your Flutter SDK path
 ```
 
+{% hint style="info" %}
 Source : [https://docs.flutter.dev/get-started/install/linux](https://docs.flutter.dev/get-started/install/linux)
+{% endhint %}
+
+***
 
 ## Node.JS
 
 <figure><img src="../../../.gitbook/assets/2560px-Node.js_logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
-#### NodeJS
+### NodeJS
 
-Démarrons l'installation avec cette commande :&#x20;
+Démarrons l'installation avec cette commande
 
 ```bash
 sudo dnf install nodejs
 ```
 
-Lorsque l'installation est terminé, taper :&#x20;
+Lorsque l'installation est terminé, taper
 
 ```bash
 node --version
@@ -209,7 +239,7 @@ node --version
 Si le message affiche `v16.15.1` ou autre version, vous pouvez continuer
 {% endhint %}
 
-#### nvm
+### nvm
 
 nvm est manager de version de Node. Il fonctionne sur n'importe quel shell compatible POSIX (sh, dash, ksh, zsh, bash), en particulier sur les plateformes suivantes : UNIX, macOS, et windows WSL.
 
@@ -240,9 +270,12 @@ command -v nvm
 En cas de réussite, `nvm` devrait afficher.
 {% endhint %}
 
-Source : [https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html) & [https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
+{% hint style="info" %}
+Sources : [https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html)\
+[https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
+{% endhint %}
 
-#### yarn
+### yarn
 
 <figure><img src="../../../.gitbook/assets/yarn_image.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -262,7 +295,7 @@ yarn --version
 Si le message affiche `v1.22.17` ou autre version, vous pouvez continuer
 {% endhint %}
 
-#### npm
+### npm
 
 <figure><img src="../../../.gitbook/assets/Npm-logo.png" alt="" width="135"><figcaption></figcaption></figure>
 
@@ -303,11 +336,13 @@ Mettez à jour vos variables système avec cette commande
 source ~/.profile
 ```
 
+***
+
 ## JAVA
 
 <figure><img src="../../../.gitbook/assets/Java.png" alt="" width="188"><figcaption></figcaption></figure>
 
-#### Gradle
+### Gradle
 
 {% hint style="info" %}
 **Pré-requis** : nécéssite le gestionnaire de paquet SDKMAN!
@@ -340,34 +375,6 @@ sdk version
 Si le message affiche `v5.16.0` ou autre version, vous pouvez continuer
 {% endhint %}
 
-Source : [https://sdkman.io/install](https://sdkman.io/install)
-
-#### WAR
-
-work in progress section
-
-## Scala
-
-<figure><img src="../../../.gitbook/assets/ezgif.com-webp-to-jpg-2.jpg" alt="" width="188"><figcaption></figcaption></figure>
-
-Installation de SCALA
-
 {% hint style="info" %}
-Pré-requis : nécéssite le gestionnaire de paquet SDKMAN!
+Source : [https://sdkman.io/install](https://sdkman.io/install)
 {% endhint %}
-
-```bash
-sdk install scala
-```
-
-#### SBT
-
-Install SBT
-
-<pre class="language-bash"><code class="lang-bash">sudo rm -f /etc/yum.repos.d/bintray-rpm.repo    	      # Remove old Bintray repo file
-<strong>curl -L https://www.scala-sbt.org/sbt-rpm.repo > sbt-rpm.repo
-</strong>sudo mv sbt-rpm.repo /etc/yum.repos.d/
-sudo dnf install sbt										 # Install SBT
-</code></pre>
-
-Source : [https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html)
