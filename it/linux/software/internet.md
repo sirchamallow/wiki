@@ -6,13 +6,13 @@ description: Liste de logiciels
 
 ## Navigateurs Web
 
-### Mozilla Firefox
-
-#### Firefox
+### Firefox
 
 
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-23.png" alt=""><figcaption></figcaption></figure>
+
+#### Installation
 
 ```bash
 sudo dnf install firefox
@@ -22,9 +22,19 @@ sudo dnf install firefox
 Source : [https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems](https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems)
 {% endhint %}
 
-#### Firefox Developer Edition
+{% hint style="success" %}
+Site Internet : [https://www.mozilla.org/fr/firefox/all/#product-desktop-release](https://www.mozilla.org/fr/firefox/all/#product-desktop-release)
+{% endhint %}
+
+### Firefox Developer Edition
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-52-39.png" alt="" width="320"><figcaption></figcaption></figure>
+
+#### Installation
+
+{% hint style="info" %}
+Cette variante officiel du navigateur n’est pas pris en charge par défaut dans les paquet RPM. Il faudra passer par Copr pour pouvoir l’installer
+{% endhint %}
 
 ```bash
 sudo dnf copr enable the4runner/firefox-dev # Enable the4runner/firefox-dev Copr repository according to your package manager.
@@ -39,15 +49,19 @@ Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https
 
 #### Extensions & Themes
 
+Découvrez divers extensions & thèmes sur ce wiki en cliquant sur le lien
+
 {% content-ref url="../../../tech/logiciels/browsers/firefox-extensions/" %}
 [firefox-extensions](../../../tech/logiciels/browsers/firefox-extensions/)
 {% endcontent-ref %}
 
+***
+
 ### Google Chrome
 
-#### Google Chrome
-
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-07.png" alt=""><figcaption></figcaption></figure>
+
+#### Installation
 
 ```bash
 sudo dnf install fedora-workstation-repositories	# Install Third Party Repositories
@@ -63,6 +77,8 @@ Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or
 
 <figure><img src="../../../.gitbook/assets/unnamed.png" alt="" width="300"><figcaption></figcaption></figure>
 
+#### Installation
+
 ```bash
 sudo dnf install google-chrome-unstable
 ```
@@ -70,6 +86,8 @@ sudo dnf install google-chrome-unstable
 {% hint style="info" %}
 Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/](https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/)
 {% endhint %}
+
+***
 
 ### **Ungoogled Chromium**
 
@@ -91,32 +109,37 @@ Second choix, une version **Flatpak** est disponible ici : [https://flathub.org/
 Source : [https://github.com/ungoogled-software/ungoogled-chromium-fedora](https://github.com/ungoogled-software/ungoogled-chromium-fedora)
 {% endhint %}
 
+***
+
 ### Microsoft Edge
-
-
 
 <figure><img src="../../../.gitbook/assets/EdgeNew.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-Importer la clé GPG pour l'import du fichier RPM:
+#### Installation
 
 ```bash
+# Importer la clé GPG pour l'import du fichier RPM
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-```
 
-Importer le répertoire de Microsoft Edge
+# Importer le répertoire de Microsoft Edge
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
 
-<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
-</strong></code></pre>
-
-#### Installation Microsoft Edge <a href="#installing-microsoft-edge" id="installing-microsoft-edge"></a>
-
-```bash
+# Installation Microsoft Edge
 sudo dnf install microsoft-edge-stable
 ```
 
-#### Installation Microsoft Edge dev
+### Microsoft Edge Developer Edition
+
+#### Installation
 
 ```bash
+# Importer la clé GPG pour l'import du fichier RPM
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+
+# Importer le répertoire de Microsoft Edge
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+
+# Installation Microsoft Edge
 sudo dnf install microsoft-edge-dev
 ```
 
@@ -127,6 +150,12 @@ Notez que celles-ci ne remplacent pas votre version stable, et elles sont instal
 {% hint style="info" %}
 Source : [https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/](https://www.linuxcapable.com/install-microsoft-edge-on-fedora-linux/)
 {% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://www.microsoft.com/fr-fr/edge/download?form=MA13FJ](https://www.microsoft.com/fr-fr/edge/download?form=MA13FJ)
+{% endhint %}
+
+***
 
 ## NextDNS
 
@@ -166,7 +195,7 @@ sudo nextdns install \
 
 #### Basic Usage
 
-```
+```bash
 nextdns start       # Start the daemon
 nextdns stop        # Stop the daemon
 nextdns restart     # Restart the daemon
@@ -179,6 +208,8 @@ nextdns help        # Show all commands
 {% hint style="info" %}
 Source : [https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution](https://github.com/nextdns/nextdns/wiki/RPM-Based-Distribution)
 {% endhint %}
+
+***
 
 ## Discord
 
@@ -199,10 +230,16 @@ sudo dnf install discord
 Source : [https://itsfoss.com/install-discord-fedora/](https://itsfoss.com/install-discord-fedora/)
 {% endhint %}
 
+{% hint style="success" %}
+Site internet : [https://discord.com/download](https://discord.com/download)
+{% endhint %}
+
 #### Désactiver le pop de mise à jour automatique (parfois bloquant)
 
 Ouvrer le fichier `settings.json` qui se trouve dans le dossier `.config/discord/`\
 et ajouter la valeur suivante : `"SKIP_HOST_UPDATE": true`
+
+***
 
 ## Caprine
 
