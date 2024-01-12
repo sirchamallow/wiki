@@ -8,6 +8,8 @@ description: Liste de dépôts
 
 <figure><img src="../../../.gitbook/assets/rpm_fusion.png" alt="" width="250"><figcaption></figcaption></figure>
 
+#### Description
+
 Par défaut, les dépôts de Fedora ne contiennent pas tous les logiciels. \
 Il est ainsi parfois nécéssaire d'avoir de drivers propriétaires, autres codecs ou logiciels non libres.&#x20;
 
@@ -37,7 +39,11 @@ Les dépôts RPM Fusion fournissent également des métadonnées [Appstream](htt
 sudo dnf groupupdate core
 ```
 
+{% hint style="info" %}
 Source : [https://rpmfusion.org/Configuration](https://rpmfusion.org/Configuration)
+{% endhint %}
+
+***
 
 ## Flatpak
 
@@ -61,6 +67,8 @@ Si pour une raison quelquonque ça ne marche pas, vous pouvez ajouter manuelleme
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
+***
+
 ## Snap
 
 <figure><img src="https://assets.ubuntu.com/v1/4726d040-Snap+logo+white+bg.jpg" alt=""><figcaption></figcaption></figure>
@@ -74,6 +82,8 @@ sudo dnf install snapd
 {% hint style="info" %}
 Source : [https://snapcraft.io/docs/installing-snap-on-fedora](https://snapcraft.io/docs/installing-snap-on-fedora)
 {% endhint %}
+
+***
 
 ## AppImage
 
