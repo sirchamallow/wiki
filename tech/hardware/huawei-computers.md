@@ -1,25 +1,38 @@
 ---
 description: Quelques astuces pour les pc portable Huawei.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 🇨🇳 Huawei Computers
 
-### Accèder au BIOS
+## Accèder au BIOS
 
 Plusieurs méthodes possible
 
-1. lorsque votre ordinateur démarre ou redémarre, appuyez longuement ou en continu sur **F2** pour accéder à l'écran de l'utilitaire de configuration du BIOS.
+1. Lorsque votre ordinateur démarre ou redémarre, appuyez longuement ou en continu sur **`F2`** pour accéder à l'écran de l'utilitaire de configuration du BIOS.
 2. (Applicable uniquement aux ordinateurs de la série HUAWEI MateBook E) : lorsque votre ordinateur est éteint, appuyez simultanément sur les boutons d'alimentation et d'augmentation du volume jusqu'à ce que l'écran de l'utilitaire de configuration du BIOS apparaisse.
 
+{% hint style="info" %}
 Source : [https://consumer.huawei.com/fr/support/content/fr-fr00688478/](https://consumer.huawei.com/fr/support/content/fr-fr00688478/)
+{% endhint %}
 
-### Manuel d'utilisation
+## Manuel d'utilisation
 
 Pour télécharger le manuel d'utilisation, rendez-vous sur cette page :&#x20;
 
 {% embed url="https://consumer.huawei.com/fr/support/manual-list/" %}
 
-### Huawei PC Manager
+## Huawei PC Manager
 
 HUAWEI Gestionnaire PC est une application de gestion d'ordinateur qui offre un large éventail de fonctionnalités, notamment la détection du système, la gestion des pilotes, le service client. Elle vous aide à résoudre les problèmes techniques, à optimiser les paramètres système et à vous assurer que votre appareil fonctionne correctement.
 
@@ -33,7 +46,7 @@ Téléchargez HUAWEI Gestionnaire PC à partir du site Web officiel :&#x20;
 Compatible sur les ordinateurs HUAWEI Windows sortis après avril 2018
 {% endhint %}
 
-## Guides
+### Guides
 
 ### Configurer votre ordinateur portable
 
