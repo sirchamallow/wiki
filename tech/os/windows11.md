@@ -13,31 +13,29 @@ layout:
     visible: false
 ---
 
-# 🤔 Windows 11
+# 🐸 Windows 11
 
-**Pré-requis :** que ce soit après une installation de [**Windows 10/11**](https://www.microsoft.com/fr-fr/windows/) sur votre ordinateur, votre prochaine étape consistera à remettre "clean" votre système d'exploitation et désinstaller les applications inutiles que Microsoft pré-installepré-installent par défaut et sans votre accord. \
+J'utilise principalement Fedora, mais quand j'ai besoin de jouer à des jeux vidéos, je bascule sur Windows11
+
+## **Chocolatey**
+
+Après une installation de [**Windows 10/11**](https://www.microsoft.com/fr-fr/windows/) sur votre ordinateur, la prochaine étape consistera à remettre "clean" votre système d'exploitation et de désinstaller les applications inutiles que Microsoft pré-installepré-installent par défaut et sans votre accord.&#x20;
+
+Et dans certains cas, vous devrez même renouveller l'opération en désinstallant cette fois-ci ceux pré-installer par le fabricant de votre ordinateur.
+
+Puis il vous faudra installer vos logiciels.&#x20;
+
+Afin de vous faire gagner du temps dans cette étape (parfois très longue), il existe plusieurs gestionnaires de paquet pour Windows11. Nous allons nous concentrer sur [**Chocolatey**](https://chocolatey.org/)**.** \
 \
-Et dans certains cas, il faudra renouveller l'opération en désinstallant cette fois ceux du fabricant de votre ordinateur.
-
-
-
-Dans un **second temps**, il vous faudra installer vos logiciels. \
-\
-Pour vous faire gagner du temps dans cette étape (parfois très longue), il existe un gestionnaire de paquet pour Windows. Son nom ? [**Chocolatey**](https://chocolatey.org/)**.** \
-\
-Il vous permettra d'installer un paquet de logiciels en un temps records !&#x20;
+Celui-ci vous permettra d'installer un paquet de logiciels en un temps records :)
 
 {% hint style="success" %}
 Il existe une interface graphique pour le gestionnaire > [Chocolatey-GUI](https://community.chocolatey.org/packages/ChocolateyGUI)
 {% endhint %}
 
-## Logiciels Windows
+### Installation
 
-### Installation via Chocolatey
-
-#### Installer chocolatey sur votre machine
-
-D'abord vous devez installer le gestionnaire de paquet (avec les droits administateur).
+Taper cette commande avec les droits administateur :
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -47,7 +45,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 En cas de problème, lire [la documentation d'installation.](https://chocolatey.org/install#individual)
 {% endhint %}
 
-#### Liste de logiciels disponibles (non-exhaustifs)
+### Liste de logiciels (non-exhaustifs)
 
 <pre class="language-powershell"><code class="lang-powershell"><strong>## Utilitaires ##
 </strong>choco install 7zip                         # 7zip
@@ -110,7 +108,7 @@ choco install winscp                       # WinSCP
 La liste complète est disponible sur la [page du repo](https://community.chocolatey.org/packages) publique.
 {% endhint %}
 
-#### Mise à jour
+### Mise à jour
 
 Pour la mise à jour de vos apps via Chocolatey, ouvrir le terminal (avec les droits administrateurs)
 
@@ -122,15 +120,10 @@ choco upgrade all                               # Upgrade all software installed
 choco upgrade all --except="'skype,conemu'"     # Examples : Upgrade all software exptedted Skype, Conemu
 ```
 
-### Installation via le Microsoft Store
+## Microsoft Store
 
-#### Ouvrir le Microsoft Store ou depuis votre navigateur :
+Ouvrir le Microsoft Store ou depuis votre navigateur web !
 
-* [Prime Video pour Windows](https://apps.microsoft.com/store/detail/prime-video-pour-windows/9P6RC76MSMMJ) : Amazon Prime Video
-* [Disney+](https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89) : plateforme SVOD de Disney
-* [Netflix](https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ) : plateforme SVOD
-* [Pluto TV](https://apps.microsoft.com/store/detail/pluto-tv/9P9LV240KQ9R) : plateforme AVOD
-* [Adobe Acrobat Reader DC](https://apps.microsoft.com/store/detail/adobe-acrobat-reader-dc/XPDP273C0XHQH2) : lecteur pdf
 * [Microsoft Edge Browser](https://apps.microsoft.com/store/detail/microsoft-edge-browser/XPFFTQ037JWMHS) : navigateur web de Microsoft
 * [Mozilla Firefox](https://apps.microsoft.com/store/detail/mozilla-firefox/9NZVDKPMR9RD) : navigateur web de la fondation Mozilla
 * [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?) : le terminal de windows
@@ -142,7 +135,7 @@ choco upgrade all --except="'skype,conemu'"     # Examples : Upgrade all softwar
 Pour mettre à jour le **Microsoft Store** : sélectionnez le bouton **Démarrer** , puis Microsoft Store dans la liste des applications. Dans le Microsoft Store, sélectionnez **En savoir plus** > Téléchargements et mises à jour > Obtenir des **mises à jour**.
 {% endhint %}
 
-### Téléchargement direct
+## Téléchargement direct
 
 * [KeyScrambler](https://www.qfxsoftware.com/download.htm) : Chiffrement logiciel de vos frappes de votre clavier
 * [Comodo Personal Firewall](https://personalfirewall.comodo.com/firewall-for-windows-10.php) : Pare-feu gratuit pour Windows10
@@ -158,8 +151,8 @@ Avec le refrain classique "nous nous servons de cette télémétrie pour amélio
 \
 Il vous sera nécessaire soit de vous plonger dans les tâches planifiées, le registre et les services de Windows en suivant par exemple [ce guide de PC-Astuces](https://www.pcastuces.com/pratique/astuces/4871.htm), ou un installant [ce package depuis Chocolatey](https://chocolatey.org/packages/disable-nvidia-telemetry).
 
-**Désactiver les services inutiles**
+### **Désactiver les services inutiles**
 
-Pour des solutions officielles concernant l'optimisation de windows, afin de Désactiver les services inutiles il y a le site de Microsoft :
+Pour des solutions officielles concernant l'optimisation de windows, afin de Désactiver les services inutiles il y a... le site de Microsoft (:
 
 {% embed url="https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/optimize-your-device/services" %}
