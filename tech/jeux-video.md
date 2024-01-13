@@ -35,9 +35,7 @@ layout:
 Note : Il est impossible d’activer votre clé directement depuis l’application mobile Stem disponible sur Android & iOS.
 {% endhint %}
 
-### EPIC Games Store
 
-soon
 
 ### GOG
 

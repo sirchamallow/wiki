@@ -2,7 +2,7 @@
 description: Quelques applications pour MacOS
 ---
 
-# 💸 MacOS
+# 🍏 MacOS
 
 ### Logiciels MacOS
 

@@ -1,13 +1,30 @@
 ---
 description: Astuces & Liste d'appplications pour Windows 10/11
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 🤔 Windows 11
 
-**Pré-requis :** que ce soit après une installation de [**Windows 10/11**](https://www.microsoft.com/fr-fr/windows/) sur votre ordinateur, votre prochaine étape consistera à remettre "clean" votre système d'exploitation et désinstaller les applications inutiles que Microsoft pré-installepré-installent par défaut et sans votre accord. Et dans certains cas, il faudra renouveller l'opération en désinstallant cette fois ceux du fabricant de votre ordinateur.
+**Pré-requis :** que ce soit après une installation de [**Windows 10/11**](https://www.microsoft.com/fr-fr/windows/) sur votre ordinateur, votre prochaine étape consistera à remettre "clean" votre système d'exploitation et désinstaller les applications inutiles que Microsoft pré-installepré-installent par défaut et sans votre accord. \
+\
+Et dans certains cas, il faudra renouveller l'opération en désinstallant cette fois ceux du fabricant de votre ordinateur.
+
+
 
 Dans un **second temps**, il vous faudra installer vos logiciels. \
+\
 Pour vous faire gagner du temps dans cette étape (parfois très longue), il existe un gestionnaire de paquet pour Windows. Son nom ? [**Chocolatey**](https://chocolatey.org/)**.** \
+\
 Il vous permettra d'installer un paquet de logiciels en un temps records !&#x20;
 
 {% hint style="success" %}
@@ -84,7 +101,6 @@ choco install notepadplusplus              # Notepad++
 choco install ruby                         # Ruby
 choco install pgadmin4                     # PGadmin 4
 choco install postman                      # Postman
-choco install sublimetext3                 # SublimeText 3
 choco install virtualbox                   # VirtualBox
 choco install vscode                       # Visual Studio Code
 choco install winscp                       # WinSCP
@@ -115,15 +131,9 @@ choco upgrade all --except="'skype,conemu'"     # Examples : Upgrade all softwar
 * [Netflix](https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ) : plateforme SVOD
 * [Pluto TV](https://apps.microsoft.com/store/detail/pluto-tv/9P9LV240KQ9R) : plateforme AVOD
 * [Adobe Acrobat Reader DC](https://apps.microsoft.com/store/detail/adobe-acrobat-reader-dc/XPDP273C0XHQH2) : lecteur pdf
-* [f.lux](https://apps.microsoft.com/store/detail/flux/9N9KDPHV91JT) : modifie la luminosité de votre écran en fonction de la position géographique
 * [Microsoft Edge Browser](https://apps.microsoft.com/store/detail/microsoft-edge-browser/XPFFTQ037JWMHS) : navigateur web de Microsoft
 * [Mozilla Firefox](https://apps.microsoft.com/store/detail/mozilla-firefox/9NZVDKPMR9RD) : navigateur web de la fondation Mozilla
-* [Brave Browser](https://apps.microsoft.com/store/detail/brave-browser/XP8C9QZMS2PC1T) : navigateur web de l’entreprise Brave Software
-* [Slack](https://apps.microsoft.com/store/detail/slack/9WZDNCRDK3WP) : le réseau social collaboratif
 * [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?) : le terminal de windows
-* [Canva](https://apps.microsoft.com/store/detail/canva/XP8K17RNMM8MTN) : créez, partagez et imprimez facilement des designs professionnels.
-* [Night Skies](https://apps.microsoft.com/store/detail/night-skies-premium/9NG5S6HW7PJ1) : un lot de 20 fonds d'écrans 4K d'étoiles, lunes, aurore boréale, voie lactée...
-* [Mountain Light](https://apps.microsoft.com/store/detail/mountain-light-premium/9NDSDFS8K786) : un lot de fonds d'écrans de 18 vues majestueuses de montagnes du monde entier
 * [Windows Subsystem for Linux (WSL)](https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ) : Installation complète de Ubuntu 20.04.5 LTS
 
 {% hint style="info" %}

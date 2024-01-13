@@ -28,7 +28,7 @@
     * [👣 Ext. GNOME](it/linux/gnome-extensions.md)
   * [🤔 Windows 11](it/windows11.md)
     * [🔩 Setup](tech/os/windows11/setup.md)
-  * [💸 MacOS](it/macos.md)
+  * [🍏 MacOS](it/macos.md)
   * [🤖 Android](it/android.md)
 * [🎮 Jeux Vidéo](tech/jeux-video.md)
 * [⚙ Hardware](it/linux/hardware/README.md)
