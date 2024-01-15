@@ -26,12 +26,16 @@ dnf help			# Get Help
 dnf list available | more	# List All Packages
 dnf list installed 		# List Installed Packages
 dnf info <package>		# View Package Information
+dnf history                     # View history transactions
+dnf history userinstalled       # View history transactions of user
 sudo dnf repolist all		# List All Repositories
 sudo dnf install <package>	# Install Package
+sudo dnf reinstall <package>	# Reinstall Package
 sudo dnf remove <package>	# Remove Package
 sudo dnf check-update 		# Check for Updates
 sudo dnf upgrade --refresh      # Update All Packages
 sudo dnf update <package>	# Update Package
+sudo dnf downgrade  <package>   # Downgrade Package
 sudo dnf autoremove		# Remove Orphan Packages
 sudo dnf distro-sync		# Synchronise All Packages
 ```
@@ -47,15 +51,15 @@ sudo dnf clean metadata   # Supprime les métadonnées du dépôt.
 <strong>sudo dnf clean all        # Effacer TOUT les caches, les métadatas &#x26; les fichiers inutiles de DNF
 </strong></code></pre>
 
-### **Reinstall**
+### **Activer/Désactiver un dépôt**
 
-Si vous avez besoin de réinstaller un programme vous pouvez utiliser l'option _reinstall_
+Si vous avez besoin d'activer un dépôt de manière permanente
 
-```bash
-sudo dnf reinstall <nom-du-paquet>
-```
+<pre class="language-bash"><code class="lang-bash">sudo dnf config-manager --set-enabled &#x3C;package>    # Activer un dépôt de manière permanente
+<strong>sudo dnf config-manager --set-disabled &#x3C;package>   # Désactiver un dépôt de manière permanente
+</strong></code></pre>
 
-## Désinstaller une application
+### Désinstaller une application
 
 ```bash
 dnf list <nom du paquet>	# Rechercher un paquet - Méthode 1
@@ -70,6 +74,7 @@ dnf remove <nom du paquet>	# Supprimer un paquet
 ### **List**
 
 ```bash
+sudo dnf repolist all   # Liste les dépôts installés
 sudo dnf list obsoletes # Liste des paquets obsolètes (utile avant une mise à niveau de Fedora)
 sudo dnf list recent    # Liste des derniers paquets ajoutés à vos dépôts
 sudo dnf list extras    # Liste des paquets installés ne provenant pas des dépôts actifs ou installation manuelle
@@ -178,6 +183,24 @@ sudo dnf autoremove
 
 {% hint style="info" %}
 Source : [https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/)
+{% endhint %}
+
+***
+
+## Utiliser le miroir le plus rapide
+
+Par défaut, DNF peut utiliser un miroir assez lent.  Il existe cependant une astuce pour bénéficier d'un miroir rapide. Pour cela, éditer le fichier **/etc/dnf/dnf.conf**, et copier **fastestmirror** en mettant la valeur à **true :**&#x20;
+
+```bash
+fastestmirror=true
+```
+
+{% hint style="info" %}
+Mettre fastestmirror à true ne donnera pas nécessairement des vitesses de téléchargement plus rapides car il ne vérifie que le ping (aka latence) d'un serveur et non la vitesse de téléchargement réelle. En d'autres termes, en fonction de votre localisation et peut très bien rendre DNF plus lent. C'est pour cela que l'option n'est pas activer par défaut.
+{% endhint %}
+
+{% hint style="success" %}
+Liste des mirroirs publics : [https://admin.fedoraproject.org/mirrormanager/](https://admin.fedoraproject.org/mirrormanager/)
 {% endhint %}
 
 ***
