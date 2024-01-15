@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🍁 Le wiki de sirchamallow](README.md)
+* [🍁 Pierre LEMASSON | Wiki](README.md)
 
 ## Tech
 
@@ -29,7 +29,6 @@
   * [🐸 Windows 11](tech/os/windows11.md)
   * [🍏 MacOS](it/macos.md)
   * [🤖 Android](it/android.md)
-* [🎮 Jeux Vidéo](tech/jeux-video.md)
 * [⚙ Hardware](it/linux/hardware/README.md)
   * [⚡ Electricité](tech/hardware/electricite/README.md)
     * [🔌 Legrand 0 494 30](tech/hardware/electricite/legrand-0-494-30.md)
@@ -37,7 +36,21 @@
     * [💺 Bureau](tech/hardware/informatique/bureau.md)
     * [🇩🇪 TUXEDO Computers](it/linux/hardware/tuxedo-computers.md)
     * [🇨🇳 Huawei Computers](tech/hardware/huawei-computers.md)
-* [💡 Ressources](tech/articles/README.md)
+* [🎮 Jeux Vidéo](tech/jeux-video.md)
+* [💿 Logiciels](tech/logiciels/README.md)
+  * [🌐 Navigateurs Web](tech/logiciels/browsers/README.md)
+    * [🦊 Mozilla Firefox](tech/logiciels/browsers/firefox-extensions/README.md)
+      * [🖱 Extensions](tech/logiciels/browsers/firefox-extensions/official-extensions.md)
+      * [✨ Thèmes](tech/logiciels/browsers/firefox-extensions/themes.md)
+      * [🔍 Barre de recherche](tech/logiciels/browsers/firefox-extensions/mycroft-project.md)
+      * [🎨 Wallpapers](tech/logiciels/browsers/firefox-extensions/wallpapers.md)
+    * [🛃 Google Chrome](tech/logiciels/browsers/chrome-extensions/README.md)
+      * [🚀 Mercury Reader](tech/logiciels/browsers/chrome-extensions/mercury-reader.md)
+  * [📤 Firefox Send](tech/logiciels/firefox-send.md)
+  * [💻 RecordScreen](tech/logiciels/recordscreen.md)
+  * [💠 Resizing.app](tech/logiciels/resizing.app.md)
+* [📩 Newsletter](tech/newsletter.md)
+* [✨ Ressources](tech/articles/README.md)
   * [😶 Kaomoji japonais](tech/articles/kaomoji-japonais.md)
   * [🔗 Construire des logiciels, ensemble, avec Git](tech/articles/build-with-git.md)
   * [💡 Créer une playlist de webradios](tech/medias/radios/creer-une-playlist-de-webradios.md)
@@ -59,18 +72,6 @@
   * [📞 Telecoms](tech/outils/telecoms.md)
   * [🇨🇭 Status page](tech/outils/statuspage.md)
   * [⛓ Git](tech/outils/git.md)
-* [💿 Logiciels](tech/logiciels/README.md)
-  * [🌐 Navigateurs Web](tech/logiciels/browsers/README.md)
-    * [🦊 Mozilla Firefox](tech/logiciels/browsers/firefox-extensions/README.md)
-      * [🖱 Extensions](tech/logiciels/browsers/firefox-extensions/official-extensions.md)
-      * [✨ Thèmes](tech/logiciels/browsers/firefox-extensions/themes.md)
-      * [🔍 Barre de recherche](tech/logiciels/browsers/firefox-extensions/mycroft-project.md)
-      * [🎨 Wallpapers](tech/logiciels/browsers/firefox-extensions/wallpapers.md)
-    * [🛃 Google Chrome](tech/logiciels/browsers/chrome-extensions/README.md)
-      * [🚀 Mercury Reader](tech/logiciels/browsers/chrome-extensions/mercury-reader.md)
-  * [📤 Firefox Send](tech/logiciels/firefox-send.md)
-  * [💻 RecordScreen](tech/logiciels/recordscreen.md)
-  * [💠 Resizing.app](tech/logiciels/resizing.app.md)
 * [🔍 Veille](tech/veille/README.md)
   * [💭 Arguments Rhétologiques Fallacieux](tech/veille/arguments-rhetologiques-fallacieux.md)
   * [👉 Blogosphère](tech/veille/blogosphere.md)
@@ -83,7 +84,6 @@
     * [Facebook > RSS](tech/veille/flux-rss-atom/facebook-greater-than-rss.md)
   * [🤔 Mindmapping](tech/veille/mindmapping.md)
   * [👍 Ressources](tech/veille/ressources.md)
-* [📩 Newsletter](tech/newsletter.md)
 
 ## 🤪 Multiverse
 
