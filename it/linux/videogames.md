@@ -22,6 +22,8 @@ sudo dnf install lutris
 Source : [https://lutris.net/downloads](https://lutris.net/downloads)
 {% endhint %}
 
+***
+
 ## OpenRCT2
 
 <figure><img src="../../.gitbook/assets/OpenRCT2-Game-Logo.png" alt=""><figcaption></figcaption></figure>
@@ -60,6 +62,8 @@ openrct2 set-rct2 /path/to/rct2-install
 {% hint style="info" %}
 Source : [https://openrct2.org/quickstart/install/linux/fedora](https://openrct2.org/quickstart/install/linux/fedora)
 {% endhint %}
+
+***
 
 ## OpenTTD
 
