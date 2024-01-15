@@ -2,9 +2,13 @@
 description: Quelques jeux disponibles sur Linux
 ---
 
-# 🕹 Jeux vidéos
+# 🕹 Jouer sur Linux
 
 ## Lutris
+
+####
+
+<figure><img src="../../.gitbook/assets/Lutris_Game_Platform_(Logo).png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 

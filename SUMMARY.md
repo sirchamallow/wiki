@@ -24,7 +24,7 @@
       * [🛠 Utilitaires](it/linux/software/utilities.md)
       * [📟 Terminal](tech/os/linux/software/terminal.md)
       * [🛡 Sécurité](it/linux/software/security.md)
-    * [🕹 Jeux vidéos](it/linux/videogames.md)
+    * [🕹 Jouer sur Linux](it/linux/videogames.md)
     * [👣 Ext. GNOME](it/linux/gnome-extensions.md)
   * [🐸 Windows 11](tech/os/windows11.md)
   * [🍏 MacOS](it/macos.md)
