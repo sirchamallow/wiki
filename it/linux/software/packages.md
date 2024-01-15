@@ -1,5 +1,16 @@
 ---
 description: Liste de dépôts
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 📦 Dépôts
@@ -16,7 +27,7 @@ Il est ainsi parfois nécéssaire d'avoir de drivers propriétaires, autres code
 Du coup, il faut passer par un dépôt qui disposent de plus de logiciels. [\
 RPM Fusion](https://rpmfusion.org) est un des ces dépôts incontournable.
 
-#### Installation
+### Installation
 
 Il propose deux dépôts : _**free**_ (contient des logiciels libres non packagés par la communauté Fedora) & _**non-free**_ (contient des logiciels propriétaires non packagés par la communauté Fedora)
 
@@ -31,7 +42,7 @@ sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-
 sudo dnf update
 ```
 
-#### AppStream medatda
+### AppStream medatda
 
 Les dépôts RPM Fusion fournissent également des métadonnées [Appstream](https://www.freedesktop.org/wiki/Distributions/AppStream/) pour permettre aux utilisateurs d'installer des paquets en utilisant Gnome Software/KDE Discover.
 
@@ -61,7 +72,9 @@ Bonne nouvelle, Flatpak est installé par défaut sur Fedora Workstation :)&#x20
 Pour télécharger des applications, [rendez-vous sur **Flathub**](https://flathub.org/)
 {% endhint %}
 
-Si pour une raison quelquonque ça ne marche pas, vous pouvez ajouter manuellement la télécommande **Flathub** en exécutant:
+#### Installation manuel
+
+Si pour une raison quelquonque ça ne marche pas, vous pouvez ajouter manuellement la télécommande **Flathub** en exécutant :
 
 ```bash
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -73,7 +86,11 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 
 <figure><img src="https://assets.ubuntu.com/v1/4726d040-Snap+logo+white+bg.jpg" alt=""><figcaption></figcaption></figure>
 
+#### Description
+
 Le format _snap_ vise à permettre l'installation de nouvelles versions de logiciels dans les systèmes _Linux._ Celui-ci est propulsé par Canonical Ltd. qui est l'entreprise qui édite la distribution Ubuntu.
+
+#### Installation
 
 ```bash
 sudo dnf install snapd
@@ -87,18 +104,20 @@ Source : [https://snapcraft.io/docs/installing-snap-on-fedora](https://snapcraft
 
 ## AppImage
 
+#### **Description**
+
 **AppImage est un format de paquet de logiciel** qui permet aux développeurs de distribuer leurs applications sous la forme d’un **fichier unique.** Les fichiers de ce format sont autonomes et contiennent toutes les dépendances dont l’application a besoin pour fonctionner.&#x20;
 
 Particularité, ils peuvent être exécutés sur n’importe quelle distribution Linux sans nécessiter les privilèges de l’administrateur. Ce format de fichier est portable, c’est à dire qu’il n’installe aucun fichier dans le système et ne dépend d’aucune dépendance du système.
 
-#### Comment lancer une AppImage ?
+### Comment lancer une AppImage ?
 
 ```bash
 chmod a+x Subsurface*.AppImage # Rendre votre AppImage éxécutable
 ./Subsurface*.AppImage         # Lancer votre AppImage
 ```
 
-#### Comment simplifier l'installation de mes AppsImages ?
+### Comment simplifier l'installation de mes AppsImages ?
 
 Pour cela, vous pouvez utiliser _AppImage Launcher_ et télécharger la dernière version disponible sur le repo GitHub. Notes, chercher ceux avec `.rpm` pour les systèmes basés sur Fedora.
 
@@ -109,6 +128,8 @@ Source : [https://github.com/TheAssassin/AppImageLauncher/releases](https://gith
 * Installez le paquet téléchargé à l'aide du gestionnaire de paquets de Fedora.&#x20;
 * exécutez ensuite `sudo dnf install appimagelauncher_<version>.rpm`&#x20;
 
-#### Ou trouver des fichiers AppImages ?
+### Ou trouver des fichiers AppImages ?
 
 Une liste complète des AppImages disponibles au téléchargement peut être consultée sur le site [**AppImage Hub**](https://appimage.github.io/apps/).
+
+{% embed url="https://appimage.github.io/apps/" %}
