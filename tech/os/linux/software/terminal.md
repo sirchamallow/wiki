@@ -38,7 +38,7 @@ Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-l
 
 ### Remplacer Bash par Zsh&#x20;
 
-<figure><img src="../../../.gitbook/assets/zshell.png" alt="" width="188"><figcaption><p>Zsh logo</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/zshell.png" alt="" width="188"><figcaption><p>Zsh logo</p></figcaption></figure>
 
 #### **Description**
 
@@ -57,9 +57,11 @@ sudo dnf install zsh
 Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/projects/zsh/files/)
 {% endhint %}
 
+***
+
 ## Oh-My-ZSH (OMZ)
 
-<figure><img src="../../../.gitbook/assets/omz.png" alt="" width="169"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/omz.png" alt="" width="169"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
 
 **Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes et plugins (support de PHP, Python, PostgreSQL ...). Ci-dessous, sont présents ceux que j'utilise.&#x20;
 
@@ -227,9 +229,11 @@ source ~/.zshrc
 Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) & [https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 {% endhint %}
 
+***
+
 ## TMUX
 
-<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Tmux_logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -259,9 +263,11 @@ Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https:/
 Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
 {% endhint %}
 
+***
+
 ## Dog
 
-<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
 
 #### **Description**
 
@@ -354,9 +360,11 @@ dog --version # checking the installed version of dog
 Source : [https://www.linode.com/docs/guides/use-dog-linux-dns-client/](https://www.linode.com/docs/guides/use-dog-linux-dns-client/)
 {% endhint %}
 
+***
+
 ## Cyberduck CLI
 
-<figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt="" width="200"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cyberduck-logo.jpg" alt="" width="200"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -372,6 +380,8 @@ sudo yum install duck
 {% hint style="info" %}
 Source & Site web : [https://duck.sh/](https://duck.sh/)
 {% endhint %}
+
+***
 
 ## **MTR (**_**My Traceroute**_**)**
 
@@ -393,11 +403,64 @@ Source : [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr
 Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 {% endhint %}
 
-##
+***
+
+## VIM
+
+<figure><img src="../../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt="" width="75"><figcaption></figcaption></figure>
+
+#### Description
+
+VIM permets de lire et d'éditer des fichiers depuis votre terminal.\
+Pas facile à prendre en main :D
+
+#### Installation
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install vim        # VIM CLI version
+</strong><strong>sudo dnf install vim-X11    # VIM vith GUI features
+</strong></code></pre>
+
+{% hint style="info" %}
+Source : [https://fedoraproject.org/wiki/Vim](https://fedoraproject.org/wiki/Vim)
+{% endhint %}
+
+{% hint style="success" %}
+Site web : [https://www.vim.org](https://www.vim.org/download.php)
+{% endhint %}
+
+### Liste de raccourcis
+
+`:q!` or `ZQ` - quitter et abandonner les modifications non sauvegardée
+
+{% hint style="info" %}
+Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/fr\_fr)
+{% endhint %}
+
+#### Faire une modification sur un fichier
+
+1. Rechercher la valeur à modifier : `/<value>`
+2. Faire une insertion : `i`
+3. Changer la valeur
+4. Quitter la saisie vim : `exit`
+5. Sauvegarder et quitter vim : `:wq`
+
+#### Mouvement du curseur
+
+* `k` - déplacer le curseur vers le **haut** ⬆️
+* `j` - déplacer le curseur vers le **bas** `⬇️`
+* `h` - déplacer le curseur vers la **gauche** ⬅️
+* `l` - déplacer le curseur vers la **droite** ➡️
+* `H` - déplacement vers le **haut** de l'écran ⬆️
+* `M` - déplacement vers le **milieu** de l'écran&#x20;
+* `L` - déplacement vers le **bas** de l'écran `⬇️`
+* `gg` - aller à la **première ligne** du document ⏫
+* `G` - aller à la **dernière ligne** du document ⏬
+
+***
 
 ## GNU nano
 
-<figure><img src="../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -452,9 +515,11 @@ Pour sélectionner du texte, le copier et le coller :
 * `CTRL` + `X` : Permet de quitter nano
 * `CTRL` + `G` : Affiche l’aide
 
+***
+
 ## curl
 
-<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -474,11 +539,33 @@ Source : [https://github.com/curl/curl](https://github.com/curl/curl)
 Site web : [https://curl.se/](https://curl.se/)
 {% endhint %}
 
+***
+
+## Htop
+
+<figure><img src="../../../../.gitbook/assets/htop-logo.png" alt="" width="243"><figcaption></figcaption></figure>
+
+#### Description
+
+**htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
+
+**Installation**
+
+```bash
+sudo dnf install htop
+```
+
+{% hint style="info" %}
+Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
+{% endhint %}
+
+***
+
 ## Btop++
 
 <div data-full-width="false">
 
-<figure><img src="../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure>
 
 </div>
 
@@ -499,60 +586,11 @@ Source : [https://github.com/aristocratos/btop](https://github.com/aristocratos/
 Des thèmes sont également disponible : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com#themes)
 {% endhint %}
 
-## VIM
-
-<figure><img src="../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt="" width="75"><figcaption></figcaption></figure>
-
-#### Descritpion
-
-VIM permets de lire et d'éditer des fichiers depuis votre terminal.\
-Pas facile à prendre en main :D
-
-#### Installation
-
-<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install vim        # VIM CLI version
-</strong><strong>sudo dnf install vim-X11    # VIM vith GUI features
-</strong></code></pre>
-
-{% hint style="info" %}
-Source : [https://fedoraproject.org/wiki/Vim](https://fedoraproject.org/wiki/Vim)
-{% endhint %}
-
-{% hint style="success" %}
-Site web : [https://www.vim.org](https://www.vim.org/download.php)
-{% endhint %}
-
-### Liste de raccourcis
-
-`:q!` or `ZQ` - quitter et abandonner les modifications non sauvegardée
-
-{% hint style="info" %}
-Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/fr\_fr)
-{% endhint %}
-
-#### Faire une modification sur un fichier
-
-1. Rechercher la valeur à modifier : `/<value>`
-2. Faire une insertion : `i`
-3. Changer la valeur
-4. Quitter la saisie vim : `exit`
-5. Sauvegarder et quitter vim : `:wq`
-
-#### Mouvement du curseur
-
-* `k` - déplacer le curseur vers le **haut** ⬆️
-* `j` - déplacer le curseur vers le **bas** `⬇️`
-* `h` - déplacer le curseur vers la **gauche** ⬅️
-* `l` - déplacer le curseur vers la **droite** ➡️
-* `H` - déplacement vers le **haut** de l'écran ⬆️
-* `M` - déplacement vers le **milieu** de l'écran&#x20;
-* `L` - déplacement vers le **bas** de l'écran `⬇️`
-* `gg` - aller à la **première ligne** du document ⏫
-* `G` - aller à la **dernière ligne** du document ⏬
+***
 
 ## GPing
 
-<figure><img src="../../../.gitbook/assets/readme-example.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/readme-example.gif" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -570,11 +608,13 @@ sudo dnf copr enable atim/gping -y && sudo dnf install gping
 Source : [https://github.com/orf/gping](https://github.com/orf/gping)
 {% endhint %}
 
+***
+
 ## EZA
 
-<figure><img src="../../../.gitbook/assets/screenshots.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/screenshots.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -622,13 +662,15 @@ eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git
 eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-quotes'
 </code></pre>
 
+***
+
 ## Arsenal
 
 
 
-<figure><img src="../../../.gitbook/assets/logo (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/logo (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/arsenal.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/arsenal.gif" alt=""><figcaption></figcaption></figure>
 
 Un outil pour créez un inventaire de vos commandes Linux favorites
 

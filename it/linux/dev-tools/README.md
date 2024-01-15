@@ -34,7 +34,7 @@ Vous trouverez ici le nécéssaire pour faire un setup de dev sous Fedora
 [ide.md](ide.md)
 {% endcontent-ref %}
 
-{% content-ref url="terminal.md" %}
-[terminal.md](terminal.md)
+{% content-ref url="../../../tech/os/linux/software/terminal.md" %}
+[terminal.md](../../../tech/os/linux/software/terminal.md)
 {% endcontent-ref %}
 

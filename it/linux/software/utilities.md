@@ -140,24 +140,6 @@ Source : [https://apps.kde.org/fr/kolourpaint/](https://apps.kde.org/fr/kolourpa
 Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
 {% endhint %}
 
-## Htop
-
-<figure><img src="../../../.gitbook/assets/htop-logo.png" alt="" width="243"><figcaption></figcaption></figure>
-
-#### Description
-
-**htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
-
-**Installation**
-
-```bash
-sudo dnf install htop
-```
-
-{% hint style="info" %}
-Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
-{% endhint %}
-
 ## FileZilla
 
 <figure><img src="../../../.gitbook/assets/filezilla-tutorial-pdf.jpg" alt="" width="375"><figcaption></figcaption></figure>
