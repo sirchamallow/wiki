@@ -44,6 +44,8 @@ Rendez-vous ensuite sur [le site web de Gnome Extensions](https://extensions.gno
 Source : [https://github.com/corecoding/Vitals](https://github.com/corecoding/Vitals)
 {% endhint %}
 
+***
+
 ### Dash to Dock for COSMIC
 
 Un fork de Dash to Dock. Un dock pour bureau sur Linux.
@@ -57,6 +59,8 @@ Rendez-vous sur [le site web de Gnome Extensions](https://extensions.gnome.org),
 {% hint style="info" %}
 Source : [https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock](https://github.com/halfmexican/dash-to-dock-pop/tree/ubuntu-dock)
 {% endhint %}
+
+***
 
 ### Media Controls
 
@@ -77,6 +81,8 @@ Rendez-vous ensuite sur le [site web de Gnome Extensions](https://extensions.gno
 {% hint style="info" %}
 Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliffniff/media-controls/blob/main/README.md)
 {% endhint %}
+
+***
 
 ### NVIDIA GPU Stats Tool <a href="#extension_name" id="extension_name"></a>
 
@@ -99,6 +105,8 @@ Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/)
 {% hint style="info" %}
 Source : [https://github.com/ethanwharris/gnome-nvidia-extension](https://github.com/ethanwharris/gnome-nvidia-extension)
 {% endhint %}
+
+***
 
 ### Clipboard Indicator
 
@@ -132,6 +140,8 @@ Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/)
 Source : [https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator)
 {% endhint %}
 
+***
+
 ### Just Perfection GNOME Shell Extension
 
 Désactiver les éléments de l'interface utilisateur de GNOME, modifier le comportement et personnaliser votre bureau GNOME.
@@ -145,6 +155,8 @@ Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/e
 {% hint style="info" %}
 Source : [https://gitlab.gnome.org/jrahmatzadeh/just-perfection](https://gitlab.gnome.org/jrahmatzadeh/just-perfection)
 {% endhint %}
+
+***
 
 ### Tray Icons: Reloaded <a href="#extension_name" id="extension_name"></a>
 
@@ -160,6 +172,3 @@ Rendez-vous sur le site web de [Gnome Extensions](https://extensions.gnome.org/e
 {% hint style="info" %}
 Source : [https://github.com/MartinPL/Tray-Icons-Reloaded](https://github.com/MartinPL/Tray-Icons-Reloaded)
 {% endhint %}
-
-#### &#x20;<a href="#extension_name" id="extension_name"></a>
-
