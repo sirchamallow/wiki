@@ -21,6 +21,12 @@ layout:
 
 #### Description
 
+RPM  est un système de gestion de paquets utilisés par certaines distributions GNU/Linux : CentOS, Fedora, OpenSuse, Mageia.&#x20;
+
+{% hint style="info" %}
+Notes: un paquet RPM ne gère pas les dépendances.
+{% endhint %}
+
 Par défaut, les dépôts de Fedora ne contiennent pas tous les logiciels. \
 Il est ainsi parfois nécéssaire d'avoir de drivers propriétaires, autres codecs ou logiciels non libres.&#x20;
 
@@ -36,7 +42,7 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-relbasease-$(rpm -E %fedora).noarch.rpm  # RPM Fusion non-free  
 ```
 
-#### Mise à jour
+### Mise à jour
 
 ```bash
 sudo dnf update
@@ -53,6 +59,14 @@ sudo dnf groupupdate core
 {% hint style="info" %}
 Source : [https://rpmfusion.org/Configuration](https://rpmfusion.org/Configuration)
 {% endhint %}
+
+### Cheatsheet
+
+* **`rpm -i`** : installer
+* **`rpm -e`** : supprimer
+* **`rpm -U`** : mettre à jour
+* **-v`h`** : En mode verbeux, et avec une barre de progression.
+* **`rpm -E %{macro}`** : donne la valeur de la macro ( rpm -E %{\_lib} )
 
 ***
 

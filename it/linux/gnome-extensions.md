@@ -1,5 +1,16 @@
 ---
 description: Liste d'extensions pour GNOME
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 👣 Ext. GNOME
