@@ -66,7 +66,6 @@
     * [1⃣ 1.1.1.1 (Cloudfare)](tech/articles/dns/1.1.1.1.md)
     * [8⃣ 8.8.8.8 (Google)](tech/articles/dns/8.8.8.8.md)
   * [📡 Bandes de fréquences radioélectriques](tech/articles/national-table-radio-frequency-bands-France.md)
-  * [💻 Ligne de commande](tech/articles/terminal-tips.md)
   * [🔩 Octopart](tech/articles/octopart.md)
   * [📶 WiFi](tech/outils/wifi.md)
   * [📞 Telecoms](tech/outils/telecoms.md)

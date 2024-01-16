@@ -1,10 +1,21 @@
 ---
 description: Liste de kaomoji
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 😶 Kaomoji japonais
 
-## 🙆 Émoticônes positives
+## 🙆  Émoticônes positives
 
 | (o^▽^o)      | (⌒▽⌒)☆            | <(￣︶￣)>    | 。.:☆\*:･'(\*⌒―⌒\*))) |
 | ------------ | ----------------- | ---------- | -------------------- |
@@ -28,7 +39,7 @@ description: Liste de kaomoji
 | (⁀ᗢ⁀)        | (￢‿￢ )            | (¬‿¬ )     | (\*￣▽￣)b             |
 | ( ˙▿˙ )      | (¯▿¯)             | ( ◕▿◕ )    | ∩(︶▽︶)∩              |
 
-## 🙇 Émoticônes embarrassés <a href="#h-si-vous-tes-embarass" id="h-si-vous-tes-embarass"></a>
+## 🙇  Émoticônes embarrassés <a href="#h-si-vous-tes-embarass" id="h-si-vous-tes-embarass"></a>
 
 | (⌒\_⌒;)   | (o^ ^o)       | (\*/ω＼)    | (\*/。＼)         |
 | --------- | ------------- | ---------- | --------------- |
@@ -38,14 +49,14 @@ description: Liste de kaomoji
 | (￣▽￣\*)ゞ  | (⁄ ⁄•⁄ω⁄•⁄ ⁄) | (\*/▽＼\*)  | (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄) |
 | („ಡωಡ„)   | (ง ื▿ ื)ว     | ( 〃▽〃)     | (/▿＼ )          |
 
-## 👐 Émoticônes câlins
+## 👐  Émoticônes câlins
 
 | (づ￣ ³￣)づ     | (つ≧▽≦)つ            | (つ✧ω✧)つ | (づ ◕‿◕ )づ    |
 | ------------ | ------------------ | ------- | ------------ |
 | (⊃｡•́‿•̀｡)⊃  | (つ . •́ \_ʖ •̀ .)つ | (っಠ‿ಠ)っ | (づ◡﹏◡)づ      |
 | ⊂(´• ω •\`⊂) | ⊂(･ω･\*⊂)          | ⊂(￣▽￣)⊃ | ⊂( ´ ▽ \` )⊃ |
 
-## 🏩 Émoticônes de l’amour <a href="#h-maintenant-on-passe-l-amour" id="h-maintenant-on-passe-l-amour"></a>
+## 🏩  Émoticônes de l’amour <a href="#h-maintenant-on-passe-l-amour" id="h-maintenant-on-passe-l-amour"></a>
 
 | (ﾉ´ з \`)ノ       | (♡μ\_μ)        | (\*^^\*)♡      | ☆⌒ヽ(\*’､^\*)chu  |
 | ---------------- | -------------- | -------------- | ---------------- |
@@ -58,7 +69,7 @@ description: Liste de kaomoji
 | ❤ (ɔˆз(ˆ⌣ˆc)     | (´♡‿♡\`)       | (°◡°♡)         | (⊃｡•́‿•̀｡)⊃━✿✿✿✿ |
 | ♪(´ε｀ )          | (⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ | (☍﹏⁰)          | (⸜(ّᶿ̷ധّᶿ̷)⸝⋆    |
 
-## 🌸 Émoticônes musicales
+## 🌸  Émoticônes musicales
 
 | ヾ(´〇\`)ﾉ♪♪♪        | ヘ(￣ω￣ヘ)     | (〜￣▽￣)〜         | 〜(￣▽￣〜)       |
 | ------------------ | ----------- | --------------- | ------------- |
@@ -70,7 +81,7 @@ description: Liste de kaomoji
 | 乁( • ω •乁)         | (｢• ω •)｢   | ⁽⁽◝( • ω • )◜⁾⁾ | ✺◟( • ω • )◞✺ |
 | ♬♫♪◖(● o ●)◗♪♫♬    | ( ˘ ɜ˘) ♬♪♫ | ♪♪♪ ヽ(ˇ∀ˇ )ゞ    | (ˇ▽ˇ)ノ♪♬♫     |
 
-## 💢 Émoticônes de la colère <a href="#h-si-vous-tes-en-col-re-voici-les-moticones-japonaises" id="h-si-vous-tes-en-col-re-voici-les-moticones-japonaises"></a>
+## 💢  Émoticônes de la colère <a href="#h-si-vous-tes-en-col-re-voici-les-moticones-japonaises" id="h-si-vous-tes-en-col-re-voici-les-moticones-japonaises"></a>
 
 | (＃\`Д´)   | (\`皿´＃)      | ( \` ω ´ )     | ヽ( \`д´\*)ノ |
 | --------- | ------------ | -------------- | ----------- |
@@ -82,7 +93,7 @@ description: Liste de kaomoji
 | ٩(╬ʘ益ʘ╬)۶ | (╬ Ò﹏Ó)      | ＼＼٩(๑\`^´๑)۶／／ | 凸(凸ಠ益ಠ)凸    |
 | ↑\_(ΦwΦ)Ψ | ←\~(Ψ▼ｰ▼)∈   | ୧((#Φ益Φ#))୨    | ٩(ఠ益ఠ)۶     |
 
-## 😥 Émoticônes tristes <a href="#h-et-enfin-voici-la-liste-des-emoji-japonais-tristes" id="h-et-enfin-voici-la-liste-des-emoji-japonais-tristes"></a>
+## 😥  Émoticônes tristes <a href="#h-et-enfin-voici-la-liste-des-emoji-japonais-tristes" id="h-et-enfin-voici-la-liste-des-emoji-japonais-tristes"></a>
 
 | (ノ\_<。)   | (-\_-)    | (´-ω-\`)   | .･ﾟﾟ･(／ω＼)･ﾟﾟ･.    |
 | --------- | --------- | ---------- | ------------------ |
@@ -94,14 +105,14 @@ description: Liste de kaomoji
 | (つω\`｡)   | (｡T ω T｡) | (ﾉω･､)     | ･ﾟ･(｡>ω<｡)･ﾟ･      |
 | (T\_T)    | (>\_<)    | (っ˘̩╭╮˘̩)っ | ｡ﾟ･ (>﹏<) ･ﾟ｡      |
 
-## 💀 Émoticônes de la frustration <a href="#h-on-peut-aussi-y-ajouter-la-col-re" id="h-on-peut-aussi-y-ajouter-la-col-re"></a>
+## 💀  Émoticônes de la frustration <a href="#h-on-peut-aussi-y-ajouter-la-col-re" id="h-on-peut-aussi-y-ajouter-la-col-re"></a>
 
 | \~(>\_<\~) | ☆⌒(> \_ <) | ☆⌒(>。<)  | (☆\_@)      |
 | ---------- | ---------- | -------- | ----------- |
 | (×\_×)     | (x\_x)     | (×\_×)⌒☆ | (x\_x)⌒☆    |
 | (×﹏×)      | ☆(＃××)     | (＋\_＋)   | \[ ± \_ ± ] |
 
-## 👺 Émoticônes de la peur <a href="#h-et-les-moticones-de-la-peur" id="h-et-les-moticones-de-la-peur"></a>
+## 👺  Émoticônes de la peur <a href="#h-et-les-moticones-de-la-peur" id="h-et-les-moticones-de-la-peur"></a>
 
 | (ノωヽ)    | (／。＼)          | (ﾉ\_ヽ)         | ..・ヾ(。＞＜)シ    |
 | -------- | -------------- | -------------- | ------------- |
@@ -109,7 +120,7 @@ description: Liste de kaomoji
 | (/ω＼)    | ▓▒░(°◡°)░▒▓    | 〜(＞＜)〜         | Σ(°△°\|\|\|)︴ |
 | (((＞＜))) | \{{ (>\_<) \}} | ＼(º □ º l\|l)/ | 〣( ºΔº )〣     |
 
-## 😑 Émoticônes de l’indifférence <a href="#h-bonus-liste-des-emoji-japonais-de-l-indiff-rence" id="h-bonus-liste-des-emoji-japonais-de-l-indiff-rence"></a>
+## 😑  Émoticônes de l’indifférence <a href="#h-bonus-liste-des-emoji-japonais-de-l-indiff-rence" id="h-bonus-liste-des-emoji-japonais-de-l-indiff-rence"></a>
 
 | ヽ(ー\_ー )ノ    | ヽ(´ー\` )┌ | ┐(‘～\` )┌ | ヽ(　￣д￣)ノ     |
 | ------------ | --------- | --------- | ------------ |
@@ -118,7 +129,7 @@ description: Liste de kaomoji
 | ┐( ´ д \` )┌ | ╮(︶︿︶)╭   | ┐(￣∀￣)┌   | ┐( ˘ ､ ˘ )┌  |
 | (¬\_¬ )      | (←\_←)    | (¬ ¬ )    | (¬‿¬)        |
 
-## 🧠 Émoticônes de visages humains
+## 🧠  Émoticônes de visages humains
 
 | ( ͡° ͜ʖ ͡°)      | ( ͡° ʖ̯ ͡°) | ( ͠° ͟ʖ ͡°)  | ( ͡ᵔ ͜ʖ ͡ᵔ) |
 | ---------------- | ----------- | ------------ | ----------- |
@@ -126,7 +137,7 @@ description: Liste de kaomoji
 | ( ಠ ͜ʖ ಠ)        | ( ಥ ʖ̯ ಥ)   | ( ͡• ͜ʖ ͡• ) | ( ･ิ ͜ʖ ･ิ) |
 | ( ͡ ͜ʖ ͡ )       | (≖ ͜ʖ≖)     | (ʘ ʖ̯ ʘ)     | (ʘ ͟ʖ ʘ)    |
 
-## 🐈 Émoticônes d’animaux
+## 🐈  Émoticônes d’animaux
 
 | (=^･ω･^=)   | (=^･ｪ･^=)   | (=①ω①=)     | ( =ω=)..nyaa |
 | ----------- | ----------- | ----------- | ------------ |

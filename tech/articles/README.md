@@ -13,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 💡 Ressources
+# ✨ Ressources
 
 Vous trouvez dans cette section, des articles sur différents sujets de la tech et du web. Certains sont extraits de mon blog
 
@@ -49,8 +49,8 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 [national-table-radio-frequency-bands-France.md](national-table-radio-frequency-bands-France.md)
 {% endcontent-ref %}
 
-{% content-ref url="terminal-tips.md" %}
-[terminal-tips.md](terminal-tips.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="octopart.md" %}
