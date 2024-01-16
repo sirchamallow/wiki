@@ -12,6 +12,10 @@ description: Liste de logiciels
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-23.png" alt=""><figcaption></figcaption></figure>
 
+#### Description
+
+Navigateur web de la fondation Mozilla orientée vie privée
+
 #### Installation
 
 ```bash
@@ -29,6 +33,10 @@ Site Internet : [https://www.mozilla.org/fr/firefox/all/#product-desktop-release
 ### Firefox Developer Edition
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-52-39.png" alt="" width="320"><figcaption></figcaption></figure>
+
+#### Description
+
+Variante du navigateur web de la fondation Mozilla orientée vie privée
 
 #### Installation
 
@@ -161,6 +169,12 @@ Site internet : [https://www.microsoft.com/fr-fr/edge/download?form=MA13FJ](http
 
 <figure><img src="../../../.gitbook/assets/nextdns.png" alt="" width="375"><figcaption></figcaption></figure>
 
+#### Description
+
+{% content-ref url="../../../tech/articles/dns/nextdns.md" %}
+[nextdns.md](../../../tech/articles/dns/nextdns.md)
+{% endcontent-ref %}
+
 #### Installation
 
 {% hint style="info" %}
@@ -247,6 +261,8 @@ et ajouter la valeur suivante : `"SKIP_HOST_UPDATE": true`
 
 #### Description
 
+Caprine est une client moderne et axé vie privée pour Facebook Messenger
+
 {% hint style="info" %}
 Il n'existe pas de package linux pour **Facebook Messenger**, en lieu et place nous utiliserons **Caprine.** Une application non officielle disponible sur _SnapCraft_, axée sur la vie privée avec de nombreuses fonctionnalités utiles.
 {% endhint %}
@@ -259,8 +275,12 @@ sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the f
 sudo snap install caprine             # Install Caprine
 ```
 
+{% hint style="info" %}
+Source : [https://github.com/sindresorhus/caprine](https://github.com/sindresorhus/caprine)
+{% endhint %}
+
 {% hint style="success" %}
-Site internet : [https://www.messenger.com](https://www.messenger.com)
+Site internet : [https://sindresorhus.com/caprine/](https://sindresorhus.com/caprine/)
 {% endhint %}
 
 ## Client mail
@@ -269,7 +289,11 @@ Site internet : [https://www.messenger.com](https://www.messenger.com)
 
 <figure><img src="../../../.gitbook/assets/1024x1024@2x.webp" alt="" width="188"><figcaption></figcaption></figure>
 
+#### Description
+
 Par défaut, Thunderbird est disponible sur le dépôt Fedora et est souvent mis à jour en tant que Flatpak. Utilisez la commande suivante pour installer l'application sur votre système.
+
+#### Installation
 
 ```bash
 sudo dnf install thunderbird -y
@@ -286,6 +310,12 @@ Site internet : [https://www.thunderbird.net/fr/](https://www.thunderbird.net/fr
 ### Mailspring
 
 <figure><img src="../../../.gitbook/assets/icon-round.png" alt="" width="188"><figcaption></figcaption></figure>
+
+#### Description
+
+Un client mail open-source multi-plateformes
+
+#### Installation
 
 La dernière version de Mailspring est disponible via un paquage RPM [téléchargeable depuis le site web](https://www.getmailspring.com/). Rendez-vous sur la page de téléchargement, sélectionnez "Linux" et cliquez sur "Linux (64-bit .rpm)".&#x20;
 
@@ -306,7 +336,7 @@ Source : [https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-
 {% endhint %}
 
 {% hint style="success" %}
-Site internet :&#x20;
+Site internet : [https://www.getmailspring.com/](https://www.getmailspring.com/)
 {% endhint %}
 
 ## Téléchargement
@@ -315,11 +345,15 @@ Site internet :&#x20;
 
 <figure><img src="../../../.gitbook/assets/io.github.giantpinkrobots.varia.svg" alt=""><figcaption></figcaption></figure>
 
+#### Description
+
 Un gestionnaire de téléchargement avec un GUI moderne adapté à GNOME
 
+#### Installation
+
 ```bash
-flatpak install flathub io.github.giantpinkrobots.varia
-flatpak run io.github.giantpinkrobots.varia
+flatpak install flathub io.github.giantpinkrobots.varia # Installer Varia
+flatpak run io.github.giantpinkrobots.varia             # Lancer Varia
 ```
 
 {% hint style="info" %}
@@ -328,4 +362,26 @@ Source : [https://github.com/giantpinkrobots/varia](https://github.com/giantpink
 
 {% hint style="success" %}
 Site internet : [https://flathub.org/apps/io.github.giantpinkrobots.varia](https://flathub.org/apps/io.github.giantpinkrobots.varia)
+{% endhint %}
+
+***
+
+## Gnome Feeds
+
+#### Description
+
+Un lecteur RSS open-source pour Linux
+
+#### Installation
+
+```bash
+sudo dnf install gnome-feeds
+```
+
+{% hint style="info" %}
+Source : [https://gitlab.gnome.org/World/gfeeds](https://gitlab.gnome.org/World/gfeeds)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://gfeeds.gabmus.org/#install](https://gfeeds.gabmus.org/#install)
 {% endhint %}
