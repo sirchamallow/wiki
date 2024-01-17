@@ -18,21 +18,20 @@ layout:
 
 {% code fullWidth="true" %}
 ```
-https://addons.mozilla.org/fr/firefox/addon/firefox-translations
-https://addons.mozilla.org/fr/firefox/addon/firefox-color
-https://addons.mozilla.org/fr/firefox/addon/side-view
-https://addons.mozilla.org/fr/firefox/addon/multi-account-containers
-https://addons.mozilla.org/fr/firefox/addon/facebook-container
-https://addons.mozilla.org/fr/firefox/addon/notes-by-firefox
-https://addons.mozilla.org/fr/firefox/addon/firefox-translations
-https://addons.mozilla.org/fr/firefox/addon/regretsreporter
+https://addons.mozilla.org/fr/firefox/addon/firefox-translations         # Firefox Translations
+https://addons.mozilla.org/fr/firefox/addon/firefox-color                # Firefox Color
+https://addons.mozilla.org/fr/firefox/addon/side-view                    # Side-View
+https://addons.mozilla.org/fr/firefox/addon/multi-account-containers     # Multi-Account Containers 
+https://addons.mozilla.org/fr/firefox/addon/facebook-container           # Facebook Container
+https://addons.mozilla.org/fr/firefox/addon/notes-by-firefox             # Notes 
+https://addons.mozilla.org/fr/firefox/addon/regretsreporter              # Regrets Reporter 
 ```
 {% endcode %}
 
 ## Tierces
 
 {% code fullWidth="true" %}
-```
+```bash
 # Password Manager
 https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager     # Bitwarden
 https://addons.mozilla.org/en-US/firefox/addon/proton-pass                 # ProtonPass
