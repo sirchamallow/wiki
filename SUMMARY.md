@@ -81,9 +81,3 @@
     * [Facebook > RSS](veille/flux-rss-atom/facebook-greater-than-rss.md)
   * [🤔 Mindmapping](veille/mindmapping.md)
   * [👍 Ressources](veille/ressources.md)
-
-## 🤪 Multiverse
-
-* [🤠 Divers](multiverse/divers.md)
-  * [🐱 Animaux](multiverse/animaux.md)
-  * [👶 Parentalité](multiverse/parentalite/README.md)
