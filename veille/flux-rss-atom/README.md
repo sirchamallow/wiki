@@ -6,7 +6,7 @@ description: Outils, articles etc. pour Flux RSS
 
 ## Introduction
 
-![Le RSS caylavie !](<../../../.gitbook/assets/image (10).png>)
+![Le RSS caylavie !](<../../.gitbook/assets/image (10).png>)
 
 ### **Présentation**
 
@@ -32,8 +32,8 @@ description: Outils, articles etc. pour Flux RSS
 
 ## **Ressources**
 
-{% content-ref url="archives.md" %}
-[archives.md](archives.md)
+{% content-ref url="outils.md" %}
+[outils.md](outils.md)
 {% endcontent-ref %}
 
 {% content-ref url="newsletter-greater-than-rss.md" %}

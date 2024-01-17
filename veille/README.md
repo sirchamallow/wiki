@@ -34,11 +34,11 @@ layout:
 [flux-rss-atom](flux-rss-atom/)
 {% endcontent-ref %}
 
-{% content-ref url="mindmapping.md" %}
-[mindmapping.md](mindmapping.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="ressources.md" %}
-[ressources.md](ressources.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
