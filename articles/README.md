@@ -1,10 +1,9 @@
 ---
-description: Des articles sur différents sujets de la tech et du web
 layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
