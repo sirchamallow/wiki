@@ -35,8 +35,8 @@ layout:
 [utilities.md](utilities.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../tech/os/linux/software/terminal.md" %}
-[terminal.md](../../../tech/os/linux/software/terminal.md)
+{% content-ref url="terminal.md" %}
+[terminal.md](terminal.md)
 {% endcontent-ref %}
 
 {% content-ref url="security.md" %}

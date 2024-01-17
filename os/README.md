@@ -21,8 +21,8 @@ layout:
 
 ### Fedora (Linux)
 
-{% content-ref url="../../it/linux/" %}
-[linux](../../it/linux/)
+{% content-ref url="linux/" %}
+[linux](linux/)
 {% endcontent-ref %}
 
 ### Windows 11
@@ -33,12 +33,12 @@ layout:
 
 ### MacOS
 
-{% content-ref url="../../it/macos.md" %}
-[macos.md](../../it/macos.md)
+{% content-ref url="macos.md" %}
+[macos.md](macos.md)
 {% endcontent-ref %}
 
 ### Android
 
-{% content-ref url="../../it/android.md" %}
-[android.md](../../it/android.md)
+{% content-ref url="android.md" %}
+[android.md](android.md)
 {% endcontent-ref %}

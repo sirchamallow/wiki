@@ -25,8 +25,8 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 [build-with-git.md](build-with-git.md)
 {% endcontent-ref %}
 
-{% content-ref url="../medias/radios/creer-une-playlist-de-webradios.md" %}
-[creer-une-playlist-de-webradios.md](../medias/radios/creer-une-playlist-de-webradios.md)
+{% content-ref url="creer-une-playlist-de-webradios.md" %}
+[creer-une-playlist-de-webradios.md](creer-une-playlist-de-webradios.md)
 {% endcontent-ref %}
 
 {% content-ref url="google-docs-to-html-or-markdown.md" %}
@@ -57,6 +57,6 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 [octopart.md](octopart.md)
 {% endcontent-ref %}
 
-{% content-ref url="../outils/wifi.md" %}
-[wifi.md](../outils/wifi.md)
+{% content-ref url="wifi.md" %}
+[wifi.md](wifi.md)
 {% endcontent-ref %}

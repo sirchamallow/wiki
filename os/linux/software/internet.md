@@ -59,8 +59,8 @@ Source : [https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/](https
 
 Découvrez divers extensions & thèmes sur ce wiki en cliquant sur le lien
 
-{% content-ref url="../../../tech/logiciels/browsers/firefox-extensions/" %}
-[firefox-extensions](../../../tech/logiciels/browsers/firefox-extensions/)
+{% content-ref url="../../../logiciels/browsers/firefox-extensions/" %}
+[firefox-extensions](../../../logiciels/browsers/firefox-extensions/)
 {% endcontent-ref %}
 
 ***
@@ -171,8 +171,8 @@ Site internet : [https://www.microsoft.com/fr-fr/edge/download?form=MA13FJ](http
 
 #### Description
 
-{% content-ref url="../../../tech/articles/dns/nextdns.md" %}
-[nextdns.md](../../../tech/articles/dns/nextdns.md)
+{% content-ref url="../../../articles/dns/nextdns.md" %}
+[nextdns.md](../../../articles/dns/nextdns.md)
 {% endcontent-ref %}
 
 #### Installation

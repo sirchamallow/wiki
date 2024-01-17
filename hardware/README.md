@@ -14,10 +14,10 @@ layout:
 
 # ⚙ Hardware
 
-{% content-ref url="../../../tech/hardware/electricite/" %}
-[electricite](../../../tech/hardware/electricite/)
+{% content-ref url="electricite/" %}
+[electricite](electricite/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../tech/hardware/informatique/" %}
-[informatique](../../../tech/hardware/informatique/)
+{% content-ref url="informatique/" %}
+[informatique](informatique/)
 {% endcontent-ref %}
