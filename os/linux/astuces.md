@@ -249,34 +249,9 @@ gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 
 Voici comment créer une clé USB Bootable Windows à l’aide de [balenaEtcher](https://www.balena.io/etcher#download-etcher). \
 \
-Il s’agit d’un flasheur USB multiplateforme disponible en téléchargement sur Windows, macOS et Linux. Flasher avec balenaEtcher est simple et facile. Il vous suffit de télécharger son fichier AppImage et de l’exécuter.
-
-#### Mettre à jour Fedora
-
-```bash
-sudo dnf upgrade --refresh -y # MAJ Fedora
-```
+Il s’agit d’un flasheur USB multiplateforme disponible en téléchargement sur Windows, macOS et Linux. Flasher avec balenaEtcher est simple et facile. Il vous suffit de télécharger son fichier **AppImage** et de l’exécuter.
 
 #### Installer Etcher
-
-<pre class="language-bash"><code class="lang-bash"># Ajouter les repos rpm de Etcher
-curl -1sLf \
-   'https://dl.cloudsmith.io/public/balena/etcher/setup.rpm.sh' \
-   | sudo -E bash
-
-# Installation Etcher
-<strong>sudo dnf install balena-etcher-electron -y
-</strong><strong>
-</strong><strong># Mise à jour Etcher
-</strong>sudo dnf upgrade --refresh -y                 
-</code></pre>
-
-#### Désinstaller Etcher
-
-```bash
-sudo dnf remove balena-etcher-electron -y
-sudo rm /etc/yum.repos.d/balena-etcher.repo
-```
 
 {% hint style="info" %}
 Source : [https://github.com/balena-io/etcher#redhat-rhel-and-fedora-based-package-repository-gnulinux-x86x64](https://github.com/balena-io/etcher#redhat-rhel-and-fedora-based-package-repository-gnulinux-x86x64)
