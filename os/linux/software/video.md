@@ -84,6 +84,8 @@ https://iptv-org.github.io/iptv/index.region.m3u
 Source : [https://github.com/iptv-org/iptv](https://github.com/iptv-org/iptv)
 {% endhint %}
 
+***
+
 ## YouTube-DL
 
 #### Description
@@ -121,9 +123,13 @@ Source : [https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/](htt
 Souce : [https://github.com/ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
 {% endhint %}
 
+***
+
 ## YouTubeDL-GUI
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2022-11-08 16-55-08.png" alt=""><figcaption><p>Youtube Downloader</p></figcaption></figure>
+
+**Description**
 
 Une interface graphique pour YouTube-DL
 
@@ -136,6 +142,28 @@ flatpak install flathub io.github.JaGoLi.ytdl_gui
 {% hint style="success" %}
 Site internet : [https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui](https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui)
 {% endhint %}
+
+***
+
+## Parabolic
+
+<figure><img src="../../../.gitbook/assets/parabolic.png" alt="" width="563"><figcaption></figcaption></figure>
+
+#### Description
+
+Une interface graphique basé YouTube-DL
+
+#### Installation
+
+{% hint style="info" %}
+Source : [https://github.com/NickvisionApps/Parabolic](https://github.com/NickvisionApps/Parabolic)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://nickvision.org/parabolic.html](https://nickvision.org/parabolic.html)
+{% endhint %}
+
+***
 
 ## OBS Studio
 
@@ -159,6 +187,8 @@ Source : [https://github.com/obsproject/obs-studio](https://github.com/obsprojec
 {% hint style="success" %}
 Site internet : [https://obsproject.com/fr](https://obsproject.com/fr)
 {% endhint %}
+
+***
 
 ## Kodi Media Center
 
@@ -273,9 +303,13 @@ S'il n'est pas déjà installé, Kodi vous demandera d'installer l'outil de déc
 
 N'oubliez pas de configurer IPTV Manager correctement et de sélectionner le bon fournisseur dans les paramètres ;) !
 
+***
+
 ## GridPlayer
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 17-37-12.png" alt=""><figcaption></figcaption></figure>
+
+#### Description
 
 Un outil qui permets de lire plusieurs flux vidéos dans la même fenêtre
 
