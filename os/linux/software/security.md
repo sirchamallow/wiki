@@ -6,6 +6,8 @@ description: Liste de logiciels de sécurités
 
 ## firewalld
 
+<figure><img src="../../../.gitbook/assets/firewalld.png" alt=""><figcaption></figcaption></figure>
+
 firewalld est un pare-feu open-source
 
 ```bash
@@ -17,9 +19,15 @@ sudo systemctl start firewalld
 sudo systemctl enable firewalld	    # make firewalld start automatically at system start
 ```
 
+{% hint style="info" %}
 Source : [https://docs.fedoraproject.org/fr/quick-docs/firewalld/](https://docs.fedoraproject.org/fr/quick-docs/firewalld/)
+{% endhint %}
+
+***
 
 ## ClamAV
+
+<figure><img src="../../../.gitbook/assets/clamav.png" alt="" width="227"><figcaption></figcaption></figure>
 
 ClamAV est Antivirus open-source
 
@@ -87,9 +95,13 @@ sudo dnf autoremove clamav clamd clamav-update
 Notez que cela supprimera toutes les dépendances inutilisées installées avec ClamAV pour une désinstallation complète.
 {% endhint %}
 
+{% hint style="info" %}
 Source : [https://www.clamav.net/documents/clam-antivirus-user-manual](https://www.clamav.net/documents/clam-antivirus-user-manual) &  [https://www.linuxcapable.com/how-to-install-clamav-on-fedora-35/](https://www.linuxcapable.com/how-to-install-clamav-on-fedora-35/#Update\_Operating\_System)
+{% endhint %}
 
-## ClamTk
+***
+
+### ClamTk
 
 ClamTk est un GUI (une interface) pour ClamAV (Clam Antivirus). \
 Il est destiné à être facile d'utilisation, léger et facile à utiliser pour les systèmes Linux.
@@ -106,9 +118,15 @@ sudo dnf install clamtk
 sudo dnf erase clamtk
 ```
 
+{% hint style="info" %}
 Source : [https://github.com/dave-theunsub/clamtk](https://github.com/dave-theunsub/clamtk)
+{% endhint %}
+
+***
 
 ## RustDesk
+
+<figure><img src="../../../.gitbook/assets/rustdesk.png" alt="" width="234"><figcaption></figcaption></figure>
 
 Un logiciel de contrôle de bureau à distance, écrit en Rust. Fonctionne sans configuration. Vous avez le contrôle de vos données, sans se soucier de la sécurité. Il est possible d'utiliser un serveur relais mis à disposition par rustdesk, de l'auto-heberger avec le serveur de démonstration ou d'écrire votre propre serveur relais.
 
@@ -116,7 +134,11 @@ Un logiciel de contrôle de bureau à distance, écrit en Rust. Fonctionne sans 
 Installation avec le paquet RPM :  [https://github.com/rustdesk/rustdesk/releases](https://github.com/rustdesk/rustdesk/releases) > Fedora
 {% endhint %}
 
+***
+
 ## Bitwarden
+
+<figure><img src="../../../.gitbook/assets/Bitwarden_2022_Logo.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Il existe plusieurs possiblitées d'installer Bitwarden sur Fedora, je préfère vous sélectionner celles-ci (via Snap), car il sera possible de mettre à jour le soft régulièrement.&#x20;
 
@@ -146,13 +168,19 @@ sudo dnf install snapd
 sudo snap install bitwarden
 ```
 
+{% hint style="success" %}
 Source : [https://bitwarden.com/download/](https://bitwarden.com/download/)
+{% endhint %}
 
 {% hint style="info" %}
 Il existe également une CLI pour Bitwarden, vous pouvez la télécharger depuis la page d'aide : [https://bitwarden.com/help/cli/](https://bitwarden.com/help/cli/)
 {% endhint %}
 
+***
+
 ## 1Password
+
+<figure><img src="../../../.gitbook/assets/1password.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 Installation de 1Password en utilisant votre gestionnaire de paquets
 
@@ -172,4 +200,22 @@ Installation de 1Password en utilisant votre gestionnaire de paquets
      sudo dnf install 1password
     ```
 
+{% hint style="info" %}
 Source : [https://1password.com/fr/downloads/linux/](https://1password.com/fr/downloads/linux/)
+{% endhint %}
+
+***
+
+## Sniffnet
+
+<figure><img src="../../../.gitbook/assets/overview_page.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Description
+
+Sniffnet est un outil technique open-source qui se concentre fortement sur l'ensemble de l'expérience de l'utilisateur. La plupart des analyseurs de réseau sont encombrants à utiliser, tandis que l'une des pierres angulaires de Sniffnet est d'êtreutilisable avec facilité par tout le monde.
+
+#### Installation
+
+{% hint style="success" %}
+Site internet : [https://sniffnet.net/download/](https://sniffnet.net/download/)
+{% endhint %}
