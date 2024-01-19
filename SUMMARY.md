@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🍁 Pierre LEMASSON | Wiki](README.md)
-* [💾 OS](os/README.md)
+* [💾 Système d'exploitation](os/README.md)
   * [🐧 Fedora](os/linux/README.md)
     * [💡 Astuces](os/linux/astuces.md)
     * [👨💻 DEV tools](os/linux/dev-tools/README.md)
