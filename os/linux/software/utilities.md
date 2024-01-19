@@ -37,6 +37,8 @@ Source : [https://github.com/TheTumultuousUnicornOfDarkness/CPU-X](https://githu
 Site internet : [https://thetumultuousunicornofdarkness.github.io/CPU-X/](https://thetumultuousunicornofdarkness.github.io/CPU-X/)
 {% endhint %}
 
+***
+
 ## P7zip
 
 <figure><img src="../../../.gitbook/assets/7ziplogo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -56,6 +58,8 @@ sudo dnf install p7zip
 Les sources linux de 7zip sont disponible ici : [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
 {% endhint %}
 
+***
+
 ## GParted
 
 <figure><img src="../../../.gitbook/assets/1680910885_gparted-livecd.jpg" alt="" width="188"><figcaption></figcaption></figure>
@@ -74,6 +78,8 @@ su -c "yum install gparted"
 {% hint style="info" %}
 Source : [https://gparted.org/download.php](https://gparted.org/download.php)
 {% endhint %}
+
+***
 
 ## GPaste
 
@@ -102,6 +108,8 @@ sudo dnf -y install gpaste
 {% hint style="info" %}
 Source : [https://installati.one/fedora/34/gpaste/](https://installati.one/fedora/34/gpaste/)
 {% endhint %}
+
+***
 
 ## KolourPaint
 
@@ -140,6 +148,8 @@ Source : [https://apps.kde.org/fr/kolourpaint/](https://apps.kde.org/fr/kolourpa
 Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
 {% endhint %}
 
+***
+
 ## FileZilla
 
 <figure><img src="../../../.gitbook/assets/filezilla-tutorial-pdf.jpg" alt="" width="375"><figcaption></figcaption></figure>
@@ -152,6 +162,8 @@ Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique g�
 {% hint style="info" %}
 Source : [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php?show\_all=1)
 {% endhint %}
+
+***
 
 ## VirtualBox
 
@@ -207,6 +219,8 @@ virtualbox
 Source : [https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/](https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/)
 {% endhint %}
 
+***
+
 ## Bleachbit
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-09 15-54-04.png" alt=""><figcaption></figcaption></figure>
@@ -222,6 +236,8 @@ Disponible sur Linux et Windows.
 Site internet : [https://www.bleachbit.org/download](https://www.bleachbit.org/download)
 {% endhint %}
 
+***
+
 ## Stacer
 
 <figure><img src="../../../.gitbook/assets/header.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -235,6 +251,8 @@ Un utilitaire d'optimisation et de monitoring graphique open-source pour Linux s
 {% hint style="success" %}
 Site internet : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
 {% endhint %}
+
+***
 
 ## AnyDesk
 
@@ -267,6 +285,8 @@ Source : [http://rpm.anydesk.com/howto.html](http://rpm.anydesk.com/howto.html)
 Site internet : [http://www.anydesk.com](http://www.anydesk.com)
 {% endhint %}
 
+***
+
 ## CopyQ
 
 <figure><img src="../../../.gitbook/assets/copyq-menu.webp" alt="" width="257"><figcaption></figcaption></figure>
@@ -287,6 +307,8 @@ Source : [https://copyq.readthedocs.io/en/latest/build-source-code.html](https:/
 {% hint style="success" %}
 Site internet : [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 {% endhint %}
+
+***
 
 ## Solaar
 
@@ -309,3 +331,5 @@ Source : [https://github.com/pwr-Solaar/Solaar](https://github.com/pwr-Solaar/So
 {% hint style="success" %}
 Site internet : [https://pwr-solaar.github.io/Solaar/](https://pwr-solaar.github.io/Solaar/)
 {% endhint %}
+
+***
