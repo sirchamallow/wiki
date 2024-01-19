@@ -168,6 +168,9 @@ sudo dnf system-upgrade reboot
 # Une fois le processus de mise à niveau terminé, 
 # votre système redémarrera une seconde fois dans la version mise à jour de Fedora
 
+sudo dnf system-upgrade clean
+# Supprimer les métadonnées mises en cache et les transactions
+
 sudo dnf install rpmconf
 # Installe le paquet rpmconf, qui est un outil permettant de gérer les fichiers de configuration de paquets RPM.
 # Ces fichiers peuvent parfois être mis à jour, et rpmconf aide à fusionner les modifications tout en conservant les réglages personnalisés.
