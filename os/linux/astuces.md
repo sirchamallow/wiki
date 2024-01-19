@@ -279,7 +279,7 @@ sudo rm /etc/yum.repos.d/balena-etcher.repo
 ```
 
 {% hint style="info" %}
-Source : [https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#yum](https://github.com/balena-io/etcher?d\_id=8404469d-719a-43bb-bffb-9633908820b6\&s\_id=1674729937970#yum)
+Source : [https://github.com/balena-io/etcher#redhat-rhel-and-fedora-based-package-repository-gnulinux-x86x64](https://github.com/balena-io/etcher#redhat-rhel-and-fedora-based-package-repository-gnulinux-x86x64)
 {% endhint %}
 
 {% hint style="success" %}
