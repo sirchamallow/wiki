@@ -15,18 +15,65 @@ layout:
 
 # 👣 Ext. GNOME
 
-## Présentation
+## GNOME Extensions
+
+#### Description
 
 [GNOME Extensions](https://gitlab.gnome.org/GNOME/gnome-shell-extensions) est une petite application pour gérer les extensions Shell de GNOME.
 
 {% hint style="info" %}
-Si **Extensions** n'est pas déjà installé sur votre système GNOME, je vous recommande de le télécharger depuis [Flathub](https://flathub.org/apps/details/org.gnome.Extensions).
+Source : [https://docs.fedoraproject.org/fr/quick-docs/gnome-shell-extensions/](https://docs.fedoraproject.org/fr/quick-docs/gnome-shell-extensions/)
 {% endhint %}
 
-## Téléchargement
+### GNOME Extensions
+
+#### Description
+
+Si **GNOME Extensions** n'est n'est pas déjà installé sur votre système GNOME, vous pouvez l'installer via un paquet Flatpak
+
+#### Installation
+
+```bash
+# Installer FlatHub
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# Installer GNOME Extensions
+flatpak install flathub org.gnome.Extensions
+
+# MLancer GNOME Extensions
+flatpak run org.gnome.Extensions
+```
+
+{% hint style="info" %}
+Source : [https://flathub.org/apps/details/org.gnome.Extensions](https://flathub.org/apps/details/org.gnome.Extensions)
+{% endhint %}
+
+### GNOME Shell Browser Integration
+
+#### Description
+
+Pour installer des extensions GNOME depuis votre navigateur
+
+#### Installation
+
+```bash
+sudo dnf install gnome-browser-connector
+```
 
 {% hint style="success" %}
-Les extensions sont disponibles sur [https://extensions.gnome.org/](https://extensions.gnome.org/)
+Site Internet : [https://wiki.gnome.org/Projects/GnomeShellIntegration/Installation](https://wiki.gnome.org/Projects/GnomeShellIntegration/Installation)
+{% endhint %}
+
+{% hint style="info" %}
+Source : [https://packages.fedoraproject.org/pkgs/gnome-browser-connector/gnome-browser-connector/](https://packages.fedoraproject.org/pkgs/gnome-browser-connector/gnome-browser-connector/)
+{% endhint %}
+
+### Téléchargement
+
+Les extensions sont disponibles en téléchargement depuis le site [GNOME Extensions](https://extensions.gnome.org/).
+
+{% hint style="success" %}
+Les extensions sont également disponibles depuis Fedora Packages : [https://packages.fedoraproject.org/search?query=gnome-shell-extension\&start=0](https://packages.fedoraproject.org/search?query=gnome-shell-extension\&start=0)
 {% endhint %}
 
 ## Extensions
