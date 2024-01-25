@@ -194,12 +194,27 @@ Source : [https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/
 
 ## Carte Graphique
 
-Une manière pour récupérer les informations de votre carte graphique, est d'utiliser **`neofetch`.**
+### Caractéristiques
+
+Une manière pour récupérer les informations de votre carte graphique, via la commande suivante
+
+```bash
+lspci | grep -i --color 'vga\|3d\|2d'
+## Exemple d'output :
+# 00:02.0 VGA compatible controller: Intel Corporation CometLake-U GT2 [UHD Graphics] (rev 02)
+# 01:00.0 3D controller: NVIDIA Corporation GP108BM [GeForce MX250] (rev a1)
+```
+
+ou en utilisant le paquet **`neofetch`.**
 
 ```bash
 sudo dnf install neofetch    # Installer neofetch
 neofetch                     # Lancer neofetch
 ```
+
+{% hint style="info" %}
+Source : [https://github.com/dylanaraps/neofetch](https://github.com/dylanaraps/neofetch)
+{% endhint %}
 
 ### Désinstaller drivers nvidia
 
