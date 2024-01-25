@@ -192,6 +192,23 @@ sudo dnf autoremove
 Source : [https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/)
 {% endhint %}
 
+## Carte Graphique
+
+Une manière pour récupérer les informations de votre carte graphique, est d'utiliser **`neofetch`.**
+
+```bash
+sudo dnf install neofetch    # Installer neofetch
+neofetch                     # Lancer neofetch
+```
+
+### Désinstaller drivers nvidia
+
+Pour désinstaller les drivers nvidia, voici une commande simple
+
+```bash
+sudo dnf remove 'nvidia-*'
+```
+
 ***
 
 ## Utiliser le miroir le plus rapide
