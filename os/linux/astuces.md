@@ -192,6 +192,8 @@ sudo dnf autoremove
 Source : [https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/fr/quick-docs/upgrading-fedora-offline/)
 {% endhint %}
 
+***
+
 ## Carte Graphique
 
 ### Caractéristiques
