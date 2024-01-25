@@ -84,6 +84,8 @@ sudo dnf list extras    # Liste des paquets installés ne provenant pas des dép
 Source : [https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion](https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion)
 {% endhint %}
 
+***
+
 ## Raccourcis
 
 {% hint style="info" %}
@@ -140,6 +142,8 @@ La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille 
 3. `du -h` : pour connaitre la taille occuper par les fichiers du répertoires.&#x20;
 4. d`u -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
 5. `du -sh * | sort -hk1` : pour lister les répertoires, leurs tailles par ordre croissant
+
+***
 
 ## Mise à jour / Upgrade
 
@@ -217,6 +221,8 @@ sudo su -
 ```
 
 Et le mot de passe qui va avec :)
+
+***
 
 ## Reset mot de passe root / session
 
@@ -317,16 +323,10 @@ Source : [https://www.fosslinux.com/39264/install-screenshot-tool-shutter-fedora
 ## Rendre persistant votre Dock
 
 {% hint style="info" %}
-Il s'agit d'extensions GNOME
+Deux solutions possibles
 {% endhint %}
 
-Nous utiliserons l'extension GNOME Dash-to-Panel
-
-#### Installation <a href="#extension_name" id="extension_name"></a>
-
-```bash
-https://extensions.gnome.org/extension/1160/dash-to-panel/
-```
+Vous pouvez utiliser l'extension GNOME [Dash-to-Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) ou bien installer la [version Budgie](https://fedoraproject.org/spins/budgie/) de Fedora (il s'agit d'une version Spin)
 
 ***
 
@@ -449,6 +449,8 @@ L’option **+trace** répertorie chaque serveur différent que la requête pass
 dig www.lewifi.fr +trace
 ```
 
+***
+
 ## Tweaks
 
 Description
@@ -469,6 +471,8 @@ sudo dnf install fedy -y
 {% hint style="info" %}
 Source : [https://fosspost.org/things-to-do-after-installing-fedora-37/](https://fosspost.org/things-to-do-after-installing-fedora-37/)
 {% endhint %}
+
+***
 
 ## Vérifier chiffrements d'un serveur
 
