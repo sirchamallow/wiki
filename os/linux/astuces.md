@@ -59,10 +59,18 @@ Si vous avez besoin d'activer un dépôt de manière permanente
 <strong>sudo dnf config-manager --set-disabled &#x3C;package>   # Désactiver un dépôt de manière permanente
 </strong></code></pre>
 
+### Installer localement un fichier .rpm
+
+Pour installer un fichier en ligne de commande
+
+```bash
+sudo dnf localinstall <nom_du_paquet>.rpm
+```
+
 ### Désinstaller une application
 
 ```bash
-dnf list <nom du paquet>	# Rechercher un paquet - Méthode 1
+dnf list <nom_du_paquet>	# Rechercher un paquet - Méthode 1
 dnf list kernel\*		# Rechercher un paquet - Méthode 2
 dnf list "kernel*"		# Rechercher un paquet - Méthode 3
 dnf search <mot clef>		# Rechercher un paquet - Méthode 4
