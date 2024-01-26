@@ -41,6 +41,8 @@ wget https://github.com/th-ch/youtube-music/releases/download/v1.18.0/youtube-mu
 sudo dnf install https://github.com/th-ch/youtube-music/releases/download/v1.18.0/youtube-music-1.18.0.x86_64.rpm
 ```
 
+***
+
 ## Foobar2000
 
 {% hint style="info" %}
@@ -56,4 +58,6 @@ sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install foobar2000
 ```
 
+{% hint style="info" %}
 Source : [https://snapcraft.io/install/foobar2000/fedora](https://snapcraft.io/install/foobar2000/fedora)
+{% endhint %}

@@ -72,7 +72,7 @@ Source : [https://rpmfusion.org/Configuration](https://rpmfusion.org/Configurati
 
 ## Flatpak
 
-<figure><img src="https://fedoramagazine.org/wp-content/uploads/2018/03/flathub.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://fedoramagazine.org/wp-content/uploads/2018/03/flathub.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Flatpak** est un système de virtualisation d’application pour les distributions GNU/Linux de bureau.\
 Il fournit un environnement isolé du reste du système (_sandbox_), où l'utilisateur peut faire fonctionner des applications de manière sûre.  Les paquets logiciels flatpak **fonctionnant sur toutes les distributions linux** :clap:&#x20;
@@ -98,7 +98,7 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 
 ## Snap
 
-<figure><img src="https://assets.ubuntu.com/v1/4726d040-Snap+logo+white+bg.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets.ubuntu.com/v1/4726d040-Snap+logo+white+bg.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Description
 

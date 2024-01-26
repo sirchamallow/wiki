@@ -76,6 +76,8 @@ Les extensions sont disponibles en téléchargement depuis le site [GNOME Extens
 Les extensions sont également disponibles depuis Fedora Packages : [https://packages.fedoraproject.org/search?query=gnome-shell-extension\&start=0](https://packages.fedoraproject.org/search?query=gnome-shell-extension\&start=0)
 {% endhint %}
 
+***
+
 ## Extensions
 
 ### Vitals
