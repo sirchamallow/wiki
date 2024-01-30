@@ -283,6 +283,31 @@ Source : [https://github.com/sindresorhus/caprine](https://github.com/sindresorh
 Site internet : [https://sindresorhus.com/caprine/](https://sindresorhus.com/caprine/)
 {% endhint %}
 
+***
+
+## Signal
+
+<figure><img src="../../../.gitbook/assets/SignalDesktop.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Description
+
+Signal Desktop est un client desktop pour le logiciel de messagerie Signal.\
+Celui-ci est disponible via un paquet Flatpak
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo # Installer Flathub
+flatpak install flathub org.signal.Signal                                                  # Installer Signal
+flatpak run org.signal.Signal                                                              # Lancer Signal
+```
+
+#### Installation
+
+{% hint style="info" %}
+Source : [https://flathub.org/apps/org.signal.Signal](https://flathub.org/apps/org.signal.Signal)
+{% endhint %}
+
+***
+
 ## Client mail
 
 ### Thunderbird
@@ -338,6 +363,8 @@ Source : [https://www.addictivetips.com/ubuntu-linux-tips/install-mailspring-on-
 {% hint style="success" %}
 Site internet : [https://www.getmailspring.com/](https://www.getmailspring.com/)
 {% endhint %}
+
+***
 
 ## Téléchargement
 
