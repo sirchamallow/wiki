@@ -433,6 +433,16 @@ Pour plus d'informations : [https://docs.fedoraproject.org/fr/quick-docs/configu
 
 ***
 
+## Editer votre Grub
+
+Pour personnaliser votre grub, une des solutions est d'utiliser **Grub optimizer**.
+
+```bash
+sudo dnf install grub-customizer
+```
+
+***
+
 ## Kernel Devel
 
 Le paquet kernel-devel contient les fichiers d'en-têtes du noyau, des fichiers permettant au développeur d'accéder aux différentes fonctionnalités du noyau . De façon plus simple, il est nécessaire au développement et à la compilation de pilotes.
