@@ -296,6 +296,8 @@ gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 
 ## Créer une clé USB d’installation bootable
 
+#### Avec Balena Etcher
+
 <figure><img src="../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
 
 Voici comment créer une clé USB Bootable Windows à l’aide de [balenaEtcher](https://www.balena.io/etcher#download-etcher). \
@@ -310,6 +312,23 @@ Source : [https://github.com/balena-io/etcher#redhat-rhel-and-fedora-based-packa
 
 {% hint style="success" %}
 Site Internet : [https://etcher.balena.io/](https://etcher.balena.io/)
+{% endhint %}
+
+#### Avec GNOME Disques
+
+Même si **Etcher** est sympa, pourquoi ne pas utiliser ce bon vieux GNOME Disques ?
+
+L'application est certes rudimentaire, mais fait le job :)
+
+Voici la procédure :
+
+* Ouvrez GNOME Disques en recherchant "Disques" dans le menu d'activités.
+* Sélectionnez le disque ou le lecteur USB dans la colonne de gauche.
+* Cliquez sur le menu en haut à droite de la fenêtre et choisissez "Restaurer l'image disque".
+* Et choisissez l'emplacement ainsi que le nom du fichier pour l'image et valider
+
+{% hint style="success" %}
+Site Internet : [https://apps.gnome.org/fr/DiskUtility/](https://apps.gnome.org/fr/DiskUtility/)
 {% endhint %}
 
 ***

@@ -74,7 +74,7 @@
   * [👉 Blogosphère](veille/blogosphere.md)
   * [🤠 Déf' de veilleurs](veille/definition-du-terme-veilleurs.md)
   * [📘 Regards croisés sur la veille](veille/ebook-regards-croises-sur-la-veille.md)
-  * [\* \* Flux RSS / ATOM](veille/flux-rss-atom/README.md)
+  * [\* Flux RSS / ATOM](veille/flux-rss-atom/README.md)
     * [Awesome list of RSS](veille/flux-rss-atom/awesome-list-of-rss.md)
     * [Outils](veille/flux-rss-atom/outils.md)
     * [Newsletter > RSS](veille/flux-rss-atom/newsletter-greater-than-rss.md)
