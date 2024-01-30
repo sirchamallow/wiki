@@ -33,6 +33,7 @@
     * [💺 Bureau](hardware/informatique/bureau.md)
     * [🇩🇪 TUXEDO Computers](hardware/informatique/tuxedo-computers.md)
     * [🇨🇳 Huawei Computers](hardware/informatique/huawei-computers.md)
+  * [☕ Electroménager](hardware/electromenager.md)
 * [🎮 Jeux Vidéo](jeux-video.md)
 * [💿 Logiciels](logiciels/README.md)
   * [🌐 Navigateurs Web](logiciels/browsers/README.md)
