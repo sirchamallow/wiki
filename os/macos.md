@@ -2,7 +2,7 @@
 description: Quelques applications pour MacOS
 ---
 
-# 🍏 MacOS
+# 🍏 Apple | MacOS
 
 ### Logiciels MacOS
 
@@ -11,3 +11,7 @@ En vrac : [Warp.dev](https://www.warp.dev/) / [Be.Focused](https://apps.apple.co
 ### Demander un remboursement pour des apps ou des contenus achetés auprès d’Apple
 
 {% embed url="https://support.apple.com/fr-fr/HT204084" %}
+
+## Installer Windows sur un Mac non récent avec Boot Camp
+
+{% embed url="https://support.apple.com/fr-fr/guide/bootcamp-assistant" %}
