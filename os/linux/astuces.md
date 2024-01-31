@@ -314,6 +314,10 @@ Source : [https://github.com/balena-io/etcher#redhat-rhel-and-fedora-based-packa
 Site Internet : [https://etcher.balena.io/](https://etcher.balena.io/)
 {% endhint %}
 
+{% hint style="warning" %}
+Il semble qu' Etcher rencontre des problèmes à monter une image de Windows11. Plus d'informations sur [https://github.com/balena-io/etcher/issues/210](https://github.com/balena-io/etcher/issues/210)
+{% endhint %}
+
 #### Avec GNOME Disques
 
 Même si **Etcher** est sympa, pourquoi ne pas utiliser ce bon vieux GNOME Disques ?
