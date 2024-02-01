@@ -345,8 +345,6 @@ Pré-requis : Avant de créer une clé USB bootable, assurez-vous de disposer de
 
 #### Installation
 
-### **Install Ventoy** <a href="#install-ventoy" id="install-ventoy"></a>
-
 Depuis votre terminal, voici les opérations à effectuer :&#x20;
 
 <pre class="language-bash"><code class="lang-bash"><strong># Télécharger la dernière version de Ventoy depuis GitHub
@@ -380,8 +378,6 @@ Source : [https://github.com/ventoy](https://github.com/ventoy)
 {% hint style="success" %}
 Site internet : [https://www.ventoy.net/en/index.html](https://www.ventoy.net/en/index.html)
 {% endhint %}
-
-
 
 ***
 
