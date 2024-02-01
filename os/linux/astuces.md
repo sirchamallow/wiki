@@ -296,7 +296,7 @@ gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 
 ## Créer une clé USB d’installation bootable
 
-#### Avec Balena Etcher
+### Balena Etcher
 
 <figure><img src="../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
 
@@ -318,7 +318,7 @@ Site Internet : [https://etcher.balena.io/](https://etcher.balena.io/)
 Il semble qu' Etcher rencontre des problèmes à monter une image de Windows11. Plus d'informations sur [https://github.com/balena-io/etcher/issues/210](https://github.com/balena-io/etcher/issues/210)
 {% endhint %}
 
-#### Avec GNOME Disques
+### GNOME Disques
 
 Même si **Etcher** est sympa, pourquoi ne pas utiliser ce bon vieux GNOME Disques ?
 
@@ -334,6 +334,54 @@ Voici la procédure :
 {% hint style="success" %}
 Site Internet : [https://apps.gnome.org/fr/DiskUtility/](https://apps.gnome.org/fr/DiskUtility/)
 {% endhint %}
+
+### Ventoy
+
+{% hint style="info" %}
+Pré-requis : Avant de créer une clé USB bootable, assurez-vous de disposer de :\
+\- D'une clé USB de 8 GO minimum (pour des OS comme Windows11)\
+\- D'avoir télécharger en amont votre fichier ISO
+{% endhint %}
+
+#### Installation
+
+### **Install Ventoy** <a href="#install-ventoy" id="install-ventoy"></a>
+
+Depuis votre terminal, voici les opérations à effectuer :&#x20;
+
+<pre class="language-bash"><code class="lang-bash"><strong># Télécharger la dernière version de Ventoy depuis GitHub
+</strong><strong>wget -O ~/ventoy.tar.gz https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.96-linux.tar.gz
+</strong># Extraire le fichier d'archive
+tar -zxvf ventoy.tar.gz
+# Ouvrir le dossier
+cd ~/ventoy-1.0.97
+# Lancer le GUI de Ventoy depuis son dossier
+sudo ./VentoyGUI.x86_64
+</code></pre>
+
+Sélectionner votre clé USB et choisissez maintenant votre type de partition dans `option`.
+
+Deux choix sont possibles : `MRB` and `GPT`.
+
+<figure><img src="https://linovox.com/wp-content/uploads/2023/04/select-gpt-partition-style.png.webp" alt="select gpt partition style" height="301" width="366"><figcaption></figcaption></figure>
+
+Par défaut, Ventoy créer une clé USB avec une partition de type `MRB`. Si vous utilisez une démarrage avec boot UEFI, **sélectionner alors `GPT`**. Il s'agit de l'option recommander pour la plupart des cas.
+
+Ensuite, procéder à l'installation de Ventoy en cliquant sur bouton `Install`, un message d'avertissement s'affichera alors pour vous signaler que vous vous appretez à effacer votre clé USB. Cliquer sur **`OK`** pour valider et continuer.
+
+Copier maintenant votre fichier ISO dans le dossier Ventoy (celui de la clé USB)
+
+Et voilà :)
+
+{% hint style="info" %}
+Source : [https://github.com/ventoy](https://github.com/ventoy)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://www.ventoy.net/en/index.html](https://www.ventoy.net/en/index.html)
+{% endhint %}
+
+
 
 ***
 
