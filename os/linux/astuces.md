@@ -153,6 +153,13 @@ La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille 
 
 ***
 
+## Extraire un fichier .tar.gz
+
+Pour extraire le fichier, il est possible de procéder de deux façons. \
+Via le menu avec un simple clique-droit et extraire vers... ou en ligne de commande.
+
+***
+
 ## Mise à jour / Upgrade
 
 Voici la procédure pour mettre à jour votre version de Fedora
