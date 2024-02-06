@@ -158,6 +158,41 @@ La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille 
 Pour extraire le fichier, il est possible de procéder de deux façons. \
 Via le menu avec un simple clique-droit et extraire vers... ou en ligne de commande.
 
+#### Extraire un fichier en ligne de commande
+
+1. Ouvrir le terminal et naviguer dans le dossier ou se trouver le fichier
+2. Utilisez l'un des commandes suivante pour extraire les fichiers :
+
+```bash
+tar -xvzf nomdufichier.tar.gz  # Décompresse les fichiers à l'aide de gzip
+tar -xvjf nomdufichier.tar.bz2 # Décompresse les fichiers à l'aide de bzip2
+```
+
+Explication de  la commande :&#x20;
+
+`tar` : La commande elle-même, la clé pour déverrouiller l'archive.\
+`x` : Demande à tar d'extraire les fichiers de l'archive.\
+`v` : Active la sortie verbeuse, fournissant une liste détaillée des fichiers extraits.\
+`z` : Décompresse les fichiers à l'aide de `gzip`, assurant ainsi une extraction transparente.\
+`j` : Décompresse les fichiers à l'aide de `bzip2`, assurant ainsi une extraction transparente.\
+`f` : Spécifie le nom de fichier de l'archive, identifiant le fichier cible.
+
+#### Exemples de commandes tar
+
+Spécifier un répertoire de destination&#x20;
+
+```bash
+tar -xvzf nomfichier.tar.gz -C /home/user/documents
+```
+
+Cette commande extrait le contenu de nomfichier.tar.gz dans le répertoire /home/user/Documents.
+
+### gzip vs bzip2
+
+La principale différence entre `gzip` et `bzip2` réside dans leurs performances en termes de vitesse et de taux de compression. **Gzip** est plus rapide, mais produit des archives plus volumineuses, tandis que **bzip2** est plus lent, mais génère des archives plus petites.\
+\
+En général, gzip est préférable pour une utilisation courante en raison de sa rapidité, tandis que bzip2 est plus adapté à la préservation de nombreux anciens fichiers en raison de son taux de compression plus élevé.
+
 ***
 
 ## Mise à jour / Upgrade
