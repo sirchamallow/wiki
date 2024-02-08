@@ -13,9 +13,11 @@ layout:
     visible: false
 ---
 
-# 🐸 Windows 11
+# 🐸 Microsoft | Windows 11
 
-J'utilise principalement Fedora, mais quand j'ai besoin de jouer à des jeux vidéos, je bascule sur Windows11
+{% hint style="info" %}
+Avant-Propos : j'utilise principalement Fedora. Toutefois quand j'ai besoin de jouer à des jeux vidéos, je bascule sur Windows11 (et j'ai longtemps utiliser cet OS)
+{% endhint %}
 
 ## **Chocolatey**
 
@@ -59,7 +61,7 @@ choco install playnite                     # Playnite
 choco install rufus                        # Rufus
 choco install speccy                       # Speccy
 choco install vlc                          # VLC Media Player
-choco install windirstat                   # Windirsta
+choco install windirstat                   # Windirstat
 choco install winaero-tweaker              # Winaero-Tweaker
 choco install youtube-dl                   # YouTube-DL
 
@@ -122,10 +124,7 @@ choco upgrade all --except="'skype,conemu'"     # Examples : Upgrade all softwar
 
 ## Microsoft Store
 
-Ouvrir le Microsoft Store ou depuis votre navigateur web !
-
 * [Microsoft Edge Browser](https://apps.microsoft.com/store/detail/microsoft-edge-browser/XPFFTQ037JWMHS) : navigateur web de Microsoft
-* [Mozilla Firefox](https://apps.microsoft.com/store/detail/mozilla-firefox/9NZVDKPMR9RD) : navigateur web de la fondation Mozilla
 * [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?) : le terminal de windows
 * [Windows Subsystem for Linux (WSL)](https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ) : Installation complète de Ubuntu 20.04.5 LTS
 
