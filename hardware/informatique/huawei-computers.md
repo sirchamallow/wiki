@@ -15,7 +15,9 @@ layout:
 
 # 🇨🇳 Huawei Computers
 
-## Accèder au BIOS
+## BIOS
+
+### Accèder au BIOS
 
 Plusieurs méthodes possible
 
@@ -25,6 +27,10 @@ Plusieurs méthodes possible
 {% hint style="info" %}
 Source : [https://consumer.huawei.com/fr/support/content/fr-fr00688478/](https://consumer.huawei.com/fr/support/content/fr-fr00688478/)
 {% endhint %}
+
+### Mise à jour du BIOS
+
+{% embed url="https://consumer.huawei.com/fr/support/content/fr-fr00698596/" %}
 
 ## Manuel d'utilisation
 
