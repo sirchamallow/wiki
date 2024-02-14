@@ -499,6 +499,20 @@ Vous pouvez utiliser l'extension GNOME [Dash-to-Panel](https://extensions.gnome.
 
 ***
 
+## Changer votre fond d'écran via le terminal
+
+Parfois il arrive, que le changement de votre fond d'écran (wallpaper) pose problème via l'interface graphique. Afin de changer le changer quand même, lancer cette commande dans le terminal :&#x20;
+
+```bash
+gsettings set org.gnome.desktop.background picture-uri file:///home/<user>/Images/image.jpg
+```
+
+{% hint style="info" %}
+Penser juste à remplacer dans le terminal le bon lien de l'image
+{% endhint %}
+
+***
+
 ## Changer le serveur d'affichage&#x20;
 
 (exemple : Wayland > XORG)
