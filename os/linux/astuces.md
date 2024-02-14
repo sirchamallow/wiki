@@ -153,6 +153,24 @@ La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille 
 
 ***
 
+## Connaître la version du noyau Linux
+
+Il existe plusieurs méthodes, en voici deux en passant par le terminal
+
+la plus rapide est&#x20;
+
+```bash
+uname -r
+```
+
+Et une autre, qui permets d'avoir d'autres informations
+
+```bash
+hostnamectl
+```
+
+***
+
 ## Extraire un fichier .tar.gz
 
 Pour extraire le fichier, il est possible de procéder de deux façons. \
