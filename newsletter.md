@@ -32,6 +32,16 @@ layout:
 
 <table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Ruby Biscuit</td><td><a href="https://www.rubybiscuit.fr/">https://www.rubybiscuit.fr</a></td></tr><tr><td>Ruby Weekly</td><td><a href="https://rubyweekly.com/">https://rubyweekly.com</a></td></tr><tr><td>Quoi de neuf les devs ?</td><td><a href="https://happytodev.substack.com/">https://happytodev.substack.com</a></td></tr><tr><td>Pwned Digest</td><td><a href="https://pwned.substack.com/">https://pwned.substack.com</a></td></tr><tr><td>Daily.dev</td><td><a href="https://app.daily.dev/account/notifications">https://app.daily.dev/account/notifications</a></td></tr><tr><td>Web Weekly</td><td><a href="https://webweekly.email/">https://webweekly.email</a></td></tr><tr><td>JavaScript Weekly</td><td><a href="https://javascriptweekly.com/">https://javascriptweekly.com</a></td></tr><tr><td>Frontend Focus</td><td><a href="https://frontendfoc.us/">https://frontendfoc.us</a></td></tr></tbody></table>
 
+## Mobilité
+
+| Nom                          | Lien                                                                                                                                                                                                                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Watt Else (Numerama)         | [https://www.numerama.com/vroom/1288234-numerama-lance-watt-else-la-newsletter-sur-lautomobile-electrique-et-les-nouvelles-mobilites.html](https://www.numerama.com/vroom/1288234-numerama-lance-watt-else-la-newsletter-sur-lautomobile-electrique-et-les-nouvelles-mobilites.html) |
+| Garage (Les Echos)           | [https://www.lesechos.fr/newsletters/garage-lactualite-automobile-5c7fcf3b9f5ea261a6503255](https://www.lesechos.fr/newsletters/garage-lactualite-automobile-5c7fcf3b9f5ea261a6503255)                                                                                               |
+| The Micromobility Newsletter | [https://micromobility.substack.com/](https://micromobility.substack.com/)                                                                                                                                                                                                           |
+
+
+
 ### IA (Intelligence Artificielle)
 
 <table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Génération IA</td><td><a href="https://generationia.flint.media/">https://generationia.flint.media</a></td></tr><tr><td>Synth Média</td><td><a href="https://synthmedia.fr/">https://synthmedia.fr</a></td></tr><tr><td>Evolving AI Insights</td><td><a href="https://evolvingai.io/">https://evolvingai.io</a></td></tr></tbody></table>

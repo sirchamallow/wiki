@@ -1,5 +1,16 @@
 ---
 description: Firefox Send, une alternative à WeTransfer avec chiffrement de bout en bout
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 📤 Firefox Send
@@ -14,9 +25,9 @@ La Fondation [Mozilla](https://www.frandroid.com/tag/mozilla-firefox) (à qui l�
 
 Pour information, contrairement aux services de stockage comme _Box_, _Dropbox_ ou _OneDrive_, Firefox Send ne s’intègre pas au système d’exploitation du périphérique, car vous devez taper l’url du site internet pour ensuite envoyer vos fichiers. Toutefois, une application mobile (en version bêta) sera également disponible sur Android prochainement.
 
-### **Comment ça marche :**
+### **Comment ça marche**
 
-{% embed url="https://youtu.be/eRHpEn2eHJA" %}
+{% embed url="https://www.youtube.com/watch?v=eRHpEn2eHJA" %}
 
 ### **Open-Source 👍**
 
