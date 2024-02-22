@@ -22,12 +22,12 @@ layout:
 C'est un gestinnaire de paquet basé sur RPM qui est utilisé pour installer et mettre à jour les paquets dans diverses distributions Linux tel que CentOS, RHEL et Fedora.
 
 ```bash
-dnf help			# Get Help
-dnf list available | more	# List All Packages
-dnf list installed 		# List Installed Packages
-dnf info <package>		# View Package Information
-dnf history                     # View history transactions
-dnf history userinstalled       # View history transactions of user
+sudo dnf help			# Get Help
+sudo dnf list available | more	# List All Packages
+sudo dnf list installed 	sud# List Installed Packages
+sudo dnf info <package>		# View Package Information
+sudo dnf history                # View history transactions
+sudo dnf history userinstalled  # View history transactions of user
 sudo dnf repolist all		# List All Repositories
 sudo dnf install <package>	# Install Package
 sudo dnf reinstall <package>	# Reinstall Package
@@ -69,15 +69,14 @@ sudo dnf localinstall <nom_du_paquet>.rpm
 
 ### Désinstaller une application
 
-```bash
-dnf list <nom_du_paquet>	# Rechercher un paquet - Méthode 1
-dnf list kernel\*		# Rechercher un paquet - Méthode 2
-dnf list "kernel*"		# Rechercher un paquet - Méthode 3
-dnf search <mot clef>		# Rechercher un paquet - Méthode 4
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf list &#x3C;nom_du_paquet>	# Rechercher un paquet - Méthode 1
+</strong>sudo dnf list kernel\*		# Rechercher un paquet - Méthode 2
+sudo dnf list "kernel*"		# Rechercher un paquet - Méthode 3
+sudo dnf search &#x3C;mot clef>		# Rechercher un paquet - Méthode 4
 
-dnf remove <nom du paquet>	# Supprimer un paquet
+sudo dnf remove &#x3C;nom du paquet>	# Supprimer un paquet
 # Attention aux dépendances, bien lire ce qui est proposé à la suppression. 
-```
+</code></pre>
 
 ### **List**
 
