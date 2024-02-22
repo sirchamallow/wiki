@@ -26,7 +26,7 @@ layout:
 
 ### Technologie
 
-<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Le Pavé Numérique</td><td><a href="https://lepavenumerique.substack.com/about">https://lepavenumerique.substack.com</a></td></tr><tr><td>Cool Tools! | The Intelligence</td><td><a href="https://theintelligence.com/cool-tools/">https://theintelligence.com/cool-tools</a></td></tr><tr><td>@dvisorator</td><td><a href="https://advisorator.com">https://advisorator.com</a></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Le Pavé Numérique</td><td><a href="https://lepavenumerique.substack.com/about">https://lepavenumerique.substack.com</a></td></tr><tr><td>Cool Tools! | The Intelligence</td><td><a href="https://theintelligence.com/cool-tools/">https://theintelligence.com/cool-tools</a></td></tr><tr><td>@dvisorator</td><td><a href="https://advisorator.com">https://advisorator.com</a></td></tr><tr><td>Open Pioneers</td><td><a href="https://openpioneers.com/">https://openpioneers.com</a></td></tr><tr><td>GoatStack.AI</td><td><a href="https://goatstack.ai/">https://goatstack.ai</a></td></tr></tbody></table>
 
 ### DEV
 
