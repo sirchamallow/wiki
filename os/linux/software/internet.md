@@ -2,7 +2,7 @@
 description: Liste de logiciels
 ---
 
-# 🕸 Internet
+# 🕸️ Internet
 
 ## Navigateurs Web
 
@@ -411,4 +411,26 @@ Source : [https://gitlab.gnome.org/World/gfeeds](https://gitlab.gnome.org/World/
 
 {% hint style="success" %}
 Site internet : [https://gfeeds.gabmus.org/#install](https://gfeeds.gabmus.org/#install)
+{% endhint %}
+
+***
+
+## Joplin
+
+#### Description
+
+Un gestionnaire open-source de prise de notes multi-plateformes
+
+#### Installation
+
+```bash
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+```
+
+{% hint style="info" %}
+Source : [https://github.com/laurent22/joplin/](https://github.com/laurent22/joplin/)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://joplinapp.org/help/install/](https://joplinapp.org/help/install/)
 {% endhint %}
