@@ -395,6 +395,8 @@ Site internet : [https://flathub.org/apps/io.github.giantpinkrobots.varia](https
 
 ## Gnome Feeds
 
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-27 at 12-32-51 Feeds.png" alt="" width="336"><figcaption></figcaption></figure>
+
 #### Description
 
 Un lecteur RSS open-source pour Linux
@@ -416,6 +418,8 @@ Site internet : [https://gfeeds.gabmus.org/#install](https://gfeeds.gabmus.org/#
 ***
 
 ## Joplin
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-27 at 12-30-54 Joplin website.png" alt="" width="264"><figcaption></figcaption></figure>
 
 #### Description
 
