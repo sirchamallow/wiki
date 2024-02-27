@@ -350,7 +350,7 @@ De plus, il offre la possibilité de rechercher dans des fichiers compressés (.
 </strong></code></pre>
 
 {% hint style="info" %}
-Source : [https://launchpad.net/catfish-search](https://launchpad.net/catfish-search)
+Source : [https://gitlab.xfce.org/apps/catfish](https://gitlab.xfce.org/apps/catfish)
 {% endhint %}
 
 {% hint style="success" %}
