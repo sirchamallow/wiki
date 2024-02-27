@@ -38,7 +38,7 @@ Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-l
 
 ### Remplacer Bash par Zsh&#x20;
 
-<figure><img src="../../../../.gitbook/assets/zshell.png" alt="" width="188"><figcaption><p>Zsh logo</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/zshell.png" alt="" width="188"><figcaption><p>Zsh logo</p></figcaption></figure>
 
 #### **Description**
 
@@ -61,7 +61,7 @@ Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/p
 
 ## Oh-My-ZSH (OMZ)
 
-<figure><img src="../../../../.gitbook/assets/omz.png" alt="" width="169"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/omz.png" alt="" width="169"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
 
 **Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes et plugins (support de PHP, Python, PostgreSQL ...). Ci-dessous, sont présents ceux que j'utilise.&#x20;
 
@@ -231,9 +231,40 @@ Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INST
 
 ***
 
+## Warp
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-27 at 12-57-52 Blog Warp.png" alt="" width="260"><figcaption></figcaption></figure>
+
+#### Description
+
+Warp est un émulateur de terminal écrit en **Rust**.\
+\
+Il se distingue par des fonctionnalités telles que Warp Drive pour le partage de commandes entre équipes, Warp AI pour les suggestions et l'assistance des commandes, ainsi qu'un IDE moderne avec une sélection de texte et un positionnement du curseur.
+
+#### Installation
+
+La manière la plus simple d'installer Warp est de télécharger et d'installer [le paquet rpm](https://app.warp.dev/download?package=rpm).\
+Après le téléchargement, vous pouvez installer le paquet avec :
+
+```bash
+sudo dnf install ./.rpm
+```
+
+L'installation du paquetage .rpm configurera automatiquement le dépôt yum de Warp. Lors de la première mise à jour, dnf récupérera la clé de signature nécessaire pour vérifier l'intégrité des paquets téléchargés.
+
+{% hint style="info" %}
+Source : [https://github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp)
+{% endhint %}
+
+{% hint style="success" %}
+Site web : [https://www.warp.dev](https://www.warp.dev)
+{% endhint %}
+
+***
+
 ## TMUX
 
-<figure><img src="../../../../.gitbook/assets/Tmux_logo.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tmux_logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -267,7 +298,7 @@ Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
 
 ## Dog
 
-<figure><img src="../../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
 
 #### **Description**
 
@@ -364,7 +395,7 @@ Source : [https://www.linode.com/docs/guides/use-dog-linux-dns-client/](https://
 
 ## Cyberduck CLI
 
-<figure><img src="../../../../.gitbook/assets/cyberduck-logo.jpg" alt="" width="200"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cyberduck-logo.jpg" alt="" width="200"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -407,7 +438,7 @@ Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
 
 ## VIM
 
-<figure><img src="../../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt="" width="75"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt="" width="75"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -460,7 +491,7 @@ Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/
 
 ## GNU nano
 
-<figure><img src="../../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### **Description**
 
@@ -519,7 +550,7 @@ Pour sélectionner du texte, le copier et le coller :
 
 ## curl
 
-<figure><img src="../../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -543,7 +574,7 @@ Site web : [https://curl.se/](https://curl.se/)
 
 ## Htop
 
-<figure><img src="../../../../.gitbook/assets/htop-logo.png" alt="" width="243"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/htop-logo.png" alt="" width="243"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -565,7 +596,7 @@ Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
 
 <div data-full-width="false">
 
-<figure><img src="../../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure>
 
 </div>
 
@@ -590,7 +621,7 @@ Des thèmes sont également disponible : [https://github.com/aristocratos/btop](
 
 ## GPing
 
-<figure><img src="../../../../.gitbook/assets/readme-example.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/readme-example.gif" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -612,9 +643,9 @@ Source : [https://github.com/orf/gping](https://github.com/orf/gping)
 
 ## EZA
 
-<figure><img src="../../../../.gitbook/assets/screenshots.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/screenshots.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -668,9 +699,9 @@ eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-q
 
 
 
-<figure><img src="../../../../.gitbook/assets/logo (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/logo (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/arsenal.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/arsenal.gif" alt=""><figcaption></figcaption></figure>
 
 Un outil pour créez un inventaire de vos commandes Linux favorites
 

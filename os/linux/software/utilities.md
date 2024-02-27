@@ -336,6 +336,8 @@ Site internet : [https://pwr-solaar.github.io/Solaar/](https://pwr-solaar.github
 
 ## Catfish
 
+<figure><img src="../../../.gitbook/assets/catfish.png" alt="" width="168"><figcaption></figcaption></figure>
+
 #### Description
 
 Le logiciel Catfish sur Linux est un outil de recherche de fichiers.\
