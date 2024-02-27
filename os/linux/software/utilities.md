@@ -13,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 🛠 Utilitaires
+# 🛠️ Utilitaires
 
 ## CPU-X
 
@@ -333,3 +333,26 @@ Site internet : [https://pwr-solaar.github.io/Solaar/](https://pwr-solaar.github
 {% endhint %}
 
 ***
+
+## Catfish
+
+#### Description
+
+Le logiciel Catfish sur Linux est un outil de recherche de fichiers.\
+\
+C'est une application légère et simple qui vous permet de raffiner votre recherche en utilisant des critères tels que le temps, le type de fichier, etc. Il peut rechercher des fichiers n'importe où sur votre système, y compris dans les partitions montées, et même à l'intérieur des fichiers, y compris les PDF. \
+\
+De plus, il offre la possibilité de rechercher dans des fichiers compressés (.zip, .odt et .docx) et dans les fichiers cachés.
+
+#### Installation&#x20;
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install catfish
+</strong></code></pre>
+
+{% hint style="info" %}
+Source : [https://launchpad.net/catfish-search](https://launchpad.net/catfish-search)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://git.xfce.org/apps/catfish/about/](https://git.xfce.org/apps/catfish/about/)
+{% endhint %}
