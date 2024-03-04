@@ -58,11 +58,7 @@ layout:
 
 <table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Renseignement Humain à l’Ère Numérique</td><td><a href="https://intelligences-connectees.fr/newsletter/">https://intelligences-connectees.fr/newsletter</a></td></tr><tr><td>OpenFacto (membres)</td><td><a href="https://openfacto.fr/">https://openfacto.fr</a></td></tr><tr><td>Sector035</td><td><a href="https://sector035.nl/">https://sector035.nl</a></td></tr><tr><td>BellingCat</td><td><a href="https://www.bellingcat.com/">https://www.bellingcat.com</a></td></tr></tbody></table>
 
-### Jeux Vidéo
-
-<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>CanardPC</td><td></td></tr></tbody></table>
-
 ### Streaming vidéo
 
-<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Erreur2000</td><td><a href="https://erreur2000.info/">https://erreur2000.info/</a></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Erreur2000</td><td><a href="https://erreur2000.info/">https://erreur2000.info/</a></td></tr><tr><td>The Publish Press</td><td><a href="https://news.thepublishpress.com/">https://news.thepublishpress.com/</a></td></tr></tbody></table>
 
