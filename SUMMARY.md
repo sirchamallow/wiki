@@ -24,7 +24,7 @@
     * [🕹️ Jouer sur Linux](os/linux/videogames.md)
     * [👣 Ext. GNOME](os/linux/gnome-extensions.md)
   * [🐸 Microsoft | Windows 11](os/windows11.md)
-  * [🍏 Apple | MacOS](os/macos.md)
+  * [🍏 Apple | MacOS / iOS](os/macos.md)
   * [🤖 Google | Android](os/android.md)
 * [⚙️ Hardware](hardware/README.md)
   * [⚡ Electricité](hardware/electricite/README.md)
