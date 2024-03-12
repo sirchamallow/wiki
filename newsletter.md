@@ -39,6 +39,7 @@ layout:
 | Watt Else (Numerama)         | [https://www.numerama.com/vroom/1288234-numerama-lance-watt-else-la-newsletter-sur-lautomobile-electrique-et-les-nouvelles-mobilites.html](https://www.numerama.com/vroom/1288234-numerama-lance-watt-else-la-newsletter-sur-lautomobile-electrique-et-les-nouvelles-mobilites.html) |
 | Garage (Les Echos)           | [https://www.lesechos.fr/newsletters/garage-lactualite-automobile-5c7fcf3b9f5ea261a6503255](https://www.lesechos.fr/newsletters/garage-lactualite-automobile-5c7fcf3b9f5ea261a6503255)                                                                                               |
 | The Micromobility Newsletter | [https://micromobility.substack.com/](https://micromobility.substack.com/)                                                                                                                                                                                                           |
+| RideAI                       | [https://rideai.beehiiv.com](https://rideai.beehiiv.com/)                                                                                                                                                                                                                            |
 
 
 
