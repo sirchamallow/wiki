@@ -41,6 +41,16 @@ Pour découvrir quand un message vous a été envoyé, il faut glisser la bulle 
 
 {% embed url="https://support.apple.com/fr-fr/guide/iphone/iph17c111fb6/ios" %}
 
+## tvOS
+
+### Jumeler les AirPods avec un appareil Apple
+
+{% embed url="https://support.apple.com/fr-fr/guide/airpods/dev7c85810f2/web" %}
+
+### Partager l’audio avec des AirPods sur l’Apple TV 4K
+
+{% embed url="https://support.apple.com/fr-fr/guide/airpods/dev28f39a9e7/web" %}
+
 ## Divers
 
 ### Demander un remboursement pour des apps ou des contenus achetés auprès d’Apple
