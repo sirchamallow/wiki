@@ -38,14 +38,14 @@ layout:
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Watt Else (Numerama)         | [https://www.numerama.com/vroom/1288234-numerama-lance-watt-else-la-newsletter-sur-lautomobile-electrique-et-les-nouvelles-mobilites.html](https://www.numerama.com/vroom/1288234-numerama-lance-watt-else-la-newsletter-sur-lautomobile-electrique-et-les-nouvelles-mobilites.html) |
 | Garage (Les Echos)           | [https://www.lesechos.fr/newsletters/garage-lactualite-automobile-5c7fcf3b9f5ea261a6503255](https://www.lesechos.fr/newsletters/garage-lactualite-automobile-5c7fcf3b9f5ea261a6503255)                                                                                               |
-| The Micromobility Newsletter | [https://micromobility.substack.com/](https://micromobility.substack.com/)                                                                                                                                                                                                           |
+| The Micromobility Newsletter | [https://micromobility.substack.com](https://micromobility.substack.com/)                                                                                                                                                                                                            |
 | RideAI                       | [https://rideai.beehiiv.com](https://rideai.beehiiv.com/)                                                                                                                                                                                                                            |
 
 
 
 ### IA (Intelligence Artificielle)
 
-<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Génération IA</td><td><a href="https://generationia.flint.media/">https://generationia.flint.media</a></td></tr><tr><td>Synth Média</td><td><a href="https://synthmedia.fr/">https://synthmedia.fr</a></td></tr><tr><td>Evolving AI Insights</td><td><a href="https://evolvingai.io/">https://evolvingai.io</a></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Nom</th><th>Lien</th></tr></thead><tbody><tr><td>Génération IA</td><td><a href="https://generationia.flint.media/">https://generationia.flint.media</a></td></tr><tr><td>Synth Média</td><td><a href="https://synthmedia.fr/">https://synthmedia.fr</a></td></tr><tr><td>Evolving AI Insights</td><td><a href="https://evolvingai.io/">https://evolvingai.io</a></td></tr><tr><td>AI Secret</td><td><a href="https://aisecret.us/">https://aisecret.us</a></td></tr><tr><td>AI Revolution Hub</td><td><a href="https://www.ai-revolution-hub.com/subscribe">https://www.ai-revolution-hub.com</a></td></tr></tbody></table>
 
 ### Economie / Finances
 
