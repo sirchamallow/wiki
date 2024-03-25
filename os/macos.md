@@ -1,5 +1,5 @@
 ---
-description: Quelques applications, astuces pour MacOS & iOS
+description: Quelques applications, astuces pour MacOS/iOS/tvOS/watchOS
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 🍏 Apple | MacOS / iOS
+# 🍏 Apple
 
 ## MacOS
 
@@ -50,6 +50,14 @@ Pour découvrir quand un message vous a été envoyé, il faut glisser la bulle 
 ### Partager l’audio avec des AirPods sur l’Apple TV 4K
 
 {% embed url="https://support.apple.com/fr-fr/guide/airpods/dev28f39a9e7/web" %}
+
+### Découvrir où une vue aérienne a été prise
+
+Vous êtes-vous déjà demandé quel est le lieu que vous voyez sur un économiseur d’écran Vues aériennes ? Touchez simplement la surface Touch de votre télécommande Apple TV Remote quand le lieu s’affiche.
+
+{% hint style="info" %}
+Source : [https://support.apple.com/fr-fr/106002](https://support.apple.com/fr-fr/106002)
+{% endhint %}
 
 ## Divers
 
