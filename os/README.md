@@ -39,6 +39,6 @@ layout:
 
 ### Android
 
-{% content-ref url="android.md" %}
-[android.md](android.md)
+{% content-ref url="../mobile/android.md" %}
+[android.md](../mobile/android.md)
 {% endcontent-ref %}
