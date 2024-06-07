@@ -15,7 +15,7 @@ layout:
     visible: false
 ---
 
-# 💾 OS
+# 💾 Système d'exploitation
 
 ## Système d'exploitation
 
@@ -33,8 +33,8 @@ layout:
 
 ### MacOS
 
-{% content-ref url="macos.md" %}
-[macos.md](macos.md)
+{% content-ref url="macos/" %}
+[macos](macos/)
 {% endcontent-ref %}
 
 ### Android
