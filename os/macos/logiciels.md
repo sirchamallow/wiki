@@ -48,8 +48,6 @@ Site Internet : [https://www.warp.dev](https://www.warp.dev/)
 
 Navigateur web de la fondation Mozilla orientée vie privée
 
-[https://www.mozilla.org/fr/firefox/developer/](https://www.mozilla.org/fr/firefox/developer/)
-
 #### Installation
 
 ```bash
