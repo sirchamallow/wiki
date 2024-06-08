@@ -238,3 +238,27 @@ Masquer le Notch du MacBook Pro 14 / 16″ et MacBook Air (M2)
 {% hint style="success" %}
 Site Internet : [https://topnotch.app/](https://topnotch.app/)
 {% endhint %}
+
+***
+
+## Latest
+
+<figure><img src="../../.gitbook/assets/latest.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Description
+
+Maintenir automatiquement ses apps à jour sur Mac
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="info" %}
+Source : [https://github.com/mangerlahn/Latest](https://github.com/mangerlahn/Latest)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://max.codes/latest](https://max.codes/latest/)
+{% endhint %}
