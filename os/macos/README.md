@@ -17,6 +17,10 @@ layout:
 
 # 🍏 Apple | MacOS
 
-nstaller Windows sur un Mac
+{% content-ref url="astuces.md" %}
+[astuces.md](astuces.md)
+{% endcontent-ref %}
 
-##
+{% content-ref url="logiciels.md" %}
+[logiciels.md](logiciels.md)
+{% endcontent-ref %}
