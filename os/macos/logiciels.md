@@ -98,7 +98,9 @@ Découvrez divers extensions & thèmes sur ce wiki en cliquant sur le lien
 
 ## Utilitaires
 
-### WiFi Signal: Strength Analyzer
+### WiFi Signal : Strength Analyzer
+
+<figure><img src="../../.gitbook/assets/wifiexplorer_icon_large.png" alt="" width="128"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -122,6 +124,8 @@ Site Internet : [https://www.intuitibits.com/products/wifisignal/](https://www.i
 
 ### Duet Display
 
+<figure><img src="../../.gitbook/assets/duet.png" alt="" width="203"><figcaption></figcaption></figure>
+
 #### Description
 
 Duet transforme votre iPhone ou iPad dans l’écran supplementaire le plus avancé pour votre Mac & PC.
@@ -142,6 +146,8 @@ Site Internet : [https://www.duetdisplay.com/fr](https://www.duetdisplay.com/fr)
 ***
 
 ## Magnet
+
+<figure><img src="../../.gitbook/assets/sM6nXIt4XEXecpi9hpe6pYiNdxy2-zt3i3fbp.jpeg" alt="" width="367"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -165,6 +171,8 @@ Site Internet : [https://magnet.crowdcafe.com](https://magnet.crowdcafe.com/inde
 
 ## CleanMyMac X
 
+<figure><img src="../../.gitbook/assets/01BkOpQT2nohd4Ro2NRSlEg-10.webp" alt="" width="375"><figcaption></figcaption></figure>
+
 #### Description
 
 Supprimez des tonnes de fichiers inutiles ou malveillants, et accélérez et organisez votre Mac.
@@ -187,7 +195,9 @@ Site Internet : [https://macpaw.com/fr/cleanmymac](https://macpaw.com/fr/cleanmy
 
 ***
 
-## WiFi Explorer: Scanner
+## WiFi Explorer : Scanner
+
+<figure><img src="../../.gitbook/assets/wifisignal_icon_large.png" alt="" width="128"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -211,3 +221,20 @@ Site Internet : [https://www.intuitibits.com/products/wifiexplorer/](https://www
 
 ***
 
+## TopNotch
+
+<figure><img src="../../.gitbook/assets/icon2x.f367c2c.png" alt="" width="150"><figcaption></figcaption></figure>
+
+#### Description
+
+Masquer le Notch du MacBook Pro 14 / 16″ et MacBook Air (M2)
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="success" %}
+Site Internet : [https://topnotch.app/](https://topnotch.app/)
+{% endhint %}
