@@ -74,9 +74,8 @@ Variante du navigateur web de la fondation Mozilla orientée vie privée
 
 #### Installation
 
-```bash
-# Installation via le fichier d'installation #
-```
+<pre class="language-bash"><code class="lang-bash"><strong># Installation via le fichier d'installation #
+</strong></code></pre>
 
 {% hint style="info" %}
 Source : [https://firefox-source-docs.mozilla.org/devtools-user/](https://firefox-source-docs.mozilla.org/devtools-user/)
@@ -118,6 +117,26 @@ Source : [https://apps.apple.com/fr/app/wifi-signal-status-monitor/id525912054](
 
 {% hint style="success" %}
 Site Internet : [https://www.intuitibits.com/products/wifisignal/](https://www.intuitibits.com/products/wifisignal/)
+{% endhint %}
+
+***
+
+## Onyx
+
+<figure><img src="../../.gitbook/assets/onyx14.png" alt="" width="96"><figcaption></figcaption></figure>
+
+#### Description
+
+Une trousse à outils indispensable qui dispose d’une centaine de fonctionnalités, telles que, le nettoyage du Mac, la reconstruction de services défectueux, la vérification de la structure du système de fichiers, l’exécution des scripts de maintenance, la configuration des paramètres cachés du Finder, du Dock, de Safari et de plusieurs applications Apple…
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="success" %}
+Site Internet : [https://www.titanium-software.fr/fr/onyx.html](https://www.titanium-software.fr/fr/onyx.html)
 {% endhint %}
 
 ***
@@ -247,7 +266,7 @@ Site Internet : [https://topnotch.app/](https://topnotch.app/)
 
 #### Description
 
-Maintenir automatiquement ses apps à jour sur Mac
+Pour maintenir automatiquement ses apps à jour sur Mac, Vous pouvez confier la tâche à un utilitaire open-source pour macOS
 
 #### Installation
 
