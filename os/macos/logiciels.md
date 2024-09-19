@@ -40,6 +40,8 @@ Source : [https://github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp
 Site Internet : [https://www.warp.dev](https://www.warp.dev/)
 {% endhint %}
 
+***
+
 ### Firefox
 
 <figure><img src="../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-23.png" alt=""><figcaption></figcaption></figure>
@@ -281,3 +283,119 @@ Source : [https://github.com/mangerlahn/Latest](https://github.com/mangerlahn/La
 {% hint style="success" %}
 Site Internet : [https://max.codes/latest](https://max.codes/latest/)
 {% endhint %}
+
+***
+
+## Scratchpad
+
+<figure><img src="../../.gitbook/assets/image (26).png" alt="" width="128"><figcaption></figcaption></figure>
+
+#### Description
+
+Prise de notes instantanée depuis la barre de tâches
+
+#### Installation
+
+```bash
+# Installation via le Mac App Store #
+```
+
+{% hint style="info" %}
+Source : [https://apps.apple.com/app/id6504040051](https://apps.apple.com/app/id6504040051)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://sindresorhus.com/scratchpad](https://sindresorhus.com/scratchpad)
+{% endhint %}
+
+***
+
+## Menu Bar Spacing
+
+<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="128"><figcaption></figcaption></figure>
+
+#### Description
+
+Personnaliser l'espace des icônes présent dans votre barre de menu.
+
+Très pratique si vous avez beaucoup d'extensions ou un MacBook avec un notch
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="info" %}
+Source : [https://github.com/sindresorhus/menu-bar-spacing-meta/releases](https://github.com/sindresorhus/menu-bar-spacing-meta/releases)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://sindresorhus.com/menu-bar-spacing](https://sindresorhus.com/menu-bar-spacing)
+{% endhint %}
+
+***
+
+## Velja
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="128"><figcaption></figcaption></figure>
+
+#### Description
+
+Vous permets de choisir dans quel navigateur sera ouvert vos liens, et de changer ensuite
+
+#### Installation
+
+```bash
+# Installation via le Mac App Store #
+```
+
+{% hint style="info" %}
+Source : [https://apps.apple.com/app/id1607635845](https://apps.apple.com/app/id1607635845)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://sindresorhus.com/velja](https://sindresorhus.com/velja)
+{% endhint %}
+
+***
+
+## Hover for Safari
+
+#### Description
+
+Une extension pour voir une image, un lien ou un gif d'un simple survol dessus
+
+#### Installation
+
+```bash
+# Installation via le Mac App Store #
+```
+
+{% hint style="info" %}
+Source : [https://apps.apple.com/us/app/hover-for-safari/id1540705431](https://apps.apple.com/us/app/hover-for-safari/id1540705431?mt=12\&itsct=apps\_box\&itscg=30200)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://epsteinapps.com/hover-for-safari/](https://epsteinapps.com/hover-for-safari/)
+{% endhint %}
+
+***
+
+## xSearch
+
+#### Description
+
+Une extension pour Safari qui permet de changer de moteur de recherche
+
+#### Installation
+
+```bash
+# Installation via le Mac App Store #
+```
+
+{% hint style="info" %}
+Source : [https://apps.apple.com/fr/app/xsearch-for-safari/id1579902068](https://apps.apple.com/fr/app/xsearch-for-safari/id1579902068)
+{% endhint %}
+
+***
