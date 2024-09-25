@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🍁 Pierre LEMASSON | Wiki](README.md)
+* [🍁 Bienvenue 👋](README.md)
 * [💾 Système d'exploitation](os/README.md)
   * [🐧 Linux | Fedora](os/linux/README.md)
     * [💡 Astuces](os/linux/astuces.md)
