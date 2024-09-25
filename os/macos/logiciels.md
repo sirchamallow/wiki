@@ -395,7 +395,74 @@ Une extension pour Safari qui permet de changer de moteur de recherche
 ```
 
 {% hint style="info" %}
-Source : [https://apps.apple.com/fr/app/xsearch-for-safari/id1579902068](https://apps.apple.com/fr/app/xsearch-for-safari/id1579902068)
+Source : [https://apps.apple.com/us/app/hover-for-safari/id1540705431](https://apps.apple.com/us/app/hover-for-safari/id1540705431?mt=12\&itsct=apps\_box\&itscg=30200)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://epsteinapps.com/hover-for-safari/](https://epsteinapps.com/hover-for-safari/)
 {% endhint %}
 
 ***
+
+## Homebrew![Homebrew logo](https://brew.sh/assets/img/homebrew.svg)![Homebrew logo](https://brew.sh/assets/img/homebrew.svg)
+
+<figure><img src="../../.gitbook/assets/homebrew.svg" alt="" width="188"><figcaption></figcaption></figure>
+
+#### Description
+
+Un gestionnaire de paquets pour macOS gratuit et open-source écrit en Ruby.&#x20;
+
+### Installation
+
+#### Installation en ligne de commande
+
+Copiez et collez dans une fenêtre du Terminal.
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+#### Installation via package
+
+Sur MacOS, il est possible de passer par installateur `.pkg`. Téléchargez-le depuis la page "GitHub releases"
+
+```bash
+https://github.com/Homebrew/brew/releases
+```
+
+{% hint style="info" %}
+Source : [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://brew.sh/fr/](https://brew.sh/fr/)
+{% endhint %}
+
+***
+
+## MacPorts
+
+#### Description
+
+Un autre gestionnaire de paquets pour macOS
+
+**Notes** : MacPorts utilise des archives de code source, ce qui peut entraîner un léger retard pour obtenir les versions les plus récentes
+
+#### Installation via le package .pkg (recommandée)
+
+1. Téléchargez le dernier installateur `.pkg` pour votre version de macOS depuis le site officiel de MacPorts.
+2. Double-cliquez sur le fichier `.pkg` téléchargé pour lancer l'installation.
+3. Suivez les instructions à l'écran pour terminer l'installation.
+4. Une fois l'installation terminée, ouvrez un nouveau terminal et vérifiez que MacPorts est bien installé en tapant :
+
+```bash
+port version
+```
+
+{% hint style="info" %}
+Source : [https://github.com/macports/macports-base/releases/](https://github.com/macports/macports-base/releases/)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://www.macports.org](https://www.macports.org/install.php)
+{% endhint %}
