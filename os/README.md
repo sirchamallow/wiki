@@ -27,8 +27,8 @@ layout:
 
 ### Windows 11
 
-{% content-ref url="windows11.md" %}
-[windows11.md](windows11.md)
+{% content-ref url="windows11/" %}
+[windows11](windows11/)
 {% endcontent-ref %}
 
 ### MacOS
