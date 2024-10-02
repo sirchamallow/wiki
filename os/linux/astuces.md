@@ -24,7 +24,7 @@ C'est un gestinnaire de paquet basé sur RPM qui est utilisé pour installer et 
 ```bash
 sudo dnf help			# Get Help
 sudo dnf list available | more	# List All Packages
-sudo dnf list installed 	sud# List Installed Packages
+sudo dnf list installed 	# List Installed Packages
 sudo dnf info <package>		# View Package Information
 sudo dnf history                # View history transactions
 sudo dnf history userinstalled  # View history transactions of user
@@ -702,4 +702,36 @@ Le résultat de cette commande donnera des informations sur les suites de chiffr
 
 {% hint style="info" %}
 Source : [https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html](https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html)
+{% endhint %}
+
+***
+
+### Mettre en forme un fichier JSON ou YAML de façon lisible avec de la coloration depuis le terminal
+
+#### Installation de jq
+
+```bash
+sudo dnf install jq
+```
+
+{% hint style="info" %}
+Source : [https://jqlang.github.io/jq](https://jqlang.github.io/jq/)
+{% endhint %}
+
+Exemple : &#x20;
+
+<figure><img src="../../.gitbook/assets/GY1INSlWQAEJ8oF.jpg" alt=""><figcaption></figcaption></figure>
+
+#### Installation de yq
+
+Sur Fedora, vous pouvez installer yq via Snapcraft
+
+```bash
+sudo dnf install snapd		      # Enable Snapd
+sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the following to create a symbolic link
+sudo snap install yq		      # Install yq
+```
+
+{% hint style="info" %}
+Source : [https://github.com/mikefarah/yq/#install](https://github.com/mikefarah/yq/#install)
 {% endhint %}
