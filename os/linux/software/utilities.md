@@ -358,3 +358,34 @@ Source : [https://gitlab.xfce.org/apps/catfish](https://gitlab.xfce.org/apps/cat
 {% hint style="success" %}
 Site internet : [https://git.xfce.org/apps/catfish/about/](https://git.xfce.org/apps/catfish/about/)
 {% endhint %}
+
+***
+
+## WoeUSB-ng
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="256"><figcaption></figcaption></figure>
+
+#### Description
+
+Un outil permettant de créer votre propre clé usb à partir d'une image iso ou d'un vrai DVD. \
+Il s'agit d'une réécriture de WoeUSB original.
+
+#### Installation
+
+```bash
+## Installer les dépendances
+sudo dnf install git p7zip p7zip-plugins python3-pip python3-wxpython4
+
+## Installer WoeUSB-ng
+sudo pip3 install WoeUSB-ng
+```
+
+{% hint style="info" %}
+Source : [https://github.com/WoeUSB/WoeUSB-ng](https://github.com/WoeUSB/WoeUSB-ng)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet :&#x20;
+{% endhint %}
+
+***
