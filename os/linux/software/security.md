@@ -2,7 +2,7 @@
 description: Liste de logiciels de sécurités
 ---
 
-# 🛡 Sécurité
+# 🛡️ Sécurité
 
 ## firewalld
 
@@ -140,7 +140,7 @@ Installation avec le paquet RPM :  [https://github.com/rustdesk/rustdesk/release
 
 <figure><img src="../../../.gitbook/assets/Bitwarden_2022_Logo.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Il existe plusieurs possiblitées d'installer Bitwarden sur Fedora, je préfère vous sélectionner celles-ci (via Snap), car il sera possible de mettre à jour le soft régulièrement.&#x20;
+Il existe plusieurs possiblités d'installer Bitwarden sur Fedora, je préfère vous sélectionner celles-ci (via Snap), car il sera possible de mettre à jour le soft régulièrement.&#x20;
 
 #### Installation manuel
 
@@ -218,4 +218,30 @@ Sniffnet est un outil technique open-source qui se concentre fortement sur l'ens
 
 {% hint style="success" %}
 Site internet : [https://sniffnet.net/download/](https://sniffnet.net/download/)
+{% endhint %}
+
+***
+
+## CVEmap
+
+Un outil d'interface de ligne de commande (CLI) conçu pour fournir une interface structurée et facilement navigable à diverses bases de données de vulnérabilité (CVE)
+
+Notes : pratique pour les amoureux du terminal. Pour les autres, vous avez aussi [CVEdetails](https://www.cvedetails.com/) qui est une bonne référence en la matière
+
+#### Installation
+
+{% hint style="info" %}
+Pré-requis : **Go** est nécéssaire
+{% endhint %}
+
+```bash
+## Installer Go
+sudo dnf install golang
+
+## Installer CVEmap
+sudo go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
+```
+
+{% hint style="success" %}
+Site : [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
 {% endhint %}
