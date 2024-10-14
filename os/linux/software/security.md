@@ -212,7 +212,7 @@ Source : [https://1password.com/fr/downloads/linux/](https://1password.com/fr/do
 
 #### Description
 
-Sniffnet est un outil technique open-source qui se concentre fortement sur l'ensemble de l'expérience de l'utilisateur. La plupart des analyseurs de réseau sont encombrants à utiliser, tandis que l'une des pierres angulaires de Sniffnet est d'êtreutilisable avec facilité par tout le monde.
+Sniffnet est un outil technique open-source qui se concentre fortement sur l'ensemble de l'expérience de l'utilisateur. La plupart des analyseurs de réseau sont encombrants à utiliser, tandis que l'une des pierres angulaires de Sniffnet est d'être utilisable avec facilité par tout le monde.
 
 #### Installation
 
@@ -223,6 +223,8 @@ Site internet : [https://sniffnet.net/download/](https://sniffnet.net/download/)
 ***
 
 ## CVEmap
+
+<figure><img src="../../../.gitbook/assets/cvemap.png" alt=""><figcaption></figcaption></figure>
 
 Un outil d'interface de ligne de commande (CLI) conçu pour fournir une interface structurée et facilement navigable à diverses bases de données de vulnérabilité (CVE)
 
