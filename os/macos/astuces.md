@@ -16,14 +16,16 @@ Si vous désirez copier-coller le chemin d’accès d’un fichier sur Mac, il f
 \
 Vous verrez comme dans notre exemple apparaître « copier « nom\_du\_fichier.mp3 » en tant que nom de chemin ».
 
-### Installer Windows sur un Mac non récent avec Boot Camp
+## Comment forcer la fermeture d’une app sur votre Mac
 
-{% embed url="https://support.apple.com/fr-fr/guide/bootcamp-assistant" %}
-
-### Comment forcer la fermeture d’une app sur votre Mac
+Si une app cesse de répondre et que vous ne pouvez pas la quitter normalement, suivez ces étapes pour forcer sa fermeture.
 
 {% embed url="https://support.apple.com/fr-fr/102586" %}
 
-### Prendre des captures d’écran
+## Installer Windows sur un Mac non récent avec Boot Camp
+
+{% embed url="https://support.apple.com/fr-fr/guide/bootcamp-assistant" %}
+
+## Prendre des captures d’écran
 
 {% embed url="https://support.apple.com/fr-fr/guide/mac-help/mh26782/mac" %}

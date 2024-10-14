@@ -143,7 +143,7 @@ Site Internet : [https://www.titanium-software.fr/fr/onyx.html](https://www.tita
 
 ***
 
-### Duet Display
+## Duet Display
 
 <figure><img src="../../.gitbook/assets/duet.png" alt="" width="203"><figcaption></figcaption></figure>
 
@@ -412,7 +412,7 @@ Site Internet : [https://epsteinapps.com/hover-for-safari/](https://epsteinapps.
 
 Un gestionnaire de paquets pour macOS gratuit et open-source écrit en Ruby.&#x20;
 
-### Installation
+#### Installation
 
 #### Installation en ligne de commande
 
@@ -466,3 +466,24 @@ Source : [https://github.com/macports/macports-base/releases/](https://github.co
 {% hint style="success" %}
 Site Internet : [https://www.macports.org](https://www.macports.org/install.php)
 {% endhint %}
+
+***
+
+## MicMac
+
+#### Description
+
+Un outil gratuit permettant la configuration rapide, le nettoyage et la maintenance quotidienne du système macOS. Il est développé par [**Denis Dubois**](https://x.com/dedubo), rédacteur pour le magazine [VVMac Hebdo](https://www.vvmac.com/), l'utilitaire s’inspire de l’application populaire [Onyx](https://www.justgeek.fr/onyx-un-utilitaire-de-nettoyage-complet-pour-votre-mac-83684/). \
+\
+La différence ? MicMac intègre des fonctionnalités supplémentaires qui le rendent encore plus efficace pour personnaliser et maintenir votre ordinateur en parfaite santé
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="success" %}
+Site Internet : [https://www.micmac-app.fr/fr](https://www.micmac-app.fr/fr/index.html)
+{% endhint %}
+
