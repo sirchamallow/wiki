@@ -56,6 +56,7 @@
   * [💠 Resizing.app](logiciels/resizing.app.md)
 * [🛴 Mobilité](mobilite.md)
 * [📩 Newsletter](newsletter.md)
+* [💼 Emploi](emploi.md)
 * [✨ Ressources](articles/README.md)
   * [😶 Kaomoji japonais](articles/kaomoji-japonais.md)
   * [🔗 Construire des logiciels, ensemble, avec Git](articles/build-with-git.md)
