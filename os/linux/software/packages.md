@@ -114,6 +114,18 @@ sudo dnf install snapd
 Source : [https://snapcraft.io/docs/installing-snap-on-fedora](https://snapcraft.io/docs/installing-snap-on-fedora)
 {% endhint %}
 
+### Exemple de commandes de base <a href="#exemple-de-commandes-de-base" id="exemple-de-commandes-de-base"></a>
+
+* Installer un paquet : `sudo snap install <nom_du_snap>`
+* Lister les paquets installés : `sudo snap list`
+* Mettre à jour les snaps : `sudo snap refresh`
+* Supprimer un paquet : `sudo snap remove <nom_du_snap>`
+
+### Commandes avancées <a href="#commandes-avancees" id="commandes-avancees"></a>
+
+* Changer le cannal du snap (beta, stable, ...) : `sudo snap install <nom_du_snap> -channel=<cannal_souhaité>`
+* Repasser le snap sur le cannal stable : `sudo snap revert <nom_du_snap>`
+
 ***
 
 ## AppImage
