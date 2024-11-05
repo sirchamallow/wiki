@@ -24,7 +24,7 @@
     * [🕹️ Jouer sur Linux](os/linux/videogames.md)
     * [👣 Ext. GNOME](os/linux/gnome-extensions.md)
   * [🐸 Microsoft | Windows 11](os/windows11/README.md)
-    * [⌨️ Commandes Powershell](os/windows11/commandes-powershell.md)
+    * [⌨️ Powershell](os/windows11/powershell.md)
     * [Astuces de la Win](os/windows11/astuces-de-la-win.md)
   * [🍏 Apple | MacOS](os/macos/README.md)
     * [😎 Astuces](os/macos/astuces.md)
