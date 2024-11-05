@@ -64,10 +64,8 @@ Clear-DnsClientCache                  # Effacer le cache local DNS
 ### Contrôle à distance <a href="#controle-a-distance" id="controle-a-distance"></a>
 
 ```powershell
-Enable-PSRemoting # Enable PowerShell remoting locally
-Enter-PSSession computername -Credential username # Connect to a remote computer
-Invoke-Command -ComputerName computername -ScriptBlock {commands to execute} -Credential username # Execute the script block contents on the remote computer
-$SessionName = New-PSSession computername -Credential username # Store a persistent session in a variable which can be used with Enter-PSSession or Invoke-Command
+Enable-PSRemoting                                 # Activer la possibilitée des sessions PowerShell distantes sur la machine locale 
+Enter-PSSession computername -Credential username # Connexion à un ordinateur distant
 ```
 
 ### Gestion du système <a href="#gestion-du-systeme" id="gestion-du-systeme"></a>
