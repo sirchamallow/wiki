@@ -143,15 +143,6 @@ Pour mettre à jour le **Microsoft Store** : sélectionnez le bouton **Démarrer
 
 ## Astuces
 
-### Télémétrie pilotes carte graphique Nvidia
-
-Penser à désactiver la télémétrie activé par défaut de la suite _GeForce Experience_, un logiciel de **Nvidia** accompagnant bien souvent les drivers de la carte graphique. Ils remontent automatiquement des informations sur votre système au fabricant. \
-Avec le refrain classique "nous nous servons de cette télémétrie pour améliorer ses pilotes et l'expérience de ses utilisateurs". Mais comme tout est chiffré, il n'y aucun moyen de savoir ce qui est envoyé réellement. Il n'est possible de désactiver cette option depuis l'interface des pilotes.\
-\
-Il vous sera nécessaire soit de vous plonger dans les tâches planifiées, le registre et les services de Windows en suivant par exemple [ce guide de PC-Astuces](https://www.pcastuces.com/pratique/astuces/4871.htm), ou un installant [ce package depuis Chocolatey](https://chocolatey.org/packages/disable-nvidia-telemetry).
-
-### **Désactiver les services inutiles**
-
-Pour des solutions officielles concernant l'optimisation de windows, afin de Désactiver les services inutiles il y a... le site de Microsoft (:
-
-{% embed url="https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/optimize-your-device/services" %}
+{% content-ref url="astuces-de-la-win.md" %}
+[astuces-de-la-win.md](astuces-de-la-win.md)
+{% endcontent-ref %}
