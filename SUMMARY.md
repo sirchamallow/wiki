@@ -55,6 +55,7 @@
   * [📤 Firefox Send](logiciels/firefox-send.md)
   * [💻 RecordScreen](logiciels/recordscreen.md)
   * [💠 Resizing.app](logiciels/resizing.app.md)
+  * [Outils PDF](logiciels/outils-pdf.md)
 * [🛴 Mobilité](mobilite.md)
 * [📩 Newsletter](newsletter.md)
 * [💼 Emploi](emploi.md)
