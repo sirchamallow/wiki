@@ -61,6 +61,7 @@
 * [📩 Newsletter](newsletter.md)
 * [💼 Emploi](emploi.md)
 * [✨ Ressources](articles/README.md)
+  * [Flouter votre domicile sur Google Maps](articles/flouter-votre-domicile-sur-google-maps.md)
   * [😶 Kaomoji japonais](articles/kaomoji-japonais.md)
   * [🔗 Construire des logiciels, ensemble, avec Git](articles/build-with-git.md)
   * [💡 Créer une playlist de webradios](articles/creer-une-playlist-de-webradios.md)
