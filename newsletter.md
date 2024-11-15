@@ -21,6 +21,7 @@ layout:
 * [https://www.mailchimp.com](https://www.mailchimp.com)
 * [https://www.kessel.media](https://www.kessel.media/)
 * [https://buttondown.email](https://buttondown.email/)
+* [https://www.mailerlite.com](https://www.mailerlite.com)
 
 ## Sélection
 
