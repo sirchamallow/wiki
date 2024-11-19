@@ -61,6 +61,7 @@
 * [📩 Newsletter](newsletter.md)
 * [💼 Emploi](emploi.md)
 * [✨ Ressources](articles/README.md)
+  * [Conversion temporelle](articles/conversion-temporelle.md)
   * [Flouter votre domicile sur Google Maps](articles/flouter-votre-domicile-sur-google-maps.md)
   * [😶 Kaomoji japonais](articles/kaomoji-japonais.md)
   * [🔗 Construire des logiciels, ensemble, avec Git](articles/build-with-git.md)
