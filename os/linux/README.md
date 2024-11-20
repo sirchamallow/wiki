@@ -1,14 +1,14 @@
 ---
-description: Linux
+description: Linux REHL
 ---
 
-# 🐧 Fedora
-
-## Présentation
-
-Fedora Linux est un système d’exploitation libre et une distribution Linux communautaire développée par le projet Fedora et sponsorisée par l’entreprise Red Hat, qui lui fournit des développeurs ainsi que des moyens financiers et logistiques. ([Wikipedia](https://fr.wikipedia.org/wiki/Fedora\_Linux))
+# 🐧 Linux | Fedora
 
 ### Navigation
+
+{% content-ref url="rehl-multiverse.md" %}
+[rehl-multiverse.md](rehl-multiverse.md)
+{% endcontent-ref %}
 
 {% content-ref url="astuces.md" %}
 [astuces.md](astuces.md)

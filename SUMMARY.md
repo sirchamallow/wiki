@@ -3,6 +3,7 @@
 * [🍁 Bienvenue 👋](README.md)
 * [💾 Système d'exploitation](os/README.md)
   * [🐧 Linux | Fedora](os/linux/README.md)
+    * [REHL multiverse](os/linux/rehl-multiverse.md)
     * [💡 Astuces](os/linux/astuces.md)
     * [👨‍💻 DEV tools](os/linux/dev-tools/README.md)
       * [📑 Langages](os/linux/dev-tools/langages.md)
