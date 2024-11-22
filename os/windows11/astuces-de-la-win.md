@@ -47,6 +47,6 @@ Il vous sera nécessaire soit de vous plonger dans les tâches planifiées, le r
 
 ## **Désactiver les services inutiles**
 
-Pour des solutions officielles concernant l'optimisation de Windows, afin de Désactiver les services inutiles**,** il y a... le site de Microsoft (:
+Pour des solutions officielles concernant l'optimisation de Windows, afin de Désactiver les services inutile&#x73;**,** il y a... le site de Microsoft (:
 
 {% embed url="https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/optimize-your-device/services" %}

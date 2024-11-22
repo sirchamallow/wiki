@@ -17,7 +17,7 @@ layout:
 
 Plus d'informations sur le Markdown
 
-### Styles de texte
+## Styles de texte
 
 Vous pouvez utiliser `_` ou `*` autour d'un mot pour le mettre en italique. Mettez-en deux pour le mettre en gras.
 
@@ -25,9 +25,11 @@ Vous pouvez utiliser `_` ou `*` autour d'un mot pour le mettre en italique. Mett
 * `**gras**` s'affiche ainsi : **gras**
 * `**_gras-italique_**` s'affiche ainsi : _**gras-italique**_
 * `~~barré~~` s'affiche ainsi : ~~barré~~
-* \++`barré`++ s'affiche ainsi : surbrillance
+* ++`barré`++ s'affiche ainsi : surbrillance
 
-### Blocs de code
+***
+
+## Blocs de code
 
 Créez un bloc de code en indentant chaque ligne avec quatre espaces, ou en mettant trois accents graves sur la ligne au dessus et en dessous de votre code. Exemple :
 
@@ -39,7 +41,9 @@ s'affiche ainsi :
 bloc de code
 ```
 
-### Liens
+***
+
+## Liens
 
 Créez un lien intégré en mettant le texte désiré entre crochets et le lien associé entre parenthèses.
 
@@ -49,7 +53,9 @@ s'affichera :
 
 Top [le wiki de sirchamallow](https://sirchamallow.gitbook.io/wiki/)
 
-### Images
+***
+
+## Images
 
 Utilisez une image en ligne en copiant son adresse (finissant par `.jpg`, `.png`, `.gif` etc…) avec un texte alternatif entre crochets (qui sera affiché si l'image n'apparaît pas) et le lien entre parenthèses. Vous pouvez aussi ajouter un texte qui apparaîtra au survol de la souris grâce aux `"`.
 
@@ -63,13 +69,11 @@ On peut ajouter un texte au survol :
 ![Le logo de Framasoft](https://framasoft.org/nav/img/logo.png "Un bien beau logo !")
 ```
 
-Qui donnera (survolez l'image avec votre souris pour voir apparaître le texte) :
+En survolant l'image avec votre souris le texte apparaîtra :)
 
-### Video
+***
 
-
-
-### Citation
+## Citation
 
 Les citations se font avec le signe `>` :
 
@@ -79,11 +83,13 @@ Les citations se font avec le signe `>` :
 
 > Oh la belle prise !
 
-### Listes
+***
+
+## Listes
 
 Vous pouvez créer des listes avec les caractères `*` et `-` pour des listes non ordonnées ou avec des nombres pour des listes ordonnées.
 
-#### Une liste non ordonnée :
+### Liste non ordonnée
 
 ```
 * une élément
@@ -99,7 +105,7 @@ Vous pouvez créer des listes avec les caractères `*` et `-` pour des listes no
   * un autre sous élément
 * un dernier élément
 
-#### Une liste ordonnée :
+### Liste ordonnée
 
 ```
 1. élément un
@@ -109,7 +115,7 @@ Vous pouvez créer des listes avec les caractères `*` et `-` pour des listes no
 1. élément un
 2. élément deux
 
-### Une liste de tâches
+### Liste de tâches
 
 ```markdown
 - [x] #42
@@ -118,10 +124,12 @@ Vous pouvez créer des listes avec les caractères `*` et `-` pour des listes no
 ```
 
 * [x] \#739&#x20;
-* [ ] https://github.com/octo-org/octo-repo/issues/740
-* [ ] Add delight to the experience when all tasks are complete :tada:
+* [ ] [https://sir.chamallow.com-liste-de-taches/](https://sir.chamallow.com-liste-de-taches/)
+* [ ] Lire l'expérience
 
-### Notes de bas de page <a href="#footnotes" id="footnotes"></a>
+***
+
+## Notes de bas de page <a href="#footnotes" id="footnotes"></a>
 
 Vous pouvez ajouter des notes de bas de page à votre contenu à l’aide de cette syntaxe entre crochets :
 
@@ -145,7 +153,9 @@ Les notes de bas de page ne sont pas prises en charge dans les wikis.
 
 Source : [Docs GitHub](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
 
-### Titres
+***
+
+## Titres
 
 Pour faire un titre, vous devez mettre un `#` devant la ligne. Pour faire un titre plus petit, ajoutez un `#` (jusque 6) :
 
@@ -176,11 +186,15 @@ Un grand titre
 =============
 ```
 
-### Ligne Horizontale
+***
+
+## Ligne Horizontale
 
 Markdown code: `---`
 
-### Tableaux
+***
+
+## Tableaux
 
 Pour créer un tableau vous devez placer une ligne de tirets (`-`) sous la ligne d'entête et séparer les colonnes avec des `|`. Vous pouvez aussi préciser l'alignement en utilisant des `:`. :
 
@@ -218,7 +232,9 @@ Pour créer un tableau vous devez placer une ligne de tirets (`-`) sous la ligne
 
 <table><thead><tr><th width="249.33333333333331">Aligné à droite</th><th>Ce texte est</th><th>Aligné à droite</th></tr></thead><tbody><tr><td>                Aligné</td><td>        ce texte</td><td>                 Aligné</td></tr><tr><td>             Aligné à</td><td>                est</td><td>              Aligné à</td></tr><tr><td> Aligné à droite</td><td>        à droite</td><td>   Aligné à droite</td></tr></tbody></table>
 
-### Alertes
+***
+
+## Alertes
 
 **Insert a tip box**\
 Markdown code: `| This is a tip.`

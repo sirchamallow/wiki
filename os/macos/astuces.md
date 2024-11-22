@@ -20,7 +20,7 @@ Pour les masquer à nouveau, réutilisez la combinaison **`⌘ + ⇧ + .`** dans
 
 ### Afficher le chemin d’accès d’un fichier sur Mac
 
-Si vous désirez copier-coller le chemin d’accès d’un fichier sur Mac, il faut vous rendre sur le fichier, **faire un clic droit** puis maintenir appuyer la touche**`⌥ (alt)`.** \
+Si vous désirez copier-coller le chemin d’accès d’un fichier sur Mac, il faut vous rendre sur le fichier, **faire un clic droit** puis maintenir appuyer la touch&#x65;**`⌥ (alt)`.** \
 \
 Vous verrez comme dans notre exemple apparaître « copier « nom\_du\_fichier.mp3 » en tant que nom de chemin ».
 

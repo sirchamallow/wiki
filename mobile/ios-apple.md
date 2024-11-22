@@ -1,4 +1,5 @@
 ---
+icon: apple-whole
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 📱 Apple | iOS
+# iOS (Apple)
 
 ## Messages
 

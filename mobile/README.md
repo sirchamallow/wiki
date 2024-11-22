@@ -1,2 +1,6 @@
-# 📳 Mobile
+---
+icon: mobile-notch
+---
+
+# Mobile
 

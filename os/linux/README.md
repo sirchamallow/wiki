@@ -1,8 +1,9 @@
 ---
 description: Linux REHL
+icon: linux
 ---
 
-# 🐧 Linux | Fedora
+# Fedora (Linux)
 
 ### Navigation
 

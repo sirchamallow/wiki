@@ -1,5 +1,6 @@
 ---
 description: Astuces & Liste d'appplications pour Windows 10/11
+icon: windows
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🐸 Microsoft | Windows 11
+# Windows 11
 
 {% hint style="info" %}
 Avant-Propos : j'utilise principalement Fedora. Toutefois quand j'ai besoin de jouer à des jeux vidéos, je bascule sur Windows11 (et j'ai longtemps utiliser cet OS)

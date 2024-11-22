@@ -16,6 +16,14 @@ layout:
 
 Vous trouvez dans cette section, des articles sur différents sujets de la tech et du web. Certains sont extraits de mon blog
 
+{% content-ref url="conversion-temporelle.md" %}
+[conversion-temporelle.md](conversion-temporelle.md)
+{% endcontent-ref %}
+
+{% content-ref url="flouter-votre-domicile-sur-google-maps.md" %}
+[flouter-votre-domicile-sur-google-maps.md](flouter-votre-domicile-sur-google-maps.md)
+{% endcontent-ref %}
+
 {% content-ref url="kaomoji-japonais.md" %}
 [kaomoji-japonais.md](kaomoji-japonais.md)
 {% endcontent-ref %}
@@ -54,6 +62,10 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 
 {% content-ref url="wifi.md" %}
 [wifi.md](wifi.md)
+{% endcontent-ref %}
+
+{% content-ref url="telecoms.md" %}
+[telecoms.md](telecoms.md)
 {% endcontent-ref %}
 
 {% content-ref url="statuspage.md" %}

@@ -2,6 +2,7 @@
 description: >-
   Quelques applications, astuces pour MacOS principalement, mais aussi iOS, tvOS
   et watchOS
+icon: apple-whole
 layout:
   title:
     visible: true
@@ -15,7 +16,7 @@ layout:
     visible: false
 ---
 
-# 🍏 Apple | MacOS
+# MacOS (Apple)
 
 {% content-ref url="astuces.md" %}
 [astuces.md](astuces.md)

@@ -2,6 +2,7 @@
 description: >-
   La section qui regroupe des logiciels, outils, astuces pour chaque système
   d'exploitation
+icon: display
 layout:
   title:
     visible: true
@@ -15,7 +16,7 @@ layout:
     visible: false
 ---
 
-# 💾 Système d'exploitation
+# Système d'exploitation
 
 ## Système d'exploitation
 

@@ -1,8 +1,9 @@
 ---
 description: Redimensionner une image en ligne
+icon: arrows-retweet
 ---
 
-# 💠 Resizing.app
+# Resizing.app
 
 <figure><img src="https://sir.chamallow.com/wp-content/uploads/2020/06/Resinzing.app_-_screenshot.png" alt=""><figcaption></figcaption></figure>
 

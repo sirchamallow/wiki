@@ -1,10 +1,11 @@
 ---
 description: Transformer une Page Facebook en Flux RSS
+icon: square-facebook
 ---
 
 # Facebook > RSS
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 Voici quelques outils vous permettant de transformer un contenu (activé, pages etc.) Facebook en Flux RSS 😎👍. Chose possible avant, mais depuis le 23 Juin 2015 cette fonctionnalité à été supprimer par FB 👎. J’ai trouvé certains des outils sur [RSS Circus](https://www.scoop.it/t/rss).
 

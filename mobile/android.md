@@ -1,5 +1,6 @@
 ---
 description: Astuces, informations, outils...
+icon: android
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🤖 Android
+# Android (Google)
 
 ## Astuces
 

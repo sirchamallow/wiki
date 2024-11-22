@@ -23,7 +23,7 @@ Pour accéder au menu du bios, appuyer sur la touche `F2` au démarrage ou `F7` 
 Kernel module pour le rétroéclairage du clavier
 
 {% hint style="warning" %}
-Pré-requis : Assurez-vous que**`kernel-devel`**soit installé pour la version du noyau en cours d'exécution
+Pré-requis : Assurez-vous qu&#x65;**`kernel-devel`**&#x73;oit installé pour la version du noyau en cours d'exécution
 {% endhint %}
 
 ```bash

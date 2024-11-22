@@ -22,9 +22,9 @@ Le développement logiciel fonctionne de manière semblable : des développeur·
 
 ## 🤔 **Qu’est-ce qu’un logiciel ?**
 
-**Ce qu’on appelle logiciel, dans sa forme la plus courante, n’est rien d’autre qu’un ensemble de fichiers texte, également appelée une base de code (ou **_**codebase**_**, en anglais).** Ces fichiers texte contiennent des instructions pouvant être exécutées par un ordinateur. Oui, le travail de développement consiste seulement à écrire des choses.
+**Ce qu’on appelle logiciel, dans sa forme la plus courante, n’est rien d’autre qu’un ensemble de fichiers texte, également appelée une base de code (ou&#x20;**_**codebase**_**, en anglais).** Ces fichiers texte contiennent des instructions pouvant être exécutées par un ordinateur. Oui, le travail de développement consiste seulement à écrire des choses.
 
-Bien sûr, en tant que développeuse ou développeur, **vous devez penser à **_**ce**_** que vous écrivez. Comme un·e écrivain·e 😉** . Si vous avez déjà travaillé sur une thèse, ou sur toute forme de rédaction longue, vous avez rencontré de nombreux problèmes rencontrés lorsque des développeur·euses cherchent à travailler sur le même logiciel.
+Bien sûr, en tant que développeuse ou développeur, **vous devez penser à&#x20;**_**ce**_**&#x20;que vous écrivez. Comme un·e écrivain·e 😉** . Si vous avez déjà travaillé sur une thèse, ou sur toute forme de rédaction longue, vous avez rencontré de nombreux problèmes rencontrés lorsque des développeur·euses cherchent à travailler sur le même logiciel.
 
 Lorsque vous êtes en pleine rédaction, vous aurez besoin assez souvent de :
 
@@ -40,7 +40,7 @@ Le développement logiciel rencontre _exactement_ les mêmes problèmes. Mais en
 
 ## **Et un jour, linus torvalds créa git 😉**
 
-![](https://i1.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/03/git\_logo.png?ssl=1)
+![](https://i1.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/03/git_logo.png?ssl=1)
 
 Git, et les plateformes associées, telles que [GitHub](https://github.com/), sont une tentative pour résoudre les problèmes mentionnés dans la section précédente. **Git permet à des personnes de contribuer à une même base de code d’une façon saine et efficace.** Néanmoins, pour pouvoir le faire, il est nécessaire de repenser la façon dont on devrait collaborer, et introduire de nouveaux concepts. Tout cela représente du jargon pour toute nouvelle personne, et c’est particulièrement difficile à assimiler, c’est pourquoi je vais tenter de démystifier tout ça.
 
@@ -74,7 +74,7 @@ Vous vous rappelez sans doute que j’ai mentionné trois fonctionnalités souha
 
 [Git Branches](https://fr.atlassian.com/git/tutorials/using-branches/git-checkout) – ([CC BY 2.5 AU](https://creativecommons.org/licenses/by/2.5/au/))
 
-![](https://i2.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/03/git\_branches.png?ssl=1)
+![](https://i2.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/03/git_branches.png?ssl=1)
 
 Le dixième jour, Alice décide de tenter une expérience avec quelque chose de nouveau 🆕, mais elle n’est pas certaine que ça fonctionne. Pour commencer à bidouiller son idée, elle crée ce que git appelle _une branche_. **Vous pouvez vous représenter les branches comme des routes, se séparant parfois en deux. Au bout du compte, deux routes peuvent se rejoindre, mais ce n’est pas obligatoire.**
 
@@ -132,7 +132,7 @@ Elle est très productive, et crée quelques commits sur cette branche :
 
 Puisqu’elle est satisfaite par ses changements, elle décide de _fusionner_ (_merge_, en anglais) la branche _expérimentale_ au sein de la branche _master_.
 
-![](https://i1.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/03/git\_merging.gif?ssl=1)
+![](https://i1.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/03/git_merging.gif?ssl=1)
 
 C’est la façon de git d’appliquer les changements d’une branche sur une autre. Vous vous rappelez de l’analogie des routes que j’ai faite ? C’est comme ça qu’une fusion peut être représentée :
 
@@ -170,7 +170,7 @@ Lorsque la fusion est faite, la branche _expérimentale_ est supprimée, et ses 
 
 Si, pour une quelconque raison, Alice n’était pas satisfaite par son expérience, elle aurait pu la supprimer sans la fusionner, et la branche `master` n’aurait pas été affectée. **Les branches sont un concept puissant, mais également difficile à appréhender dans git**.
 
-![](https://i0.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/i2.wp.com/sir.chamallow.com/wp-content/uploads/2019/03/Git\_branch\_meme.jpg?ssl=1)
+![](https://i0.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/i2.wp.com/sir.chamallow.com/wp-content/uploads/2019/03/Git_branch_meme.jpg?ssl=1)
 
 Elles sont utiles pour expérimenter sans risques, mais permettent aussi la collaboration, ce que nous allons voir dans la section suivante.
 
@@ -302,7 +302,7 @@ Les tickets, également appelés « rapports de bugs » ou « demande d’ajout 
 * Suggérer une amélioration ou une nouvelle fonctionnalité
 * Poser une question sur le comportement du logiciel
 
-**Les tickets sont **_**extrêmement**_** utiles, parce qu’ils constituent la mémoire d’un projet, et fournissent aussi un aperçu des développements futurs, des demandes populaires et des problèmes habituels que rencontre une communauté.**
+**Les tickets sont&#x20;**_**extrêmement**_**&#x20;utiles, parce qu’ils constituent la mémoire d’un projet, et fournissent aussi un aperçu des développements futurs, des demandes populaires et des problèmes habituels que rencontre une communauté.**
 
 Les autres personnes peuvent généralement ajouter des commentaires sur les tickets, discuter des solutions possibles et des écueils à éviter, fournir des solutions de contournement, etc. Quand un développement est nécessaire pour résoudre un ticket ou ajouter une fonctionnalité, un·e développeur·se créera généralement une branche, travaillera sur une solution, puis soumettra une pull request avec les changements. Une fois cette pull request acceptée, le ticket en lien est généralement fermé.
 

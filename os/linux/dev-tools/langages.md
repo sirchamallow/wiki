@@ -170,7 +170,7 @@ sudo dnf install rubygem-bundler
 ```
 
 {% hint style="success" %}
-La commande **`bundle`**devrait être ensuite disponible sur votre système.
+La commande **`bundle`**&#x64;evrait être ensuite disponible sur votre système.
 {% endhint %}
 
 ### Ruby on Rails

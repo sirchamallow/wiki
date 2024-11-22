@@ -1,8 +1,9 @@
 ---
 description: Extensions & Thèmes pour Firefox
+icon: firefox
 ---
 
-# 🦊 Firefox
+# Mozilla Firefox
 
 ### Raccourcis
 
@@ -12,15 +13,13 @@ description: Extensions & Thèmes pour Firefox
 | Restaurer un onglet récemment fermé                     | `Ctrl` + `Maj` + `T`                                                                                |
 | Enregistrez tous vos onglets ouverts comme marque-pages | `CTRL` + `Maj` + `D`                                                                                |
 
-
-
 {% hint style="info" %}
 Liste complète des raccourcis [ici](https://support.mozilla.org/fr/kb/raccourcis-clavier).
 {% endhint %}
 
 #### Raccourcis pour développeurs et développeuses <a href="#w_raccourcis-pour-developpeurs-et-developpeuses" id="w_raccourcis-pour-developpeurs-et-developpeuses"></a>
 
-Vous pouvez également utiliser des raccourcis clavier avec les outils pour développeurs et développeuses dans Firefox. Consultez la [page des raccourcis clavier](https://developer.mozilla.org/docs/Tools/Keyboard\_shortcuts) sur le site _MDN web docs_.
+Vous pouvez également utiliser des raccourcis clavier avec les outils pour développeurs et développeuses dans Firefox. Consultez la [page des raccourcis clavier](https://developer.mozilla.org/docs/Tools/Keyboard_shortcuts) sur le site _MDN web docs_.
 
 ### Themes
 

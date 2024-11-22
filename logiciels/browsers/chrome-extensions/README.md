@@ -1,8 +1,9 @@
 ---
 description: Extensions & Thèmes pour Google Chrome
+icon: chrome
 ---
 
-# 🛃 Google Chrome
+# Google Chrome
 
 ## Extensions
 

@@ -2,6 +2,7 @@
 description: >-
   Des extensions, thèmes, astuces pour rendre plus agréable votre navigation sur
   les internets
+icon: circle
 layout:
   title:
     visible: true
@@ -15,7 +16,7 @@ layout:
     visible: false
 ---
 
-# 🌐 Navigateurs Web
+# Navigateurs Web
 
 ## Mozilla Firefox
 
