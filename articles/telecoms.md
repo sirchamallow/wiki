@@ -2,9 +2,10 @@
 description: >-
   Quelques liens pratiques concernant les réseaux de télécommunications en
   France
+icon: headset
 ---
 
-# 📞 Telecoms
+# Telecoms
 
 ## Panne réseau mobile FAI
 

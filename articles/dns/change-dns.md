@@ -1,5 +1,6 @@
 ---
 description: Voici les méthodes pour effectuer le changement de DNS sur votre machine
+icon: arrows-rotate-reverse
 layout:
   title:
     visible: true
@@ -13,13 +14,15 @@ layout:
     visible: false
 ---
 
-# ↪ Changer ses DNS
+# Changer ses DNS
 
 ## Pourquoi faire ?
 
 Pour accéder à des ressources dont un ou plusieurs fournisseur d'accès à internet bloque l'accès.
 
-Comme par exemple : [Sci-Hub](https://fr.wikipedia.org/wiki/Sci-Hub), [LibGen](https://fr.wikipedia.org/wiki/Library\_Genesis)...
+Comme par exemple : [Sci-Hub](https://fr.wikipedia.org/wiki/Sci-Hub), [LibGen](https://fr.wikipedia.org/wiki/Library_Genesis)...
+
+***
 
 ## Comment faire ?
 
@@ -37,7 +40,7 @@ Réglages / Réseau / Avancé / DNS
 
 ### **Android**
 
-[**DNS66**](https://f-droid.org/packages/org.jak\_linux.dns66/) (F-Droid), [**DNS Changer**](https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger\&hl=fr) (Google Play), [**Blokada**](https://github.com/blokadaorg) (GitHub)
+[**DNS66**](https://f-droid.org/packages/org.jak_linux.dns66/) (F-Droid), [**DNS Changer**](https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger\&hl=fr) (Google Play), [**Blokada**](https://github.com/blokadaorg) (GitHub)
 
 ### **Chromebook**&#x20;
 

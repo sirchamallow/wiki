@@ -1,5 +1,6 @@
 ---
 description: Une sélection de résolveurs DNS public
+icon: list-ul
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 📖 Liste de résolveur DNS public
+# Liste de résolveur DNS public
 
 ## Fiable
 
@@ -80,6 +81,14 @@ Source : [**https://www.quad9.net**](https://www.quad9.net/)
 2620:fe::10
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Voir également la page du wiki sur Quad 9
+{% endhint %}
+
+{% content-ref url="9.9.9.9.md" %}
+[9.9.9.9.md](9.9.9.9.md)
+{% endcontent-ref %}
 
 ### [**1.1.1.1**](https://1.1.1.1/) **(Cloudfare/APNIC Labs)**
 
@@ -153,9 +162,11 @@ Source : [https://blog.uncensoreddns.org/dns-servers](https://blog.uncensoreddns
 {% endtab %}
 {% endtabs %}
 
+***
+
 ## **Locals**
 
-Je conseil leurs utilisations uniquement à des fins de tests de connexions russes ou US
+Leurs utilisations sont recommandées uniquement à des fins de tests de connexions russes ou US
 
 ### **Yandex.DNS**
 
@@ -208,7 +219,7 @@ Source : [https://dns.yandex.com](https://dns.yandex.com/)
 ### **Sprint DNS**
 
 {% hint style="info" %}
-Source : [https://www.sprint.net/index.php?p=faq\_dns](https://www.sprint.net/index.php?p=faq\_dns)
+Source : [https://www.sprint.net/index.php?p=faq\_dns](https://www.sprint.net/index.php?p=faq_dns)
 {% endhint %}
 
 #### USA
@@ -258,6 +269,8 @@ Source : [https://www.sprint.net/index.php?p=faq\_dns](https://www.sprint.net/in
 2403:A800:AAAA::3
 {% endtab %}
 {% endtabs %}
+
+***
 
 ## Others
 

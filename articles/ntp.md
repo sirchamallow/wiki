@@ -1,8 +1,9 @@
 ---
 description: NTP, le serveur de temps
+icon: hourglass-end
 ---
 
-# ⏳ NTP
+# NTP
 
 Vous avez surement déjà lu récemment des articles sur les serveurs de temps (qui permets la synchronisation horaire), un aspect souvent délaissé par le département ou les services informatique en entreprise. Si les profils du milieu NetOps et DevOps ont compris l’intérêt d’avoir un bon **résolveur DNS** (un autre aspect important d’une infra), concernant le NTP (les serveurs de temps), la marge de progression est encore importante…
 
@@ -10,11 +11,11 @@ Vous avez surement déjà lu récemment des articles sur les serveurs de temps (
 
 ![](https://i1.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/sir.chamallow.com/wp-content/uploads/2019/05/cquestcequecest.gif?ssl=1)
 
-**NTP** ? Le « Network Time Protocol » (NTP) est l’un des plus anciens protocoles d’Internet **encore en service 🙂** . Il fut conçu pour offrir une précision inférieure à la seconde dans la synchronisation des horloges et remplace à ce titre le _Time protocol_ (TP, [RFC 868](https://tools.ietf.org/html/rfc868)), datant de mai 1983. Ce protocole est le fruit de travaux qui ont été réalisés en grande partie par l’Université du Delaware sous la houlette du professeur [David L. Mills](https://fr.wikipedia.org/wiki/David\_L.\_Mills), professeur d’informatique à l’[Université du Delaware](https://fr.wikipedia.org/wiki/Universit%C3%A9\_du\_Delaware).
+**NTP** ? Le « Network Time Protocol » (NTP) est l’un des plus anciens protocoles d’Internet **encore en service 🙂** . Il fut conçu pour offrir une précision inférieure à la seconde dans la synchronisation des horloges et remplace à ce titre le _Time protocol_ (TP, [RFC 868](https://tools.ietf.org/html/rfc868)), datant de mai 1983. Ce protocole est le fruit de travaux qui ont été réalisés en grande partie par l’Université du Delaware sous la houlette du professeur [David L. Mills](https://fr.wikipedia.org/wiki/David_L._Mills), professeur d’informatique à l’[Université du Delaware](https://fr.wikipedia.org/wiki/Universit%C3%A9_du_Delaware).
 
 ## **Schéma d’architecture des serveurs NTP**
 
-![](https://i2.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/i2.wp.com/sir.chamallow.com/wp-content/uploads/2019/03/Architecture\_NTP\_fr.png?ssl=1)
+![](https://i2.wp.com/auktfrkszm.cloudimg.io/cdn/n/q70/i2.wp.com/sir.chamallow.com/wp-content/uploads/2019/03/Architecture_NTP_fr.png?ssl=1)
 
 Sur **Windows10** par exemple, Microsoft propose par défaut deux serveurs de temps de référence : [**time.windows.com**](http://time.windows.com/) ou [**time.nist.gov**](http://time.nist.gov/). Problème le premier répond trop souvent absent provoquant un échec de synchronisation avec toutes les problématiques que cela peut engendrer derrière…. Quand au second, il s’agit de celui du NIST (le « National Institute of Standards and Technology » du département du commerce des Etats-Unis). Ne serait-ce que pour des raisons de cybersécurité, je vous conseil de le remplacer par un autre.
 
@@ -36,8 +37,8 @@ Si le résolveur DNS 8.8.8.8 de Google vous est familier, sachez qu’il existe 
 
 ## **Liens annexes**
 
-* [Liste de serveurs de temps NTP français (Strate 1 & 2)](https://services.renater.fr/ntp/serveurs\_francais) (liste régulièrement mis à jour par Renater)
-* Fiche Wikipédia France du [Protocole NTP (Network\_Time\_Protocol)](https://fr.wikipedia.org/wiki/Network\_Time\_Protocol)
+* [Liste de serveurs de temps NTP français (Strate 1 & 2)](https://services.renater.fr/ntp/serveurs_francais) (liste régulièrement mis à jour par Renater)
+* Fiche Wikipédia France du [Protocole NTP (Network\_Time\_Protocol)](https://fr.wikipedia.org/wiki/Network_Time_Protocol)
 * Page de la [Network Time Fondation](https://www.nwtime.org/)
 * Configurer [Google Public NTP](https://developers.google.com/time/guides) sur votre machine
 * Configurer un [client NTP sous Linux](https://www.it-connect.fr/configurer-un-client-ntp-sous-linux/)

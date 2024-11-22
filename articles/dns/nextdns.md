@@ -2,9 +2,10 @@
 description: >-
   NextDNS fournit une connexion DNS cryptée et offre des fonctionnalités comme
   un pare-feu complet
+icon: shield
 ---
 
-# 🛡 NextDNS
+# NextDNS
 
 ## Description
 

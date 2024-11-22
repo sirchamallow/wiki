@@ -1,4 +1,8 @@
-# 🛡 DNS
+---
+icon: grid
+---
+
+# DNS
 
 ## U**n résolveur DNS c’est quoi ?**&#x20;
 
@@ -10,6 +14,3 @@ Comment fonctionne un DNS : [https://howdns.works](https://howdns.works)
 
 * Vérifier les DNS d’un site avec **IntoDNS** : [https://intodns.com](https://intodns.com/)​
 * **DNSPerf**, pour comparer les performances des DNS : [https://www.dnsperf.com](https://www.dnsperf.com/)​
-
-
-
