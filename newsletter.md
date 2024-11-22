@@ -1,4 +1,5 @@
 ---
+icon: envelope-open
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 📩 Newsletter
+# Newsletter
 
 ## Outils de publication
 

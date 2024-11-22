@@ -1,5 +1,6 @@
 ---
 description: Work in progress
+icon: gamepad-modern
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🎮 Jeux Vidéo
+# Jeux Vidéo
 
 ## Launcher PC
 

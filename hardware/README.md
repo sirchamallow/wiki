@@ -1,4 +1,5 @@
 ---
+icon: microchip
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# ⚙ Hardware
+# Hardware
 
 {% content-ref url="electricite/" %}
 [electricite](electricite/)

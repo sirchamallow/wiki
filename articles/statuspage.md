@@ -1,8 +1,9 @@
 ---
 description: Lite de service pour mettre en place des status page
+icon: cloud-exclamation
 ---
 
-# 🇨🇭 Status page
+# Status page
 
 ### Public status pages
 

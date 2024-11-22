@@ -1,4 +1,5 @@
 ---
+icon: loader
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# ✨ Ressources
+# Ressources
 
 Vous trouvez dans cette section, des articles sur différents sujets de la tech et du web. Certains sont extraits de mon blog
 
@@ -66,6 +67,10 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 
 {% content-ref url="telecoms.md" %}
 [telecoms.md](telecoms.md)
+{% endcontent-ref %}
+
+{% content-ref url="sql-cheatsheet.md" %}
+[sql-cheatsheet.md](sql-cheatsheet.md)
 {% endcontent-ref %}
 
 {% content-ref url="statuspage.md" %}

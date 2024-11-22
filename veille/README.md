@@ -1,4 +1,5 @@
 ---
+icon: radar
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 🔍 Veille
+# Veille
 
 {% content-ref url="arguments-rhetologiques-fallacieux.md" %}
 [arguments-rhetologiques-fallacieux.md](arguments-rhetologiques-fallacieux.md)

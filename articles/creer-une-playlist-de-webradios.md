@@ -1,8 +1,9 @@
 ---
 description: .m3u rules !
+icon: radio-tuner
 ---
 
-# 💡 Créer une playlist de webradios
+# Créer une playlist de webradios
 
 L'idée pour démarrer est de repérer les radios qu'on aime bien, et s'en constituer soi-même une liste qu'on pourra écouter avec le lecteur audio de notre choix.
 
@@ -60,11 +61,13 @@ https://somafm.com/indiepop130.pls                        # SomaFM Indie Pop Roc
 https://somafm.com/poptron130.pls                         # SomaFM PopTron
 ```
 
+***
+
 ## Créer la playlist .m3u <a href="#creer_la_playlist_m3u" id="creer_la_playlist_m3u"></a>
 
-Pour faire une playlist, il faut respecter un formattage.\
+Pour faire une playlist, il faut respecter un formatage.\
 \
-Pour cela il suffit de faire précéder chaque adresse de flux par une ligne:
+Pour cela, il suffit de faire précéder chaque adresse de flux par une ligne :
 
 <pre><code><strong>#EXTINF:0,Nom De La Radio
 </strong></code></pre>

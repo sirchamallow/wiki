@@ -1,8 +1,9 @@
 ---
 description: Une rubrique de ressources et astuces pour la recherche d'emploi
+icon: briefcase-blank
 ---
 
-# 💼 Emploi
+# Emploi
 
 ## Linkedin
 

@@ -1,5 +1,6 @@
 ---
 description: Liste de kaomoji
+icon: face-grin-stars
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 😶 Kaomoji japonais
+# Kaomoji japonais
 
 ## 🙆  Émoticônes positives
 
