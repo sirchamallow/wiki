@@ -1,3 +1,7 @@
+---
+icon: hourglass-start
+---
+
 # Conversion temporelle
 
 ## Convertir heures décimales en heure et en minutes
