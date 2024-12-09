@@ -1,8 +1,20 @@
 ---
 description: Il existe de multiples extensions pour l'ide VSCode, en voici une sélection
+icon: code
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
-# ⌨ Ext. VSCode
+# Ext. VSCode
 
 ## Installation
 

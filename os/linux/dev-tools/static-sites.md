@@ -1,8 +1,9 @@
 ---
 description: Pour faire des sites statiques :)
+icon: globe-pointer
 ---
 
-# 🏠 Static Sites
+# Static Sites
 
 ## Jekyll
 

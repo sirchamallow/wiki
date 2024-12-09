@@ -1,4 +1,8 @@
-# 🥞 Base de données
+---
+icon: database
+---
+
+# Base de données
 
 ## Redis
 
@@ -208,7 +212,7 @@ sudo systemctl enable mongod.service # Active le service
 </strong></code></pre>
 
 {% hint style="info" %}
-Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1](https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1)
+Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1](https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand_article=1)
 {% endhint %}
 
 ***

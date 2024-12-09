@@ -1,8 +1,9 @@
 ---
 description: Tools pour devs sous Fedora
+icon: git
 ---
 
-# ⛓ Git
+# Git
 
 ####
 
@@ -53,7 +54,7 @@ sudo dnf update gh
 ```
 
 {% hint style="info" %}
-Source : [https://github.com/cli/cli/blob/trunk/docs/install\_linux.md#fedora-centos-red-hat-enterprise-linux-dnf](https://github.com/cli/cli/blob/trunk/docs/install\_linux.md#fedora-centos-red-hat-enterprise-linux-dnf)
+Source : [https://github.com/cli/cli/blob/trunk/docs/install\_linux.md#fedora-centos-red-hat-enterprise-linux-dnf](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#fedora-centos-red-hat-enterprise-linux-dnf)
 {% endhint %}
 
 ***

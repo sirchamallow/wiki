@@ -1,8 +1,9 @@
 ---
 description: Setup pour langages de programmation sur Fedora
+icon: python
 ---
 
-# 📑 Langages
+# Langages
 
 ## Python
 

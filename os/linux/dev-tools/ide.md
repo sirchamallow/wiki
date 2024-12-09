@@ -1,4 +1,8 @@
-# ✨ IDE
+---
+icon: square-code
+---
+
+# IDE
 
 ## Visual Studio Code
 
@@ -12,7 +16,7 @@ sudo dnf install code
 ```
 
 {% hint style="info" %}
-Source : [https://code.visualstudio.com/docs/setup/linux#\_rhel-fedora-and-centos-based-distributions](https://code.visualstudio.com/docs/setup/linux#\_rhel-fedora-and-centos-based-distributions)
+Source : [https://code.visualstudio.com/docs/setup/linux#\_rhel-fedora-and-centos-based-distributions](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
 {% endhint %}
 
 ## Zettlr

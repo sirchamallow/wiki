@@ -1,5 +1,6 @@
 ---
 description: Quelques astuces pour Fedora
+icon: message-check
 layout:
   title:
     visible: true
@@ -13,11 +14,11 @@ layout:
     visible: false
 ---
 
-# 💡 Astuces
+# Astuces
 
 ## Commandes de bases
 
-**Dandified Yum** ou **DNF** est un [gestionnaire de paquets](https://fr.wikipedia.org/wiki/Gestionnaire\_de\_paquets). C’est le successeur de [YUM](https://fr.wikipedia.org/wiki/Yellowdog\_Updater,\_Modified). Pour les commandes les plus courantes, son usage est identique à celui de yum.\
+**Dandified Yum** ou **DNF** est un [gestionnaire de paquets](https://fr.wikipedia.org/wiki/Gestionnaire_de_paquets). C’est le successeur de [YUM](https://fr.wikipedia.org/wiki/Yellowdog_Updater,_Modified). Pour les commandes les plus courantes, son usage est identique à celui de yum.\
 \
 C'est un gestinnaire de paquet basé sur RPM qui est utilisé pour installer et mettre à jour les paquets dans diverses distributions Linux tel que CentOS, RHEL et Fedora.
 
@@ -88,7 +89,7 @@ sudo dnf list extras    # Liste des paquets installés ne provenant pas des dép
 ```
 
 {% hint style="info" %}
-Source : [https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion](https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion)
+Source : [https://doc.fedora-fr.org/wiki/DNF,\_le\_gestionnaire\_de\_paquets\_de\_Fedora#Conclusion](https://doc.fedora-fr.org/wiki/DNF,_le_gestionnaire_de_paquets_de_Fedora#Conclusion)
 {% endhint %}
 
 ***
@@ -573,7 +574,7 @@ sudo dnf in kernel-devel
 ```
 
 {% hint style="info" %}
-Source : [https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/](https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/)
+Source : [https://www.reddit.com/r/Fedora/comments/nl6arp/how\_do\_i\_install\_kernel\_headers\_for\_fedora/](https://www.reddit.com/r/Fedora/comments/nl6arp/how_do_i_install_kernel_headers_for_fedora/)
 {% endhint %}
 
 ***

@@ -1,5 +1,6 @@
 ---
 description: Outils pour serveurs
+icon: server
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🖥 OPS
+# OPS
 
 ## Netdata
 
@@ -62,7 +63,7 @@ sudo dnf install ansible
 ```
 
 {% hint style="info" %}
-Source : [https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora](https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora)
+Source : [https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_installation.html#installing-ansible-on-rhel-centos-or-fedora](https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html#installing-ansible-on-rhel-centos-or-fedora)
 {% endhint %}
 
 ***

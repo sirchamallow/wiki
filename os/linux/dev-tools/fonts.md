@@ -1,8 +1,9 @@
 ---
 description: Quelques outils, astuces de devs sur les polices d'écritures
+icon: square-font-awesome-stroke
 ---
 
-# 📝 Fonts
+# Fonts
 
 ## BunnyFonts
 
