@@ -1,6 +1,6 @@
 ---
-description: Redimensionner une image en ligne
 icon: arrows-retweet
+description: Redimensionner une image en ligne
 ---
 
 # Resizing.app
@@ -9,7 +9,7 @@ icon: arrows-retweet
 
 Un outil en ligne, gratuit, permettant de redimensionner une image en ligne, la convertir, diminuer sa qualité et cerise sur le gâteau en faire un bandeau pour votre page Facebook, Linkedin, Twitter etc. Ça existe !
 
-Il s’agit de **Resizing.app**, un site interner (qui dispose également d'une extension pour le navigateur Google **Chrome** et qui fonctionnera donc également sur les navigateurs web comme Brave, Microsoft Edge qui sont basé sur Chromium).
+Il s’agit de **Resizing.app**, un site internet (qui dispose également d'une extension pour le navigateur Google **Chrome** et qui fonctionnera donc également sur les navigateurs web comme Brave, Microsoft Edge qui sont basé sur Chromium).
 
 Si vous utilisez un iPhone / iPad, l’extension est vraiment agréable pour faciliter la conversion des photos en .HEIC vers du PNG ou JPG (:
 
