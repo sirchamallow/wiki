@@ -45,6 +45,7 @@
     * [Google Chrome](logiciels/browsers/chrome-extensions/README.md)
       * [🚀 Mercury Reader](logiciels/browsers/chrome-extensions/mercury-reader.md)
       * [Moteur de recherche](logiciels/browsers/chrome-extensions/moteur-de-recherche.md)
+  * [Markdown](logiciels/markdown.md)
   * [Outils PDF](logiciels/outils-pdf.md)
   * [📤 Firefox Send](logiciels/firefox-send.md)
   * [💻 RecordScreen](logiciels/recordscreen.md)
