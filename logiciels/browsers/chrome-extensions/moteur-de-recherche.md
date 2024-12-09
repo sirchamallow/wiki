@@ -33,3 +33,8 @@ Et voilà ! Vous pouvez maintenant utiliser Encrypted Google comme moteur de rec
 {% hint style="info" %}
 Vous pouvez faire la même manipulation sur **Android**. Sur **iOS** la fonctionnalité est bloquer, vous devrez choisir un des moteurs de recherches suggérés.
 {% endhint %}
+
+{% hint style="success" %}
+Plus d'information : [https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU](https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU)
+{% endhint %}
+
