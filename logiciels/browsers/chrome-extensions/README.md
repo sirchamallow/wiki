@@ -1,6 +1,6 @@
 ---
-description: Extensions & Thèmes pour Google Chrome
 icon: chrome
+description: Extensions & Thèmes pour Google Chrome
 ---
 
 # Google Chrome
@@ -52,3 +52,9 @@ Un outil d'écriture générer par une IA
 {% content-ref url="../../resizing.app.md" %}
 [resizing.app.md](../../resizing.app.md)
 {% endcontent-ref %}
+
+## Themes
+
+Cosmic Minimalism
+
+{% embed url="https://chromewebstore.google.com/detail/cosmic-minimalism/dcmaldgghmeplcolnhnkhffoepnhacli?hl=fr" %}
