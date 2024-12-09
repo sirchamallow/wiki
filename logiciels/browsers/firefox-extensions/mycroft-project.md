@@ -1,5 +1,6 @@
 ---
 description: Avec Mycroft Project, faites des recherches rapidement
+icon: magnifying-glass
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🔍 Barre de recherche
+# Barre de recherche
 
 {% hint style="info" %}
 Retrouvez la liste complète sur [https://mycroftproject.com](https://mycroftproject.com/dlstats.html)

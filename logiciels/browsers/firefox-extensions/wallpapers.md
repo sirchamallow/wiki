@@ -1,8 +1,9 @@
 ---
 description: Des wallpapers Firefox & et la mascotte Foxkeh
+icon: palette
 ---
 
-# 🎨 Wallpapers
+# Wallpapers
 
 ## Foxkeh
 

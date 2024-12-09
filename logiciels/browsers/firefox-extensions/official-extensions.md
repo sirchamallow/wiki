@@ -1,4 +1,5 @@
 ---
+icon: computer-mouse-scrollwheel
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 🖱 Extensions
+# Extensions
 
 ## Officiels
 
