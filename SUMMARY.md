@@ -73,6 +73,7 @@
   * [📋 Markdown cheatsheet](articles/markdown-cheatsheet.md)
   * [NTP](articles/ntp.md)
   * [DNS](articles/dns/README.md)
+    * [Identifier ses DNS](articles/dns/identifier-ses-dns.md)
     * [Changer ses DNS](articles/dns/change-dns.md)
     * [Liste de résolveur DNS public](articles/dns/public-dns-resolver.md)
     * [🇫🇷 DNS des FAI Français](articles/dns/dns-provider-fr.md)
