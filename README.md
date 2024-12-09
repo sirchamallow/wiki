@@ -1,5 +1,6 @@
 ---
 description: Bienvenue sur mon wiki personnel
+icon: face-laugh-wink
 cover: .gitbook/assets/_efd83a13-65d4-4953-baa6-40b777f80d90.jpg
 coverY: 0
 layout:
@@ -18,7 +19,7 @@ layout:
     visible: false
 ---
 
-# 🍁 Pierre LEMASSON | Wiki
+# Bienvenue 👋
 
 ## Qui suis-je ?
 

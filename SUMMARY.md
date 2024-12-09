@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🍁 Bienvenue 👋](README.md)
+* [Bienvenue 👋](README.md)
 * [Système d'exploitation](os/README.md)
   * [Fedora (Linux)](os/linux/README.md)
     * [REHL multiverse](os/linux/rehl-multiverse.md)
