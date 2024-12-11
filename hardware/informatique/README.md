@@ -1,9 +1,13 @@
 ---
-description: Base de connaissance sur les ordinateurs portables Tuxedo et Huawei
 icon: laptop
+description: Base de connaissance sur les ordinateurs portables Tuxedo et Huawei
 ---
 
 # Informatique
+
+{% content-ref url="alimentation-electriques.md" %}
+[alimentation-electriques.md](alimentation-electriques.md)
+{% endcontent-ref %}
 
 {% content-ref url="bureau.md" %}
 [bureau.md](bureau.md)

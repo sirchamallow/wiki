@@ -56,6 +56,7 @@
   * [Informatique](hardware/informatique/README.md)
     * [Alimentation électriques](hardware/informatique/alimentation-electriques.md)
     * [Ergonomie](hardware/informatique/bureau.md)
+    * [Support laptop](hardware/informatique/support-laptop.md)
     * [🇩🇪 TUXEDO Computers](hardware/informatique/tuxedo-computers.md)
     * [🇨🇳 Huawei Computers](hardware/informatique/huawei-computers.md)
   * [Electroménager](hardware/electromenager.md)
