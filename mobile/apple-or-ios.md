@@ -26,3 +26,9 @@ Pour découvrir quand un message vous a été envoyé, il faut glisser la bulle 
 ### Effectuer une recherche dans Messages sur l’iPhone
 
 {% embed url="https://support.apple.com/fr-fr/guide/iphone/iph17c111fb6/ios" %}
+
+## Accessoires
+
+Un chargeur 3 en 1 (iPhone, iWatch et AirPods)
+
+{% embed url="https://eu.mous.co/products/magsafe-compatible-portable-wireless-charger" %}
