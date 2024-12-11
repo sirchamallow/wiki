@@ -1,6 +1,6 @@
 ---
-icon: tricycle
 description: Des infos, astuces, outils etc. sur les trotinettes électriques
+icon: tricycle
 ---
 
 # Trottinette Électrique
@@ -18,9 +18,9 @@ La **F2 Plus E** dispose d'un système de géolocalisation, vous offre différen
 
 ### Photos
 
-<div align="center" data-full-width="false"><figure><img src="../.gitbook/assets/KickScooter F2 Plus_Product Picture_Body-2140x1338_72.png" alt=""><figcaption><p>Pad central</p></figcaption></figure> <figure><img src="../.gitbook/assets/KickScooter F2 Plus_Product Picture_Front Tyre-2140x1338_72.png" alt=""><figcaption><p>Roue avant</p></figcaption></figure> <figure><img src="../.gitbook/assets/KickScooter F2 Plus_Product Picture_Inclined View-2140x1338_72.png" alt=""><figcaption><p>Trotinette KSF2+</p></figcaption></figure> <figure><img src="../.gitbook/assets/KickScooter F2 Plus_Product Picture_Rear tyre left side-2140x1338_72.png" alt=""><figcaption><p>Roue Arrière</p></figcaption></figure></div>
+<div align="center" data-full-width="false"><figure><img src=".gitbook/assets/KickScooter F2 Plus_Product Picture_Body-2140x1338_72.png" alt=""><figcaption><p>Pad central</p></figcaption></figure> <figure><img src=".gitbook/assets/KickScooter F2 Plus_Product Picture_Front Tyre-2140x1338_72.png" alt=""><figcaption><p>Roue avant</p></figcaption></figure> <figure><img src=".gitbook/assets/KickScooter F2 Plus_Product Picture_Inclined View-2140x1338_72.png" alt=""><figcaption><p>Trotinette KSF2+</p></figcaption></figure> <figure><img src=".gitbook/assets/KickScooter F2 Plus_Product Picture_Rear tyre left side-2140x1338_72.png" alt=""><figcaption><p>Roue Arrière</p></figcaption></figure></div>
 
-<div><figure><img src="../.gitbook/assets/KickScooter F2 &#x26; F2 Pro_ Lifestyle picture_Woman and man standing next to F2 Pro-2140x1427_72.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/KickScooter F2_Lifestyle picture_F2 side view and sky-2140x1427_72.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/KickScooter F2 Plus_F2 Pro_LifeStyle Picture_Indicator-2140x1427_72.jpg" alt=""><figcaption><p>Clignotant</p></figcaption></figure> <figure><img src="../.gitbook/assets/KickScooter F2 pro &#x26; F2 plus_Lifestyle picture_Handle bar and Screen-2140x1427_72.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/KickScooter F2 &#x26; F2 Pro_ Lifestyle picture_Woman and man standing next to F2 Pro-2140x1427_72.jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/KickScooter F2_Lifestyle picture_F2 side view and sky-2140x1427_72.jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/KickScooter F2 Plus_F2 Pro_LifeStyle Picture_Indicator-2140x1427_72.jpg" alt=""><figcaption><p>Clignotant</p></figcaption></figure> <figure><img src=".gitbook/assets/KickScooter F2 pro &#x26; F2 plus_Lifestyle picture_Handle bar and Screen-2140x1427_72.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Site internet Ninebot
 
@@ -30,7 +30,7 @@ La **F2 Plus E** dispose d'un système de géolocalisation, vous offre différen
 
 #### Activation
 
-<figure><img src="../.gitbook/assets/Capture d’écran du 2023-07-07 15-02-28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Capture d’écran du 2023-07-07 15-02-28.png" alt=""><figcaption></figcaption></figure>
 
 Lancement **Find My app** sur l'**iPhone** ou l'**iPad**, cliquez sur **+**, puis cliquez sur ajouter d'autres éléments **⊕**.&#x20;
 
@@ -48,13 +48,13 @@ Si le scooter est en **status séparé**, rendez-vous sur l'application Find My 
 
 #### Activer ou Désactiver l'option Find My
 
-<figure><img src="../.gitbook/assets/Capture d’écran du 2023-07-07 15-03-20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Capture d’écran du 2023-07-07 15-03-20.png" alt=""><figcaption></figcaption></figure>
 
 Le propriétaire activer ou désactiver Find My en appuyant sur le levier de frein 9 fois et en appuyant sur le bouton marche/arrêt une fois en statut déverrouillé.
 
 #### Reset
 
-<figure><img src="../.gitbook/assets/Capture d’écran du 2023-07-07 15-03-46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Capture d’écran du 2023-07-07 15-03-46.png" alt=""><figcaption></figcaption></figure>
 
 Après avoir allumé la trotinette, le propriétaire peut RESET en appuyant sur le levier de frein 5 fois et en appuyant sur le bouton marche/arrêt une fois en statut déverrouillé. Ensuite, le propriétaire ne pourra pas utiliser Find My pour trouver cette trotinette. Le propriétaire doit retirer la trotinette de Find My avant d’ajouter à nouveau la trotinette dans Find My
 

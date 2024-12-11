@@ -1,8 +1,9 @@
 ---
 description: Base de connaissance sur les ordinateurs portables Tuxedo et Huawei
+icon: laptop
 ---
 
-# 💻 Informatique
+# Informatique
 
 {% content-ref url="bureau.md" %}
 [bureau.md](bureau.md)

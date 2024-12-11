@@ -1,4 +1,5 @@
 ---
+icon: mug-hot
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# ☕ Electroménager
+# Electroménager
 
 ## **Machine Nespresso**
 

@@ -1,14 +1,15 @@
 ---
 description: Multiprise avec parafoudre et interrupteur
+icon: plug
 ---
 
-# 🔌 Legrand 0 494 30
+# Legrand 0 494 30
 
 ### Description
 
 
 
-<figure><img src="../../../.gitbook/assets/LG-049430-WEB-R.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/LG-049430-WEB-R.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 Il s'agit d'une multiprise avec parafoudre et interrupteur. Il à été conçu pour une usage multimédia / télévision, pour autant elle pourra très bien vous satisfaire pour d'autres usages (pour votre bureau informatique notamment, ou telecoms pour votre box internet, téléphone etc.)
 
