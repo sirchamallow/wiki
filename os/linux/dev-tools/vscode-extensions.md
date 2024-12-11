@@ -1,6 +1,6 @@
 ---
-description: Il existe de multiples extensions pour l'ide VSCode, en voici une sélection
 icon: code
+description: Il existe de multiples extensions pour l'ide VSCode, en voici une sélection
 layout:
   title:
     visible: true
@@ -32,6 +32,9 @@ code --install-extension Catppuccin.catppuccin-vsc-icons   # Catppuccin icons
 code --install-extension mhutchie.git-graph                # Git Graph
 code --install-extension oderwat.indent-rainbow            # indent-rainbow
 code --install-extension soerenuhrbach.vscode-deepl        # Deepl Translate
+code --install-extension adamvoss.vscode-languagetool      # LanguageTool
+code --install-extension adamvoss.vscode-languagetool-en   # LanguageTool (en)
+code --install-extension adamvoss.vscode-languagetool-fr   # LanguageTool (fr)
 
 ## Tools Microsoft VSCode
 code --install-extension MS-vsliveshare.vsliveshare         # Visual Studio Live Share
