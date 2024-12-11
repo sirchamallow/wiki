@@ -1,5 +1,6 @@
 ---
 description: Liste de différents outils, utiliaires, setups etc.
+icon: disc-drive
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 💿 Logiciels
+# Logiciels
 
 {% content-ref url="packages.md" %}
 [packages.md](packages.md)

@@ -1,5 +1,6 @@
 ---
 description: Liste d'extensions pour GNOME
+icon: linux
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 👣 Ext. GNOME
+# Ext. GNOME
 
 ## GNOME Extensions
 
@@ -149,7 +150,7 @@ Source : [https://github.com/cliffniff/media-controls/](https://github.com/cliff
 Affiche les statistiques du GPU NVIDIA dans la barre d'outils.&#x20;
 
 {% hint style="warning" %}
-Pré-requis : Nécessite [nvidia-settings](https://download.nvidia.com/XFree86/Linux-x86\_64/396.51/README/nvidiasettings.html) ou [nvidia-smi](https://download.nvidia.com/XFree86/Linux-x86\_64/396.51/README/nvidia-smi.html).
+Pré-requis : Nécessite [nvidia-settings](https://download.nvidia.com/XFree86/Linux-x86_64/396.51/README/nvidiasettings.html) ou [nvidia-smi](https://download.nvidia.com/XFree86/Linux-x86_64/396.51/README/nvidia-smi.html).
 {% endhint %}
 
 {% hint style="info" %}

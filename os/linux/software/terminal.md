@@ -1,8 +1,9 @@
 ---
 description: Quelques astuces pour configurer votre terrminal
+icon: rectangle-terminal
 ---
 
-# 📟 Terminal
+# Terminal
 
 ## Shell
 
@@ -464,7 +465,7 @@ Site web : [https://www.vim.org](https://www.vim.org/download.php)
 `:q!` or `ZQ` - quitter et abandonner les modifications non sauvegardée
 
 {% hint style="info" %}
-Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/fr\_fr)
+Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/fr_fr)
 {% endhint %}
 
 #### Faire une modification sur un fichier
@@ -554,7 +555,7 @@ Pour sélectionner du texte, le copier et le coller :
 
 #### Description
 
-cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface\_en\_ligne\_de\_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
+cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
 
 #### Installation
 
@@ -594,11 +595,7 @@ Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
 
 ## Btop++
 
-<div data-full-width="false">
-
-<figure><img src="../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure></div>
 
 #### Description
 

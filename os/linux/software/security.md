@@ -1,8 +1,9 @@
 ---
 description: Liste de logiciels de sécurités
+icon: shield-halved
 ---
 
-# 🛡️ Sécurité
+# Sécurité
 
 ## firewalld
 
@@ -96,7 +97,7 @@ Notez que cela supprimera toutes les dépendances inutilisées installées avec 
 {% endhint %}
 
 {% hint style="info" %}
-Source : [https://www.clamav.net/documents/clam-antivirus-user-manual](https://www.clamav.net/documents/clam-antivirus-user-manual) &  [https://www.linuxcapable.com/how-to-install-clamav-on-fedora-35/](https://www.linuxcapable.com/how-to-install-clamav-on-fedora-35/#Update\_Operating\_System)
+Source : [https://www.clamav.net/documents/clam-antivirus-user-manual](https://www.clamav.net/documents/clam-antivirus-user-manual) &  [https://www.linuxcapable.com/how-to-install-clamav-on-fedora-35/](https://www.linuxcapable.com/how-to-install-clamav-on-fedora-35/#Update_Operating_System)
 {% endhint %}
 
 ***

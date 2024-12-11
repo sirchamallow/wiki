@@ -1,5 +1,6 @@
 ---
 description: Liste de dépôts
+icon: box-open
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 📦 Dépôts
+# Dépôts
 
 ## RPM Fusion
 

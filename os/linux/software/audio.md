@@ -1,4 +1,8 @@
-# 🎵 Audio
+---
+icon: headphones-simple
+---
+
+# Audio
 
 ## GNOME Podcasts
 

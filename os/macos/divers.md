@@ -1,4 +1,8 @@
-# 🥔 Divers
+---
+icon: command
+---
+
+# Divers
 
 ## Divers
 

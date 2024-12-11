@@ -1,5 +1,6 @@
 ---
 description: Quelques jeux disponibles sur Linux
+icon: gamepad-modern
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🕹 Jouer sur Linux
+# Jouer sur Linux
 
 ## Lutris
 

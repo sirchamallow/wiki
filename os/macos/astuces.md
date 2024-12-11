@@ -1,8 +1,9 @@
 ---
 description: Quelques astuces pour MacOS
+icon: face-smile
 ---
 
-# 😎 Astuces
+# Astuces
 
 ## Afficher le chemin d’accès d’un fichier sur Mac (fil d’ariane)
 

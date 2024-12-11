@@ -1,8 +1,9 @@
 ---
 description: Des outils de vidéos
+icon: youtube
 ---
 
-# 📺 Video
+# Video
 
 ## VLC
 
@@ -140,7 +141,7 @@ flatpak install flathub io.github.JaGoLi.ytdl_gui
 ```
 
 {% hint style="success" %}
-Site internet : [https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui](https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui)
+Site internet : [https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui](https://flathub.org/apps/io.github.JaGoLi.ytdl_gui)
 {% endhint %}
 
 ***

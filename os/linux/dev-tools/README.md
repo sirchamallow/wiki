@@ -1,8 +1,9 @@
 ---
 description: Outils, langages etc. pour devs
+icon: laptop-code
 ---
 
-# 👨💻 DEV tools
+# DEV tools
 
 Vous trouverez ici le nécéssaire pour faire un setup de dev sous Fedora
 

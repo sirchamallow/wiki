@@ -1,8 +1,9 @@
 ---
 description: Liste de logiciels
+icon: globe-wifi
 ---
 
-# 🕸️ Internet
+# Internet
 
 ## Navigateurs Web
 
@@ -23,7 +24,7 @@ sudo dnf install firefox
 ```
 
 {% hint style="info" %}
-Source : [https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems](https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems)
+Source : [https://fedoraproject.org/wiki/How\_to\_debug\_Firefox\_problems](https://fedoraproject.org/wiki/How_to_debug_Firefox_problems)
 {% endhint %}
 
 {% hint style="success" %}

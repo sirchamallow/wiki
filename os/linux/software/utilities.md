@@ -1,5 +1,6 @@
 ---
 description: Liste d'utilitaires
+icon: screwdriver-wrench
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 🛠️ Utilitaires
+# Utilitaires
 
 ## CPU-X
 
@@ -160,7 +161,7 @@ Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique g�
 </strong></code></pre>
 
 {% hint style="info" %}
-Source : [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php?show\_all=1)
+Source : [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php?show_all=1)
 {% endhint %}
 
 ***
@@ -316,7 +317,7 @@ Site internet : [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 
 #### Description
 
-Un utilitaire open-source avec une interface graphique pour gérer les périphériques de marques Logitech utilisant un dongle usb [Unifying](https://en.wikipedia.org/wiki/Logitech\_Unifying\_receiver), Bolt, Lightspeed, ou Nano; ou en connexion directe via un câble USB cable; ou encore par connexion Bluetooth.
+Un utilitaire open-source avec une interface graphique pour gérer les périphériques de marques Logitech utilisant un dongle usb [Unifying](https://en.wikipedia.org/wiki/Logitech_Unifying_receiver), Bolt, Lightspeed, ou Nano; ou en connexion directe via un câble USB cable; ou encore par connexion Bluetooth.
 
 #### Installation&#x20;
 

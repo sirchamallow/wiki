@@ -1,4 +1,5 @@
 ---
+icon: gear
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 💿 Logiciels
+# Logiciels
 
 ## Internet
 
@@ -373,7 +374,7 @@ Une extension pour voir une image, un lien ou un gif d'un simple survol dessus
 ```
 
 {% hint style="info" %}
-Source : [https://apps.apple.com/us/app/hover-for-safari/id1540705431](https://apps.apple.com/us/app/hover-for-safari/id1540705431?mt=12\&itsct=apps\_box\&itscg=30200)
+Source : [https://apps.apple.com/us/app/hover-for-safari/id1540705431](https://apps.apple.com/us/app/hover-for-safari/id1540705431?mt=12\&itsct=apps_box\&itscg=30200)
 {% endhint %}
 
 {% hint style="success" %}
@@ -395,7 +396,7 @@ Une extension pour Safari qui permet de changer de moteur de recherche
 ```
 
 {% hint style="info" %}
-Source : [https://apps.apple.com/us/app/hover-for-safari/id1540705431](https://apps.apple.com/us/app/hover-for-safari/id1540705431?mt=12\&itsct=apps\_box\&itscg=30200)
+Source : [https://apps.apple.com/us/app/hover-for-safari/id1540705431](https://apps.apple.com/us/app/hover-for-safari/id1540705431?mt=12\&itsct=apps_box\&itscg=30200)
 {% endhint %}
 
 {% hint style="success" %}
