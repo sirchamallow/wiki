@@ -7,6 +7,7 @@
     * [Astuces](os/linux/astuces.md)
     * [DEV tools](os/linux/dev-tools/README.md)
       * [Langages](os/linux/dev-tools/langages.md)
+      * [Markdown](os/linux/dev-tools/markdown.md)
       * [Git](os/linux/dev-tools/git.md)
       * [OPS](os/linux/dev-tools/servers.md)
       * [Fonts](os/linux/dev-tools/fonts.md)
