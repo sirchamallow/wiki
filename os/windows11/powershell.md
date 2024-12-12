@@ -1,5 +1,6 @@
 ---
 description: Une liste de commandes utiles
+icon: rectangle-terminal
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# ⌨️ Powershell
+# Powershell
 
 ## Cheatsheet <a href="#information-systeme" id="information-systeme"></a>
 
@@ -28,6 +29,7 @@ $env:COMPUTERNAME                   # Afficher le nom de l'ordinateur
 
 ### Services et processus <a href="#services-et-processus" id="services-et-processus"></a>
 
+{% code fullWidth="true" %}
 ```powershell
 # Service
 Get-Service            # Lister tous les services [Alias: gsv]
@@ -44,38 +46,46 @@ Stop-Process name      # Stop a process [Alias: kill, spps]
 Wait-Process name      # Attendre qu'un process ce stop avant de continuer
 Debug-Process name     # Attacher un debugger à un process
 ```
+{% endcode %}
 
 ### Réseau <a href="#reseau" id="reseau"></a>
 
-```powershell
-Get-NetIPConfiguration                # Afficher l'interface locale et les IPs assignés
-Test-Connection name                  # Ping basique
-Test-NetConnection name               # Ping avancée
-Test-NetConnection name -TraceRoute   # Perform a trace route
-Test-NetConnection name -Port port    # Perform a port check
+<pre class="language-powershell" data-full-width="true"><code class="lang-powershell">Get-NetIPConfiguration                 # Afficher l'interface locale et les IPs assignés
+<strong>netsh wlan show profiles               # Afficher la liste des réseau sans fil enregistrés
+</strong>Test-Connection name                   # Ping basique
+Test-NetConnection name                # Ping avancée
+Test-NetConnection name -TraceRoute    # Perform a trace route
+Test-NetConnection name -Port port     # Perform a port check
+Test-NetConnection google.com -Port 80 # Testez la connectivité du port TCP
+Get-NetTCPConnection                   # Affiche la liste des connexions TCP
+Get-NetUDPEndpoint                     # Affiche la liste des connexions UDP
 
 # DNS
 Set-DnsClientServerAddress -InterfaceAlias interface -ServerAddresses dns,dns2 # Changer les serveurs DNS
 Resolve-DnsName name                  # Basique DNS lookup
 Resolve-DnsName name -Type recordtype # DNS lookup pour un record spécifique (ie txt, srv, soa, etc)
 Clear-DnsClientCache                  # Effacer le cache local DNS
-```
+</code></pre>
 
 ### Contrôle à distance <a href="#controle-a-distance" id="controle-a-distance"></a>
 
+{% code fullWidth="true" %}
 ```powershell
 Enable-PSRemoting                                 # Activer la possibilitée des sessions PowerShell distantes sur la machine locale 
 Enter-PSSession computername -Credential username # Connexion à un ordinateur distant
 ```
+{% endcode %}
 
 ### Gestion du système <a href="#gestion-du-systeme" id="gestion-du-systeme"></a>
 
+{% code fullWidth="true" %}
 ```powershell
 start-Computer      # Redémarrer la machine
 Stop-Computer       # Eteindre la machine
 Checkpoint-Computer # Créer un point de restauration a system restore point
 Restore-Computer    # Restaurer l'ordinateur à un point de restauration
 ```
+{% endcode %}
 
 ### Gestion des fichiers <a href="#gestion-des-fichiers" id="gestion-des-fichiers"></a>
 
@@ -85,15 +95,38 @@ Restore-Computer    # Restaurer l'ordinateur à un point de restauration
 * Lister le contenu d'un répertoire : `Get-ChildItem` (ou l'alias `ls` ou `dir`)
 * Créer un nouveau répertoire ou fichier :
 
+{% code fullWidth="true" %}
 ```powershell
 New-Item -Name "Nom_Rep" -ItemType Directory                     # Créer une répertoire
 New-Item -Name "nom_fichier.ext" -ItemType File.                 # Créer un fichier 
 New-Item -Name "nom_fichier.ext" -ItemType File -Value "Contenu" # Créer un fichier avec du contenu
 ```
+{% endcode %}
 
 ## Active Directory <a href="#manipulation" id="manipulation"></a>
 
 Gestion de l'Active Directory avec le Powershell
+
+### Informations sur les ordinateurs
+
+<pre class="language-powershell" data-full-width="true"><code class="lang-powershell">Get-ADComputer -Filter * # Obtenez la liste des ordinateurs du domaine AD
+Get-ADComputer -Filter * -Properties * # Obtenez les propriétés des ordinateurs
+Get-ADComputer -Filter * -Properties * | Select Name # Obtenez le nom des ordinateurs
+
+# Comptez le nombre d’ordinateurs regroupés par la version du système d’exploitation
+Get-ADComputer -Filter * -Properties * | group -Property operatingSystem | Select Name,Count
+
+# Obtenez le dernier logon des ordinateurs
+Get-ADComputer -Filter * -Properties * | Select Name, LastLogonDate
+
+# Obtenez la liste des ordinateurs inactifs pour un nombre spécifique de jours.
+$Days = 10
+$Time = (Get-Date).Adddays(-($Days))
+Get-ADComputer -Filter {LastLogonTimeStamp -lt $Time} -Properties * | Select Name, LastLogonDate
+
+<strong># Obtenez tous les ordinateurs avec un texte spécifique dans le nom
+</strong>Get-ADComputer -Filter { Name -like "*srv*"}
+</code></pre>
 
 ### Création et activation d'un utilisateur <a href="#creation-et-activation-dun-utilisateur" id="creation-et-activation-dun-utilisateur"></a>
 
@@ -156,3 +189,33 @@ Nous pouvons également exporter les champs sélectionnés dans un fichier CSV e
 {% hint style="danger" %}
 Attention : le | est important, puis que nous ajoutons cette commande à la suite de la précédent
 {% endhint %}
+
+### Comptes d’utilisateurs récents
+
+Trouvez les comptes d’utilisateurs créés sur Active Directory au cours des 30 derniers jours.
+
+```powershell
+$Days = 30 # Modifier la valeur pour changer le nombre de jours
+$Time = (Get-Date).Adddays(-($Days))
+Get-ADUser -Filter * -Property whenCreated | Where {$_.whenCreated -gt $Time} | ft Name, WhenCreated
+```
+
+### Utilisateurs qui n’ont pas changé de mot de passe
+
+Trouvez les utilisateurs dans Active Directory avec un mot de passe de plus de 30 jours.
+
+```powershell
+$Days = 30 # Modifier la valeur pour changer le nombre de jour
+$Time = [DateTime]::Today.AddDays(-$Days)
+Get-ADUser -Filter '(PasswordLastSet -lt $Time)' -Properties PasswordLastSet | ft Name,PasswordLastSet
+```
+
+### Ordinateurs inactifs
+
+Trouvez les utilisateurs qui ne se sont pas connectés au Répertoire actif au cours des 30 derniers jours.
+
+```powershell
+$Days = 30
+$Time = (Get-Date).Adddays(-($Days))
+Get-ADUser -Filter {LastLogonTimeStamp -lt $Time} -Properties * | Select Name, LastLogonDate
+```

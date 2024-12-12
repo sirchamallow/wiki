@@ -31,7 +31,7 @@
     * [tvOS](os/macos/tvos.md)
     * [Divers](os/macos/divers.md)
   * [Windows 11](os/windows11/README.md)
-    * [⌨️ Powershell](os/windows11/powershell.md)
+    * [Powershell](os/windows11/powershell.md)
     * [Astuces de la Win](os/windows11/astuces-de-la-win.md)
 * [Mobile](mobile/README.md)
   * [Android (Google)](mobile/android.md)
