@@ -14,7 +14,7 @@
       * [Base de données](os/linux/dev-tools/bdd.md)
       * [Static Sites](os/linux/dev-tools/static-sites.md)
       * [IDE](os/linux/dev-tools/ide.md)
-      * [Ext. VSCode](os/linux/dev-tools/vscode-extensions.md)
+      * [VSCode](os/linux/dev-tools/vscode-extensions.md)
     * [Logiciels](os/linux/software/README.md)
       * [Dépôts](os/linux/software/packages.md)
       * [Internet](os/linux/software/internet.md)

@@ -14,14 +14,14 @@ layout:
     visible: false
 ---
 
-# Ext. VSCode
+# VSCode
 
-## Installation
+## Extensions
 
 Voici comment installer des extensions très utiles pour VS Code
 
 {% hint style="info" %}
-Copier / Coller les lignes de commandes suivantes dans votre terminal pour installer les extensions
+Copier / Coller les lignes de commandes suivantes dans votre **terminal** pour installer les extensions
 {% endhint %}
 
 <pre class="language-bash"><code class="lang-bash">## Stylish
@@ -66,3 +66,17 @@ code --install-extension golang.Go                   # Go
 code --install-extension redhat.vscode-yaml          # YAML
 code --install-extension redhat.vscode-xml           # XML
 </code></pre>
+
+## Polices
+
+Voici les étapes à suivre pour changer la police de caractère sur Visual Studio Code
+
+1. **Ouvrez les paramètres** :
+   * Allez dans le menu en haut de l'écran et sélectionnez `Fichier` > `Préférences` > `Paramètres`.
+   * Vous pouvez aussi utiliser le raccourci `Ctrl + ,`.
+2. **Recherchez la police** :
+   * Dans la barre de recherche des paramètres, tapez `font family`.
+3. **Modifiez la police** :
+   * Dans la section `Editor: Font Family`, entrez le nom de la police que vous souhaitez utiliser. Par exemple, pour utiliser `Fira Code`, vous pouvez entrer `Fira Code`.
+4. **Enregistrez et redémarrez** :
+   * Enregistrez vos modifications et redémarrez VS Code pour appliquer les changements.
