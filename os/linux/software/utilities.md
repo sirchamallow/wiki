@@ -1,6 +1,6 @@
 ---
-description: Liste d'utilitaires
 icon: screwdriver-wrench
+description: Liste d'utilitaires
 layout:
   title:
     visible: true
@@ -373,13 +373,8 @@ Il s'agit d'une réécriture de WoeUSB original.
 
 #### Installation
 
-```bash
-## Installer les dépendances
-sudo dnf install git p7zip p7zip-plugins python3-pip python3-wxpython4
-
-## Installer WoeUSB-ng
-sudo pip3 install WoeUSB-ng
-```
+<pre class="language-bash"><code class="lang-bash"><strong>sudo pip3 install WoeUSB-ng
+</strong></code></pre>
 
 {% hint style="info" %}
 Source : [https://github.com/WoeUSB/WoeUSB-ng](https://github.com/WoeUSB/WoeUSB-ng)
@@ -390,3 +385,19 @@ Site internet :&#x20;
 {% endhint %}
 
 ***
+
+## Fastfetch&#x20;
+
+#### Description
+
+**Fastfetch** est un utilitaire en ligne de commande conçu pour afficher rapidement et efficacement des informations système de base sur votre terminal. Développé en C, il est plus léger et rapide que des alternatives comme **neofetch** ou **screenfetch**
+
+#### Installation
+
+```bash
+sudo dnf install fastfetch
+```
+
+{% hint style="info" %}
+Source : [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
+{% endhint %}
