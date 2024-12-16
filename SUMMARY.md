@@ -79,6 +79,7 @@
   * [DNS](articles/dns/README.md)
     * [Identifier ses DNS](articles/dns/identifier-ses-dns.md)
     * [Changer ses DNS](articles/dns/change-dns.md)
+    * [Vider le cache](articles/dns/vider-le-cache.md)
     * [Liste de résolveur DNS public](articles/dns/public-dns-resolver.md)
     * [🇫🇷 DNS des FAI Français](articles/dns/dns-provider-fr.md)
     * [NextDNS](articles/dns/nextdns.md)
