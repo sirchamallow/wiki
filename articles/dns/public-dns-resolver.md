@@ -1,6 +1,6 @@
 ---
-description: Une sélection de résolveurs DNS public
 icon: list-ul
+description: Une sélection de résolveurs DNS public
 layout:
   title:
     visible: true
@@ -16,7 +16,7 @@ layout:
 
 # Liste de résolveur DNS public
 
-## Fiable
+## DNS Fiable
 
 ### **FDN – French Data Network**
 
@@ -159,6 +159,24 @@ Source : [https://blog.uncensoreddns.org/dns-servers](https://blog.uncensoreddns
 {% tab title="IPv6" %}
 2001:67c:28a4::\
 2a01:3a0:53:53::
+{% endtab %}
+{% endtabs %}
+
+### Vercara ULTRA DNS Public
+
+{% hint style="info" %}
+[https://vercara.com/ultra-dns-public](https://vercara.com/ultra-dns-public)
+{% endhint %}
+
+{% tabs %}
+{% tab title="IPv4" %}
+64.6.64.6\
+64.6.65.6
+{% endtab %}
+
+{% tab title="IPv6" %}
+2620:74:1b::1:1\
+2620:74:1c::2:2
 {% endtab %}
 {% endtabs %}
 
