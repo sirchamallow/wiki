@@ -41,43 +41,14 @@ Sur macOS, la méthode/commande pour vider le cache DNS varie en fonction de la 
 Renseignez votre mot de passe administrateur si besoin et cliquez à nouveau sur la touche **Entrée** pour vider votre cache DNS.
 {% endhint %}
 
-Voici les commandes pour chaque version :
+1. **Ouvrez le Terminal** : Vous pouvez le trouver en utilisant Spotlight (appuyez sur **Commande + Espace**, tapez "Terminal" et appuyez sur Entrée).
+2.  **Tapez la commande suivante** :
 
-**macOS 11 Big Sur ou 12 Monterey**
-
-```bash
-sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
-```
-
-**macOS 10.11 El Capitan, 10.12 Sierra, 10.13 High Sierra, 10.14 Mojave, ou 10.15 Catalina**
-
-```bash
-sudo killall -HUP mDNSResponder
-```
-
-**macOS 10.10 Yosemite**&#x20;
-
-```bash
-sudo discoveryutil udnsflushcaches
-```
-
-**macOS 10.7 Lion, 10.8 Mountain Lion, ou 10.9 Mavericks**
-
-```bash
-sudo killall -HUP mDNSResponder
-```
-
-**macOS 10.6 Snow Leopard**
-
-```bash
-sudo dscacheutil -flushcache
-```
-
-**macOS 10.5 Leopard**
-
-```bash
-sudo lookupd -flushcache
-```
+    ```
+    sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+    ```
+3. **Appuyez sur Entrée** et saisissez votre mot de passe administrateur lorsque cela est demandé.
+4. **Appuyez à nouveau sur Entrée**.
 
 ## Linux
 
