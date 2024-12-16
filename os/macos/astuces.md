@@ -1,6 +1,6 @@
 ---
-description: Quelques astuces pour MacOS
 icon: face-smile
+description: Quelques astuces pour MacOS
 ---
 
 # Astuces
@@ -38,3 +38,21 @@ Si une app cesse de répondre et que vous ne pouvez pas la quitter normalement, 
 ## Prendre des captures d’écran
 
 {% embed url="https://support.apple.com/fr-fr/guide/mac-help/mh26782/mac" %}
+
+## Convertir les fichiers HEIC en JPEG
+
+Comment faire pour convertir en JPEG des photos au forme HEIC ?\
+En utilisant un outil de traitement d’image : **`ImageMagick`**.
+
+#### Windows
+
+1. [Télécharger ](https://imagemagick.org/script/download.php)et Installer ImageMagick.
+2. Ouvrir une ligne de commande (`cmd.exe`).
+3. Aller dans le répertoire qui contient les fichiers HEIC.
+4. Exécuter la commande suivante :
+
+```powershell
+magick mogrify -format jpg *.heic
+```
+
+Chaque conversion d’image prendra quelques secondes :)
