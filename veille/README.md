@@ -1,5 +1,6 @@
 ---
 icon: radar
+description: Une "awesome list" comme on dit sur la veille et la curation ;)
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# Veille
+# Veille & curation
 
 {% content-ref url="arguments-rhetologiques-fallacieux.md" %}
 [arguments-rhetologiques-fallacieux.md](arguments-rhetologiques-fallacieux.md)
@@ -25,6 +26,10 @@ layout:
 
 {% content-ref url="definition-du-terme-veilleurs.md" %}
 [definition-du-terme-veilleurs.md](definition-du-terme-veilleurs.md)
+{% endcontent-ref %}
+
+{% content-ref url="newsletter.md" %}
+[newsletter.md](newsletter.md)
 {% endcontent-ref %}
 
 {% content-ref url="ebook-regards-croises-sur-la-veille.md" %}

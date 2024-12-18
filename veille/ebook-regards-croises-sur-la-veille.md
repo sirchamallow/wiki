@@ -1,14 +1,13 @@
 ---
 description: 'Ebook : Regards croisés sur la veille'
+icon: book-sparkles
 ---
 
-# 📘 Regards croisés sur la veille
+# Regards croisés sur la veille
 
 ## **Description**
 
 Prenez le temps de le lire cet Ebook avec intérêt. Si celui-ci vous à intéressez, n'hésitez pas à le diffuser autour de vous. (en veillant à respecter les propos et les crédits des auteurs bien évidemment.)
-
-
 
 ### **Lecture**
 
