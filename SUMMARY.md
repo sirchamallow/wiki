@@ -104,4 +104,5 @@
     * [Newsletter > RSS](veille/flux-rss-atom/newsletter-greater-than-rss.md)
     * [Facebook > RSS](veille/flux-rss-atom/facebook-greater-than-rss.md)
   * [Newsletter](veille/newsletter.md)
+  * [Podcasts](veille/podcasts.md)
   * [Regards croisés sur la veille](veille/ebook-regards-croises-sur-la-veille.md)
