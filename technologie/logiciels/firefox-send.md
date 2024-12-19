@@ -1,5 +1,6 @@
 ---
 description: Firefox Send, une alternative à WeTransfer avec chiffrement de bout en bout
+icon: paper-plane
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: false
 ---
 
-# 📤 Firefox Send
+# Firefox Send
 
 {% hint style="danger" %}
 Update : le service est désormais arrêter

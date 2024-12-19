@@ -1,8 +1,9 @@
 ---
 description: un outil gratuit pour enregistrer son écran depuis son navigateur
+icon: clapperboard-play
 ---
 
-# 💻 RecordScreen
+# RecordScreen
 
 ![](<../../.gitbook/assets/image (17).png>)
 
