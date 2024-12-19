@@ -24,13 +24,19 @@ Voici comment installer des extensions très utiles pour VS Code
 Copier / Coller les lignes de commandes suivantes dans votre **terminal** pour installer les extensions
 {% endhint %}
 
-<pre class="language-bash"><code class="lang-bash">## Stylish
+<pre class="language-bash" data-full-width="true"><code class="lang-bash">## Stylish
 code --install-extension emmanuelbeziat.vscode-great-icons # VSCode Great Icons
 code --install-extension github.github-vscode-theme        # GitHub Theme
 code --install-extension Catppuccin.catppuccin-vsc         # Catppuccin Theme
 code --install-extension Catppuccin.catppuccin-vsc-icons   # Catppuccin icons
+code --install-extension dracula-theme.theme-dracula	   # Dracula Theme
 code --install-extension mhutchie.git-graph                # Git Graph
 code --install-extension oderwat.indent-rainbow            # indent-rainbow
+code --install-extension tal7aouy.rainbow-bracket          # Rainbow Brackets
+<strong>code --install-extension IBM.output-colorizer              # Output Colorizer
+</strong>
+## Language / Translate
+code --install MS-CEINTL.vscode-language-pack-fr           # French Language Pack for Visual Studio Code
 code --install-extension soerenuhrbach.vscode-deepl        # Deepl Translate
 code --install-extension adamvoss.vscode-languagetool      # LanguageTool
 code --install-extension adamvoss.vscode-languagetool-en   # LanguageTool (en)
@@ -43,7 +49,12 @@ code --install-extension ms-vscode-remote.remote-wsl        # Windows Subsystem 
 code --install-extension ms-vscode-remote.remote-ssh        # Remote - SSH
 code --install-extension ms-vscode-remote.remote-ssh-edit   # Remote - SSH: Editing Configuration Files
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack # Remote Development
-code --install MS-CEINTL.vscode-language-pack-fr            # French Language Pack for Visual Studio Code
+
+## Markdown lover
+code --install-extension foam.foam-vscode                    # Foam
+code --install-extension shd101wyy.markdown-preview-enhanced # Markdown Preview Enhanced
+code --install-extension DavidAnson.vscode-markdownlint      # markdownlint
+code --install-extension bierner.markdown-emoji              # Markdown Emoji
 
 ## Tools
 code --install-extension dbaeumer.vscode-eslint             # ESLint
@@ -56,6 +67,9 @@ code --install-extension KnisterPeter.vscode-commitizen     # Commitizen
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 <strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL
 </strong>code --install-extension redhat.ansible                     # Ansible
+code --install-extension pnp.polacode                       # Polacode
+code --install-extension hediet.vscode-drawio               # Draw.io Integration
+code --install-extension CodeDiagram.codediagram            # Code Diagram
 
 ## Language Support
 code --install-extension rebornix.ruby               # Ruby
