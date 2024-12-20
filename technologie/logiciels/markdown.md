@@ -4,15 +4,25 @@ icon: markdown
 
 # Markdown
 
-## Outils
+## Prise de notes
 
-{% embed url="https://hackmd.io" %}
+{% embed url="https://standardnotes.com" %}
 
 {% embed url="https://stackedit.io" %}
 
+### Wikis
+
 {% embed url="https://gitbook.com" %}
 
-{% embed url="https://standardnotes.com" %}
+{% embed url="https://hackmd.io" %}
+
+### Convertion
+
+{% embed url="https://msftmd.replit.app/" %}
+
+{% hint style="info" %}
+Source : [https://github.com/microsoft/markitdown](https://github.com/microsoft/markitdown)
+{% endhint %}
 
 ## Extensions Chrome
 
