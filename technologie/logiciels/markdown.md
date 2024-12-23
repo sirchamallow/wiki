@@ -24,9 +24,21 @@ icon: markdown
 
 {% embed url="https://tableconvert.com/" %}
 
+### JSON Array > Markdown
+
+{% embed url="https://tableconvert.com/json-to-markdown" %}
+
+### HTML Table > Markdown
+
+[https://tableconvert.com/html-to-markdown](https://tableconvert.com/html-to-markdown)
+
 ### Générateur de tableau
 
 {% embed url="https://www.tablesgenerator.com/markdown_tables" %}
+
+### Microsoft MarkItDown Converter
+
+Un outil Python pour convertir des fichiers et des documents bureautiques en Markdown.
 
 {% embed url="https://msftmd.replit.app/" %}
 
