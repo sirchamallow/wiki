@@ -16,7 +16,17 @@ icon: markdown
 
 {% embed url="https://hackmd.io" %}
 
-### Convertion
+***
+
+## Conversion
+
+### Excel > Markdown
+
+{% embed url="https://tableconvert.com/" %}
+
+### Générateur de tableau
+
+{% embed url="https://www.tablesgenerator.com/markdown_tables" %}
 
 {% embed url="https://msftmd.replit.app/" %}
 
@@ -24,11 +34,15 @@ icon: markdown
 Source : [https://github.com/microsoft/markitdown](https://github.com/microsoft/markitdown)
 {% endhint %}
 
+***
+
 ## Extensions
 
 ### Chrome
 
 {% embed url="https://github.com/benweet/stackedit" %}
+
+***
 
 ### VScode
 
