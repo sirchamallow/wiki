@@ -88,7 +88,8 @@ Voici un guide détaillé :
 ### Étape 1 : Choisir un thème Jekyll
 
 1. Allez sur **Jekyll Themes** ou un autre site proposant des thèmes Jekyll.
-2. Parcourez les thèmes disponibles et choisissez celui qui vous plaît.
+2. Parcourez les thèmes disponibles et choisissez celui qui vous plaît. \
+   Voici quelques exemples : [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy), [Orbit](https://github.com/sharu725/online-cv), [Linkhub](https://github.com/digitalmalayali/linkhub-jekyll-theme)
 3. Cliquez sur le bouton "Fork" en haut à droite de la page du thème pour copier le dépôt du thème dans votre propre compte GitHub.
 
 ### Étape 2 : Renommer le dépôt
