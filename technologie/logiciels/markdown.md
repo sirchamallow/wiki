@@ -36,7 +36,7 @@ Markdownifier, un outil pour converntur une url ou une page en Markdown
 
 ### HTML Table > Markdown
 
-[https://tableconvert.com/html-to-markdown](https://tableconvert.com/html-to-markdown)
+{% embed url="https://tableconvert.com/html-to-markdown" %}
 
 ### Générateur de tableau
 
