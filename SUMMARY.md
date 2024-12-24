@@ -31,7 +31,7 @@
       * [Logiciels](technologie/os/macos/logiciels.md)
       * [tvOS](technologie/os/macos/tvos.md)
       * [Divers](technologie/os/macos/divers.md)
-    * [Windows 11](technologie/os/windows11/README.md)
+    * [Windows 10/11](technologie/os/windows11/README.md)
       * [Powershell](technologie/os/windows11/powershell.md)
       * [Astuces de la Win](technologie/os/windows11/astuces-de-la-win.md)
   * [Mobile](technologie/mobile/README.md)
