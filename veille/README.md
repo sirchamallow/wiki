@@ -28,9 +28,17 @@ layout:
 [definition-du-terme-veilleurs.md](definition-du-terme-veilleurs.md)
 {% endcontent-ref %}
 
+***
+
 {% content-ref url="newsletter.md" %}
 [newsletter.md](newsletter.md)
 {% endcontent-ref %}
+
+{% content-ref url="podcasts.md" %}
+[podcasts.md](podcasts.md)
+{% endcontent-ref %}
+
+***
 
 {% content-ref url="ebook-regards-croises-sur-la-veille.md" %}
 [ebook-regards-croises-sur-la-veille.md](ebook-regards-croises-sur-la-veille.md)
