@@ -1,6 +1,6 @@
 ---
-description: Une liste de commandes utiles
 icon: rectangle-terminal
+description: Une liste de commandes utiles
 layout:
   title:
     visible: true
@@ -106,6 +106,20 @@ New-Item -Name "nom_fichier.ext" -ItemType File -Value "Contenu" # Créer un fic
 ## Active Directory <a href="#manipulation" id="manipulation"></a>
 
 Gestion de l'Active Directory avec le Powershell
+
+### Raccourci recherche
+
+Pour créer un **raccourci de recherche pour Active Directory** :
+
+* Cliquez avec le bouton droit sur un espace vide de votre bureau et sélectionnez "Nouveau", puis "Raccourci".
+* Dans le champ d'emplacement, entrez le chemin suivant :
+
+```powershell
+%SystemRoot%\system32\rundll32.exe dsquery,OpenQueryWindow
+```
+
+* Cliquez sur **"Suivant"** pour continuer.
+* Donnez un nom à votre raccourci, par exemple **"Recherche AD"**, puis cliquez sur **"Terminer"**.
 
 ### Informations sur les ordinateurs
 
