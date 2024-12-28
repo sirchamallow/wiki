@@ -17,8 +17,8 @@ layout:
 
 Vous trouvez dans cette section, des articles sur différents sujets de la tech et du web. Certains sont extraits de mon blog
 
-{% content-ref url="conversion-temporelle.md" %}
-[conversion-temporelle.md](conversion-temporelle.md)
+{% content-ref url="../../emploi/conversion-temporelle.md" %}
+[conversion-temporelle.md](../../emploi/conversion-temporelle.md)
 {% endcontent-ref %}
 
 {% content-ref url="flouter-votre-domicile-sur-google-maps.md" %}
