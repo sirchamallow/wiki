@@ -20,13 +20,20 @@ layout:
 
 **PowerShell ISE** offre **une interface graphiqu**e et des outils supplémentaires pour le développement de scripts, contrairement à la version standard de PowerShell qui utilise une **interface en ligne de commande**
 
+## Connaître votre version
+
+Pour identifier la version sur votre session PowerShell :
+
+```powershell
+$PSVersionTable # Afficher la version de PowerShell
+```
+
 ## Cheatsheet <a href="#information-systeme" id="information-systeme"></a>
 
 ### Informations systèmes
 
 ```powershell
 Get-ComputerInfo                    # Afficher les informations systèmes (version de windows, édition, bios version, etc)
-$PSVersionTable                     # Afficher la version de PowerShell
 Get-WMIObject Win32_OperatingSystem # Afficher la version de Windows
 $env:COMPUTERNAME                   # Afficher le nom de l'ordinateur
 ```
