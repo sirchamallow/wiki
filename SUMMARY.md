@@ -33,6 +33,7 @@
       * [Divers](technologie/os/macos/divers.md)
     * [Windows 10/11](technologie/os/windows11/README.md)
       * [Powershell](technologie/os/windows11/powershell.md)
+      * [Active Directory](technologie/os/windows11/active-directory.md)
       * [Astuces de la Win](technologie/os/windows11/astuces-de-la-win.md)
   * [Mobile](technologie/mobile/README.md)
     * [Android (Google)](technologie/mobile/android.md)
