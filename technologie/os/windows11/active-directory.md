@@ -24,9 +24,9 @@ Pour créer un **raccourci de recherche pour Active Directory** :
 
 ### Informations sur les ordinateurs
 
-<pre class="language-powershell" data-full-width="true"><code class="lang-powershell">Get-ADComputer -Filter * # Obtenez la liste des ordinateurs du domaine AD
-Get-ADComputer -Filter * -Properties * # Obtenez les propriétés des ordinateurs
-Get-ADComputer -Filter * -Properties * | Select Name # Obtenez le nom des ordinateurs
+<pre class="language-powershell" data-full-width="true"><code class="lang-powershell">Get-ADComputer -Filter *                                 # Obtenez la liste des ordinateurs du domaine AD
+Get-ADComputer -Filter * -Properties *                   # Obtenez les propriétés des ordinateurs
+Get-ADComputer -Filter * -Properties * | Select Name     # Obtenez le nom des ordinateurs
 
 # Comptez le nombre d’ordinateurs regroupés par la version du système d’exploitation
 Get-ADComputer -Filter * -Properties * | group -Property operatingSystem | Select Name,Count
