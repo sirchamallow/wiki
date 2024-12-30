@@ -125,18 +125,6 @@ Source : [https://github.com/dave-theunsub/clamtk](https://github.com/dave-theun
 
 ***
 
-## RustDesk
-
-<figure><img src="../../../../.gitbook/assets/rustdesk.png" alt="" width="234"><figcaption></figcaption></figure>
-
-Un logiciel de contrôle de bureau à distance, écrit en Rust. Fonctionne sans configuration. Vous avez le contrôle de vos données, sans se soucier de la sécurité. Il est possible d'utiliser un serveur relais mis à disposition par rustdesk, de l'auto-heberger avec le serveur de démonstration ou d'écrire votre propre serveur relais.
-
-{% hint style="info" %}
-Installation avec le paquet RPM :  [https://github.com/rustdesk/rustdesk/releases](https://github.com/rustdesk/rustdesk/releases) > Fedora
-{% endhint %}
-
-***
-
 ## Bitwarden
 
 <figure><img src="../../../../.gitbook/assets/Bitwarden_2022_Logo.png" alt="" width="375"><figcaption></figcaption></figure>

@@ -297,8 +297,20 @@ Vous avez le contrôle de vos données, sans se soucier de la sécurité. \
 \
 Il est possible d'utiliser un serveur relais mis à disposition par rustdesk, de l'auto-heberger avec le serveur de démonstration ou d'écrire votre propre serveur relais.
 
+#### Installation
+
+
+
+```html
+Installation avec le paquet RPM : https://github.com/rustdesk/rustdesk/releases > Fedora
+```
+
 {% hint style="info" %}
-Installation avec le paquet RPM :  [https://github.com/rustdesk/rustdesk/releases](https://github.com/rustdesk/rustdesk/releases) > Fedora
+Source :  [https://github.com/rustdesk](https://github.com/rustdesk/rustdesk/releases)
+{% endhint %}
+
+{% hint style="success" %}
+Site : [https://rustdesk.com/fr](https://rustdesk.com/fr/)
 {% endhint %}
 
 ***
@@ -416,3 +428,24 @@ sudo dnf install fastfetch
 {% hint style="info" %}
 Source : [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 {% endhint %}
+
+***
+
+## SquirrelDisk
+
+<figure><img src="../../../../.gitbook/assets/squirrel-demo-2.gif" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+**SquirrelDisk** est une alternative à la référence DAISYDISK, mais cette fois-ci, gratuit et disponible sur Windows, Linux et MacOS. En un clic, l'outil permet de localiser facilement les fichiers volumineux qui occupent inutilement de l’espace
+
+#### Installation
+
+{% hint style="info" %}
+Source : [https://github.com/adileo/squirreldisk](https://github.com/adileo/squirreldisk)
+{% endhint %}
+
+{% hint style="success" %}
+Site : [https://www.squirreldisk.com](https://www.squirreldisk.com/)
+{% endhint %}
+
