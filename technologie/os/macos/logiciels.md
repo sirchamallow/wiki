@@ -405,9 +405,9 @@ Site Internet : [https://epsteinapps.com/hover-for-safari/](https://epsteinapps.
 
 ***
 
-## Homebrew![Homebrew logo](https://brew.sh/assets/img/homebrew.svg)![Homebrew logo](https://brew.sh/assets/img/homebrew.svg)
+## Homebrew
 
-<figure><img src="../../../.gitbook/assets/homebrew.svg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="https://brew.sh/assets/img/homebrew.svg" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -488,3 +488,26 @@ La différence ? MicMac intègre des fonctionnalités supplémentaires qui le re
 Site Internet : [https://www.micmac-app.fr/fr](https://www.micmac-app.fr/fr/index.html)
 {% endhint %}
 
+***
+
+## Kaomoji Drawer
+
+<figure><img src="../../../.gitbook/assets/Kaomoji.png" alt="" width="563"><figcaption></figcaption></figure>
+
+#### Description
+
+Une application qui permets l'accès aux émoticônes japonaises (kaomojis) directement depuis la barre de menu Mac
+
+#### Installation
+
+```
+# Installation via le Mac App Store #
+```
+
+{% hint style="info" %}
+Source : [https://apps.apple.com/us/app/kaomoji-drawer/id6670708214](https://apps.apple.com/us/app/kaomoji-drawer/id6670708214?mt=12)
+{% endhint %}
+
+{% hint style="success" %}
+Site : [https://dakotafelder.com/kaomoji-drawer](https://dakotafelder.com/kaomoji-drawer/)
+{% endhint %}
