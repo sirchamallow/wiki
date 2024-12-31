@@ -106,3 +106,8 @@
   * [Newsletter](veille/newsletter.md)
   * [Podcasts](veille/podcasts.md)
   * [Regards croisés sur la veille](veille/ebook-regards-croises-sur-la-veille.md)
+* [Veille l'infi et l'au-delà](veille-linfi-et-lau-dela/README.md)
+  * [2021](veille-linfi-et-lau-dela/2021.md)
+  * [2022](veille-linfi-et-lau-dela/2022.md)
+  * [2023](veille-linfi-et-lau-dela/2023.md)
+  * [2024](veille-linfi-et-lau-dela/2024.md)
