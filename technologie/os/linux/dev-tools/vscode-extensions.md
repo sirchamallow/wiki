@@ -70,6 +70,7 @@ code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 code --install-extension pnp.polacode                       # Polacode
 code --install-extension hediet.vscode-drawio               # Draw.io Integration
 code --install-extension CodeDiagram.codediagram            # Code Diagram
+code --install-extension AykutSarac.jsoncrack-vscode        # JSON Crack
 
 ## Language Support
 code --install-extension rebornix.ruby               # Ruby

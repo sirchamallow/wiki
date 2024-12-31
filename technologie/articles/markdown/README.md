@@ -42,13 +42,13 @@ Markdownifier, un outil pour converntur une url ou une page en Markdown
 
 {% embed url="https://tableconvert.com/html-to-markdown" %}
 
-### Générateur de tableau
+## Générateur de tableau
 
 {% embed url="https://www.tablesgenerator.com/markdown_tables" %}
 
 {% embed url="https://binarytree.dev/markdown/md-table-generator" %}
 
-### Microsoft MarkItDown Converter
+## Microsoft MarkItDown Converter
 
 Un outil Python pour convertir des fichiers et des documents bureautiques en Markdown.
 
