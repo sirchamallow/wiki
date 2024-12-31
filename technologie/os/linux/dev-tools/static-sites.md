@@ -23,10 +23,11 @@ jekyll serve			# Launch server (http://localhost:4000)
 Source : [https://developer.fedoraproject.org/start/sw/web-app/jekyll.html](https://developer.fedoraproject.org/start/sw/web-app/jekyll.html)
 {% endhint %}
 
-### Themes
+#### Hébergement
 
-* Chirpy Jekyll Theme : [https://github.com/cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
-* Mr. Green Jekyll : [https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-fr.md#readme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-fr.md#readme)
+{% content-ref url="../../../articles/markdown/" %}
+[markdown](../../../articles/markdown/)
+{% endcontent-ref %}
 
 ## Hugo
 

@@ -20,27 +20,33 @@ icon: markdown
 
 ## Conversion
 
-### URL > Markdown
+### URL -> Markdown
 
 Markdownifier, un outil pour converntur une url ou une page en Markdown
 
 {% embed url="https://heckyesmarkdown.com/" %}
 
-### Excel > Markdown
+### Word -> Markdown
+
+{% embed url="https://word2md.com" %}
+
+### Excel -> Markdown
 
 {% embed url="https://tableconvert.com/" %}
 
-### JSON Array > Markdown
+### JSON Array -> Markdown
 
 {% embed url="https://tableconvert.com/json-to-markdown" %}
 
-### HTML Table > Markdown
+### HTML Table -> Markdown
 
 {% embed url="https://tableconvert.com/html-to-markdown" %}
 
 ### Générateur de tableau
 
 {% embed url="https://www.tablesgenerator.com/markdown_tables" %}
+
+{% embed url="https://binarytree.dev/markdown/md-table-generator" %}
 
 ### Microsoft MarkItDown Converter
 
@@ -89,7 +95,7 @@ Voici un guide détaillé :
 
 1. Allez sur **Jekyll Themes** ou un autre site proposant des thèmes Jekyll.
 2. Parcourez les thèmes disponibles et choisissez celui qui vous plaît. \
-   Voici quelques exemples : [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy), [Orbit](https://github.com/sharu725/online-cv), [Linkhub](https://github.com/digitalmalayali/linkhub-jekyll-theme)
+   Voici quelques exemples : [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy), [Orbit](https://github.com/sharu725/online-cv), [Linkhub](https://github.com/digitalmalayali/linkhub-jekyll-theme), [Mr. Green Jekyll](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-fr.md#readme)
 3. Cliquez sur le bouton "Fork" en haut à droite de la page du thème pour copier le dépôt du thème dans votre propre compte GitHub.
 
 ### Étape 2 : Renommer le dépôt

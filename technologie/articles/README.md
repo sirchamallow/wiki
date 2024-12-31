@@ -37,12 +37,12 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 [creer-une-playlist-de-webradios.md](creer-une-playlist-de-webradios.md)
 {% endcontent-ref %}
 
-{% content-ref url="google-docs-to-html-or-markdown.md" %}
-[google-docs-to-html-or-markdown.md](google-docs-to-html-or-markdown.md)
+{% content-ref url="markdown/google-docs-to-html-or-markdown.md" %}
+[google-docs-to-html-or-markdown.md](markdown/google-docs-to-html-or-markdown.md)
 {% endcontent-ref %}
 
-{% content-ref url="markdown-cheatsheet.md" %}
-[markdown-cheatsheet.md](markdown-cheatsheet.md)
+{% content-ref url="markdown/markdown-cheatsheet.md" %}
+[markdown-cheatsheet.md](markdown/markdown-cheatsheet.md)
 {% endcontent-ref %}
 
 {% content-ref url="ntp.md" %}
