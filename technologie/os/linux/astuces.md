@@ -326,6 +326,24 @@ Et le mot de passe qui va avec :)
 
 ***
 
+## Renommer l’utilisateur
+
+```bash
+# Renommer l'utilisateur
+sudo usermod -l newusername -d /home/newusername -m oldusername
+sudo groupmod -n newusername oldusername
+
+# Créer un lien symbolique (optionnel)
+# Pour éviter des erreurs avec certaines applications qui pointent encore vers l'ancien dossier, 
+vous pouvez créer un lien symbolique
+sudo ln -s /home/newusername /home/oldusername
+
+# Modifier le nom complet (optionnel)
+sudo usermod -c "Nouveau Nom Complet" newusername
+```
+
+***
+
 ## Reset mot de passe root / session
 
 {% embed url="https://blog.microlinux.fr/chroot-secours/" %}
