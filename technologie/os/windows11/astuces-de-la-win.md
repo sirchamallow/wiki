@@ -55,8 +55,8 @@ Pour des solutions officielles concernant l'optimisation de Windows, afin de Dé
 
 1. Sélectionnez le bouton **Démarrer** et faites défiler jusqu’à trouver l’application que vous souhaitez exécuter au démarrage.
 2. Cliquez sur l’application, sélectionnez **Plus**, puis sélectionnez **Ouvrir l’emplacement du fichier**. L’emplacement où est enregistré le raccourci vers l’application s’ouvre. S’il n’y a pas d’option pour **Ouvrir l’emplacement du fichier**, cela signifie que l’application ne peut pas s’exécuter au démarrage.
-3. Avec l’emplacement du fichier ouvert, appuyez sur la **touche de logo Windows** + **R** (fenêtre éxécutez), tapez **shell:startup**, puis sélectionnez **OK**. Le dossier **Démarrage** s’ouvre.
-4. Copiez et collez le raccourci de l’application à partir de l’emplacement du fichier dans le dossier**Démarrage**.
+3. Avec l’emplacement du fichier ouvert, appuyez sur la **touche de logo Windows** + **R** (fenêtre exécutez), tapez **shell:startup**, puis sélectionnez **OK**. Le dossier **Démarrage** s’ouvre.
+4. Copiez et collez le raccourci de l’application à partir de l’emplacement du fichier dans le dossier **Démarrage**.
 
 {% hint style="info" %}
 Source : [https://support.microsoft.com/fr-fr/windows/configurer-des-applications-de-d%C3%A9marrage-dans-windows-115a420a-0bff-4a6f-90e0-1934c844e473](https://support.microsoft.com/fr-fr/windows/configurer-des-applications-de-d%C3%A9marrage-dans-windows-115a420a-0bff-4a6f-90e0-1934c844e473)
