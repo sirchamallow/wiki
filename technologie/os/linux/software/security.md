@@ -11,6 +11,7 @@ description: Liste de logiciels de sécurités
 
 firewalld est un pare-feu open-source
 
+{% code fullWidth="true" %}
 ```bash
 sudo dnf install firewalld	    # Install firewalld
 sudo firewall-cmd --state	    # Checking the firewalld status
@@ -19,9 +20,38 @@ sudo systemctl unmask firewalld	    # Start firewalld, by entering the following
 sudo systemctl start firewalld		
 sudo systemctl enable firewalld	    # make firewalld start automatically at system start
 ```
+{% endcode %}
 
 {% hint style="info" %}
 Source : [https://docs.fedoraproject.org/fr/quick-docs/firewalld/](https://docs.fedoraproject.org/fr/quick-docs/firewalld/)
+{% endhint %}
+
+***
+
+## UFW (Uncomplicated Firewall)
+
+**UFW** pour **Uncomplicated Firewal**l est un utilitaire en ligne de commande simplifié de **Netfilter**, c’est une alternative simple à iptables, qui permet de gérer les règles du pare-feu
+
+{% code fullWidth="true" %}
+```bash
+sudo dnf install ufw        # Installez UFW en utilisant la commande suivante :
+sudo ufw enable             # Activez UFW avec la commande
+sudo ufw status             # Vérifiez l'état de UFW pour vous assurer qu'il est actif
+sudo ufw status verbose     # Plus d’information sur la paramétrage du pare-feu (logging, règle par défaut…)
+sudo ufw allow 80           # Ouvrir le trafic entrant sur le port 80 (http).
+sudo ufw allow 443/tcp      # Exemple pour ouvrir le 443 (https) seulement sur en TCP
+sudo ufw status numbered    # Afficher le statut sur les règles
+sudo ufw logging on         # Enregistrer enregistrer les événements du firewall
+
+# Autoriser un service
+less /etc/services          # Afficher la liste des services utiliser
+sudo ufw allow ssh          # Autoriser le service ssh
+sudo ufw allow from X.Y.Z.W # Si vous souhaitez autoriser tous le trafic entrant depuis une adresse IP
+```
+{% endcode %}
+
+{% hint style="info" %}
+Source : [https://launchpad.net/ufw](https://launchpad.net/ufw)
 {% endhint %}
 
 ***
