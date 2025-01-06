@@ -17,16 +17,8 @@ layout:
 
 Vous trouvez dans cette section, des articles sur différents sujets de la tech et du web. Certains sont extraits de mon blog
 
-{% content-ref url="../../emploi/conversion-temporelle.md" %}
-[conversion-temporelle.md](../../emploi/conversion-temporelle.md)
-{% endcontent-ref %}
-
-{% content-ref url="flouter-votre-domicile-sur-google-maps.md" %}
-[flouter-votre-domicile-sur-google-maps.md](flouter-votre-domicile-sur-google-maps.md)
-{% endcontent-ref %}
-
-{% content-ref url="kaomoji-japonais.md" %}
-[kaomoji-japonais.md](kaomoji-japonais.md)
+{% content-ref url="national-table-radio-frequency-bands-france.md" %}
+[national-table-radio-frequency-bands-france.md](national-table-radio-frequency-bands-france.md)
 {% endcontent-ref %}
 
 {% content-ref url="build-with-git.md" %}
@@ -37,32 +29,36 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 [creer-une-playlist-de-webradios.md](creer-une-playlist-de-webradios.md)
 {% endcontent-ref %}
 
-{% content-ref url="markdown/google-docs-to-html-or-markdown.md" %}
-[google-docs-to-html-or-markdown.md](markdown/google-docs-to-html-or-markdown.md)
+{% content-ref url="dns/" %}
+[dns](dns/)
 {% endcontent-ref %}
 
-{% content-ref url="markdown/markdown-cheatsheet.md" %}
-[markdown-cheatsheet.md](markdown/markdown-cheatsheet.md)
+{% content-ref url="flouter-votre-domicile-sur-google-maps.md" %}
+[flouter-votre-domicile-sur-google-maps.md](flouter-votre-domicile-sur-google-maps.md)
+{% endcontent-ref %}
+
+{% content-ref url="git.md" %}
+[git.md](git.md)
+{% endcontent-ref %}
+
+{% content-ref url="kaomoji-japonais.md" %}
+[kaomoji-japonais.md](kaomoji-japonais.md)
+{% endcontent-ref %}
+
+{% content-ref url="markdown/" %}
+[markdown](markdown/)
+{% endcontent-ref %}
+
+{% content-ref url="markdown/google-docs-to-html-or-markdown.md" %}
+[google-docs-to-html-or-markdown.md](markdown/google-docs-to-html-or-markdown.md)
 {% endcontent-ref %}
 
 {% content-ref url="ntp.md" %}
 [ntp.md](ntp.md)
 {% endcontent-ref %}
 
-{% content-ref url="dns/" %}
-[dns](dns/)
-{% endcontent-ref %}
-
-{% content-ref url="national-table-radio-frequency-bands-france.md" %}
-[national-table-radio-frequency-bands-france.md](national-table-radio-frequency-bands-france.md)
-{% endcontent-ref %}
-
 {% content-ref url="octopart.md" %}
 [octopart.md](octopart.md)
-{% endcontent-ref %}
-
-{% content-ref url="wifi.md" %}
-[wifi.md](wifi.md)
 {% endcontent-ref %}
 
 {% content-ref url="telecoms.md" %}
@@ -77,6 +73,6 @@ Vous trouvez dans cette section, des articles sur différents sujets de la tech 
 [statuspage.md](statuspage.md)
 {% endcontent-ref %}
 
-{% content-ref url="git.md" %}
-[git.md](git.md)
+{% content-ref url="wifi.md" %}
+[wifi.md](wifi.md)
 {% endcontent-ref %}
