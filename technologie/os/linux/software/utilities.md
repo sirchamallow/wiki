@@ -40,6 +40,64 @@ Site internet : [https://thetumultuousunicornofdarkness.github.io/CPU-X/](https:
 
 ***
 
+## DUF
+
+<figure><img src="../../../../.gitbook/assets/duf.png" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+DUF est un utilitaire en ligne de commande qui permet d’afficher l’espace disque disponible sur Linux et Windows dans un terminal. C'est une alternative améliorée à la commande de base `df`
+
+#### Installation
+
+#### **Étape 1 : Téléchargement du paquet RPM**
+
+Ouvrez votre navigateur web et allez sur la[ page des releases de duf](https://github.com/muesli/duf) sur GitHub.
+
+Recherchez la version la plus récente de duf et téléchargez le fichier RPM correspondant à votre architecture (généralement `linux_amd64.rpm` pour les systèmes x86\_64).
+
+#### **Étape 2 : Installation du paquet**
+
+Ouvrez un terminal.
+
+Naviguez jusqu'au répertoire où vous avez téléchargé le fichier RPM. Par exemple, si le fichier est dans le dossier `Téléchargements`, utilisez la commande :
+
+```
+cd ~/Téléchargements
+```
+
+Installez le paquet RPM avec la commande suivante :
+
+```
+sudo rpm -i duf_0.6.2_linux_amd64.rpm
+```
+
+Remplacez `duf_0.6.2_linux_amd64.rpm` par le nom exact du fichier que vous avez téléchargé.
+
+**Étape 3 : Vérification de l'installation**
+
+Pour vérifier que l'installation s'est bien déroulée, exécutez la commande suivante dans le terminal :
+
+```bash
+duf --version
+```
+
+Si l'installation a réussi, vous devriez voir la version de duf installée s'afficher :)
+
+#### Utilisation de duf
+
+Maintenant que duf est installé, vous pouvez l'utiliser pour vérifier l'utilisation de l'espace disque
+
+```bash
+duf
+```
+
+{% hint style="info" %}
+Source : [https://github.com/muesli/duf](https://github.com/muesli/duf)
+{% endhint %}
+
+***
+
 ## P7zip
 
 <figure><img src="../../../../.gitbook/assets/7ziplogo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
