@@ -63,6 +63,7 @@
       * [🇨🇳 Huawei Computers](technologie/hardware/informatique/huawei-computers.md)
     * [Electroménager](technologie/hardware/electromenager.md)
   * [Ressources](technologie/articles/README.md)
+    * [Page](technologie/articles/page.md)
     * [Bandes de fréquences radioélectriques](technologie/articles/national-table-radio-frequency-bands-france.md)
     * [🔗 Construire des logiciels, ensemble, avec Git](technologie/articles/build-with-git.md)
     * [Créer une playlist de webradios](technologie/articles/creer-une-playlist-de-webradios.md)
