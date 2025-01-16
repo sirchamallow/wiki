@@ -12,6 +12,16 @@ icon: user-lock
 
 {% embed url="https://www.eff.org" %}
 
+***
+
+## Wiki
+
+### PrivacyGuides
+
+{% embed url="https://www.privacyguides.org/fr/" %}
+
+***
+
 ## Astuces
 
 ### Comment désactiver l’attribut ping dans les navigateurs <a href="#how-to-disable-the-ping-attribute-in-browsers" id="how-to-disable-the-ping-attribute-in-browsers"></a>
