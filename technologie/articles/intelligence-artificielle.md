@@ -44,7 +44,30 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://www.perplexity.ai" %}
 
+### Microsoft Copilot
+
+{% embed url="https://copilot.microsoft.com" %}
+
+### ChatGPT Search
+
+{% embed url="https://chatgpt.com/search" %}
+
 ***
 
+## Modèle
 
+### Claude
 
+{% embed url="https://claude.ai" %}
+
+### Gemini (Google)
+
+{% embed url="https://gemini.google.com/?hl=fr" %}
+
+### ChatGPT (OpenAI)
+
+{% embed url="https://openai.com/index/chatgpt/" %}
+
+### Mistral AI
+
+{% embed url="https://mistral.ai/fr/" %}
