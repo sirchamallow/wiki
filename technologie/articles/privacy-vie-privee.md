@@ -31,3 +31,7 @@ Pour les utilisateurs soucieux de leur vie privée, la désactivation de l’att
 3. Sélectionnez le mode Strict.
 
 **Extensions** Les extensions de navigateur axées sur la confidentialité comme uBlock Origin ou Privacy Badger peuvent bloquer les demandes.`ping`
+
+{% hint style="info" %}
+Source : [https://jsdev.space/html-ping-attribute/#what-is-the-ping-attribute-in-the-a-tag](https://jsdev.space/html-ping-attribute/#what-is-the-ping-attribute-in-the-a-tag)
+{% endhint %}

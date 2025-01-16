@@ -91,6 +91,7 @@
     * [Status page](technologie/articles/statuspage.md)
     * [Telecoms](technologie/articles/telecoms.md)
     * [WiFi](technologie/articles/wifi.md)
+    * [Intelligence Artificielle](technologie/articles/intelligence-artificielle.md)
 * [Loisirs](loisirs/README.md)
   * [Jeux Vidéo](loisirs/jeux-video.md)
   * [Mobilité](loisirs/mobilite/README.md)
