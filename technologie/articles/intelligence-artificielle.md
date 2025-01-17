@@ -56,7 +56,7 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 ## Modèle
 
-### Claude
+### Claude (Anthropic)
 
 {% embed url="https://claude.ai" %}
 

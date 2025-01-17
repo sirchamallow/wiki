@@ -722,3 +722,27 @@ arsenal
 {% hint style="info" %}
 Source : [https://github.com/Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
 {% endhint %}
+
+***
+
+## sshx
+
+<figure><img src="../../../../.gitbook/assets/68747470733a2f2f692e696d6775722e636f6d2f5133714b4148572e706e67.png" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+`sshx`est une solution pour partager votre terminal en expérience collaborative. Vous pourrez ainsi partager votre terminal aussi facilement qu’un document Google Docs, avec un simple lien.
+
+#### Installation
+
+```bash
+curl -sSf https://sshx.io/get | sh
+```
+
+{% hint style="info" %}
+Source : [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://sshx.io/](https://sshx.io/)
+{% endhint %}
