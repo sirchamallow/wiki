@@ -449,7 +449,7 @@ Site internet : [https://git.xfce.org/apps/catfish/about/](https://git.xfce.org/
 
 ## WoeUSB-ng
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt="" width="256"><figcaption></figcaption></figure>
 
 #### Description
 

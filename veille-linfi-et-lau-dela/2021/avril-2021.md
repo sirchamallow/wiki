@@ -2,10 +2,6 @@
 
 Internet est grand, gloire à lui. “Les Flux RSS, c’est la base de toute veille qui se respecte”. Bon surf !
 
-[Subscribe now](https://sirchamallow.substack.com/subscribe?)
-
-[Twitter](https://twitter.com/sirchamallow)
-
 ***
 
 ### **\[Medias]**
@@ -102,3 +98,5 @@ Internet est grand, gloire à lui. “Les Flux RSS, c’est la base de toute vei
 
 * [**À l'ère de la surveillance numérique**](https://www.franceculture.fr/emissions/series/a-lere-de-la-surveillance-numerique)**. (**&#x34; épisodes). Une série documentaire d'**Antoine Tricot**, réalisée par **Rafik Zenine,** en partenariat avec Le magazine L’ADN. (France Culture)
 * “Lyon Lumens" 36 135 photos, 674h de travail, explications du projet : [https://www.e-motionpictures.fr/lyon-lumens/](https://www.e-motionpictures.fr/lyon-lumens/)
+
+{% embed url="https://youtu.be/FaQyZgQ04Kg" %}

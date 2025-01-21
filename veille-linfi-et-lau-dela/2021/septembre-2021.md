@@ -4,9 +4,9 @@ C’est la rentrée ! Pas mal de changement de mon côté, après quasiment 6 an
 
 Le monde du **parking, du stationnement et de la mobilité** est un petit milieu (et en même temps très vaste). Je pourrais vous parler pendant des heures de barrières, porte basculante, speedgate, automate, contrôle d'accès, système de lecture de plaque d'immatriculation, des différentes gateways IoT, tellement cet univers est passionnant techniquement :)
 
-Et maintenant place à votre session découverte&#x20;
+Et maintenant place à votre session découverte !
 
-<figure><img src="../../.gitbook/assets/955cfb4d-ad8f-41b3-8aaa-5ebffc1ea172_233x169.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ Et maintenant place à votre session découverte&#x20;
 
 ***
 
-{% embed url="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08a11bae-40e4-435b-ab45-3861ec4fbbb9_1080x1213.jpeg" %}
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 (via @[ordurebizarre](https://twitter.com/ordurebizarree/status/1409068986189455362/photo/1))
 
@@ -54,11 +54,11 @@ Et maintenant place à votre session découverte&#x20;
 
 
 
-{% embed url="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb8a39f0-139f-41f7-b4ae-edd1e822431a_1080x1066.jpeg" %}
+    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-*   (via @[System32Comics](https://twitter.com/System32Comics))
+(via @[System32Comics](https://twitter.com/System32Comics))
 
-    ***
+***
 
 ### **Replay // Audio // Video**
 
@@ -73,4 +73,14 @@ Et maintenant place à votre session découverte&#x20;
 
 ***
 
-M
+Merci de votre attention, si mon travail de curation /veille sur les internets vous a plu, n’hésitez pas à partager cette newsletter autour de vous.
+
+Et abonnez-vous pour recevoir les prochaines éditions !
+
+[Subscribe now](https://sirchamallow.substack.com/subscribe?)
+
+☛ Les “Carnets de veille de sirchamallow” sont éditées par Pierre LEMASSON
+
+🐦 Retrouvez-moi sur Twitter -> @[sirchamallow](https://twitter.com/sirchamallow)
+
+🌠 Visiter mon blog sur [sir.chamallow.com](http://sir.chamallow.com/)
