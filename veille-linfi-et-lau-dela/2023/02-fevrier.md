@@ -1,6 +1,6 @@
 # 02 - Février
 
-### ouveautés
+### Nouveautés
 
 Je vais essayer d’écrire un peu plus, pour celles & ceux qui n’ont pas pour habitude de lire des carnets de veille. J’en profite pour vous faire découvrir ou revenir sur [mon wiki](https://sirchamallow.gitbook.io/wiki/) :)
 
