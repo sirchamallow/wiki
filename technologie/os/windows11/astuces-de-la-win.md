@@ -75,3 +75,5 @@ Vérifie le système de fichiers et les métadonnées du système de fichiers d�
 La commande sfc /scannow analyse tous les fichiers système protégés et remplace les fichiers endommagés par une copie mise en cache. Les résultats de l'analyse seront affichés une fois ce processus terminé.
 
 {% embed url="https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/sfc" %}
+
+{% embed url="https://support.microsoft.com/fr-fr/topic/utilisez-l-outil-v%C3%A9rificateur-des-fichiers-syst%C3%A8me-pour-r%C3%A9parer-les-fichiers-syst%C3%A8me-manquants-ou-endommag%C3%A9s-79aa86cb-ca52-166a-92a3-966e85d4094e" %}
