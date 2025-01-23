@@ -51,7 +51,7 @@ Pour des solutions officielles concernant l'optimisation de Windows, afin de Dé
 
 {% embed url="https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/optimize-your-device/services" %}
 
-### Lancer des applications automatiquement au démarrage
+## Lancer des applications automatiquement au démarrage
 
 1. Sélectionnez le bouton **Démarrer** et faites défiler jusqu’à trouver l’application que vous souhaitez exécuter au démarrage.
 2. Cliquez sur l’application, sélectionnez **Plus**, puis sélectionnez **Ouvrir l’emplacement du fichier**. L’emplacement où est enregistré le raccourci vers l’application s’ouvre. S’il n’y a pas d’option pour **Ouvrir l’emplacement du fichier**, cela signifie que l’application ne peut pas s’exécuter au démarrage.
@@ -61,3 +61,17 @@ Pour des solutions officielles concernant l'optimisation de Windows, afin de Dé
 {% hint style="info" %}
 Source : [https://support.microsoft.com/fr-fr/windows/configurer-des-applications-de-d%C3%A9marrage-dans-windows-115a420a-0bff-4a6f-90e0-1934c844e473](https://support.microsoft.com/fr-fr/windows/configurer-des-applications-de-d%C3%A9marrage-dans-windows-115a420a-0bff-4a6f-90e0-1934c844e473)
 {% endhint %}
+
+## Faire quelques vérifications
+
+### chkdsk
+
+Vérifie le système de fichiers et les métadonnées du système de fichiers d’un volume à la recherche d’erreurs logiques et physiques.&#x20;
+
+{% embed url="https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk" %}
+
+### sfc
+
+La commande sfc /scannow analyse tous les fichiers système protégés et remplace les fichiers endommagés par une copie mise en cache. Les résultats de l'analyse seront affichés une fois ce processus terminé.
+
+{% embed url="https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/sfc" %}
