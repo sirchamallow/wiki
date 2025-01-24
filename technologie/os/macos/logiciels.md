@@ -511,3 +511,27 @@ Source : [https://apps.apple.com/us/app/kaomoji-drawer/id6670708214](https://app
 {% hint style="success" %}
 Site : [https://dakotafelder.com/kaomoji-drawer](https://dakotafelder.com/kaomoji-drawer/)
 {% endhint %}
+
+***
+
+## Maccy
+
+<figure><img src="../../../.gitbook/assets/mg-5e76f610-w1642-w828-w1300.jpg" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+Maccy est un gestionnaire de presse-papiers destiné écrit en **Swift**.
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="info" %}
+Source : [https://github.com/p0deje/Maccy/tree/master](https://github.com/p0deje/Maccy/tree/master)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://maccy.app](https://maccy.app/)
+{% endhint %}
