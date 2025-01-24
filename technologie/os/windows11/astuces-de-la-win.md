@@ -77,3 +77,7 @@ La commande sfc /scannow analyse tous les fichiers système protégés et rempla
 {% embed url="https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/sfc" %}
 
 {% embed url="https://support.microsoft.com/fr-fr/topic/utilisez-l-outil-v%C3%A9rificateur-des-fichiers-syst%C3%A8me-pour-r%C3%A9parer-les-fichiers-syst%C3%A8me-manquants-ou-endommag%C3%A9s-79aa86cb-ca52-166a-92a3-966e85d4094e" %}
+
+## Réparer les fichiers de données Outlook (.pst et .ost) <a href="#page-header" id="page-header"></a>
+
+{% embed url="https://support.microsoft.com/fr-fr/office/r%C3%A9parer-les-fichiers-de-donn%C3%A9es-outlook-pst-et-ost-25663bc3-11ec-4412-86c4-60458afc5253" %}
