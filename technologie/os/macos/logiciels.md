@@ -535,3 +535,27 @@ Source : [https://github.com/p0deje/Maccy/tree/master](https://github.com/p0deje
 {% hint style="success" %}
 Site Internet : [https://maccy.app](https://maccy.app/)
 {% endhint %}
+
+***
+
+## **MARTA File Manager**
+
+<figure><img src="../../../.gitbook/assets/marta.png" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+**MARTA File Manager** est une application de gestion de fichiers écrite entièrement en Swift, elle se distingue par sa performance exceptionnelle et son respect de la vie privée.
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="info" %}
+Source : [https://github.com/marta-file-manager](https://github.com/marta-file-manager)
+{% endhint %}
+
+{% hint style="success" %}
+Site Internet : [https://marta.sh](https://marta.sh/download/)
+{% endhint %}
