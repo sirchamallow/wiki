@@ -99,6 +99,7 @@
   * [Blogosphère](veille/blogosphere.md)
   * [Définition des veilleurs](veille/definition-du-terme-veilleurs.md)
   * [Flux RSS / ATOM](veille/flux-rss-atom/README.md)
+    * [Présentation](veille/flux-rss-atom/presentation.md)
     * [Awesome list of RSS](veille/flux-rss-atom/awesome-list-of-rss.md)
     * [Outils](veille/flux-rss-atom/outils.md)
     * [Newsletter > RSS](veille/flux-rss-atom/newsletter-greater-than-rss.md)
