@@ -1,6 +1,6 @@
 ---
-description: Sélection de logiciels
 icon: uncharted
+description: Sélection de logiciels
 layout:
   title:
     visible: true
@@ -16,22 +16,3 @@ layout:
 
 # Logiciels
 
-{% content-ref url="browsers/" %}
-[browsers](browsers/)
-{% endcontent-ref %}
-
-{% content-ref url="outils-pdf.md" %}
-[outils-pdf.md](outils-pdf.md)
-{% endcontent-ref %}
-
-{% content-ref url="firefox-send.md" %}
-[firefox-send.md](firefox-send.md)
-{% endcontent-ref %}
-
-{% content-ref url="recordscreen.md" %}
-[recordscreen.md](recordscreen.md)
-{% endcontent-ref %}
-
-{% content-ref url="resizing.app.md" %}
-[resizing.app.md](resizing.app.md)
-{% endcontent-ref %}
