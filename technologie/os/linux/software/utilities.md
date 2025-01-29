@@ -1,6 +1,6 @@
 ---
-description: Liste d'utilitaires
 icon: screwdriver-wrench
+description: Liste d'utilitaires
 layout:
   title:
     visible: true
@@ -449,7 +449,7 @@ Site internet : [https://git.xfce.org/apps/catfish/about/](https://git.xfce.org/
 
 ## WoeUSB-ng
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1) (1).png" alt="" width="256"><figcaption></figcaption></figure>
 
 #### Description
 

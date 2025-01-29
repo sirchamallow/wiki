@@ -1,13 +1,13 @@
 ---
-description: Outils, articles etc. pour Flux RSS
 icon: square-rss
+description: Outils, articles etc. pour Flux RSS
 ---
 
 # Flux RSS / ATOM
 
 ## Introduction
 
-![Le RSS caylavie !](<../../.gitbook/assets/image (10).png>)
+![Le RSS caylavie !](<../../.gitbook/assets/image (10) (1).png>)
 
 ### **Présentation**
 

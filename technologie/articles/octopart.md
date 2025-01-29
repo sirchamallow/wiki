@@ -1,11 +1,11 @@
 ---
-description: Un moteur de recherche de composants électroniques & produits industriels
 icon: folder-tree
+description: Un moteur de recherche de composants électroniques & produits industriels
 ---
 
 # Octopart
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 Lors de ma session de veille hardware, je suis tombé sur un moteur de recherche de composants électroniques très intéressant : [**Octopart**](https://octopart.com/).
 

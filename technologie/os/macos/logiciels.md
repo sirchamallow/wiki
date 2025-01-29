@@ -289,7 +289,7 @@ Site Internet : [https://max.codes/latest](https://max.codes/latest/)
 
 ## Scratchpad
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt="" width="128"><figcaption></figcaption></figure>
 
 #### Description
 

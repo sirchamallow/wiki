@@ -4,7 +4,7 @@ Mais au fait Internet c’est quoi ? [La réponse de Moss](https://www.youtube.c
 
 Le plus difficile dans la rédaction d’une newsletter, c’est le travail de tri du contenu, j’ai envie de mettre tellement plus de liens… Pas facile comme exercice, mais très intéressant car demande de la réflexion sur plusieurs jours. Bon surf !
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -74,7 +74,7 @@ _“Le **pétrichor** est un liquide huileux sécrété par certaines plantes, p
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 (by @[thejenkinscomic](https://twitter.com/thejenkinscomic/status/1371525409523781637))
 
