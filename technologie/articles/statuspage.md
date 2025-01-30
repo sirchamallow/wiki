@@ -1,6 +1,6 @@
 ---
-description: Lite de service pour mettre en place des status page
 icon: cloud-exclamation
+description: Lite de service pour mettre en place des status page
 ---
 
 # Status page
@@ -20,12 +20,16 @@ icon: cloud-exclamation
 * [OVH.com](http://travaux.ovh.net/) - OVH status page
 * [Gandi.net](https://status.gandi.net/) - Gandi.net status page
 
+***
+
 **Global status page**
 
 **CloudSquare Service status.** \
 Surveille les principaux clouds et services (CDN, DNS, storage, compute) par zones géographiques.  Les données sont basées sur les sondes RIPE Atlas de l'organisme RIPE NCC
 
 Cloud Harmony > [https://cloudharmony.com/status](https://cloudharmony.com/status)
+
+***
 
 ### Outils pour mettre en place des status page
 
