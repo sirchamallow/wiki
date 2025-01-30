@@ -1,5 +1,6 @@
 ---
 icon: head-side-brain
+description: Outils pour l'IA
 ---
 
 # Intelligence Artificielle
@@ -12,19 +13,19 @@ Un outil qui permettant d’avoir un équivalent de GitHub Copilot localement di
 
 {% embed url="https://github.com/danielgross/localpilot" %}
 
-## Lovable&#x20;
+### Lovable&#x20;
 
 Une application qui transforme une idée en application en quelques secondes. Un peu à la manière de BOLT, elle agit comme un ingénieur full-stack surhumain, capable de créer rapidement des solutions sur mesure à partir de simples concepts. Pas besoin de connaissances en programmation pour l’utiliser. Son intelligence artificielle simplifie le processus en automatisant chaque étape de développement.
 
 {% embed url="https://lovable.dev" %}
 
-## Bolt.new
+### Bolt.new
 
 Un service de développement web complet alimenté par l’IA. Il permet de concevoir, exécuter, modifier et déployer des applications full-stack directement depuis le navigateur, sans configuration locale requise.
 
 {% embed url="https://bolt.new" %}
 
-## **Midscene.js**
+### **Midscene.js**
 
 &#x20;Permets notamment d'Extraire des données JSON à l’aide de requêtes.
 
@@ -52,6 +53,10 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://chatgpt.com/search" %}
 
+### LINER
+
+{% embed url="https://getliner.com" %}
+
 ***
 
 ## Modèle
@@ -71,3 +76,15 @@ Une application permettant de convertir automatiquement vos Figma en code
 ### Mistral AI
 
 {% embed url="https://mistral.ai/fr/" %}
+
+***
+
+## Local
+
+### Anything LLM
+
+{% embed url="https://anythingllm.com/" %}
+
+### Ollama
+
+{% embed url="https://ollama.com/" %}
