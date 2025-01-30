@@ -37,6 +37,8 @@ Je vous recommande [l'usage de PowerShell](https://learn.microsoft.com/fr-fr/pow
 14. **`TASKKILL`** : Permet de terminer un processus en cours d'exécution
 15. **`SHUTDOWN`** : Permet d'éteindre, redémarrer ou mettre en veille l'ordinateur
 
+***
+
 ## Télémétrie pilotes carte graphique Nvidia
 
 Penser à désactiver la télémétrie activée par défaut de la suite _GeForce Experience_, un logiciel de **Nvidia** accompagnant bien souvent les drivers de la carte graphique. Ils remontent automatiquement des informations sur votre système au fabricant.\
@@ -45,11 +47,15 @@ Avec le refrain classique "nous nous servons de cette télémétrie pour amélio
 \
 Il vous sera nécessaire soit de vous plonger dans les tâches planifiées, le registre et les services de Windows en suivant par exemple [ce guide de PC-Astuces](https://www.pcastuces.com/pratique/astuces/4871.htm), ou un installant [ce package depuis Chocolatey](https://chocolatey.org/packages/disable-nvidia-telemetry).
 
+***
+
 ## **Désactiver les services inutiles**
 
 Pour des solutions officielles concernant l'optimisation de Windows, afin de Désactiver les services inutile&#x73;**,** il y a... le site de Microsoft (:
 
 {% embed url="https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/optimize-your-device/services" %}
+
+***
 
 ## Lancer des applications automatiquement au démarrage
 
@@ -61,6 +67,8 @@ Pour des solutions officielles concernant l'optimisation de Windows, afin de Dé
 {% hint style="info" %}
 Source : [https://support.microsoft.com/fr-fr/windows/configurer-des-applications-de-d%C3%A9marrage-dans-windows-115a420a-0bff-4a6f-90e0-1934c844e473](https://support.microsoft.com/fr-fr/windows/configurer-des-applications-de-d%C3%A9marrage-dans-windows-115a420a-0bff-4a6f-90e0-1934c844e473)
 {% endhint %}
+
+***
 
 ## Faire quelques vérifications
 
@@ -78,6 +86,22 @@ La commande sfc /scannow analyse tous les fichiers système protégés et rempla
 
 {% embed url="https://support.microsoft.com/fr-fr/topic/utilisez-l-outil-v%C3%A9rificateur-des-fichiers-syst%C3%A8me-pour-r%C3%A9parer-les-fichiers-syst%C3%A8me-manquants-ou-endommag%C3%A9s-79aa86cb-ca52-166a-92a3-966e85d4094e" %}
 
+***
+
 ## Réparer les fichiers de données Outlook (.pst et .ost) <a href="#page-header" id="page-header"></a>
 
 {% embed url="https://support.microsoft.com/fr-fr/office/r%C3%A9parer-les-fichiers-de-donn%C3%A9es-outlook-pst-et-ost-25663bc3-11ec-4412-86c4-60458afc5253" %}
+
+***
+
+## Vérifier l'état de la batterie sur Windows
+
+Ouvrez l'invite de commandes ou PowerShell en appuyant sur les touches `Win + X` et sélectionnez Invite de commandes en mode administrateur.&#x20;
+
+Tapez la commande suivante et appuyez sur `Entrée` pour générez un rapport de batterie
+
+```powershell
+powercfg /batteryreport /output "C:\battery-report.html"
+```
+
+Et pour consulter le rapport, aller dans le dossier `C:\battery-report.html` et ouvrez ce fichier dans votre navigateur pour voir un rapport détaillé sur l'état de votre batterie (capacité de la batterie, l'historique d'utilisation...)
