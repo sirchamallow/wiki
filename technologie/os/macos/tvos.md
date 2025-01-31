@@ -6,10 +6,6 @@ icon: tv-retro
 
 ## tvOS
 
-### Jumeler les AirPods avec un appareil Apple
-
-{% embed url="https://support.apple.com/fr-fr/guide/airpods/dev7c85810f2/web" %}
-
 ### Partager l’audio avec des AirPods sur l’Apple TV 4K
 
 {% embed url="https://support.apple.com/fr-fr/guide/airpods/dev28f39a9e7/web" %}
