@@ -28,6 +28,7 @@
     * [MacOS (Apple)](technologie/os/macos/README.md)
       * [Astuces](technologie/os/macos/astuces.md)
       * [Logiciels](technologie/os/macos/logiciels.md)
+      * [AirPods](1.-technologie/os/macos/airpods.md)
       * [tvOS](technologie/os/macos/tvos.md)
       * [Divers](technologie/os/macos/divers.md)
     * [Windows 10/11](technologie/os/windows11/README.md)
