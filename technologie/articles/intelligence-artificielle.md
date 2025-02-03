@@ -31,11 +31,19 @@ Un service de développement web complet alimenté par l’IA. Il permet de conc
 
 {% embed url="https://midscenejs.com/" %}
 
-**BUILDER.io**
+### **BUILDER.io**
 
 Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://www.builder.io" %}
+
+### TRAE (ByteDance)
+
+{% embed url="https://www.trae.ai" %}
+
+### Cursor
+
+{% embed url="https://www.cursor.com" %}
 
 ***
 
@@ -76,6 +84,10 @@ Une application permettant de convertir automatiquement vos Figma en code
 ### Mistral AI
 
 {% embed url="https://mistral.ai/fr/" %}
+
+### Qwen (Alibaba)
+
+{% embed url="https://chat.qwenlm.ai" %}
 
 ***
 
