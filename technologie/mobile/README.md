@@ -1,6 +1,0 @@
----
-icon: mobile-notch
----
-
-# Mobile
-

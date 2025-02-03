@@ -105,3 +105,41 @@ powercfg /batteryreport /output "C:\battery-report.html"
 ```
 
 Et pour consulter le rapport, aller dans le dossier `C:\battery-report.html` et ouvrez ce fichier dans votre navigateur pour voir un rapport détaillé sur l'état de votre batterie (capacité de la batterie, l'historique d'utilisation...)
+
+***
+
+## Changer son adresse MAC Bluetooth <a href="#article-title" id="article-title"></a>
+
+Windows ne permet pas tout le temps de le faire directement via les paramètres.
+
+Avant de vous lancer dans ce genre de manipulations :&#x20;
+
+{% hint style="danger" %}
+L'adresse `00:00:00:00:00:00` (tous zéros) est interdite car elle peut rendre votre adaptateur inutilisable.
+{% endhint %}
+
+{% hint style="success" %}
+Conservez l’adresse MAC d’origine si vous devez revenir en arrière. Pour restaurer la configuration initiale, il vous suffira de répéter l’opération en saisissant l’adresse d’origine.
+{% endhint %}
+
+Voici deux façon de faire la manipulation :
+
+### **Gestionnaire de périphériques**
+
+1. Appuyez sur `Win + X` et sélectionnez **Gestionnaire de périphériques**.
+2. Trouvez votre adaptateur Bluetooth sous la section **Bluetooth**.
+3. Faites un clic droit sur l'adaptateur Bluetooth et sélectionnez **Propriétés**.
+4. Allez dans l'onglet **Avancé** ou **Avancé** (selon la version de Windows).
+5. Recherchez une option appelée **Adresse réseau** ou **Network Address**.
+6. Si cette option est disponible, vous pouvez entrer une nouvelle adresse MAC. Si elle n'est pas disponible, cette méthode ne fonctionnera pas pour votre adaptateur.
+
+### Bluetooth MAC Address Changer
+
+{% embed url="https://macaddresschanger.com" %}
+
+
+
+
+
+
+
