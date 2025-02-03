@@ -1,6 +1,6 @@
 ---
-description: Outils pour serveurs
 icon: server
+description: Outils pour serveurs
 layout:
   title:
     visible: true
@@ -72,12 +72,22 @@ Source : [https://docs.ansible.com/ansible/2.9/installation\_guide/intro\_instal
 
 <figure><img src="../../../../.gitbook/assets/WireGuard_logo.png" alt="" width="375"><figcaption></figcaption></figure>
 
+#### Installation
+
 ```bash
 sudo dnf install wireguard-tools
 ```
 
 {% hint style="info" %}
 Source : [https://www.wireguard.com/install/#fedora-tools](https://www.wireguard.com/install/#fedora-tools)
+{% endhint %}
+
+### WireGuard Easy
+
+Le moyen le plus simple d’installer et de gérer WireGuard sur n’importe quel hôte Linux :)
+
+{% hint style="info" %}
+Source : [https://github.com/wg-easy/wg-easy](https://github.com/wg-easy/wg-easy)
 {% endhint %}
 
 ***
