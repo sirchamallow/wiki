@@ -1,19 +1,8 @@
 ---
-icon: code-branch
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: code-merge
 ---
 
-# Git
+# Git Astuces
 
 ## Introduction
 
@@ -28,7 +17,8 @@ layout:
 * [Git Novice](http://swcarpentry.github.io/git-novice/) : un guide étape par étape expliquant aux novices comment utiliser git
 * Blog de [Junio C Hamano](https://git-blame.blogspot.com/)
 
+***
+
 ## Ressources
 
 {% embed url="https://git-lfs.github.com/" %}
-
