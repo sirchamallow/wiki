@@ -1,6 +1,6 @@
 ---
-description: Une rubrique de ressources et astuces pour la recherche d'emploi
 icon: briefcase-blank
+description: Une rubrique de ressources et astuces pour la recherche d'emploi
 ---
 
 # 4. Emploi
@@ -31,12 +31,18 @@ Site : [https://www.linkedin.com/jobs/application-settings/](https://www.linkedi
 
 ***
 
-## FlowCV
+### Générateur de CV
+
+### FlowCV
 
 Pour générer votre CV et lettre de motivation, et avoir un lien direct permanent qui pointe dessus.
 
 {% hint style="info" %}
 Site : [https://app.flowcv.com](https://app.flowcv.com)
 {% endhint %}
+
+### OpenResume
+
+{% embed url="https://github.com/xitanggg/open-resume" %}
 
 ***

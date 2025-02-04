@@ -37,7 +37,7 @@
       * [Active Directory](technologie/os/windows11/active-directory.md)
       * [Astuces de la Win](technologie/os/windows11/astuces-de-la-win.md)
       * [Chocolatey](1.-technologie/os/windows11/chocolatey.md)
-    * [Android (Google)](1.-technologie/os/android/README.md)
+    * [Android (Google)](technologie/mobile/android.md)
       * [Applications](1.-technologie/os/android/applications.md)
       * [Astuces](1.-technologie/os/android/astuces.md)
       * [Dépannage](1.-technologie/os/android/depannage.md)

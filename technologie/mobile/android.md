@@ -1,6 +1,6 @@
 ---
-icon: android
 description: Astuces, informations, outils...
+icon: android
 layout:
   title:
     visible: true
