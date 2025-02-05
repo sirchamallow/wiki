@@ -1,6 +1,6 @@
 ---
-icon: gamepad-modern
 description: Work in progress
+icon: gamepad-modern
 layout:
   title:
     visible: true
