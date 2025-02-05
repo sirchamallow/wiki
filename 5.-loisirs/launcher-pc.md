@@ -1,24 +1,6 @@
----
-icon: gamepad-modern
-description: Work in progress
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
+# Launcher PC
 
-# Jeux Vidéo
-
-## Launcher PC
-
-### Steam
+## Steam
 
 #### Activer une clé Steam sur le site internet
 
@@ -38,7 +20,7 @@ Note : Il est impossible d’activer votre clé directement depuis l’applicati
 
 ***
 
-### GOG
+## GOG
 
 #### Activer une clé Steam sur le site internet
 
@@ -51,7 +33,3 @@ Note : Il est impossible d’activer votre clé directement depuis l’applicati
 
 * Renseigner votre clé et validez :)
 * Regardez dans votre bibliothèque, la clé CD vous y a ajouté un produit :)
-
-***
-
-##
