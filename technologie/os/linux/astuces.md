@@ -1,6 +1,6 @@
 ---
-description: Quelques astuces pour Fedora
 icon: message-check
+description: Quelques astuces pour Fedora
 layout:
   title:
     visible: true
@@ -148,7 +148,7 @@ La commande `du -h` (_disk usage human-readable_) permet d’afficher la taille 
 1. `pwd` : pour savoir dans quel répertoire vous vous trouvez actuellement.
 2. `ls` ou `tree` : pour afficher la liste des fichiers&#x20;
 3. `du -h` : pour connaitre la taille occuper par les fichiers du répertoires.&#x20;
-4. d`u -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
+4. `du -sh .` : pour afficher le taille du répertoire (et non pas fichier par fichier)
 5. `du -sh * | sort -hk1` : pour lister les répertoires, leurs tailles par ordre croissant
 
 ***
