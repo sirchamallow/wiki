@@ -1,3 +1,7 @@
+---
+icon: laptop
+---
+
 # Launcher PC
 
 ## Steam

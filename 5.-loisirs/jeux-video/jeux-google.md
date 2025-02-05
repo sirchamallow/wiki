@@ -1,3 +1,7 @@
+---
+icon: google
+---
+
 # Jeux Google
 
 ## Jeux Google

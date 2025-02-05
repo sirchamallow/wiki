@@ -1,5 +1,5 @@
 ---
-icon: radar
+icon: square-rss
 description: Une "awesome list" comme on dit sur la veille et la curation ;)
 layout:
   title:
