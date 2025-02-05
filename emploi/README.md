@@ -43,6 +43,10 @@ Site : [https://app.flowcv.com](https://app.flowcv.com)
 
 ### OpenResume
 
+Un outil open-source auto-hébergé qui vous aidera à la réalisation d'un CV en tout facilité.
+
 {% embed url="https://github.com/xitanggg/open-resume" %}
+
+***
 
 ***
