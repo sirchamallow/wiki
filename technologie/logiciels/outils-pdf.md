@@ -15,6 +15,8 @@ Sirling PDF propose de nombreuses fonctionnalités pour manipuler vos fichiers P
 Source : [https://github.com/Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 {% endhint %}
 
+***
+
 ## Traduire un PDF dans une autre langue
 
 ### Google Traduction
