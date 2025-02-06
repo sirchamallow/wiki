@@ -1,9 +1,19 @@
 ---
-description: Des astuces et des outils pour les fichiers .PDF
 icon: file-pdf
+description: Des astuces et des outils pour les fichiers .PDF
 ---
 
 # Outils PDF
+
+## Manipulations PDF
+
+Sirling PDF propose de nombreuses fonctionnalités pour manipuler vos fichiers PDF : split, merge, conversion, réorganisation, ajout d’images, rotation, compression etc.
+
+{% embed url="https://www.stirlingpdf.com" %}
+
+{% hint style="info" %}
+Source : [https://github.com/Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+{% endhint %}
 
 ## Traduire un PDF dans une autre langue
 

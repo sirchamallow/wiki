@@ -137,6 +137,12 @@ Voici deux façon de faire la manipulation :
 
 {% embed url="https://macaddresschanger.com" %}
 
+***
+
+## Installer Windows 11 en contournant TPM
+
+{% embed url="https://next.ink/168574/windows-11-trois-methodes-pour-contourner-tpm-2-0/" %}
+
 
 
 

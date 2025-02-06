@@ -1,3 +1,7 @@
+---
+icon: magnet
+---
+
 # Accessoires
 
 ## MagSafe Compatible 3 In 1 Portable Charger

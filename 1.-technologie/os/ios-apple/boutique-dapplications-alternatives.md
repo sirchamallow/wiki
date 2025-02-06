@@ -1,3 +1,7 @@
+---
+icon: store
+---
+
 # Boutique d'applications alternatives
 
 ## AltStore
