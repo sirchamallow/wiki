@@ -100,3 +100,11 @@ Une application permettant de convertir automatiquement vos Figma en code
 ### Ollama
 
 {% embed url="https://ollama.com/" %}
+
+***
+
+## Vocale
+
+{% embed url="https://golem.ai/en/" %}
+
+{% embed url="https://huggingface.co/kyutai" %}
