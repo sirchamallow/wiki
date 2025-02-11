@@ -106,6 +106,7 @@
     * [SQL cheatsheet](technologie/articles/sql-cheatsheet.md)
     * [Status page](technologie/articles/statuspage.md)
     * [Telecoms](technologie/articles/telecoms.md)
+    * [Transfert de fichiers](1.-technologie/articles/transfert-de-fichiers.md)
     * [WiFi](technologie/articles/wifi.md)
 * [2. Veille & curation](veille/README.md)
   * [Arguments Rhétologiques Fallacieux](veille/arguments-rhetologiques-fallacieux.md)
