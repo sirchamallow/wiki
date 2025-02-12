@@ -21,7 +21,7 @@ sudo cat /etc/NetworkManager/system-connections/NOM_DU_VOTRE_WIFI | grep psk=
 
 ### Windows
 
-```bash
+```powershell
 netsh wlan show profile NOM_DU_VOTRE_WI-FI key=clear
 ```
 
