@@ -9,7 +9,7 @@ description: « Kill the newsletter » un outil pour s’abonner aux newsletters
 **Avant-Propos :** Ceci un [extrait d’un billet](http://www.outilsfroids.net/2019/03/le-chainon-manquant-comment-recevoir-automatiquement-des-emails-dans-un-agregateur-rss/#Solution_4_Kill_the_newsletter_gratuit) du blog Outils Froids de [Christophe Deschamps](https://twitter.com/crid), consultant et formateur en veille stratégique, intelligence économique, OSINT, social KM & mindmapping depuis 10 ans. Le billet d’origine de l’auteur (et celui-ci) est sous licence Creative Commons [CC-BY-NC-SA 4.0.](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
 {% endhint %}
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 Comme son nom l’indique, ce service ([https://www.kill-the-newsletter.com](https://www.kill-the-newsletter.com/)) est positionné comme un outil permettant de s’abonner à des **newsletters** afin de les recevoir au format **RSS** plutôt que par email. Le cauchemar des marketeux en somme 😀
 

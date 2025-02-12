@@ -5,7 +5,7 @@ description: un outil gratuit pour enregistrer son écran depuis son navigateur
 
 # RecordScreen
 
-![](<../../.gitbook/assets/image (17) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (1).png>)
 
 RecordScreen.io est le genre d’outil vraiment pratique.
 

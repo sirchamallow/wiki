@@ -5,7 +5,7 @@ description: Un moteur de recherche de composants électroniques & produits indu
 
 # Octopart
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
 Lors de ma session de veille hardware, je suis tombé sur un moteur de recherche de composants électroniques très intéressant : [**Octopart**](https://octopart.com/).
 

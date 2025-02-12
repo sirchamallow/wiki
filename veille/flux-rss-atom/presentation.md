@@ -6,7 +6,7 @@ icon: square-rss
 
 ## Introduction
 
-![Le RSS caylavie !](<../../.gitbook/assets/image (10) (1).png>)
+![Le RSS caylavie !](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 ## **Présentation**
 

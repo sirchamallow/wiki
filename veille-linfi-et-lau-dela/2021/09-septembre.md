@@ -6,7 +6,7 @@ Le monde du **parking, du stationnement et de la mobilité** est un petit milieu
 
 Et maintenant place à votre session découverte !
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ Et maintenant place à votre session découverte !
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 (via @[ordurebizarre](https://twitter.com/ordurebizarree/status/1409068986189455362/photo/1))
 
@@ -54,7 +54,7 @@ Et maintenant place à votre session découverte !
 
 
 
-    <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 (via @[System32Comics](https://twitter.com/System32Comics))
 
