@@ -8,7 +8,7 @@
 
 ***
 
-<figure><img src="../.gitbook/assets/image (70).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -39,7 +39,7 @@
 
 ***
 
-<figure><img src="../.gitbook/assets/image (69).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -66,7 +66,7 @@ Nouveautés, découvertes… (☞ﾟヮﾟ)☞
 
 ***
 
-<figure><img src="../.gitbook/assets/image (68).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -96,7 +96,7 @@ La rubrique gloubiboulga “ヽ(´▽｀)ノ”
 
 ***
 
-<figure><img src="../.gitbook/assets/image (67).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 

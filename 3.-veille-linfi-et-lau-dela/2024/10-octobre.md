@@ -16,7 +16,7 @@ Ca change de style100%L'ancien était mieux0%La réponse C0%La réponse D comme 
 
 ***
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -42,7 +42,7 @@ Ca change de style100%L'ancien était mieux0%La réponse C0%La réponse D comme 
 
 ***
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -65,7 +65,7 @@ Nouveautés, découvertes… (☞ﾟヮﾟ)☞
 
 ***
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -96,7 +96,7 @@ La rubrique gloubiboulga “ヽ(´▽｀)ノ”
 
 ***
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

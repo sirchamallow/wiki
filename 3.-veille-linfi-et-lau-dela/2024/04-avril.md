@@ -25,7 +25,7 @@
 
 ***
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -49,7 +49,7 @@ Nouveautés, découvertes… (☞ﾟヮﾟ)☞
 
 ***
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -76,7 +76,7 @@ La rubrique gloubiboulga “ヽ(´▽｀)ノ”
 
 ***
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

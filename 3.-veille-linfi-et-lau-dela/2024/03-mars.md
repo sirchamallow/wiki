@@ -27,7 +27,7 @@
 
 ***
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p><strong>Yvan Demumieux</strong> à réaliser <a href="https://www.linkedin.com/posts/yvan-demumieux_chatgpt-vs-ms-copilot-vs-claude-3-vs-gemini-activity-7172522179710926849-Iq-B/">un tableau comparatif complet en français des principaux Chatbots IA</a> (ChatGPT vs MS Copilot vs Claude 3 vs Gemini vs Mistral)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><strong>Yvan Demumieux</strong> à réaliser <a href="https://www.linkedin.com/posts/yvan-demumieux_chatgpt-vs-ms-copilot-vs-claude-3-vs-gemini-activity-7172522179710926849-Iq-B/">un tableau comparatif complet en français des principaux Chatbots IA</a> (ChatGPT vs MS Copilot vs Claude 3 vs Gemini vs Mistral)</p></figcaption></figure>
 
 ***
 
@@ -49,7 +49,7 @@ Nouveautés, découvertes… (☞ﾟヮﾟ)☞
 
 ***
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -72,7 +72,7 @@ La rubrique gloubiboulga “ヽ(´▽｀)ノ”
 
 ***
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
