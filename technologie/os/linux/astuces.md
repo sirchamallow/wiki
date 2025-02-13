@@ -754,3 +754,48 @@ sudo snap install yq		      # Install yq
 {% hint style="info" %}
 Source : [https://github.com/mikefarah/yq/#install](https://github.com/mikefarah/yq/#install)
 {% endhint %}
+
+***
+
+## Cron et crontab (planificateur de tâches)
+
+#### Installation
+
+```bash
+sudo dnf install cronie
+```
+
+#### Configuration
+
+Pour être autorisé à utiliser la commande **crontab**, il faut que l'utilisateur soit présent dans le groupe **cron**.\
+Les fichiers **/etc/cron.allow** et **/etc/cron.deny** permettent de définir les droits d'utilisation sur crontab.\
+Si le fichier /etc/cron.allow existe, alors vous devez être présent dans ce fichier pour être autorisé à utiliser cette commande.
+
+#### Syntaxe
+
+Manière schématique de la syntaxe à respecter d'un **crontab**
+
+```bash
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  *  user command to be executed
+```
+
+#### Commandes
+
+```bash
+crontab -l # Afficher la liste des actions
+crontab -r # Supprimer toutes les actions
+crontab -e # crontab -e
+```
+
+{% hint style="info" %}
+Source : [https://www.linuxtricks.fr/wiki/cron-et-crontab-le-planificateur-de-taches](https://www.linuxtricks.fr/wiki/cron-et-crontab-le-planificateur-de-taches)
+{% endhint %}
+
+***
