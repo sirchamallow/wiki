@@ -143,9 +143,16 @@ Voici deux façon de faire la manipulation :
 
 {% embed url="https://next.ink/168574/windows-11-trois-methodes-pour-contourner-tpm-2-0/" %}
 
+***
 
+## Utilisation du Presse-papiers <a href="#page-header" id="page-header"></a>
 
+Lorsque vous copiez du contenu sur votre PC, il est automatiquement copié dans le Presse-papiers pour que vous le colliez.
 
+Pour activer votre Presse-papiers, sélectionnez touche **Windows + V**, puis sélectionnez **Activer**.&#x20;
 
+Pour effacer l'historique du Presse-papiers  : Démarrer  > Paramètres  > Système  > Presse-papiers . Puis ensuite dans la zone Effacer les données du Presse-papiers, sélectionnez Effacer.
 
-
+{% hint style="info" %}
+Source : [https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-pour-le-presse-papiers-30375039-ce71-9fe4-5b30-21b7aab6b13f](https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-pour-le-presse-papiers-30375039-ce71-9fe4-5b30-21b7aab6b13f)
+{% endhint %}

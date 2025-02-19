@@ -13,3 +13,7 @@ Voici des compléments et/ou alternative à Windows11 pour du gaming
 | **Compatibilité**   | Compatible avec les jeux PC via Steam et autres plateformes de distribution.   | Compatible avec tous les jeux et applications Windows 11.                             | Compatible principalement avec les jeux Steam, avec des fonctionnalités de streaming. |
 | **Open-Source**     | Oui, projet open-source avec une communauté active.                            | Non, développé par une équipe avec des mises à jour régulières.                       | Oui, projet open-source soutenu par Valve.                                            |
 | **Lien**            | [ChimeraOS](https://www.chimeraos.com/)                                        | [AtlasOS](https://atlasos.net/)                                                       | [SteamOS](https://store.steampowered.com/steamos/)                                    |
+
+### Alternative
+
+{% embed url="https://projectatom.vercel.app" %}
