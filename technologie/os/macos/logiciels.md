@@ -515,3 +515,52 @@ Source : [https://github.com/marta-file-manager](https://github.com/marta-file-m
 {% hint style="success" %}
 Site Internet : [https://marta.sh](https://marta.sh/download/)
 {% endhint %}
+
+***
+
+## Nping
+
+
+
+<figure><img src="../../../.gitbook/assets/black.gif" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+**Nping,** un outil de ping développé en Rust. Il prend en charge le ping simultané pour plusieurs adresses, l'affichage de graphiques visuels, les mises à jour de données en temps réel et d'autres fonctionnalités.
+
+#### Installation via HomeBrew
+
+```bash
+brew tap hanshuaikang/nping
+brew install nping
+
+nping --help
+```
+
+{% hint style="info" %}
+Source : [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang/Nping)
+{% endhint %}
+
+#### Usage
+
+```
+nping www.google.com www.apple.com www.microsoft.com -c 20 -i 2
+
+nping --help
+
+🏎 Nping mean NB Ping, A Ping Tool in Rust with Real-Time Data and Visualizations
+
+Usage: nping [OPTIONS] <TARGET>...
+
+Arguments:
+  <TARGET>...  target IP address or hostname to ping
+
+Options:
+  -c, --count <COUNT>        Number of pings to send [default: 65535]
+  -i, --interval <INTERVAL>  Interval in seconds between pings [default: 0]
+  -6, --force_ipv6           Force using IPv6
+  -m, --multiple <MULTIPLE>  Specify the maximum number of target addresses, Only works on one target address [default: 0]
+  -v, --view-type <VIEW_TYPE>  view mode graph or table [default: graph]
+  -h, --help                 Print help
+  -V, --version              Print version
+```
