@@ -524,6 +524,8 @@ Site Internet : [https://marta.sh](https://marta.sh/download/)
 
 <figure><img src="../../../.gitbook/assets/black.gif" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/table.gif" alt=""><figcaption></figcaption></figure>
+
 #### Description
 
 **Nping,** un outil de ping développé en Rust. Il prend en charge le ping simultané pour plusieurs adresses, l'affichage de graphiques visuels, les mises à jour de données en temps réel et d'autres fonctionnalités.
@@ -543,7 +545,7 @@ Source : [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang
 
 #### Usage
 
-```
+```bash
 nping www.google.com www.apple.com www.microsoft.com -c 20 -i 2
 
 nping --help
@@ -564,3 +566,15 @@ Options:
   -h, --help                 Print help
   -V, --version              Print version
 ```
+
+***
+
+## PastePal
+
+{% embed url="https://www.youtube.com/watch?v=UmsqhXUO5oc" %}
+
+Un gestionnaire de presse-papier pour MacOS.
+
+{% hint style="info" %}
+Site : [https://indiegoodies.com/pastepal](https://indiegoodies.com/pastepal)
+{% endhint %}
