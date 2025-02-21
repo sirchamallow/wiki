@@ -104,7 +104,7 @@
     * [NTP](technologie/articles/ntp.md)
     * [Octopart](technologie/articles/octopart.md)
     * [Privacy - Vie Privée](technologie/articles/privacy-vie-privee.md)
-    * [SQL cheatsheet](technologie/articles/sql-cheatsheet.md)
+    * [SQL](1.-technologie/articles/sql.md)
     * [Status page](technologie/articles/statuspage.md)
     * [Telecoms](technologie/articles/telecoms.md)
     * [Transfert de fichiers](1.-technologie/articles/transfert-de-fichiers.md)

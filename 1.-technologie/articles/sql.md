@@ -2,7 +2,9 @@
 icon: file-code
 ---
 
-# SQL cheatsheet
+# SQL
+
+## Cheatsheet
 
 ## Conventions
 
@@ -34,3 +36,16 @@ WHERE
     account_status = 'active';
 ```
 
+***
+
+## Effectuez des requêtes SQL sur vos .CSV
+
+WhatTheDuck, une application en ligne et open-source basée sur **DuckDB**, conçue pour permettre aux utilisateurs d’uploader des fichiers **CSV**, de les stocker dans des tables et d’effectuer des requêtes **SQL** sur les données uploadées.&#x20;
+
+{% hint style="success" %}
+Site : [https://whattheduck.incentius.com](https://whattheduck.incentius.com/)
+{% endhint %}
+
+{% hint style="info" %}
+Source :  [https://github.com/incentius-foss/WhatTheDuck](https://github.com/incentius-foss/WhatTheDuck?ref=mondary.design)
+{% endhint %}
