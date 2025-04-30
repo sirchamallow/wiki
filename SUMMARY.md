@@ -43,6 +43,7 @@
       * [Astuces](1.-technologie/os/android/astuces.md)
       * [Dépannage](1.-technologie/os/android/depannage.md)
       * [Google Pixel](1.-technologie/os/android/google-pixel.md)
+      * [Samsung](1.-technologie/os/android/samsung.md)
     * [iOS (Apple)](technologie/mobile/ios-apple.md)
       * [Messages](1.-technologie/os/ios-apple/messages.md)
       * [Accessoires](1.-technologie/os/ios-apple/accessoires.md)
