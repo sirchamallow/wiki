@@ -49,6 +49,7 @@ Vous trouverez ici :
 
 Pour suivre mes activités et recevoir mes dernières publications :
 
+* **Linkding** : Mon gestionnaire de liens qui vous permets de consulter ma veille ouverte
 * **Newsletter** : [Abonnez-vous à mes carnets de veille mensuels](https://sirchamallow.substack.com/) pour recevoir une sélection d'articles et de ressources directement dans votre boîte mail.
 * **Blog** : [Découvrez mon blog](https://sir.chamallow.com/) pour des articles plus approfondis et des réflexions sur le monde du développement web.
 
