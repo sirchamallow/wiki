@@ -156,3 +156,17 @@ Pour effacer l'historique du Presse-papiers  : Démarrer  > Paramètres  > Syst�
 {% hint style="info" %}
 Source : [https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-pour-le-presse-papiers-30375039-ce71-9fe4-5b30-21b7aab6b13f](https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-pour-le-presse-papiers-30375039-ce71-9fe4-5b30-21b7aab6b13f)
 {% endhint %}
+
+***
+
+## Ajouter les secondes à l’horloge
+
+Pour ajouter les secondes à l’heure dans la barre d’état système, procédez comme suit :
+
+* Ouvrez les **Paramètres de Windows** (**Windows + I**).
+* Cliquez sur **Personnalisation**.
+* Cliquez sur la page **Barre des tâches** sur le côté droit.
+* Cliquez ensuite sur **Comportements de la barre des tâches**.
+* Cochez l’option **Afficher les secondes de l’horloge de la barre d’état système (utilise plus d’énergie)** pour afficher les secondes de l’horloge.
+
+Une fois que vous avez effectué ces manipulations, l’horloge de Windows 11 affichera une horloge avec les heures, les minutes et les secondes :)
