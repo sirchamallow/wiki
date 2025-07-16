@@ -1,17 +1,6 @@
 ---
-icon: message-check
 description: Quelques astuces pour Fedora
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: message-check
 ---
 
 # Astuces
@@ -725,7 +714,7 @@ Source : [https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html](https://nmap.or
 
 ***
 
-### Mettre en forme un fichier JSON ou YAML de façon lisible avec de la coloration depuis le terminal
+### Mettre en forme un fichier JSON ou YAML de façon lisible avec de la coloration syntaxique depuis le terminal
 
 #### Installation de jq
 
@@ -799,3 +788,31 @@ Source : [https://www.linuxtricks.fr/wiki/cron-et-crontab-le-planificateur-de-ta
 {% endhint %}
 
 ***
+
+## Vérifier l'état de sa batterie
+
+Il est possible de vérifier l'état de sa batterie en cas de doute
+
+**Vérifie l'état de la batterie avec les commandes suivantes :**
+
+* `acpi -V | grep Battery`
+* `upower -i /org/freedesktop/UPower/devices/battery_BAT0`&#x20;
+
+Ces deux commandes exploitent les interfaces de gestion de l’alimentation propres à Linux (ACPI et UPower), qui sont indispensables à la gestion de la batterie, de la mise en veille, et de l’économie d’énergie sur un portable
+
+### **1. `acpi -V | grep Battery`**
+
+* `acpi` est un utilitaire qui s’appuie sur l’**ACPI** (Advanced Configuration and Power Interface), la norme qui permet à l’ordinateur et au système d’exploitation de communiquer l’état de l’énergie (batterie, branchement secteur, température, etc.)
+* L’option `-V` affiche toutes les informations disponibles (état batterie, adaptateur secteur, ventilation, température…).
+* `| grep Battery` filtre les lignes contenant le mot « Battery » pour n’afficher que les informations concernant la **batterie**.
+
+### **2. `upower -i /org/freedesktop/UPower/devices/battery_BAT0`**
+
+* `upower` est un outil qui fait partie de l’infrastructure moderne de gestion d’énergie sous Linux (via le service UPower).
+* L’option `-i` suivie du chemin d’un périphérique UPower affiche tous les détails sur ce périphérique.\
+  Ce chemin (`/org/freedesktop/UPower/devices/battery_BAT0`) correspond à la batterie principale (souvent nommée BAT0, mais certains portables ont plusieurs batteries).
+
+_Cette commande donne une vision très détaillée et technique de l’état de santé et du statut de ta batterie, en s’appuyant sur l’infrastructure UPower (fréquemment utilisée dans les distributions Linux GNOME/KDE modernes)_.
+
+***
+
