@@ -45,6 +45,7 @@
       * [Google Pixel](1.-technologie/os/android/google-pixel.md)
       * [Samsung](1.-technologie/os/android/samsung.md)
     * [iOS (Apple)](technologie/mobile/ios-apple.md)
+      * [Calendrier](1.-technologie/os/ios-apple/calendrier.md)
       * [Messages](1.-technologie/os/ios-apple/messages.md)
       * [Accessoires](1.-technologie/os/ios-apple/accessoires.md)
       * [Boutique d'applications alternatives](1.-technologie/os/ios-apple/boutique-dapplications-alternatives.md)
