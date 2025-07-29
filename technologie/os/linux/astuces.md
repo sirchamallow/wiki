@@ -816,3 +816,99 @@ _Cette commande donne une vision très détaillée et technique de l’état de 
 
 ***
 
+### Faire un fping
+
+**`fping`** est un outil en ligne de commande sous Linux utilisé pour envoyer des requêtes d’écho ICMP (similaires au ping classique) à plusieurs hôtes simultanément, et de manière plus efficace que la commande **`ping`** traditionnelle.
+
+Voici quelques points à savoir :
+
+* Contrairement à ping, **fping** peut envoyer des requêtes à une liste d’adresses IP ou d’hôtes spécifiés en ligne de commande ou via un fichier
+* Il peut scanner une plage d’adresses IP (ex. un réseau complet comme 192.168.0.1/24)
+* Il envoie les requêtes en mode **asynchrone**, c’est-à-dire qu’il n’attend pas la réponse d’un hôte avant d’en pinguer un autre, ce qui accélère l’exploration de plusieurs cibles
+* Il affiche clairement si un hôte est actif ("is alive") ou inaccessible
+
+#### Installation
+
+```bash
+sudo dnf install fping
+```
+
+{% hint style="success" %}
+Pour **Afficher l’aide complète :** `fping -h`
+{% endhint %}
+
+#### Cheatsheet
+
+```bash
+fping 8.8.8.8 192.168.1.1 10.0.0.1
+# Pour envoyer un ping à plusieurs IP à la fois
+# La commande affiche si chaque hôte est vivant (is alive) ou inaccessible.
+
+fping -g 192.168.1.1 192.168.1.254
+# Scanner une plage d’adresses IP (range)
+# Cette commande envoie des requêtes ICMP à toutes les IP de 192.168.1.1 à 192.168.1.254.
+
+fping -a -g 192.168.1.0/24
+# Afficher uniquement les hôtes actifs
+# Ajoutez l’option -a pour ne voir que les hôtes qui répondent
+
+fping -c 3 8.8.8.8
+# Envoyer plusieurs requêtes pour chaque hôte
+# Pour renforcer la fiabilité du test, envoyez plusieurs pings avec -c
+
+fping -e 8.8.8.8
+# Afficher les temps de réponse : -e
+
+fping < hosts.txt
+# Lire une liste d’hôtes depuis un fichier
+# Préparez un fichier, par exemple hosts.txt, qui contient une IP par ligne
+```
+
+**Exemples de sortie**
+
+```bash
+text8.8.8.8 is alive
+192.168.1.25 is unreachable
+192.168.1.50 is alive.
+```
+
+#### Syntaxe avancée
+
+Voici une brève présentation de la **syntaxe avancée de fping** avec des options détaillées&#x20;
+
+* `-c N` (count) : envoyer N requêtes ICMP par hôte au lieu d’une seule \
+  (ex. `-c 5` envoie 5 pings pour fiabiliser le test).
+* `-g` : scanner une plage d’adresses IP entre deux bornes (ex. `-g 192.168.1.1 192.168.1.254`).
+* `-a` : afficher uniquement les hôtes vivants (ceux qui répondent).
+* `-u` : afficher uniquement les hôtes inaccessibles.
+* `-b N` : définir la taille en octets des paquets ICMP envoyés (défaut 56 octets).
+* `-t N` : temps (en ms) d’attente d’une réponse avant de passer à la suivante.
+* `-l` : boucle indéfiniment jusqu’à interruption (utile pour monitoring continu :thumbsup:).
+* `-A` : afficher l’adresse IP plutôt que le nom DNS.
+* `-e` : afficher en plus le temps de réponse (RTT) pour chaque hôte.
+* `-S` min/max : envoyer des pings avec taille variable (pour test de fragmentation).
+* `-j` : afficher le jitter (variation du délai) pour des pings uniques.
+* `-T` / `-D` : afficher respectivement un timestamp horaire ou datestamp avec chaque réponse.
+* `-L <file>` : journaliser la sortie dans un fichier texte.
+
+#### Exemple avancé
+
+```bash
+fping -g 192.168.0.1 192.168.0.254 -c 5 -t 100 -e -A
+```
+
+* Scanne le réseau de `192.168.0.1` à `192.168.0.254`
+* Envoie 5x pings par hôte avec un timeout de 100ms
+* Affiche l’adresse IP
+* Affiche aussi le temps de réponse à chaque ping
+
+{% hint style="success" %}
+Site internet : [https://fping.org](https://fping.org)
+{% endhint %}
+
+{% hint style="info" %}
+Source : [https://github.com/schweikert/fping](https://github.com/schweikert/fping)
+{% endhint %}
+
+***
+
