@@ -1,17 +1,6 @@
 ---
 description: Voici les méthodes pour effectuer le changement de DNS sur votre machine
 icon: arrows-rotate-reverse
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Changer ses DNS

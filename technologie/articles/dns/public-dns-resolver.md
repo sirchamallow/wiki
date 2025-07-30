@@ -1,17 +1,6 @@
 ---
 description: Une sélection de résolveurs DNS public
 icon: list-ul
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Liste de résolveur DNS public

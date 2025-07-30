@@ -1,17 +1,6 @@
 ---
 description: Firefox Send, une alternative à WeTransfer avec chiffrement de bout en bout
 icon: paper-plane
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Firefox Send

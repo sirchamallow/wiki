@@ -1,16 +1,5 @@
 ---
 icon: lightbulb-exclamation-on
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Astuces de la Win

@@ -1,16 +1,5 @@
 ---
 description: Pour formater votre texte vous pouvez utiliser la syntaxe markdown
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 📋 Markdown cheatsheet

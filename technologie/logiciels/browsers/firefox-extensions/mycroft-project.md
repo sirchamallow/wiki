@@ -1,17 +1,6 @@
 ---
 description: Avec Mycroft Project, faites des recherches rapidement
 icon: magnifying-glass
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Barre de recherche

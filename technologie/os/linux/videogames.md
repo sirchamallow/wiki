@@ -1,17 +1,6 @@
 ---
 description: Quelques jeux disponibles sur Linux
 icon: gamepad-modern
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Jouer sur Linux

@@ -1,17 +1,6 @@
 ---
 description: Work in progress
 icon: gamepad-modern
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Jeux Vidéo

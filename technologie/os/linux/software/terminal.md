@@ -731,7 +731,7 @@ Source : [https://github.com/Orange-Cyberdefense/arsenal](https://github.com/Ora
 
 #### Description
 
-`sshx`est une solution pour partager votre terminal en expérience collaborative. Vous pourrez ainsi partager votre terminal aussi facilement qu’un document Google Docs, avec un simple lien.
+`sshx` est une solution pour partager votre terminal en expérience collaborative. Vous pourrez ainsi partager votre terminal aussi facilement qu’un document Google Docs, avec un simple lien.
 
 #### Installation
 
@@ -746,3 +746,82 @@ Source : [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 {% hint style="success" %}
 Site internet : [https://sshx.io/](https://sshx.io/)
 {% endhint %}
+
+***
+
+## SmokePing
+
+<figure><img src="../../../../.gitbook/assets/demo.png" alt=""><figcaption></figcaption></figure>
+
+#### Description
+
+**SmokePing** est un logiciel de surveillance réseau qui mesure et affiche graphiquement les temps de latence (temps de réponse) entre une machine et plusieurs autres cibles sur un réseau. Conçu par _Tobi Oetiker_, l'outil est libre et écrit en Perl.
+
+#### Installation
+
+```bash
+sudo dnf install smokeping httpd fping rrdtool perl perl-FCGI perl-CGI perl-Config-Grammar
+
+# smokeping : le logiciel
+# httpd : serveur web Apache
+# fping : pour envoyer rapidement des séries de pings
+# rrdtool : gestion des bases de données de séries temporelles
+# perl : le langage de programmation utilisé par SmokePing
+## Modules Perl nécésssaires pour l’exécution des scripts SmokePing :
+## perl-FCGI (FastCGI support)
+## perl-CGI (support CGI)
+## perl-Config-Grammar (parsing de fichier de configuration)
+```
+
+#### Lancement
+
+```bash
+sudo systemctl enable --now httpd
+sudo systemctl start httpd
+# Activer et Démarrer le serveur web Apache pour afficher l’interface web
+
+sudo systemctl enable --now smokeping
+sudo systemctl start smokeping
+# Activer et lance Smokeping
+
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --reload
+# Si le pare-feu est activé, s'assurez que le port 80 (HTTP) est ouvert
+
+xdg-open http://localhost/cgi-bin/smokeping.cgi
+# Ouvre le lien dans ton navigateur et remplace localhost par l'IP de ta machine
+```
+
+#### Configuration
+
+Les fichiers de configuration se trouvent dans `/etc/smokeping/config.d/` :
+
+* **General** : paramètre de base (nom, email, url cgi, etc.)
+* **Targets** : machines à surveiller
+
+{% hint style="warning" %}
+Après une modification, toujours relancer le service
+{% endhint %}
+
+```bash
+sudo systemctl restart httpd
+# Redémarre le serveur web Apache pour afficher l’interface web
+sudo systemctl restart smokeping
+# Redémarre Smokeping
+```
+
+**Conseils utiles**
+
+* Pour sécuriser l’accès web, configure un **virtualhost Apache avec restriction IP** ou un mot de passe
+* Ajoute/modifie les cibles dans `/etc/smokeping/config.d/Targets` pour surveiller d’autres machines ou serveurs.
+
+Tu devrais voir les graphiques générés par SmokePing après quelques minutes d’activité :)
+
+{% hint style="info" %}
+Source : [https://github.com/oetiker/SmokePing](https://github.com/oetiker/SmokePing)
+{% endhint %}
+
+{% hint style="success" %}
+Site internet : [https://oss.oetiker.ch/smokeping/](https://oss.oetiker.ch/smokeping/)
+{% endhint %}
+

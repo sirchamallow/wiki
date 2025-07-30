@@ -3,20 +3,6 @@ description: Bienvenue sur mon wiki personnel
 icon: face-laugh-wink
 cover: .gitbook/assets/_efd83a13-65d4-4953-baa6-40b777f80d90.jpg
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Bienvenue 👋

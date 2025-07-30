@@ -1,17 +1,6 @@
 ---
-icon: uncharted
 description: Sélection de logiciels
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: uncharted
 ---
 
 # Logiciels

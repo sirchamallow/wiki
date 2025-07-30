@@ -1,17 +1,6 @@
 ---
 description: Une liste de commandes utiles
 icon: rectangle-terminal
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Powershell

@@ -1,17 +1,6 @@
 ---
-icon: server
 description: Outils pour serveurs
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: server
 ---
 
 # OPS

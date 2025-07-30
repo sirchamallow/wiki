@@ -1,17 +1,6 @@
 ---
 description: Liste de kaomoji
 icon: face-grin-stars
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Kaomoji japonais

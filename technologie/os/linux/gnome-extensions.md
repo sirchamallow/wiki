@@ -1,17 +1,6 @@
 ---
 description: Liste d'extensions pour GNOME
 icon: linux
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Ext. GNOME

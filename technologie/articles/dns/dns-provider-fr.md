@@ -1,16 +1,5 @@
 ---
 description: Liste des résolveurs DNS des FAI Français
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # 🇫🇷 DNS des FAI Français
