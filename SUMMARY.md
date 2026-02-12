@@ -71,6 +71,7 @@
       * [Legrand 0 494 30](technologie/hardware/electricite/legrand-0-494-30.md)
     * [Informatique](technologie/hardware/informatique/README.md)
       * [Alimentation électriques](technologie/hardware/informatique/alimentation-electriques.md)
+      * [Ecouteur audio filaire (USB-C)](1.-technologie/hardware/informatique/ecouteur-audio-filaire-usb-c.md)
       * [Câble USB-C](1.-technologie/hardware/informatique/cable-usb-c.md)
       * [Ergonomie](technologie/hardware/informatique/bureau.md)
       * [Support laptop](technologie/hardware/informatique/support-laptop.md)

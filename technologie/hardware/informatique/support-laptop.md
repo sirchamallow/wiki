@@ -10,4 +10,4 @@ L'intérêt de ce modèle comparer à d'autres ? Il s’adapte à la plupart des
 
 <div><figure><img src="../../../.gitbook/assets/FOLDING_STAND_2_sub9 (1).webp" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/FOLDING_STAND_2_sub2 (1).webp" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/FOLDING_STAND_2_sub3 (1).webp" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/FOLDING_STAND_2_sub5 (1).webp" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/RINGKE_ACC_FOLDING_STAND_2_main (1).webp" alt=""><figcaption></figcaption></figure></div>
 
-**Liens** : [https://www.ringkestore.com/products/folding-stand-2](https://www.ringkestore.com/products/folding-stand-2)
+{% embed url="https://www.ringkestore.com/products/folding-stand-2" %}
