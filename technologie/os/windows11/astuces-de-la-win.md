@@ -184,3 +184,39 @@ Vous gagnerez en performance et en vitesse :)
 
 ***
 
+### Barre des tâches bloquée/ne fonctionne plus
+
+Réinitialiser la barre des tâches Windows
+
+1\. Appuyez simultanément sur les touches Windows + R pour ouvrir la fenêtre Exécuter.
+
+2\. Tapez cmd dans le champ et appuyez sur OK pour ouvrir l’Invite de commandes.
+
+Ouvrez l'invite de commandes
+
+3\. Saisissez la commande suivante :
+
+_`>taskkill /f /im explorer.exe && start explorer.exe`_
+
+***
+
+### Réinitialiser Windows Update manuellement
+
+Cette méthode permet de repartir sur une base saine en réinitialisant entièrement les composants de Windows Update. Elle est particulièrement utile lorsque les fichiers du cache ou les services Windows sont endommagés.
+
+Ouvrez Invite de commandes (admin).
+
+Exécutez les commandes suivantes une par une :
+
+_`net stop wuauserv`_\
+`net stop bits`\
+`net stop cryptsvc`\
+`ren C:\Windows\SoftwareDistribution SoftwareDistribution.old`\
+`ren C:\Windows\System32\catroot2 catroot2.old`\
+`net start wuauserv`\
+`net start bits`\
+`net start cryptsvc`
+
+Ces commandes arrêtent les services liés à Windows Update, renommant les dossiers temporaires défectueux avant de redémarrer les services.
+
+&#x20;**Option bazooka :** Supprimer les fichiers présent dans le dossier C:\Windows\SoftwareDistribution\Download
