@@ -58,7 +58,6 @@
         * [Barre de recherche](technologie/logiciels/browsers/firefox-extensions/mycroft-project.md)
         * [Wallpapers](technologie/logiciels/browsers/firefox-extensions/wallpapers.md)
       * [Google Chrome](technologie/logiciels/browsers/chrome-extensions/README.md)
-        * [🚀 Mercury Reader](technologie/logiciels/browsers/chrome-extensions/mercury-reader.md)
         * [Moteur de recherche](technologie/logiciels/browsers/chrome-extensions/moteur-de-recherche.md)
       * [Safari](1.-technologie/logiciels/browsers/safari.md)
     * [Outils PDF](technologie/logiciels/outils-pdf.md)

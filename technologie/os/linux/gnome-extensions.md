@@ -210,8 +210,7 @@ Source : [https://gitlab.gnome.org/jrahmatzadeh/just-perfection](https://gitlab.
 
 ### Tray Icons: Reloaded <a href="#extension_name" id="extension_name"></a>
 
-Ramène les icônes de plateau au panneau supérieur, avec des fonctionnalités supplémentaires.\
-
+Ramène les icônes de plateau au panneau supérieur, avec des fonctionnalités supplémentaires.<br>
 
 <figure><img src="../../../.gitbook/assets/screenshot_2890.png" alt=""><figcaption></figcaption></figure>
 

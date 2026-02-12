@@ -9,30 +9,6 @@ icon: chrome
 
 Quelques extensions tellement pratique et disponible uniquement sur Google Chrome
 
-### Blackbox
-
-Pour copier en quelques clics du texte extrait de vidéos & d'images
-
-{% embed url="https://chrome.google.com/webstore/detail/blackbox-select-copy-past/mcgbeeipkmelnpldkobichboakdfaeon" %}
-
-### Tango
-
-pour expliquer visuellement un workflow (un peu comme Loom)
-
-{% embed url="https://chrome.google.com/webstore/detail/tango-screenshots-trainin/lggdbpblkekjjbobadliahffoaobaknh" %}
-
-### SwiftRead
-
-pour lire plus rapidement
-
-{% embed url="https://chrome.google.com/webstore/detail/swiftread-read-faster-lea/ipikiaejjblmdopojhpejjmbedhlibno/related" %}
-
-### Compose AI
-
-Un outil d'écriture générer par une IA
-
-{% embed url="https://chrome.google.com/webstore/detail/compose-ai-ai-powered-wri/ddlbpiadoechcolndfeaonajmngmhblj/related" %}
-
 ### LINER
 
 1. Surligneur Web - Mettez en surbrillance où vous voulez, même sur des vidéos ou des images Y
@@ -40,12 +16,6 @@ Un outil d'écriture générer par une IA
 3. Curation d'article (ou de contenu) basée sur vos choix
 
 {% embed url="https://chrome.google.com/webstore/detail/liner-highlighter-with-be/bmhcbmnbenmcecpmpepghooflbehcack/" %}
-
-### Mercury Reader
-
-{% content-ref url="mercury-reader.md" %}
-[mercury-reader.md](mercury-reader.md)
-{% endcontent-ref %}
 
 ### Resizing.app
 
@@ -55,6 +25,29 @@ Un outil d'écriture générer par une IA
 
 ## Themes
 
-Cosmic Minimalism
+{% embed url="https://chromewebstore.google.com/detail/cmpdlhmnmjhihmcfnigoememnffkimlk" %}
 
-{% embed url="https://chromewebstore.google.com/detail/cosmic-minimalism/dcmaldgghmeplcolnhnkhffoepnhacli?hl=fr" %}
+## Moteur de recherche
+
+Pour ajouter le moteur de recherche [Encrypted Google](http://encrypted.google.com) sur Chrome, suivez ces étapes :
+
+1. **Ouvrez Google Chrome** et cliquez sur les trois points verticaux en haut à droite pour accéder au menu.
+2. **Sélectionnez "Paramètres"** dans le menu déroulant.
+3. Dans la section "Moteur de recherche", cliquez sur **"Gérer les moteurs de recherche"**&#x31;.
+4. Cliquez sur **"Ajouter"** pour ajouter un nouveau moteur de recherche.
+5. Remplissez les champs avec les informations suivantes :
+   * **Nom** : Encrypted Google
+   * **Mot-clé** : encrypted.google.com
+   * **URL avec %s à la place de la requête** : `https://encrypted.google.com/search?q=%s`
+6. Cliquez sur **"Ajouter"** pour enregistrer le moteur de recherche.
+7. Pour définir Encrypted Google comme moteur de recherche par défaut, cliquez sur les trois points à côté de celui-ci et sélectionnez **"Définir par défaut"**&#x31;.
+
+Et voilà ! Vous pouvez maintenant utiliser Encrypted Google comme moteur de recherche par défaut sur Chrome 😊
+
+{% hint style="info" %}
+Vous pouvez faire la même manipulation sur **Android**. Sur **iOS** la fonctionnalité est bloquer, vous devrez choisir un des moteurs de recherches suggérés.
+{% endhint %}
+
+{% hint style="success" %}
+Plus d'information : [https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU](https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU)
+{% endhint %}
