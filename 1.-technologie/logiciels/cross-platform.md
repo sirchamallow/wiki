@@ -21,6 +21,12 @@ layout:
 
 # Cross-platform
 
+### Informations
+
+La liste ci-dessous sont tous des logiciels open-source.&#x20;
+
+Certains sont gratuit et d'autres payants.
+
 ### Warp
 
 {% embed url="https://www.warp.dev/download" %}
@@ -42,6 +48,12 @@ layout:
 #### Icones
 
 {% embed url="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons" %}
+
+***
+
+### Ollama
+
+{% embed url="https://ollama.com/download" %}
 
 ***
 
@@ -103,7 +115,27 @@ Gestionnaire de mot de passe
 
 ### Proton VPN
 
+Logiciel de VPN
+
 {% embed url="https://protonvpn.com/download" %}
+
+***
+
+### Proton Calendar
+
+{% embed url="https://proton.me/calendar/download" %}
+
+***
+
+### Standard Notes
+
+{% embed url="https://standardnotes.com/" %}
+
+***
+
+### Feedbin
+
+{% embed url="https://feedbin.com/" %}
 
 ***
 
