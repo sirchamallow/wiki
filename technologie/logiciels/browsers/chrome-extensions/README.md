@@ -5,6 +5,18 @@ icon: chrome
 
 # Google Chrome
 
+### Raccourcis
+
+| Commande                            | Raccourci                                                                                           |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Actualiser (ignorer le cache)       | <p><code>Ctrl</code> + <code>F5</code><br><code>Ctrl</code> + <code>Maj</code> + <code>R</code></p> |
+| Restaurer un onglet récemment fermé | `Ctrl` + `Maj` + `T`                                                                                |
+| Activer le mode plein écran         | `F11`                                                                                               |
+
+{% hint style="info" %}
+Liste complète des raccourcis [ici](https://support.google.com/chrome/answer/157179).
+{% endhint %}
+
 ## Extensions
 
 Quelques extensions tellement pratique et disponible uniquement sur Google Chrome

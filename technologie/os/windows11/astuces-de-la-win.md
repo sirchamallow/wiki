@@ -4,7 +4,7 @@ icon: lightbulb-exclamation-on
 
 # Astuces de la Win
 
-## Commandes de bases
+### Commandes de bases
 
 Voici 15 commandes **CMD** de base essentielles à connaître pour l'utilisation du terminal (l'invite de commandes) sous Windows. Elles sont particulièrement utiles pour la gestion des fichiers, l'obtention d'informations système et le dépannage réseau.\
 \
@@ -28,7 +28,7 @@ Je vous recommande [l'usage de PowerShell](https://learn.microsoft.com/fr-fr/pow
 
 ***
 
-## Télémétrie pilotes carte graphique Nvidia
+### Télémétrie pilotes carte graphique Nvidia
 
 Penser à désactiver la télémétrie activée par défaut de la suite _GeForce Experience_, un logiciel de **Nvidia** accompagnant bien souvent les drivers de la carte graphique. Ils remontent automatiquement des informations sur votre système au fabricant.\
 \
@@ -38,7 +38,7 @@ Il vous sera nécessaire soit de vous plonger dans les tâches planifiées, le r
 
 ***
 
-## **Désactiver les services inutiles**
+### **Désactiver les services inutiles**
 
 Pour des solutions officielles concernant l'optimisation de Windows, afin de Désactiver les services inutile&#x73;**,** il y a... le site de Microsoft (:
 
@@ -46,7 +46,7 @@ Pour des solutions officielles concernant l'optimisation de Windows, afin de Dé
 
 ***
 
-## Lancer des applications automatiquement au démarrage
+### Lancer des applications automatiquement au démarrage
 
 1. Sélectionnez le bouton **Démarrer** et faites défiler jusqu’à trouver l’application que vous souhaitez exécuter au démarrage.
 2. Cliquez sur l’application, sélectionnez **Plus**, puis sélectionnez **Ouvrir l’emplacement du fichier**. L’emplacement où est enregistré le raccourci vers l’application s’ouvre. S’il n’y a pas d’option pour **Ouvrir l’emplacement du fichier**, cela signifie que l’application ne peut pas s’exécuter au démarrage.
@@ -59,15 +59,15 @@ Source : [https://support.microsoft.com/fr-fr/windows/configurer-des-application
 
 ***
 
-## Faire quelques vérifications
+### Faire quelques vérifications
 
-### chkdsk
+#### chkdsk
 
 Vérifie le système de fichiers et les métadonnées du système de fichiers d’un volume à la recherche d’erreurs logiques et physiques.&#x20;
 
 {% embed url="https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk" %}
 
-### sfc
+#### sfc
 
 La commande sfc /scannow analyse tous les fichiers système protégés et remplace les fichiers endommagés par une copie mise en cache. Les résultats de l'analyse seront affichés une fois ce processus terminé.
 
@@ -77,13 +77,13 @@ La commande sfc /scannow analyse tous les fichiers système protégés et rempla
 
 ***
 
-## Réparer les fichiers de données Outlook (.pst et .ost) <a href="#page-header" id="page-header"></a>
+### Réparer les fichiers de données Outlook (.pst et .ost) <a href="#page-header" id="page-header"></a>
 
 {% embed url="https://support.microsoft.com/fr-fr/office/r%C3%A9parer-les-fichiers-de-donn%C3%A9es-outlook-pst-et-ost-25663bc3-11ec-4412-86c4-60458afc5253" %}
 
 ***
 
-## Vérifier l'état de la batterie sur Windows
+### Vérifier l'état de la batterie sur Windows
 
 Ouvrez l'invite de commandes ou PowerShell en appuyant sur les touches `Win + X` et sélectionnez Invite de commandes en mode administrateur.&#x20;
 
@@ -97,7 +97,7 @@ Et pour consulter le rapport, aller dans le dossier `C:\battery-report.html` et 
 
 ***
 
-## Changer son adresse MAC Bluetooth <a href="#article-title" id="article-title"></a>
+### Changer son adresse MAC Bluetooth <a href="#article-title" id="article-title"></a>
 
 Windows ne permet pas tout le temps de le faire directement via les paramètres.
 
@@ -113,7 +113,7 @@ Conservez l’adresse MAC d’origine si vous devez revenir en arrière. Pour re
 
 Voici deux façon de faire la manipulation :
 
-### **Gestionnaire de périphériques**
+#### **Gestionnaire de périphériques**
 
 1. Appuyez sur `Win + X` et sélectionnez **Gestionnaire de périphériques**.
 2. Trouvez votre adaptateur Bluetooth sous la section **Bluetooth**.
@@ -122,19 +122,19 @@ Voici deux façon de faire la manipulation :
 5. Recherchez une option appelée **Adresse réseau** ou **Network Address**.
 6. Si cette option est disponible, vous pouvez entrer une nouvelle adresse MAC. Si elle n'est pas disponible, cette méthode ne fonctionnera pas pour votre adaptateur.
 
-### Bluetooth MAC Address Changer
+#### Bluetooth MAC Address Changer
 
 {% embed url="https://macaddresschanger.com" %}
 
 ***
 
-## Installer Windows 11 en contournant TPM
+### Installer Windows 11 en contournant TPM
 
 {% embed url="https://next.ink/168574/windows-11-trois-methodes-pour-contourner-tpm-2-0/" %}
 
 ***
 
-## Utilisation du Presse-papiers <a href="#page-header" id="page-header"></a>
+### Utilisation du Presse-papiers <a href="#page-header" id="page-header"></a>
 
 Lorsque vous copiez du contenu sur votre PC, il est automatiquement copié dans le Presse-papiers pour que vous le colliez.
 
@@ -148,7 +148,7 @@ Source : [https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-pour-le-
 
 ***
 
-## Ajouter les secondes à l’horloge
+### Ajouter les secondes à l’horloge
 
 Pour ajouter les secondes à l’heure dans la barre d’état système, procédez comme suit :
 
@@ -159,3 +159,28 @@ Pour ajouter les secondes à l’heure dans la barre d’état système, procéd
 * Cochez l’option **Afficher les secondes de l’horloge de la barre d’état système (utilise plus d’énergie)** pour afficher les secondes de l’horloge.
 
 Une fois que vous avez effectué ces manipulations, l’horloge de Windows 11 affichera une horloge avec les heures, les minutes et les secondes :)
+
+***
+
+### Changer la mise en veille de l'ordinateur
+
+{% embed url="https://support.microsoft.com/fr-fr/windows/param%C3%A8tres-d-alimentation-dans-windows-11-0d6a2b6b-2e87-4611-9980-ac9ea2175734" %}
+
+***
+
+### Définir manuellement la mémoire virtuelle
+
+Par défaut la gestion de la mémoire vive est gérer par Windows :/
+
+Le mieux à faire lors de l'ouverture de gros fichiers est de défénir manuellement la mémoire virtuel disponible sur votre poste.\
+Vous gagnerez en performance et en vitesse :)
+
+1. Dans l’onglet \*\*Avancé\*\*, section \*\*Performances\*\*, cliquer sur \*\*Paramètres\*\*
+2. Aller dans l’onglet \*\*Avancé\*\* > section \*\*Mémoire virtuelle\*\* > cliquer sur \*\*Modifier\*\*
+3. Décochez la case \*\*Gestion automatique\*\*
+4. Sélectionnez le disque le plus rapide (SSD recommandé)
+5. Choisissez \*\*Taille personnalisée\*\* : Taille initiale : RAM× 1
+6. \*\*Valider et redémarrer\*\* : Cliquez sur OK, puis redémarrez votre PC
+
+***
+
