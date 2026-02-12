@@ -129,7 +129,7 @@ Logiciel de VPN
 
 ### Standard Notes
 
-{% embed url="https://standardnotes.com/" %}
+{% embed url="https://github.com/standardnotes/app" %}
 
 ***
 
