@@ -31,8 +31,8 @@ Quelques extensions tellement pratique et disponible uniquement sur Google Chrom
 
 ### Resizing.app
 
-{% content-ref url="../../resizing.app.md" %}
-[resizing.app.md](../../resizing.app.md)
+{% content-ref url="../../../../1.-technologie/logiciels/applications-web/resizing.app.md" %}
+[resizing.app.md](../../../../1.-technologie/logiciels/applications-web/resizing.app.md)
 {% endcontent-ref %}
 
 ## Themes
