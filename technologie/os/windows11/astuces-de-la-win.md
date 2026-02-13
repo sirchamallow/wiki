@@ -172,15 +172,15 @@ Une fois que vous avez effectué ces manipulations, l’horloge de Windows 11 af
 
 Par défaut la gestion de la mémoire vive est gérer par Windows :/
 
-Le mieux à faire lors de l'ouverture de gros fichiers est de défénir manuellement la mémoire virtuel disponible sur votre poste.\
+Le mieux à faire lors de l'ouverture de gros fichiers est de définir manuellement la mémoire virtuel disponible sur votre poste.\
 Vous gagnerez en performance et en vitesse :)
 
-1. Dans l’onglet \*\*Avancé\*\*, section \*\*Performances\*\*, cliquer sur \*\*Paramètres\*\*
-2. Aller dans l’onglet \*\*Avancé\*\* > section \*\*Mémoire virtuelle\*\* > cliquer sur \*\*Modifier\*\*
-3. Décochez la case \*\*Gestion automatique\*\*
+1. Dans l’onglet **Avancé**, section **Performances**, cliquer sur **Paramètres**
+2. Aller dans l’onglet **Avancé** > section **Mémoire virtuelle** > cliquer sur **Modifier**
+3. Décochez la case **Gestion automatique**
 4. Sélectionnez le disque le plus rapide (SSD recommandé)
-5. Choisissez \*\*Taille personnalisée\*\* : Taille initiale : RAM× 1
-6. \*\*Valider et redémarrer\*\* : Cliquez sur OK, puis redémarrez votre PC
+5. Choisissez **Taille personnalisée** : Taille initiale : RAM× 1
+6. **Valider et redémarrer** : Cliquez sur OK, puis redémarrez votre PC
 
 ***
 
