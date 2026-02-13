@@ -162,3 +162,9 @@ Logiciel de VPN
 ### Ente Photos
 
 {% embed url="https://ente.io/fr/download" %}
+
+***
+
+### Flameshot
+
+{% embed url="https://flameshot.org" %}

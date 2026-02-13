@@ -31,6 +31,8 @@ Surligneur Web - Mettez en surbrillance où vous voulez, même sur des vidéos o
 
 {% embed url="https://chromewebstore.google.com/detail/cmpdlhmnmjhihmcfnigoememnffkimlk" %}
 
+***
+
 ## Moteur de recherche
 
 ### Google Encrypted
@@ -57,23 +59,3 @@ Vous pouvez faire la même manipulation sur **Android**. Sur **iOS** la fonction
 {% hint style="success" %}
 Plus d'information : [https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU](https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU)
 {% endhint %}
-
-### Startpage
-
-Un méta moteur de recheche Allemand basé sur l'index de BING & GOOGLE. Mais orientée vie privée.
-
-{% embed url="https://www.startpage.com/" %}
-
-{% embed url="https://chromewebstore.google.com/detail/startpage-%E2%80%94-private-searc/fgmjlmbojbkmdpofahffgcpkhkngfpef" %}
-
-### Qwant
-
-Un moteur de recherche Français qui utilise [un index](https://staan.ai/) développer conjointement avec Ecosia
-
-{% embed url="https://www.qwant.com/" %}
-
-### Kagi
-
-Un moteur de recherche US payant basé sur son propre index, orientée vie privée
-
-{% embed url="https://www.kagi.com" %}

@@ -58,6 +58,28 @@ Source : [https://github.com/greenshot](https://github.com/greenshot)
 
 ***
 
+## Display Driver Uninstaller
+
+{% embed url="https://www.guru3d.com/download/display-driver-uninstaller-download" %}
+
+***
+
+## GPU-Z
+
+{% embed url="https://www.techpowerup.com/gpuz/" %}
+
+**GPU-Z** est un utilitaire système léger conçu pour fournir des informations essentielles sur votre carte vidéo et votre processeur graphique.
+
+***
+
+## CPU-Z
+
+{% embed url="https://www.cpuid.com/softwares/cpu-z.html" %}
+
+**CPU-Z** est un logiciel gratuit qui collecte des informations sur certains des principaux périphériques de votre système :
+
+***
+
 ## Téléchargement
 
 ### Microsoft Store
