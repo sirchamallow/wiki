@@ -67,13 +67,23 @@ Certains sont gratuit et d'autres payants.
 
 ***
 
+### OnlyOffice
+
+{% embed url="https://www.onlyoffice.com" %}
+
+***
+
 ### Spacedrive
+
+Gestionnaire de fichiers
 
 {% embed url="https://www.spacedrive.com/" %}
 
 ***
 
 ### VLC Media Player
+
+Lecture de fichiers audio & vidéo
 
 {% embed url="https://www.videolan.org/vlc/" %}
 
@@ -95,13 +105,17 @@ Le logiciel d'accès et de support à distance open-source rapide
 
 ### Vivaldi
 
+Navigateur web Européen basée sur Chrome
+
 {% embed url="https://vivaldi.com/fr/download/" %}
 
 ***
 
-### Foobar2000
+### PeaZip
 
-{% embed url="https://www.foobar2000.org/" %}
+Logiciel de compression
+
+{% embed url="https://peazip.github.io/" %}
 
 ***
 

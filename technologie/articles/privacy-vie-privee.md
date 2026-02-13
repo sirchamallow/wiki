@@ -20,6 +20,8 @@ icon: user-lock
 
 {% embed url="https://www.privacyguides.org/fr/" %}
 
+{% embed url="https://www.privacytools.io/" %}
+
 ***
 
 ## Astuces
