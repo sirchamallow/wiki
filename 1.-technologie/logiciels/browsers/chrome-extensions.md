@@ -23,23 +23,17 @@ Quelques extensions tellement pratique et disponible uniquement sur Google Chrom
 
 ### LINER
 
-1. Surligneur Web - Mettez en surbrillance où vous voulez, même sur des vidéos ou des images Y
-2. Assistant de recherche - Obtenez de meilleurs résultats plus rapidement de Google en un seul clic&#x20;
-3. Curation d'article (ou de contenu) basée sur vos choix
+Surligneur Web - Mettez en surbrillance où vous voulez, même sur des vidéos ou des images Y
 
 {% embed url="https://chrome.google.com/webstore/detail/liner-highlighter-with-be/bmhcbmnbenmcecpmpepghooflbehcack/" %}
-
-### Resizing.app
-
-{% content-ref url="../../../../1.-technologie/logiciels/applications-web/resizing.app.md" %}
-[resizing.app.md](../../../../1.-technologie/logiciels/applications-web/resizing.app.md)
-{% endcontent-ref %}
 
 ## Themes
 
 {% embed url="https://chromewebstore.google.com/detail/cmpdlhmnmjhihmcfnigoememnffkimlk" %}
 
 ## Moteur de recherche
+
+### Google Encrypted
 
 Pour ajouter le moteur de recherche [Encrypted Google](http://encrypted.google.com) sur Chrome, suivez ces étapes :
 
@@ -63,3 +57,23 @@ Vous pouvez faire la même manipulation sur **Android**. Sur **iOS** la fonction
 {% hint style="success" %}
 Plus d'information : [https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU](https://support.google.com/websearch/answer/173733?hl=fr\&sjid=3434836290092163193-EU)
 {% endhint %}
+
+### Startpage
+
+Un méta moteur de recheche Allemand basé sur l'index de BING & GOOGLE. Mais orientée vie privée.
+
+{% embed url="https://www.startpage.com/" %}
+
+{% embed url="https://chromewebstore.google.com/detail/startpage-%E2%80%94-private-searc/fgmjlmbojbkmdpofahffgcpkhkngfpef" %}
+
+### Qwant
+
+Un moteur de recherche Français qui utilise [un index](https://staan.ai/) développer conjointement avec Ecosia
+
+{% embed url="https://www.qwant.com/" %}
+
+### Kagi
+
+Un moteur de recherche US payant basé sur son propre index, orientée vie privée
+
+{% embed url="https://www.kagi.com" %}
