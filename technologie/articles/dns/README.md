@@ -13,4 +13,5 @@ Comment fonctionne un DNS : [https://howdns.works](https://howdns.works)
 ## **Services**
 
 * Vérifier les DNS d’un site avec **IntoDNS** : [https://intodns.com](https://intodns.com/)​
-* **DNSPerf**, pour comparer les performances des DNS : [https://www.dnsperf.com](https://www.dnsperf.com/)​
+* **DNSPerf**, pour comparer les performances des DNS : [https://www.dnsperf.com](https://www.dnsperf.com/)
+* Analyser ses logs DNS : [https://github.com/dmachard/DNS-collector](https://github.com/dmachard/DNS-collector)​

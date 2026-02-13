@@ -4,7 +4,7 @@ icon: gear
 
 # Utilitaires
 
-## Barre de tâches
+## TranslucentTB
 
 {% embed url="https://apps.microsoft.com/detail/9pf4kz2vn4w9" %}
 
@@ -14,15 +14,27 @@ Source : [https://github.com/TranslucentTB/TranslucentTB](https://github.com/Tra
 
 ***
 
+### RoundedTB
+
+Ajoutez des marges, des coins arrondis et des segments à vos barres des tâches !
+
 {% embed url="https://roundedtb.com/" %}
 
-{% hint style="info" %}
-Source : [https://github.com/RoundedTB/RoundedTB](https://github.com/RoundedTB/RoundedTB)
-{% endhint %}
+{% embed url="https://apps.microsoft.com/detail/9mtftxsj9m7f" %}
 
 ***
 
-### Files.community
+## AppControl
+
+Un gestionnaire de tâches moderne
+
+{% embed url="https://www.appcontrol.com/" %}
+
+***
+
+## Files.community
+
+Un gestionnaire de fichiers moderne
 
 {% embed url="https://files.community/" %}
 
@@ -45,8 +57,6 @@ Source : [https://github.com/greenshot](https://github.com/greenshot)
 {% endhint %}
 
 ***
-
-{% embed url="https://www.screenpresso.com/fr/" %}
 
 ## Téléchargement
 
