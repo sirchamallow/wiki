@@ -28,6 +28,8 @@ Housse de protection en cuir au millimètre près
 
 {% embed url="https://www.mujjo.com/collections/cases" %}
 
+***
+
 ## ShopSystem
 
 Pour leurs coques ultra-slim. Pour les autres modèles, peu de différences avec la concurrence
