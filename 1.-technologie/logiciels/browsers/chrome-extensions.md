@@ -27,6 +27,8 @@ Quelques extensions tellement pratique et disponible uniquement sur Google Chrom
 
 {% embed url="https://chromewebstore.google.com/detail/linkding-extension/beakmhbijpdhipnjhnclmhgjlddhidpe" %}
 
+{% embed url="https://chromewebstore.google.com/detail/markdown-sticky-notes/aiakblgmlabokilgljkglggnpflljdgp" %}
+
 ### NotebookLM
 
 {% embed url="https://chromewebstore.google.com/detail/youtube-to-notebooklm/kobncfkmjelbefaoohoblamnbackjggk" %}
