@@ -21,15 +21,31 @@ Liste complète des raccourcis [ici](https://support.google.com/chrome/answer/15
 
 Quelques extensions tellement pratique et disponible uniquement sur Google Chrome
 
-### LINER
+{% embed url="https://chromewebstore.google.com/detail/catppuccin-for-web-file-e/lnjaiaapbakfhlbjenjkhffcdpoompki" %}
 
-Surligneur Web - Mettez en surbrillance où vous voulez, même sur des vidéos ou des images Y
+{% embed url="https://chromewebstore.google.com/publisher/startpage/uc99513a65c47739f53b6107f340b3c08" %}
 
-{% embed url="https://chrome.google.com/webstore/detail/liner-highlighter-with-be/bmhcbmnbenmcecpmpepghooflbehcack/" %}
+{% embed url="https://chromewebstore.google.com/detail/linkding-extension/beakmhbijpdhipnjhnclmhgjlddhidpe" %}
 
-## Themes
+### NotebookLM
+
+{% embed url="https://chromewebstore.google.com/detail/youtube-to-notebooklm/kobncfkmjelbefaoohoblamnbackjggk" %}
+
+{% embed url="https://chromewebstore.google.com/detail/notebooklm-ultra-exporter/afchokljnhhggkhedfbmkcmdagjmjchj" %}
+
+## Thèmes
+
+### Catpuccin
 
 {% embed url="https://chromewebstore.google.com/detail/cmpdlhmnmjhihmcfnigoememnffkimlk" %}
+
+{% embed url="https://chromewebstore.google.com/detail/catppuccin-chrome-theme-l/jhjnalhegpceacdhbplhnakmkdliaddd" %}
+
+### Google
+
+{% embed url="https://chromewebstore.google.com/detail/oceanic/gbbacdmgjdfajabgglpjifcedoajdimg" %}
+
+{% embed url="https://chromewebstore.google.com/detail/slate/cmhmcmgkegfffbbfobhjpdbimgmoohap" %}
 
 ***
 
