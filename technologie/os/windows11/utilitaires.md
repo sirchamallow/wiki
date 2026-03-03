@@ -80,6 +80,14 @@ Source : [https://github.com/greenshot](https://github.com/greenshot)
 
 ***
 
+### Multidrive
+
+Clone, sauvegarde et efface des disques gratuitement, migrez Windows vers SSD, gérez les secteurs morts, vérifiez l'intégrité en SHA256/512 etc.
+
+{% embed url="https://multidrive.io/download" %}
+
+***
+
 ## Téléchargement
 
 ### Microsoft Store
