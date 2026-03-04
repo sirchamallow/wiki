@@ -509,8 +509,6 @@ Site Internet : [https://marta.sh](https://marta.sh/download/)
 
 ## Nping
 
-
-
 <figure><img src="../../../.gitbook/assets/black.gif" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/table.gif" alt=""><figcaption></figcaption></figure>
@@ -566,4 +564,20 @@ Un gestionnaire de presse-papier pour MacOS.
 
 {% hint style="info" %}
 Site : [https://indiegoodies.com/pastepal](https://indiegoodies.com/pastepal)
+{% endhint %}
+
+***
+
+## MacOptimizers
+
+Une application native gratuite conçue pour analyser, nettoyer et optimiser un Mac. Développée en Swift
+
+#### Installation
+
+```bash
+# Installation via le fichier d'installation #
+```
+
+{% hint style="success" %}
+Site : [https://macoptimizers.informatiqueconnect.fr/](https://macoptimizers.informatiqueconnect.fr/)
 {% endhint %}
