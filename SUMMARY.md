@@ -74,7 +74,7 @@
       * [Ecouteur audio filaire (USB-C)](1.-technologie/hardware/informatique/ecouteur-audio-filaire-usb-c.md)
       * [Câble USB-C](1.-technologie/hardware/informatique/cable-usb-c.md)
       * [Ergonomie](technologie/hardware/informatique/bureau.md)
-      * [Support laptop](technologie/hardware/informatique/support-laptop.md)
+      * [Accessoires PC Portable & Ecran](1.-technologie/hardware/informatique/accessoires-pc-portable-and-ecran.md)
       * [🇩🇪 TUXEDO Computers](technologie/hardware/informatique/tuxedo-computers.md)
       * [🇨🇳 Huawei Computers](technologie/hardware/informatique/huawei-computers.md)
     * [Electroménager](technologie/hardware/electromenager.md)

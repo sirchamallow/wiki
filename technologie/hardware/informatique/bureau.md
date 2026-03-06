@@ -5,7 +5,7 @@ icon: seat-airline
 
 # Ergonomie
 
-## Chaises
+## Sièges
 
 Dans les chaises que je recommande régulièrement autour de moi quand on me pose la question, le trio des chaises avec la meilleur assise ergonomique :
 
@@ -15,7 +15,7 @@ Dans les chaises que je recommande régulièrement autour de moi quand on me pos
 
 {% embed url="https://www.ikea.com/fr/fr/p/jaervfjaellet-chaise-de-bureau-av-accoudoirs-glose-noir-80510639/" %}
 
-
-
+{% hint style="info" %}
 Pour les sièges dit "gaming" vous recoomande la lecture de [cet article du site MiniMachines](https://www.minimachines.net/actu/autonomous-ergochair-2-89170) qui résume bien le problème de ses chaises.
+{% endhint %}
 
