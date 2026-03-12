@@ -572,12 +572,14 @@ Site : [https://indiegoodies.com/pastepal](https://indiegoodies.com/pastepal)
 
 Une application native gratuite conçue pour analyser, nettoyer et optimiser un Mac. Développée en Swift
 
-#### Installation
+{% embed url="https://macoptimizers.informatiqueconnect.fr/" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
+***
 
-{% hint style="success" %}
-Site : [https://macoptimizers.informatiqueconnect.fr/](https://macoptimizers.informatiqueconnect.fr/)
-{% endhint %}
+## Stats
+
+Une application légère et gratuite pour la barre de menus qui vous offre une vue d'ensemble complète de l'état de votre système : processeur, carte graphique, mémoire vive, disque, réseau et bien plus encore
+
+<figure><img src="../../../.gitbook/assets/Stats.webp" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://mac-stats.com/" %}
