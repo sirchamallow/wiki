@@ -4,13 +4,13 @@ icon: gear
 
 # Utilitaires
 
-## TranslucentTB
+## Barre de tâches
+
+### TranslucentTB
 
 {% embed url="https://apps.microsoft.com/detail/9pf4kz2vn4w9" %}
 
-{% hint style="info" %}
-Source : [https://github.com/TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)
-{% endhint %}
+{% embed url="https://github.com/TranslucentTB/TranslucentTB" %}
 
 ***
 
@@ -32,55 +32,57 @@ Un gestionnaire de tâches moderne
 
 ***
 
-## Files.community
+## Files
 
 Un gestionnaire de fichiers moderne
 
 {% embed url="https://files.community/" %}
 
+{% embed url="https://github.com/files-community/files/" %}
+
 ***
 
 ## Captures d'écrans
 
+### ShareX
+
 {% embed url="https://getsharex.com/" %}
 
-{% hint style="info" %}
-Source : [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
-{% endhint %}
+{% embed url="https://github.com/ShareX/ShareX" %}
 
-***
+### Greenshot
 
 {% embed url="https://getgreenshot.org" %}
 
-{% hint style="info" %}
-Source : [https://github.com/greenshot](https://github.com/greenshot)
-{% endhint %}
+{% embed url="https://github.com/greenshot" %}
 
 ***
 
 ## Display Driver Uninstaller
 
+Désinstaller proprement vos drivers de carte graphiques
+
 {% embed url="https://www.guru3d.com/download/display-driver-uninstaller-download" %}
 
 ***
 
-## GPU-Z
+## Informations système
 
-{% embed url="https://www.techpowerup.com/gpuz/" %}
+### GPU-Z
 
 **GPU-Z** est un utilitaire système léger conçu pour fournir des informations essentielles sur votre carte vidéo et votre processeur graphique.
 
-***
+{% embed url="https://www.techpowerup.com/gpuz/" %}
 
-## CPU-Z
+### CPU-Z
+
+**CPU-Z** est un logiciel gratuit qui collecte des informations sur certains des principaux périphériques de votre système
 
 {% embed url="https://www.cpuid.com/softwares/cpu-z.html" %}
 
-**CPU-Z** est un logiciel gratuit qui collecte des informations sur certains des principaux périphériques de votre système :
-
 ***
 
-### Multidrive
+## Multidrive
 
 Clone, sauvegarde et efface des disques gratuitement, migrez Windows vers SSD, gérez les secteurs morts, vérifiez l'intégrité en SHA256/512 etc.
 
@@ -88,24 +90,40 @@ Clone, sauvegarde et efface des disques gratuitement, migrez Windows vers SSD, g
 
 ***
 
-## Téléchargement
+## RyTuneX
 
-### Microsoft Store
+Un optimiseur de pointe basé sur le framework WinUI 3, conçu pour améliorer les performances des appareils Windows 10 et 11.
 
-* [Microsoft Edge Browser](https://apps.microsoft.com/store/detail/microsoft-edge-browser/XPFFTQ037JWMHS) : navigateur web de Microsoft
-* [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?) : le terminal de windows
-* [Windows Subsystem for Linux (WSL)](https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ) : Installation complète de Ubuntu 20.04.5 LTS
+{% embed url="https://github.com/rayenghanmi/RyTuneX" %}
 
-{% hint style="info" %}
-#### Mise à jour
+***
 
-Pour mettre à jour le **Microsoft Store** : sélectionnez le bouton **Démarrer** , puis Microsoft Store dans la liste des applications. Dans le Microsoft Store, sélectionnez **En savoir plus** > Téléchargements et mises à jour > Obtenir des **mises à jour**.
-{% endhint %}
+## WSL
 
-### Téléchargement direct
+Installation complète de Ubuntu 20.04.5 LTS
 
-* [KeyScrambler](https://www.qfxsoftware.com/download.htm) : Chiffrement logiciel de vos frappes de votre clavier
-* [Comodo Personal Firewall](https://personalfirewall.comodo.com/firewall-for-windows-10.php) : Pare-feu gratuit pour Windows10
-* [Captvty](https://captvty.fr/) : Télécharger le replay d'émissions TV francophones
-* [Tweak-SSD v2](http://www.totalidea.com/products/tweak-ssd/) : Optimise votre SSD pour Windows10
+{% embed url="https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ" %}
 
+***
+
+## KeyScrambler
+
+Chiffrement logiciel de vos frappes de votre clavier
+
+{% embed url="https://www.qfxsoftware.com/download.htm" %}
+
+***
+
+## Captvty
+
+Télécharger le replay d'émissions TV francophones
+
+{% embed url="https://captvty.fr/" %}
+
+***
+
+## Tweak-SSD v2
+
+Optimise votre SSD pour Windows10
+
+{% embed url="http://www.totalidea.com/products/tweak-ssd/" %}
