@@ -23,3 +23,9 @@ icon: tablet-button
 {% embed url="https://www.mujjo.com/" %}
 
 {% embed url="https://bellroy.com/" %}
+
+{% embed url="https://www.moft.us/" %}
+
+{% embed url="https://eu.mous.co/" %}
+
+{% embed url="https://www.logitech.com/en-eu/shop/c/ipad-keyboards" %}
