@@ -5,32 +5,42 @@ icon: earth-africa
 
 # Noms de domaine
 
-## BookMyName
+## Registar
+
+### BookMyName
 
 Filiale de Scaleway, prix abordable, interface austère MAIS ça marche.
 
 {% embed url="https://www.bookmyname.com" %}
 
-***
-
-## OVHcloud
+### OVHcloud
 
 C'est l'usine à gaz côté interface, les prix sont ceux du marché. On trouve toujours un copain qui à des domaine chez eux pour vous aider :D&#x20;
 
 {% embed url="https://www.ovhcloud.com/fr/domains/" %}
 
-***
-
-## Infomaniak
+### Infomaniak
 
 Interface qui se complexifie d'années en années. Prix des domaines dans le haut du panier
 
 {% embed url="https://www.infomaniak.com/fr/domaines" %}
 
-***
-
-## Hostinger
+### Hostinger
 
 Petit à petit, Hostinger comme à s'imposer tranquillement dans l'écosysètme cloud européen
 
 {% embed url="https://www.hostinger.com/fr/nom-de-domaine-disponible" %}
+
+***
+
+## Outils de supervision
+
+Domain Locker
+
+{% embed url="https://domain-locker.com/" %}
+
+{% embed url="https://github.com/lissy93/domain-locker" %}
+
+Vigidomaine
+
+{% embed url="https://vigi.domains/fr/" %}
