@@ -98,6 +98,14 @@ Un optimiseur de pointe basé sur le framework WinUI 3, conçu pour améliorer l
 
 ***
 
+## Remove Windows AI
+
+Un outil pour supprimer toutes les fonctionnalités IA de Windows 11
+
+{% embed url="https://github.com/zoicware/RemoveWindowsAI/tree/main#how-to-use" %}
+
+***
+
 ## WSL
 
 Installation complète de Ubuntu 20.04.5 LTS
