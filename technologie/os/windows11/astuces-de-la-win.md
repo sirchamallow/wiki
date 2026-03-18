@@ -200,6 +200,22 @@ _`>taskkill /f /im explorer.exe && start explorer.exe`_
 
 ***
 
+### Explorateur de fichiers ne s'ouvre plus&#x20;
+
+Ouvrir l'explorateur de fichiers **en mode minimal**
+
+1\. Appuyez simultanément sur les touches Windows + R pour ouvrir la fenêtre Exécuter.
+
+2\. Tapez cmd dans le champ et appuyez sur OK pour ouvrir l’Invite de commandes.
+
+Ouvrez l'invite de commandes
+
+3\. Saisissez la commande suivante :
+
+`explorer.exe /safe`
+
+***
+
 ### Réinitialiser Windows Update manuellement
 
 Cette méthode permet de repartir sur une base saine en réinitialisant entièrement les composants de Windows Update. Elle est particulièrement utile lorsque les fichiers du cache ou les services Windows sont endommagés.
