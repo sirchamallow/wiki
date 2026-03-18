@@ -19,12 +19,13 @@ Je vous recommande [l'usage de PowerShell](https://learn.microsoft.com/fr-fr/pow
 7. **`REN`** (ou `RENAME`) : Renomme un fichier ou un répertoire
 8. **`TYPE`** : Affiche le contenu d'un fichier texte
 9. **`CLS`** : Efface l'écran de la console
-10. **`IPCONFIG`** : Affiche les paramètres de configuration réseau
-11. **`PING`** : Teste la connectivité réseau vers une adresse IP ou un nom de domaine
-12. **`SYSTEMINFO`** : Affiche des informations détaillées sur la configuration du système
-13. **`TASKLIST`** : Affiche la liste des processus en cours d'exécution
-14. **`TASKKILL`** : Permet de terminer un processus en cours d'exécution
-15. **`SHUTDOWN`** : Permet d'éteindre, redémarrer ou mettre en veille l'ordinateur
+10. **`IPCONFIG /ALL`** : Affiche les paramètres de configuration réseau
+11. **`SLMGR /DLVSL`** : Affiche les paramètres de configuration réseau
+12. **`PING`** : Teste la connectivité réseau vers une adresse IP ou un nom de domaine
+13. **`SYSTEMINFO`** : Affiche des informations détaillées sur la configuration du système
+14. **`TASKLIST`** : Affiche la liste des processus en cours d'exécution
+15. **`TASKKILL`** : Permet de terminer un processus en cours d'exécution
+16. **`SHUTDOWN`** : Permet d'éteindre, redémarrer ou mettre en veille l'ordinateur
 
 ***
 
