@@ -29,3 +29,7 @@ icon: tablet-button
 {% embed url="https://eu.mous.co/" %}
 
 {% embed url="https://www.logitech.com/en-eu/shop/c/ipad-keyboards" %}
+
+{% embed url="https://www.lovemeicase.com/" %}
+
+{% embed url="https://www.elago.com/" %}
