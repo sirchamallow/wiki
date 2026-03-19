@@ -583,3 +583,11 @@ Une application légère et gratuite pour la barre de menus qui vous offre une v
 <figure><img src="../../../.gitbook/assets/Stats.webp" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://mac-stats.com/" %}
+
+***
+
+### MacDirStat
+
+Un outil de visualisation d'espace disque
+
+{% embed url="https://github.com/phalladar/MacDirStat" %}
