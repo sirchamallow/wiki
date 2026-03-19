@@ -81,6 +81,16 @@ Gestionnaire de fichiers
 
 ***
 
+### SquirrelDisk
+
+Un utilitaire de visualisation d'espace disque
+
+{% embed url="https://www.squirreldisk.com/" %}
+
+{% embed url="https://github.com/adileo/squirreldisk" %}
+
+***
+
 ### VLC Media Player
 
 Lecture de fichiers audio & vidéo
