@@ -237,3 +237,16 @@ _`net stop wuauserv`_\
 Ces commandes arrêtent les services liés à Windows Update, renommant les dossiers temporaires défectueux avant de redémarrer les services.
 
 &#x20;**Option bazooka :** Supprimer les fichiers présent dans le dossier C:\Windows\SoftwareDistribution\Download
+
+***
+
+### Windows Update
+
+Listing des mise à jour, KB etc. Possible de les télécharger manuellement à l'unité
+
+
+
+* Windows 11 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2011](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2011https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2011)
+* Windows 10 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2010](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2010)
+* Windows 8 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%208](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%208https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%208)
+* Windows 7 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%207](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%207https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%207)
