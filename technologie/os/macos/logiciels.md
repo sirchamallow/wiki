@@ -558,13 +558,9 @@ Options:
 
 ## PastePal
 
-{% embed url="https://www.youtube.com/watch?v=UmsqhXUO5oc" %}
-
 Un gestionnaire de presse-papier pour MacOS.
 
-{% hint style="info" %}
-Site : [https://indiegoodies.com/pastepal](https://indiegoodies.com/pastepal)
-{% endhint %}
+{% embed url="https://indiegoodies.com/pastepal" %}
 
 ***
 
@@ -572,7 +568,7 @@ Site : [https://indiegoodies.com/pastepal](https://indiegoodies.com/pastepal)
 
 Une application native gratuite conçue pour analyser, nettoyer et optimiser un Mac. Développée en Swift
 
-{% embed url="https://macoptimizers.informatiqueconnect.fr/" %}
+{% embed url="https://macoptimizers.informatiqueconnect.fr/" fullWidth="false" %}
 
 ***
 
@@ -586,7 +582,7 @@ Une application légère et gratuite pour la barre de menus qui vous offre une v
 
 ***
 
-### MacDirStat
+## MacDirStat
 
 Un outil de visualisation d'espace disque
 
