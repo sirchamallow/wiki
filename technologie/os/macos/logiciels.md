@@ -8,33 +8,19 @@ icon: gear
 
 ### Warp.dev
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-27 at 12-57-52 Blog Warp.png" alt="" width="260"><figcaption></figcaption></figure>
-
 #### Description
 
 Warp est un émulateur de terminal écrit en **Rust**.\
 \
 Il se distingue par des fonctionnalités telles que Warp Drive pour le partage de commandes entre équipes, Warp AI pour les suggestions et l'assistance des commandes, ainsi qu'un IDE moderne avec une sélection de texte et un positionnement du curseur.
 
-#### Installation
+{% embed url="https://www.warp.dev/" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="info" %}
-Source : [https://github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.warp.dev](https://www.warp.dev/)
-{% endhint %}
+{% embed url="https://github.com/warpdotdev/Warp" %}
 
 ***
 
 ### Firefox
-
-<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-48-23.png" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -57,8 +43,6 @@ Site Internet : [https://www.mozilla.org/fr/firefox/mac/](https://www.mozilla.or
 ***
 
 ### Firefox Developer Edition
-
-<figure><img src="../../../.gitbook/assets/Capture d’écran du 2024-01-08 16-52-39.png" alt="" width="320"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -91,8 +75,6 @@ Découvrez divers extensions & thèmes sur ce wiki en cliquant sur le lien
 
 ### WiFi Signal : Strength Analyzer
 
-<figure><img src="../../../.gitbook/assets/wifiexplorer_icon_large.png" alt="" width="128"><figcaption></figcaption></figure>
-
 #### Description
 
 WiFi Signal lets you monitor your Wi-Fi network’s status and signal quality, notifying you about changes in your Wi-Fi connection
@@ -115,8 +97,6 @@ Site Internet : [https://www.intuitibits.com/products/wifisignal/](https://www.i
 
 ## Onyx
 
-<figure><img src="../../../.gitbook/assets/onyx14.png" alt="" width="96"><figcaption></figcaption></figure>
-
 #### Description
 
 Une trousse à outils indispensable qui dispose d’une centaine de fonctionnalités, telles que, le nettoyage du Mac, la reconstruction de services défectueux, la vérification de la structure du système de fichiers, l’exécution des scripts de maintenance, la configuration des paramètres cachés du Finder, du Dock, de Safari et de plusieurs applications Apple…
@@ -134,8 +114,6 @@ Site Internet : [https://www.titanium-software.fr/fr/onyx.html](https://www.tita
 ***
 
 ## Duet Display
-
-<figure><img src="../../../.gitbook/assets/duet.png" alt="" width="203"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -158,8 +136,6 @@ Site Internet : [https://www.duetdisplay.com/fr](https://www.duetdisplay.com/fr)
 
 ## Magnet
 
-<figure><img src="../../../.gitbook/assets/sM6nXIt4XEXecpi9hpe6pYiNdxy2-zt3i3fbp.jpeg" alt="" width="367"><figcaption></figcaption></figure>
-
 #### Description
 
 Permets de redimensionner les fenêtres de manière appropriée.
@@ -181,8 +157,6 @@ Site Internet : [https://magnet.crowdcafe.com](https://magnet.crowdcafe.com/inde
 ***
 
 ## CleanMyMac X
-
-<figure><img src="../../../.gitbook/assets/01BkOpQT2nohd4Ro2NRSlEg-10.webp" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -208,8 +182,6 @@ Site Internet : [https://macpaw.com/fr/cleanmymac](https://macpaw.com/fr/cleanmy
 
 ## WiFi Explorer : Scanner
 
-<figure><img src="../../../.gitbook/assets/wifisignal_icon_large.png" alt="" width="128"><figcaption></figcaption></figure>
-
 #### Description
 
 Découvrez, surveillez et dépannez les réseaux sans fil.
@@ -234,8 +206,6 @@ Site Internet : [https://www.intuitibits.com/products/wifiexplorer/](https://www
 
 ## TopNotch
 
-<figure><img src="../../../.gitbook/assets/icon2x.f367c2c.png" alt="" width="150"><figcaption></figcaption></figure>
-
 #### Description
 
 Masquer le Notch du MacBook Pro 14 / 16″ et MacBook Air (M2)
@@ -253,8 +223,6 @@ Site Internet : [https://topnotch.app/](https://topnotch.app/)
 ***
 
 ## Latest
-
-<figure><img src="../../../.gitbook/assets/latest.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -278,8 +246,6 @@ Site Internet : [https://max.codes/latest](https://max.codes/latest/)
 
 ## Scratchpad
 
-<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt="" width="128"><figcaption></figcaption></figure>
-
 #### Description
 
 Prise de notes instantanée depuis la barre de tâches
@@ -301,8 +267,6 @@ Site Internet : [https://sindresorhus.com/scratchpad](https://sindresorhus.com/s
 ***
 
 ## Menu Bar Spacing
-
-<figure><img src="../../../.gitbook/assets/image (27).png" alt="" width="128"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -328,8 +292,6 @@ Site Internet : [https://sindresorhus.com/menu-bar-spacing](https://sindresorhus
 
 ## Velja
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="128"><figcaption></figcaption></figure>
-
 #### Description
 
 Vous permets de choisir dans quel navigateur sera ouvert vos liens, et de changer ensuite
@@ -351,8 +313,6 @@ Site Internet : [https://sindresorhus.com/velja](https://sindresorhus.com/velja)
 ***
 
 ## Homebrew
-
-<figure><img src="https://brew.sh/assets/img/homebrew.svg" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 
@@ -437,8 +397,6 @@ Site Internet : [https://www.micmac-app.fr/fr](https://www.micmac-app.fr/fr/inde
 
 ## Kaomoji Drawer
 
-<figure><img src="../../../.gitbook/assets/Kaomoji.png" alt="" width="563"><figcaption></figcaption></figure>
-
 #### Description
 
 Une application qui permets l'accès aux émoticônes japonaises (kaomojis) directement depuis la barre de menu Mac
@@ -460,8 +418,6 @@ Site : [https://dakotafelder.com/kaomoji-drawer](https://dakotafelder.com/kaomoj
 ***
 
 ## Maccy
-
-<figure><img src="../../../.gitbook/assets/mg-5e76f610-w1642-w828-w1300.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -485,8 +441,6 @@ Site Internet : [https://maccy.app](https://maccy.app/)
 
 ## **MARTA File Manager**
 
-<figure><img src="../../../.gitbook/assets/marta.png" alt=""><figcaption></figcaption></figure>
-
 #### Description
 
 **MARTA File Manager** est une application de gestion de fichiers écrite entièrement en Swift, elle se distingue par sa performance exceptionnelle et son respect de la vie privée.
@@ -508,10 +462,6 @@ Site Internet : [https://marta.sh](https://marta.sh/download/)
 ***
 
 ## Nping
-
-<figure><img src="../../../.gitbook/assets/black.gif" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/table.gif" alt=""><figcaption></figcaption></figure>
 
 #### Description
 
@@ -568,15 +518,11 @@ Un gestionnaire de presse-papier pour MacOS.
 
 Une application native gratuite conçue pour analyser, nettoyer et optimiser un Mac. Développée en Swift
 
-{% embed url="https://macoptimizers.informatiqueconnect.fr/" fullWidth="false" %}
-
 ***
 
 ## Stats
 
 Une application légère et gratuite pour la barre de menus qui vous offre une vue d'ensemble complète de l'état de votre système : processeur, carte graphique, mémoire vive, disque, réseau et bien plus encore
-
-<figure><img src="../../../.gitbook/assets/Stats.webp" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://mac-stats.com/" %}
 
