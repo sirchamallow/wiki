@@ -197,6 +197,14 @@ Logiciel de prise de notes chiffré & open-source
 
 ***
 
+### Trilium Notes
+
+Logiciel de prise de prise de notes open-source et hiérarchique, conçue pour créer et gérer de vastes bases de connaissances personnelles&#x20;
+
+{% embed url="https://github.com/TriliumNext" %}
+
+***
+
 ### Feedbin
 
 Reader de Flux RSS simple
