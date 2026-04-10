@@ -4,11 +4,7 @@ icon: gear
 
 # Logiciels
 
-## Internet
-
 ### Warp.dev
-
-#### Description
 
 Warp est un émulateur de terminal écrit en **Rust**.\
 \
@@ -22,44 +18,21 @@ Il se distingue par des fonctionnalités telles que Warp Drive pour le partage d
 
 ### Firefox
 
-#### Description
-
 Navigateur web de la fondation Mozilla orientée vie privée
 
-#### Installation
+{% embed url="https://www.mozilla.org/fr/firefox/mac/" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="info" %}
-Source : [https://firefox-source-docs.mozilla.org/widget/cocoa/index.html](https://firefox-source-docs.mozilla.org/widget/cocoa/index.html)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.mozilla.org/fr/firefox/mac/](https://www.mozilla.org/fr/firefox/mac/)
-{% endhint %}
+{% embed url="https://firefox-source-docs.mozilla.org/widget/cocoa/index.html" %}
 
 ***
 
 ### Firefox Developer Edition
 
-#### Description
-
 Variante du navigateur web de la fondation Mozilla orientée vie privée
 
-#### Installation
+{% embed url="https://www.mozilla.org/fr/firefox/developer/" %}
 
-<pre class="language-bash"><code class="lang-bash"><strong># Installation via le fichier d'installation #
-</strong></code></pre>
-
-{% hint style="info" %}
-Source : [https://firefox-source-docs.mozilla.org/devtools-user/](https://firefox-source-docs.mozilla.org/devtools-user/)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.mozilla.org/fr/firefox/developer/](https://www.mozilla.org/fr/firefox/developer/)
-{% endhint %}
+{% embed url="https://firefox-source-docs.mozilla.org/devtools-user/" %}
 
 #### Extensions & Themes
 
@@ -71,252 +44,127 @@ Découvrez divers extensions & thèmes sur ce wiki en cliquant sur le lien
 
 ***
 
-## Utilitaires
-
 ### WiFi Signal : Strength Analyzer
-
-#### Description
 
 WiFi Signal lets you monitor your Wi-Fi network’s status and signal quality, notifying you about changes in your Wi-Fi connection
 
-#### Installation
+{% embed url="https://apps.apple.com/fr/app/wifi-signal-status-monitor/id525912054" %}
 
-```bash
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/fr/app/wifi-signal-status-monitor/id525912054](https://apps.apple.com/fr/app/wifi-signal-status-monitor/id525912054?mt=12)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.intuitibits.com/products/wifisignal/](https://www.intuitibits.com/products/wifisignal/)
-{% endhint %}
+{% embed url="https://www.intuitibits.com/products/wifisignal/" %}
 
 ***
 
 ## Onyx
 
-#### Description
-
 Une trousse à outils indispensable qui dispose d’une centaine de fonctionnalités, telles que, le nettoyage du Mac, la reconstruction de services défectueux, la vérification de la structure du système de fichiers, l’exécution des scripts de maintenance, la configuration des paramètres cachés du Finder, du Dock, de Safari et de plusieurs applications Apple…
 
-#### Installation
-
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="success" %}
-Site Internet : [https://www.titanium-software.fr/fr/onyx.html](https://www.titanium-software.fr/fr/onyx.html)
-{% endhint %}
+{% embed url="https://www.titanium-software.fr/fr/onyx.html" %}
 
 ***
 
 ## Duet Display
 
-#### Description
+Duet transforme votre iPhone ou iPad dans l’écran supplémentaire le plus avancé pour votre Mac & PC.
 
-Duet transforme votre iPhone ou iPad dans l’écran supplementaire le plus avancé pour votre Mac & PC.
+{% embed url="https://apps.apple.com/fr/app/duet-display/id935754064" %}
 
-#### Installation
-
-<pre class="language-bash"><code class="lang-bash"><strong># Installation via le Mac App Store #
-</strong></code></pre>
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/fr/app/duet-display/id935754064](https://apps.apple.com/fr/app/duet-display/id935754064)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.duetdisplay.com/fr](https://www.duetdisplay.com/fr)
-{% endhint %}
+{% embed url="https://www.duetdisplay.com/fr" %}
 
 ***
 
 ## Magnet
 
-#### Description
-
 Permets de redimensionner les fenêtres de manière appropriée.
 
-#### Installation
+{% embed url="https://apps.apple.com/fr/app/magnet/id441258766" %}
 
-```bash
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/fr/app/magnet/id441258766](https://apps.apple.com/fr/app/magnet/id441258766)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://magnet.crowdcafe.com](https://magnet.crowdcafe.com/index.html)
-{% endhint %}
+{% embed url="https://magnet.crowdcafe.com/index.html" %}
 
 ***
 
-## CleanMyMac X
-
-#### Description
+## CleanMyMac
 
 Supprimez des tonnes de fichiers inutiles ou malveillants, et accélérez et organisez votre Mac.
 
 CleanMyMac X regroupe plus de 30 outils conçus pour vous aider à résoudre les problèmes courants sur Mac. Il vous permet de gérer votre espace de stockage et vos applications, et de surveiller la santé de votre ordinateur.
 
-#### Installation
+{% embed url="https://apps.apple.com/fr/app/cleanmymac-x/id1339170533" %}
 
-```bash
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/fr/app/cleanmymac-x/id1339170533](https://apps.apple.com/fr/app/cleanmymac-x/id1339170533)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://macpaw.com/fr/cleanmymac](https://macpaw.com/fr/cleanmymac)
-{% endhint %}
+{% embed url="https://macpaw.com/fr/cleanmymac" %}
 
 ***
 
 ## WiFi Explorer : Scanner
 
-#### Description
+
 
 Découvrez, surveillez et dépannez les réseaux sans fil.
 
 Identifiez rapidement les conflits de canaux, les chevauchements de signaux ou les problèmes de configuration susceptibles d'affecter la connectivité et les performances de votre réseau sans fil
 
-#### Installation
+{% embed url="https://apps.apple.com/us/app/wifi-explorer-scanner/id494803304" %}
 
-```bash
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/us/app/wifi-explorer-scanner/id494803304](https://apps.apple.com/us/app/wifi-explorer-scanner/id494803304)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.intuitibits.com/products/wifiexplorer/](https://www.intuitibits.com/products/wifiexplorer/)
-{% endhint %}
+{% embed url="https://www.intuitibits.com/products/wifiexplorer/" %}
 
 ***
 
 ## TopNotch
 
-#### Description
-
 Masquer le Notch du MacBook Pro 14 / 16″ et MacBook Air (M2)
 
-#### Installation
-
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="success" %}
-Site Internet : [https://topnotch.app/](https://topnotch.app/)
-{% endhint %}
+{% embed url="https://topnotch.app/" %}
 
 ***
 
 ## Latest
 
-#### Description
-
 Pour maintenir automatiquement ses apps à jour sur Mac, Vous pouvez confier la tâche à un utilitaire open-source pour macOS
 
-#### Installation
+{% embed url="https://github.com/mangerlahn/Latest" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="info" %}
-Source : [https://github.com/mangerlahn/Latest](https://github.com/mangerlahn/Latest)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://max.codes/latest](https://max.codes/latest/)
-{% endhint %}
+{% embed url="https://max.codes/latest/" %}
 
 ***
 
 ## Scratchpad
 
-#### Description
-
 Prise de notes instantanée depuis la barre de tâches
 
-#### Installation
+{% embed url="https://apps.apple.com/app/id6504040051" %}
 
-```bash
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/app/id6504040051](https://apps.apple.com/app/id6504040051)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://sindresorhus.com/scratchpad](https://sindresorhus.com/scratchpad)
-{% endhint %}
+{% embed url="https://sindresorhus.com/scratchpad" %}
 
 ***
 
 ## Menu Bar Spacing
 
-#### Description
-
 Personnaliser l'espace des icônes présent dans votre barre de menu.
 
 Très pratique si vous avez beaucoup d'extensions ou un MacBook avec un notch
 
-#### Installation
+{% embed url="https://github.com/sindresorhus/menu-bar-spacing-meta/releases" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="info" %}
-Source : [https://github.com/sindresorhus/menu-bar-spacing-meta/releases](https://github.com/sindresorhus/menu-bar-spacing-meta/releases)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://sindresorhus.com/menu-bar-spacing](https://sindresorhus.com/menu-bar-spacing)
-{% endhint %}
+{% embed url="https://sindresorhus.com/menu-bar-spacing" %}
 
 ***
 
 ## Velja
 
-#### Description
-
 Vous permets de choisir dans quel navigateur sera ouvert vos liens, et de changer ensuite
 
-#### Installation
+{% embed url="https://apps.apple.com/app/id1607635845" %}
 
-```bash
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/app/id1607635845](https://apps.apple.com/app/id1607635845)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://sindresorhus.com/velja](https://sindresorhus.com/velja)
-{% endhint %}
+{% embed url="https://sindresorhus.com/velja" %}
 
 ***
 
 ## Homebrew
 
-#### Description
-
 Un gestionnaire de paquets pour macOS gratuit et open-source écrit en Ruby.&#x20;
+
+{% embed url="https://brew.sh/fr/" %}
+
+{% embed url="https://github.com/Homebrew/brew" %}
 
 #### Installation
 
@@ -336,23 +184,17 @@ Sur MacOS, il est possible de passer par installateur `.pkg`. Téléchargez-le d
 https://github.com/Homebrew/brew/releases
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://brew.sh/fr/](https://brew.sh/fr/)
-{% endhint %}
-
 ***
 
 ## MacPorts
 
-#### Description
-
 Un autre gestionnaire de paquets pour macOS
 
 **Notes** : MacPorts utilise des archives de code source, ce qui peut entraîner un léger retard pour obtenir les versions les plus récentes
+
+{% embed url="https://www.macports.org/install.php" %}
+
+{% embed url="https://github.com/macports/macports-base/releases/" %}
 
 #### Installation via le package .pkg (recommandée)
 
@@ -365,107 +207,55 @@ Un autre gestionnaire de paquets pour macOS
 port version
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/macports/macports-base/releases/](https://github.com/macports/macports-base/releases/)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://www.macports.org](https://www.macports.org/install.php)
-{% endhint %}
-
 ***
 
 ## MicMac
 
-#### Description
+
 
 Un outil gratuit permettant la configuration rapide, le nettoyage et la maintenance quotidienne du système macOS. Il est développé par [**Denis Dubois**](https://x.com/dedubo), rédacteur pour le magazine [VVMac Hebdo](https://www.vvmac.com/), l'utilitaire s’inspire de l’application populaire [Onyx](https://www.justgeek.fr/onyx-un-utilitaire-de-nettoyage-complet-pour-votre-mac-83684/). \
 \
 La différence ? MicMac intègre des fonctionnalités supplémentaires qui le rendent encore plus efficace pour personnaliser et maintenir votre ordinateur en parfaite santé
 
-#### Installation
-
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="success" %}
-Site Internet : [https://www.micmac-app.fr/fr](https://www.micmac-app.fr/fr/index.html)
-{% endhint %}
+{% embed url="https://www.micmac-app.fr/fr/index.html" %}
 
 ***
 
 ## Kaomoji Drawer
 
-#### Description
-
 Une application qui permets l'accès aux émoticônes japonaises (kaomojis) directement depuis la barre de menu Mac
 
-#### Installation
+{% embed url="https://apps.apple.com/us/app/kaomoji-drawer/id6670708214" %}
 
-```
-# Installation via le Mac App Store #
-```
-
-{% hint style="info" %}
-Source : [https://apps.apple.com/us/app/kaomoji-drawer/id6670708214](https://apps.apple.com/us/app/kaomoji-drawer/id6670708214?mt=12)
-{% endhint %}
-
-{% hint style="success" %}
-Site : [https://dakotafelder.com/kaomoji-drawer](https://dakotafelder.com/kaomoji-drawer/)
-{% endhint %}
+{% embed url="https://dakotafelder.com/kaomoji-drawer/" %}
 
 ***
 
 ## Maccy
 
-#### Description
-
 Maccy est un gestionnaire de presse-papiers destiné écrit en **Swift**.
 
-#### Installation
+{% embed url="https://github.com/p0deje/Maccy/tree/master" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="info" %}
-Source : [https://github.com/p0deje/Maccy/tree/master](https://github.com/p0deje/Maccy/tree/master)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://maccy.app](https://maccy.app/)
-{% endhint %}
+{% embed url="https://maccy.app/" %}
 
 ***
 
 ## **MARTA File Manager**
 
-#### Description
-
 **MARTA File Manager** est une application de gestion de fichiers écrite entièrement en Swift, elle se distingue par sa performance exceptionnelle et son respect de la vie privée.
 
-#### Installation
+{% embed url="https://github.com/marta-file-manager" %}
 
-```bash
-# Installation via le fichier d'installation #
-```
-
-{% hint style="info" %}
-Source : [https://github.com/marta-file-manager](https://github.com/marta-file-manager)
-{% endhint %}
-
-{% hint style="success" %}
-Site Internet : [https://marta.sh](https://marta.sh/download/)
-{% endhint %}
+{% embed url="https://marta.sh/download/" %}
 
 ***
 
 ## Nping
 
-#### Description
-
 **Nping,** un outil de ping développé en Rust. Il prend en charge le ping simultané pour plusieurs adresses, l'affichage de graphiques visuels, les mises à jour de données en temps réel et d'autres fonctionnalités.
+
+{% embed url="https://github.com/hanshuaikang/Nping" %}
 
 #### Installation via HomeBrew
 
@@ -475,10 +265,6 @@ brew install nping
 
 nping --help
 ```
-
-{% hint style="info" %}
-Source : [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang/Nping)
-{% endhint %}
 
 #### Usage
 
