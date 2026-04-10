@@ -6,7 +6,7 @@ icon: database
 
 ## Redis
 
-<figure><img src="../../../../.gitbook/assets/langfr-2560px-Redis_Logo.png" alt="" width="375"><figcaption></figcaption></figure>
+#### Installation
 
 ```bash
 sudo dnf install redis     		# Install redis cli and server
@@ -14,9 +14,7 @@ sudo systemctl start redis	 	# Initialize redis server
 sudo systemctl enable redis 	        # To start redis on boot, run
 ```
 
-{% hint style="info" %}
-Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](https://developer.fedoraproject.org/tech/database/redis/about.html)
-{% endhint %}
+{% embed url="https://developer.fedoraproject.org/tech/database/redis/about.html" %}
 
 #### Interface graphique pour Redis
 
@@ -27,8 +25,6 @@ Source : [https://developer.fedoraproject.org/tech/database/redis/about.html](ht
 ***
 
 ## PostgreSQL
-
-<figure><img src="../../../../.gitbook/assets/postgresql.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -45,11 +41,9 @@ sudo systemctl enable postgresql-15
 sudo systemctl start postgresql-15
 ```
 
-{% hint style="info" %}
-Source : [https://www.postgresql.org/download/linux/redhat/](https://www.postgresql.org/download/linux/redhat/)
-{% endhint %}
+{% embed url="https://www.postgresql.org/download/linux/redhat/" %}
 
-### Rccourcis utiles (cheatsheet)
+### Raccourcis utiles (cheatsheet)
 
 ```bash
 \q    # Quitter la base de donnée
@@ -75,9 +69,7 @@ Vous pouvez utiliser un opérateur (\*) afin de supprimer tous les paquets dont 
 sudo dnf remove postgres\*
 ```
 
-{% hint style="info" %}
-Source : [https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757](https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757)
-{% endhint %}
+{% embed url="https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757" %}
 
 ### PG-CLI
 
@@ -86,15 +78,13 @@ sudo yum install python-pip
 sudo pip install pgcli
 ```
 
-{% hint style="info" %}
-Source : [https://www.pgcli.com/install](https://www.pgcli.com/install)&#x20;
-{% endhint %}
+{% embed url="https://www.pgcli.com/install" %}
 
 ***
 
 ## MySQL
 
-<figure><img src="../../../../.gitbook/assets/mysql.png" alt="" width="375"><figcaption></figcaption></figure>
+{% embed url="https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/" %}
 
 ### **Installation**
 
@@ -146,15 +136,11 @@ sudo mysql -u root -p
 sudo dnf remove community-mysql-server
 ```
 
-{% hint style="info" %}
-Source : [https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/)
-{% endhint %}
-
 ***
 
 ## SQLite
 
-<figure><img src="../../../../.gitbook/assets/sqlite.png" alt="" width="250"><figcaption></figcaption></figure>
+{% embed url="https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/" %}
 
 Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
 
@@ -178,23 +164,19 @@ sqlite3 --version
 Si le message affiche `v3.36.0` ou autre version, vous pouvez continuer
 {% endhint %}
 
-{% hint style="info" %}
-Source : [https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/](https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/)
-{% endhint %}
-
 ***
 
 ## MongoDB
 
-<figure><img src="../../../../.gitbook/assets/MDB_BIG.png" alt="" width="375"><figcaption></figcaption></figure>
+{% embed url="https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand_article=1" %}
 
-### **Installation**
+#### **Installation**
 
 ```bash
 sudo dnf -y install mongodb-org
 ```
 
-### Vérifier la version
+#### Vérifier la version
 
 ```bash
 mongo --version
@@ -204,22 +186,18 @@ mongo --version
 Si le message affiche v4.4.4 ou autre version, vous pouvez continuer
 {% endhint %}
 
-### Commandes
+#### Commandes
 
 <pre class="language-bash"><code class="lang-bash">sudo systemctl start mongod.service  # Démarrre le service
 sudo systemctl enable mongod.service # Active le service
 <strong>sudo systemctl status mongod.service  # Vérifier l'état du service
 </strong></code></pre>
 
-{% hint style="info" %}
-Source : [https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand\_article=1](https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand_article=1)
-{% endhint %}
-
 ***
 
 ## S3cmd
 
-#### Description
+{% embed url="https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/" %}
 
 **S3cmd** est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le **protocole S3**, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
 
@@ -248,7 +226,3 @@ s3cmd del s3://tecadmin/file.txt         # Delete file from s3 bucket
 s3cmd del s3://tecadmin/backup           # Delete directory from s3 bucket
 s3cmd rb s3://sirchamallowc              # Rmove S3 Bucket
 ```
-
-{% hint style="info" %}
-Source : [https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/](https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/)
-{% endhint %}

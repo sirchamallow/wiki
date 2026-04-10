@@ -7,7 +7,7 @@ icon: globe-pointer
 
 ## Jekyll
 
-<figure><img src="../../../../.gitbook/assets/jekyll-og.png" alt="" width="375"><figcaption></figcaption></figure>
+{% embed url="https://developer.fedoraproject.org/start/sw/web-app/jekyll.html" %}
 
 #### Installation
 
@@ -19,19 +19,17 @@ cd my-site			# Navigate to new site
 jekyll serve			# Launch server (http://localhost:4000)
 ```
 
-{% hint style="info" %}
-Source : [https://developer.fedoraproject.org/start/sw/web-app/jekyll.html](https://developer.fedoraproject.org/start/sw/web-app/jekyll.html)
-{% endhint %}
-
 #### Hébergement
 
-{% content-ref url="../../../articles/markdown/" %}
-[markdown](../../../articles/markdown/)
+{% content-ref url="../../technologie/articles/markdown/" %}
+[markdown](../../technologie/articles/markdown/)
 {% endcontent-ref %}
+
+***
 
 ## Hugo
 
-<figure><img src="../../../../.gitbook/assets/hugo.png" alt="" width="323"><figcaption></figcaption></figure>
+{% embed url="https://developer.fedoraproject.org/start/sw/web-app/hugo.html" %}
 
 #### Installation
 
@@ -44,10 +42,6 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git
 hugo server			# Launch server
 ```
 
-{% hint style="info" %}
-Source : [https://developer.fedoraproject.org/start/sw/web-app/hugo.html](https://developer.fedoraproject.org/start/sw/web-app/hugo.html)
-{% endhint %}
-
 ### Thèmes
 
 Une sélection de liste de thèmes pour HUGO
@@ -55,15 +49,15 @@ Une sélection de liste de thèmes pour HUGO
 * Stack : [https://github.com/CaiJimmy/hugo-theme-stack/](https://github.com/CaiJimmy/hugo-theme-stack/)
 * Hextra : [https://imfing.github.io/hextra/](https://imfing.github.io/hextra/)
 
+***
+
 ## Flarum
 
-<figure><img src="../../../../.gitbook/assets/flarum-ar21.png" alt="" width="375"><figcaption></figcaption></figure>
+Flarum est une plateforme open-source conçue pour créer et gérer des forums communautaires
 
-Flarum est une plateforme opensource conçue pour créer et gérer des forums communautaires
+{% embed url="https://www.flarum.org" %}
 
-{% hint style="info" %}
-Site : [https://github.com/flarum](https://github.com/flarum/framework)
-{% endhint %}
+{% embed url="https://github.com/flarum/framework" %}
 
 #### Installation
 
@@ -71,7 +65,7 @@ Suivre les étapes ici : [https://docs.flarum.org/install](https://docs.flarum.o
 
 Si l'installation s'avère trop complexe, vous pouvez créer votre forum en quelques secondes sur [**Free Flarum**](https://www.freeflarum.com), un service communautaire (qui n'est pas affilié à l'équipe en chage de Flarum)
 
-### Themes
+#### Themes
 
 Une sélection de liste de thèmes pour Flarum
 
@@ -79,3 +73,11 @@ Une sélection de liste de thèmes pour Flarum
 * Asirem : [https://github.com/afrux/asirem](https://github.com/afrux/asirem)
 * Flarum-theme-fedora-fr : [https://github.com/Fedora-Fr/flarum-theme-fedora-fr](https://github.com/Fedora-Fr/flarum-theme-fedora-fr)
 * OXO theme : [https://github.com/yannisme/flarum-oxo-theme](https://github.com/yannisme/flarum-oxo-theme)
+
+***
+
+### Astro
+
+{% embed url="https://docs.astro.build/en/install-and-setup/" %}
+
+{% embed url="https://github.com/withastro/astro" %}

@@ -5,9 +5,11 @@ icon: git
 
 # Git
 
-####
-
 ## Git
+
+Logiciel de versionning
+
+{% embed url="https://git-scm.com/download/linux" %}
 
 #### Installation
 
@@ -36,10 +38,6 @@ git config --global help.autocorrect 1
 git config --global --unset help.autocorrect
 ```
 
-{% hint style="info" %}
-Source : [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
-{% endhint %}
-
 ***
 
 ## GitHub CLI
@@ -53,21 +51,15 @@ sudo dnf install gh
 sudo dnf update gh
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/cli/cli/blob/trunk/docs/install\_linux.md#fedora-centos-red-hat-enterprise-linux-dnf](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#fedora-centos-red-hat-enterprise-linux-dnf)
-{% endhint %}
+{% embed url="https://github.com/cli/cli/blob/trunk/docs/install_linux.md#fedora-centos-red-hat-enterprise-linux-dnf" %}
 
 ***
 
 ## Gac
 
-<figure><img src="../../../../.gitbook/assets/gac.svg" alt="" width="563"><figcaption></figcaption></figure>
-
 Un script permettant de faire une commande `git add -A && git commit -m "message"` plus rapidement :)
 
-{% hint style="info" %}
-Source : [https://github.com/devpolo/gac](https://github.com/devpolo/gac)
-{% endhint %}
+{% embed url="https://github.com/devpolo/gac" %}
 
 ### Commandes disponible
 

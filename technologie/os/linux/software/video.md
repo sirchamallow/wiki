@@ -7,10 +7,6 @@ icon: youtube
 
 ## VLC
 
-<figure><img src="../../../../.gitbook/assets/VLC-banner.jpg" alt="" width="375"><figcaption></figcaption></figure>
-
-#### Description
-
 VLC (VideoLAN Client) est un lecteur multimédia open source. \
 Il est capable de lire une large gamme de formats audio et vidéo, y compris les fichiers multimédias locaux, les flux réseau, les DVD, les CD audio, et même les flux de diffusion en continu.&#x20;
 
@@ -25,9 +21,7 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 sudo dnf install vlc
 ```
 
-{% hint style="info" %}
-Source : [https://www.videolan.org/vlc/download-fedora.html](https://www.videolan.org/vlc/download-fedora.html)
-{% endhint %}
+{% embed url="https://www.videolan.org/vlc/download-fedora.html" %}
 
 ### Télévision
 
@@ -44,6 +38,8 @@ Lancez VLC ou un lecteur vidéo capable de lire les fichiers M3U.\
 Puis faites **Fichier -> Ouvrir un flux réseau** et copiez collez simplement l’un des liens ci-dessous :
 
 ### Liste de chaînes
+
+{% embed url="https://github.com/iptv-org/iptv" %}
 
 #### Liste générale
 
@@ -81,10 +77,6 @@ https://iptv-org.github.io/iptv/index.country.m3u
 https://iptv-org.github.io/iptv/index.region.m3u
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/iptv-org/iptv](https://github.com/iptv-org/iptv)
-{% endhint %}
-
 ***
 
 ## YouTube-DL
@@ -95,6 +87,8 @@ Youtube-dl est un utilitaire en ligne de commande open source qui permet de tél
 
 L'outil est écrit en Python et fonctionne sur divers systèmes d'exploitation, notamment Windows, macOS et Linux. \
 L'utilisation de `youtube-dl` est relativement simple : vous fournissez l'URL de la vidéo que vous souhaitez télécharger en ligne de commande, et l'outil se charge du téléchargement en extrayant la vidéo dans le format disponible de la meilleure qualité possible.
+
+{% embed url="https://github.com/ytdl-org/youtube-dl" %}
 
 #### Installation
 
@@ -116,13 +110,7 @@ sudo pip install --upgrade youtube-dl    # Mise à jour
 sudo pip uninstall youtube-dl            # Désinstallation
 ```
 
-{% hint style="info" %}
-Source : [https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/](https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/)
-{% endhint %}
-
-{% hint style="success" %}
-Souce : [https://github.com/ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
-{% endhint %}
+{% embed url="https://lintut.com/install-youtube-dl-on-linux-and-how-to-use-it/" %}
 
 ***
 
@@ -140,37 +128,23 @@ Une interface graphique pour YouTube-DL
 flatpak install flathub io.github.JaGoLi.ytdl_gui
 ```
 
-{% hint style="success" %}
-Site internet : [https://flathub.org/apps/io.github.JaGoLi.ytdl\_gui](https://flathub.org/apps/io.github.JaGoLi.ytdl_gui)
-{% endhint %}
+{% embed url="https://flathub.org/apps/io.github.JaGoLi.ytdl_gui" %}
 
 ***
 
 ## Parabolic
 
-<figure><img src="../../../../.gitbook/assets/parabolic.png" alt="" width="563"><figcaption></figcaption></figure>
-
-#### Description
-
 Une interface graphique basé YouTube-DL
 
 #### Installation
 
-{% hint style="info" %}
-Source : [https://github.com/NickvisionApps/Parabolic](https://github.com/NickvisionApps/Parabolic)
-{% endhint %}
+{% embed url="https://github.com/NickvisionApps/Parabolic" %}
 
-{% hint style="success" %}
-Site Internet : [https://nickvision.org/parabolic.html](https://nickvision.org/parabolic.html)
-{% endhint %}
+{% embed url="https://nickvision.org/parabolic.html" %}
 
 ***
 
 ## OBS Studio
-
-<figure><img src="../../../../.gitbook/assets/hero.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
 
 OBS Studio (Open Broadcaster Software Studio), est un logiciel open source et gratuit conçu pour l'enregistrement vidéo et la diffusion en direct. Il offre des fonctionnalités avancées pour la capture de contenu à partir de différentes sources, telles que des webcams, des fenêtres d'application, des captures d'écran, des cartes de capture et plus encore.
 
@@ -181,13 +155,9 @@ sudo dnf install obs-studio       # OBS Studio
 sudo dnf install obs-studio-devel # OBS Studio’s development packages
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
-{% endhint %}
+{% embed url="https://github.com/obsproject/obs-studio" %}
 
-{% hint style="success" %}
-Site internet : [https://obsproject.com/fr](https://obsproject.com/fr)
-{% endhint %}
+{% embed url="https://obsproject.com/fr" %}
 
 ***
 
@@ -241,13 +211,9 @@ sudo firewall-cmd --reload
 
 Veillez à remplacer le numéro de port dans la balise par la valeur correcte pour chaque service. Après avoir généré les fichiers de service nécessaires, rechargez la configuration de FirewallD et ajoutez les services à votre zone de pare-feu active, comme illustré précédemment.
 
-{% hint style="info" %}
-Source : [https://github.com/xbmc](https://github.com/xbmc)
-{% endhint %}
+{% embed url="https://github.com/xbmc" %}
 
-{% hint style="success" %}
-Site internet : [https://kodi.tv/](https://kodi.tv/)
-{% endhint %}
+{% embed url="https://kodi.tv/" %}
 
 ### Extensions
 
@@ -308,18 +274,10 @@ N'oubliez pas de configurer IPTV Manager correctement et de sélectionner le bon
 
 ## GridPlayer
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran du 2024-01-08 17-37-12.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 Un outil qui permets de lire plusieurs flux vidéos dans la même fenêtre
+
+{% embed url="https://github.com/vzhd1701/gridplayer" %}
 
 #### Installation
 
-{% hint style="info" %}
-Installation : [https://github.com/vzhd1701/gridplayer#linux](https://github.com/vzhd1701/gridplayer#linux)
-{% endhint %}
-
-{% hint style="info" %}
-Source : [https://github.com/vzhd1701/gridplayer](https://github.com/vzhd1701/gridplayer)
-{% endhint %}
+{% embed url="https://github.com/vzhd1701/gridplayer#linux" %}

@@ -7,10 +7,6 @@ icon: box-open
 
 ## RPM Fusion
 
-<figure><img src="../../../../.gitbook/assets/rpm_fusion.png" alt="" width="250"><figcaption></figcaption></figure>
-
-#### Description
-
 RPM  est un système de gestion de paquets utilisés par certaines distributions GNU/Linux : CentOS, Fedora, OpenSuse, Mageia.&#x20;
 
 {% hint style="info" %}
@@ -18,10 +14,11 @@ Notes: un paquet RPM ne gère pas les dépendances.
 {% endhint %}
 
 Par défaut, les dépôts de Fedora ne contiennent pas tous les logiciels. \
-Il est ainsi parfois nécéssaire d'avoir de drivers propriétaires, autres codecs ou logiciels non libres.&#x20;
+Il est ainsi parfois nécessaire d'avoir de drivers propriétaires, autres codecs ou logiciels non libres.&#x20;
 
-Du coup, il faut passer par un dépôt qui disposent de plus de logiciels. [\
-RPM Fusion](https://rpmfusion.org) est un des ces dépôts incontournable.
+Du coup, il faut passer par un dépôt qui disposent de plus de logiciels. [RPM Fusion](https://rpmfusion.org) est un des ces dépôts incontournable.
+
+{% embed url="https://rpmfusion.org" %}
 
 ### Installation
 
@@ -46,9 +43,7 @@ Les dépôts RPM Fusion fournissent également des métadonnées [Appstream](htt
 sudo dnf groupupdate core
 ```
 
-{% hint style="info" %}
-Source : [https://rpmfusion.org/Configuration](https://rpmfusion.org/Configuration)
-{% endhint %}
+{% embed url="https://rpmfusion.org/Configuration" %}
 
 ### Cheatsheet
 
@@ -62,8 +57,6 @@ Source : [https://rpmfusion.org/Configuration](https://rpmfusion.org/Configurati
 
 ## Flatpak
 
-<figure><img src="https://fedoramagazine.org/wp-content/uploads/2018/03/flathub.png" alt="" width="375"><figcaption></figcaption></figure>
-
 **Flatpak** est un système de virtualisation d’application pour les distributions GNU/Linux de bureau.\
 Il fournit un environnement isolé du reste du système (_sandbox_), où l'utilisateur peut faire fonctionner des applications de manière sûre.  Les paquets logiciels flatpak **fonctionnant sur toutes les distributions linux** :clap:&#x20;
 
@@ -72,9 +65,9 @@ Certains ne sont même parfois disponibles que dans ce format.\
 \
 Bonne nouvelle, Flatpak est installé par défaut sur Fedora Workstation :)&#x20;
 
-{% hint style="success" %}
 Pour télécharger des applications, [rendez-vous sur **Flathub**](https://flathub.org/)
-{% endhint %}
+
+{% embed url="https://flathub.org/" %}
 
 #### Installation manuel
 
@@ -88,10 +81,6 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 
 ## Snap
 
-<figure><img src="https://assets.ubuntu.com/v1/4726d040-Snap+logo+white+bg.jpg" alt="" width="375"><figcaption></figcaption></figure>
-
-#### Description
-
 Le format _snap_ vise à permettre l'installation de nouvelles versions de logiciels dans les systèmes _Linux._ Celui-ci est propulsé par Canonical Ltd. qui est l'entreprise qui édite la distribution Ubuntu.
 
 #### Installation
@@ -100,9 +89,7 @@ Le format _snap_ vise à permettre l'installation de nouvelles versions de logic
 sudo dnf install snapd
 ```
 
-{% hint style="info" %}
-Source : [https://snapcraft.io/docs/installing-snap-on-fedora](https://snapcraft.io/docs/installing-snap-on-fedora)
-{% endhint %}
+{% embed url="https://snapcraft.io/docs/installing-snap-on-fedora" %}
 
 ### Exemple de commandes de base <a href="#exemple-de-commandes-de-base" id="exemple-de-commandes-de-base"></a>
 
@@ -137,9 +124,7 @@ chmod a+x Subsurface*.AppImage # Rendre votre AppImage éxécutable
 
 Pour cela, vous pouvez utiliser _AppImage Launcher_ et télécharger la dernière version disponible sur le repo GitHub. Notes, chercher ceux avec `.rpm` pour les systèmes basés sur Fedora.
 
-{% hint style="info" %}
-Source : [https://github.com/TheAssassin/AppImageLauncher/releases](https://github.com/TheAssassin/AppImageLauncher/releases)
-{% endhint %}
+{% embed url="https://github.com/TheAssassin/AppImageLauncher/releases" %}
 
 * Installez le paquet téléchargé à l'aide du gestionnaire de paquets de Fedora.&#x20;
 * exécutez ensuite `sudo dnf install appimagelauncher_<version>.rpm`&#x20;

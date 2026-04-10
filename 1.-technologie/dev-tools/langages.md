@@ -7,8 +7,6 @@ icon: python
 
 ## Python
 
-<figure><img src="../../../../.gitbook/assets/Python-Logo.png" alt="" width="188"><figcaption></figcaption></figure>
-
 ```bash
 sudo dnf install python3		# Installing Python 3
 sudo dnf install -y python2		# Installing Python 2
@@ -21,15 +19,11 @@ sudo alternatives --set python /usr/bin/python3 # To set Python3 as the default
 sudo alternatives --set python /usr/bin/python3 # To set Python2 as the default
 ```
 
-{% hint style="info" %}
-Source : [https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/](https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/)
-{% endhint %}
+{% embed url="https://citizix.com/how-to-install-python-2-and-python-3-on-fedora-35/" %}
 
 ***
 
 ## PHP
-
-<figure><img src="../../../../.gitbook/assets/php-server-integration-wysiwyg-html-editor-froala-10.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ```bash
 sudo dnf install php-cli			# PHP Installation
@@ -38,15 +32,11 @@ sudo dnf install php-mysqli			# PHP modules
 sudo php --server localhost:8080 --docroot  .	# PHP Development Server
 ```
 
-{% hint style="info" %}
-Source : [https://developer.fedoraproject.org/tech/languages/php/php-installation.html](https://developer.fedoraproject.org/tech/languages/php/php-installation.html)
-{% endhint %}
+{% embed url="https://developer.fedoraproject.org/tech/languages/php/php-installation.html" %}
 
 ***
 
 ## Rust
-
-<figure><img src="../../../../.gitbook/assets/rust-logo.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Rust
 
@@ -58,9 +48,7 @@ sudo dnf install rust cargo
 This will install the compiler (`rustc`), standard library, gdb support, documentation generator (`rustdoc`) and the package manager (`cargo`).
 {% endhint %}
 
-{% hint style="info" %}
-Source : [https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html](https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html)
-{% endhint %}
+{% embed url="https://developer.fedoraproject.org/techa/languages/rust/rust-installation.html" %}
 
 ### rustup
 
@@ -70,9 +58,7 @@ rustup est un installateur pour le langage de programmation Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-{% hint style="info" %}
-Source : [https://rustup.rs/](https://rustup.rs/)
-{% endhint %}
+{% embed url="https://rustup.rs/" %}
 
 ### rustlings
 
@@ -85,15 +71,11 @@ cd rustlings
 cargo install --force --path .
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/rust-lang/rustlings#manually](https://github.com/rust-lang/rustlings#manually)
-{% endhint %}
+{% embed url="https://github.com/rust-lang/rustlings#manually" %}
 
 ***
 
 ## Ruby
-
-<figure><img src="../../../../.gitbook/assets/Ruby-logo (1).png" alt="" width="270"><figcaption></figcaption></figure>
 
 #### Dépendances
 
@@ -176,8 +158,6 @@ La commande **`bundle`**&#x64;evrait être ensuite disponible sur votre système
 
 ### Ruby on Rails
 
-<figure><img src="../../../../.gitbook/assets/Ruby_On_Rails_Logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
-
 #### Description
 
 Rails est le framework du langage Ruby
@@ -203,7 +183,7 @@ Alternative : [https://github.com/rails/rails#getting-started](https://github.co
 
 ## Flutter
 
-<figure><img src="../../../../.gitbook/assets/Google-flutter-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Google-flutter-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Installation
 
@@ -212,15 +192,11 @@ sudo snap install flutter --classic	# Install Flutter using SnapStore
 flutter sdk-path			# Display your Flutter SDK path
 ```
 
-{% hint style="info" %}
-Source : [https://docs.flutter.dev/get-started/install/linux](https://docs.flutter.dev/get-started/install/linux)
-{% endhint %}
+{% embed url="https://docs.flutter.dev/get-started/install/linux" %}
 
 ***
 
 ## Node.JS
-
-<figure><img src="../../../../.gitbook/assets/2560px-Node.js_logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### NodeJS
 
@@ -271,14 +247,11 @@ command -v nvm
 En cas de réussite, `nvm` devrait afficher.
 {% endhint %}
 
-{% hint style="info" %}
-Sources : [https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html)\
-[https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
-{% endhint %}
+{% embed url="https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html" %}
+
+{% embed url="https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating" %}
 
 ### yarn
-
-<figure><img src="../../../../.gitbook/assets/yarn_image.png" alt="" width="188"><figcaption></figcaption></figure>
 
 Installons maintenant yarn, le gestionnaire de paquets pour installer des bibliothèques JavaScript.
 
@@ -298,8 +271,6 @@ Si le message affiche `v1.22.17` ou autre version, vous pouvez continuer
 
 ### npm
 
-<figure><img src="../../../../.gitbook/assets/Npm-logo.png" alt="" width="135"><figcaption></figcaption></figure>
-
 #### **Installation de modules NPM**
 
 Pour installer des modules supplémentaires à partir des dépôts Fedora :
@@ -309,7 +280,7 @@ sudo dnf install 'npm(module-name)'       # Method 1
 sudo dnf install nodejs-<module-name>     # Method 2
 ```
 
-Source : [https://developer.fedoraproject.org/tech/languages/nodejs/modules.html](https://developer.fedoraproject.org/tech/languages/nodejs/modules.html)
+{% embed url="https://developer.fedoraproject.org/tech/languages/nodejs/modules.html" %}
 
 #### **Installation global modules**
 
@@ -341,8 +312,6 @@ source ~/.profile
 
 ## JAVA
 
-<figure><img src="../../../../.gitbook/assets/Java.png" alt="" width="188"><figcaption></figcaption></figure>
-
 ### Gradle
 
 {% hint style="info" %}
@@ -355,9 +324,7 @@ source ~/.profile
 sdk install gradle 7.6
 ```
 
-{% hint style="info" %}
-Source : [https://gradle.org/install/](https://gradle.org/install/)
-{% endhint %}
+{% embed url="https://gradle.org/install/" %}
 
 ### SDKMAN!
 
@@ -378,6 +345,4 @@ sdk version
 Si le message affiche `v5.16.0` ou autre version, vous pouvez continuer
 {% endhint %}
 
-{% hint style="info" %}
-Source : [https://sdkman.io/install](https://sdkman.io/install)
-{% endhint %}
+{% embed url="https://sdkman.io/install" %}

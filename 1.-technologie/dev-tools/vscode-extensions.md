@@ -18,7 +18,7 @@ code --install-extension emmanuelbeziat.vscode-great-icons # VSCode Great Icons
 code --install-extension github.github-vscode-theme        # GitHub Theme
 code --install-extension Catppuccin.catppuccin-vsc         # Catppuccin Theme
 code --install-extension Catppuccin.catppuccin-vsc-icons   # Catppuccin icons
-code --install-extension dracula-theme.theme-dracula	   # Dracula Theme
+code --install-extension dracula-theme.theme-dracula	     # Dracula Theme
 code --install-extension mhutchie.git-graph                # Git Graph
 code --install-extension oderwat.indent-rainbow            # indent-rainbow
 code --install-extension tal7aouy.rainbow-bracket          # Rainbow Brackets
@@ -50,16 +50,10 @@ code --install-extension dbaeumer.vscode-eslint             # ESLint
 code --install-extension Postman.postman-for-vscode         # Postman
 code --install-extension Rubymaniac.vscode-paste-and-indent # Paste and Indent
 code --install-extension usernamehw.errorlens               # Error Lens
-code --install-extension jock.svg                           # SVG
-code --install-extension IronGeek.vscode-env                # ENV
 code --install-extension KnisterPeter.vscode-commitizen     # Commitizen
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 <strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL
-</strong>code --install-extension redhat.ansible                     # Ansible
-code --install-extension pnp.polacode                       # Polacode
-code --install-extension hediet.vscode-drawio               # Draw.io Integration
-code --install-extension CodeDiagram.codediagram            # Code Diagram
-code --install-extension AykutSarac.jsoncrack-vscode        # JSON Crack
+</strong>code --install-extension AykutSarac.jsoncrack-vscode        # JSON Crack
 
 ## Language Support
 code --install-extension rebornix.ruby               # Ruby
