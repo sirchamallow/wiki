@@ -129,9 +129,17 @@ Logiciel de compression
 
 ***
 
+## Proton
+
+### Proton Mail
+
+Client mail chiffré & open-source
+
+{% embed url="https://proton.me/mail/download" %}
+
 ### Proton Pass
 
-Gestionnaire de mot de passe
+Gestionnaire de mot de passe chiffré & open-source
 
 {% embed url="https://proton.me/pass/download" %}
 
@@ -139,7 +147,7 @@ Gestionnaire de mot de passe
 
 ### Proton VPN
 
-Logiciel de VPN
+Logiciel de VPN chiffré & open-source
 
 {% embed url="https://protonvpn.com/download" %}
 
@@ -147,11 +155,31 @@ Logiciel de VPN
 
 ### Proton Calendar
 
+Logiciel de calendrier chiffré & open-source
+
 {% embed url="https://proton.me/calendar/download" %}
 
 ***
 
+### Proton Meet
+
+Logiciel de vidéoconférence chiffré & open-source
+
+{% embed url="https://proton.me/meet/download" %}
+
+***
+
+### Proton Drive
+
+Logiciel de stockage chiffré & open-source
+
+{% embed url="https://proton.me/drive/download" %}
+
+***
+
 ### Standard Notes
+
+Logiciel de prise de notes chiffré & open-source
 
 {% embed url="https://github.com/standardnotes/app" %}
 
