@@ -19,6 +19,4 @@ L’outil de la team [codeinterview.io](https://codeinterview.io/) est en dével
 \
 Pour vos demandes de nouvelles fonctionnalités, il faudra vous rendre sur -> [cette page](https://remoteinterview.canny.io/recordscreenio-feature-request) <-.
 
-{% hint style="success" %}
-Site internet : [https://recordscreen.io/](https://recordscreen.io/)
-{% endhint %}
+{% embed url="https://recordscreen.io/" %}

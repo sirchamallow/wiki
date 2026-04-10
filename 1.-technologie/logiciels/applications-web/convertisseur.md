@@ -11,6 +11,8 @@ C’est un outil en ligne de commande ultra‑puissant, souvent appelé _le cout
 
 {% embed url="https://pandoc.org/app/" %}
 
+***
+
 ### Vert.sh
 
 Tout le traitement des images, des fichiers audio et des documents s'effectue sur votre appareil.\

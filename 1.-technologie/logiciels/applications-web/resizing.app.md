@@ -13,9 +13,10 @@ Il s’agit de **Resizing.app**, un site internet (qui dispose également d'une 
 
 Si vous utilisez un iPhone / iPad, l’extension est vraiment agréable pour faciliter la conversion des photos en .HEIC vers du PNG ou JPG (:
 
+{% embed url="https://resizing.app" %}
+
 **Liens**
 
-* Site : [https://resizing.app](https://resizing.app)
 * Mail : [help@resizing.app](mailto:help@resizing.app)
 * Changelog : [https://resizing.app/features](https://resizing.app/features)
 * Chrome Web Store : [https://chrome.google.com/webstore/detail/resizing-app/dkpiobpcinjhhemgobhjghkakdabddmg](https://chrome.google.com/webstore/detail/resizing-app/dkpiobpcinjhhemgobhjghkakdabddmg)

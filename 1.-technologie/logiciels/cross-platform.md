@@ -29,6 +29,8 @@ Certains sont gratuit et d'autres payants.
 
 ### Warp
 
+Terminal nouvelle génération
+
 {% embed url="https://www.warp.dev/download" %}
 
 #### Thème
@@ -38,6 +40,8 @@ Certains sont gratuit et d'autres payants.
 ***
 
 ### VScode
+
+IDE pour le dev
 
 {% embed url="https://code.visualstudio.com/Download" %}
 
@@ -53,11 +57,15 @@ Certains sont gratuit et d'autres payants.
 
 ### Ollama
 
+Utiliser des modèles LLM en local sur votre machine
+
 {% embed url="https://ollama.com/download" %}
 
 ***
 
 ### Libre Office
+
+Alternative open-source à Microsoft Office
 
 {% embed url="https://fr.libreoffice.org/download/telecharger-libreoffice/" %}
 
@@ -68,6 +76,8 @@ Certains sont gratuit et d'autres payants.
 ***
 
 ### OnlyOffice
+
+Alternative open-source à Microsoft Office + version cloud
 
 {% embed url="https://www.onlyoffice.com" %}
 
@@ -108,6 +118,8 @@ Le logiciel d'accès et de support à distance open-source rapide
 ***
 
 ### Firefox Developer Edition
+
+Navigateur web
 
 {% embed url="https://www.firefox.com/fr/download/all/" %}
 
@@ -187,11 +199,15 @@ Logiciel de prise de notes chiffré & open-source
 
 ### Feedbin
 
+Reader de Flux RSS simple
+
 {% embed url="https://feedbin.com/" %}
 
 ***
 
 ### Ente AUTH (MFA)
+
+Logiciel de gestion de 2FA avec extension dans navigateurs web
 
 {% embed url="https://ente.io/auth/" %}
 
@@ -199,10 +215,14 @@ Logiciel de prise de notes chiffré & open-source
 
 ### Ente Photos
 
+Alternative à Google Photos
+
 {% embed url="https://ente.io/fr/download" %}
 
 ***
 
 ### Flameshot
+
+Logiciel de capture d'écrans
 
 {% embed url="https://flameshot.org" %}

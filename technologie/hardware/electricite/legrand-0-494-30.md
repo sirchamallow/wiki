@@ -29,13 +29,9 @@ Il s'agit d'une multiprise avec parafoudre et interrupteur. Il à été conçu p
 * Tension d'alimentation : 220-230 V
 * EAN/Gencode : 3414971942820
 
-### Photos
+### Avis personnel
 
-
-
-### Avis personnel :&#x20;
-
-
+Super multiprise très discrète :)
 
 ### Ressources
 
