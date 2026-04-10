@@ -54,7 +54,7 @@
         * [Terminal](technologie/os/linux/software/terminal.md)
         * [Sécurité](technologie/os/linux/software/security.md)
       * [Jouer sur Linux](technologie/os/linux/videogames.md)
-      * [Ext. GNOME](technologie/os/linux/gnome-extensions.md)
+      * [GNOME Extensions](technologie/os/linux/gnome-extensions.md)
     * [MacOS (Apple)](technologie/os/macos/README.md)
       * [Astuces](technologie/os/macos/astuces.md)
       * [Logiciels](technologie/os/macos/logiciels.md)
