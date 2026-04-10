@@ -16,9 +16,7 @@ fish --version        # Check fish version
 gnome-shell --version # Check GNOME version
 ```
 
-{% hint style="info" %}
-Source : [https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html](https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html)
-{% endhint %}
+{% embed url="https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html" %}
 
 ### Changer le shell par défaut
 
@@ -33,15 +31,9 @@ chsh				    # change the shell for your user
 /bin/zsh			    # Example: change the shell Bash to ZSH
 ```
 
-{% hint style="info" %}
-Source : [https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html](https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html)
-{% endhint %}
+{% embed url="https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html" %}
 
 ### Remplacer Bash par Zsh&#x20;
-
-<figure><img src="../../../../.gitbook/assets/zshell.png" alt="" width="188"><figcaption><p>Zsh logo</p></figcaption></figure>
-
-#### **Description**
 
 **Zsh** (abréviation de **Z Shell**) est un programme shell riche en fonctionnalités pour les systèmes d'exploitation de type Unix (dont Linux est un dérivé) avec de nombreuses fonctionnalités.\
 Il s'agit d'une version étendue du **Bourne Shell (sh).** L'intérêt de _Zsh_ par rapport à la plupart des autres commandes cd, l'extension de chemin récursif et la correction orthographique et la sélection interactive de fichiers et de répertoires.
@@ -54,15 +46,11 @@ Zsh se trouvat dans les référentiels Fedora et peut être installé avec la co
 sudo dnf install zsh
 ```
 
-{% hint style="info" %}
-Source : [https://sourceforge.net/projects/zsh/files/](https://sourceforge.net/projects/zsh/files/)
-{% endhint %}
+{% embed url="https://sourceforge.net/projects/zsh/files/" %}
 
 ***
 
 ## Oh-My-ZSH (OMZ)
-
-<figure><img src="../../../../.gitbook/assets/omz.png" alt="" width="169"><figcaption><p>Oh my Zsh logo</p></figcaption></figure>
 
 **Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes et plugins (support de PHP, Python, PostgreSQL ...). Ci-dessous, sont présents ceux que j'utilise.&#x20;
 
@@ -79,9 +67,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 Une fois "Oh My Zsh" d'installé, il suffit de redémarrer ZSH pour prendre en compte les changements. (CTRL + D puis "zsh")
 
-{% hint style="info" %}
-Source : [https://www.it-connect.fr/passer-de-bash-a-zsh/](https://www.it-connect.fr/passer-de-bash-a-zsh/)
-{% endhint %}
+{% embed url="https://www.it-connect.fr/passer-de-bash-a-zsh/" %}
 
 #### Activer les mise à jour de Oh-My-ZSH
 
@@ -100,9 +86,7 @@ zstyle ':omz:update' mode auto	    # Activer mise à jour automatique
 zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/ohmyzsh/ohmyzsh#getting-updates](https://github.com/ohmyzsh/ohmyzsh#getting-updates)
-{% endhint %}
+{% embed url="https://github.com/ohmyzsh/ohmyzsh#getting-updates" %}
 
 ## Thèmes OMZ
 
@@ -184,9 +168,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 source ~/.zshrc
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/romkatv/powerlevel10k#oh-my-zsh](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
-{% endhint %}
+{% embed url="https://github.com/romkatv/powerlevel10k#oh-my-zsh" %}
 
 ### Plugins
 
@@ -226,21 +208,21 @@ plugins=(
 source ~/.zshrc
 ```
 
-{% hint style="info" %}
-Sources : [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) & [https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
-{% endhint %}
+{% embed url="https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md" %}
+
+{% embed url="https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md" %}
 
 ***
 
 ## Warp
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-02-27 at 12-57-52 Blog Warp.png" alt="" width="260"><figcaption></figcaption></figure>
-
-#### Description
-
 Warp est un émulateur de terminal écrit en **Rust**.\
 \
 Il se distingue par des fonctionnalités telles que Warp Drive pour le partage de commandes entre équipes, Warp AI pour les suggestions et l'assistance des commandes, ainsi qu'un IDE moderne avec une sélection de texte et un positionnement du curseur.
+
+{% embed url="https://www.warp.dev" %}
+
+{% embed url="https://github.com/warpdotdev/Warp" %}
 
 #### Installation
 
@@ -253,21 +235,9 @@ sudo dnf install ./.rpm
 
 L'installation du paquetage .rpm configurera automatiquement le dépôt yum de Warp. Lors de la première mise à jour, dnf récupérera la clé de signature nécessaire pour vérifier l'intégrité des paquets téléchargés.
 
-{% hint style="info" %}
-Source : [https://github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp)
-{% endhint %}
-
-{% hint style="success" %}
-Site web : [https://www.warp.dev](https://www.warp.dev)
-{% endhint %}
-
 ***
 
 ## TMUX
-
-<figure><img src="../../../../.gitbook/assets/Tmux_logo.png" alt="" width="188"><figcaption></figcaption></figure>
-
-#### **Description**
 
 **tmux** est un multiplexeur de terminaux libre en mode texte. Il permet d'utiliser plusieurs terminaux virtuels dans une seule fenêtre de terminal ou une session sur un terminal distant. tmux peut être détaché d'une session et continuer de fonctionner en arrière-plan, on peut également s'y rattacher plus tard. [Wikipédia](https://fr.wikipedia.org/wiki/Tmux)
 
@@ -277,9 +247,7 @@ Site web : [https://www.warp.dev](https://www.warp.dev)
 sudo dnf -y install tmux
 ```
 
-{% hint style="success" %}
-Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https://fedoramagazine.org/use-tmux-more-powerful-terminal/)
-{% endhint %}
+{% embed url="https://fedoramagazine.org/use-tmux-more-powerful-terminal/" %}
 
 ### Liste de raccourcis
 
@@ -291,23 +259,15 @@ Site web : [https://fedoramagazine.org/use-tmux-more-powerful-terminal/](https:/
 
 ### Cheatsheet
 
-{% hint style="info" %}
-Tmux Cheat Sheet : [https://tmuxcheatsheet.com](https://tmuxcheatsheet.com/)
-{% endhint %}
+{% embed url="https://tmuxcheatsheet.com/" %}
 
 ***
 
 ## Dog
 
-<figure><img src="../../../../.gitbook/assets/dog-screenshot.png" alt="" width="563"><figcaption><p>Dog screenshot</p></figcaption></figure>
-
-#### **Description**
-
 dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
 
-{% hint style="success" %}
-Site web : [https://github.com/ogham/dog](https://github.com/ogham/dog)&#x20;
-{% endhint %}
+{% embed url="https://github.com/ogham/dog" %}
 
 #### Installation
 
@@ -321,9 +281,7 @@ sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the f
 sudo snap install dog		      # Install dog
 ```
 
-{% hint style="info" %}
-Source : [https://snapcraft.io/install/dog/fedora](https://snapcraft.io/install/dog/fedora)
-{% endhint %}
+{% embed url="https://snapcraft.io/install/dog/fedora" %}
 
 #### Installation manuelle
 
@@ -388,17 +346,11 @@ Vérifier votre installation en identifiant la version de `dog` installer
 dog --version # checking the installed version of dog
 ```
 
-{% hint style="info" %}
-Source : [https://www.linode.com/docs/guides/use-dog-linux-dns-client/](https://www.linode.com/docs/guides/use-dog-linux-dns-client/)
-{% endhint %}
+{% embed url="https://www.linode.com/docs/guides/use-dog-linux-dns-client/" %}
 
 ***
 
 ## Cyberduck CLI
-
-<figure><img src="../../../../.gitbook/assets/cyberduck-logo.jpg" alt="" width="200"><figcaption></figcaption></figure>
-
-#### **Description**
 
 Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
 
@@ -409,15 +361,11 @@ echo -e "[duck-stable]\nname=duck-stable\nbaseurl=https://repo.cyberduck.io/stab
 sudo yum install duck
 ```
 
-{% hint style="info" %}
-Source & Site web : [https://duck.sh/](https://duck.sh/)
-{% endhint %}
+{% embed url="https://duck.sh/" %}
 
 ***
 
 ## **MTR (**_**My Traceroute**_**)**
-
-#### **Description**
 
 Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
 
@@ -427,21 +375,13 @@ Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions
 sudo dnf install mtr
 ```
 
-{% hint style="success" %}
-Source : [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-{% endhint %}
+{% embed url="https://github.com/traviscross/mtr" %}
 
-{% hint style="info" %}
-Site web : [https://www.bitwizard.nl/mtr](https://www.bitwizard.nl/mtr/)
-{% endhint %}
+{% embed url="https://www.bitwizard.nl/mtr/" %}
 
 ***
 
 ## VIM
-
-<figure><img src="../../../../.gitbook/assets/langfr-150px-Vimlogo.png" alt="" width="75"><figcaption></figcaption></figure>
-
-#### Description
 
 VIM permets de lire et d'éditer des fichiers depuis votre terminal.\
 Pas facile à prendre en main :D
@@ -452,13 +392,9 @@ Pas facile à prendre en main :D
 </strong><strong>sudo dnf install vim-X11    # VIM vith GUI features
 </strong></code></pre>
 
-{% hint style="info" %}
-Source : [https://fedoraproject.org/wiki/Vim](https://fedoraproject.org/wiki/Vim)
-{% endhint %}
+{% embed url="https://fedoraproject.org/wiki/Vim" %}
 
-{% hint style="success" %}
-Site web : [https://www.vim.org](https://www.vim.org/download.php)
-{% endhint %}
+{% embed url="https://www.vim.org/download.php" %}
 
 ### Liste de raccourcis
 
@@ -492,10 +428,6 @@ Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/
 
 ## GNU nano
 
-<figure><img src="../../../../.gitbook/assets/34b19b00-d414-11e9-9f56-68a14e111fa5.png" alt="" width="188"><figcaption></figcaption></figure>
-
-#### **Description**
-
 GNU nano permet de lire et d'éditer des fichiers depuis votre terminal mais de façon plus accessible que VIM.
 
 #### Installation
@@ -504,13 +436,9 @@ GNU nano permet de lire et d'éditer des fichiers depuis votre terminal mais de 
 sudo dnf install nano
 ```
 
-{% hint style="success" %}
-Source : [https://www.nano-editor.org/git.php](https://www.nano-editor.org/git.php)
-{% endhint %}
+{% embed url="https://www.nano-editor.org/git.php" %}
 
-{% hint style="info" %}
-Site web : [https://www.nano-editor.org/](https://www.nano-editor.org/)
-{% endhint %}
+{% embed url="https://www.nano-editor.org/" %}
 
 ### Liste de raccourcis
 
@@ -551,11 +479,11 @@ Pour sélectionner du texte, le copier et le coller :
 
 ## curl
 
-<figure><img src="../../../../.gitbook/assets/Curl-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
-
-#### Description
-
 cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
+
+{% embed url="https://curl.se/" %}
+
+{% embed url="https://github.com/curl/curl" %}
 
 #### Installation
 
@@ -563,23 +491,13 @@ cURL (_client URL request library_) est une [interface en ligne de commande](htt
 sudo dnf install curl
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/curl/curl](https://github.com/curl/curl)
-{% endhint %}
-
-{% hint style="success" %}
-Site web : [https://curl.se/](https://curl.se/)
-{% endhint %}
-
 ***
 
 ## Htop
 
-<figure><img src="../../../../.gitbook/assets/htop-logo.png" alt="" width="243"><figcaption></figcaption></figure>
-
-#### Description
-
 **htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
+
+{% embed url="https://htop.dev/downloads.html" %}
 
 **Installation**
 
@@ -587,28 +505,18 @@ Site web : [https://curl.se/](https://curl.se/)
 sudo dnf install htop
 ```
 
-{% hint style="info" %}
-Source : [https://htop.dev/downloads.html](https://htop.dev/downloads.html)
-{% endhint %}
-
 ***
 
 ## Btop++
 
-<div data-full-width="false"><figure><img src="../../../../.gitbook/assets/logo.png" alt="" width="88"><figcaption></figcaption></figure></div>
-
-#### Description
-
 Une alternative plus graphique à `top` ou `htop`
+
+{% embed url="https://github.com/aristocratos/btop?ref=itsfoss.com" %}
 
 #### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install btop
 </strong></code></pre>
-
-{% hint style="info" %}
-Source : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com)
-{% endhint %}
 
 {% hint style="success" %}
 Des thèmes sont également disponible : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com#themes)
@@ -618,13 +526,11 @@ Des thèmes sont également disponible : [https://github.com/aristocratos/btop](
 
 ## GPing
 
-<figure><img src="../../../../.gitbook/assets/readme-example.gif" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 Une alternative graphique et plus complète (multipe hosts par exemple) à la commande `ping`
 
 Après l'installation, lancer `gping` \<domaine.tld>
+
+{% embed url="https://github.com/orf/gping" %}
 
 #### Installation
 
@@ -632,19 +538,9 @@ Après l'installation, lancer `gping` \<domaine.tld>
 sudo dnf copr enable atim/gping -y && sudo dnf install gping
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/orf/gping](https://github.com/orf/gping)
-{% endhint %}
-
 ***
 
 ## EZA
-
-<figure><img src="../../../../.gitbook/assets/screenshots.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
-
-#### Description
 
 `eza` est une alternative moderne du programme de listage de fichiers `ls`. \
 Il utilise des couleurs pour distinguer les types de fichiers et les métadonnées. Il connaît les liens symboliques, les attributs étendus et Git ! Enfin, il est petit, rapide et ne comporte qu'un seul binaire :)
@@ -653,19 +549,15 @@ Après l'installation, lancer `eza` à la place de commande `ls`.
 
 Pour connaitre la liste complète des raccourcis, taper `eza --help`
 
+{% embed url="https://eza.rocks/" %}
+
 #### Installation
 
 ```bash
 sudo dnf install eza
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora](https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://eza.rocks](https://eza.rocks/)
-{% endhint %}
+{% embed url="https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora" %}
 
 ### Liste de raccourcis
 
@@ -694,13 +586,11 @@ eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-q
 
 ## Arsenal
 
-
-
-<figure><img src="../../../../.gitbook/assets/logo (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../../.gitbook/assets/arsenal.gif" alt=""><figcaption></figcaption></figure>
-
 Un outil pour créez un inventaire de vos commandes Linux favorites
+
+{% embed url="https://github.com/Orange-Cyberdefense/arsenal" %}
+
+#### Installation
 
 ```bash
 # Installation avec pip
@@ -719,19 +609,15 @@ python3 -m pip install -r requirements.txt
 arsenal               
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/Orange-Cyberdefense/arsenal](https://github.com/Orange-Cyberdefense/arsenal)
-{% endhint %}
-
 ***
 
 ## sshx
 
-<figure><img src="../../../../.gitbook/assets/68747470733a2f2f692e696d6775722e636f6d2f5133714b4148572e706e67.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 `sshx` est une solution pour partager votre terminal en expérience collaborative. Vous pourrez ainsi partager votre terminal aussi facilement qu’un document Google Docs, avec un simple lien.
+
+{% embed url="https://sshx.io/" %}
+
+{% embed url="https://github.com/ekzhang/sshx" %}
 
 #### Installation
 
@@ -739,23 +625,15 @@ Source : [https://github.com/Orange-Cyberdefense/arsenal](https://github.com/Ora
 curl -sSf https://sshx.io/get | sh
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://sshx.io/](https://sshx.io/)
-{% endhint %}
-
 ***
 
 ## SmokePing
 
-<figure><img src="../../../../.gitbook/assets/demo.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 **SmokePing** est un logiciel de surveillance réseau qui mesure et affiche graphiquement les temps de latence (temps de réponse) entre une machine et plusieurs autres cibles sur un réseau. Conçu par _Tobi Oetiker_, l'outil est libre et écrit en Perl.
+
+{% embed url="https://oss.oetiker.ch/smokeping/" %}
+
+{% embed url="https://github.com/oetiker/SmokePing" %}
 
 #### Installation
 
@@ -816,12 +694,4 @@ sudo systemctl restart smokeping
 * Ajoute/modifie les cibles dans `/etc/smokeping/config.d/Targets` pour surveiller d’autres machines ou serveurs.
 
 Tu devrais voir les graphiques générés par SmokePing après quelques minutes d’activité :)
-
-{% hint style="info" %}
-Source : [https://github.com/oetiker/SmokePing](https://github.com/oetiker/SmokePing)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://oss.oetiker.ch/smokeping/](https://oss.oetiker.ch/smokeping/)
-{% endhint %}
 

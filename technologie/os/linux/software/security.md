@@ -7,8 +7,6 @@ icon: shield-halved
 
 ## firewalld
 
-<figure><img src="../../../../.gitbook/assets/firewalld.png" alt=""><figcaption></figcaption></figure>
-
 firewalld est un pare-feu open-source
 
 {% code fullWidth="true" %}
@@ -57,8 +55,6 @@ Source : [https://launchpad.net/ufw](https://launchpad.net/ufw)
 ***
 
 ## ClamAV
-
-<figure><img src="../../../../.gitbook/assets/clamav.png" alt="" width="227"><figcaption></figcaption></figure>
 
 ClamAV est Antivirus open-source
 
@@ -157,9 +153,9 @@ Source : [https://github.com/dave-theunsub/clamtk](https://github.com/dave-theun
 
 ## Bitwarden
 
-<figure><img src="../../../../.gitbook/assets/Bitwarden_2022_Logo.png" alt="" width="375"><figcaption></figcaption></figure>
-
 Il existe plusieurs possiblités d'installer Bitwarden sur Fedora, je préfère vous sélectionner celles-ci (via Snap), car il sera possible de mettre à jour le soft régulièrement.&#x20;
+
+{% embed url="https://bitwarden.com/download/" %}
 
 #### Installation manuel
 
@@ -187,10 +183,6 @@ sudo dnf install snapd
 sudo snap install bitwarden
 ```
 
-{% hint style="success" %}
-Source : [https://bitwarden.com/download/](https://bitwarden.com/download/)
-{% endhint %}
-
 {% hint style="info" %}
 Il existe également une CLI pour Bitwarden, vous pouvez la télécharger depuis la page d'aide : [https://bitwarden.com/help/cli/](https://bitwarden.com/help/cli/)
 {% endhint %}
@@ -199,7 +191,7 @@ Il existe également une CLI pour Bitwarden, vous pouvez la télécharger depuis
 
 ## 1Password
 
-<figure><img src="../../../../.gitbook/assets/1password.jpg" alt="" width="375"><figcaption></figcaption></figure>
+{% embed url="https://1password.com/fr/downloads/linux/" %}
 
 Installation de 1Password en utilisant votre gestionnaire de paquets
 
@@ -219,35 +211,25 @@ Installation de 1Password en utilisant votre gestionnaire de paquets
      sudo dnf install 1password
     ```
 
-{% hint style="info" %}
-Source : [https://1password.com/fr/downloads/linux/](https://1password.com/fr/downloads/linux/)
-{% endhint %}
-
 ***
 
 ## Sniffnet
-
-<figure><img src="../../../../.gitbook/assets/overview_page.png" alt="" width="375"><figcaption></figcaption></figure>
-
-#### Description
 
 Sniffnet est un outil technique open-source qui se concentre fortement sur l'ensemble de l'expérience de l'utilisateur. La plupart des analyseurs de réseau sont encombrants à utiliser, tandis que l'une des pierres angulaires de Sniffnet est d'être utilisable avec facilité par tout le monde.
 
 #### Installation
 
-{% hint style="success" %}
-Site internet : [https://sniffnet.net/download/](https://sniffnet.net/download/)
-{% endhint %}
+{% embed url="https://sniffnet.net/download/" %}
 
 ***
 
 ## CVEmap
 
-<figure><img src="../../../../.gitbook/assets/cvemap.png" alt=""><figcaption></figcaption></figure>
-
 Un outil d'interface de ligne de commande (CLI) conçu pour fournir une interface structurée et facilement navigable à diverses bases de données de vulnérabilité (CVE)
 
 Notes : pratique pour les amoureux du terminal. Pour les autres, vous avez aussi [CVEdetails](https://www.cvedetails.com/) qui est une bonne référence en la matière
+
+{% embed url="https://github.com/projectdiscovery/cvemap" %}
 
 #### Installation
 
@@ -262,7 +244,3 @@ sudo dnf install golang
 ## Installer CVEmap
 sudo go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
 ```
-
-{% hint style="success" %}
-Site : [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
-{% endhint %}

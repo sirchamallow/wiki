@@ -7,11 +7,11 @@ icon: screwdriver-wrench
 
 ## CPU-X
 
-<figure><img src="../../../../.gitbook/assets/CPU-X_192x192.png" alt="" width="96"><figcaption></figcaption></figure>
-
-#### Description
-
 Il s'agit d'un **logiciel gratuit qui recueille des informations sur le processeur, la carte mère etc.** CPU-X est similaire à [CPU-Z](https://es.wikipedia.org/wiki/CPU-Z) (_Windows_), à la différence que celui-ci est un logiciel libre et open source conçu pour GNU / Linux.
+
+{% embed url="https://thetumultuousunicornofdarkness.github.io/CPU-X/" %}
+
+{% embed url="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X" %}
 
 #### Installation
 
@@ -19,23 +19,13 @@ Il s'agit d'un **logiciel gratuit qui recueille des informations sur le processe
 sudo dnf install cpu-x
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/TheTumultuousUnicornOfDarkness/CPU-X](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://thetumultuousunicornofdarkness.github.io/CPU-X/](https://thetumultuousunicornofdarkness.github.io/CPU-X/)
-{% endhint %}
-
 ***
 
 ## DUF
 
-<figure><img src="../../../../.gitbook/assets/duf.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 DUF est un utilitaire en ligne de commande qui permet d’afficher l’espace disque disponible sur Linux et Windows dans un terminal. C'est une alternative améliorée à la commande de base `df`
+
+{% embed url="https://github.com/muesli/duf" %}
 
 #### Installation
 
@@ -81,17 +71,9 @@ Maintenant que duf est installé, vous pouvez l'utiliser pour vérifier l'utilis
 duf
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/muesli/duf](https://github.com/muesli/duf)
-{% endhint %}
-
 ***
 
 ## P7zip
-
-<figure><img src="../../../../.gitbook/assets/7ziplogo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
-
-#### Description
 
 [p7zip](http://p7zip.sourceforge.net/) est un portage de [7-Zip](http://www.7-zip.org/) pour les systèmes [POSIX](http://fr.wikipedia.org/wiki/POSIX) incluant GNU/Linux. \
 Il permet entre autres d'extraire les archives ZIP, GZIP, TAR, GZIP, DEB et RPM.
@@ -102,9 +84,7 @@ Il permet entre autres d'extraire les archives ZIP, GZIP, TAR, GZIP, DEB et RPM.
 sudo dnf install p7zip
 ```
 
-{% hint style="info" %}
-Les sources linux de 7zip sont disponible ici : [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
-{% endhint %}
+{% embed url="https://www.7-zip.org/download.html" %}
 
 ***
 
@@ -123,9 +103,7 @@ Il est multi-plateforme (Linux, Windows, Mac OS X) et simple d'utilisation. Il m
 su -c "yum install gparted"
 ```
 
-{% hint style="info" %}
-Source : [https://gparted.org/download.php](https://gparted.org/download.php)
-{% endhint %}
+{% embed url="https://gparted.org/download.php" %}
 
 ***
 
@@ -153,19 +131,17 @@ Ensuite, procéder à l'installation
 sudo dnf -y install gpaste
 ```
 
-{% hint style="info" %}
-Source : [https://installati.one/fedora/34/gpaste/](https://installati.one/fedora/34/gpaste/)
-{% endhint %}
+{% embed url="https://installati.one/fedora/34/gpaste/" %}
 
 ***
 
 ## KolourPaint
 
-<figure><img src="../../../../.gitbook/assets/logo_final2.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 KolourPaint est logiciel de dessin simple qui permet de créer rapidement des images. Il est pratique pour retoucher ou modifier simplement des images.
+
+{% embed url="https://www.kolourpaint.org/" %}
+
+{% embed url="https://apps.kde.org/fr/kolourpaint/" %}
 
 #### Installation via Flatpak
 
@@ -188,38 +164,24 @@ sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install kolourpaint
 ```
 
-{% hint style="info" %}
-Source : [https://apps.kde.org/fr/kolourpaint/](https://apps.kde.org/fr/kolourpaint/)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://www.kolourpaint.org/](https://www.kolourpaint.org/)
-{% endhint %}
-
 ***
 
 ## FileZilla
-
-<figure><img src="../../../../.gitbook/assets/filezilla-tutorial-pdf.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 Il s'agit d'un client FTP, FTPS et SFTP, développé sous la licence publique générale GNU.
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install filezilla
 </strong></code></pre>
 
-{% hint style="info" %}
-Source : [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php?show_all=1)
-{% endhint %}
+{% embed url="https://filezilla-project.org/download.php" %}
 
 ***
 
 ## VirtualBox
 
-<figure><img src="../../../../.gitbook/assets/virtualbox.svg" alt="" width="375"><figcaption></figcaption></figure>
-
-#### Description
-
 Édité et distribué gratuitement pour une utilisation personnelle par _Oracle_, VirtualBox est un **hyperviseur type 2** permettant de créer une machine virtuelle en quelques clics.
+
+{% embed url="https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/" %}
 
 #### Installation
 
@@ -263,135 +225,66 @@ uid=1000(jmutai) gid=1000(jmutai) groups=1000(jmutai),10(wheel),976(vboxusers)
 virtualbox
 ```
 
-{% hint style="info" %}
-Source : [https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/](https://computingforgeeks.com/how-to-install-virtualbox-on-fedora-linux/)
-{% endhint %}
-
 ***
 
 ## Bleachbit
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran du 2024-01-09 15-54-04.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 Un utilitaire open-source pour libérer le cache, supprimer les cookies, effacer l'historique d'Internet, déchiqueter des fichiers temporaires, supprimer des journaux etc. \
 Disponible sur Linux et Windows.
 
-#### Téléchargement
-
-{% hint style="success" %}
-Site internet : [https://www.bleachbit.org/download](https://www.bleachbit.org/download)
-{% endhint %}
+{% embed url="https://www.bleachbit.org/download" %}
 
 ***
 
 ## Stacer
 
-<figure><img src="../../../../.gitbook/assets/header.png" alt="" width="375"><figcaption></figcaption></figure>
-
-#### Description
-
 Un utilitaire d'optimisation et de monitoring graphique open-source pour Linux sou la forme d'un tableau de bord. Il sera par exemple possible de voir la charge en mémoire, CPU, disque et réseau mais également de gérer les applications et les processus qui se lancent au démarrage, de faire un peu de ménage dans vos logs et fichiers temporaires (cache, corbeille).
 
 #### Téléchargement
 
-{% hint style="success" %}
-Site internet : [https://github.com/oguzhaninan/Stacer/releases](https://github.com/oguzhaninan/Stacer/releases)
-{% endhint %}
-
-***
-
-## AnyDesk
-
-<figure><img src="../../../../.gitbook/assets/anydesk-logo-c0861c.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
-Un Teamviewer like open-source propulsé en C++
-
-#### Installation
-
-```bash
-sudo cat > /etc/yum.repos.d/AnyDesk-Fedora.repo << "EOF" 
-[anydesk]
-name=AnyDesk Fedora - stable
-baseurl=http://rpm.anydesk.com/fedora/$basearch/
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://keys.anydesk.com/repos/RPM-GPG-KEY
-EOF
-
-sudo dnf install anydesk
-```
-
-{% hint style="info" %}
-Source : [http://rpm.anydesk.com/howto.html](http://rpm.anydesk.com/howto.html)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [http://www.anydesk.com](http://www.anydesk.com)
-{% endhint %}
+{% embed url="https://github.com/oguzhaninan/Stacer/releases" %}
 
 ***
 
 ## RustDesk
-
-<figure><img src="../../../../.gitbook/assets/rustdesk.png" alt="" width="234"><figcaption></figcaption></figure>
 
 Un logiciel de contrôle de bureau à distance, écrit en Rust. Fonctionne sans configuration. \
 Vous avez le contrôle de vos données, sans se soucier de la sécurité. \
 \
 Il est possible d'utiliser un serveur relais mis à disposition par rustdesk, de l'auto-heberger avec le serveur de démonstration ou d'écrire votre propre serveur relais.
 
+{% embed url="https://rustdesk.com/fr/" %}
+
 #### Installation
-
-
 
 ```html
 Installation avec le paquet RPM : https://github.com/rustdesk/rustdesk/releases > Fedora
 ```
 
-{% hint style="info" %}
-Source :  [https://github.com/rustdesk](https://github.com/rustdesk/rustdesk/releases)
-{% endhint %}
-
-{% hint style="success" %}
-Site : [https://rustdesk.com/fr](https://rustdesk.com/fr/)
-{% endhint %}
+{% embed url="https://github.com/rustdesk/rustdesk/releases" %}
 
 ***
 
 ## CopyQ
 
-<figure><img src="../../../../.gitbook/assets/copyq-menu.webp" alt="" width="257"><figcaption></figcaption></figure>
-
-#### Description
-
 CopyQ est un gestionnaire de presse-papiers avancé avec de puissantes fonctionnalités d'édition et de script.
+
+{% embed url="https://copyq.readthedocs.io/en/latest/build-source-code.html" %}
 
 #### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install copyq
 </strong></code></pre>
 
-{% hint style="info" %}
-Source : [https://copyq.readthedocs.io/en/latest/build-source-code.html](https://copyq.readthedocs.io/en/latest/build-source-code.html)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
-{% endhint %}
+{% embed url="https://github.com/hluk/CopyQ" %}
 
 ***
 
 ## Solaar
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran du 2024-01-05 11-22-34.png" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 Un utilitaire open-source avec une interface graphique pour gérer les périphériques de marques Logitech utilisant un dongle usb [Unifying](https://en.wikipedia.org/wiki/Logitech_Unifying_receiver), Bolt, Lightspeed, ou Nano; ou en connexion directe via un câble USB cable; ou encore par connexion Bluetooth.
+
+{% embed url="https://pwr-solaar.github.io/Solaar/" %}
 
 #### Installation&#x20;
 
@@ -399,21 +292,11 @@ Un utilitaire open-source avec une interface graphique pour gérer les périphé
 sudo dnf install solaar
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/pwr-Solaar/Solaar](https://github.com/pwr-Solaar/Solaar)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://pwr-solaar.github.io/Solaar/](https://pwr-solaar.github.io/Solaar/)
-{% endhint %}
+{% embed url="https://github.com/pwr-Solaar/Solaar" %}
 
 ***
 
 ## Catfish
-
-<figure><img src="../../../../.gitbook/assets/catfish.png" alt="" width="168"><figcaption></figcaption></figure>
-
-#### Description
 
 Le logiciel Catfish sur Linux est un outil de recherche de fichiers.\
 \
@@ -421,42 +304,28 @@ C'est une application légère et simple qui vous permet de raffiner votre reche
 \
 De plus, il offre la possibilité de rechercher dans des fichiers compressés (.zip, .odt et .docx) et dans les fichiers cachés.
 
+{% embed url="https://git.xfce.org/apps/catfish/about/" %}
+
+{% embed url="https://gitlab.xfce.org/apps/catfish" %}
+
 #### Installation&#x20;
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install catfish
 </strong></code></pre>
 
-{% hint style="info" %}
-Source : [https://gitlab.xfce.org/apps/catfish](https://gitlab.xfce.org/apps/catfish)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet : [https://git.xfce.org/apps/catfish/about/](https://git.xfce.org/apps/catfish/about/)
-{% endhint %}
-
 ***
 
 ## WoeUSB-ng
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="256"><figcaption></figcaption></figure>
-
-#### Description
-
 Un outil permettant de créer votre propre clé usb à partir d'une image iso ou d'un vrai DVD. \
 Il s'agit d'une réécriture de WoeUSB original.
+
+{% embed url="https://github.com/WoeUSB/WoeUSB-ng" %}
 
 #### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo pip3 install WoeUSB-ng
 </strong></code></pre>
-
-{% hint style="info" %}
-Source : [https://github.com/WoeUSB/WoeUSB-ng](https://github.com/WoeUSB/WoeUSB-ng)
-{% endhint %}
-
-{% hint style="success" %}
-Site internet :&#x20;
-{% endhint %}
 
 ***
 
@@ -466,33 +335,22 @@ Site internet :&#x20;
 
 **Fastfetch** est un utilitaire en ligne de commande conçu pour afficher rapidement et efficacement des informations système de base sur votre terminal. Développé en C, il est plus léger et rapide que des alternatives comme **neofetch** ou **screenfetch**
 
+{% embed url="https://github.com/fastfetch-cli/fastfetch" %}
+
 #### Installation
 
 ```bash
 sudo dnf install fastfetch
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-{% endhint %}
-
 ***
 
 ## SquirrelDisk
 
-<figure><img src="../../../../.gitbook/assets/squirrel-demo-2.gif" alt=""><figcaption></figcaption></figure>
-
-#### Description
-
 **SquirrelDisk** est une alternative à la référence DAISYDISK, mais cette fois-ci, gratuit et disponible sur Windows, Linux et MacOS. En un clic, l'outil permet de localiser facilement les fichiers volumineux qui occupent inutilement de l’espace
+
+{% embed url="https://www.squirreldisk.com/" %}
 
 #### Installation
 
-{% hint style="info" %}
-Source : [https://github.com/adileo/squirreldisk](https://github.com/adileo/squirreldisk)
-{% endhint %}
-
-{% hint style="success" %}
-Site : [https://www.squirreldisk.com](https://www.squirreldisk.com/)
-{% endhint %}
-
+{% embed url="https://github.com/adileo/squirreldisk" %}
