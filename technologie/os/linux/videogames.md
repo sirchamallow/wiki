@@ -5,6 +5,14 @@ icon: gamepad-modern
 
 # Jouer sur Linux
 
+## Wine
+
+Wiki/Tutoriel pour installer proprement Wine sur Linux et pouvoir jouer à 90% des jeux Windows.
+
+{% embed url="https://sebsauvage.net/wiki/doku.php?id=wine" %}
+
+***
+
 ## Lutris
 
 ####
