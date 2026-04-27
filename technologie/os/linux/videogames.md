@@ -15,12 +15,6 @@ Wiki/Tutoriel pour installer proprement Wine sur Linux et pouvoir jouer à 90% d
 
 ## Lutris
 
-####
-
-<figure><img src="../../../.gitbook/assets/Lutris_Game_Platform_(Logo).png" alt="" width="188"><figcaption></figcaption></figure>
-
-#### Description
-
 Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les systèmes d'exploitation basés sur Linux développé et maintenu par Mathieu Comandon et la communauté.&#x20;
 
 Lutris vous donnera accès à l’ensemble de vos jeux vidéo, ou tout du moins ceux accessibles sur PC. Grâce à une interface unique, vous pouvez installer et lancer n’importe quel jeu disponible dans vos librairies **Steam**, **Epic Games** ou **GOG** par exemple.
@@ -38,8 +32,6 @@ Source : [https://lutris.net/downloads](https://lutris.net/downloads)
 ***
 
 ## OpenRCT2
-
-<figure><img src="../../../.gitbook/assets/OpenRCT2-Game-Logo.png" alt=""><figcaption></figcaption></figure>
 
 OpenRCT2 est un jeu vidéo de simulation de construction et de gestion qui simule la gestion d'un parc d'attractions. Il s'agit d'une réimplémentation et d'une extension gratuites et open-source du jeu vidéo **RollerCoaster Tycoon 2** de 2002.
 
@@ -79,8 +71,6 @@ Source : [https://openrct2.org/quickstart/install/linux/fedora](https://openrct2
 ***
 
 ## OpenTTD
-
-<figure><img src="../../../.gitbook/assets/openttd.jpg" alt=""><figcaption></figcaption></figure>
 
 **OpenTTD** est un jeu vidéo de « gestion et planification urbanistique » dans lequel le joueur a pour but de gagner de l'argent par transport de passagers et du fret sur route, rail, eau et dans l'air. Il est une réécriture libre du jeu original Transport Tycoon Deluxe de Chris Sawyer, sorti en 1995. [Wikipédia](https://fr.wikipedia.org/wiki/OpenTTD)
 
