@@ -13,11 +13,15 @@ Wiki/Tutoriel pour installer proprement Wine sur Linux et pouvoir jouer à 90% d
 
 ***
 
+### ProtonDB
+
+Pour vérifier la compatibilité d’un jeu sur Linux avant de l’acheter, le site [ProtonDB](https://www.protondb.com/) recense les retours de la communauté sur des milliers de titres et reste une référence incontournable.
+
+{% embed url="https://www.protondb.com" %}
+
 ## Lutris
 
-Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les systèmes d'exploitation basés sur Linux développé et maintenu par Mathieu Comandon et la communauté.&#x20;
-
-Lutris vous donnera accès à l’ensemble de vos jeux vidéo, ou tout du moins ceux accessibles sur PC. Grâce à une interface unique, vous pouvez installer et lancer n’importe quel jeu disponible dans vos librairies **Steam**, **Epic Games** ou **GOG** par exemple.
+Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les systèmes d'exploitation basés sur Linux développé et maintenu par Mathieu Comandon et la communauté. Il vous donnera accès à l’ensemble de vos jeux vidéo, ou tout du moins ceux accessibles sur PC. Grâce à une interface unique, vous pouvez installer et lancer n’importe quel jeu disponible dans vos librairies **Steam**, **Epic Games** ou **GOG** par exemple.
 
 #### Installation
 
