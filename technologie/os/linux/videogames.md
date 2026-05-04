@@ -13,15 +13,19 @@ Wiki/Tutoriel pour installer proprement Wine sur Linux et pouvoir jouer à 90% d
 
 ***
 
-### ProtonDB
+## ProtonDB
 
 Pour vérifier la compatibilité d’un jeu sur Linux avant de l’acheter, le site [ProtonDB](https://www.protondb.com/) recense les retours de la communauté sur des milliers de titres et reste une référence incontournable.
 
 {% embed url="https://www.protondb.com" %}
 
+***
+
 ## Lutris
 
 Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les systèmes d'exploitation basés sur Linux développé et maintenu par Mathieu Comandon et la communauté. Il vous donnera accès à l’ensemble de vos jeux vidéo, ou tout du moins ceux accessibles sur PC. Grâce à une interface unique, vous pouvez installer et lancer n’importe quel jeu disponible dans vos librairies **Steam**, **Epic Games** ou **GOG** par exemple.
+
+{% embed url="https://lutris.net/downloads" %}
 
 #### Installation
 
@@ -29,13 +33,21 @@ Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les
 sudo dnf install lutris
 ```
 
-{% hint style="info" %}
-Source : [https://lutris.net/downloads](https://lutris.net/downloads)
-{% endhint %}
+## Cloud-Gaming
+
+### Xbox Cloud Gaming
+
+{% embed url="https://www.xbox.com/fr-FR/play" %}
+
+### GeForce Now
+
+{% embed url="https://www.nvidia.com/fr-fr/geforce-now/download/" %}
 
 ***
 
-## OpenRCT2
+## Jeux
+
+### OpenRCT2
 
 OpenRCT2 est un jeu vidéo de simulation de construction et de gestion qui simule la gestion d'un parc d'attractions. Il s'agit d'une réimplémentation et d'une extension gratuites et open-source du jeu vidéo **RollerCoaster Tycoon 2** de 2002.
 
@@ -74,7 +86,7 @@ Source : [https://openrct2.org/quickstart/install/linux/fedora](https://openrct2
 
 ***
 
-## OpenTTD
+### OpenTTD
 
 **OpenTTD** est un jeu vidéo de « gestion et planification urbanistique » dans lequel le joueur a pour but de gagner de l'argent par transport de passagers et du fret sur route, rail, eau et dans l'air. Il est une réécriture libre du jeu original Transport Tycoon Deluxe de Chris Sawyer, sorti en 1995. [Wikipédia](https://fr.wikipedia.org/wiki/OpenTTD)
 
