@@ -73,6 +73,14 @@ Alternative open-source à Microsoft Office
 
 {% embed url="https://github.com/catppuccin/libreoffice" %}
 
+_**Astuces**_
+
+Activer / désactiver le correcteur orthographique en temps réel (soulignement rouge)
+
+* Cliquer sur : **Outils → Options**
+* Dans le menu de gauche : **Paramètres linguistiques → Aides à la rédaction**
+* Dans la section **Options** : Active ou désactive : ✅ « Vérifier l’orthographe pendant la frappe »
+
 ***
 
 ### OnlyOffice
