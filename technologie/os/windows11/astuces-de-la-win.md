@@ -250,3 +250,21 @@ Listing des mise à jour, KB etc. Possible de les télécharger manuellement à 
 * Windows 10 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2010](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2010)
 * Windows 8 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%208](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%208https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%208)
 * Windows 7 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%207](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%207https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%207)
+
+***
+
+### Désactiver réseau (mode avion)
+
+#### Désactiver le service radio
+
+```powershell
+sc config RmSvc start= disabled # Modifie la configuration du service "RmSvc" pour qu’il soit désactivé (ne démarre plus) → coupe les radios (Wi‑Fi, Bluetooth)
+net stop RmSvc # Arrête immédiatement le service "RmSvc" en cours d’exécution → applique tout de suite le mode avion
+```
+
+#### Réactiver le service radio
+
+```powershell
+sc config RmSvc start= auto # Configure le service "RmSvc" pour qu’il démarre automatiquement → permet de réactiver les radios (Wi‑Fi, Bluetooth) au démarrage
+net start RmSvc # Démarre immédiatement le service "RmSvc" → réactive tout de suite le réseau (sort du mode avion)
+```
