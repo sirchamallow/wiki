@@ -2,7 +2,7 @@
 icon: lightbulb-exclamation-on
 ---
 
-# Astuces de la Win
+# Astuces
 
 ### Commandes de bases
 
