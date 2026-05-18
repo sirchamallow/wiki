@@ -63,7 +63,7 @@
       * [Divers](technologie/os/macos/divers.md)
     * [Windows 10/11](technologie/os/windows11/README.md)
       * [Active Directory](technologie/os/windows11/active-directory.md)
-      * [Astuces de la Win](technologie/os/windows11/astuces-de-la-win.md)
+      * [Astuces](1.-technologie/os/windows11/astuces.md)
       * [Chocolatey](1.-technologie/os/windows11/chocolatey.md)
       * [Powershell](technologie/os/windows11/powershell.md)
       * [Utilitaires](technologie/os/windows11/utilitaires.md)
