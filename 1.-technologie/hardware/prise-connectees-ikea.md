@@ -1,8 +1,9 @@
 ---
 description: GRILLPLATS (IKEA)
+icon: plug-circle-bolt
 ---
 
-# Prise connectées GRILLPLATS (IKEA)
+# Prise connectées (IKEA)
 
 Ce produit est certifié Matter, il est compatible avec le&#x20;système IKEA Home smart ou tout autre système qui fonctionne&#x20;avec le protocole Matter
 

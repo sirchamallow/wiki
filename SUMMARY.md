@@ -14,7 +14,7 @@
   * [Hardware](technologie/hardware/README.md)
     * [Electricité](technologie/hardware/electricite/README.md)
       * [Legrand 0 494 30](technologie/hardware/electricite/legrand-0-494-30.md)
-    * [Prise connectées GRILLPLATS (IKEA)](1.-technologie/hardware/prise-connectees-grillplats-ikea.md)
+    * [Prise connectées (IKEA)](1.-technologie/hardware/prise-connectees-ikea.md)
     * [High-Tech](technologie/hardware/informatique/README.md)
       * [Alimentation électriques](technologie/hardware/informatique/alimentation-electriques.md)
       * [Câble USB-C](1.-technologie/hardware/informatique/cable-usb-c.md)
