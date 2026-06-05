@@ -32,7 +32,7 @@ Quelques avantages à utiliser le téléchagement/installation de logiciels depu
 
 {% embed url="https://apps.microsoft.com/detail/xpffxw40w60kcf?" %}
 
-Messagerie
+### Messagerie
 
 {% embed url="https://apps.microsoft.com/detail/9wzdncrdk3wp" %}
 
@@ -42,7 +42,7 @@ Messagerie
 
 {% embed url="https://apps.microsoft.com/detail/9nksqgp7f2nh" %}
 
-Streaming
+### Streaming
 
 {% embed url="https://apps.microsoft.com/detail/9WZDNCRFJ3TJ" %}
 
@@ -65,5 +65,7 @@ Streaming
 ### Musique
 
 {% embed url="https://apps.microsoft.com/detail/9pfhdd62mxs1?hl=fr-FR&gl=FR" %}
+
+{% embed url="https://apps.microsoft.com/detail/9NCBCSZSJRSB" %}
 
 {% embed url="https://apps.microsoft.com/detail/9NMS233VM4Z9" %}
