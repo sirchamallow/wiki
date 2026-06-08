@@ -1,5 +1,23 @@
 ---
 icon: gear
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Logiciels
@@ -319,3 +337,11 @@ Une application légère et gratuite pour la barre de menus qui vous offre une v
 Un outil de visualisation d'espace disque
 
 {% embed url="https://github.com/phalladar/MacDirStat" %}
+
+***
+
+### Mole
+
+Mole. Nettoyez les fichiers inutiles, gérez les apps, lancez la maintenance, analysez le disque et suivez l’état en direct dans une app Mac native.
+
+{% embed url="https://mole.fit/fr/" %}

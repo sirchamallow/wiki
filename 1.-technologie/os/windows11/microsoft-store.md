@@ -60,7 +60,37 @@ Quelques avantages à utiliser le téléchagement/installation de logiciels depu
 
 {% embed url="https://apps.microsoft.com/detail/9pktq5699m62" %}
 
+{% embed url="https://apps.microsoft.com/detail/xpdp273c0xhqh2" %}
+
+### Microsoft
+
+{% embed url="https://apps.microsoft.com/detail/9wzdncrfjbh4" %}
+
 {% embed url="https://apps.microsoft.com/detail/9WZDNCRFHVN5" %}
+
+{% embed url="https://apps.microsoft.com/detail/9n1f85v9t8bn" %}
+
+{% embed url="https://apps.microsoft.com/detail/9wzdncrfjbbg" %}
+
+{% embed url="https://apps.microsoft.com/detail/9mz95kl8mr0l" %}
+
+[https://apps.microsoft.com/detail/9n0dx20hk701](https://apps.microsoft.com/detail/9n0dx20hk701)
+
+[https://apps.microsoft.com/detail/9pcfs5b6t72h](https://apps.microsoft.com/detail/9pcfs5b6t72h)
+
+[https://apps.microsoft.com/detail/9wzdncrfj3pr](https://apps.microsoft.com/detail/9wzdncrfj3pr)
+
+[https://apps.microsoft.com/detail/9mz1snwt0n5d](https://apps.microsoft.com/detail/9mz1snwt0n5d)
+
+
+
+
+
+### Hardware
+
+{% embed url="https://apps.microsoft.com/detail/9nf8h0h7wmlt" %}
+
+{% embed url="https://apps.microsoft.com/detail/9p8k5g2mww6z" %}
 
 ### Musique
 
@@ -69,3 +99,13 @@ Quelques avantages à utiliser le téléchagement/installation de logiciels depu
 {% embed url="https://apps.microsoft.com/detail/9NCBCSZSJRSB" %}
 
 {% embed url="https://apps.microsoft.com/detail/9NMS233VM4Z9" %}
+
+### DEV
+
+{% embed url="https://apps.microsoft.com/detail/xp9khm4bk9fz7q" %}
+
+### Internet
+
+{% embed url="https://apps.microsoft.com/detail/9nrx63209r7b" %}
+
+{% embed url="https://apps.microsoft.com/detail/9mx7tgvgqfcl" %}
