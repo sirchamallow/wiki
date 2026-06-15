@@ -19,4 +19,6 @@ icon: backpack
 
 {% embed url="https://www.samsonite.fr/armox-duffle-wh-55-20-backpack--noir/154063-1041.html" %}
 
+{% embed url="https://fr.delsey.com/products/003944650-sac-a-dos-trolley-parvis-plus-51cm-protection-pc" %}
+
 {% embed url="https://bagsmart.fr/collections/sac-a-dos-pour-ordinateur-portable/products/blast-pro-43l-roller-backpack?variant=52456287273279" %}
