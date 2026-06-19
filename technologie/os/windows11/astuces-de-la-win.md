@@ -1,5 +1,23 @@
 ---
 icon: lightbulb-exclamation-on
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Astuces
@@ -268,3 +286,10 @@ net stop RmSvc # Arrête immédiatement le service "RmSvc" en cours d’exécuti
 sc config RmSvc start= auto # Configure le service "RmSvc" pour qu’il démarre automatiquement → permet de réactiver les radios (Wi‑Fi, Bluetooth) au démarrage
 net start RmSvc # Démarre immédiatement le service "RmSvc" → réactive tout de suite le réseau (sort du mode avion)
 ```
+
+***
+
+### Installation Windows11 en mode local
+
+{% embed url="https://windowsforum.com/threads/windows-11-local-account-bypass-fragile-tricks-vs-enterprise-deployments.384055/" %}
+

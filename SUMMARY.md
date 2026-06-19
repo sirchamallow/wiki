@@ -183,3 +183,4 @@
     * [Trottinette Électrique](loisirs/mobilite/mobilite.md)
     * [Accessoires](loisirs/mobilite/accessoires.md)
   * [Sac à dos roulette](5.-loisirs/sac-a-dos-roulette.md)
+  * [Vêtements UPF50](5.-loisirs/vetements-upf50.md)
