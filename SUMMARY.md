@@ -67,6 +67,8 @@
       * [Active Directory](technologie/os/windows11/active-directory.md)
       * [Astuces](technologie/os/windows11/astuces-de-la-win.md)
       * [Chocolatey](1.-technologie/os/windows11/chocolatey.md)
+      * [Paramètres](1.-technologie/os/windows11/parametres.md)
+      * [Commandes Exécuter](1.-technologie/os/windows11/commandes-executer.md)
       * [Microsoft Store](1.-technologie/os/windows11/microsoft-store.md)
       * [Gaming](1.-technologie/os/windows11/gaming.md)
       * [Powershell](technologie/os/windows11/powershell.md)

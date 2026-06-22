@@ -293,3 +293,17 @@ net start RmSvc # Démarre immédiatement le service "RmSvc" → réactive tout 
 
 {% embed url="https://windowsforum.com/threads/windows-11-local-account-bypass-fragile-tricks-vs-enterprise-deployments.384055/" %}
 
+***
+
+### God Mode
+
+Voici la marche à suivre pour activer le God mode de Windows 10, 11. Celui-ci vous donne accès à un ensemble de paramètres et d’options.
+
+1. Positionnez vous sur le bureau de Windows
+2. Ensuite faites un clic droit sur le bureau de Windows puis **Nouveau**.
+3. Dans l’emplacement du raccourci, copier coller : **explorer shell:::{ED7BA470-8E54-465E-825C-99712043E01C}**
+4. Validez.
+5. Puis dans le nom du raccourci, saisissez **God Mode**.
+6. Enfin pour accéder à ce dernier, il vous suffit de double-cliquer dessus.
+
+La liste des raccourcis du God mode s’affiche :)
