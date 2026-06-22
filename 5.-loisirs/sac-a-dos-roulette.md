@@ -11,6 +11,8 @@ icon: backpack
 
 {% embed url="https://www.osprey.com/fr/farpoint-fairview-wheels-36-s26" %}
 
+{% embed url="https://www.lipault.fr/fr/sacs-a-dos/sacs-a-dos-a-roues/" %}
+
 {% embed url="https://www.stubbleandco.com/fr-eu/products/wheeled-duffel-40l" %}
 
 {% embed url="https://airback.fr/products/airback-max" %}
