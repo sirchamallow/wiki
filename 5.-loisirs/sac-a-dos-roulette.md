@@ -7,23 +7,25 @@ icon: backpack
 
 ### Avant-Propos
 
-A lire avant l'achat d'un modèle
+#### A lire avant l'achat d'un modèle
 
 {% embed url="https://store.ricksteves.com/products/rolling-backpack" %}
 
-### Sac à dos à Roulettes
+### Sac à dos à Roulettes (poignée T)
 
 {% embed url="https://www.osprey.com/fr/farpoint-fairview-wheels-36-s26" %}
-
-{% embed url="https://www.stubbleandco.com/fr-eu/products/wheeled-duffel-40l" %}
 
 {% embed url="https://www.samsonite.fr/pro-dlx-6-laptop-backpack-with-wheels--17.3inch-noir/148163-1041.html" %}
 
 {% embed url="https://fr.delsey.com/products/003944650-sac-a-dos-trolley-parvis-plus-51cm-protection-pc" %}
 
-{% embed url="https://bagsmart.fr/collections/sac-a-dos-pour-ordinateur-portable/products/blast-pro-43l-roller-backpack?variant=52456287273279" %}
-
 {% embed url="https://www.roncato.com/fr-fr/pl/sacs-a-dos-et-sacs-dordinateur/sac-a-dos-a-roulettes/sr,2/" %}
+
+### Sac à dos à Roulettes (poignée U)
+
+{% embed url="https://www.stubbleandco.com/fr-eu/products/wheeled-duffel-40l" %}
+
+{% embed url="https://bagsmart.fr/collections/sac-a-dos-pour-ordinateur-portable/products/blast-pro-43l-roller-backpack?variant=52456287273279" %}
 
 {% embed url="https://www.amazon.fr/dp/B0D1K726XF" %}
 
@@ -42,3 +44,9 @@ A lire avant l'achat d'un modèle
 {% embed url="https://eaglecreek.eu/fr/products/cargo-hauler-xt-wheeled-21-5-international-carry-on-duffel" %}
 
 {% embed url="https://eaglecreek.eu/products/expanse-convertible-international-carryon" %}
+
+### Boutique de pièces détachées / SAV
+
+{% embed url="https://taille-cabine.fr/" %}
+
+{% embed url="https://sav-valise.fr/" %}
