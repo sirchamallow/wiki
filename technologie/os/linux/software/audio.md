@@ -4,6 +4,19 @@ icon: headphones-simple
 
 # Audio
 
+## BudsLink
+
+Contrôlez vos AirPods, Galaxy Buds et autres écouteurs Bluetooth sous Linux
+
+```bash
+flatpak install flathub io.github.maniacx.BudsLink # Installer BudsLink 
+flatpak run io.github.maniacx.BudsLink # Lancer BudsLink
+```
+
+{% embed url="https://github.com/maniacx/BudsLink" %}
+
+{% embed url="https://flathub.org/en/apps/io.github.maniacx.BudsLink" %}
+
 ## GNOME Podcasts
 
 Il s'agit d'une application qui est un client de podcast pour les ordinateurs de bureau Linux, intégrant parfaitement l'interface GNOME. Cette application permet d'écouter ses podcasts préférés à partir de son ordinateur, de lire différents formats audio et de se souvenir de l'endroit où l'on s'est arrêté.\
