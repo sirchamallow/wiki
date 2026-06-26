@@ -21,6 +21,7 @@
       * [Alimentation électriques](technologie/hardware/informatique/alimentation-electriques.md)
       * [Câble USB-C](1.-technologie/hardware/informatique/cable-usb-c.md)
       * [Casque sans-fil (bureautique)](1.-technologie/hardware/informatique/casque-sans-fil-bureautique.md)
+      * [Clavier](1.-technologie/hardware/informatique/clavier.md)
       * [Ecouteur audio filaire (USB-C)](1.-technologie/hardware/informatique/ecouteur-audio-filaire-usb-c.md)
       * [Ergonomie](technologie/hardware/informatique/bureau.md)
       * [🇨🇳 Huawei Computers](technologie/hardware/informatique/huawei-computers.md)
