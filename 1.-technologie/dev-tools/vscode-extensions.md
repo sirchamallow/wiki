@@ -41,7 +41,8 @@ code --install-extension mhutchie.git-graph                # Git Graph
 code --install-extension oderwat.indent-rainbow            # indent-rainbow
 code --install-extension tal7aouy.rainbow-bracket          # Rainbow Brackets
 <strong>code --install-extension IBM.output-colorizer              # Output Colorizer
-</strong>
+</strong>code --install-extension AnchovyStudios.status-bar-time    # Status Bar Time
+
 ## Language / Translate
 code --install MS-CEINTL.vscode-language-pack-fr           # French Language Pack for Visual Studio Code
 code --install-extension soerenuhrbach.vscode-deepl        # Deepl Translate
@@ -50,7 +51,8 @@ code --install-extension adamvoss.vscode-languagetool-en   # LanguageTool (en)
 code --install-extension adamvoss.vscode-languagetool-fr   # LanguageTool (fr)
 
 ## Tools Microsoft VSCode
-code --install-extension MS-vsliveshare.vsliveshare         # Visual Studio Live Share
+<strong>code --install-extension MS-vsliveshare.vsliveshare         # Visual Studio Live Share
+</strong>code --install-extension ms-vscode.live-server              # Live Preview
 code --install-extension ms-vscode.remote-repositories      # Remote Repositories
 code --install-extension ms-vscode-remote.remote-wsl        # Windows Subsystem for Linux (WSL)
 code --install-extension ms-vscode-remote.remote-ssh        # Remote - SSH
@@ -65,13 +67,15 @@ code --install-extension bierner.markdown-emoji              # Markdown Emoji
 
 ## Tools
 code --install-extension dbaeumer.vscode-eslint             # ESLint
-code --install-extension Postman.postman-for-vscode         # Postman
 code --install-extension Rubymaniac.vscode-paste-and-indent # Paste and Indent
 code --install-extension usernamehw.errorlens               # Error Lens
 code --install-extension KnisterPeter.vscode-commitizen     # Commitizen
+code --install-extension aaron-bond.better-comments         # Better Comments
+code --install-extension christian-kohler.path-intellisense # Path Intellisense
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 <strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL
 </strong>code --install-extension AykutSarac.jsoncrack-vscode        # JSON Crack
+code --install-extension JackyWong.filetimes                # FileTimes - VSCode File Activity Tracker
 
 ## Language Support
 code --install-extension rebornix.ruby               # Ruby
