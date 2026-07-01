@@ -51,9 +51,9 @@ Il intègre les modules **Semtech LR1110** (compatible avec la bande de fréquen
 | Firmware                                                                | Meshtastic firmware compatible, LoRa Tracker function compatible(Optional)                                                                                                                                                                                                                                                                                                                |
 | LoRa Transceiver                                                        | Semtech LR1110                                                                                                                                                                                                                                                                                                                                                                            |
 | **Charge and discharge function (charge three units at the same time)** |                                                                                                                                                                                                                                                                                                                                                                                           |
-| Type-C port                                                             | <p>Charge and discharge function:<br>- Input: 5V/3A, 9V/2A, 12V/1.5A<br>- Output: 5V/3A, 9V/2.22A, 12V/1.67A</p>                                                                                                                                                                                                                                                                          |
-| Type-C Cable                                                            | <p>Discharge function : <br>Output: 5V/3A, 9V/2A, 12V/1.5A</p>                                                                                                                                                                                                                                                                                                                            |
-| Wireless charging                                                       | <p>Discharge function : <br>Output: 5W, 7.5W, 10W, 15W</p>                                                                                                                                                                                                                                                                                                                                |
+| Type-C port                                                             | <p>Charge and discharge function:<br>- Input : 5V/3A, 9V/2A, 12V/1.5A<br>- Output : 5V/3A, 9V/2.22A, 12V/1.67A</p>                                                                                                                                                                                                                                                                        |
+| Type-C Cable                                                            | <p>Discharge function : <br>Output : 5V/3A, 9V/2A, 12V/1.5A</p>                                                                                                                                                                                                                                                                                                                           |
+| Wireless charging                                                       | <p>Discharge function : <br>Output : 5W, 7.5W, 10W, 15W</p>                                                                                                                                                                                                                                                                                                                               |
 | Charging time                                                           | 3\~4 Hour                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Wireless Communication**                                              |                                                                                                                                                                                                                                                                                                                                                                                           |
 | Bluetooth                                                               | **Bluetooth Low Energy** and **Bluetooth 5.4**, internal antenna (phone configuration)                                                                                                                                                                                                                                                                                                    |
@@ -62,7 +62,7 @@ Il intègre les modules **Semtech LR1110** (compatible avec la bande de fréquen
 | Type                                                                    | 18 650 Lithium-ion Battery                                                                                                                                                                                                                                                                                                                                                                |
 | Nominal capacity                                                        | 7 000mAh (can be taken on airplanes)                                                                                                                                                                                                                                                                                                                                                      |
 | Power                                                                   | 3.65V/25.5Wh                                                                                                                                                                                                                                                                                                                                                                              |
-| Rated capacity                                                          | 3800mAh (5V/3A)                                                                                                                                                                                                                                                                                                                                                                           |
+| Rated capacity                                                          | 3 800mAh (5V/3A)                                                                                                                                                                                                                                                                                                                                                                          |
 | Conversion Rate                                                         | More than 74%                                                                                                                                                                                                                                                                                                                                                                             |
 | **Hardware**                                                            |                                                                                                                                                                                                                                                                                                                                                                                           |
 | Power button (power bank)                                               | Touch a button to wake up the device or turn on the light                                                                                                                                                                                                                                                                                                                                 |
@@ -135,7 +135,7 @@ b. En mode opérationnel, met à jour les informations de localisation du nœud/
 
 <figure><img src="https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware2.webp" alt=""><figcaption></figcaption></figure>
 
-**(Le firmware M4 sera bientôt disponible)**
+***
 
 ### Application <a href="#scenario-applications" id="scenario-applications"></a>
 
@@ -149,6 +149,8 @@ b. En mode opérationnel, met à jour les informations de localisation du nœud/
 
 {% embed url="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1586432531" %}
 
+***
+
 ### Guide d'utilisation <a href="#scenario-applications" id="scenario-applications"></a>
 
 #### Android
@@ -159,34 +161,23 @@ b. En mode opérationnel, met à jour les informations de localisation du nœud/
 
 {% embed url="https://www.elecrow.com/wiki/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840.html#the-following-outlines-the-procedure-for-transmitting-signals-to-the-designated-relay-point-ios-app-usage-guide" %}
 
-#### Apparaige <a href="#android-appversion-2630" id="android-appversion-2630"></a>
+***
 
-Lorsque l'appareil `Meshtastic_xxxx` est recherché, appuyez pour entrer en mode de couplage.
+### Appairage <a href="#android-appversion-2630" id="android-appversion-2630"></a>
 
-Entrez ce code **`123456`** sur votre téléphone portable (le code PIN par défaut
+1. Lorsque l'appareil `Meshtastic_xxxx` est recherché, appuyez pour entrer en mode de couplage.
+2. Entrez ce code **`123456`** sur votre téléphone portable (le code PIN par défaut
+3. Configurer la fréquence LoRa : appuyez sur l’icône `Paramètres`, sélectionnez `Configuration radio`, puis l’option `LoRa`. Faites défiler vers le bas jusqu’à la colonne `Ajouter` et saisissez la valeur souhaitée dans le champ `Fréquence de couverture (MHz)`.
+4. Réglez la fréquence LoRa : `915.0`
 
-Configurer la fréquence LoRa : appuyez sur l’icône Paramètres, sélectionnez « Configuration radio », puis l’option « LoRa ». Faites défiler vers le bas jusqu’à la colonne « Ajouter » et saisissez la valeur souhaitée dans le champ « Fréquence de couverture (MHz) ».
+***
 
-[![thinknodeM4-003](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknodeM4-003.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknodeM4-003.webp)
+### Communication
 
-Réglez la fréquence LoRa :
+Si deux appareils souhaitent communiquer, ils doivent se connecter au même canal. Pour cela, vous devez sélectionner la quatrième des cinq options ci-dessus.&#x20;
 
-[![thinknodeM4-004](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknodeM4-004.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknodeM4-004.webp)
+L'autre extrémité du téléphone doit se connecter au même canal en scannant le code ou en saisissant le lien. Le nom du canal peut être personnalisé, etc.
 
-**Si deux appareils souhaitent communiquer, ils doivent se connecter au même canal. Pour cela, vous devez sélectionner la quatrième des cinq options ci-dessus. L'autre extrémité du téléphone doit se connecter au même canal en scannant le code ou en saisissant le lien. Le nom du canal peut être personnalisé, etc.**[**¶**](https://www.elecrow.com/wiki/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840.html#if-two-devices-want-to-communicate-they-need-to-join-to-the-same-channel-this-time-you-need-to-select-the-fourth-of-the-five-options-above-the-other-end-of-the-phone-needs-to-join-to-the-same-channel-by-scanning-the-code-or-entering-the-link-the-channel-can-be-customized-name-and-so-on)
+<figure><img src="https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknode_M6-07.webp" alt=""><figcaption></figcaption></figure>
 
-[![thinknode\_M6-07](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknode_M6-07.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknode_M6-07.webp)
-
-Une fois la connexion établie, les deux appareils peuvent désormais discuter sur le premier écran en sélectionnant Discussion de groupe.
-
-[![thinknodeM4-007](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknodeM4-007.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/thinknodeM4-007.webp)
-
-### Gravure du firmware <a href="#burning-firmware_1" id="burning-firmware_1"></a>
-
-[Firmware ClickMeshtastic](https://flasher.meshtastic.org/)
-
-1\. Sélectionnez le firmware correspondant.&#x20;
-
-2\. Suivez les étapes pour télécharger le firmware.
-
-[![iOS-1](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware0.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware0.webp) [![iOS-1](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware1.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware1.webp) [![iOS-1](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware2.webp)](https://www.elecrow.com/wiki/assets/images/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840/firmware2.webp)
+Une fois la connexion établie, les deux appareils peuvent désormais discuter sur le premier écran en sélectionnant `Discussion de groupe` :)
