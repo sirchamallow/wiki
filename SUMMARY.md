@@ -25,6 +25,7 @@
       * [Ecouteur audio filaire (USB-C)](1.-technologie/hardware/informatique/ecouteur-audio-filaire-usb-c.md)
       * [Ergonomie](technologie/hardware/informatique/bureau.md)
       * [🇨🇳 Huawei Computers](technologie/hardware/informatique/huawei-computers.md)
+      * [Meshstatic](1.-technologie/hardware/informatique/meshstatic.md)
       * [Souris](1.-technologie/hardware/informatique/souris.md)
       * [🇩🇪 TUXEDO Computers](technologie/hardware/informatique/tuxedo-computers.md)
     * [Electroménager](technologie/hardware/electromenager.md)
