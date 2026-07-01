@@ -74,7 +74,8 @@ code --install-extension aaron-bond.better-comments         # Better Comments
 code --install-extension christian-kohler.path-intellisense # Path Intellisense
 code --install-extension sidthesloth.html5-boilerplate      # HTML Boilerplate
 <strong>code --install-extension ms-ossdata.vscode-postgresql       # PostgreSQL
-</strong>code --install-extension AykutSarac.jsoncrack-vscode        # JSON Crack
+</strong>code --install-extension mechatroner.rainbow-csv            # Rainbow CSV
+code --install-extension AykutSarac.jsoncrack-vscode        # JSON Crack
 code --install-extension JackyWong.filetimes                # FileTimes - VSCode File Activity Tracker
 
 ## Language Support
