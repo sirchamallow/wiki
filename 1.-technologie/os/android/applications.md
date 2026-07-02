@@ -10,18 +10,9 @@ icon: mobile-screen-button
 
 Une application de gestion de fichiers open-source
 
-#### Installation
+{% embed url="https://play.google.com/store/apps/details?id=org.fossify.filemanager" %}
 
-<pre><code><strong>Depuis le PlayStore
-</strong></code></pre>
-
-{% hint style="success" %}
-Play Store : [https://play.google.com/store/apps/details?id=org.fossify.filemanager](https://play.google.com/store/apps/details?id=org.fossify.filemanager)
-{% endhint %}
-
-{% hint style="info" %}
-Source : [https://github.com/FossifyOrg/File-Manager/tree/master](https://github.com/FossifyOrg/File-Manager/tree/master)
-{% endhint %}
+{% embed url="https://github.com/FossifyOrg/File-Manager/tree/master" %}
 
 ***
 
@@ -37,10 +28,10 @@ Une application de gestion de fichiers open-source
 Depuis https://github.com/uazo/cromite/releases
 ```
 
-{% hint style="success" %}
-Site : [https://www.cromite.org](https://www.cromite.org/)
-{% endhint %}
+{% embed url="https://www.cromite.org/" %}
 
-{% hint style="info" %}
-Source : [https://github.com/uazo/cromite](https://github.com/uazo/cromite)
-{% endhint %}
+***
+
+### Futo Keyboard (clavier)
+
+{% embed url="https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin.playstore" %}
