@@ -4,7 +4,13 @@ icon: hammer-brush
 
 # Dépannage
 
-## Dépannage
+## ROM Finder
+
+Vous souhaitez installer **GrapheneOS**, **LineageOS**, **/e/OS** ou une autre **ROM Android alternative** sur votre smartphone ? **ROM Finder** simplifie la recherche en indiquant instantanément quels systèmes d’exploitation open source sont compatibles avec votre appareil.
+
+{% embed url="https://tutox.fr/rom-finder/" %}
+
+***
 
 ### Android Flash Tool
 
@@ -15,6 +21,8 @@ Source : [https://source.android.com/docs/setup/build/flash#device-requirements]
 {% endhint %}
 
 {% embed url="https://flash.android.com/" %}
+
+***
 
 ### &#x20;**Xiaomi ADB/FastBoot Tools**
 
