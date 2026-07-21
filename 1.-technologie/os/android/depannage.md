@@ -4,11 +4,19 @@ icon: hammer-brush
 
 # Dépannage
 
-## ROM Finder
+### ROM Finder
 
 Vous souhaitez installer **GrapheneOS**, **LineageOS**, **/e/OS** ou une autre **ROM Android alternative** sur votre smartphone ? **ROM Finder** simplifie la recherche en indiquant instantanément quels systèmes d’exploitation open source sont compatibles avec votre appareil.
 
 {% embed url="https://tutox.fr/rom-finder/" %}
+
+***
+
+### /e/OS Installer
+
+Une application web qui simplifie l'installation de /e/OS sur votre téléphone en vous guidant à travers des étapes faciles à suivre.
+
+{% embed url="https://e.foundation/installer/" %}
 
 ***
 

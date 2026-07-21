@@ -1,10 +1,26 @@
 ---
 icon: lightbulb
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Astuces
-
-## Astuces
 
 #### Bibliothèque
 
@@ -28,17 +44,23 @@ Pour retrouvez facilement votre contenu, vos achats etc.
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### Mise à jour systèmes
 
 Le calendrier des mise à jour systèmes par constructeurs
 
 {% embed url="https://support.google.com/android/answer/3094742" %}
 
+***
+
 ### Remboursement Google Play
 
 Comment faire un remboursement suite à un achat sur Google Play
 
 {% embed url="https://support.google.com/googleplay/workflow/9813244" %}
+
+***
 
 ## Sécurité
 
