@@ -9,8 +9,6 @@ Voici une liste large et structurée des commandes “Exécuter” **(Win + R)**
 
 `Ctrl + Shift + Enter` après une commande = lancement **en admin**
 
-##
-
 | Commande               | Description                      |
 | ---------------------- | -------------------------------- |
 | %temp%                 | # dossier temporaire utilisateur |
