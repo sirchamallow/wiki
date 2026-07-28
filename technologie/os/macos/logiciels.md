@@ -340,7 +340,7 @@ Un outil de visualisation d'espace disque
 
 ***
 
-### Mole
+## Mole
 
 Mole. Nettoyez les fichiers inutiles, gérez les apps, lancez la maintenance, analysez le disque et suivez l’état en direct dans une app Mac native.
 
