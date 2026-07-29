@@ -1,5 +1,5 @@
 ---
-icon: apple-whole
+icon: app-store-ios
 layout:
   width: default
   title:

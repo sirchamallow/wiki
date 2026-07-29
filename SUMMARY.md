@@ -60,6 +60,7 @@
         * [Sécurité](technologie/os/linux/software/security.md)
       * [Jouer sur Linux](technologie/os/linux/videogames.md)
       * [GNOME Extensions](technologie/os/linux/gnome-extensions.md)
+    * [GLF OS (Linux/NixOS)](1.-technologie/os/glf-os-linux-nixos.md)
     * [MacOS (Apple)](technologie/os/macos/README.md)
       * [Astuces](technologie/os/macos/astuces.md)
       * [Logiciels](technologie/os/macos/logiciels.md)

@@ -17,6 +17,8 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # Cross-platform
@@ -151,45 +153,37 @@ Logiciel de compression
 
 ## Proton
 
-### Proton Mail
+#### Proton Mail
 
 Client mail chiffré & open-source
 
 {% embed url="https://proton.me/mail/download" %}
 
-### Proton Pass
+#### Proton Pass
 
 Gestionnaire de mot de passe chiffré & open-source
 
 {% embed url="https://proton.me/pass/download" %}
 
-***
-
-### Proton VPN
+#### Proton VPN
 
 Logiciel de VPN chiffré & open-source
 
 {% embed url="https://protonvpn.com/download" %}
 
-***
-
-### Proton Calendar
+#### Proton Calendar
 
 Logiciel de calendrier chiffré & open-source
 
 {% embed url="https://proton.me/calendar/download" %}
 
-***
-
-### Proton Meet
+#### Proton Meet
 
 Logiciel de vidéoconférence chiffré & open-source
 
 {% embed url="https://proton.me/meet/download" %}
 
-***
-
-### Proton Drive
+#### Proton Drive
 
 Logiciel de stockage chiffré & open-source
 
@@ -242,3 +236,11 @@ Alternative à Google Photos
 Logiciel de capture d'écrans
 
 {% embed url="https://flameshot.org" %}
+
+***
+
+### PocketCasts
+
+Logiciel d'écoute de Podcasts (Android, iOS, Web)
+
+{% embed url="https://pocketcasts.com/" %}
