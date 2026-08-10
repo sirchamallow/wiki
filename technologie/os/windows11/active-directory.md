@@ -93,7 +93,7 @@ Cette commande va renvoyer TOUTES les informations de l'utilisateur, ce qui n'es
 {% endhint %}
 
 Nous pouvons donc sélectionner les champs que l'on veut récupérer. \
-&#xNAN;_&#x45;xemple de commande :_
+_&#x45;xemple de commande :_
 
 ```powershell
 Get-ADUser -Filter * | select Name, samAccountName, UserPrincipalName

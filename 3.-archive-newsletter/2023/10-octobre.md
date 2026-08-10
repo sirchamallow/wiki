@@ -2,7 +2,7 @@
 
 Bonjour tout le monde, voici une rapide présentation du contenu de ma newsletter.\
 ➫ Chaque mois, vous retrouverez dans mon carnet de veille, quatre rubriques :\
-&#xNAN;**\<Dev>**, **Logiciels ::**, **/Divers/** et **← Replay →** .\
+**\<Dev>**, **Logiciels ::**, **/Divers/** et **← Replay →** .\
 ➫ Bonjour aux nouveaux lecteurs de Publicis, Radio-Canada, Petit Web, SNCF, Orange. Un coucou aux développeurs Toon et Alice, à Antoine (blogueur des arcannes Lyonnaises)
 
 ***

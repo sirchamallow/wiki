@@ -2,7 +2,7 @@
 
 Bonjour tout le monde, voici une rapide présentation du contenu de ma newsletter.\
 ➫ Chaque mois, vous retrouverez dans mon carnet de veille, quatre rubriques :\
-&#xNAN;**\<Dev>**, **Logiciels ::**, **/Divers/** et **← Replay →** .\
+**\<Dev>**, **Logiciels ::**, **/Divers/** et **← Replay →** .\
 ➫ Bonjour aux abonnés de : Petit Web et d’ImpactIA
 
 ***
