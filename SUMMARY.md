@@ -39,6 +39,7 @@
       * [Outils PDF](1.-technologie/logiciels/applications-web/outils-pdf.md)
     * [Navigateurs Web](technologie/logiciels/browsers/README.md)
       * [Vider le cache](1.-technologie/logiciels/browsers/vider-le-cache.md)
+      * [Capture flux HTTP](1.-technologie/logiciels/browsers/capture-flux-http.md)
       * [Mozilla Firefox](technologie/logiciels/browsers/firefox-extensions/README.md)
         * [Extensions](technologie/logiciels/browsers/firefox-extensions/official-extensions.md)
         * [Thèmes](technologie/logiciels/browsers/firefox-extensions/themes.md)
