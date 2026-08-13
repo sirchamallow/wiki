@@ -12,6 +12,14 @@ Ces informations sont souvent indispensables à différents Support technique (w
 ### Avant d'exécuter la procédure de capture du flux HTTP, assurez-vous d'être dans les conditions exactes du problème : utilisez le poste concerné, avec le même navigateur sur lequel vous constater le problème <a href="#bonnes-pratiques" id="bonnes-pratiques"></a>
 {% endhint %}
 
+***
+
+Extension Chrome
+
+{% embed url="https://chromewebstore.google.com/detail/har-recorder/emfabjnfjiknifjlfpjobbecfepplhkd" %}
+
+***
+
 ### Google Chrome <a href="#navigateur-chrome" id="navigateur-chrome"></a>
 
 * Connectez vous sur le site avec votre compte concerné par le problème.
