@@ -62,6 +62,8 @@ Quelques avantages à utiliser le téléchagement/installation de logiciels depu
 
 {% embed url="https://apps.microsoft.com/detail/xpdp273c0xhqh2" %}
 
+{% embed url="https://apps.microsoft.com/detail/9pf4kz2vn4w9" %}
+
 ### Microsoft
 
 {% embed url="https://apps.microsoft.com/detail/9wzdncrfjbh4" %}
@@ -74,17 +76,13 @@ Quelques avantages à utiliser le téléchagement/installation de logiciels depu
 
 {% embed url="https://apps.microsoft.com/detail/9mz95kl8mr0l" %}
 
-[https://apps.microsoft.com/detail/9n0dx20hk701](https://apps.microsoft.com/detail/9n0dx20hk701)
+{% embed url="https://apps.microsoft.com/detail/9n0dx20hk701" %}
 
-[https://apps.microsoft.com/detail/9pcfs5b6t72h](https://apps.microsoft.com/detail/9pcfs5b6t72h)
+{% embed url="https://apps.microsoft.com/detail/9pcfs5b6t72h" %}
 
-[https://apps.microsoft.com/detail/9wzdncrfj3pr](https://apps.microsoft.com/detail/9wzdncrfj3pr)
+{% embed url="https://apps.microsoft.com/detail/9wzdncrfj3pr" %}
 
-[https://apps.microsoft.com/detail/9mz1snwt0n5d](https://apps.microsoft.com/detail/9mz1snwt0n5d)
-
-
-
-
+{% embed url="https://apps.microsoft.com/detail/9mz1snwt0n5d" %}
 
 ### Hardware
 
