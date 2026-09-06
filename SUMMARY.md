@@ -46,6 +46,7 @@
         * [Barre de recherche](technologie/logiciels/browsers/firefox-extensions/mycroft-project.md)
         * [Wallpapers](technologie/logiciels/browsers/firefox-extensions/wallpapers.md)
       * [Google Chrome](1.-technologie/logiciels/browsers/chrome-extensions.md)
+      * [Vivaldi](1.-technologie/logiciels/browsers/vivaldi.md)
       * [Safari](1.-technologie/logiciels/browsers/safari.md)
   * [OS](technologie/os/README.md)
     * [Fedora (Linux)](technologie/os/linux/README.md)
