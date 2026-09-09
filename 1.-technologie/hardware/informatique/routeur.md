@@ -14,8 +14,6 @@ icon: router
 
 {% embed url="https://ui.com/" %}
 
-###
-
 ### **Voyants LED**
 
 **Il n'existe aucune norme de normalisation stricte** (comme une norme ISO ou IEEE) qui impose mondialement la couleur ou le comportement des voyants LED des routeurs grand public.Chaque fabricant (Orange, SFR, Bouygues, TP-Link, Netgear, ASUS, Huawei...) définit sa propre charte. Les constructeurs s'appuient toutefois sur un **consensus de fait** (ou "standard de l'industrie") hérité des codes de signalisation industrielle (tels que la norme CEI 60073) pour rendre l'interface intuitive pour les utilisateurs.
