@@ -26,6 +26,7 @@
       * [Ergonomie](technologie/hardware/informatique/bureau.md)
       * [🇨🇳 Huawei Computers](technologie/hardware/informatique/huawei-computers.md)
       * [Meshstatic](1.-technologie/hardware/informatique/meshstatic.md)
+      * [Routeur](1.-technologie/hardware/informatique/routeur.md)
       * [Souris](1.-technologie/hardware/informatique/souris.md)
       * [🇩🇪 TUXEDO Computers](technologie/hardware/informatique/tuxedo-computers.md)
     * [Electroménager](technologie/hardware/electromenager.md)

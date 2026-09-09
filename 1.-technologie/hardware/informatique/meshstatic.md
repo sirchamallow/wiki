@@ -4,19 +4,19 @@ icon: circle-nodes
 
 # Meshstatic
 
-### ThinkNode-M4 Power Bank (nRF52840) <a href="#thinknode-m4-power-bank-lora-device-with-meshtastic-function-powered-by-nrf52840" id="thinknode-m4-power-bank-lora-device-with-meshtastic-function-powered-by-nrf52840"></a>
-
-{% embed url="https://www.elecrow.com/thinknode-m4-power-bank-lora-device-with-meshtastic-lora-tracker-function-powered-by-nrf52840.html" %}
-
-{% embed url="https://www.elecrow.com/wiki/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840.html" %}
-
-***
-
-#### Gaulix (France)
+## Gaulix (France)
 
 {% embed url="https://gaulix.fr/docs-parametrage/" %}
 
 Gaulix est un regroupement de passionnés autour de la création d’un réseau de communication ouvert. Cela inclue des profils très différents : du geek au radio-amateur en passant par l’électronicien, l’informaticien et le simple curieux. Ces différentes compétences se complètent afin que chacun puisse apporter sa brique dans la construction de ce maillage. Par ailleurs une association est en cours de création pour fédérer ces profils et unifier la communauté.
+
+***
+
+## ThinkNode-M4 Power Bank (nRF52840) <a href="#thinknode-m4-power-bank-lora-device-with-meshtastic-function-powered-by-nrf52840" id="thinknode-m4-power-bank-lora-device-with-meshtastic-function-powered-by-nrf52840"></a>
+
+{% embed url="https://www.elecrow.com/thinknode-m4-power-bank-lora-device-with-meshtastic-lora-tracker-function-powered-by-nrf52840.html" %}
+
+{% embed url="https://www.elecrow.com/wiki/ThinkNode-M4_Power_Bank_LoRa_Device_with_Meshtastic_Function_Powered_By_nRF52840.html" %}
 
 ***
 
