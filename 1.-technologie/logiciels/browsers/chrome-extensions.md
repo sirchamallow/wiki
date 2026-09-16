@@ -37,6 +37,10 @@ Quelques extensions tellement pratique et disponible uniquement sur Google Chrom
 
 ## Thèmes
 
+{% embed url="https://chromewebstore.google.com/detail/void-theme-black-and-mini/kioklelcojgbjoljlilalgdcppkiioge" %}
+
+Le thème Void utilise un noir profond (#000000) sur presque toutes les surfaces sans compromettre la lisibilité. Cela garantit des noirs d'une qualité exceptionnelle sur les écrans OLED et AMOLED. Ce thème ne contient aucune image, ce qui lui permet de s'adapter à n'importe quelle résolution
+
 ### Catpuccin
 
 {% embed url="https://chromewebstore.google.com/detail/cmpdlhmnmjhihmcfnigoememnffkimlk" %}
