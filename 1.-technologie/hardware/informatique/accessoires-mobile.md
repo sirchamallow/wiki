@@ -36,6 +36,8 @@ icon: tablet-button
 
 {% embed url="https://www.logitech.com/en-eu/shop/c/ipad-keyboards" %}
 
+{% embed url="https://www.belkin.com/fr/" %}
+
 ## PopSockets
 
 Sélection de Pop
