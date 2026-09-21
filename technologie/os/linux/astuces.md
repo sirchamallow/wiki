@@ -19,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Astuces
@@ -282,20 +284,28 @@ lspci | grep -i --color 'vga\|3d\|2d'
 # 01:00.0 3D controller: NVIDIA Corporation GP108BM [GeForce MX250] (rev a1)
 ```
 
-ou en utilisant le paquet **`neofetch`.**
+ou avec la commande **`switcherooctl`**
 
 ```bash
-sudo dnf install neofetch    # Installer neofetch
-neofetch                     # Lancer neofetch
+switcherooctl list
+
+## Exemple d'output :
+# Device: 0
+#  Name:        Intel® UHD Graphics
+#  Default:     yes
+#  Discrete:    no
+#  Environment: DRI_PRIME=pci-0000_00_02_0 VK_LOADER_DRIVERS_SELECT=*intel*
+
+# Device: 1
+#  Name:        NVIDIA Corporation GP108BM [GeForce MX250]
+#  Default:     no
+#  Discrete:    yes
+#  Environment: DRI_PRIME=pci-0000_01_00_0
 ```
 
-{% hint style="info" %}
-Source : [https://github.com/dylanaraps/neofetch](https://github.com/dylanaraps/neofetch)
-{% endhint %}
+### Désinstaller les drivers nvidia
 
-### Désinstaller drivers nvidia
-
-Pour désinstaller les drivers nvidia, voici une commande simple
+Pour désinstaller les drivers nvidia, voici une commande simple et efficace
 
 ```bash
 sudo dnf remove 'nvidia-*'

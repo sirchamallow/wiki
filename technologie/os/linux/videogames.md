@@ -19,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Jouer sur Linux
@@ -50,6 +52,8 @@ Lutris est un gestionnaire de jeux FOSS (libre, gratuit et open source) pour les
 ```bash
 sudo dnf install lutris
 ```
+
+***
 
 ## Cloud-Gaming
 
