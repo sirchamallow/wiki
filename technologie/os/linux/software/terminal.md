@@ -695,3 +695,18 @@ sudo systemctl restart smokeping
 
 Tu devrais voir les graphiques générés par SmokePing après quelques minutes d’activité :)
 
+***
+
+## HL
+
+Visualiseur et processeur de journaux haute performance qui transforme les journaux aux formats JSON et logfmt en un format lisible par l'humain. Conçu pour une efficacité optimale, il permet une analyse rapide des fichiers journaux volumineux avec une surcharge minimale.
+
+{% embed url="https://github.com/pamburus/hl" %}
+
+***
+
+## Tabview
+
+Tabiew est une application TUI légère qui permet aux utilisateurs de visualiser et d'interroger des fichiers de données tabulaires, tels que CSV, Parquet, Arrow, etc.
+
+{% embed url="https://github.com/shshemi/tabiew" %}
