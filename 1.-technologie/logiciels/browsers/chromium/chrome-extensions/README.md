@@ -17,42 +17,6 @@ icon: chrome
 Liste complète des raccourcis [ici](https://support.google.com/chrome/answer/157179).
 {% endhint %}
 
-## Extensions
-
-Quelques extensions tellement pratique et disponible uniquement sur Google Chrome
-
-{% embed url="https://chromewebstore.google.com/detail/catppuccin-for-web-file-e/lnjaiaapbakfhlbjenjkhffcdpoompki" %}
-
-{% embed url="https://chromewebstore.google.com/publisher/startpage/uc99513a65c47739f53b6107f340b3c08" %}
-
-{% embed url="https://chromewebstore.google.com/detail/linkding-extension/beakmhbijpdhipnjhnclmhgjlddhidpe" %}
-
-{% embed url="https://chromewebstore.google.com/detail/markdown-sticky-notes/aiakblgmlabokilgljkglggnpflljdgp" %}
-
-### NotebookLM
-
-{% embed url="https://chromewebstore.google.com/detail/youtube-to-notebooklm/kobncfkmjelbefaoohoblamnbackjggk" %}
-
-{% embed url="https://chromewebstore.google.com/detail/notebooklm-ultra-exporter/afchokljnhhggkhedfbmkcmdagjmjchj" %}
-
-## Thèmes
-
-{% embed url="https://chromewebstore.google.com/detail/void-theme-black-and-mini/kioklelcojgbjoljlilalgdcppkiioge" %}
-
-Le thème Void utilise un noir profond (#000000) sur presque toutes les surfaces sans compromettre la lisibilité. Cela garantit des noirs d'une qualité exceptionnelle sur les écrans OLED et AMOLED. Ce thème ne contient aucune image, ce qui lui permet de s'adapter à n'importe quelle résolution
-
-### Catpuccin
-
-{% embed url="https://chromewebstore.google.com/detail/cmpdlhmnmjhihmcfnigoememnffkimlk" %}
-
-{% embed url="https://chromewebstore.google.com/detail/catppuccin-chrome-theme-l/jhjnalhegpceacdhbplhnakmkdliaddd" %}
-
-### Google
-
-{% embed url="https://chromewebstore.google.com/detail/oceanic/gbbacdmgjdfajabgglpjifcedoajdimg" %}
-
-{% embed url="https://chromewebstore.google.com/detail/slate/cmhmcmgkegfffbbfobhjpdbimgmoohap" %}
-
 ***
 
 ## Moteur de recherche
@@ -63,7 +27,7 @@ Pour ajouter le moteur de recherche [Encrypted Google](http://encrypted.google.c
 
 1. **Ouvrez Google Chrome** et cliquez sur les trois points verticaux en haut à droite pour accéder au menu.
 2. **Sélectionnez "Paramètres"** dans le menu déroulant.
-3. Dans la section "Moteur de recherche", cliquez sur **"Gérer les moteurs de recherche"**&#x31;.
+3. Dans la section "Moteur de recherche", cliquez sur **"Gérer les moteurs de recherche"**.
 4. Cliquez sur **"Ajouter"** pour ajouter un nouveau moteur de recherche.
 5. Remplissez les champs avec les informations suivantes :
    * **Nom** : Encrypted Google

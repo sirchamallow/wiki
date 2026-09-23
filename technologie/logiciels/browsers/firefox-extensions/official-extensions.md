@@ -1,5 +1,5 @@
 ---
-icon: computer-mouse-scrollwheel
+icon: puzzle-piece
 layout:
   width: default
   title:
@@ -17,6 +17,8 @@ layout:
   tags:
     visible: true
   actions:
+    visible: true
+  anchors:
     visible: true
 ---
 
@@ -61,6 +63,7 @@ https://addons.mozilla.org/fr/firefox/addon/single-file                     # Si
 https://addons.mozilla.org/fr/firefox/addon/gnome-shell-integration         # GNOME Shell
 https://addons.mozilla.org/fr/firefox/addon/onetab                          # OneTab
 https://addons.mozilla.org/fr/firefox/addon/vt4browsers/                    # VT4Browsers
+https://addons.mozilla.org/firefox/addon/bonjourr-startpage/                # Bonjour
 
 # Bloqueurs de publicités
 https://addons.mozilla.org/fr/firefox/addon/ublock-origin                   # uBlock Origin
