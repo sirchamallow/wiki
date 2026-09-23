@@ -50,6 +50,7 @@
         * [Extensions](1.-technologie/logiciels/browsers/chromium/extensions.md)
         * [Google Chrome](1.-technologie/logiciels/browsers/chromium/chrome-extensions/README.md)
           * [Thèmes](1.-technologie/logiciels/browsers/chromium/chrome-extensions/themes.md)
+        * [Microsoft Edge](1.-technologie/logiciels/browsers/chromium/edge.md)
         * [Vivaldi](1.-technologie/logiciels/browsers/chromium/vivaldi.md)
       * [Safari](1.-technologie/logiciels/browsers/safari.md)
   * [OS](technologie/os/README.md)

@@ -14,3 +14,15 @@ icon: puzzle-piece
 {% embed url="https://chromewebstore.google.com/detail/markdown-sticky-notes/aiakblgmlabokilgljkglggnpflljdgp" %}
 
 {% embed url="https://chromewebstore.google.com/detail/bonjourr-%C2%B7-minimalist-new/dlnejlppicbjfcfcedcflplfjajinajd" %}
+
+{% embed url="https://docs.virustotal.com/docs/browser-extensions#google-chrome-mozilla-firefox--microsoft-edge-browser-extension" %}
+
+{% embed url="https://chromewebstore.google.com/detail/merciapp-ai-writing-assis/gccahjgcckaemgpliioopngfgdaceffo" %}
+
+{% embed url="https://chromewebstore.google.com/detail/ai-grammar-checker-paraph/oldceeleldhonbafppcapldpdifcinji?hl=fr" %}
+
+{% embed url="https://chromewebstore.google.com/detail/proton-vpn-fast-secure/jplgfhpmjnbigmhklmmbgecoobifkmpa" %}
+
+{% embed url="https://chromewebstore.google.com/detail/deepl-translate-and-write/cofdbpoegempjloogbagkncekinflcnj?hl=fr" %}
+
+{% embed url="https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=fr" %}

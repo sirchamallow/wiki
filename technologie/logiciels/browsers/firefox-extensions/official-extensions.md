@@ -50,8 +50,10 @@ https://addons.mozilla.org/en-US/firefox/addon/proton-pass                 # Pro
 https://addons.mozilla.org/fr/firefox/addon/proton-vpn-firefox-extension    # ProtonVPN
 https://addons.mozilla.org/fr/firefox/addon/emojikeyboard                   # EmojiKeyboad
 https://addons.mozilla.org/fr/firefox/addon/merciapp                        # Merci.App
+https://addons.mozilla.org/fr/firefox/addon/languagetool                    # LanguageTool
 https://addons.mozilla.org/fr/firefox/addon/epubreader                      # EpubReader
 https://addons.mozilla.org/fr/firefox/addon/extension-signal-spam           # SignalSPAM
+https://addons.mozilla.org/fr/firefox/addon/deepl-translate                 # DeepL
 
 # RSS Lover
 https://addons.mozilla.org/fr/firefox/addon/livemarks                       # Livemarks (RSS reborn)
