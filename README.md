@@ -1,6 +1,6 @@
 ---
 description: Bienvenue sur mon wiki personnel
-icon: face-laugh-wink
+icon: hand-wave
 cover: .gitbook/assets/_efd83a13-65d4-4953-baa6-40b777f80d90.jpg
 coverY: 0
 layout:
@@ -8,6 +8,7 @@ layout:
   cover:
     visible: true
     size: full
+    mask: none
   title:
     visible: true
   description:
@@ -24,9 +25,11 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
-# Bienvenue 👋
+# Bienvenue
 
 ## Qui suis-je ?
 
@@ -52,20 +55,13 @@ Vous trouverez ici :
 
 ***
 
-## 🤠  Restez connecté
-
-Pour suivre mes activités et recevoir mes dernières publications :
-
-* **Linkding** : Mon gestionnaire de liens qui vous permets de consulter ma veille ouverte
-* **Newsletter** : [Abonnez-vous à mes carnets de veille mensuels](https://sirchamallow.substack.com/) pour recevoir une sélection d'articles et de ressources directement dans votre boîte mail.
-* **Blog** : [Découvrez mon blog](https://sir.chamallow.com/) pour des articles plus approfondis et des réflexions sur le monde du développement web.
-
-### 📧   Me contacter
+## 📧  Me contacter
 
 Vous avez une question, une suggestion ou simplement envie d'échanger ? \
 N'hésitez pas à me contacter :
 
-* **Email** : [sir.chamallow@protonmail.com](mailto:sir.chamallow@protonmail.com)
+* **Email** : [pierre@lemasson.pm](mailto:pierre@lemasson.pm)
+* **GitHub** : [https://github.com/sirchamallow](https://github.com/sirchamallow)
 * **LinkedIn** : [Visitez mon profil professionnel](https://www.linkedin.com/in/pierrelemasson) pour en savoir plus sur mon parcours et mes compétences.
 
 ***

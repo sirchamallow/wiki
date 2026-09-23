@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Bienvenue 👋](README.md)
+* [Bienvenue](README.md)
 * [1. Technologie](technologie/README.md)
   * [DEV tools](1.-technologie/dev-tools/README.md)
     * [Base de données](1.-technologie/dev-tools/bdd.md)
