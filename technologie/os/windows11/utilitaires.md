@@ -18,19 +18,19 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Utilitaires
 
-## Microsoft PowerToys
+## Microsoft
 
 {% embed url="https://apps.microsoft.com/detail/xp89dcgq3k6vld" %}
 
-***
-
-## Microsoft Sysinternals Suite
-
 {% embed url="https://apps.microsoft.com/detail/9p7knl5rwt25" %}
+
+{% embed url="https://apps.microsoft.com/detail/9mz1snwt0n5d" %}
 
 ***
 
@@ -88,21 +88,29 @@ Un gestionnaire de fichiers moderne
 
 ***
 
-## Display Driver Uninstaller
+## Carte Graphique
+
+### Nvidia
+
+{% embed url="https://apps.microsoft.com/detail/xp8clzl93f5z4p" %}
+
+{% embed url="https://apps.microsoft.com/detail/9nf8h0h7wmlt" %}
+
+### Display Driver Uninstaller
 
 Désinstaller proprement vos drivers de carte graphiques
 
 {% embed url="https://www.guru3d.com/download/display-driver-uninstaller-download" %}
-
-***
-
-## Informations système
 
 ### GPU-Z
 
 **GPU-Z** est un utilitaire système léger conçu pour fournir des informations essentielles sur votre carte vidéo et votre processeur graphique.
 
 {% embed url="https://www.techpowerup.com/gpuz/" %}
+
+***
+
+## Informations système
 
 ### CPU-Z
 
@@ -138,9 +146,21 @@ Un outil pour supprimer toutes les fonctionnalités IA de Windows 11
 
 ## WSL
 
-Installation complète de Ubuntu 20.04.5 LTS
+{% embed url="https://apps.microsoft.com/detail/9p9tqf7mrm4r" %}
 
-{% embed url="https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ" %}
+{% embed url="https://apps.microsoft.com/detail/9pdxgncfsczv" %}
+
+{% embed url="https://apps.microsoft.com/detail/9msvkqc78pk6" %}
+
+{% embed url="https://apps.microsoft.com/detail/9pkr34tncv07" %}
+
+***
+
+## Winget-TUI
+
+Une interface graphique pour Winget
+
+{% embed url="https://github.com/shanselman/winget-tui" %}
 
 ***
 
@@ -165,3 +185,19 @@ Télécharger le replay d'émissions TV francophones
 Optimise votre SSD pour Windows10
 
 {% embed url="http://www.totalidea.com/products/tweak-ssd/" %}
+
+***
+
+## WinDirStat
+
+Visualiser graphiquement l'espace disque restant
+
+{% embed url="https://apps.microsoft.com/detail/9ph1gl95p3wf" %}
+
+***
+
+## Rufus
+
+Créer des clés USB bootable
+
+{% embed url="https://apps.microsoft.com/detail/9pc3h3v7q9ch" %}
