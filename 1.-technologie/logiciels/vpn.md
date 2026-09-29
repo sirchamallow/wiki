@@ -4,60 +4,86 @@ icon: shield-check
 
 # VPN
 
-## ProtonVPN
+## ProtonVPN x NextDNS
 
-### Utiliser NextDNS et Proton VPN en même temps sur iPhone
+Le guide complet pour configurer ProtonVPN et NextDNS ensemble (Fedora, macOS, iPhone/iPad, Android)? Utiliser un VPN casse généralement le filtrage DNS personnalisé : dès que le tunnel s'établit, le fournisseur du VPN impose ses propres résolveurs DNS. \
+\
+Ce guide explique comment garder NextDNS actif — filtrage des pubs, trackers, contenus malveillants — tout en restant connecté en permanence à ProtonVPN, sur quatre environnements différents.
 
-Sur iOS, ProtonVPN impose par défaut ses propres résolveurs DNS dès qu'il est connecté. Mais depuis peu, l'application ProtonVPN propose un **DNS personnalisé** natif sur iOS et macOS, réservé aux offres payantes.
+### Avant de commencer
 
-{% hint style="warning" %}
-Le DNS personnalisé est incompatible avec NetShield, le bloqueur de pubs de Proton. \
-L'application affiche d'ailleurs un avertissement à l'activation.
-{% endhint %}
+<table><thead><tr><th width="102.02734375">Logiciel</th><th width="285.33203125">Plan nécessaire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><strong>Proton VPN</strong></td><td><strong>Plus</strong> (à partir de ~3 à 10 $/mois selon l'engagement) ou <strong>Unlimited</strong></td><td>Le DNS personnalisé est réservé aux offres payantes. Le plan Free ne le propose pas.</td></tr><tr><td><strong>NextDNS</strong></td><td><strong>Free suffit techniquement</strong> (300 000 requêtes/mois, toutes les fonctions de filtrage incluses)</td><td>L'IP liée et le DoH sont disponibles gratuitement. Le plan <strong>Pro</strong> (1,99 $/mois) retire seulement le plafond de requêtes — utile si plusieurs appareils tournent dessus en continu.</td></tr></tbody></table>
 
-#### Limites de la fonction
+En résumé : ProtonVPN Plus est **obligatoire**, NextDNS Pro est **confortable mais pas indispensable**.
 
-* Le champ DNS personnalisé de l'app iOS n'accepte qu'une adresse **IPv4** (et hélas pas de `DoH`, de `DoT` ni `d'IPv6`).&#x20;
-* L'identifiant de config NextDNS ne peut donc pas être transmis dans la requête. Il faut dans ce cas passer par la méthode **IP liée** de NextDNS, qui associe une IP publique à une configuration.
+### Point clé à retenir
 
-### Configuration
+En **IPv6** ou en **DoH, l'identifiant de ta configuration NextDNS est intégré dans l'adresse elle-même**. Pas besoin de lier une IP, ni d'automatiser quoi que ce soit — ça fonctionne du premier coup, à chaque connexion, sur n'importe quel serveur. C'est la méthode à privilégier partout où elle est disponible.
 
-#### 1. Renseigner les DNS de NextNDS dans ProtonVPN
+Seule l'app ProtonVPN sur **iOS** limite son champ DNS personnalisé à l'IPv4, ce qui oblige à passer par la liaison d'IP (voir plus bas).
 
-Réglages → Connexion → DNS personnalisé → Ajouter un nouveau serveur DNS.
+### NextDNS credz
 
-Utilise les deux `IPv4` propres à ton compte, affichées dans le dashboard NextDNS (Setup → IP liée). Elles ont la forme suivante : `45.90.xx.xxx` et `45.90.xx.xxx`
+Sur `my.nextdns.io`, dans l'onglet **Setup**, tu trouveras :
 
-#### 2. Lier l'IP de sortie du serveur Proton
+* Deux adresses **IPv4** dédiées à ton compte (`45.90.28.xxx` et `45.90.30.xxx`)
+* Deux adresses **IPv6** au format `2a07:a8c0::<ton-id>` et `2a07:a8c1::<ton-id>`
+* Une URL **DoH** : `https://dns.nextdns.io/<ton-id>` (ajoute `/<nom-appareil>` à la fin pour identifier l'appareil dans les logs)
+* Le lien personnel de liaison d'IP : `https://link-ip.nextdns.io/<ton-id>/<jeton>` (ne le partage jamais)
 
-L'IP à lier est celle du **serveur Proton. En effet, celle-ci** change à chaque changement de serveur ou reconnexion (sauf pour ceux qui bénéfice de l'option payante « IP dédiée »). Il faut donc appeler le **lien personnel de NextDNS** une fois connecté au VPN. L'adresse ressemble à ceci : `https://link-ip.nextdns.io/<identifiant>/<jeton>`
+***
 
-{% hint style="danger" %}
-Ce lien est secret : il permet d'associer n'importe quelle IP à ta config. Ne le partage pas et ne le publie pas dans le wiki.
-{% endhint %}
+### macOS
 
-#### 3. Automatiser avec Raccourcis
+1. Barre de menus → **Proton VPN** → **Settings…** → onglet **Advanced** → **Custom DNS**.
+2. Active le toggle, accepte l'avertissement NetShield (les deux fonctions sont incompatibles).
+3. Ajoute directement tes deux adresses **IPv6** NextDNS (`2a07:a8c0::<ton-id>` et `2a07:a8c1::<ton-id>`). Aucune liaison d'IP n'est nécessaire.
+4. Vérifie que le protocole est **WireGuard** (Réglages → Sécurité → Protocole).
+5. Teste sur `https://test.nextdns.io` une fois connecté : `status: ok` et ton `profile` doivent apparaître.
 
-1. Ouvre **Raccourcis** → Automatisation → Créer une automatisation personnelle
-2. Déclencheur : **`VPN`** → ta configuration Proton VPN → **Se connecte**
-3. Action : **Obtenir le contenu de l'URL** avec ton lien de liaison (méthode **`GET`**, par défaut, sans en-têtes ni corps).
-4. Désactive **Demander avant d'exécuter**.
+***
 
-### Vérification
+### Fedora (Linux)
 
-Une fois connecté au VPN, ouvre l'url `https://test.nextdns.io`
+1.  Installe l'application officielle :
 
-Résultat attendu :
+    ```bash
+    wget https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | tr -dc '0-9')-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.2-1.noarch.rpm
+    sudo dnf install ./protonvpn-stable-release-1.0.2-1.noarch.rpm
+    sudo dnf check-update
+    sudo dnf install proton-vpn-gnome-desktop
+    ```
+2. Dans l'app : Réglages → Connexion → DNS personnalisé → ajoute tes deux adresses **IPv6** NextDNS. Là aussi, pas de liaison d'IP nécessaire.
+3.  Ou en CLI :
 
-| Champ     | Valeur attendue                      |
-| --------- | ------------------------------------ |
-| `status`  | `ok`                                 |
-| `profile` | renseigné (identifiant de ta config) |
-| `destIP`  | l'une de tes IP DNS NextDNS          |
-| `client`  | l'IP de sortie du serveur Proton     |
+    ```bash
+    protonvpn config set custom-dns --dns 2a07:a8c0::<ton-id>,2a07:a8c1::<ton-id> on
+    ```
+4. Vérifie avec `curl -s https://test.nextdns.io | jq`.
 
-Si le test affiche « `unconfigured` » après un changement de serveur, l'automatisation ne s'est pas déclenchée :/ . Il faudra vérifier le déclencheur et l'option « Demander avant d'exécuter ». Les requêtes apparaissent bien dans les **Logs** NextDNS mais sans le nom de l'appareil (`clientName: unknown`), ce qui est normal avec une IP liée ;) .
+***
 
-{% hint style="info" %}
-Alternative : l'application **Passepartout** (app WireGuard open source) permet d'utiliser NextDNS en DoH ou DoT sans liaison d'IP. En contrepartie, tu perds le kill switch et une partie des fonctions de l'app Proton VPN.
-{% endhint %}
+### Android
+
+1. Ouvre l'app ProtonVPN → **Réglages** → **Connexion** → **Paramètres avancés** → **DNS personnalisé**.
+2. Ajoute un nouveau serveur DNS, accepte l'avertissement NetShield.
+3. Renseigne tes deux adresses **IPv6** NextDNS. L'app Android accepte nativement l'IPv6, donc aucune automatisation à mettre en place.
+4. Reconnecte le VPN et vérifie sur `test.nextdns.io`.
+
+***
+
+### iPhone / iPad (iOS)
+
+C'est la seule plateforme où le champ DNS personnalisé de Proton VPN n'accepte que l'**IPv4**, ce qui impose la liaison d'IP.
+
+1. **Réglages → Connexion → DNS personnalisé** : ajoute `45.90.28.192` et `45.90.30.192` (tes IPv4 dédiées).
+2. Accepte l'avertissement NetShield.
+3. Vérifie que le protocole est **WireGuard**.
+4. **Automatise la liaison d'IP** avec l'app Raccourcis, puisque sans IP dédiée côté Proton, l'IP de sortie change à chaque reconnexion ou changement de serveur :
+   * Raccourcis → Automatisation → Créer une automatisation personnelle
+   * Déclencheur : **VPN** → ta config ProtonVPN → **Se connecte**
+   * Action : **Obtenir le contenu de l'URL** avec ton lien `link-ip.nextdns.io/<ton-id>/<ton-jeton>` (méthode GET)
+   * Désactive **Demander avant d'exécuter**
+5. Teste sur `test.nextdns.io`. Le champ `client` doit afficher l'IP du serveur Proton, et `status` doit être `ok`.
+
+_Si tu changes souvent de serveur et que l'automatisation te semble fragile,_ une alternative consiste à importer une config WireGuard Proton dans une app tierce comme **Passepartout**, qui permet de renseigner directement l'URL DoH de NextDNS. L'inconvénient est l'absence de kill switch, à mettre en balance avec le confort gagné.
