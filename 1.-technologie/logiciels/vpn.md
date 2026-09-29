@@ -6,23 +6,23 @@ icon: shield-check
 
 ## ProtonVPN x NextDNS
 
-Le guide complet pour configurer ProtonVPN et NextDNS ensemble (Fedora, macOS, iPhone/iPad, Android)? Utiliser un VPN casse généralement le filtrage DNS personnalisé : dès que le tunnel s'établit, le fournisseur du VPN impose ses propres résolveurs DNS. \
+Le guide complet pour configurer `ProtonVPN` et `NextDNS` ensemble (Fedora, macOS, iPhone/iPad, Android). Utiliser un VPN casse généralement le filtrage DNS personnalisé : dès que le tunnel s'établit, le fournisseur du VPN impose ses propres résolveurs DNS. \
 \
-Ce guide explique comment garder NextDNS actif — filtrage des pubs, trackers, contenus malveillants — tout en restant connecté en permanence à ProtonVPN, sur quatre environnements différents.
+Ce guide explique comment garder `NextDNS` actif — filtrage des pubs, trackers, contenus malveillants — tout en restant connecté en permanence à `ProtonVPN`, sur quatre environnements différents.
 
 ### Avant de commencer
 
-<table><thead><tr><th width="102.02734375">Logiciel</th><th width="285.33203125">Plan nécessaire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><strong>Proton VPN</strong></td><td><strong>Plus</strong> (à partir de ~3 à 10 $/mois selon l'engagement) ou <strong>Unlimited</strong></td><td>Le DNS personnalisé est réservé aux offres payantes. Le plan Free ne le propose pas.</td></tr><tr><td><strong>NextDNS</strong></td><td><strong>Free suffit techniquement</strong> (300 000 requêtes/mois, toutes les fonctions de filtrage incluses)</td><td>L'IP liée et le DoH sont disponibles gratuitement. Le plan <strong>Pro</strong> (1,99 $/mois) retire seulement le plafond de requêtes — utile si plusieurs appareils tournent dessus en continu.</td></tr></tbody></table>
+<table><thead><tr><th width="122.08203125">Logiciel</th><th width="285.33203125">Plan nécessaire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><strong>Proton VPN</strong></td><td><strong>Plus</strong> (à partir de ~3 à 10 $/mois selon l'engagement) ou <strong>Unlimited</strong></td><td>Le DNS personnalisé est réservé aux offres payantes. Le plan <code>Free</code> ne le propose pas.</td></tr><tr><td><strong>NextDNS</strong></td><td><strong>Free suffit techniquement</strong> (300 000 requêtes/mois, toutes les fonctions de filtrage incluses)</td><td>L'IP liée et le <code>DoH</code> sont disponibles gratuitement. Le plan <strong><code>Pro</code></strong> (1,99 $/mois) retire seulement le plafond de requêtes — utile si plusieurs appareils tournent dessus en continu.</td></tr></tbody></table>
 
-En résumé : ProtonVPN Plus est **obligatoire**, NextDNS Pro est **confortable mais pas indispensable**.
+En résumé : `ProtonVPN Plus` est **obligatoire**, `NextDNS Pro` est confortable mais pas indispensable.
 
 ### Point clé à retenir
 
-En **IPv6** ou en **DoH, l'identifiant de ta configuration NextDNS est intégré dans l'adresse elle-même**. Pas besoin de lier une IP, ni d'automatiser quoi que ce soit — ça fonctionne du premier coup, à chaque connexion, sur n'importe quel serveur. C'est la méthode à privilégier partout où elle est disponible.
+En **`IPv6`** ou en **`DoH`, l'identifiant de ta configuration NextDNS est intégré dans l'adresse elle-même**. Pas besoin de lier une IP, ni d'automatiser quoi que ce soit — ça fonctionne du premier coup, à chaque connexion, sur n'importe quel serveur. C'est la méthode à privilégier partout où elle est disponible.
 
-Seule l'app ProtonVPN sur **iOS** limite son champ DNS personnalisé à l'IPv4, ce qui oblige à passer par la liaison d'IP (voir plus bas).
+Seule l'app ProtonVPN sur **iOS** limite son champ DNS personnalisé à l'`IPv4`, ce qui oblige à passer par la liaison d'IP (voir plus bas).
 
-### NextDNS credz
+### NextDNS credentials (
 
 Sur `my.nextdns.io`, dans l'onglet **Setup**, tu trouveras :
 
@@ -33,7 +33,7 @@ Sur `my.nextdns.io`, dans l'onglet **Setup**, tu trouveras :
 
 ***
 
-### macOS
+### MacOS
 
 1. Barre de menus → **Proton VPN** → **Settings…** → onglet **Advanced** → **Custom DNS**.
 2. Active le toggle, accepte l'avertissement NetShield (les deux fonctions sont incompatibles).
@@ -45,7 +45,7 @@ Sur `my.nextdns.io`, dans l'onglet **Setup**, tu trouveras :
 
 ### Fedora (Linux)
 
-1.  Installe l'application officielle :
+1.  Installe l'application officielle ProtonVPN :
 
     ```bash
     wget https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | tr -dc '0-9')-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.2-1.noarch.rpm
