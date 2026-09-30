@@ -45,9 +45,9 @@ Sur la page `my.nextdns.io`, dans l'onglet **Installation**, bloc **IP liée** v
 
 ### MacOS&#x20;
 
-1. Barre de menus → **Proton VPN** → **Settings…** → onglet **Advanced** → **Custom DNS**.
+1. Barre de menus → **Proton VPN** → **Réglages…** → onglet **Paramètres avancés** → **DNS personnalisé**
 2. Active le toggle, accepte l'avertissement NetShield (les deux fonctions sont incompatibles).
-3. Ajoute directement tes deux adresses **IPv6** NextDNS (`2a07:a8c0::<ton-id>` et `2a07:a8c1::<ton-id>`). Aucune liaison d'IP n'est nécessaire.
+3. Ajoute directement tes deux adresses **IPv4** NextDNS (`45.90.xx.xxx` et `45.90.xx.xxx`). Aucune liaison d'IP n'est nécessaire.
 4. Vérifie que le protocole est **WireGuard** (Réglages → Sécurité → Protocole).
 5. Teste sur `https://test.nextdns.io` une fois connecté : `status: ok` et ton `profile` doivent apparaître.
 
@@ -80,7 +80,7 @@ Vérifier le résultat avec `curl -s https://test.nextdns.io | jq`
 
 ### Android
 
-1. Ouvrir l'applation ProtonVPN → **Réglages** → **Connexion** → **Paramètres avancés** → **DNS personnalisé**.
+1. Ouvrir l'application ProtonVPN → **Réglages** → **Connexion** → **Paramètres avancés** → **DNS personnalisé**
 2. Ajouter un nouveau serveur DNS et _accepter l'avertissement NetShield_
 3. Renseigne tes deux adresses **IPv6** NextDNS. L'app Android accepte nativement l'IPv6, donc aucune automatisation à mettre en place.
 4. Reconnecter le VPN et vérifier la connexion sur `test.nextdns.io`.
