@@ -118,6 +118,7 @@
     * [Git](technologie/articles/git.md)
       * [🔗 Construire des logiciels, ensemble, avec Git](technologie/articles/build-with-git.md)
       * [Git Astuces](1.-technologie/articles/git/git-astuces.md)
+    * [Helpdesk](1.-technologie/articles/helpdesk.md)
     * [Kaomoji japonais](technologie/articles/kaomoji-japonais.md)
     * [Markdown](technologie/articles/markdown/README.md)
       * [Google Docs -> HTML ou Markdown](technologie/articles/markdown/google-docs-to-html-or-markdown.md)
