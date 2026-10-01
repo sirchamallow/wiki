@@ -4,7 +4,7 @@ icon: code-merge
 
 # Git Astuces
 
-## Introduction
+### Introduction
 
 * [Découverte de Git](https://fr.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) (par Bitbucket)
 * Le livre complet [**Pro Git book**](https://git-scm.com/book/fr/v2) écrit par Scott Chacon & Ben Straub est consultable gratuitement en ligne (disponible en 13 langues) :\
@@ -16,9 +16,18 @@ icon: code-merge
 * [Formation sur Git](https://www.grafikart.fr/formations/git) par Grafikart (3h30 de vidéos en français)
 * [Git Novice](http://swcarpentry.github.io/git-novice/) : un guide étape par étape expliquant aux novices comment utiliser git
 * Blog de [Junio C Hamano](https://git-blame.blogspot.com/)
+* [Migration de Github vers une alternative européenne](https://eventuallycoding.com/p/migration-de-github-vers-une-alternative-europeenne)
 
 ***
 
-## Ressources
+### Ressources
 
 {% embed url="https://git-lfs.github.com/" %}
+
+***
+
+### Push your Git in Europe
+
+{% embed url="https://rickub.com" %}
+
+{% embed url="https://pushin.eu/" %}
