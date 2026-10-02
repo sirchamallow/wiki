@@ -776,12 +776,3 @@ csvlens <filename>
 #### Raccourcis clavier
 
 <table data-header-hidden><thead><tr><th width="222">Clé</th><th>Action</th></tr></thead><tbody><tr><td><strong>Raccourci</strong></td><td><strong>Action</strong></td></tr><tr><td><code>hjkl</code> (ou <code>← ↓ ↑ →</code>)</td><td>Défilez d'une ligne ou d'une colonne dans la direction indiquée.</td></tr><tr><td><code>Ctrl + f</code> (ou <code>Page Down</code>)</td><td>Faites défiler une fenêtre vers le bas</td></tr><tr><td><code>Ctrl + b</code> (ou <code>Page Up</code>)</td><td>Faites défiler d'une fenêtre vers le haut</td></tr><tr><td><code>Ctrl + d</code> (ou <code>d</code>)</td><td>Faites défiler la moitié de la fenêtre vers le bas</td></tr><tr><td><code>Ctrl + u</code> (ou <code>u</code>)</td><td>Faites défiler la moitié de la fenêtre vers le haut</td></tr><tr><td><code>Ctrl + h</code></td><td>Défilez d'une fenêtre vers la gauche</td></tr><tr><td><code>Ctrl + l</code></td><td>Défilez d'une fenêtre vers la droite</td></tr><tr><td><code>Ctrl + ←</code></td><td>Défilez vers la gauche jusqu'à la première colonne</td></tr><tr><td><code>Ctrl + →</code></td><td>Défilez vers la droite jusqu'à la dernière colonne</td></tr><tr><td><code>Ctrl + e</code></td><td>Afficher les lignes marquées sur la sortie standard et quitter</td></tr><tr><td><code>G</code> (ou <code>End</code>)</td><td>Aller en bas</td></tr><tr><td><code>g</code> (ou <code>Home</code>)</td><td>Retour en haut</td></tr><tr><td><code>n</code> (en mode Recherche)</td><td>Passer au résultat suivant</td></tr><tr><td><code>N</code> (en mode Recherche)</td><td>Aller au résultat précédent</td></tr><tr><td><code>TAB</code></td><td>Basculer entre les modes de sélection de lignes, de colonnes ou de cellules</td></tr><tr><td><code>></code></td><td>Augmenter la largeur de la colonne sélectionnée</td></tr><tr><td><code>&#x3C;</code></td><td>Réduire la largeur de la colonne sélectionnée</td></tr><tr><td><code>Shift + ↓</code>(ou <code>J</code>)</td><td>Trier les lignes ou inverser le sens du tri selon la colonne sélectionnée</td></tr><tr><td><code>Ctrl + j</code></td><td>Identique à ce qui précède, mais triez par ordre naturel (par exemple « fichier2 » &#x3C; « fichier10»).</td></tr><tr><td><code>y</code></td><td>Copier la ligne ou la cellule sélectionnée dans le presse-papiers</td></tr><tr><td><code>q</code></td><td>Sortie</td></tr></tbody></table>
-
-####
-
-***
-
-
-
-
-
