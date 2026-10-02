@@ -44,8 +44,8 @@ firefox-dev                                 # Launch Firefox Dev
 
 Découvrez divers extensions & thèmes sur ce wiki en cliquant sur le lien
 
-{% content-ref url="../../../logiciels/browsers/firefox-extensions/" %}
-[firefox-extensions](../../../logiciels/browsers/firefox-extensions/)
+{% content-ref url="../../../../../technologie/logiciels/browsers/firefox-extensions/" %}
+[firefox-extensions](../../../../../technologie/logiciels/browsers/firefox-extensions/)
 {% endcontent-ref %}
 
 ***
@@ -134,8 +134,8 @@ Notez que celles-ci ne remplacent pas votre version stable, et elles sont instal
 
 ## NextDNS
 
-{% content-ref url="../../../articles/dns/nextdns.md" %}
-[nextdns.md](../../../articles/dns/nextdns.md)
+{% content-ref url="../../../../../technologie/articles/dns/nextdns.md" %}
+[nextdns.md](../../../../../technologie/articles/dns/nextdns.md)
 {% endcontent-ref %}
 
 #### Installation

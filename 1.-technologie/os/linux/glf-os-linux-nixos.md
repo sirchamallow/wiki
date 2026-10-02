@@ -1,5 +1,5 @@
 ---
-icon: linux
+icon: snowflake
 ---
 
 # GLF OS (Linux/NixOS)

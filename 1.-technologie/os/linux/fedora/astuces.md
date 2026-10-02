@@ -393,7 +393,7 @@ gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 
 ### Balena Etcher
 
-<figure><img src="../../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/63905e57364473528de52e1a_Etcher_steps.gif" alt="balenaEtcher"><figcaption></figcaption></figure>
 
 Voici comment créer une clé USB Bootable Windows à l’aide de [balenaEtcher](https://www.balena.io/etcher#download-etcher). \
 \
@@ -756,7 +756,7 @@ Source : [https://jqlang.github.io/jq](https://jqlang.github.io/jq/)
 
 Exemple : &#x20;
 
-<figure><img src="../../../.gitbook/assets/GY1INSlWQAEJ8oF.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GY1INSlWQAEJ8oF.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Installation de yq
 

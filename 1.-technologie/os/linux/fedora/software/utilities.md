@@ -19,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Utilitaires
@@ -108,7 +110,7 @@ sudo dnf install p7zip
 
 ## GParted
 
-<figure><img src="../../../../.gitbook/assets/1680910885_gparted-livecd.jpg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/1680910885_gparted-livecd.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
 #### Description
 

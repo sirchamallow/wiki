@@ -116,7 +116,7 @@ sudo pip uninstall youtube-dl            # Désinstallation
 
 ## YouTubeDL-GUI
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran du 2022-11-08 16-55-08.png" alt=""><figcaption><p>Youtube Downloader</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Capture d’écran du 2022-11-08 16-55-08.png" alt=""><figcaption><p>Youtube Downloader</p></figcaption></figure>
 
 **Description**
 
@@ -163,7 +163,7 @@ sudo dnf install obs-studio-devel # OBS Studio’s development packages
 
 ## Kodi Media Center
 
-<figure><img src="../../../../.gitbook/assets/kodilogo.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/kodilogo.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Description
 
