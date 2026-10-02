@@ -1,9 +1,8 @@
 ---
-description: Liste de Logiciels helpdesk
-icon: headset
+icon: user-headset
 ---
 
-# Helpdesk
+# Service Desk
 
 ### SaaS (international)
 
@@ -19,16 +18,12 @@ icon: headset
 
 ### Open-Source
 
-{% embed url="https://libredesk.io" %}
-
-{% embed url="https://zammad.org" %}
-
 {% embed url="https://www.chatwoot.com/" %}
 
-{% embed url="https://www.znuny.org/" %}
+{% embed url="https://libredesk.io" %}
 
 {% embed url="https://freescout.net/fr/" %}
 
-### Outil prise en main à distance open-source
+{% embed url="https://zammad.org" %}
 
-{% embed url="https://rustdesk.com/fr/" %}
+{% embed url="https://www.znuny.org/" %}
