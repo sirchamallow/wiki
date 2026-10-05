@@ -138,4 +138,18 @@ La méthode **DNS privé** est généralement préférable car elle utilise le c
 
 ### **Chromebook**&#x20;
 
-Paramètres > Réseau puis sélectionnez votre connexion Wi-Fi. Désactivez la configuration automatique de l’adresse IP en cliquant sur Réseau, puis désactivez l’option Configurer l’adresse IP automatiquement en cliquant sur l’interrupteur. Modifiez les Serveurs de nom. Au lieu d’utiliser l’option par défaut, cliquer sur Serveurs de nom personnalisés et saisir une adresse de serveur primaire et secondaire.
+1. Ouvrez les **Paramètres**.
+2. Cliquez sur **Réseau**.
+3. Sélectionnez votre connexion active (**Wi‑Fi** ou **Ethernet**).
+4. Ouvrez la section **Réseau** ou **DNS** selon votre version de ChromeOS.
+5. Dans **Serveurs de noms**, choisissez **Serveurs de noms personnalisés**.
+6. Saisissez les adresses de vos serveurs DNS.
+7. Fermez la fenêtre : les modifications sont appliquées automatiquement.
+
+{% hint style="info" %}
+&#x20;Sur ChromeOS, la configuration DNS est généralement appliquée **réseau par réseau**. Si vous utilisez plusieurs réseaux Wi‑Fi, il faudra répéter l'opération pour chacun d'eux.
+{% endhint %}
+
+{% hint style="success" %}
+Pour utiliser un DNS chiffré (DNS over HTTPS), ouvrez **Paramètres → Sécurité et confidentialité → Utiliser le DNS sécurisé** et sélectionnez votre fournisseur DNS compatible.
+{% endhint %}

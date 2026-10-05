@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Vider le cache
@@ -40,6 +42,8 @@ ipconfig /flushdns
 
 4\. Windows effacera automatiquement vos fichiers de cache DNS et réinitialisera le cache du résolveur DNS.&#x20;
 
+***
+
 ## MacOS
 
 Sur macOS, la méthode/commande pour vider le cache DNS varie en fonction de la version de votre système d’exploitation. Identifier en premier lieu votre version de macOS en cliquant sur l’icône **Apple -> À propos de ce Mac**.
@@ -57,6 +61,8 @@ Renseignez votre mot de passe administrateur si besoin et cliquez à nouveau sur
 3. **Appuyez sur Entrée** et saisissez votre mot de passe administrateur lorsque cela est demandé.
 4. **Appuyez à nouveau sur Entrée**.
 
+***
+
 ## Linux
 
 Dans votre terminal, saisissez la commande en fonction du service que votre système Linux exécute.\
@@ -64,13 +70,13 @@ Voici la méthode pour `Name Service Cache Daemon` (nscd) et `systemd`.
 
 ### **nscd**
 
-```
+```bash
 sudo /etc/init.d/nscd restart
 ```
 
 ### **systemd**
 
-```
+```bash
 systemd-resolve --flush-caches
 ```
 
