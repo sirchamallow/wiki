@@ -3,7 +3,9 @@ description: .m3u rules !
 icon: radio-tuner
 ---
 
-# Créer une playlist de webradios
+# Webradios
+
+## Créer une playlist de webradios
 
 L'idée pour démarrer est de repérer les radios qu'on aime bien, et s'en constituer soi-même une liste qu'on pourra écouter avec le lecteur audio de notre choix.
 
