@@ -10,23 +10,29 @@ icon: blackberry
 
 {% embed url="https://17cyber.gouv.fr/" %}
 
-### ANSSI
-
-#### Site officiel
-
 {% embed url="https://cyber.gouv.fr" %}
 
-#### Hackropole
+***
+
+## ANSSI
+
+### Hackropole
 
 {% embed url="https://hackropole.fr/fr/" %}
 
-#### Le CyberDico
+### Le CyberDico
 
 {% embed url="https://cyber.gouv.fr/le-cyberdico" %}
 
-#### Le Mooc SecNumAcadémie
+### SecNum Académie
 
 {% embed url="https://secnumacademie.gouv.fr/" %}
+
+### Guides
+
+{% embed url="https://messervices.cyber.gouv.fr/catalogue#guides" %}
+
+***
 
 ## CERT
 
@@ -55,3 +61,15 @@ Le CERT dédié à la communauté maritime
 Le CERT dédié à la communauté Industrie, Services et Tertiaire
 
 {% embed url="https://www.cert-ist.com" %}
+
+***
+
+### Ressources
+
+{% embed url="https://red.flag.domains/" %}
+
+Red Flag Domains publie quotidiennement une nouvelle liste de noms de domaine, plus ou moins longue qui vous permets d'obtenir une liste de domaines à bloquer sur vos serveurs proxys, de manière à vous protéger contre de potentielles attaques à venir
+
+{% embed url="https://github.com/toborrm9/malicious_extension_sentry" %}
+
+MalExt : une liste open source avec près de 7 000 extensions Chrome malveillantes
