@@ -19,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Cross-platform
@@ -244,3 +246,11 @@ Logiciel de capture d'écrans
 Logiciel d'écoute de Podcasts (Android, iOS, Web)
 
 {% embed url="https://pocketcasts.com/" %}
+
+***
+
+### SmoothCSV
+
+Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits administrateurs pour le lancer
+
+{% embed url="https://smoothcsv.com/fr" %}
