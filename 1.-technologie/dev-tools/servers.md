@@ -19,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # OPS
@@ -41,15 +43,9 @@ firewall-cmd --reload 					# Reload the firewall
 https//server-ip:19999					# Open browser and go to you server ip
 ```
 
-{% embed url="https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34" %}
-
-#### Installation via kickstart.sh
-
-```bash
-curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/netdata-kickstart.sh
-```
-
-{% embed url="https://learn.netdata.cloud/docs/agent/packaging/installer/methods/kickstart" %}
+{% hint style="info" %}
+Aide installation (video) : [https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34](https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34?utm_source=gitbook\&utm_medium=iframely)
+{% endhint %}
 
 ***
 
@@ -57,10 +53,8 @@ curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/n
 
 {% embed url="https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html#installing-ansible-on-rhel-centos-or-fedora" %}
 
-#### Installation
-
 ```bash
-sudo dnf install ansible
+sudo dnf install ansible         # Installer Ansible sur Fedora (Linux)
 ```
 
 ***
@@ -69,10 +63,8 @@ sudo dnf install ansible
 
 {% embed url="https://www.wireguard.com/install/#fedora-tools" %}
 
-#### Installation
-
 ```bash
-sudo dnf install wireguard-tools
+sudo dnf install wireguard-tools   # Installer Wireguard sur Fedora (Linux)
 ```
 
 ### WireGuard Easy
@@ -85,9 +77,9 @@ Le moyen le plus simple d’installer et de gérer WireGuard sur n’importe que
 
 ## RabbitMQ
 
-RabbitMQ utilise le protocole AMQP (Advanced Message Queuing Protocol) pour envoyer des messages en toute sécurité via des agents de messages. Un agent de messages se compose d'échanges et de files d'attente.
+{% embed url="https://www.rabbitmq.com/install-rpm.html#install-erlang" %}
 
-#### Installation
+RabbitMQ utilise le protocole AMQP (Advanced Message Queuing Protocol) pour envoyer des messages en toute sécurité via des agents de messages. Un agent de messages se compose d'échanges et de files d'attente.
 
 <pre class="language-bash"><code class="lang-bash"># Add YUM repository using bash script
 curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
@@ -116,15 +108,13 @@ sudo systemctl enable rabbitmq-server
 
 {% embed url="https://computingforgeeks.com/installing-rabbitmq-on-centos-fedora/" %}
 
-{% embed url="https://www.rabbitmq.com/install-rpm.html#install-erlang" %}
-
 ***
 
 ## Mozilla SSL Configuration Generator
 
-<figure><img src="../../.gitbook/assets/Capture d’écran du 2024-01-10 17-31-03.png" alt=""><figcaption></figcaption></figure>
-
 {% embed url="https://ssl-config.mozilla.org" %}
+
+<figure><img src="../../.gitbook/assets/Capture d’écran du 2024-01-10 17-31-03.png" alt=""><figcaption></figcaption></figure>
 
 **Mozilla SSL Configuration Generator** est un outil gratuit de la fondation Mozilla qui permet de générer des configurations SSL/TLS sécurisées pour des serveurs web.
 
@@ -135,3 +125,14 @@ Le site propose trois configurations différentes, en fonction des besoins du se
 * **Old** : cette configuration est recommandée uniquement pour les serveurs web qui nécessitent une compatibilité avec des clients très anciens. Elle utilise les protocoles `TLS 1.2`, `TLS 1.1` et `TLS 1.0`, ainsi que certains algorithmes de chiffrement plus anciens qui ne sont pas recommandés pour une sécurité optimale.
 
 Pour utiliser le site, il suffit de renseigner quelques informations sur le serveur, la version du logiciel, la version d'OpenSSL utilisée et les exigences en matière de compatibilité avec les clients. Le site générera alors un fichier de configuration SSL/TLS prêt à être utilisé :tada:
+
+***
+
+## Dokku
+
+{% embed url="https://dokku.com/" %}
+
+Déployer votre propre PaaS.
+
+Dokku est une plateforme PaaS (Platform as a Service) extensible et open source, fonctionnant sur un serveur unique de votre choix. Dokku permet de créer des applications à la volée à partir d'une image Docker ( `git push`) , soit via un Dockerfile, soit par détection automatique du langage grâce aux Buildpacks, puis de lancer des conteneurs basés sur cette image
+
