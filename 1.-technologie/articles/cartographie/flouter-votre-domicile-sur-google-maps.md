@@ -1,6 +1,6 @@
 ---
 description: Tutoriel pour savoir comment flouter votre domicile
-icon: map-location
+icon: thumbtack
 ---
 
 # Flouter votre domicile sur Google Maps
