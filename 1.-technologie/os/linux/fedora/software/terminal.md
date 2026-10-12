@@ -40,10 +40,8 @@ Il s'agit d'une version étendue du **Bourne Shell (sh).** L'intérêt de _Zsh_ 
 
 Zsh se trouvat dans les référentiels Fedora et peut être installé avec la commande dnf suivante.
 
-#### Installation de ZSH
-
 ```bash
-sudo dnf install zsh
+sudo dnf install zsh # Installer ZSH
 ```
 
 {% embed url="https://sourceforge.net/projects/zsh/files/" %}
@@ -71,15 +69,11 @@ Une fois "Oh My Zsh" d'installé, il suffit de redémarrer ZSH pour prendre en c
 
 #### Activer les mise à jour de Oh-My-ZSH
 
-Il est possible de mettre à jour OMZ de deux façons, manuellement ou de façon automatique\
-\
-**Mise à jour manuel**
+Il est possible de mettre à jour OMZ de deux façons, manuellement ou de façon automatique
 
 ```bash
-omz update
+omz update # Mise à jour manuel de omz
 ```
-
-**Mise à jour automatique**
 
 ```shell
 zstyle ':omz:update' mode auto	    # Activer mise à jour automatique
@@ -483,7 +477,7 @@ Un éditeur de texte en ligne de commande moderne et complet, **sans aucune conf
 
 {% embed url="https://getfresh.dev/" %}
 
-[https://github.com/sinelaw/fresh](https://github.com/sinelaw/fresh)
+{% embed url="https://github.com/sinelaw/fresh" %}
 
 #### Installation
 
@@ -502,10 +496,8 @@ cURL (_client URL request library_) est une [interface en ligne de commande](htt
 
 {% embed url="https://github.com/curl/curl" %}
 
-#### Installation
-
 ```bash
-sudo dnf install curl
+sudo dnf install curl # Installer curl
 ```
 
 ***
@@ -516,10 +508,8 @@ sudo dnf install curl
 
 {% embed url="https://htop.dev/downloads.html" %}
 
-**Installation**
-
 ```bash
-sudo dnf install htop
+sudo dnf install htop  # Installer htop
 ```
 
 ***
@@ -530,14 +520,12 @@ Une alternative plus graphique à `top` ou `htop`
 
 {% embed url="https://github.com/aristocratos/btop?ref=itsfoss.com" %}
 
-#### Installation
-
-<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install btop
-</strong></code></pre>
-
 {% hint style="success" %}
 Des thèmes sont également disponible : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com#themes)
 {% endhint %}
+
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install btop  # Installer btop++
+</strong></code></pre>
 
 ***
 
@@ -549,10 +537,8 @@ Après l'installation, lancer `gping` \<domaine.tld>
 
 {% embed url="https://github.com/orf/gping" %}
 
-#### Installation
-
 ```bash
-sudo dnf copr enable atim/gping -y && sudo dnf install gping
+sudo dnf copr enable atim/gping -y && sudo dnf install gping  # Installer GPing
 ```
 
 ***
@@ -568,13 +554,11 @@ Pour connaitre la liste complète des raccourcis, taper `eza --help`
 
 {% embed url="https://eza.rocks/" %}
 
-#### Installation
+{% embed url="https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora" %}
 
 ```bash
-sudo dnf install eza
+sudo dnf install eza  # Installer eza
 ```
-
-{% embed url="https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora" %}
 
 ### Liste de raccourcis
 
@@ -607,8 +591,6 @@ Un outil pour créez un inventaire de vos commandes Linux favorites
 
 {% embed url="https://github.com/Orange-Cyberdefense/arsenal" %}
 
-#### Installation
-
 ```bash
 # Installation avec pip
 python3 -m pip install arsenal-cli
@@ -636,10 +618,8 @@ arsenal
 
 {% embed url="https://github.com/ekzhang/sshx" %}
 
-#### Installation
-
 ```bash
-curl -sSf https://sshx.io/get | sh
+curl -sSf https://sshx.io/get | sh  # Installer  sshx
 ```
 
 ***
@@ -736,10 +716,8 @@ Un gestionnaire de fichiers dans le terminal
 
 {% embed url="https://yazi-rs.github.io/" %}
 
-Installation
-
-<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf copr enable lihaohong/yazi
-</strong>sudo dnf install yazi
+<pre class="language-bash"><code class="lang-bash"><strong>sudo dnf copr enable lihaohong/yazi  # Activer le dépot copr/yazi 
+</strong>sudo dnf install yazi  # Installer Yazi
 </code></pre>
 
 ***
@@ -754,7 +732,7 @@ Linux exige que la cible soit spécifiée explicitement pour obtenir la version 
 
 ```bash
 curl -LSfs https://raw.githubusercontent.com/Byron/dua-cli/master/ci/install.sh | \
-    sh -s -- --git Byron/dua-cli --target x86_64-unknown-linux-musl --crate dua
+    sh -s -- --git Byron/dua-cli --target x86_64-unknown-linux-musl --crate dua 
 ```
 
 ***
@@ -776,3 +754,16 @@ csvlens <filename>
 #### Raccourcis clavier
 
 <table data-header-hidden><thead><tr><th width="222">Clé</th><th>Action</th></tr></thead><tbody><tr><td><strong>Raccourci</strong></td><td><strong>Action</strong></td></tr><tr><td><code>hjkl</code> (ou <code>← ↓ ↑ →</code>)</td><td>Défilez d'une ligne ou d'une colonne dans la direction indiquée.</td></tr><tr><td><code>Ctrl + f</code> (ou <code>Page Down</code>)</td><td>Faites défiler une fenêtre vers le bas</td></tr><tr><td><code>Ctrl + b</code> (ou <code>Page Up</code>)</td><td>Faites défiler d'une fenêtre vers le haut</td></tr><tr><td><code>Ctrl + d</code> (ou <code>d</code>)</td><td>Faites défiler la moitié de la fenêtre vers le bas</td></tr><tr><td><code>Ctrl + u</code> (ou <code>u</code>)</td><td>Faites défiler la moitié de la fenêtre vers le haut</td></tr><tr><td><code>Ctrl + h</code></td><td>Défilez d'une fenêtre vers la gauche</td></tr><tr><td><code>Ctrl + l</code></td><td>Défilez d'une fenêtre vers la droite</td></tr><tr><td><code>Ctrl + ←</code></td><td>Défilez vers la gauche jusqu'à la première colonne</td></tr><tr><td><code>Ctrl + →</code></td><td>Défilez vers la droite jusqu'à la dernière colonne</td></tr><tr><td><code>Ctrl + e</code></td><td>Afficher les lignes marquées sur la sortie standard et quitter</td></tr><tr><td><code>G</code> (ou <code>End</code>)</td><td>Aller en bas</td></tr><tr><td><code>g</code> (ou <code>Home</code>)</td><td>Retour en haut</td></tr><tr><td><code>n</code> (en mode Recherche)</td><td>Passer au résultat suivant</td></tr><tr><td><code>N</code> (en mode Recherche)</td><td>Aller au résultat précédent</td></tr><tr><td><code>TAB</code></td><td>Basculer entre les modes de sélection de lignes, de colonnes ou de cellules</td></tr><tr><td><code>></code></td><td>Augmenter la largeur de la colonne sélectionnée</td></tr><tr><td><code>&#x3C;</code></td><td>Réduire la largeur de la colonne sélectionnée</td></tr><tr><td><code>Shift + ↓</code>(ou <code>J</code>)</td><td>Trier les lignes ou inverser le sens du tri selon la colonne sélectionnée</td></tr><tr><td><code>Ctrl + j</code></td><td>Identique à ce qui précède, mais triez par ordre naturel (par exemple « fichier2 » &#x3C; « fichier10»).</td></tr><tr><td><code>y</code></td><td>Copier la ligne ou la cellule sélectionnée dans le presse-papiers</td></tr><tr><td><code>q</code></td><td>Sortie</td></tr></tbody></table>
+
+***
+
+## Miller
+
+Marre de jongler avec des tas d'outils pour travailler avec vos fichiers CSV et JSON ? Miller est un outil permettant de requêter, manipuler ou reformater vos fichiers CSV / JSON de façons préciser depuis votre terminal avec des commandes sort, cut et join et une compréhension approfondie des formats de données structurés
+
+{% embed url="https://github.com/johnkerl/miller" %}
+
+```bash
+yum install miller # Installer miller
+```
+
