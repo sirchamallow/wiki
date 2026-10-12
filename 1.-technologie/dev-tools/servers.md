@@ -136,3 +136,19 @@ Déployer votre propre PaaS.
 
 Dokku est une plateforme PaaS (Platform as a Service) extensible et open source, fonctionnant sur un serveur unique de votre choix. Dokku permet de créer des applications à la volée à partir d'une image Docker ( `git push`) , soit via un Dockerfile, soit par détection automatique du langage grâce aux Buildpacks, puis de lancer des conteneurs basés sur cette image
 
+***
+
+## CheckMK
+
+{% embed url="https://checkmk.com" %}
+
+Checkmk est une solution de supervision (monitoring) open-source et professionnelle, conçue pour surveiller l'ensemble des composants d'une infrastructure IT : serveurs, applications, réseaux, bases de données, services cloud, containers, etc. Il permet aux équipes informatiques de détecter rapidement les anomalies, d’analyser les performances, et de garantir la disponibilité des systèmes critiques.
+
+***
+
+## ChirpStack
+
+{% embed url="https://www.chirpstack.io/" %}
+
+ChirpStack est un serveur réseau LoRaWAN open source permettant de déployer des réseaux LoRaWAN. Il offre une interface web pour la gestion des passerelles, des appareils et des locataires, ainsi que des intégrations natives avec les principaux fournisseurs de cloud, bases de données et services couramment utilisés pour la gestion des données des appareils. De plus, ChirpStack expose une API basée sur gRPC qui peut être utilisée pour intégrer ou étendre ses fonctionnalités.
+
