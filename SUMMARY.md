@@ -4,7 +4,7 @@
 * [1. Technologie](technologie/README.md)
   * [DEV tools](1.-technologie/dev-tools/README.md)
     * [Base de données](1.-technologie/dev-tools/bdd.md)
-    * [Fonts](1.-technologie/dev-tools/fonts.md)
+    * [Fonts / Police d'écritures](1.-technologie/dev-tools/fonts.md)
     * [Git](1.-technologie/dev-tools/git.md)
     * [IDE](1.-technologie/dev-tools/ide.md)
     * [Langages](1.-technologie/dev-tools/langages.md)
