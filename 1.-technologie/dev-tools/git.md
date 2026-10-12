@@ -7,9 +7,9 @@ icon: git
 
 ## Git
 
-Logiciel de versionning
-
 {% embed url="https://git-scm.com/download/linux" %}
+
+Logiciel de versionning
 
 #### Installation
 
@@ -19,8 +19,6 @@ git version              # Check your git version
 ```
 
 ### Autocomplétion
-
-#### Activer autocomplétion des commandes
 
 Activer la correction automatique pour les commandes Git
 
@@ -32,7 +30,7 @@ Vous devez attribuer une valeur au paramètre de configuration help.autocorrect.
 git config --global help.autocorrect 1
 ```
 
-#### Désactiver la correction automatique
+Désactiver la correction automatique
 
 ```bash
 git config --global --unset help.autocorrect
@@ -41,6 +39,8 @@ git config --global --unset help.autocorrect
 ***
 
 ## GitHub CLI
+
+{% embed url="https://github.com/cli/cli/blob/trunk/docs/install_linux.md#fedora-centos-red-hat-enterprise-linux-dnf" %}
 
 GitHub CLI est un outil open source pour utiliser GitHub depuis votre terminal.
 
@@ -51,15 +51,13 @@ sudo dnf install gh
 sudo dnf update gh
 ```
 
-{% embed url="https://github.com/cli/cli/blob/trunk/docs/install_linux.md#fedora-centos-red-hat-enterprise-linux-dnf" %}
-
 ***
 
-## Gac
-
-Un script permettant de faire une commande `git add -A && git commit -m "message"` plus rapidement :)
+## GAC
 
 {% embed url="https://github.com/devpolo/gac" %}
+
+Un script permettant de faire une commande `git add -A && git commit -m "message"` plus rapidement :)
 
 ### Commandes disponible
 
@@ -74,3 +72,11 @@ gac t <your message>    # git add -A && git commit -m "test: <your message>"
 gac x <your message>    # git add -A && git commit -m "fix: <your message>"
 gac <your message>      # git add -A && git commit -m "<your message>"
 ```
+
+***
+
+## Gist
+
+{% embed url="https://opengist.io/" %}
+
+**Opengist** est un pastebin open-source self-hostable qui remplace les `Gists` de GitHub en gardant vos données chez vous, avec versionning Git intégré et coloration syntaxique multi-langages. Authentification OAuth2 supportée (GitHub, GitLab, Gitea, OpenID Connect) et contrôle granulaire de l'accès anonyme pour sécuriser votre instance
