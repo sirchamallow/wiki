@@ -129,6 +129,14 @@ Le logiciel d'accès et de support à distance open-source rapide
 
 ***
 
+### Recordly
+
+Un outil open-source pour les démos, les visites guidées et les vidéos de produits. Il inclut un zoom automatique intégré, un curseur fluide et bien plus encore.
+
+{% embed url="https://recordly.dev/" %}
+
+***
+
 ### Firefox Developer Edition
 
 Navigateur web
