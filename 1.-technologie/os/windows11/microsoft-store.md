@@ -64,6 +64,8 @@ Quelques avantages à utiliser le téléchagement/installation de logiciels depu
 
 {% embed url="https://apps.microsoft.com/detail/9pf4kz2vn4w9" %}
 
+{% embed url="https://apps.microsoft.com/detail/9n3sqk8pds8g" %}
+
 ### Microsoft
 
 {% embed url="https://apps.microsoft.com/detail/9wzdncrfjbh4" %}

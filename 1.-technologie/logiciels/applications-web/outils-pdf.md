@@ -1,6 +1,6 @@
 ---
-icon: file-pdf
 description: Des astuces et des outils pour les fichiers .PDF
+icon: file-pdf
 ---
 
 # Outils PDF
@@ -21,7 +21,7 @@ Source : [https://github.com/Stirling-Tools/Stirling-PDF](https://github.com/Sti
 
 ### Google Traduction
 
-Rendez-vous sur Google Traduction :&#x20;
+{% embed url="https://translate.google.com/" %}
 
 1. Allez sur [Google Traduction](https://translate.google.com/) et sélectionnez la fonction documents en haut de l'écran.
 2. Sélectionnez parcourir l'ordinateur pour importer le fichier PDF que vous souhaitez traduire.
@@ -30,12 +30,12 @@ Rendez-vous sur Google Traduction :&#x20;
 
 ### DeepL
 
+{% embed url="https://www.deepl.com/translator" %}
+
 {% hint style="info" %}
 Si **DeepL** propose la fonctionnalité gratuitement, elle dispoe d'une limite d'usage.\
 Actuellement, celle-ci se porte à [**3 traductions de fichiers (non modifiables)** ](https://www.deepl.com/fr/pro/change-plan#team)par mois
 {% endhint %}
-
-Rendez-vous sur DeepL :
 
 1. Rendez-vous sur le site de [DeepL](https://www.deepl.com/translator), et sélectionnez la fonction [Traduire les fichiers](https://www.deepl.com/fr/translator/files).
 2. Cliquez sur le bouton Sélectionner pour importer le fichier PDF que vous souhaitez traduire.
