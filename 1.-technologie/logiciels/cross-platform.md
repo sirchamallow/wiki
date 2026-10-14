@@ -262,3 +262,19 @@ Logiciel d'écoute de Podcasts (Android, iOS, Web)
 Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits administrateurs pour le lancer
 
 {% embed url="https://smoothcsv.com/fr" %}
+
+***
+
+### Thunderbird
+
+{% embed url="https://www.thunderbird.net/fr/" %}
+
+**Quelques Astuces**
+
+* [Mise à jour de Thunderbird](https://support.mozilla.org/fr/kb/mise-jour-de-thunderbird)
+* [Trouver quelle version de Thunderbird vous utilisez](https://support.mozilla.org/fr/kb/trouver-quelle-version-thunderbird-vous-utilisez)
+* [Utiliser plusieurs profils utilisateur](https://support.mozilla.org/fr/kb/utiliser-plusieurs-profils-utilisateur)
+* [Installer Thunderbird sous Linux](https://support.mozilla.org/fr/kb/installer-thunderbird-sous-linux)
+* [Installer Thunderbird sous Windows](https://support.mozilla.org/fr/kb/installer-thunderbird-sous-windows)
+* [Thunderbird ESR, c'est quoi ?](https://support.mozilla.org/fr/kb/thunderbird-esr)
+* [MozBackup](https://mozbackup.jasnapaka.com/), un outil d'aide pour les backups de profils (import / export)
