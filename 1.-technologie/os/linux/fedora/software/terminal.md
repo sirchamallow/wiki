@@ -259,9 +259,9 @@ sudo dnf -y install tmux
 
 ## Dog
 
-dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
-
 {% embed url="https://github.com/ogham/dog" %}
+
+dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
 
 #### Installation
 
@@ -341,6 +341,39 @@ dog --version # checking the installed version of dog
 ```
 
 {% embed url="https://www.linode.com/docs/guides/use-dog-linux-dns-client/" %}
+
+***
+
+### Doggo
+
+{% embed url="https://github.com/mr-karan/doggo" %}
+
+**doggo** est un client DNS moderne en ligne de commande (comme _dig_ ) écrit en Go. Il affiche les informations de manière claire et concise et prend en charge des protocoles tels que DoH, DoT, DoQ et DNSCrypt. Ce projet est entièrement inspiré de [dog](https://github.com/ogham/dog/) , un programme écrit en Rust. L'auteur y à ajouter quelques fonctionnalités et réécrit en `Go`. D'où le nom `dog`+ `go`=> **doggo** .
+
+#### Installation facile (recommandée)
+
+```
+curl -fsSL https://raw.githubusercontent.com/mr-karan/doggo/main/install.sh | sh
+```
+
+#### Gestionnaires de paquets
+
+* Homebrew (MacOS) : `brew install doggo`
+* Winget (Windows) : `winget install doggo`
+
+#### Démarrage rapide
+
+Voici quelques exemples rapides pour vous familiariser :
+
+```bash
+doggo example.com # Simple DNS lookup
+doggo MX github.com @9.9.9.9 # Query MX records using a specific nameserver
+doggo example.com @https://cloudflare-dns.com/dns-query # Use DNS over HTTPS
+doggo example.com --json | jq '.responses[0].answers[].address' # JSON output for scripting
+doggo --reverse 8.8.8.8 --short # Reverse DNS lookup
+doggo example.com --trace # Follow the delegation chain iteratively
+doggo example.com --gp-from Germany,Japan --gp-limit 2 # Using Globalping
+```
 
 ***
 
