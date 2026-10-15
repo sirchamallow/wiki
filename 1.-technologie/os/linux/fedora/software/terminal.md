@@ -16,8 +16,6 @@ fish --version        # Check fish version
 gnome-shell --version # Check GNOME version
 ```
 
-{% embed url="https://askcodez.com/comment-trouver-ma-version-de-shell-a-laide-de-commande-de-linux.html" %}
-
 ### Changer le shell par défaut
 
 {% hint style="info" %}
@@ -26,12 +24,10 @@ Pour changer de shell, un utilisateur doit exécuter la commande **chsh** et pr�
 
 ```bash
 sudo dnf install util-linux-user    # install chsh
-cat /etc/shells			    # list all the shells from your system
-chsh				    # change the shell for your user
-/bin/zsh			    # Example: change the shell Bash to ZSH
+cat /etc/shells			                # list all the shells from your system
+chsh				                        # change the shell for your user
+/bin/zsh			                      # Example: change the shell Bash to ZSH
 ```
-
-{% embed url="https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html" %}
 
 ### Remplacer Bash par Zsh&#x20;
 
@@ -41,10 +37,8 @@ Il s'agit d'une version étendue du **Bourne Shell (sh).** L'intérêt de _Zsh_ 
 Zsh se trouvat dans les référentiels Fedora et peut être installé avec la commande dnf suivante.
 
 ```bash
-sudo dnf install zsh # Installer ZSH
+sudo dnf install zsh # Installer sur Linux (Fedora)
 ```
-
-{% embed url="https://sourceforge.net/projects/zsh/files/" %}
 
 ***
 
@@ -210,21 +204,19 @@ source ~/.zshrc
 
 ## Warp
 
-Warp est un émulateur de terminal écrit en **Rust**.\
-\
-Il se distingue par des fonctionnalités telles que Warp Drive pour le partage de commandes entre équipes, Warp AI pour les suggestions et l'assistance des commandes, ainsi qu'un IDE moderne avec une sélection de texte et un positionnement du curseur.
-
 {% embed url="https://www.warp.dev" %}
 
 {% embed url="https://github.com/warpdotdev/Warp" %}
 
-#### Installation
+Warp est un émulateur de terminal écrit en **Rust**.\
+\
+Il se distingue par des fonctionnalités telles que Warp Drive pour le partage de commandes entre équipes, Warp AI pour les suggestions et l'assistance des commandes, ainsi qu'un IDE moderne avec une sélection de texte et un positionnement du curseur.
 
 La manière la plus simple d'installer Warp est de télécharger et d'installer [le paquet rpm](https://app.warp.dev/download?package=rpm).\
 Après le téléchargement, vous pouvez installer le paquet avec :
 
 ```bash
-sudo dnf install ./.rpm
+sudo dnf install ./.rpm # Installer sur Linux (Fedora)
 ```
 
 L'installation du paquetage .rpm configurera automatiquement le dépôt yum de Warp. Lors de la première mise à jour, dnf récupérera la clé de signature nécessaire pour vérifier l'intégrité des paquets téléchargés.
@@ -235,10 +227,8 @@ L'installation du paquetage .rpm configurera automatiquement le dépôt yum de W
 
 **tmux** est un multiplexeur de terminaux libre en mode texte. Il permet d'utiliser plusieurs terminaux virtuels dans une seule fenêtre de terminal ou une session sur un terminal distant. tmux peut être détaché d'une session et continuer de fonctionner en arrière-plan, on peut également s'y rattacher plus tard. [Wikipédia](https://fr.wikipedia.org/wiki/Tmux)
 
-#### Installation
-
 ```bash
-sudo dnf -y install tmux
+sudo dnf -y install tmux # Installer sur Linux (Fedora)
 ```
 
 {% embed url="https://fedoramagazine.org/use-tmux-more-powerful-terminal/" %}
@@ -263,23 +253,21 @@ sudo dnf -y install tmux
 
 dog est un client DNS en ligne de commande comme dig. Il utilise une syntax colorée qui comprend la syntaxe normale des arguments en ligne de commande. Le client supporte les protocoles DNS-over-TLS et DNS-over-HTTPS, et peut émettre du JSON.
 
-#### Installation
-
 Sur Fedora, vous pouvez installer dog via Snapcraft ou manuellement
 
 #### Installation via Snap
 
 ```bash
-sudo dnf install snapd		      # Enable Snapd
+sudo dnf install snapd		            # Enable Snapd
 sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the following to create a symbolic link
-sudo snap install dog		      # Install dog
+sudo snap install dog		              # Install dog
 ```
 
 {% embed url="https://snapcraft.io/install/dog/fedora" %}
 
 #### Installation manuelle
 
-Installer `gcc`, `tar`, et les librairies SSL nécéssaire : `libssl` or `openssl`.
+Installer `gcc`, `tar`, et les librairies SSL nécessaire : `libssl` or `openssl`.
 
 ```bash
 sudo dnf install gcc tar openssl-devel
@@ -352,7 +340,7 @@ dog --version # checking the installed version of dog
 
 #### Installation facile (recommandée)
 
-```
+```bash
 curl -fsSL https://raw.githubusercontent.com/mr-karan/doggo/main/install.sh | sh
 ```
 
@@ -394,34 +382,30 @@ sudo yum install duck
 
 ## **MTR (**_**My Traceroute**_**)**
 
-Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
-
-#### Installation
-
-```bash
-sudo dnf install mtr
-```
+{% embed url="https://www.bitwizard.nl/mtr/" %}
 
 {% embed url="https://github.com/traviscross/mtr" %}
 
-{% embed url="https://www.bitwizard.nl/mtr/" %}
+Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
+
+```bash
+sudo dnf install mtr # Installer sur Linux (Fedora)
+```
 
 ***
 
 ## VIM
 
+{% embed url="https://www.vim.org/download.php" %}
+
+{% embed url="https://fedoraproject.org/wiki/Vim" %}
+
 VIM permets de lire et d'éditer des fichiers depuis votre terminal.\
 Pas facile à prendre en main :D
-
-#### Installation
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf install vim        # VIM CLI version
 </strong><strong>sudo dnf install vim-X11    # VIM vith GUI features
 </strong></code></pre>
-
-{% embed url="https://fedoraproject.org/wiki/Vim" %}
-
-{% embed url="https://www.vim.org/download.php" %}
 
 ### Liste de raccourcis
 
@@ -455,17 +439,13 @@ Vim Cheatsheet : [https://vim.rtorr.com/lang/fr\_fr](https://vim.rtorr.com/lang/
 
 ## GNU nano
 
+{% embed url="https://www.nano-editor.org/" %}
+
 GNU nano permet de lire et d'éditer des fichiers depuis votre terminal mais de façon plus accessible que VIM.
 
-#### Installation
-
 ```bash
-sudo dnf install nano
+sudo dnf install nano # Installer sur Linux (Fedora)
 ```
-
-{% embed url="https://www.nano-editor.org/git.php" %}
-
-{% embed url="https://www.nano-editor.org/" %}
 
 ### Liste de raccourcis
 
