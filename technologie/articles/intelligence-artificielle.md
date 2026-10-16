@@ -1,6 +1,6 @@
 ---
-icon: head-side-brain
 description: Outils pour l'IA
+icon: head-side-brain
 ---
 
 # Intelligence Artificielle
@@ -53,15 +53,9 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://www.perplexity.ai" %}
 
-### Microsoft Copilot
-
 {% embed url="https://copilot.microsoft.com" %}
 
-### ChatGPT Search
-
 {% embed url="https://chatgpt.com/search" %}
-
-### LINER
 
 {% embed url="https://getliner.com" %}
 
@@ -69,23 +63,13 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 ## Modèle
 
-### Claude (Anthropic)
-
 {% embed url="https://claude.ai" %}
-
-### Gemini (Google)
 
 {% embed url="https://gemini.google.com/?hl=fr" %}
 
-### ChatGPT (OpenAI)
-
 {% embed url="https://openai.com/index/chatgpt/" %}
 
-### Mistral AI
-
 {% embed url="https://mistral.ai/fr/" %}
-
-### Qwen (Alibaba)
 
 {% embed url="https://chat.qwenlm.ai" %}
 
@@ -93,13 +77,11 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 ## Local
 
-### Anything LLM
-
 {% embed url="https://anythingllm.com/" %}
 
-### Ollama
-
 {% embed url="https://ollama.com/" %}
+
+{% embed url="https://ente.com/ensu/" %}
 
 ***
 
@@ -108,3 +90,10 @@ Une application permettant de convertir automatiquement vos Figma en code
 {% embed url="https://golem.ai/en/" %}
 
 {% embed url="https://huggingface.co/kyutai" %}
+
+***
+
+## Reverse Engineering
+
+{% embed url="https://rea.tools/" %}
+
