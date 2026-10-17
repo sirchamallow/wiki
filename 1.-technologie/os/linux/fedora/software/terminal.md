@@ -44,6 +44,8 @@ sudo dnf install zsh # Installer sur Linux (Fedora)
 
 ## Oh-My-ZSH (OMZ)
 
+{% embed url="https://ohmyz.sh" %}
+
 **Oh My Zsh** est un framework pour ZSH, il fournit de nombreux thèmes et plugins (support de PHP, Python, PostgreSQL ...). Ci-dessous, sont présents ceux que j'utilise.&#x20;
 
 {% hint style="info" %}
@@ -73,8 +75,6 @@ omz update # Mise à jour manuel de omz
 zstyle ':omz:update' mode auto	    # Activer mise à jour automatique
 zstyle ':omz:update' mode disabled  # Désactiver mise à jour automatique
 ```
-
-{% embed url="https://github.com/ohmyzsh/ohmyzsh#getting-updates" %}
 
 ## Thèmes OMZ
 
@@ -206,8 +206,6 @@ source ~/.zshrc
 
 {% embed url="https://www.warp.dev" %}
 
-{% embed url="https://github.com/warpdotdev/Warp" %}
-
 Warp est un émulateur de terminal écrit en **Rust**.\
 \
 Il se distingue par des fonctionnalités telles que Warp Drive pour le partage de commandes entre équipes, Warp AI pour les suggestions et l'assistance des commandes, ainsi qu'un IDE moderne avec une sélection de texte et un positionnement du curseur.
@@ -262,8 +260,6 @@ sudo dnf install snapd		            # Enable Snapd
 sudo ln -s /var/lib/snapd/snap /snap  # Enable classic snap support, enter the following to create a symbolic link
 sudo snap install dog		              # Install dog
 ```
-
-{% embed url="https://snapcraft.io/install/dog/fedora" %}
 
 #### Installation manuelle
 
@@ -328,11 +324,9 @@ Vérifier votre installation en identifiant la version de `dog` installer
 dog --version # checking the installed version of dog
 ```
 
-{% embed url="https://www.linode.com/docs/guides/use-dog-linux-dns-client/" %}
-
 ***
 
-### Doggo
+## Doggo
 
 {% embed url="https://github.com/mr-karan/doggo" %}
 
@@ -367,24 +361,20 @@ doggo example.com --gp-from Germany,Japan --gp-limit 2 # Using Globalping
 
 ## Cyberduck CLI
 
-Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
+{% embed url="https://duck.sh/" %}
 
-#### Installation
+Un outil de transfert de fichiers qui s'exécute dans votre shell sous Linux & OS X ou votre invite de ligne de commande Windows. Modifiez des fichiers sur des serveurs distants, téléchargez, chargez et copiez entre des serveurs avec FTP, SFTP ou WebDAV, ainsi que la prise en charge des déploiements de stockage dans le cloud Amazon S3 et OpenStack Swift.
 
 ```bash
 echo -e "[duck-stable]\nname=duck-stable\nbaseurl=https://repo.cyberduck.io/stable/\$basearch/\nenabled=1\ngpgcheck=0" | sudo tee /etc/yum.repos.d/duck-stable.repo
 sudo yum install duck
 ```
 
-{% embed url="https://duck.sh/" %}
-
 ***
 
 ## **MTR (**_**My Traceroute**_**)**
 
 {% embed url="https://www.bitwizard.nl/mtr/" %}
-
-{% embed url="https://github.com/traviscross/mtr" %}
 
 Un outil de diagnostic de réseau en ligne de commande qui fournit les fonctions des commandes **Ping** et **Traceroute**.
 
@@ -486,11 +476,9 @@ Pour sélectionner du texte, le copier et le coller :
 
 ## Fresh
 
-Un éditeur de texte en ligne de commande moderne et complet, **sans aucune configuration requise**. Raccourcis clavier familiers, prise en charge de la souris et fonctionnalités dignes d'un IDE : aucune période d'apprentissage nécessaire.
-
 {% embed url="https://getfresh.dev/" %}
 
-{% embed url="https://github.com/sinelaw/fresh" %}
+Un éditeur de texte en ligne de commande moderne et complet, **sans aucune configuration requise**. Raccourcis clavier familiers, prise en charge de la souris et fonctionnalités dignes d'un IDE : aucune période d'apprentissage nécessaire.
 
 #### Installation
 
@@ -503,11 +491,9 @@ Ou téléchargez le fichier `.deb` manuellement depuis la [page de téléchargem
 
 ## curl
 
-cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
-
 {% embed url="https://curl.se/" %}
 
-{% embed url="https://github.com/curl/curl" %}
+cURL (_client URL request library_) est une [interface en ligne de commande](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande), destinée à récupérer le contenu d'une ressource accessible sur internet. Il peut être utilisé en tant que client REST. cURL implémente l'interface utilisateur et repose sur la bibliothèque logicielle `libcurl`
 
 ```bash
 sudo dnf install curl # Installer curl
@@ -517,9 +503,9 @@ sudo dnf install curl # Installer curl
 
 ## Htop
 
-**htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
-
 {% embed url="https://htop.dev/downloads.html" %}
+
+**htop** est un moniteur système pour les systèmes d’exploitation type Unix très similaire à **top**, qui fonctionne également en mode Terminal, mais qui dispose d'un environnement en mode texte plus convivial que ce dernier.
 
 ```bash
 sudo dnf install htop  # Installer htop
@@ -529,9 +515,9 @@ sudo dnf install htop  # Installer htop
 
 ## Btop++
 
-Une alternative plus graphique à `top` ou `htop`
-
 {% embed url="https://github.com/aristocratos/btop?ref=itsfoss.com" %}
+
+Une alternative plus graphique à `top` ou `htop`
 
 {% hint style="success" %}
 Des thèmes sont également disponible : [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop?ref=itsfoss.com#themes)
@@ -544,11 +530,11 @@ Des thèmes sont également disponible : [https://github.com/aristocratos/btop](
 
 ## GPing
 
+{% embed url="https://github.com/orf/gping" %}
+
 Une alternative graphique et plus complète (multipe hosts par exemple) à la commande `ping`
 
 Après l'installation, lancer `gping` \<domaine.tld>
-
-{% embed url="https://github.com/orf/gping" %}
 
 ```bash
 sudo dnf copr enable atim/gping -y && sudo dnf install gping  # Installer GPing
@@ -558,16 +544,14 @@ sudo dnf copr enable atim/gping -y && sudo dnf install gping  # Installer GPing
 
 ## EZA
 
+{% embed url="https://eza.rocks/" %}
+
 `eza` est une alternative moderne du programme de listage de fichiers `ls`. \
 Il utilise des couleurs pour distinguer les types de fichiers et les métadonnées. Il connaît les liens symboliques, les attributs étendus et Git ! Enfin, il est petit, rapide et ne comporte qu'un seul binaire :)
 
 Après l'installation, lancer `eza` à la place de commande `ls`.
 
 Pour connaitre la liste complète des raccourcis, taper `eza --help`
-
-{% embed url="https://eza.rocks/" %}
-
-{% embed url="https://github.com/eza-community/eza/blob/main/INSTALL.md#fedora" %}
 
 ```bash
 sudo dnf install eza  # Installer eza
@@ -600,13 +584,12 @@ eza -l --icons --hyperlink --header --time-style "+%d/%m/%Y" --git --git-repos-q
 
 ## Arsenal
 
-Un outil pour créez un inventaire de vos commandes Linux favorites
-
 {% embed url="https://github.com/Orange-Cyberdefense/arsenal" %}
 
+Un outil pour créez un inventaire de vos commandes Linux favorites
+
 ```bash
-# Installation avec pip
-python3 -m pip install arsenal-cli
+python3 -m pip install arsenal-cli  # Installation avec pip
 
 # Installation manuelle
 git clone https://github.com/Orange-Cyberdefense/arsenal.git
@@ -614,22 +597,17 @@ cd arsenal
 python3 -m pip install -r requirements.txt
 ./run
 
-# Inside your .bashrc or .zshrc add the path to run to help you do that you could launch the addalias.sh script
-./addalias.sh
-
-# Lancer l'application
-arsenal               
+./addalias.sh # Inside your .bashrc or .zshrc add the path to run to help you do that you could launch the addalias.sh script
+arsenal # Lancer l'application               
 ```
 
 ***
 
 ## sshx
 
-`sshx` est une solution pour partager votre terminal en expérience collaborative. Vous pourrez ainsi partager votre terminal aussi facilement qu’un document Google Docs, avec un simple lien.
-
 {% embed url="https://sshx.io/" %}
 
-{% embed url="https://github.com/ekzhang/sshx" %}
+`sshx` est une solution pour partager votre terminal en expérience collaborative. Vous pourrez ainsi partager votre terminal aussi facilement qu’un document Google Docs, avec un simple lien.
 
 ```bash
 curl -sSf https://sshx.io/get | sh  # Installer  sshx
@@ -639,11 +617,9 @@ curl -sSf https://sshx.io/get | sh  # Installer  sshx
 
 ## SmokePing
 
-**SmokePing** est un logiciel de surveillance réseau qui mesure et affiche graphiquement les temps de latence (temps de réponse) entre une machine et plusieurs autres cibles sur un réseau. Conçu par _Tobi Oetiker_, l'outil est libre et écrit en Perl.
-
 {% embed url="https://oss.oetiker.ch/smokeping/" %}
 
-{% embed url="https://github.com/oetiker/SmokePing" %}
+**SmokePing** est un logiciel de surveillance réseau qui mesure et affiche graphiquement les temps de latence (temps de réponse) entre une machine et plusieurs autres cibles sur un réseau. Conçu par _Tobi Oetiker_, l'outil est libre et écrit en Perl.
 
 #### Installation
 
@@ -709,25 +685,31 @@ Tu devrais voir les graphiques générés par SmokePing après quelques minutes 
 
 ## HL
 
+{% embed url="https://github.com/pamburus/hl" %}
+
 Visualiseur et processeur de journaux haute performance qui transforme les journaux aux formats JSON et logfmt en un format lisible par l'humain. Conçu pour une efficacité optimale, il permet une analyse rapide des fichiers journaux volumineux avec une surcharge minimale.
 
-{% embed url="https://github.com/pamburus/hl" %}
+Download and extract using `curl` and `tar` on Linux (x86\_64)
+
+```bash
+curl -sSfL https://github.com/pamburus/hl/releases/latest/download/hl-linux-x86_64-musl.tar.gz | tar xz
+```
 
 ***
 
 ## Tabview
 
-Tabiew est une application TUI légère qui permet aux utilisateurs de visualiser et d'interroger des fichiers de données tabulaires, tels que CSV, Parquet, Arrow, etc.
-
 {% embed url="https://github.com/shshemi/tabiew" %}
+
+Tabiew est une application TUI légère qui permet aux utilisateurs de visualiser et d'interroger des fichiers de données tabulaires, tels que CSV, Parquet, Arrow, etc.
 
 ***
 
 ## Yazi
 
-Un gestionnaire de fichiers dans le terminal
-
 {% embed url="https://yazi-rs.github.io/" %}
+
+Un gestionnaire de fichiers dans le terminal
 
 <pre class="language-bash"><code class="lang-bash"><strong>sudo dnf copr enable lihaohong/yazi  # Activer le dépot copr/yazi 
 </strong>sudo dnf install yazi  # Installer Yazi
@@ -737,9 +719,9 @@ Un gestionnaire de fichiers dans le terminal
 
 ## **dua** (-> _Disk Usage Analyzer_)
 
-Un visualiseur d'espace disque moderne dans le terminal
-
 {% embed url="https://lib.rs/crates/dua-cli" %}
+
+Un visualiseur d'espace disque moderne dans le terminal
 
 Linux exige que la cible soit spécifiée explicitement pour obtenir la version MUSL.
 
@@ -752,9 +734,9 @@ curl -LSfs https://raw.githubusercontent.com/Byron/dua-cli/master/ci/install.sh 
 
 ## csvlens
 
-Ouvrir un ficher `.csv` depuis le terminal car pourquoi pas après tout
-
 {% embed url="https://github.com/YS-L/csvlens" %}
+
+Ouvrir un ficher `.csv` depuis le terminal car pourquoi pas après tout
 
 ### Liste de raccourcis
 
