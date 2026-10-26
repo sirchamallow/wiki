@@ -18,7 +18,7 @@
       * [Caméra Thermique](1.-technologie/hardware/electricite/camera-thermique.md)
       * [Legrand 0 494 30](technologie/hardware/electricite/legrand-0-494-30.md)
       * [Octopart](1.-technologie/hardware/electricite/octopart.md)
-      * [Prise connectées (IKEA)](1.-technologie/hardware/electricite/prise-connectees-ikea.md)
+      * [Prise connectées](1.-technologie/hardware/electricite/prise-connectees.md)
       * [Vider les condos (Power Drain)](1.-technologie/hardware/electricite/vider-les-condos-power-drain.md)
     * [High-Tech](technologie/hardware/informatique/README.md)
       * [Accessoires Mobile](1.-technologie/hardware/informatique/accessoires-mobile.md)
