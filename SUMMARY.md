@@ -15,6 +15,7 @@
   * [Hardware](technologie/hardware/README.md)
     * [Electricité](technologie/hardware/electricite/README.md)
       * [Alimentation électriques](1.-technologie/hardware/electricite/alimentation-electriques.md)
+      * [Caméra Thermique](1.-technologie/hardware/electricite/camera-thermique.md)
       * [Legrand 0 494 30](technologie/hardware/electricite/legrand-0-494-30.md)
       * [Octopart](1.-technologie/hardware/electricite/octopart.md)
       * [Prise connectées (IKEA)](1.-technologie/hardware/electricite/prise-connectees-ikea.md)
