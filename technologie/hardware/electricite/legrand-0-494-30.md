@@ -3,9 +3,9 @@ description: Multiprise avec parafoudre et interrupteur
 icon: plug
 ---
 
-# Legrand 0 494 30
+# Multiprise parafoudre
 
-### Description
+## Legrand 0 494 30
 
 
 
@@ -35,8 +35,4 @@ Super multiprise très discrète :)
 
 ### Ressources
 
-| Ressouces           | Lien                                                                                                                                                                                                                                                                                                                         |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fiche Produit       | [https://www.legrand.fr/pro/catalogue/rallonge-multiprise-pour-espace-tv-4-prises-2pt-4-prises-2p-16a-230v-interrupteur-parafoudre-et-cordon-longueur-2m-noir](https://www.legrand.fr/pro/catalogue/rallonge-multiprise-pour-espace-tv-4-prises-2pt-4-prises-2p-16a-230v-interrupteur-parafoudre-et-cordon-longueur-2m-noir) |
-| Guide d'utilisation | [https://assets.legrand.com/pim/NP-FT-GT/LE12156AB.pdf](https://assets.legrand.com/pim/NP-FT-GT/LE12156AB.pdf)                                                                                                                                                                                                               |
-| Fiche Technique     | [https://assets.legrand.com/pim/NP-FT-GT/F03123FR-01.pdf](https://assets.legrand.com/pim/NP-FT-GT/F03123FR-01.pdf)                                                                                                                                                                                                           |
+<table><thead><tr><th width="167">Ressouces</th><th>Lien</th></tr></thead><tbody><tr><td>Fiche Produit</td><td><a href="https://www.legrand.fr/pro/catalogue/rallonge-multiprise-pour-espace-tv-4-prises-2pt-4-prises-2p-16a-230v-interrupteur-parafoudre-et-cordon-longueur-2m-noir">https://www.legrand.fr/pro/catalogue/rallonge-multiprise-pour-espace-tv-4-prises-2pt-4-prises-2p-16a-230v-interrupteur-parafoudre-et-cordon-longueur-2m-noir</a></td></tr><tr><td>Guide d'utilisation</td><td><a href="https://assets.legrand.com/pim/NP-FT-GT/LE12156AB.pdf">https://assets.legrand.com/pim/NP-FT-GT/LE12156AB.pdf</a></td></tr><tr><td>Fiche Technique</td><td><a href="https://assets.legrand.com/pim/NP-FT-GT/F03123FR-01.pdf">https://assets.legrand.com/pim/NP-FT-GT/F03123FR-01.pdf</a></td></tr></tbody></table>

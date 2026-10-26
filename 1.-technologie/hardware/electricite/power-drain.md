@@ -1,11 +1,11 @@
 ---
 description: >-
-  Power Drain : cette vieille astuce informatique fonctionne-t-elle vraiment ou
-  relève-t-elle du mythe ?
+  "Vider les condos" : cette vieille astuce informatique fonctionne-t-elle
+  vraiment ou relève-t-elle du mythe ?
 icon: car-battery
 ---
 
-# Vider les condos (Power Drain)
+# Power Drain
 
 _Écran noir, ordinateur qui refuse de démarrer, ports USB capricieux… Sur les forums et dans les services informatiques, une recommandation revient régulièrement : effectuer un « Power Drain ». Une manipulation simple qui, selon certains, résout des problèmes mystérieux en quelques secondes. Mais que vaut réellement cette méthode ?_
 
