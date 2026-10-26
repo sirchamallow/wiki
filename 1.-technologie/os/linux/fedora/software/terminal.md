@@ -23,13 +23,23 @@ Pour changer de shell, un utilisateur doit exécuter la commande **chsh** et pr�
 {% endhint %}
 
 ```bash
-sudo dnf install util-linux-user    # install chsh
-cat /etc/shells			                # list all the shells from your system
-chsh				                        # change the shell for your user
-/bin/zsh			                      # Example: change the shell Bash to ZSH
+sudo dnf install util-linux-user    # Install chsh
+cat /etc/shells			                # liste tous les shells de votre système
+chsh				                        # Changer le shell de l'utilisateur
+/bin/zsh			                      # Exemple: changer leshell Bash pour ZSH
 ```
 
-### Remplacer Bash par Zsh&#x20;
+## Configurer son terminal
+
+{% embed url="https://stefy237.github.io/Mysh/" %}
+
+Mysh, un générateur de config terminal Linux. Vous récupérez un script, et tout est en place. Tout se passe dans lenavigateur. Un gain de temps considérable
+
+***
+
+## Zsh
+
+Comment remplacer Bash par Zsh
 
 **Zsh** (abréviation de **Z Shell**) est un programme shell riche en fonctionnalités pour les systèmes d'exploitation de type Unix (dont Linux est un dérivé) avec de nombreuses fonctionnalités.\
 Il s'agit d'une version étendue du **Bourne Shell (sh).** L'intérêt de _Zsh_ par rapport à la plupart des autres commandes cd, l'extension de chemin récursif et la correction orthographique et la sélection interactive de fichiers et de répertoires.
