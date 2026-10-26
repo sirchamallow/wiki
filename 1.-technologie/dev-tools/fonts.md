@@ -9,6 +9,8 @@ icon: square-font-awesome-stroke
 
 #### Par odre de préférence personnel
 
+{% embed url="https://github.com/microsoft/cascadia-code" %}
+
 {% embed url="https://madmalik.github.io/mononoki/" %}
 
 {% embed url="https://font.subf.dev/" %}
@@ -61,10 +63,8 @@ Les polices `Powerline`, sont un ensemble de polices de caractères spécialemen
 
 L'objectif principal des polices Powerline est d'améliorer l'esthétique et la lisibilité des symboles utilisés dans les interfaces en ligne de commande, en particulier pour afficher des informations telles que le statut du système, l'emplacement du répertoire, le statut de la source du `shell`, etc.
 
-#### Installation
-
 ```bash
-sudo dnf install powerline-fonts
+sudo dnf install powerline-fonts # Installer Powerline-fonts sur Fedora (Linux)
 ```
 
 {% embed url="https://github.com/powerline/fonts" %}
