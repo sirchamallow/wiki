@@ -278,3 +278,11 @@ Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits
 * [Installer Thunderbird sous Windows](https://support.mozilla.org/fr/kb/installer-thunderbird-sous-windows)
 * [Thunderbird ESR, c'est quoi ?](https://support.mozilla.org/fr/kb/thunderbird-esr)
 * [MozBackup](https://mozbackup.jasnapaka.com/), un outil d'aide pour les backups de profils (import / export)
+
+***
+
+### AB Dowload Manager
+
+Télécharger facilement des fichiers. Mettre en pause, accéler le téléchargement etc.
+
+{% embed url="https://abdownloadmanager.com/" %}
