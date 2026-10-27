@@ -62,6 +62,7 @@
         * [Microsoft Edge](1.-technologie/logiciels/browsers/chromium/edge.md)
         * [Vivaldi](1.-technologie/logiciels/browsers/chromium/vivaldi.md)
       * [Safari](1.-technologie/logiciels/browsers/safari.md)
+      * [Navigateur intégré](1.-technologie/logiciels/browsers/navigateur-integre.md)
     * [VPN](1.-technologie/logiciels/vpn.md)
   * [OS](technologie/os/README.md)
     * [Linux](1.-technologie/os/linux/README.md)
