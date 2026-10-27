@@ -108,6 +108,7 @@
       * [Messages](1.-technologie/os/ios-apple/messages.md)
       * [Accessoires](1.-technologie/os/ios-apple/accessoires.md)
       * [Boutique d'applications alternatives](1.-technologie/os/ios-apple/boutique-dapplications-alternatives.md)
+      * [Sauvegarde iPhone, iPad](1.-technologie/os/ios-apple/sauvegarde-iphone-ipad.md)
   * [Ressources](technologie/articles/README.md)
     * [Bandes de fréquences radioélectriques](technologie/articles/national-table-radio-frequency-bands-france.md)
     * [Moteur de recherche](1.-technologie/articles/moteur-de-recherche.md)
