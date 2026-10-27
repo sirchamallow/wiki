@@ -4,6 +4,107 @@ icon: poo
 
 # Navigateur intégré
 
+## Smartphones
+
+Sur la plupart des smartphones, le constructeur définit son propre navigateur comme application par défaut. Chaque lien touché dans un SMS, un e-mail ou une notification s'ouvre alors dans ce navigateur. Cet article liste les principaux navigateurs constructeurs et explique comment les remplacer sur Android et iOS.
+
+{% hint style="info" %}
+Il n'existe pas de bouton « désactiver » universel. La méthode consiste à **définir un autre navigateur par défaut**. Sur certaines marques, on peut aussi désactiver l'application du constructeur.
+{% endhint %}
+
+### Navigateurs proposés par les constructeurs
+
+<table><thead><tr><th width="99">Fabricant</th><th width="158">Navigateur intégré</th><th>Remarque</th></tr></thead><tbody><tr><td>Apple</td><td>Safari</td><td>Navigateur par défaut sur iPhone et iPad</td></tr><tr><td>Samsung</td><td>Samsung Internet</td><td>Navigateur par défaut sur les Galaxy</td></tr><tr><td>Xiaomi (Redmi, POCO)</td><td>Mi Browser (ou Mint Browser selon la ROM)</td><td>Souvent imposé par défaut, avec publicités et notifications</td></tr><tr><td>Huawei</td><td>Huawei Browser</td><td>Les liens externes dépendent du réglage système des applications par défaut</td></tr><tr><td>Vivo</td><td>Vivo Browser</td><td>Remplaçable depuis les applications par défaut</td></tr><tr><td>Google (Pixel)</td><td>Chrome</td><td>Navigateur d'origine de Google, préinstallé sur les Pixel</td></tr><tr><td>Oppo</td><td>Chrome</td><td>Chrome est défini par défaut sur les Oppo récents (ColorOS)</td></tr></tbody></table>
+
+{% hint style="warning" %}
+Les chemins de menu varient selon la marque, la version d'Android et la surcouche (One UI, HyperOS, ColorOS, etc.). Les libellés ci-dessous peuvent légèrement différer sur votre appareil.
+{% endhint %}
+
+### Prérequis
+
+1. Installer le navigateur souhaité (Chrome, Firefox, Edge, Brave, etc.) depuis le Play Store ou l'App Store.
+2. L'ouvrir **une fois** pour qu'il se déclare comme navigateur auprès du système. Sans cela, il peut ne pas apparaître dans la liste.
+
+### Changer le navigateur par défaut
+
+{% tabs %}
+{% tab title="Google Pixel / Android" %}
+1. Ouvrir **Paramètres**.
+2. Appuyer sur **Applications**.
+3. Sous « Général », appuyer sur **Applications par défaut**.
+4. Appuyer sur **Application de navigateur**.
+5. Sélectionner le navigateur voulu.
+{% endtab %}
+
+{% tab title="Samsung" %}
+1. Ouvrir **Paramètres** > **Applications**.
+2. Appuyer sur **Choisir les applications par défaut**.
+3. Choisir **Application de navigateur**.
+4. Sélectionner le navigateur voulu.
+
+**Option : désactiver Samsung Internet**
+
+**Paramètres** > **Applications** > **Samsung Internet** > **Désactiver**.
+
+{% hint style="warning" %}
+Sur certains Galaxy, le navigateur par défaut peut revenir à Samsung Internet tout seul. Vérifiez que l'économiseur de batterie du navigateur choisi n'est pas sur **Restreint** (le mode **Optimisé** convient).
+{% endhint %}
+{% endtab %}
+
+{% tab title="Xiaomi / Redmi / POCO" %}
+1. Ouvrir **Paramètres** > **Applications**.
+2. Appuyer sur **Gérer les applications**.
+3. Appuyer sur les **trois points** en haut à droite, puis sur **Applications par défaut**.
+4. Appuyer sur **Navigateur** et choisir le navigateur voulu.
+
+Mi Browser reste installé. Il est possible de désactiver ses notifications pour supprimer les messages indésirables.
+{% endtab %}
+
+{% tab title="Huawei" %}
+1. Ouvrir **Paramètres** > **Applications**.
+2. Appuyer sur **Applications par défaut**.
+3. Appuyer sur **Application de navigateur**.
+4. Choisir le navigateur voulu.
+{% endtab %}
+
+{% tab title="Vivo" %}
+1. Ouvrir **Paramètres** > **Applications et autorisations**.
+2. Aller dans **Gestion des autorisations** > **Paramètres des applications par défaut**.
+3. Ouvrir **Navigateur**.
+4. Choisir un navigateur autre que Vivo Browser.
+{% endtab %}
+
+{% tab title="Oppo" %}
+**ColorOS 11 et versions ultérieures**
+
+1. Ouvrir **Paramètres** > **Gestion des applications**.
+2. Appuyer sur **Applications par défaut** > **Navigateur par défaut**.
+3. Choisir le navigateur voulu.
+{% endtab %}
+
+{% tab title="iPhone / iPad" %}
+**iOS / iPadOS 18.2 et versions ultérieures**
+
+1. Ouvrir **Réglages** > **Apps**.
+2. Appuyer sur **Apps par défaut**.
+3. Appuyer sur **Navigateur**.
+4. Choisir une autre application que Safari.
+
+**iOS / iPadOS 14 à 17**
+
+1. Ouvrir **Réglages**.
+2. Descendre jusqu'à l'application du navigateur voulu (Chrome, Firefox, etc.).
+3. Appuyer sur **Application de navigateur par défaut**.
+4. Sélectionner ce navigateur.
+
+{% hint style="info" %}
+Un navigateur n'apparaît dans la liste que s'il remplit les conditions d'Apple et dispose de l'autorisation « navigateur par défaut ». Dans l'Union européenne, un écran de choix du navigateur est aussi proposé au premier lancement.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+***
+
 ## Réseaux Sociaux
 
 ### Contexte
