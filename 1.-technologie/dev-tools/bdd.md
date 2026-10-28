@@ -201,28 +201,28 @@ sudo systemctl enable mongod.service # Active le service
 
 **S3cmd** est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le **protocole S3**, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
 
-### Installation
-
 ```bash
-sudo dnf install s3cmd 
-```
-
-### **Configuration**
-
-```bash
-s3cmd --configure 
-```
-
-### **Commandes**
-
-```bash
+sudo dnf install s3cmd # Installation
+s3cmd --configure      # Configuration
 s3cmd ls                                 # List All S3 Bucket
-s3cmd mb s3://sirchamallow               # Creating New Bucket
-s3cmd put file.txt s3://sirchamallow     # Uploading file in Bucket
-s3cmd put -r backup s3://sirchamallow    # Uploading Directory in Bucket   # 
-s3cmd ls s3://sirchamallow               # List Data of S3 Bucket
-s3cmd get s3://sirchamallow              # Download Files from Bucket
+s3cmd mb s3://username               # Creating New Bucket
+s3cmd put file.txt s3://username     # Uploading file in Bucket
+s3cmd put -r backup s3://username    # Uploading Directory in Bucket   # 
+s3cmd ls s3://username # List Data of S3 Bucket
+s3cmd get s3://username              # Download Files from Bucket
 s3cmd del s3://tecadmin/file.txt         # Delete file from s3 bucket
 s3cmd del s3://tecadmin/backup           # Delete directory from s3 bucket
-s3cmd rb s3://sirchamallowc              # Rmove S3 Bucket
+s3cmd rb s3://username              # Rmove S3 Bucket
+
+
+
+
 ```
+
+***
+
+## Portabase
+
+{% embed url="https://portabase.io" %}
+
+Portabase, un outil de sauvegarde et de restauration de base de données pour PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis et Docker.
