@@ -14,7 +14,7 @@ sudo systemctl start redis	 	# Initialize redis server
 sudo systemctl enable redis 	# To start redis on boot, run
 ```
 
-#### Interface graphique pour Redis
+### Interface graphique
 
 {% embed url="https://redis.com/fr/redis-enterprise/redisinsight/" %}
 
@@ -41,9 +41,10 @@ sudo systemctl enable postgresql-15
 sudo systemctl start postgresql-15
 ```
 
-### Raccourcis utiles (cheatsheet)
+### Raccourcis utiles
 
 ```bash
+# Cheatsheet
 \q    # Quitter la base de donnée
 \duf+ # Liste des utilisateurs & leurs droits
 \?    # Voir toutes les commandes posgres
@@ -78,11 +79,8 @@ mysql --version                         # Vérifier la version de MySQL
 sudo systemctl start mysqld    # Démarrre le service
 sudo systemctl enable mysqld   # Active le service
 sudo systemctl restart mysqld  # Redémarrer le service
-
-# Configurer MySQL avant la première utilisation
-sudo mysql_secure_installation
-# Utiliser MySQL
-sudo mysql -u root -p
+sudo mysql_secure_installation # Configurer MySQL avant la première utilisation
+sudo mysql -u root -p          # Utiliser MySQL
 ```
 
 ***
@@ -108,7 +106,6 @@ mongo --version # Vérifier la version de MongoDB
 sudo systemctl start mongod.service  # Démarrre le service
 sudo systemctl enable mongod.service # Active le service
 sudo systemctl status mongod.service  # Vérifier l'état du service
-
 ```
 
 ***
@@ -140,3 +137,19 @@ s3cmd rb s3://username               # Rmove S3 Bucket
 {% embed url="https://portabase.io" %}
 
 Portabase, un **outil de sauvegarde et de restauration de base de données** pour PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis et Docker. La plateforme permet d'automatiser la sauvegarde et la restauration de bases de données depuis une interface centralisée.
+
+***
+
+## StackRender
+
+{% embed url="https://stackrender.io/" %}
+
+Un outil gratuit et open-source pour rendre l'évolution des schémas visuelle et simplifier les migrations SQL. Il prend actuellement en charge PostgreSQL, MySQL, MariaDB, SQLite, Oracle et Microsoft SQL Server.
+
+***
+
+## VisualLeaf
+
+{% embed url="https://visualeaf.com/" %}
+
+Un client open-source de gestion et d'exploration de données multiplateforme (disponible sur Windows, macOS et Linux). Conçu comme un espace de travail visuel unifié (_Visual Workspace_), cet outil permet de manipuler, de requêter et de visualiser simultanément des bases de données relationnelles (**SQL**) et non relationnelles (**NoSQL/Document**), éliminant ainsi le besoin de multiplier les logiciels spécialisés.
