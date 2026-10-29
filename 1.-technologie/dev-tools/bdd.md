@@ -6,15 +6,11 @@ icon: database
 
 ## Redis
 
-#### Installation
-
 ```bash
 sudo dnf install redis     		# Install redis cli and server
 sudo systemctl start redis	 	# Initialize redis server
-sudo systemctl enable redis 	        # To start redis on boot, run
+sudo systemctl enable redis 	# To start redis on boot, run
 ```
-
-{% embed url="https://developer.fedoraproject.org/tech/database/redis/about.html" %}
 
 #### Interface graphique pour Redis
 
@@ -26,7 +22,7 @@ sudo systemctl enable redis 	        # To start redis on boot, run
 
 ## PostgreSQL
 
-#### Installation
+{% embed url="https://www.postgresql.org/download/linux/redhat/" %}
 
 ```bash
 # Install the repository RPM:
@@ -41,8 +37,6 @@ sudo systemctl enable postgresql-15
 sudo systemctl start postgresql-15
 ```
 
-{% embed url="https://www.postgresql.org/download/linux/redhat/" %}
-
 ### Raccourcis utiles (cheatsheet)
 
 ```bash
@@ -55,168 +49,82 @@ sudo systemctl start postgresql-15
 SELECT version(); # Identifier la version de postgres installer
 ```
 
-#### Désinstallation
-
-Vous pouvez utilisez la commande DNF suivante pour désinstaller PostgreSQL depuis une distribution Fedora
-
-```bash
-sudo dnf remove postgresql
-```
-
-Vous pouvez utiliser un opérateur (\*) afin de supprimer tous les paquets dont le nom commence par postgres en utilisant la commande suivante :
-
-```bash
-sudo dnf remove postgres\*
-```
-
-{% embed url="https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757" %}
-
 ### PG-CLI
+
+{% embed url="https://www.pgcli.com/install" %}
 
 ```bash
 sudo yum install python-pip
 sudo pip install pgcli
 ```
 
-{% embed url="https://www.pgcli.com/install" %}
-
 ***
 
 ## MySQL
 
-{% embed url="https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/" %}
-
-### **Installation**
-
-Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
+{% embed url="https://www.mysql.com/fr/" %}
 
 ```bash
-sudo dnf upgrade --refresh -y
-```
+sudo dnf install community-mysql-server # Installer MySQL sur Fedora (Linux)
+mysql --version                         # Vérifier la version de MySQL
 
-#### Installer MySQL
-
-```bash
-sudo dnf install community-mysql-server
-```
-
-### Vérifier la version
-
-```bash
-mysql --version
-```
-
-{% hint style="success" %}
-Si le message affiche `v8.0` ou autres version, vous pouvez continuer
-{% endhint %}
-
-### Commandes
-
-```bash
+# Commandes
 sudo systemctl start mysqld    # Démarrre le service
 sudo systemctl enable mysqld   # Active le service
 sudo systemctl restart mysqld  # Redémarrer le service
-```
 
-### Configurer MySQL avant la première utilisation
-
-```bash
+# Configurer MySQL avant la première utilisation
 sudo mysql_secure_installation
-```
-
-### Utiliser MySQL
-
-```bash
+# Utiliser MySQL
 sudo mysql -u root -p
-```
-
-### **Désinstallation**
-
-```bash
-sudo dnf remove community-mysql-server
 ```
 
 ***
 
 ## SQLite
 
-{% embed url="https://www.linuxcapable.com/how-to-install-sqlite-3-on-fedora-35/" %}
-
-Mettez à jour votre Fedora pour vous assurer que tous les paquets existants sont à jour
+{% embed url="https://www.sqlite.org/" %}
 
 ```bash
-sudo dnf upgrade --refresh -y
+sudo dnf install sqlite # Installer SQlite sur Fedora (Linux)
+sqlite3 --version       # Vérifier la version de SQLite 
 ```
-
-Ensuite procéder à l'installation
-
-```bash
-sudo dnf install sqlite
-```
-
-Vérifier la version de SQL Lite installer
-
-```bash
-sqlite3 --version
-```
-
-{% hint style="success" %}
-Si le message affiche `v3.36.0` ou autre version, vous pouvez continuer
-{% endhint %}
 
 ***
 
 ## MongoDB
 
-{% embed url="https://computingforgeeks.com/installing-mongodb-on-centos-fedora/?expand_article=1" %}
-
-#### **Installation**
+{% embed url="https://www.mongodb.com/fr-fr" %}
 
 ```bash
-sudo dnf -y install mongodb-org
-```
-
-#### Vérifier la version
-
-```bash
-mongo --version
-```
-
-{% hint style="success" %}
-Si le message affiche v4.4.4 ou autre version, vous pouvez continuer
-{% endhint %}
-
-#### Commandes
-
-<pre class="language-bash"><code class="lang-bash">sudo systemctl start mongod.service  # Démarrre le service
+sudo dnf -y install mongodb-org # Installer MongoDB sur Fedora (Linux)
+mongo --version # Vérifier la version de MongoDB
+sudo systemctl start mongod.service  # Démarrre le service
 sudo systemctl enable mongod.service # Active le service
-<strong>sudo systemctl status mongod.service  # Vérifier l'état du service
-</strong></code></pre>
+sudo systemctl status mongod.service  # Vérifier l'état du service
+
+```
 
 ***
 
 ## S3cmd
 
-{% embed url="https://tecadmin.net/install-s3cmd-manage-amazon-s3-buckets/" %}
+{% embed url="https://s3tools.org/s3cmd" %}
 
 **S3cmd** est un outil de ligne de commande gratuit et un client pour télécharger, récupérer et gérer des données dans Amazon S3 et d'autres fournisseurs de services de stockage cloud qui utilisent le **protocole S3**, tels que Clever Cloud ou Google Cloud Storage. L'outil est un projet open source écrit en Python disponible sous licence publique GNU v2 (GPLv2).
 
 ```bash
-sudo dnf install s3cmd # Installation
-s3cmd --configure      # Configuration
-s3cmd ls                                 # List All S3 Bucket
+sudo dnf install s3cmd               # Installation s3cmd
+s3cmd --configure                    # Configuration
+s3cmd ls                             # List All S3 Bucket
 s3cmd mb s3://username               # Creating New Bucket
 s3cmd put file.txt s3://username     # Uploading file in Bucket
-s3cmd put -r backup s3://username    # Uploading Directory in Bucket   # 
-s3cmd ls s3://username # List Data of S3 Bucket
+s3cmd put -r backup s3://username    # Uploading Directory in Bucket 
+s3cmd ls s3://username               # List Data of S3 Bucket
 s3cmd get s3://username              # Download Files from Bucket
-s3cmd del s3://tecadmin/file.txt         # Delete file from s3 bucket
-s3cmd del s3://tecadmin/backup           # Delete directory from s3 bucket
-s3cmd rb s3://username              # Rmove S3 Bucket
-
-
-
-
+s3cmd del s3://tecadmin/file.txt     # Delete file from s3 bucket
+s3cmd del s3://tecadmin/backup       # Delete directory from s3 bucket
+s3cmd rb s3://username               # Rmove S3 Bucket
 ```
 
 ***
