@@ -227,41 +227,41 @@ Reader de Flux RSS simple
 
 ### Ente AUTH (MFA)
 
-Logiciel de gestion de 2FA avec extension dans navigateurs web
-
 {% embed url="https://ente.io/auth/" %}
+
+Logiciel de gestion de 2FA avec extension dans navigateurs web
 
 ***
 
 ### Ente Photos
 
-Alternative à Google Photos
-
 {% embed url="https://ente.io/fr/download" %}
+
+Alternative à Google Photos
 
 ***
 
 ### Flameshot
 
-Logiciel de capture d'écrans
-
 {% embed url="https://flameshot.org" %}
+
+Logiciel de capture d'écrans
 
 ***
 
 ### PocketCasts
 
-Logiciel d'écoute de Podcasts (Android, iOS, Web)
-
 {% embed url="https://pocketcasts.com/" %}
+
+Logiciel d'écoute de Podcasts (Android, iOS, Web)
 
 ***
 
 ### SmoothCSV
 
-Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits administrateurs pour le lancer
-
 {% embed url="https://smoothcsv.com/fr" %}
+
+Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits administrateurs pour le lancer
 
 ***
 
@@ -283,6 +283,26 @@ Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits
 
 ### AB Dowload Manager
 
+{% embed url="https://abdownloadmanager.com/" %}
+
 Télécharger facilement des fichiers. Mettre en pause, accéler le téléchargement etc.
 
-{% embed url="https://abdownloadmanager.com/" %}
+***
+
+## Scrcpy
+
+{% embed url="https://github.com/Genymobile/scrcpy" %}
+
+Développé par la société française Genymobile, screen copy est un logiciel gratuit et open-source qui permet d’afficher et de contrôler un smartphone Android directement depuis un ordinateur Windows, Linux ou macOS.
+
+```md
+# Raccourcis utiles
+
+clic gauche             # Interaction classique avec l’écran
+clic droit              # Retour arrière
+molette de la souris    # Défilement
+Alt + F                 # Plein écran
+Alt + ←                 # Retour arrière
+Alt + ↑                 # Accueil Android
+Alt + P                 # Allumer ou éteindre l’écran du smartphone
+```
