@@ -6,6 +6,8 @@ icon: database
 
 ## Redis
 
+{% embed url="https://redis.com/fr/" %}
+
 ```bash
 sudo dnf install redis     		# Install redis cli and server
 sudo systemctl start redis	 	# Initialize redis server
@@ -14,9 +16,11 @@ sudo systemctl enable redis 	# To start redis on boot, run
 
 #### Interface graphique pour Redis
 
-* RedisInsight : [https://redis.com/fr/redis-enterprise/redisinsight/](https://redis.com/fr/redis-enterprise/redisinsight/)
-* Redis-commander : [https://github.com/joeferner/redis-commander](https://github.com/joeferner/redis-commander)
-* Redis-UI : [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+{% embed url="https://redis.com/fr/redis-enterprise/redisinsight/" %}
+
+{% embed url="https://github.com/joeferner/redis-commander" %}
+
+{% embed url="https://github.com/patrikx3/redis-ui" %}
 
 ***
 
@@ -51,11 +55,13 @@ SELECT version(); # Identifier la version de postgres installer
 
 ### PG-CLI
 
-{% embed url="https://www.pgcli.com/install" %}
+{% embed url="https://www.pgcli.com/" %}
+
+Pgcli est une interface en ligne de commande pour Postgres dotée d'une fonction d'auto-complétion et de mise en évidence de la syntaxe (highlighting)
 
 ```bash
-sudo yum install python-pip
-sudo pip install pgcli
+sudo yum install python-pip # Pré-requis : installer Python et PIP
+sudo pip install pgcli      # Installer PGCLI
 ```
 
 ***
@@ -133,4 +139,4 @@ s3cmd rb s3://username               # Rmove S3 Bucket
 
 {% embed url="https://portabase.io" %}
 
-Portabase, un outil de sauvegarde et de restauration de base de données pour PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis et Docker.
+Portabase, un **outil de sauvegarde et de restauration de base de données** pour PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis et Docker. La plateforme permet d'automatiser la sauvegarde et la restauration de bases de données depuis une interface centralisée.

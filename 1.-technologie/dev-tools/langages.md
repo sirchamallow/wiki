@@ -185,8 +185,6 @@ Alternative : [https://github.com/rails/rails#getting-started](https://github.co
 
 <figure><img src="../../.gitbook/assets/Google-flutter-logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
-#### Installation
-
 ```bash
 sudo snap install flutter --classic	# Install Flutter using SnapStore
 flutter sdk-path			# Display your Flutter SDK path
