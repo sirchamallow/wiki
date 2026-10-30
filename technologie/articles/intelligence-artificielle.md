@@ -91,6 +91,12 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://huggingface.co/kyutai" %}
 
+{% embed url="https://gradium.ai/" %}
+
+{% embed url="https://www.gladia.io/" %}
+
+{% embed url="https://wisprflow.ai/" %}
+
 ***
 
 ## Reverse Engineering
