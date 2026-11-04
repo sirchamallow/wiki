@@ -106,17 +106,29 @@ sudo systemctl enable rabbitmq-server
 <strong>systemctl status  rabbitmq-server
 </strong></code></pre>
 
-{% embed url="https://computingforgeeks.com/installing-rabbitmq-on-centos-fedora/" %}
+***
+
+## HTTP Observatory (MDN)
+
+{% embed url="https://developer.mozilla.org/fr/observatory" %}
+
+Développé par Mozilla, HTTP Observatory effectue une évaluation approfondie des en-têtes HTTP d'un site et d'autres configurations de sécurité clés.
+
+Son processus d'analyse automatisé fournit aux développeur·euse·s et aux administrateur·ice·s de sites web des commentaires détaillés et exploitables, axés sur l'identification et la résolution des failles de sécurité potentielles.
+
+Cet outil aide les développeur·euse·s et les administrateur·ice·s de sites web à renforcer la sécurité de leurs sites contre les menaces courantes dans un environnement numérique en constante évolution.
+
+HTTP Observatory fournit des informations efficaces en matière de sécurité, guidées par l'expertise et l'engagement de Mozilla en faveur d'un Internet plus sûr et plus sécurisé, et basées sur des tendances et des directives bien établies.
 
 ***
 
-## Mozilla SSL Configuration Generator
+## TLS Configurator (ex-Mozilla SSL Configuration Generator)
 
-{% embed url="https://ssl-config.mozilla.org" %}
+{% embed url="https://configurator.tlsref.org/" %}
 
 <figure><img src="../../.gitbook/assets/Capture d’écran du 2024-01-10 17-31-03.png" alt=""><figcaption></figcaption></figure>
 
-**Mozilla SSL Configuration Generator** est un outil gratuit de la fondation Mozilla qui permet de générer des configurations SSL/TLS sécurisées pour des serveurs web.
+**TLS Configurator (anciennement connu sous le nom de Mozilla SSL Configuration Generator)** est un outil gratuit de la fondation Mozilla qui permet de générer des configurations SSL/TLS sécurisées pour des serveurs web.
 
 Le site propose trois configurations différentes, en fonction des besoins du serveur :
 
