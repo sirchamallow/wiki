@@ -9,6 +9,8 @@ icon: puzzle-piece
 
 {% embed url="https://chromewebstore.google.com/detail/bonjourr-%C2%B7-minimalist-new/dlnejlppicbjfcfcedcflplfjajinajd" %}
 
+{% embed url="https://chromewebstore.google.com/detail/better-history-manage-exp/egehpkpgpgooebopjihjmnpejnjafefi" %}
+
 {% embed url="https://chromewebstore.google.com/publisher/startpage/uc99513a65c47739f53b6107f340b3c08" %}
 
 {% embed url="https://chromewebstore.google.com/detail/markdown-sticky-notes/aiakblgmlabokilgljkglggnpflljdgp" %}
