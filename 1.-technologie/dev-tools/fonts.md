@@ -9,6 +9,8 @@ icon: square-font-awesome-stroke
 
 #### Par odre de préférence personnel
 
+{% embed url="https://github.com/tywr/Nordwand-Mono" %}
+
 {% embed url="https://github.com/microsoft/cascadia-code" %}
 
 {% embed url="https://madmalik.github.io/mononoki/" %}
