@@ -149,6 +149,7 @@
     * [SQL cheatsheet](1.-technologie/articles/sql-cheatsheet.md)
     * [Status page](technologie/articles/statuspage.md)
     * [Telecoms](technologie/articles/telecoms.md)
+    * [TLS Handshake](1.-technologie/articles/tls-handshake.md)
     * [Transfert de fichiers](1.-technologie/articles/transfert-de-fichiers.md)
     * [WiFi](technologie/articles/wifi.md)
 * [2. Veille & curation](veille/README.md)
