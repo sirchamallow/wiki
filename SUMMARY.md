@@ -147,6 +147,7 @@
     * [Media Generator](1.-technologie/articles/media-generator.md)
     * [Noms de domaine](1.-technologie/articles/noms-de-domaine/README.md)
       * [BookMyName](1.-technologie/articles/noms-de-domaine/bookmyname.md)
+    * [OSINT](1.-technologie/articles/osint.md)
     * [NTP](technologie/articles/ntp.md)
     * [PTP](1.-technologie/articles/ptp.md)
     * [Privacy - Vie Privée](technologie/articles/privacy-vie-privee.md)

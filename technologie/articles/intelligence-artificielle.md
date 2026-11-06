@@ -53,15 +53,11 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://www.perplexity.ai" %}
 
-{% embed url="https://copilot.microsoft.com" %}
-
-{% embed url="https://chatgpt.com/search" %}
-
-{% embed url="https://getliner.com" %}
-
 ***
 
 ## Modèle
+
+### Amérique du Nord
 
 {% embed url="https://claude.ai" %}
 
@@ -69,9 +65,25 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://openai.com/index/chatgpt/" %}
 
+### EMEA
+
 {% embed url="https://mistral.ai/fr/" %}
 
+### Asie
+
+[Getpack à fait un article](https://getpack.fr/blog/ia-chinoises-deepseek-qwen-europe/) qui résumé l'état de l'art sur ces modèles
+
+{% embed url="https://www.deepseek.com/" %}
+
 {% embed url="https://chat.qwenlm.ai" %}
+
+{% embed url="https://www.kimi.com/en" %}
+
+{% embed url="https://z.ai/" %}
+
+{% embed url="https://www.minimax.io/" %}
+
+{% embed url="https://mimo.xiaomi.com/" %}
 
 ***
 
@@ -103,3 +115,14 @@ Une application permettant de convertir automatiquement vos Figma en code
 
 {% embed url="https://rea.tools/" %}
 
+***
+
+### Actualités
+
+Pour s'informer, faire de la veille sur le sujet
+
+{% embed url="https://www.actuia.com" %}
+
+{% embed url="https://generationia.flint.media/t/Newsletters" %}
+
+{% embed url="https://danslesalgorithmes.net/" %}
