@@ -13,6 +13,10 @@ icon: puzzle-piece
 
 {% embed url="https://chromewebstore.google.com/detail/better-history-manage-exp/egehpkpgpgooebopjihjmnpejnjafefi" %}
 
+{% embed url="https://chromewebstore.google.com/detail/notes-%E2%80%93-quick-tab-notepad/fmoelnekfcenemolgbhjhmbiibfgihai" %}
+
+{% embed url="https://chromewebstore.google.com/detail/notebook-quick-and-simple/nggbjicdihmpiacmeelgajdjjofmfchl" %}
+
 ### Outil
 
 {% embed url="https://chromewebstore.google.com/detail/markdown-sticky-notes/aiakblgmlabokilgljkglggnpflljdgp" %}
