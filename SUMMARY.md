@@ -152,6 +152,7 @@
     * [Privacy - Vie Privée](technologie/articles/privacy-vie-privee.md)
     * [SQL cheatsheet](1.-technologie/articles/sql-cheatsheet.md)
     * [Status page](technologie/articles/statuspage.md)
+    * [SSH](1.-technologie/articles/ssh.md)
     * [Telecoms](technologie/articles/telecoms.md)
     * [TLS Handshake](1.-technologie/articles/tls-handshake.md)
     * [Transfert de fichiers](1.-technologie/articles/transfert-de-fichiers.md)
