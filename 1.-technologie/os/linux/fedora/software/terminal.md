@@ -772,3 +772,22 @@ Marre de jongler avec des tas d'outils pour travailler avec vos fichiers CSV et 
 yum install miller # Installer miller
 ```
 
+***
+
+## Rudeping
+
+{% embed url="https://github.com/rudeops/rudeping" %}
+
+> "_Quand un site rame, je veux savoir tout de suite si c'est le DNS, le réseau, le TLS ou le serveur. ping ne voit que le réseau, curl ne prend qu'une photo. rudeping envoie une requête HTTP par seconde et la découpe étape par étape, en direct. De quoi arrêter d'accuser le réseau par réflexe._"&#x20;
+>
+> **Un outil propulsé par** [**RudeOps**](https://www.rudeops.com/)
+
+***
+
+## kernwatch
+
+{% embed url="https://github.com/matthart1983/kernwatch" %}
+
+Analysez la contention du processeur, la planification, la pression sur la mémoire, les E/S par blocs et les interruptions. Quatorze vues permettent de connecter des compteurs en temps réel avec un traçage limité, des profils de pile et des rapports d'incidents.&#x20;
+
+Disponible uniquement sous Linux, sur architectures x86-64 et ARM64.
