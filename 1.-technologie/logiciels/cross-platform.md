@@ -298,3 +298,13 @@ Alt + ←                 # Retour arrière
 Alt + ↑                 # Accueil Android
 Alt + P                 # Allumer ou éteindre l’écran du smartphone
 ```
+
+***
+
+## Snitch
+
+{% embed url="https://github.com/aixisstudio/Snitch" %}
+
+**Snitch** est un visualiseur de trafic réseau en temps réel. Voyez chaque connexion que votre ordinateur établit — à qui il parle, où se trouvent les serveurs, et quelle application est responsable.\
+\
+Le principe : voir en direct chaque connexion de votre machine (destination, pays, application responsable) sur un graphe et une carte du monde, et pouvoir la bloquer. Il détecte aussi des comportements louches comme les scans de ports, le beaconing ou le tunnel DNS. Tout est local, sans compte, sans cloud, sans télémétrie. Les règles de blocage passent par le pare-feu natif de l’OS
