@@ -203,25 +203,25 @@ Logiciel de stockage chiffré & open-source
 
 ### Standard Notes
 
-Logiciel de prise de notes chiffré & open-source
+{% embed url="https://standardnotes.com/" %}
 
-{% embed url="https://github.com/standardnotes/app" %}
+Logiciel de prise de notes chiffré & open-source
 
 ***
 
 ### Trilium Notes
 
-Logiciel de prise de prise de notes open-source et hiérarchique, conçue pour créer et gérer de vastes bases de connaissances personnelles&#x20;
+{% embed url="https://triliumnotes.org/" %}
 
-{% embed url="https://github.com/TriliumNext" %}
+Logiciel de prise de prise de notes open-source et hiérarchique, conçue pour créer et gérer de vastes bases de connaissances personnelles&#x20;
 
 ***
 
 ### Feedbin
 
-Reader de Flux RSS simple
-
 {% embed url="https://feedbin.com/" %}
+
+Reader de Flux RSS simple
 
 ***
 
@@ -268,8 +268,6 @@ Un éditeur de fichier CSV multiplateformes, léger, sans avoir besoin de droits
 ### Thunderbird
 
 {% embed url="https://www.thunderbird.net/fr/" %}
-
-
 
 ***
 
