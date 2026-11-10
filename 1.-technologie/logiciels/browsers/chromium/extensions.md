@@ -27,6 +27,8 @@ icon: puzzle-piece
 
 {% embed url="https://chromewebstore.google.com/detail/csv-editor/koeokjkljpaajmbhhgohidfaofooifca" %}
 
+{% embed url="https://github.com/JamesCoyle/HistoryExtension" %}
+
 ### Moteur de Recherche
 
 {% embed url="https://chromewebstore.google.com/publisher/startpage/uc99513a65c47739f53b6107f340b3c08" %}

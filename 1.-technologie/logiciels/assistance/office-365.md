@@ -3,7 +3,11 @@ description: Trucs & Astuces
 icon: file-word
 ---
 
-# Microsoft 365
+# Office 365
+
+### Version de Microsoft Office
+
+{% embed url="https://www.malekal.com/recuperer-cle-produit-office/#Comment_trouver_la_licence_Office_en_invite_de_commandes_ou_PowerShell" %}
 
 ### Dépannage
 

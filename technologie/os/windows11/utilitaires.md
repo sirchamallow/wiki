@@ -201,3 +201,11 @@ Visualiser graphiquement l'espace disque restant
 Créer des clés USB bootable
 
 {% embed url="https://apps.microsoft.com/detail/9pc3h3v7q9ch" %}
+
+***
+
+## PjJoint
+
+{% embed url="https://pjjoint.malekal.com/" %}
+
+PjJoint permet d’héberger un rapport de diagnostic (de l'outil de microsoft Farbar Recovery Scan Tool (FRST), un journal ou un document afin de le transmettre facilement sur un forum ou à un correspondant.

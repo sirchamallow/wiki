@@ -279,3 +279,11 @@ Mole. Nettoyez les fichiers inutiles, gérez les apps, lancez la maintenance, an
 {% embed url="https://www.obdev.at/products/littlesnitch-mini/index.html" %}
 
 **Little Snitch Mini** est une application conçue pour offrir une approche plus accessible de la sécurité réseau. Contrairement au pare-feu traditionnel de macOS (qui gère principalement le trafic _entrant_), Little Snitch Mini surveille le trafic _sortant_. Il vous indique exactement quelles données vos applications envoient sur Internet, vers quels pays et vers quels serveurs. La version Mini adopte une **approche purement visuelle et non intrusive**. Elle s'intègre discrètement dans la barre des menus de votre Mac et s'appuie sur le framework d'extensions système moderne d'Apple
+
+***
+
+## Procexp-Mac&#x20;
+
+{% embed url="https://github.com/microsoft/Procexp-Mac" %}
+
+Sysinternals Process Explorer pour Mac est une implémentation native macOS de l'interface Process Explorer. Elle offre une arborescence des processus en temps réel, l'inspection des modules, des descripteurs et des threads dans le volet inférieur, des propriétés détaillées par processus, des graphiques de performance système, l'inspection de la signature de code et des équivalents macOS pour les flux de travail de Process Explorer.
