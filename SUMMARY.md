@@ -155,7 +155,7 @@
     * [SQL cheatsheet](1.-technologie/articles/sql-cheatsheet.md)
     * [Status page](technologie/articles/statuspage.md)
     * [SSH](1.-technologie/articles/ssh.md)
-    * [Serveur WEB](1.-technologie/articles/serveur-web.md)
+    * [Serveur Web](1.-technologie/articles/serveur-web.md)
     * [Telecoms](technologie/articles/telecoms.md)
     * [TLS Handshake](1.-technologie/articles/tls-handshake.md)
     * [Transfert de fichiers](1.-technologie/articles/transfert-de-fichiers.md)

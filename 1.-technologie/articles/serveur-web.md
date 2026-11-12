@@ -1,8 +1,9 @@
 ---
 description: PAGE NON FINALISEE // DRAFT
+icon: server
 ---
 
-# Serveur WEB
+# Serveur Web
 
 Dans ce comparatif, **Nginx** sert de référence, face à **Caddy**, **HAProxy**, **Apache httpd** et **Traefik**. Les cinq couvrent le reverse proxy, mais avec des philosophies très différentes : **Nginx** mise sur l’équilibre performance/polyvalence, **Caddy** sur la simplicité, **HAProxy** sur le proxy pur et le load balancing, **Apache** sur la modularité historique, et **Traefik** sur les environnements Docker/Kubernetes.
 
@@ -29,7 +30,7 @@ Certains sont réellement des **serveurs web**, tandis que d’autres sont avant
 * **Apache httpd** reste très flexible grâce à ses modules. Avec `mod_proxy` et ses extensions, il peut faire reverse proxy et load balancing, mais sa configuration est généralement plus fragmentée que celle de Caddy ou Nginx. ([httpd.apache.org](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html))
 * **Traefik** est pensé pour les environnements **dynamiques**. Il découvre automatiquement les services via des providers comme **Docker** ou **Kubernetes**, et génère son routage à partir de labels, annotations ou ressources dédiées. ([doc.traefik.io](https://doc.traefik.io/traefik/reference/install-configuration/providers/overview/))
 
-### **Raccourci pratique**
+#### **Raccourci pratique**
 
 * usage classique VPS / sites web → **Caddy**
 * forte charge / proxy pur → **HAProxy**
@@ -38,19 +39,17 @@ Certains sont réellement des **serveurs web**, tandis que d’autres sont avant
 
 ***
 
-Ces trois rôles se ressemblent parce qu'ils manipulent tous des requêtes HTTP/HTTPS, mais **la question clé est : qui produit réellement la réponse ?**
+## Différence
 
+Ces trois rôles (Serveur web, reverse proxy et load balancer) se ressemblent parce qu'ils manipulent tous des requêtes HTTP/HTTPS, mais vous vous demandez surement qui produit réellement la réponse ?
 
+### Serveur web
 
-## Serveur web, reverse proxy et load balancer : comprendre la différence
-
-Ces trois rôles se ressemblent parce qu'ils manipulent tous des requêtes HTTP/HTTPS, mais **la question clé est : qui produit réellement la réponse ?**
-
-### 1. Serveur web : « Je possède le contenu »
+« Je possède le contenu »
 
 Prenons un serveur avec Nginx et les fichiers suivants :
 
-```
+```bash
 /var/www/monsite/
 ├── index.html
 ├── style.css
@@ -59,23 +58,20 @@ Prenons un serveur avec Nginx et les fichiers suivants :
 
 Lorsque ton navigateur demande :
 
-```
+```bash
 GET https://www.monsite.fr/index.html
 ```
 
 Nginx cherche directement `index.html` sur son disque et le renvoie au navigateur.
 
-```
+```bash
 Navigateur
-    │
     │ GET /index.html
     ▼
   Nginx
-    │
     │ lit /var/www/monsite/index.html
     ▼
  Disque
-    │
     ▼
  index.html
     │
@@ -94,18 +90,13 @@ C'est particulièrement adapté aux contenus **statiques** :
 
 #### Exemple
 
-Tu demandes :
-
-```
-https://www.exemple.fr/logo.png
-```
+Tu demandes : `https://www.exemple.fr/logo.png`
 
 Nginx peut simplement répondre :
 
 ```
 HTTP/1.1 200 OK
 Content-Type: image/png
-
 [données de l'image]
 ```
 
@@ -113,58 +104,31 @@ Il n'a besoin d'aucun autre serveur.
 
 ***
 
-### 2. Reverse proxy : « Je ne possède pas forcément le contenu, je sais à qui demander »
+### Reverse proxy
 
-Supposons maintenant que tu installes **Grafana** sur un serveur.
+« Je ne possède pas forcément le contenu, je sais à qui demander »
 
-Grafana écoute localement sur :
+Supposons maintenant que tu installes **Grafana** (un outil de représentation graphique de données statistiques) sur un serveur.
 
-```
-http://127.0.0.1:3000
-```
+_Grafana_ écoute localement sur `http://127.0.0.1:3000`, mais vous ne voulez pas que les utilisateurs saisissent `http://serveur:3000`. Vous voulez plutot quelque chose `https://grafana.exemple.fr`.
 
-Mais tu ne veux pas que les utilisateurs saisissent :
-
-```
-http://serveur:3000
-```
-
-Tu veux :
-
-```
-https://grafana.exemple.fr
-```
-
-Tu places alors Nginx devant :
-
-```
-Utilisateur
-    │
-    │ https://grafana.exemple.fr
-    │ port 443
-    ▼
-  Nginx
-    │
-    │ http://127.0.0.1:3000
-    ▼
- Grafana
-```
+Nous placons alors un serveur web avec Nginx devant Grafana
 
 Cette fois :
 
-1. le navigateur contacte Nginx ;
-2. Nginx reçoit la requête ;
-3. Nginx voit qu'elle concerne `grafana.exemple.fr` ;
-4. il transmet la requête à Grafana ;
-5. Grafana génère la réponse ;
-6. Grafana répond à Nginx ;
-7. Nginx renvoie la réponse au navigateur.
+1. le navigateur contacte Nginx (toc toc toc)
+2. le serveur web Nginx reçoit la requête (allo ?)
+3. Nginx voit qu'elle concerne `grafana.exemple.fr` (ah ok c'est pour ça)
+4. il transmet la requête à Grafana (Grafana c'est pour toi !)
+5. Grafana génère la réponse (ok !)
+6. Grafana répond à Nginx (ok, je lui réponds)
+7. Nginx renvoie la réponse au navigateur. (hey coucou Grafana)
 
 Donc :
 
 ```
-Navigateur → Nginx → Grafana
-Navigateur ← Nginx ← Grafana
+Envoi     : Navigateur → Nginx → Grafana
+Réception : Navigateur ← Nginx ← Grafana
 ```
 
 **Nginx est ici le reverse proxy.**
@@ -274,7 +238,9 @@ La topologie interne peut donc évoluer sans modifier l'adresse utilisée par le
 
 ***
 
-### 3. Load balancer : « J'ai plusieurs serveurs possibles, lequel choisir ? »
+### Load balancer&#x20;
+
+« J'ai plusieurs serveurs possibles, lequel choisir ? »
 
 Le load balancer introduit une nouvelle problématique.
 
@@ -316,7 +282,7 @@ La suivante pourra aller vers WEB03.
 
 ***
 
-### 4. Comment choisit-il le serveur ?
+### Comment choisit-il le serveur ?
 
 Plusieurs algorithmes existent.
 
@@ -357,7 +323,7 @@ Cela peut être intéressant lorsque certaines requêtes durent beaucoup plus lo
 
 ***
 
-### 5. Le load balancer vérifie aussi si les serveurs fonctionnent
+### Le load balancer vérifie aussi si les serveurs fonctionnent
 
 C'est là que cela devient très intéressant pour un sysadmin.
 
@@ -387,7 +353,7 @@ Le **load balancing ne sert donc pas uniquement aux performances**. Il participe
 
 ***
 
-### 6. Reverse proxy et load balancer sont donc très proches
+### Reverse proxy et load balancer sont donc très proches
 
 C'est souvent ici que la confusion apparaît.
 
@@ -423,17 +389,9 @@ C'est pourquoi Nginx peut faire **les deux**.
 
 C'est là que les différences deviennent plus faciles à comprendre.
 
-| Logiciel         | Sa spécialité                                          |
-| ---------------- | ------------------------------------------------------ |
-| **Apache httpd** | Servir des sites Web                                   |
-| **Nginx**        | Serveur web + reverse proxy + load balancing           |
-| **Caddy**        | Serveur web + reverse proxy avec HTTPS très automatisé |
-| **HAProxy**      | Reverse proxy + load balancing                         |
-| **Traefik**      | Reverse proxy + load balancing dynamique               |
-| **Varnish**      | Reverse proxy + cache HTTP                             |
-| **Squid**        | Surtout forward proxy + cache                          |
+<table><thead><tr><th width="152">Logiciel</th><th>Sa spécialité</th></tr></thead><tbody><tr><td><strong>Apache httpd</strong></td><td>Servir des sites Web</td></tr><tr><td><strong>Nginx</strong></td><td>Serveur web + reverse proxy + load balancing</td></tr><tr><td><strong>Caddy</strong></td><td>Serveur web + reverse proxy avec HTTPS très automatisé</td></tr><tr><td><strong>HAProxy</strong></td><td>Reverse proxy + load balancing</td></tr><tr><td><strong>Traefik</strong></td><td>Reverse proxy + load balancing dynamique</td></tr><tr><td><strong>Varnish</strong></td><td>Reverse proxy + cache HTTP</td></tr><tr><td><strong>Squid</strong></td><td>Surtout forward proxy + cache</td></tr></tbody></table>
 
-Cela explique pourquoi **Nginx et Caddy sont difficiles à mettre dans une seule case**. Ils peuvent changer complètement de rôle selon leur configuration.
+Cela explique pourquoi **Nginx et Caddy sont difficiles à mettre dans une seule case** car Ils peuvent changer complètement de rôle selon leur configuration.
 
 ***
 
@@ -448,7 +406,7 @@ Imaginons une infrastructure avec :
 
 On pourrait avoir :
 
-```
+```bash
                        Internet
                            │
                        HTTPS :443
