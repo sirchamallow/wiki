@@ -166,41 +166,41 @@ Une interface graphique pour Winget
 
 ## KeyScrambler
 
-Chiffrement logiciel de vos frappes de votre clavier
-
 {% embed url="https://www.qfxsoftware.com/download.htm" %}
+
+Chiffrement logiciel de vos frappes de votre clavier
 
 ***
 
 ## Captvty
 
-Télécharger le replay d'émissions TV francophones
-
 {% embed url="https://captvty.fr/" %}
+
+Télécharger le replay d'émissions TV francophones
 
 ***
 
 ## Tweak-SSD v2
 
-Optimise votre SSD pour Windows10
-
 {% embed url="http://www.totalidea.com/products/tweak-ssd/" %}
+
+Optimise votre SSD pour Windows10
 
 ***
 
 ## WinDirStat
 
-Visualiser graphiquement l'espace disque restant
-
 {% embed url="https://apps.microsoft.com/detail/9ph1gl95p3wf" %}
+
+Visualiser graphiquement l'espace disque restant
 
 ***
 
 ## Rufus
 
-Créer des clés USB bootable
-
 {% embed url="https://apps.microsoft.com/detail/9pc3h3v7q9ch" %}
+
+Créer des clés USB bootable
 
 ***
 
@@ -209,3 +209,11 @@ Créer des clés USB bootable
 {% embed url="https://pjjoint.malekal.com/" %}
 
 PjJoint permet d’héberger un rapport de diagnostic (de l'outil de microsoft Farbar Recovery Scan Tool (FRST), un journal ou un document afin de le transmettre facilement sur un forum ou à un correspondant.
+
+***
+
+## AirPods Windows
+
+{% embed url="https://github.com/YimingZhanshen/AirPodsWindows" %}
+
+**Il s'agit d'une version dérivée (fork) et non d'AirPodsDesktop.** AirPodsWindows conserve toutes les fonctionnalités du projet original et y ajoute celles qui lui manquent : **un contrôle complet de la réduction de bruit active sous Windows** via le [pilote MagicAAP](https://magicpods.app/magicaap/) (modes de réduction du bruit, détection des conversations avec un curseur de volume, volume personnalisé, réduction des sons forts, transparence adaptative et menu de contrôle du bruit dans la barre des tâches)

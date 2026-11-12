@@ -4,26 +4,23 @@ icon: headphones-simple
 
 # Audio
 
-## BudsLink
+## Bluetooth control
 
 Contrôlez vos AirPods, Galaxy Buds et autres écouteurs Bluetooth sous Linux
 
-```bash
-flatpak install flathub io.github.maniacx.BudsLink # Installer BudsLink 
-flatpak run io.github.maniacx.BudsLink # Lancer BudsLink
-```
-
 {% embed url="https://github.com/maniacx/BudsLink" %}
 
-{% embed url="https://flathub.org/en/apps/io.github.maniacx.BudsLink" %}
+{% embed url="https://github.com/librepods-org/librepods" %}
+
+***
 
 ## GNOME Podcasts
+
+{% embed url="https://gitlab.gnome.org/World/podcasts" %}
 
 Il s'agit d'une application qui est un client de podcast pour les ordinateurs de bureau Linux, intégrant parfaitement l'interface GNOME. Cette application permet d'écouter ses podcasts préférés à partir de son ordinateur, de lire différents formats audio et de se souvenir de l'endroit où l'on s'est arrêté.\
 \
 Elle offre également la possibilité de s'abonner à des émissions via des liens RSS/Atom, iTunes et Soundcloud, et d'importer des abonnements à partir d'autres applications via des fichiers OPML
-
-{% embed url="https://gitlab.gnome.org/World/podcasts" %}
 
 #### Installation
 
@@ -45,44 +42,23 @@ Cependant, il existe des alternatives tierces telles que l'application YouTube M
 Il ne s'agit pas d'une version officiel maintenu par Google
 {% endhint %}
 
-### Installation via Snapcraft
-
-{% hint style="info" %}
-Pré-requis : **Snapd** est nécessaire
-{% endhint %}
-
-```bash
-sudo dnf install snapd
-```
-
-```bash
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install youtube-music-desktop-app
-```
-
-{% embed url="https://snapcraft.io/install/youtube-music-desktop-app/fedora" %}
-
-### Installation avec un paquet RPM
-
 {% hint style="info" %}
 Vérifier la dernière version en date sur [https://github.com/th-ch/youtube-music/releases](https://github.com/th-ch/youtube-music/releases)
 {% endhint %}
 
-#### Télécharger le fichier RPM le plus récent
-
 ```bash
+# Télécharger le fichier RPM le plus récent
 wget https://github.com/th-ch/youtube-music/releases/download/v1.18.0/youtube-music-1.18.0.x86_64.rpm
-```
 
-#### Installation du paquet
-
-```bash
+# Installation du paquet
 sudo dnf install https://github.com/th-ch/youtube-music/releases/download/v1.18.0/youtube-music-1.18.0.x86_64.rpm
 ```
 
 ***
 
 ## Foobar2000
+
+{% embed url="https://snapcraft.io/install/foobar2000/fedora" %}
 
 Foobar2000 est un lecteur audio avancé et gratuit. Le logiciel prend en charge une grande variété de formats audio, tels que MP3, MP4, AAC, Vorbis, Opus, FLAC, WavPack, WAV, AIFF, Musepack, et offre des fonctionnalités avancées telles que la lecture sans interruption, le support complet de ReplayGain, des raccourcis clavier et des effets DSP.
 
@@ -96,11 +72,11 @@ Il est toutefois possible de l'installer sur Fedora, via un portage en passant p
 
 ```bash
 sudo dnf install snapd
-```
-
-```bash
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install foobar2000
 ```
 
-{% embed url="https://snapcraft.io/install/foobar2000/fedora" %}
+***
+
+
+

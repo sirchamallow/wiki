@@ -6,24 +6,31 @@ icon: mobile-screen-button
 
 ## Fossify File Manager
 
-Une application de gestion de fichiers open-source
-
-{% embed url="https://play.google.com/store/apps/details?id=org.fossify.filemanager" %}
-
 {% embed url="https://github.com/FossifyOrg/File-Manager/tree/master" %}
 
-***
-
-## Cromite (a Bromite fork)
-
 Une application de gestion de fichiers open-source
 
-{% embed url="https://www.cromite.org/" %}
+***
+
+## Bromite
+
+{% embed url="https://github.com/bromite/bromite" %}
+
+Une navigateur internet open-source fork de Chromium (qui sert de base à Chrome)
 
 ***
 
-### Futo Keyboard (clavier)
+## Futo Keyboard (clavier)
+
+{% embed url="https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin.playstore" %}
 
 Un clavier open-source, alternative à gboard
 
-{% embed url="https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin.playstore" %}
+***
+
+## OpenPods
+
+Une application open-source pour mieux gérer vos AirPods sur Android
+
+{% embed url="https://github.com/adolfintel/OpenPods" %}
+

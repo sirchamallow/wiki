@@ -306,3 +306,12 @@ Alt + P                 # Allumer ou éteindre l’écran du smartphone
 **Snitch** est un visualiseur de trafic réseau en temps réel. Voyez chaque connexion que votre ordinateur établit — à qui il parle, où se trouvent les serveurs, et quelle application est responsable.\
 \
 Le principe : voir en direct chaque connexion de votre machine (destination, pays, application responsable) sur un graphe et une carte du monde, et pouvoir la bloquer. Il détecte aussi des comportements louches comme les scans de ports, le beaconing ou le tunnel DNS. Tout est local, sans compte, sans cloud, sans télémétrie. Les règles de blocage passent par le pare-feu natif de l’OS
+
+***
+
+## MagicPods
+
+{% embed url="https://magicpods.app/" %}
+
+Une application conçue pour offrir une expérience similaire à celle d'un iPhone ou d'un Mac lors de l'utilisation d'AirPods (ainsi que d'autres écouteurs Bluetooth comme les Beats ou Galaxy Buds) sur des ordinateurs sous Windows ou Linux
+
