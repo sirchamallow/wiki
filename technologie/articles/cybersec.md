@@ -46,21 +46,21 @@ icon: blackberry
 
 ### CERT Maritime
 
-Le CERT dédié à la communauté maritime
-
 {% embed url="https://www.m-cert.fr/" %}
+
+Le CERT dédié à la communauté maritime
 
 ### CERT Aviation France
 
-&#x20;Le CERT dédié à la communauté de l'Aviation
-
 {% embed url="https://www.cert-aviation.fr/" %}
+
+&#x20;Le CERT dédié à la communauté de l'Aviation
 
 ### CERT-IST
 
-Le CERT dédié à la communauté Industrie, Services et Tertiaire
-
 {% embed url="https://www.cert-ist.com" %}
+
+Le CERT dédié à la communauté Industrie, Services et Tertiaire
 
 ***
 
@@ -73,3 +73,15 @@ Red Flag Domains publie quotidiennement une nouvelle liste de noms de domaine, p
 {% embed url="https://github.com/toborrm9/malicious_extension_sentry" %}
 
 MalExt : une liste open source avec près de 7 000 extensions Chrome malveillantes
+
+***
+
+## CVE
+
+{% embed url="https://www.cve.org/" %}
+
+Liste des CVE par l'organisme MITRE
+
+{% embed url="https://cve.now/" %}
+
+Consulter les CVE par Flux RSS et le protocole MCP
