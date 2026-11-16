@@ -38,37 +38,35 @@ layout:
 
 ### TranslucentTB
 
-{% embed url="https://apps.microsoft.com/detail/9pf4kz2vn4w9" %}
-
 {% embed url="https://github.com/TranslucentTB/TranslucentTB" %}
+
+{% embed url="https://apps.microsoft.com/detail/9pf4kz2vn4w9" %}
 
 ***
 
 ### RoundedTB
 
-Ajoutez des marges, des coins arrondis et des segments à vos barres des tâches !
-
 {% embed url="https://roundedtb.com/" %}
 
 {% embed url="https://apps.microsoft.com/detail/9mtftxsj9m7f" %}
+
+Ajoutez des marges, des coins arrondis et des segments à vos barres des tâches !
 
 ***
 
 ## AppControl
 
-Un gestionnaire de tâches moderne
-
 {% embed url="https://www.appcontrol.com/" %}
+
+Un gestionnaire de tâches moderne
 
 ***
 
 ## Files
 
-Un gestionnaire de fichiers moderne
-
 {% embed url="https://files.community/" %}
 
-{% embed url="https://github.com/files-community/files/" %}
+Un gestionnaire de fichiers moderne
 
 ***
 
@@ -77,8 +75,6 @@ Un gestionnaire de fichiers moderne
 ### ShareX
 
 {% embed url="https://getsharex.com/" %}
-
-{% embed url="https://github.com/ShareX/ShareX" %}
 
 ### Greenshot
 
@@ -98,15 +94,15 @@ Un gestionnaire de fichiers moderne
 
 ### Display Driver Uninstaller
 
-Désinstaller proprement vos drivers de carte graphiques
-
 {% embed url="https://www.guru3d.com/download/display-driver-uninstaller-download" %}
+
+Désinstaller proprement vos drivers de carte graphiques
 
 ### GPU-Z
 
-**GPU-Z** est un utilitaire système léger conçu pour fournir des informations essentielles sur votre carte vidéo et votre processeur graphique.
-
 {% embed url="https://www.techpowerup.com/gpuz/" %}
+
+**GPU-Z** est un utilitaire système léger conçu pour fournir des informations essentielles sur votre carte vidéo et votre processeur graphique.
 
 ***
 
@@ -114,33 +110,33 @@ Désinstaller proprement vos drivers de carte graphiques
 
 ### CPU-Z
 
-**CPU-Z** est un logiciel gratuit qui collecte des informations sur certains des principaux périphériques de votre système
-
 {% embed url="https://www.cpuid.com/softwares/cpu-z.html" %}
+
+**CPU-Z** est un logiciel gratuit qui collecte des informations sur certains des principaux périphériques de votre système
 
 ***
 
 ## Multidrive
 
-Clone, sauvegarde et efface des disques gratuitement, migrez Windows vers SSD, gérez les secteurs morts, vérifiez l'intégrité en SHA256/512 etc.
-
 {% embed url="https://multidrive.io/download" %}
+
+Clone, sauvegarde et efface des disques gratuitement, migrez Windows vers SSD, gérez les secteurs morts, vérifiez l'intégrité en SHA256/512 etc.
 
 ***
 
 ## RyTuneX
 
-Un optimiseur de pointe basé sur le framework WinUI 3, conçu pour améliorer les performances des appareils Windows 10 et 11.
-
 {% embed url="https://github.com/rayenghanmi/RyTuneX" %}
+
+Un optimiseur de pointe basé sur le framework WinUI 3, conçu pour améliorer les performances des appareils Windows 10 et 11.
 
 ***
 
 ## Remove Windows AI
 
-Un outil pour supprimer toutes les fonctionnalités IA de Windows 11
-
 {% embed url="https://github.com/zoicware/RemoveWindowsAI/tree/main#how-to-use" %}
+
+Un outil pour supprimer toutes les fonctionnalités IA de Windows 11
 
 ***
 
@@ -158,9 +154,9 @@ Un outil pour supprimer toutes les fonctionnalités IA de Windows 11
 
 ## Winget-TUI
 
-Une interface graphique pour Winget
-
 {% embed url="https://github.com/shanselman/winget-tui" %}
+
+Une interface graphique pour Winget
 
 ***
 
@@ -188,7 +184,13 @@ Optimise votre SSD pour Windows10
 
 ***
 
-## WinDirStat
+## Espace Disque
+
+### TreeSize Free
+
+{% embed url="https://apps.microsoft.com/detail/xp9m26rsclnt88" %}
+
+### WinDirStat
 
 {% embed url="https://apps.microsoft.com/detail/9ph1gl95p3wf" %}
 
@@ -217,3 +219,15 @@ PjJoint permet d’héberger un rapport de diagnostic (de l'outil de microsoft F
 {% embed url="https://github.com/YimingZhanshen/AirPodsWindows" %}
 
 **Il s'agit d'une version dérivée (fork) et non d'AirPodsDesktop.** AirPodsWindows conserve toutes les fonctionnalités du projet original et y ajoute celles qui lui manquent : **un contrôle complet de la réduction de bruit active sous Windows** via le [pilote MagicAAP](https://magicpods.app/magicaap/) (modes de réduction du bruit, détection des conversations avec un curseur de volume, volume personnalisé, réduction des sons forts, transparence adaptative et menu de contrôle du bruit dans la barre des tâches)
+
+***
+
+## PortableApps
+
+Des applications qui peut se lancer sans installation et avoir besoin de droits administrateurs
+
+{% embed url="https://portableapps.com/apps/music_video/vlc_portable" %}
+
+{% embed url="https://portableapps.com/apps/utilities/treesize-free-portable" %}
+
+{% embed url="https://portableapps.com/apps/internet/firefox-developer-portable" %}

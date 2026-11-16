@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Astuces
@@ -243,14 +245,16 @@ Ouvrez Invite de commandes (admin).
 
 Exécutez les commandes suivantes une par une :
 
-_`net stop wuauserv`_\
-`net stop bits`\
-`net stop cryptsvc`\
-`ren C:\Windows\SoftwareDistribution SoftwareDistribution.old`\
-`ren C:\Windows\System32\catroot2 catroot2.old`\
-`net start wuauserv`\
-`net start bits`\
-`net start cryptsvc`
+```powershell
+net stop wuauserv
+net stop bits
+net stop cryptsvc
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+net start wuauserv
+net start bits
+net start cryptsvc
+```
 
 Ces commandes arrêtent les services liés à Windows Update, renommant les dossiers temporaires défectueux avant de redémarrer les services.
 
@@ -261,8 +265,6 @@ Ces commandes arrêtent les services liés à Windows Update, renommant les doss
 ### Windows Update
 
 Listing des mise à jour, KB etc. Possible de les télécharger manuellement à l'unité
-
-
 
 * Windows 11 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2011](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2011https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2011)
 * Windows 10 : [https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2010](https://www.catalog.update.microsoft.com/Search.aspx?q=%20Windows%2010)
