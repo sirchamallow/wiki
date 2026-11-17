@@ -31,6 +31,11 @@ layout:
 
 # Bienvenue
 
+{% hint style="warning" %}
+Update 17/11 : Le wiki est actuellement dans une phase de refonte (structure & contenu). \
+Le contenu migre parfois d'une catégorie à une autre.
+{% endhint %}
+
 ## Qui suis-je ?
 
 Je m'appelle Pierre LEMASSON, développeur web passionné par les nouvelles technologies et la veille technologique. Ce wiki est mon espace personnel où je partage mes connaissances, réflexions et découvertes dans le domaine du développement web et des technologies émergentes.
