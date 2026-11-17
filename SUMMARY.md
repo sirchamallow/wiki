@@ -20,6 +20,7 @@
       * [Multiprise parafoudre](technologie/hardware/electricite/legrand-0-494-30.md)
       * [Octopart](1.-technologie/hardware/electricite/octopart.md)
       * [Power Drain](1.-technologie/hardware/electricite/power-drain.md)
+      * [Testeurs](1.-technologie/hardware/electricite/testeurs.md)
       * [Prise connectées](1.-technologie/hardware/electricite/prise-connectees.md)
     * [Eau](1.-technologie/hardware/eau.md)
     * [High-Tech](technologie/hardware/informatique/README.md)
