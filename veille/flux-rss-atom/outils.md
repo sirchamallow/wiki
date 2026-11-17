@@ -4,6 +4,10 @@ icon: gear-complex
 
 # Outils
 
+## **Annuaire**
+
+{% embed url="https://atlasflux.saynete.com/" %}
+
 ## **Outils**
 
 Liste de différents service, permettant le mix & remix de flux rss / atom
