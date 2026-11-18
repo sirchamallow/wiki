@@ -4,14 +4,18 @@ icon: keyboard
 
 # Clavier
 
-Pour le desktop (Windows & MacOS)
+## Desktop (Windows & MacOS)
 
 {% embed url="https://www.logitech.com/fr-fr/shop/p/mx-keys-s" %}
 
-Pour la mobilité
+## Mobilité
 
 {% embed url="https://www.logitech.com/fr-fr/shop/p/mx-keys-mini.920-010482" %}
 
-Pour la bidouille & smart TV
+## Bidouille & smart TV
 
 {% embed url="https://www.logitech.com/fr-fr/shop/p/k400-plus-touchpad-keyboard.920-007145" %}
+
+## Ergonomie
+
+{% embed url="https://www.r-go-tools.fr/r-go-compact-break/" %}
