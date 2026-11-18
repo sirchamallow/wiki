@@ -791,3 +791,15 @@ yum install miller # Installer miller
 Analysez la contention du processeur, la planification, la pression sur la mémoire, les E/S par blocs et les interruptions. Quatorze vues permettent de connecter des compteurs en temps réel avec un traçage limité, des profils de pile et des rapports d'incidents.&#x20;
 
 Disponible uniquement sous Linux, sur architectures x86-64 et ARM64.
+
+***
+
+## **Logalize**
+
+{% embed url="https://github.com/deponian/logalize" %}
+
+La plupart des journaux de logs ne sont pas colorés. C'est regrettable, voire illégal :smile:. Il est temps de leur donner de la couleur ! **Logalize** est un outil de coloration syntaxique de logs, comme [colorize](https://github.com/raszi/colorize) et [ccze](https://github.com/cornet/ccze) . Mais il est plus rapide et, surtout, extensible. Fini les modèles rigides pour les journaux et les mots-clés ! Logalize est même entièrement personnalisable avec : `logalize.yaml`, vous pouvez y définir vos formats, vos modèles de mots-clés et bien plus encore.
+
+En alternative il existe aussi The Logfile Navigator
+
+{% embed url="https://lnav.org/" %}
