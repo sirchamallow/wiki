@@ -229,7 +229,7 @@ Reader de Flux RSS simple
 
 {% embed url="https://ente.io/auth/" %}
 
-Logiciel de gestion de 2FA avec extension dans navigateurs web
+Logiciel de gestion de 2FA avec extension dans navigateurs web. Il en existe pas beacoup sur ce créneau
 
 ***
 
@@ -315,3 +315,16 @@ Le principe : voir en direct chaque connexion de votre machine (destination, pay
 
 Une application conçue pour offrir une expérience similaire à celle d'un iPhone ou d'un Mac lors de l'utilisation d'AirPods (ainsi que d'autres écouteurs Bluetooth comme les Beats ou Galaxy Buds) sur des ordinateurs sous Windows ou Linux
 
+***
+
+## SingleFile
+
+{% embed url="https://www.getsinglefile.com/" %}
+
+SingleFile est une extension de navigateur qui vous permet d'enregistrer une page web entière, y compris toutes ses ressources (images, feuilles de style, polices, cadres, etc.), sous forme d'un seul fichier HTML en un seul clic.
+
+La page enregistrée est un fichier HTML standard. Elle peut être consultée hors ligne dans n'importe quel navigateur, aujourd'hui comme dans vingt ans, sans qu'il soit nécessaire d'installer d'extension. Elle reste sur votre ordinateur : aucun compte, aucun service cloud, et aucune donnée n'est envoyée.
+
+Idéal pour les chercheurs, les étudiants et les professionnels ayant besoin de copies hors ligne fiables de pages web, ou pour toute personne souhaitant conserver une trace de son contenu web préféré.
+
+SingleFile est disponible pour Chrome, Edge, Firefox et Safari. Il est gratuit et open source.
