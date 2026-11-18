@@ -1,0 +1,166 @@
+---
+description: Outils pour serveurs
+icon: server
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
+---
+
+# OPS
+
+## Netdata
+
+Si vous gérez votre petit serveur dédié et que pour vous, le suivi des performances en temps réel de celui-ci est important, sachez qu’il existe un outil de monitoring nommé **Netdata** qui permet de surveiller à la seconde près des tas de paramètres. \
+\
+L'avantage, c’est que Netdata propose des dashboard plutôt jolies 🤩
+
+#### Installation manuel
+
+```bash
+bash <(curl -Ss https://my-netdata.io/kickstart.sh) all # Download and install Netdata 
+systemctl start netdata 				# Start the Netdata service
+systemctl enable netdata 				# Now make service enable so that on boot up it start automatically
+systemctl status netdata 				# Now check the status
+firewall-cmd --permanent --add-port=19999/tcp 		# Allow Netdata default port to pass through firewall
+firewall-cmd --reload 					# Reload the firewall
+https//server-ip:19999					# Open browser and go to you server ip
+```
+
+{% hint style="info" %}
+Aide installation (video) : [https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34](https://www.linuxhelp.com/how-to-install-netdata-on-fedora-34?utm_source=gitbook\&utm_medium=iframely)
+{% endhint %}
+
+***
+
+## Ansible
+
+{% embed url="https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html#installing-ansible-on-rhel-centos-or-fedora" %}
+
+```bash
+sudo dnf install ansible         # Installer Ansible sur Fedora (Linux)
+```
+
+***
+
+## WireGuard
+
+{% embed url="https://www.wireguard.com/install/#fedora-tools" %}
+
+```bash
+sudo dnf install wireguard-tools   # Installer Wireguard sur Fedora (Linux)
+```
+
+### WireGuard Easy
+
+Le moyen le plus simple d’installer et de gérer WireGuard sur n’importe quel hôte Linux :)
+
+{% embed url="https://github.com/wg-easy/wg-easy" %}
+
+***
+
+## RabbitMQ
+
+{% embed url="https://www.rabbitmq.com/install-rpm.html#install-erlang" %}
+
+RabbitMQ utilise le protocole AMQP (Advanced Message Queuing Protocol) pour envoyer des messages en toute sécurité via des agents de messages. Un agent de messages se compose d'échanges et de files d'attente.
+
+<pre class="language-bash"><code class="lang-bash"># Add YUM repository using bash script
+curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
+
+# Update system YUM repositories
+sudo yum clean all &#x26;&#x26; sudo yum makecache -y
+
+# Install Erlang on Fedora
+sudo yum install erlang
+
+# Add RabbitMQ Yum repositor
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
+
+# The last step is the actual installation of RabbitMQ
+sudo yum install rabbitmq-server
+
+# Confirm version of RabbitMQ installed
+rpm -qi rabbitmq-server
+
+# Start RabbitMQ Service
+sudo systemctl start rabbitmq-server
+sudo systemctl enable rabbitmq-server
+# Confirm service status
+<strong>systemctl status  rabbitmq-server
+</strong></code></pre>
+
+***
+
+## HTTP Observatory (MDN)
+
+{% embed url="https://developer.mozilla.org/fr/observatory" %}
+
+Développé par Mozilla, HTTP Observatory effectue une évaluation approfondie des en-têtes HTTP d'un site et d'autres configurations de sécurité clés.
+
+Son processus d'analyse automatisé fournit aux développeur·euse·s et aux administrateur·ice·s de sites web des commentaires détaillés et exploitables, axés sur l'identification et la résolution des failles de sécurité potentielles.
+
+Cet outil aide les développeur·euse·s et les administrateur·ice·s de sites web à renforcer la sécurité de leurs sites contre les menaces courantes dans un environnement numérique en constante évolution.
+
+HTTP Observatory fournit des informations efficaces en matière de sécurité, guidées par l'expertise et l'engagement de Mozilla en faveur d'un Internet plus sûr et plus sécurisé, et basées sur des tendances et des directives bien établies.
+
+***
+
+## TLS Configurator (ex-Mozilla SSL Configuration Generator)
+
+{% embed url="https://configurator.tlsref.org/" %}
+
+<figure><img src="../../.gitbook/assets/Capture d’écran du 2024-01-10 17-31-03.png" alt=""><figcaption></figcaption></figure>
+
+**TLS Configurator (anciennement connu sous le nom de Mozilla SSL Configuration Generator)** est un outil gratuit de la fondation Mozilla qui permet de générer des configurations SSL/TLS sécurisées pour des serveurs web.
+
+Le site propose trois configurations différentes, en fonction des besoins du serveur :
+
+* **Modern** : cette configuration est recommandée pour les serveurs qui ne nécessitent pas de compatibilité avec des clients très anciens. Elle utilise les protocoles `TLS 1.3` et `TLS 1.2`, ainsi que les algorithmes de chiffrement les plus sûrs.
+* **Intermediate** : cette configuration est recommandée pour la plupart des serveurs web. Elle utilise les protocoles `TLS 1.3`, `TLS 1.2` et `TLS 1.1`, ainsi que les algorithmes de chiffrement les plus sûrs, à l'exception de certains qui ne sont pas compatibles avec tous les clients.
+* **Old** : cette configuration est recommandée uniquement pour les serveurs web qui nécessitent une compatibilité avec des clients très anciens. Elle utilise les protocoles `TLS 1.2`, `TLS 1.1` et `TLS 1.0`, ainsi que certains algorithmes de chiffrement plus anciens qui ne sont pas recommandés pour une sécurité optimale.
+
+Pour utiliser le site, il suffit de renseigner quelques informations sur le serveur, la version du logiciel, la version d'OpenSSL utilisée et les exigences en matière de compatibilité avec les clients. Le site générera alors un fichier de configuration SSL/TLS prêt à être utilisé :tada:
+
+***
+
+## Dokku
+
+{% embed url="https://dokku.com/" %}
+
+Déployer votre propre PaaS.
+
+Dokku est une plateforme PaaS (Platform as a Service) extensible et open source, fonctionnant sur un serveur unique de votre choix. Dokku permet de créer des applications à la volée à partir d'une image Docker ( `git push`) , soit via un Dockerfile, soit par détection automatique du langage grâce aux Buildpacks, puis de lancer des conteneurs basés sur cette image
+
+***
+
+## CheckMK
+
+{% embed url="https://checkmk.com" %}
+
+Checkmk est une solution de supervision (monitoring) open-source et professionnelle, conçue pour surveiller l'ensemble des composants d'une infrastructure IT : serveurs, applications, réseaux, bases de données, services cloud, containers, etc. Il permet aux équipes informatiques de détecter rapidement les anomalies, d’analyser les performances, et de garantir la disponibilité des systèmes critiques.
+
+***
+
+## ChirpStack
+
+{% embed url="https://www.chirpstack.io/" %}
+
+ChirpStack est un serveur réseau LoRaWAN open source permettant de déployer des réseaux LoRaWAN. Il offre une interface web pour la gestion des passerelles, des appareils et des locataires, ainsi que des intégrations natives avec les principaux fournisseurs de cloud, bases de données et services couramment utilisés pour la gestion des données des appareils. De plus, ChirpStack expose une API basée sur gRPC qui peut être utilisée pour intégrer ou étendre ses fonctionnalités.
+
