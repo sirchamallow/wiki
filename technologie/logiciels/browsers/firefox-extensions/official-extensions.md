@@ -26,6 +26,8 @@ layout:
 
 ## Officiels
 
+{% embed url="https://addons.mozilla.org/fr/firefox/user/4757633" %}
+
 {% code fullWidth="true" %}
 ```
 https://addons.mozilla.org/fr/firefox/addon/firefox-translations         # Firefox Translations
@@ -35,6 +37,12 @@ https://addons.mozilla.org/fr/firefox/addon/multi-account-containers     # Multi
 https://addons.mozilla.org/fr/firefox/addon/facebook-container           # Facebook Container
 https://addons.mozilla.org/fr/firefox/addon/notes-by-firefox             # Notes 
 https://addons.mozilla.org/fr/firefox/addon/regretsreporter              # Regrets Reporter 
+https://addons.mozilla.org/fr/firefox/addon/facebook-container           # Facebook Container
+https://addons.mozilla.org/fr/firefox/addon/private-relay                # Private Relay
+https://addons.mozilla.org/fr/firefox/addon/mozilla-vpn-extension        # Mozilla VPN
+https://addons.mozilla.org/fr/firefox/addon/b-itch-to-boss/              # Bitch to Boss
+https://addons.mozilla.org/fr/firefox/addon/touch-grass-by-firefox       # Touch Grass
+https://addons.mozilla.org/fr/firefox/addon/extended-color-management    # Extendend Color Management
 ```
 {% endcode %}
 

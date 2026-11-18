@@ -21,6 +21,7 @@
       * [Octopart](1.-technologie/hardware/electricite/octopart.md)
       * [Power Drain](1.-technologie/hardware/electricite/power-drain.md)
       * [Testeurs](1.-technologie/hardware/electricite/testeurs.md)
+      * [Tournevis (empreintes)](1.-technologie/hardware/electricite/tournevis-empreintes.md)
       * [Prise connectées](1.-technologie/hardware/electricite/prise-connectees.md)
     * [Eau](1.-technologie/hardware/eau.md)
     * [High-Tech](technologie/hardware/informatique/README.md)
@@ -234,3 +235,4 @@
     * [Accessoires](loisirs/mobilite/accessoires.md)
   * [Sac à dos à roulette(s)](5.-loisirs/sac-a-dos-a-roulette-s.md)
   * [Vêtements UPF50](5.-loisirs/vetements-upf50.md)
+* [100 empreintes de vis](100-empreintes-de-vis.md)
