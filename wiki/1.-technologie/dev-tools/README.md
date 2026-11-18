@@ -1,7 +1,7 @@
 ---
-description: Outils, langages etc. pour devs sous Fedora Linux
+description: Outils, langages, mais pas que pour les devs
 icon: laptop-code
 ---
 
-# DEV tools
+# DEV
 

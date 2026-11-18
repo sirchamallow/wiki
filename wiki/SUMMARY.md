@@ -2,9 +2,10 @@
 
 * [Bienvenue](README.md)
 * [1. Technologie](1.-technologie/README.md)
-  * [DEV tools](1.-technologie/dev-tools/README.md)
+  * [DEV](1.-technologie/dev-tools/README.md)
     * [Base de données](1.-technologie/dev-tools/bdd.md)
     * [Fonts / Police d'écritures](1.-technologie/dev-tools/fonts.md)
+    * [Gouvernance du WEB](1.-technologie/dev-tools/gouvernance-du-web.md)
     * [Git](1.-technologie/dev-tools/git.md)
     * [IDE](1.-technologie/dev-tools/ide/README.md)
       * [VSCode](1.-technologie/dev-tools/ide/vscode-extensions.md)
