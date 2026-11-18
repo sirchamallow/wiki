@@ -236,4 +236,3 @@
     * [Accessoires](5.-loisirs/mobilite/accessoires.md)
   * [Sac à dos à roulette(s)](5.-loisirs/sac-a-dos-a-roulette-s.md)
   * [Vêtements UPF50](5.-loisirs/vetements-upf50.md)
-* [100 empreintes de vis](100-empreintes-de-vis.md)
