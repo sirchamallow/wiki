@@ -27,11 +27,3 @@ layout:
 
 # Navigateurs Web
 
-
-
-
-
-
-
-Chromium est le navigateur web libre qui sert de base à Google Chrome et à d'autres navigateurs.
-
