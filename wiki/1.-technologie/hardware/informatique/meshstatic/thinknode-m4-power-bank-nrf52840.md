@@ -1,18 +1,8 @@
 ---
-icon: circle-nodes
+icon: square-bolt
 ---
 
-# Meshstatic
-
-## Gaulix (France)
-
-{% embed url="https://gaulix.fr/docs-parametrage/" %}
-
-Gaulix est un regroupement de passionnés autour de la création d’un réseau de communication ouvert. Cela inclue des profils très différents : du geek au radio-amateur en passant par l’électronicien, l’informaticien et le simple curieux. Ces différentes compétences se complètent afin que chacun puisse apporter sa brique dans la construction de ce maillage. Par ailleurs une association est en cours de création pour fédérer ces profils et unifier la communauté.
-
-***
-
-## ThinkNode-M4 Power Bank (nRF52840) <a href="#thinknode-m4-power-bank-lora-device-with-meshtastic-function-powered-by-nrf52840" id="thinknode-m4-power-bank-lora-device-with-meshtastic-function-powered-by-nrf52840"></a>
+# ThinkNode-M4 Power Bank (nRF52840)
 
 {% embed url="https://www.elecrow.com/thinknode-m4-power-bank-lora-device-with-meshtastic-lora-tracker-function-powered-by-nrf52840.html" %}
 
