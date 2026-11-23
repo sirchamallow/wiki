@@ -64,7 +64,7 @@ Le CERT dédié à la communauté Industrie, Services et Tertiaire
 
 ***
 
-### Ressources
+## Ressources
 
 {% embed url="https://red.flag.domains/" %}
 
@@ -76,7 +76,7 @@ MalExt : une liste open source avec près de 7 000 extensions Chrome malveillant
 
 ***
 
-## CVE
+### CVE
 
 {% embed url="https://www.cve.org/" %}
 
@@ -85,3 +85,21 @@ Liste des CVE par l'organisme MITRE
 {% embed url="https://cve.now/" %}
 
 Consulter les CVE par Flux RSS et le protocole MCP
+
+***
+
+### Hardware
+
+{% embed url="https://shop.hak5.org" %}
+
+{% embed url="https://www.theregister.com/security/2026/04/23/ncscs-first-gadget-blocks-malware-transfer-over-hdmi-cables/5225172" %}
+
+{% embed url="https://www.armis.com/research/etheroops/" %}
+
+***
+
+## Conférence
+
+{% embed url="https://blackhat.com" %}
+
+{% embed url="https://www.sstic.org/" %}
