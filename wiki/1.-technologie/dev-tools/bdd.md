@@ -148,8 +148,6 @@ Un outil gratuit et open-source pour rendre l'évolution des schémas visuelle e
 
 ***
 
-***
-
 ## Database Schema Design
 
 Trois outils open-source de design de base de données
