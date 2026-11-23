@@ -153,3 +153,17 @@ Un outil gratuit et open-source pour rendre l'évolution des schémas visuelle e
 {% embed url="https://visualeaf.com/" %}
 
 Un client open-source de gestion et d'exploration de données multiplateforme (disponible sur Windows, macOS et Linux). Conçu comme un espace de travail visuel unifié (_Visual Workspace_), cet outil permet de manipuler, de requêter et de visualiser simultanément des bases de données relationnelles (**SQL**) et non relationnelles (**NoSQL/Document**), éliminant ainsi le besoin de multiplier les logiciels spécialisés.
+
+***
+
+## Database Schema Design
+
+Deux outils open-source de design de base de données
+
+### Stack Render
+
+{% embed url="https://stackrender.io/" %}
+
+### ChartDB
+
+{% embed url="https://chartdb.io/" %}
