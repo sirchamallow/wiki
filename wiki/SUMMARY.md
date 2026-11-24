@@ -42,6 +42,7 @@
         * [🇩🇪 TUXEDO Computers](1.-technologie/hardware/informatique/pc-portable/tuxedo-computers.md)
       * [Routeur](1.-technologie/hardware/informatique/routeur.md)
       * [Souris](1.-technologie/hardware/informatique/souris.md)
+      * [Switchs PoE](1.-technologie/hardware/informatique/switchs-poe.md)
     * [Electroménager](1.-technologie/hardware/electromenager.md)
   * [Logiciels](1.-technologie/logiciels/README.md)
     * [Applications web](1.-technologie/logiciels/applications-web/README.md)
