@@ -135,6 +135,7 @@
     * [DNS](1.-technologie/articles/dns/README.md)
       * [Identifier ses DNS](1.-technologie/articles/dns/identifier-ses-dns.md)
       * [Changer ses DNS](1.-technologie/articles/dns/change-dns.md)
+      * [DNS in my kitchen](1.-technologie/articles/dns/dns-in-my-kitchen.md)
       * [Vider le cache](1.-technologie/articles/dns/vider-le-cache.md)
       * [Liste de résolveur DNS public](1.-technologie/articles/dns/public-dns-resolver.md)
       * [🇫🇷 DNS des FAI Français](1.-technologie/articles/dns/dns-provider-fr.md)
