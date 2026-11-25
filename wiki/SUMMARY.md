@@ -6,6 +6,7 @@
     * [Base de données](1.-technologie/dev-tools/bdd.md)
     * [Fonts / Police d'écritures](1.-technologie/dev-tools/fonts.md)
     * [Gouvernance du WEB](1.-technologie/dev-tools/gouvernance-du-web.md)
+    * [Lugdunum.dev](1.-technologie/dev-tools/lugdunum.dev.md)
     * [Git](1.-technologie/dev-tools/git.md)
     * [IDE](1.-technologie/dev-tools/ide/README.md)
       * [VSCode](1.-technologie/dev-tools/ide/vscode-extensions.md)
