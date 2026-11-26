@@ -103,3 +103,9 @@ Consulter les CVE par Flux RSS et le protocole MCP
 {% embed url="https://blackhat.com" %}
 
 {% embed url="https://www.sstic.org/" %}
+
+***
+
+## Podcast
+
+{% embed url="https://www.nolimitsecu.fr/" %}
