@@ -117,3 +117,23 @@ Consulter les CVE par Flux RSS et le protocole MCP
 ## Podcast
 
 {% embed url="https://www.nolimitsecu.fr/" %}
+
+***
+
+## MFA
+
+{% embed url="https://2fa.directory/fr/" %}
+
+{% embed url="https://2fawebsites.github.io/" %}
+
+***
+
+## Livres
+
+{% embed url="https://cyberstructure.fr/" %}
+
+{% embed url="https://librairie.gereso.com/livre-entreprise/anti-manuel-de-cybersecurite-amcy.html" %}
+
+{% embed url="https://librairie.gereso.com/livre-entreprise/digitalisation-et-systemes-d-information/les-fondamentaux-de-la-cybersecurite-cybe.html" %}
+
+{% embed url="https://www.dunod.com/sciences-techniques/cybersecurite-et-hygiene-numerique-au-quotidien-129-bonnes-pratiques-adopter" %}
