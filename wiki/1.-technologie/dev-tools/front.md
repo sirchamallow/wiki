@@ -5,6 +5,8 @@ icon: donut
 
 # Front
 
+{% embed url="https://tabler.io/admin-template" %}
+
 {% embed url="https://bootstrapstudio.io/" %}
 
 {% embed url="https://www.figma.com/fr-fr/" %}
