@@ -31,9 +31,12 @@ layout:
 
 # Bienvenue
 
+
+
 {% hint style="warning" %}
-Update 17/11 : Le wiki est actuellement dans une phase de refonte (structure & contenu). \
-Le contenu migre parfois d'une catégorie à une autre.
+Update 26/11 : Le wiki continue sa phase de refonte (structure & contenu).
+
+La newsletter reprendra peut-être. Je réfléchit à façon plus rapide pour écrire/publier/diffuser
 {% endhint %}
 
 ## Qui suis-je ?
