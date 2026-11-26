@@ -70,6 +70,14 @@ Le CERT dédié à la communauté Industrie, Services et Tertiaire
 
 Red Flag Domains publie quotidiennement une nouvelle liste de noms de domaine, plus ou moins longue qui vous permets d'obtenir une liste de domaines à bloquer sur vos serveurs proxys, de manière à vous protéger contre de potentielles attaques à venir
 
+{% embed url="https://vigi.domains/fr/" %}
+
+Outil de surveillance de gestion de nom de domaines (typosquatting etc.)
+
+{% embed url="https://domain-locker.com/" %}
+
+Solution open-source de gestion de nom de domaines
+
 {% embed url="https://github.com/toborrm9/malicious_extension_sentry" %}
 
 MalExt : une liste open source avec près de 7 000 extensions Chrome malveillantes
