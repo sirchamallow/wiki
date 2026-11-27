@@ -328,3 +328,12 @@ La page enregistrée est un fichier HTML standard. Elle peut être consultée ho
 Idéal pour les chercheurs, les étudiants et les professionnels ayant besoin de copies hors ligne fiables de pages web, ou pour toute personne souhaitant conserver une trace de son contenu web préféré.
 
 SingleFile est disponible pour Chrome, Edge, Firefox et Safari. Il est gratuit et open source.
+
+***
+
+## Captvty
+
+{% embed url="https://captvty.fr" %}
+
+Accédez, depuis un point unique grâce à Captvty, aux directs et à une multitude d’émissions proposées au rattrapage par différentes chaînes de télévision.
+
