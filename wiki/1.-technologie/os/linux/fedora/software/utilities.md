@@ -43,31 +43,29 @@ sudo dnf install cpu-x
 
 DUF est un utilitaire en ligne de commande qui permet d’afficher l’espace disque disponible sur Linux et Windows dans un terminal. C'est une alternative améliorée à la commande de base `df`
 
-#### Installation
-
-#### **Étape 1 : Téléchargement du paquet RPM**
+**Étape 1 : Téléchargement du paquet RPM**
 
 Ouvrez votre navigateur web et allez sur la[ page des releases de duf](https://github.com/muesli/duf) sur GitHub.
 
 Recherchez la version la plus récente de duf et téléchargez le fichier RPM correspondant à votre architecture (généralement `linux_amd64.rpm` pour les systèmes x86\_64).
 
-#### **Étape 2 : Installation du paquet**
+**Étape 2 : Installation du paquet**
 
 Ouvrez un terminal.
 
 Naviguez jusqu'au répertoire où vous avez téléchargé le fichier RPM. Par exemple, si le fichier est dans le dossier `Téléchargements`, utilisez la commande :
 
-```
-cd ~/Téléchargements
+```bash
+cd ~/Téléchargements # sudo rpm -i duf_0.6.2_linux_amd64.rpm
+sudo rpm -i duf_0.6.2_linux_amd64.rpm # Remplacez duf_0.6.2_linux_amd64.rpm par le nom exact du fichier que vous avez téléchargé.
 ```
 
 Installez le paquet RPM avec la commande suivante :
 
 ```
-sudo rpm -i duf_0.6.2_linux_amd64.rpm
 ```
 
-Remplacez `duf_0.6.2_linux_amd64.rpm` par le nom exact du fichier que vous avez téléchargé.
+
 
 **Étape 3 : Vérification de l'installation**
 
@@ -79,7 +77,7 @@ duf --version
 
 Si l'installation a réussi, vous devriez voir la version de duf installée s'afficher :)
 
-#### Utilisation de duf
+Utilisation de duf
 
 Maintenant que duf est installé, vous pouvez l'utiliser pour vérifier l'utilisation de l'espace disque
 
@@ -305,3 +303,11 @@ sudo dnf install fastfetch
 {% embed url="https://useplanify.com/" %}
 
 Un gestionnaire de tâches élégant et intégré, synchronisé avec Todoist et Nextcloud.
+
+***
+
+## Dockur/Windows
+
+{% embed url="https://github.com/dockur/windows" %}
+
+Windows dans un container Docker :)
