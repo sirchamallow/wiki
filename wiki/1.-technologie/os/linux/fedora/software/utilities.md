@@ -311,3 +311,11 @@ Un gestionnaire de tâches élégant et intégré, synchronisé avec Todoist et 
 {% embed url="https://github.com/dockur/windows" %}
 
 Windows dans un container Docker :)
+
+***
+
+## xnulinux
+
+{% embed url="https://github.com/AFK-surf/xnulinux" %}
+
+Exécutez l'espace utilisateur macOS sur Linux en y chargeant le noyau macOS. Vous pouvez lire [l'article de MacGeneration](https://www.macg.co/macos/2026/11/xnulinux-lance-macos-directement-sous-linux-sur-des-pc-nvidia-312607) pour plus d'informations
